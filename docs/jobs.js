@@ -21,7 +21,7 @@ const JOBS_DATA = [
       "hardware"
     ],
     "is_intro": false,
-    "raw_content": "Electrical Engineer - Actuators and Drives\n\n공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0bfbcb0e-ff28-49c2-9b80-1e5a55c89b82\n\n직무 개요\n휴머노이드 로봇의 actuator와 drive system을 담당하는 전기/전자 하드웨어 직무\n로봇 관절의 성능, 신뢰성, 안전성을 결정하는 모터 구동, 전력전자, 센서 인터페이스를 다루는 역할\n\n주요 업무\n- 로봇 actuator 및 motor drive 전장 설계\n- 전력회로, sensing, protection, thermal, EMC/EMI 이슈 검토\n- 모터/감속기/센서/제어기와 연동되는 drive electronics 개발\n- 하드웨어 bring-up, test, validation, failure analysis 수행\n\n요구 역량\n- 전기전자공학 기반 회로 설계 역량\n- BLDC/PMSM motor drive, inverter, gate driver, current sensing 이해\n- PCB bring-up, 계측기 기반 디버깅, 신뢰성 테스트 경험\n- 로봇 관절 또는 고전력 임베디드 시스템 경험\n\n수강생 준비 포인트\n- 삼성/HD현대의 서보 드라이버 직무와 연결해서 비교하기 좋음\n- 모터 제어 이론과 실제 power electronics 디버깅 경험을 함께 준비\n- 회로도, PCB, 계측 파형, thermal/EMI 대책을 포트폴리오에 넣으면 강함"
+    "raw_content": "Electrical Engineer - Actuators and Drives\n\n공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0bfbcb0e-ff28-49c2-9b80-1e5a55c89b82\n\n직무 개요\n휴머노이드 로봇의 actuator와 drive system을 담당하는 전기/전자 하드웨어 직무\n로봇 관절의 성능, 신뢰성, 안전성을 결정하는 모터 구동, 전력전자, 센서 인터페이스를 다루는 역할\n\n주요 업무\n- 로봇 actuator 및 motor drive 전장 설계\n- 전력회로, sensing, protection, thermal, EMC/EMI 이슈 검토\n- 모터/감속기/센서/제어기와 연동되는 drive electronics 개발\n- 하드웨어 bring-up, test, validation, failure analysis 수행\n\n요구 역량\n- 전기전자공학 기반 회로 설계 역량\n- BLDC/PMSM motor drive, inverter, gate driver, current sensing 이해\n- PCB bring-up, 계측기 기반 디버깅, 신뢰성 테스트 경험\n- 로봇 관절 또는 고전력 임베디드 시스템 경험"
   },
   {
     "id": "1x_technologies_1X_2600_Software_Engineer_-_Operating_Systems",
