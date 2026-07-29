@@ -1,0 +1,17 @@
+# Private Admin Files (Do not upload to public GitHub)
+Update_Dashboard.bat
+MANUAL.md
+build_dashboard.py
+
+# Private Raw Markdown JDs
+_기업별_/
+
+old/
+
+# Temporary & Old files (Videos, backups etc.)
+old/
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz

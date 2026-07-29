@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBO-JD: 로보틱스 & AI 채용공고 아카이브</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Marked.js for Markdown Rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <i class="fa-solid fa-robot logo-icon"></i>
+                <div class="logo-text">
+                    <h1>ROBOTICS & AI 채용공고 모음</h1>
+                    <span>ROBOTICS & AI JOB Description ARCHIVE</span>
+                </div>
+            </div>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <span class="stat-label">기업 수</span>
+                    <span class="stat-value" id="stat-companies">0</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">직무 공고 수</span>
+                    <span class="stat-value" id="stat-jds">0</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <div class="app-body">
+            <!-- Sidebar (Filters) -->
+            <aside class="app-sidebar">
+                <!-- Search Box -->
+                <div class="filter-section">
+                    <h3><i class="fa-solid fa-magnifying-glass"></i> 통합 검색</h3>
+                    <div class="search-wrapper">
+                        <input type="text" id="search-input" placeholder="회사명, 직무, 핵심 키워드 검색...">
+                        <i class="fa-solid fa-keyboard search-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Tags Filter -->
+                <div class="filter-section">
+                    <h3><i class="fa-solid fa-tags"></i> 직무 카테고리</h3>
+                    <div class="tag-cloud" id="tag-cloud">
+                        <!-- Dynamic Tags -->
+                    </div>
+                </div>
+
+                <!-- Companies Filter -->
+                <div class="filter-section">
+                    <div class="section-header">
+                        <h3><i class="fa-solid fa-building"></i> 기업 필터</h3>
+                        <button id="btn-clear-companies" class="btn-text">전체 해제</button>
+                    </div>
+                    <div class="company-list" id="company-filter-list">
+                        <!-- Dynamic Companies -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="app-content">
+                <div class="content-header">
+                    <h2 id="results-count">검색 결과: 0개 포지션</h2>
+                    <div class="sort-wrapper">
+                        <label for="sort-select">정렬 기준:</label>
+                        <select id="sort-select">
+                            <option value="company">기업명 순</option>
+                            <option value="title">직무명 순</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Cards Grid -->
+                <div class="jobs-grid" id="jobs-grid">
+                    <!-- Dynamic Job Cards -->
+                </div>
+            </main>
+
+            <!-- Details Slide-out Panel -->
+            <div class="detail-panel" id="detail-panel">
+                <div class="panel-overlay" id="panel-overlay"></div>
+                <div class="panel-content">
+                    <button class="panel-close" id="btn-close-panel">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <div class="panel-body">
+                        <div class="detail-header">
+                            <span class="detail-company" id="detail-company">COMPANY</span>
+                            <h2 class="detail-title" id="detail-title">Job Title</h2>
+                            <div class="detail-tags" id="detail-tags">
+                                <!-- Tags -->
+                            </div>
+                        </div>
+
+                        <!-- Main Markdown Content -->
+                        <div class="markdown-body" id="detail-markdown">
+                            <!-- Rendered MD -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load Data -->
+    <script src="jobs.js"></script>
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
