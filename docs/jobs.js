@@ -579,9 +579,9 @@ const JOBS_DATA = [
     "raw_content": "## 로보티즈 소개\n국내 대표 로봇 액추에이터 및 지능형 로봇 플랫폼 전문 기업\n(근무지: 서울 마곡 R&D 캠퍼스)\n\n# 주요 개발 분야\n다이내믹셀(DYNAMIXEL) 액추에이터, Physical AI, 휴머노이드, 모바일 매니퓰레이터, 로봇 핸드, 자율주행 배송로봇(개미)\n\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접 -> 2차 임원면접\n(직무에 따라 실무 면접 시 기술 과제 발표 및 과제 전형 진행)\n\n## 참고\n스마트 관절 모듈인 DYNAMIXEL(다이내믹셀) 액추에이터 글로벌 시장 점유율 독보적\nROS/ROS2 생태계 활성화 중심 기업으로, 교육용/연구용 로봇 플랫폼 인지도 및 파급력 매우 높음\n자체 개발한 배송 로봇 '개미'를 통해 실외 자율주행 로봇 상용화 선도 중"
   },
   {
-    "id": "로보티즈_로보티즈_2600_AI_로봇_데이터_Curation_엔지니어",
+    "id": "로보티즈_로보티즈_2600_AI_로봇_데이터_Curation",
     "company": "로보티즈",
-    "title": "2600_AI 로봇 데이터 Curation 엔지니어",
+    "title": "2600_AI 로봇 데이터 Curation",
     "tags": [
       "ai"
     ],
@@ -589,9 +589,9 @@ const JOBS_DATA = [
     "raw_content": "# AI 로봇 데이터 Curation 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 로봇 학습에 사용할 시연, 주행, 조작 데이터를 수집하고 품질을 관리합니다.\n- 실패 사례, 이상치, 중복 데이터를 분류하고 학습에 적합한 데이터셋으로 정제합니다.\n- 데이터 라벨링 기준, 버전 관리, 품질 지표를 설계하여 학습 파이프라인과 연결합니다.\n- 연구원 및 엔지니어와 협업하여 모델 성능 개선에 필요한 데이터 요구사항을 정의합니다.\n\n## 지원자격\n- Python 기반 데이터 처리 및 분석 경험이 필요합니다.\n- 이미지, 센서, 로봇 로그 등 비정형 데이터를 다뤄본 경험이 있으면 적합합니다.\n- ML 데이터셋 구조, 라벨링, 검수 프로세스에 대한 이해가 필요합니다.\n\n## 우대사항\n- 로봇, 자율주행, 비전 AI 데이터 구축 경험\n- MLOps, DataOps, 데이터 버전 관리 도구 활용 경험\n- ROS/ROS2 bag, 카메라, LiDAR, IMU 데이터 처리 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_HD_Map_엔지니어",
+    "id": "로보티즈_로보티즈_2600_HD_Map",
     "company": "로보티즈",
-    "title": "2600_HD Map 엔지니어",
+    "title": "2600_HD Map",
     "tags": [
       "autonomous-driving"
     ],
@@ -599,9 +599,9 @@ const JOBS_DATA = [
     "raw_content": "# HD Map 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 실내외 자율주행 로봇 운용을 위한 정밀 지도 데이터를 구축하고 관리합니다.\n- 주행 가능 영역, 차선/보행로, 장애물, POI 등 로봇 운행에 필요한 지도 요소를 정의합니다.\n- SLAM, Localization, Navigation 시스템에서 활용 가능한 지도 포맷과 갱신 절차를 설계합니다.\n- 현장 주행 데이터와 지도 데이터를 비교하여 지도 정확도와 운용 안정성을 개선합니다.\n\n## 지원자격\n- 지도 제작, 공간정보, 로봇 자율주행 중 하나 이상의 경험이 필요합니다.\n- 좌표계, 센서 캘리브레이션, 지도 데이터 구조에 대한 이해가 필요합니다.\n- Python 또는 C++ 기반 데이터 처리 경험이 있으면 적합합니다.\n\n## 우대사항\n- LiDAR/Camera 기반 Mapping 또는 SLAM 경험\n- ROS/ROS2 Navigation Stack 활용 경험\n- GIS, HD Map, 자율주행 지도 구축 프로젝트 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_로봇_주행지도_Map__엔지니어",
+    "id": "로보티즈_로보티즈_2600_로봇_주행지도_Map_",
     "company": "로보티즈",
-    "title": "2600_로봇 주행지도(Map) 엔지니어",
+    "title": "2600_로봇 주행지도(Map)",
     "tags": [
       "autonomous-driving"
     ],
@@ -629,9 +629,9 @@ const JOBS_DATA = [
     "raw_content": "# 로봇용 액추에이터 기구설계 및 감속기 개발\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 로봇 관절에 사용되는 액추에이터와 감속기 기구를 설계합니다.\n- 토크, 백래시, 효율, 내구성 요구사항을 반영하여 구동 모듈 구조를 개발합니다.\n- 시제품 제작 후 성능, 소음, 열, 수명 특성을 시험하고 개선합니다.\n- 로봇 플랫폼 적용을 고려해 소형화, 경량화, 조립성, 양산성을 검토합니다.\n\n## 지원자격\n- 기계요소설계, 동력전달장치, 정밀기구 설계 경험이 필요합니다.\n- 모터, 감속기, 베어링, 센서 일체형 구동 모듈에 대한 이해가 필요합니다.\n- CAD 기반 상세 설계와 도면화 역량이 필요합니다.\n\n## 우대사항\n- 하모닉/유성/사이클로이드 등 감속기 설계 경험\n- 로봇 액추에이터, 서보 모듈, DYNAMIXEL 관련 경험\n- 내구 시험, 성능 검증, 양산 설계 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_Sim-to-Real_연구원",
+    "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_Sim-to-Real",
     "company": "로보티즈",
-    "title": "2600_배송로봇 Manipulation Sim-to-Real 연구원",
+    "title": "2600_배송로봇 Manipulation Sim-to-Real",
     "tags": [
       "control",
       "ai"
@@ -640,9 +640,9 @@ const JOBS_DATA = [
     "raw_content": "# 배송로봇 Manipulation Sim-to-Real 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 배송로봇 매니퓰레이션 작업을 시뮬레이션에서 학습하고 실제 로봇에 적용합니다.\n- 물체 파지, 문/버튼/엘리베이터 조작 등 실제 환경 태스크를 모델링합니다.\n- 도메인 랜덤화, 센서 노이즈, 물리 파라미터 튜닝을 통해 Sim-to-Real 성능을 개선합니다.\n- 실험 데이터를 분석하여 정책, 제어기, 시뮬레이션 모델을 반복 개선합니다.\n\n## 지원자격\n- 로봇 매니퓰레이션, 강화학습, 모방학습 중 하나 이상의 경험이 필요합니다.\n- Isaac Sim/Lab, MuJoCo, PyBullet 등 물리 시뮬레이터 활용 경험이 있으면 적합합니다.\n- Python, C++, ROS/ROS2 기반 실험 구현 역량이 필요합니다.\n\n## 우대사항\n- 실제 로봇 팔 또는 모바일 매니퓰레이터 실험 경험\n- 정책 학습, reward 설계, domain randomization 경험\n- 비전/힘 센서 기반 조작 태스크 개발 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_VLA_RFM_선행연구원",
+    "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_VLA_RFM_선행",
     "company": "로보티즈",
-    "title": "2600_배송로봇 Manipulation VLA RFM 선행연구원",
+    "title": "2600_배송로봇 Manipulation VLA RFM 선행",
     "tags": [
       "control",
       "ai"
@@ -651,9 +651,9 @@ const JOBS_DATA = [
     "raw_content": "# 배송로봇 Manipulation VLA/RFM 선행연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 배송로봇의 조작 작업에 VLA, RFM 등 로봇 파운데이션 모델을 적용합니다.\n- 언어 명령, 시각 정보, 로봇 상태를 행동으로 연결하는 정책 모델을 연구합니다.\n- 데이터 수집, 사전학습, 파인튜닝, 평가 체계를 설계합니다.\n- 기존 제어/인식 시스템과 상위 AI 정책을 통합하여 실제 태스크 성공률을 높입니다.\n\n## 지원자격\n- 딥러닝, 로봇학습, 멀티모달 모델 중 하나 이상의 연구/개발 경험이 필요합니다.\n- PyTorch 기반 모델 학습과 실험 관리 경험이 필요합니다.\n- 로봇 조작 문제와 데이터 기반 정책 학습에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- VLA, RFM, imitation learning, reinforcement learning 경험\n- 로봇 데이터셋 구축 및 policy evaluation 경험\n- 실제 로봇 또는 시뮬레이터 기반 manipulation 연구 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_배송로봇_매니퓰레이터_제어_시스템_연구원",
+    "id": "로보티즈_로보티즈_2600_배송로봇_매니퓰레이터_제어_시스템",
     "company": "로보티즈",
-    "title": "2600_배송로봇 매니퓰레이터 제어 시스템 연구원",
+    "title": "2600_배송로봇 매니퓰레이터 제어 시스템",
     "tags": [
       "control"
     ],
@@ -661,9 +661,9 @@ const JOBS_DATA = [
     "raw_content": "# 배송로봇 매니퓰레이터 제어 시스템 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 배송로봇에 탑재되는 매니퓰레이터의 동역학 모델링과 제어기를 설계합니다.\n- 힘 제어, 임피던스/어드미턴스 제어 등 접촉 상황을 고려한 안전 제어를 구현합니다.\n- LiDAR, 카메라, F/T 센서 등 다중 센서 정보를 활용해 조작 안정성을 높입니다.\n- ROS2 기반 저지연 제어 루프와 상위 AI 정책 연동 구조를 개발합니다.\n\n## 지원자격\n- 로봇공학, 제어, 전자, 기계, 컴퓨터 관련 전공 또는 동등한 역량이 필요합니다.\n- 로봇 동역학/제어 이론과 ROS2 기반 개발 경험이 필요합니다.\n- C++/Python, Linux 기반 실험 및 디버깅 역량이 필요합니다.\n\n## 우대사항\n- 모바일 매니퓰레이터, 다이나믹셀, QDD 액추에이터 제어 경험\n- RTOS, CAN, EtherCAT 등 실시간/산업용 통신 경험\n- ICRA, IROS 등 로봇 분야 연구 실적 또는 실기체 적용 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_서비스_및_인프라_웹_개발자",
+    "id": "로보티즈_로보티즈_2600_서비스_및_인프라_웹",
     "company": "로보티즈",
-    "title": "2600_서비스 및 인프라 웹 개발자",
+    "title": "2600_서비스 및 인프라 웹",
     "tags": [
       "product"
     ],
@@ -671,9 +671,9 @@ const JOBS_DATA = [
     "raw_content": "# 서비스 및 인프라 웹 개발자\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 웹 기반 서비스, 관리 시스템, 사내 업무 시스템을 개발하고 운영합니다.\n- PHP, JavaScript 기반 기능 구현과 API 연동을 수행합니다.\n- 클라우드 서버, Linux 인프라, 데이터베이스 운영 환경을 관리합니다.\n- 로봇 서비스 운영에 필요한 관리자 도구와 데이터 조회 기능을 개선합니다.\n\n## 지원자격\n- PHP와 JavaScript를 활용한 웹 개발 경험이 필요합니다.\n- REST API 설계, DBMS 운영, 쿼리 최적화 경험이 필요합니다.\n- Linux 서버와 웹 서비스 배포 구조에 대한 이해가 필요합니다.\n\n## 우대사항\n- AWS 또는 클라우드 인프라 구축/운영 경험\n- ERP, 쇼핑몰, 기업용 관리 시스템 개발 경험\n- AI Agent 또는 로봇 서비스와 웹 시스템 연동 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_세미휴머노이드_필드엔지니어",
+    "id": "로보티즈_로보티즈_2600_세미휴머노이드_필드",
     "company": "로보티즈",
-    "title": "2600_세미휴머노이드 필드엔지니어",
+    "title": "2600_세미휴머노이드 필드",
     "tags": [
       "hardware"
     ],
@@ -681,9 +681,9 @@ const JOBS_DATA = [
     "raw_content": "# 세미휴머노이드 필드엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 세미휴머노이드 로봇의 현장 설치, 테스트, 유지보수 업무를 수행합니다.\n- 하드웨어 조립 상태, 센서/액추에이터 동작, 소프트웨어 설정을 점검합니다.\n- 고객 또는 실증 현장에서 발생하는 이슈를 분석하고 개발팀에 피드백합니다.\n- 로봇 운용 매뉴얼, 점검 절차, 장애 대응 프로세스를 개선합니다.\n\n## 지원자격\n- 로봇, 기계, 전자, 소프트웨어 중 하나 이상의 기본 이해가 필요합니다.\n- 현장 테스트와 문제 해결을 꼼꼼하게 수행할 수 있어야 합니다.\n- Linux, 네트워크, 간단한 스크립트 활용 경험이 있으면 적합합니다.\n\n## 우대사항\n- 로봇 필드 테스트, A/S, 기술지원 경험\n- ROS/ROS2, DYNAMIXEL, 센서/액추에이터 점검 경험\n- 고객 대응 및 현장 실증 프로젝트 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일_로봇_Perception_엔지니어__신입_경력_",
+    "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일_로봇_Perception__신입_경력_",
     "company": "로보티즈",
-    "title": "2600_실내외 자율주행 모바일 로봇 Perception 엔지니어 (신입 경력)",
+    "title": "2600_실내외 자율주행 모바일 로봇 Perception (신입 경력)",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -692,9 +692,9 @@ const JOBS_DATA = [
     "raw_content": "# 실내외 자율주행 모바일 로봇 Perception 엔지니어 (신입/경력)\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 실내외 자율주행 로봇의 객체 인식, 장애물 인식, 주행 환경 이해 기능을 개발합니다.\n- 카메라, LiDAR, IMU 등 센서 데이터를 융합하여 주행 판단에 필요한 정보를 제공합니다.\n- 딥러닝 기반 인식 모델을 학습, 평가, 최적화하고 로봇 시스템에 배포합니다.\n- 현장 주행 데이터를 분석하여 오탐, 미탐, 환경 변화 대응 성능을 개선합니다.\n\n## 지원자격\n- 컴퓨터비전, 딥러닝, 로봇 Perception 중 하나 이상의 경험이 필요합니다.\n- Python/C++ 기반 모델 개발 및 데이터 처리 경험이 필요합니다.\n- 신입은 관련 프로젝트 경험, 경력은 실서비스 또는 실기체 적용 경험이 있으면 적합합니다.\n\n## 우대사항\n- Object Detection, Segmentation, Tracking, 3D Perception 경험\n- ROS/ROS2 기반 센서 파이프라인 개발 경험\n- TensorRT, ONNX 등 모델 최적화 및 온디바이스 배포 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일로봇_Perception_엔지니어",
+    "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일로봇_Perception",
     "company": "로보티즈",
-    "title": "2600_실내외 자율주행 모바일로봇 Perception 엔지니어",
+    "title": "2600_실내외 자율주행 모바일로봇 Perception",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -714,9 +714,9 @@ const JOBS_DATA = [
     "raw_content": "# 자율주행로봇 시스템 Backend 개발\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 자율주행 로봇 관제, 운영, 데이터 수집을 위한 백엔드 시스템을 개발합니다.\n- 로봇 상태, 주행 로그, 미션, 지도, 사용자 요청을 처리하는 API를 설계합니다.\n- 로봇과 서버 간 통신 안정성, 장애 대응, 데이터 저장 구조를 개선합니다.\n- 운영자 도구와 서비스 플랫폼이 사용할 수 있는 서버 기능을 제공합니다.\n\n## 지원자격\n- 백엔드 서버 개발 및 API 설계 경험이 필요합니다.\n- 데이터베이스, 메시징, 인증, 로그 처리 등 서비스 운영 기본기가 필요합니다.\n- 로봇 또는 IoT 디바이스와 연동되는 시스템 구조에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- 로봇 관제 시스템, fleet management, IoT backend 개발 경험\n- Docker, Kubernetes, 클라우드 인프라 운영 경험\n- 실시간 통신, MQTT/WebSocket/gRPC 활용 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_Localization_엔지니어",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_Localization",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 Localization 엔지니어",
+    "title": "2600_휴머노이드 Localization",
     "tags": [
       "autonomous-driving"
     ],
@@ -724,9 +724,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 Localization 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 자기 위치 추정 알고리즘을 개발합니다.\n- 카메라, IMU, LiDAR, 관절 상태 등 다양한 센서 정보를 융합합니다.\n- 보행 중 흔들림, 동적 환경, 센서 노이즈에 강건한 추정 성능을 확보합니다.\n- Navigation, Perception, Control 모듈과 위치 정보를 연동합니다.\n\n## 지원자격\n- Localization, SLAM, State Estimation 관련 경험이 필요합니다.\n- 확률 필터, 최적화, 좌표계 변환에 대한 이해가 필요합니다.\n- C++/Python, ROS/ROS2 기반 로봇 개발 경험이 있으면 적합합니다.\n\n## 우대사항\n- Visual-Inertial Odometry, LiDAR Localization, Sensor Fusion 경험\n- 휴머노이드 또는 이동 로봇 실기체 적용 경험\n- GTSAM, Ceres, Eigen 등 최적화/수치계산 라이브러리 활용 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_Navigation_엔지니어",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_Navigation",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 Navigation 엔지니어",
+    "title": "2600_휴머노이드 Navigation",
     "tags": [
       "autonomous-driving"
     ],
@@ -734,9 +734,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 Navigation 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇이 실내외 공간을 이동하기 위한 경로 계획 및 주행 판단 기능을 개발합니다.\n- 보행 제어, 장애물 회피, 위치 추정, 지도 정보를 연동한 navigation stack을 구성합니다.\n- 사람 환경에서 안전하게 이동하기 위한 local planning과 recovery 동작을 설계합니다.\n- 시뮬레이션과 실제 로봇 테스트를 통해 이동 성능과 안정성을 개선합니다.\n\n## 지원자격\n- 로봇 Navigation, Path Planning, Motion Planning 경험이 필요합니다.\n- ROS/ROS2 기반 navigation stack 이해와 개발 경험이 있으면 적합합니다.\n- C++/Python 기반 알고리즘 구현 능력이 필요합니다.\n\n## 우대사항\n- Nav2, SLAM, Localization, Costmap 튜닝 경험\n- 휴머노이드 보행 제어와 경로 계획 연동 경험\n- 동적 장애물 회피, 사람 밀집 환경 주행 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_Perception___Manipulation_엔지니어",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_Perception___Manipulation",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 Perception & Manipulation 엔지니어",
+    "title": "2600_휴머노이드 Perception & Manipulation",
     "tags": [
       "control",
       "autonomous-driving",
@@ -746,9 +746,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 Perception & Manipulation 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드가 물체와 작업 환경을 인식하고 조작할 수 있는 통합 기능을 개발합니다.\n- 객체 인식, 자세 추정, 파지점 계산, 조작 경로 생성 기능을 연결합니다.\n- 로봇 팔, 핸드, 비전 센서를 연동하여 pick-and-place와 정밀 조작 태스크를 구현합니다.\n- 실제 환경 테스트를 통해 인식-조작 연동 실패 원인을 분석하고 개선합니다.\n\n## 지원자격\n- 컴퓨터비전, 로봇 매니퓰레이션, motion planning 중 하나 이상의 경험이 필요합니다.\n- ROS/ROS2, Python/C++ 기반 로봇 시스템 개발 경험이 필요합니다.\n- 좌표계, 캘리브레이션, 센서-로봇 연동에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- 6D Pose Estimation, Visual Servoing, Grasp Planning 경험\n- MoveIt, ros2_control, 로봇 핸드/팔 연동 경험\n- 딥러닝 모델의 온디바이스 배포 및 최적화 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_강화학습_엔지니어",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_강화학습",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 강화학습 엔지니어",
+    "title": "2600_휴머노이드 강화학습",
     "tags": [
       "ai"
     ],
@@ -756,9 +756,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 강화학습 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 보행, 균형, 조작 동작을 위한 강화학습 정책을 개발합니다.\n- observation, action, reward, termination 조건을 설계하고 학습 안정성을 개선합니다.\n- 시뮬레이터 기반 대규모 학습과 실제 로봇 적용을 위한 Sim-to-Real 전략을 수립합니다.\n- 학습 결과를 제어 시스템과 통합하고 실기체 테스트로 성능을 검증합니다.\n\n## 지원자격\n- Reinforcement Learning, 로봇 제어, 물리 시뮬레이션 경험이 필요합니다.\n- PyTorch 기반 학습 코드 구현과 실험 분석 역량이 필요합니다.\n- 로봇 운동학/동역학 또는 제어 이론에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- Isaac Gym/Lab, MuJoCo, Legged Gym 등 활용 경험\n- 휴머노이드/족형 로봇 보행 정책 개발 경험\n- Domain Randomization, Policy Distillation, Sim-to-Real 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_네비게이션_연구원",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_네비게이션",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 네비게이션 연구원",
+    "title": "2600_휴머노이드 네비게이션",
     "tags": [
       "autonomous-driving"
     ],
@@ -766,9 +766,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 네비게이션 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 이동 목표 설정, 경로 계획, 장애물 회피 알고리즘을 연구합니다.\n- 보행 가능한 지형과 이동 제약을 고려한 휴머노이드 특화 navigation 기능을 개발합니다.\n- Perception, Localization, Control 모듈과 navigation 결과를 연동합니다.\n- 시뮬레이션 및 실제 환경에서 이동 실패 케이스를 분석하고 개선합니다.\n\n## 지원자격\n- 로봇 navigation, path planning, motion planning 관련 연구/개발 경험이 필요합니다.\n- ROS/ROS2 기반 시스템 통합과 C++/Python 구현 역량이 필요합니다.\n- 확률적 계획, 최적화, 그래프 탐색 알고리즘에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- 휴머노이드 또는 이동 로봇 navigation 연구 경험\n- Nav2, SLAM, Costmap, Behavior Tree 활용 경험\n- 동적 환경, 사람-로봇 공존 공간에서의 이동 계획 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_로컬라이제이션_연구원",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_로컬라이제이션",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 로컬라이제이션 연구원",
+    "title": "2600_휴머노이드 로컬라이제이션",
     "tags": [
       "autonomous-driving"
     ],
@@ -776,9 +776,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 로컬라이제이션 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 위치, 자세, 상태를 추정하는 알고리즘을 연구합니다.\n- 보행 충격과 센서 노이즈가 있는 상황에서도 안정적인 state estimation을 구현합니다.\n- 카메라, IMU, LiDAR, 관절 센서 데이터를 융합하여 위치 추정 정확도를 높입니다.\n- Navigation 및 Control 모듈과 추정 결과를 실시간으로 연동합니다.\n\n## 지원자격\n- SLAM, Localization, Sensor Fusion, State Estimation 경험이 필요합니다.\n- 수학적 모델링, 확률 필터, 최적화 기반 추정에 대한 이해가 필요합니다.\n- C++/Python, ROS/ROS2 환경에서 실험을 수행할 수 있어야 합니다.\n\n## 우대사항\n- VIO, LiDAR SLAM, factor graph 기반 추정 경험\n- 휴머노이드/족형 로봇의 동적 상태 추정 경험\n- 실기체 데이터 기반 캘리브레이션 및 디버깅 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습_엔지니어",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 모방학습 엔지니어",
+    "title": "2600_휴머노이드 모방학습",
     "tags": [
       "ai"
     ],
@@ -786,9 +786,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 모방학습 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 사람 시연 데이터나 원격조작 데이터를 활용해 휴머노이드 행동 정책을 학습합니다.\n- 데이터 수집, 정제, 행동 라벨링, policy learning 파이프라인을 구축합니다.\n- 보행, 조작, 양팔 작업 등 휴머노이드 태스크에 적합한 imitation learning 모델을 개발합니다.\n- 실제 로봇 적용 결과를 분석하여 데이터와 모델을 반복 개선합니다.\n\n## 지원자격\n- Imitation Learning, Behavior Cloning, 로봇 학습 경험이 필요합니다.\n- PyTorch 기반 모델 학습과 데이터 처리 경험이 필요합니다.\n- 로봇 제어, 센서 데이터, 시뮬레이터 중 하나 이상의 이해가 있으면 적합합니다.\n\n## 우대사항\n- Teleoperation, motion retargeting, human demonstration 데이터 활용 경험\n- Diffusion Policy, ACT, VLA 등 로봇 정책 모델 경험\n- 휴머노이드 또는 매니퓰레이터 실기체 적용 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습_연구원",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습_2",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 모방학습 연구원",
+    "title": "2600_휴머노이드 모방학습_2",
     "tags": [
       "ai"
     ],
@@ -796,9 +796,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 모방학습 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드가 사람 동작과 작업 절차를 학습할 수 있도록 모방학습 알고리즘을 연구합니다.\n- 시연 데이터 수집 방식, 데이터 품질 기준, 학습 목표를 설계합니다.\n- 행동 정책 모델을 학습하고 다양한 태스크에서 일반화 성능을 평가합니다.\n- 강화학습, VLA, teleoperation 시스템과 연계하여 성능을 개선합니다.\n\n## 지원자격\n- 로봇학습, 모방학습, 딥러닝 연구 경험이 필요합니다.\n- Python/PyTorch 기반 실험 구현과 논문 기반 알고리즘 재현 역량이 필요합니다.\n- 로봇 운동학, 제어, 센서 데이터에 대한 기본 이해가 있으면 적합합니다.\n\n## 우대사항\n- 로봇 정책 학습, diffusion policy, sequence model 경험\n- 휴머노이드/매니퓰레이터 데이터 수집 및 실험 경험\n- Sim-to-Real, Domain Adaptation, Dataset Curation 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어_엔지니어",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 시스템 소프트웨어 엔지니어",
+    "title": "2600_휴머노이드 시스템 소프트웨어",
     "tags": [
       "embedded"
     ],
@@ -806,9 +806,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 시스템 소프트웨어 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 ROS2 기반 시스템 소프트웨어를 개발합니다.\n- 센서, 액추에이터, 제어기 등 하드웨어 모듈을 소프트웨어와 연동합니다.\n- DYNAMIXEL 및 ros2_control 기반 controller, hardware interface를 개발하고 안정화합니다.\n- 실기체 환경에서 발생하는 시스템 이슈를 분석하고 성능을 개선합니다.\n\n## 지원자격\n- C++ 또는 Python 기반 개발 경험이 필요합니다.\n- ROS/ROS2, Linux 환경에서 로봇 소프트웨어를 개발한 경험이 필요합니다.\n- 로봇 하드웨어 연동, 디버깅, 로그 분석에 대한 기본 이해가 필요합니다.\n\n## 우대사항\n- DYNAMIXEL SDK, ros2_control, hardware interface 개발 경험\n- 휴머노이드, 모바일 로봇, 매니퓰레이터 시스템 통합 경험\n- 실시간 제어, 센서 드라이버, embedded Linux 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어_연구원",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어_2",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 시스템 소프트웨어 연구원",
+    "title": "2600_휴머노이드 시스템 소프트웨어_2",
     "tags": [
       "embedded"
     ],
@@ -816,9 +816,9 @@ const JOBS_DATA = [
     "raw_content": "# 휴머노이드 시스템 소프트웨어 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 시스템 아키텍처와 소프트웨어 프레임워크를 연구합니다.\n- 제어, 인식, 학습, 통신 모듈이 안정적으로 동작하는 런타임 구조를 설계합니다.\n- 로봇 상태 관리, 모듈 간 메시징, 장애 대응, 로그/모니터링 기능을 개선합니다.\n- 실험실 연구 코드가 실제 로봇에서 반복 운용될 수 있도록 시스템화합니다.\n\n## 지원자격\n- 로봇 시스템 소프트웨어, middleware, embedded Linux 경험이 필요합니다.\n- C++/Python, ROS/ROS2 기반 대규모 로봇 소프트웨어 개발 경험이 있으면 적합합니다.\n- 시스템 디버깅, 성능 분석, 안정화 역량이 필요합니다.\n\n## 우대사항\n- ROS2 middleware, DDS, real-time control loop 경험\n- 휴머노이드 또는 다관절 로봇 시스템 통합 경험\n- CI/CD, 테스트 자동화, 로봇 SW 배포 경험"
   },
   {
-    "id": "로보티즈_로보티즈_2600_휴머노이드_인지_및_조작_제어_연구원",
+    "id": "로보티즈_로보티즈_2600_휴머노이드_인지_및_조작_제어",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 인지 및 조작 제어 연구원",
+    "title": "2600_휴머노이드 인지 및 조작 제어",
     "tags": [
       "control",
       "autonomous-driving",
