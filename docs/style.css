@@ -856,10 +856,11 @@ body {
     
     .app-sidebar {
         width: 100%;
+        padding-right: 0;
     }
     
     .company-list {
-        max-height: 180px;
+        max-height: 150px;
     }
 }
 
@@ -873,18 +874,61 @@ body {
     
     .logo-area {
         justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .logo-img {
+        height: 40px;
     }
     
-    .stats-container {
-        justify-content: space-between;
+    .header-actions {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.8rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .btn-guide {
+        width: 100%;
+        height: 44px;
+        font-size: 0.85rem;
+    }
+    
+    .jobs-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0.8rem !important;
+    }
+
+    .job-card {
+        height: auto !important; /* Allow tags and text to wrap naturally without overflowing on mobile */
+        padding: 1rem !important;
     }
     
     .panel-content {
         max-width: 100%;
+        width: 100% !important;
     }
     
     .panel-body {
-        padding: 2.5rem 1.5rem;
+        padding: 2.5rem 1rem 1rem 1rem;
+    }
+
+    /* Force tables to scroll horizontally on small mobile screens */
+    #detail-markdown table {
+        display: block;
+        width: 100% !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+    }
+
+    /* Adjust margins and font sizes in detail modal for mobile */
+    .detail-title {
+        font-size: 1.4rem !important;
+        line-height: 1.4;
     }
 }
 
