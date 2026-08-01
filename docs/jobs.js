@@ -8,7 +8,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# AI Researcher - Reinforcement Learning\n\n## ## ## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/a5ad1287-e0a0-471d-9a65-cc24c62b6664\n\n## ## ## 직무 개요\n가정용 휴머노이드 NEO가 manipulation과 locomotion 작업을 수행할 수 있도록 RL policy를 학습하고 실제 로봇에 배포하는 직무\n시뮬레이션 성능이 아니라 실제 가정 환경에서 안정적으로 작동하는 field success를 중요하게 봄\n\n## 주요 업무\n- Manipulation/locomotion task용 RL policy 학습 및 배포\n- Sim-to-real gap을 줄이는 training, randomization, evaluation pipeline 구축\n- 표준 benchmark와 자동 regression detection 기반의 policy iteration 속도 개선\n- Hardware, controls, data collection, QA 팀과 협업하여 production skill로 전달\n\n## 요구 역량\n- Python 또는 C++와 대규모 코드베이스 경험\n- PyTorch 기반 RL policy 학습 경험\n- Isaac Sim, MuJoCo 등 시뮬레이션 플랫폼 활용 경험\n- 실제 하드웨어에서 manipulation 또는 locomotion policy를 훈련/전이한 경험\n- PPO, SAC, TD-MPC 등 RL 알고리즘 이해"
+    "raw_content": "# AI Researcher - Reinforcement Learning\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/a5ad1287-e0a0-471d-9a65-cc24c62b6664\n\n## 직무 개요\n가정용 휴머노이드 NEO가 manipulation과 locomotion 작업을 수행할 수 있도록 RL policy를 학습하고 실제 로봇에 배포하는 직무\n시뮬레이션 성능이 아니라 실제 가정 환경에서 안정적으로 작동하는 field success를 중요하게 봄\n\n## 주요 업무\n- Manipulation/locomotion task용 RL policy 학습 및 배포\n- Sim-to-real gap을 줄이는 training, randomization, evaluation pipeline 구축\n- 표준 benchmark와 자동 regression detection 기반의 policy iteration 속도 개선\n- Hardware, controls, data collection, QA 팀과 협업하여 production skill로 전달\n\n## 요구 역량\n- Python 또는 C++와 대규모 코드베이스 경험\n- PyTorch 기반 RL policy 학습 경험\n- Isaac Sim, MuJoCo 등 시뮬레이션 플랫폼 활용 경험\n- 실제 하드웨어에서 manipulation 또는 locomotion policy를 훈련/전이한 경험\n- PPO, SAC, TD-MPC 등 RL 알고리즘 이해"
   },
   {
     "id": "1x_technologies_1X_2600_Electrical_Engineer_-_Actuators_and_Drives",
@@ -21,7 +21,7 @@ const JOBS_DATA = [
       "hardware"
     ],
     "is_intro": false,
-    "raw_content": "Electrical Engineer - Actuators and Drives\n\n## ## ## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0bfbcb0e-ff28-49c2-9b80-1e5a55c89b82\n\n## ## ## 직무 개요\n휴머노이드 로봇의 actuator와 drive system을 담당하는 전기/전자 하드웨어 직무\n로봇 관절의 성능, 신뢰성, 안전성을 결정하는 모터 구동, 전력전자, 센서 인터페이스를 다루는 역할\n\n주요 업무\n- 로봇 actuator 및 motor drive 전장 설계\n- 전력회로, sensing, protection, thermal, EMC/EMI 이슈 검토\n- 모터/감속기/센서/제어기와 연동되는 drive electronics 개발\n- 하드웨어 bring-up, test, validation, failure analysis 수행\n\n요구 역량\n- 전기전자공학 기반 회로 설계 역량\n- BLDC/PMSM motor drive, inverter, gate driver, current sensing 이해\n- PCB bring-up, 계측기 기반 디버깅, 신뢰성 테스트 경험\n- 로봇 관절 또는 고전력 임베디드 시스템 경험"
+    "raw_content": "Electrical Engineer - Actuators and Drives\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0bfbcb0e-ff28-49c2-9b80-1e5a55c89b82\n\n## 직무 개요\n휴머노이드 로봇의 actuator와 drive system을 담당하는 전기/전자 하드웨어 직무\n로봇 관절의 성능, 신뢰성, 안전성을 결정하는 모터 구동, 전력전자, 센서 인터페이스를 다루는 역할\n\n주요 업무\n- 로봇 actuator 및 motor drive 전장 설계\n- 전력회로, sensing, protection, thermal, EMC/EMI 이슈 검토\n- 모터/감속기/센서/제어기와 연동되는 drive electronics 개발\n- 하드웨어 bring-up, test, validation, failure analysis 수행\n\n요구 역량\n- 전기전자공학 기반 회로 설계 역량\n- BLDC/PMSM motor drive, inverter, gate driver, current sensing 이해\n- PCB bring-up, 계측기 기반 디버깅, 신뢰성 테스트 경험\n- 로봇 관절 또는 고전력 임베디드 시스템 경험"
   },
   {
     "id": "1x_technologies_1X_2600_Software_Engineer_-_Operating_Systems",
@@ -31,7 +31,7 @@ const JOBS_DATA = [
       "embedded"
     ],
     "is_intro": false,
-    "raw_content": "# Software Engineer - Operating Systems\n\n## ## ## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/a9c41bfd-5b06-4fb4-ae4e-50d82c3dbf7a\n\n## ## ## 직무 개요\n휴머노이드 NEO의 로봇 운영체제/시스템 소프트웨어 계층을 개발하는 직무\n상위 AI와 로봇 하드웨어가 안정적으로 연결되도록 runtime, system service, deployment infrastructure를 다루는 역할로 해석할 수 있음\n\n## 주요 업무\n- 로봇의 core runtime 및 operating system layer 개발\n- 센서/액추에이터/AI 모듈이 안정적으로 통신하도록 시스템 SW 설계\n- 로봇 현장 배포를 위한 update, monitoring, debugging infrastructure 개선\n- 성능, 안정성, 관측성, fault recovery를 고려한 low-level software 구현\n\n## 요구 역량\n- C++/Python 기반 시스템 소프트웨어 개발 역량\n- Linux, process/thread, networking, device interface, build/deployment 이해\n- 로봇 또는 임베디드 시스템에서 reliability를 높인 경험\n- 대규모 코드베이스에서 테스트 가능한 SW를 작성한 경험"
+    "raw_content": "# Software Engineer - Operating Systems\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/a9c41bfd-5b06-4fb4-ae4e-50d82c3dbf7a\n\n## 직무 개요\n휴머노이드 NEO의 로봇 운영체제/시스템 소프트웨어 계층을 개발하는 직무\n상위 AI와 로봇 하드웨어가 안정적으로 연결되도록 runtime, system service, deployment infrastructure를 다루는 역할로 해석할 수 있음\n\n## 주요 업무\n- 로봇의 core runtime 및 operating system layer 개발\n- 센서/액추에이터/AI 모듈이 안정적으로 통신하도록 시스템 SW 설계\n- 로봇 현장 배포를 위한 update, monitoring, debugging infrastructure 개선\n- 성능, 안정성, 관측성, fault recovery를 고려한 low-level software 구현\n\n## 요구 역량\n- C++/Python 기반 시스템 소프트웨어 개발 역량\n- Linux, process/thread, networking, device interface, build/deployment 이해\n- 로봇 또는 임베디드 시스템에서 reliability를 높인 경험\n- 대규모 코드베이스에서 테스트 가능한 SW를 작성한 경험"
   },
   {
     "id": "1x_technologies_1X_2600_Software_Engineer_-_Simulation",
@@ -42,7 +42,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Software Engineer - Simulation\n\n## ## ## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/bd7452e9-1f5a-4e49-b468-2ad98c20e2c3\n\n## ## ## 직무 개요\n휴머노이드 로봇의 AI 학습, 정책 평가, 시스템 검증을 위한 simulation software를 개발하는 직무\n로봇 AI 조직에 속한 simulation 공고로, 단순 3D 렌더링보다 학습/평가/배포 pipeline과 연결되는 시뮬레이션 역할이 중요\n\n## 주요 업무\n- 로봇 학습과 검증을 위한 시뮬레이션 환경 구축\n- Synthetic data, policy evaluation, regression test용 simulation pipeline 개선\n- 물리 시뮬레이터와 로봇 제어/AI stack 통합\n- 실제 로봇 데이터와 시뮬레이션 결과의 차이를 줄이는 tooling 개발\n\n## 요구 역량\n- Python/C++ 기반 simulation software 개발 경험\n- Isaac Sim, MuJoCo, Gazebo, Unity/Unreal 등 물리/로봇 시뮬레이션 경험\n- Robotics, control, perception, RL 중 하나 이상과 연결된 프로젝트 경험\n- 대규모 실험을 자동화하고 결과를 분석하는 engineering 역량"
+    "raw_content": "# Software Engineer - Simulation\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/bd7452e9-1f5a-4e49-b468-2ad98c20e2c3\n\n## 직무 개요\n휴머노이드 로봇의 AI 학습, 정책 평가, 시스템 검증을 위한 simulation software를 개발하는 직무\n로봇 AI 조직에 속한 simulation 공고로, 단순 3D 렌더링보다 학습/평가/배포 pipeline과 연결되는 시뮬레이션 역할이 중요\n\n## 주요 업무\n- 로봇 학습과 검증을 위한 시뮬레이션 환경 구축\n- Synthetic data, policy evaluation, regression test용 simulation pipeline 개선\n- 물리 시뮬레이터와 로봇 제어/AI stack 통합\n- 실제 로봇 데이터와 시뮬레이션 결과의 차이를 줄이는 tooling 개발\n\n## 요구 역량\n- Python/C++ 기반 simulation software 개발 경험\n- Isaac Sim, MuJoCo, Gazebo, Unity/Unreal 등 물리/로봇 시뮬레이션 경험\n- Robotics, control, perception, RL 중 하나 이상과 연결된 프로젝트 경험\n- 대규모 실험을 자동화하고 결과를 분석하는 engineering 역량"
   },
   {
     "id": "1x_technologies_1X_2600_Tactile_Sensing_Research_Engineer",
@@ -53,7 +53,7 @@ const JOBS_DATA = [
       "hardware"
     ],
     "is_intro": false,
-    "raw_content": "# Tactile Sensing Research Engineer\n\n## ## ## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/e28952a1-8abc-489d-b213-a3011e5fe87d\n\n## ## ## 직무 개요\n휴머노이드 로봇의 손/피부/접촉 기반 조작을 위한 tactile sensing 기술을 연구개발하는 직무\n가정용 로봇이 물체를 안전하고 정밀하게 다루려면 시각뿐 아니라 접촉 정보가 중요하다는 맥락의 포지션\n\n## 주요 업무\n- 촉각 센서 하드웨어/신호처리/데이터 파이프라인 연구\n- 접촉, 압력, 미끄러짐, 물체 상태를 추정하는 sensing algorithm 개발\n- Grasping, manipulation, safety 제어와 tactile signal 통합\n- 실제 로봇 손/엔드이펙터에서 tactile sensing 성능 평가\n\n## 요구 역량\n- 센서 데이터 처리, 신호처리, ML 기반 tactile perception 경험\n- 로봇 손, gripper, contact-rich manipulation 이해\n- Python/C++ 기반 실험/분석 도구 개발 역량\n- 하드웨어와 알고리즘을 함께 다루는 연구개발 경험"
+    "raw_content": "# Tactile Sensing Research Engineer\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/e28952a1-8abc-489d-b213-a3011e5fe87d\n\n## 직무 개요\n휴머노이드 로봇의 손/피부/접촉 기반 조작을 위한 tactile sensing 기술을 연구개발하는 직무\n가정용 로봇이 물체를 안전하고 정밀하게 다루려면 시각뿐 아니라 접촉 정보가 중요하다는 맥락의 포지션\n\n## 주요 업무\n- 촉각 센서 하드웨어/신호처리/데이터 파이프라인 연구\n- 접촉, 압력, 미끄러짐, 물체 상태를 추정하는 sensing algorithm 개발\n- Grasping, manipulation, safety 제어와 tactile signal 통합\n- 실제 로봇 손/엔드이펙터에서 tactile sensing 성능 평가\n\n## 요구 역량\n- 센서 데이터 처리, 신호처리, ML 기반 tactile perception 경험\n- 로봇 손, gripper, contact-rich manipulation 이해\n- Python/C++ 기반 실험/분석 도구 개발 역량\n- 하드웨어와 알고리즘을 함께 다루는 연구개발 경험"
   },
   {
     "id": "1x_technologies_1X_2600_Test___Validation_Engineer_-_Motors_and_Actuators",
@@ -63,7 +63,7 @@ const JOBS_DATA = [
       "hardware"
     ],
     "is_intro": false,
-    "raw_content": "# Test & Validation Engineer - Motors and Actuators\n\n## ## ## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0eb854f8-97f7-43a0-8818-f138178586f8\n\n## ## ## 직무 개요\n휴머노이드 로봇의 모터와 actuator가 요구 성능과 신뢰성을 만족하는지 검증하는 테스트/검증 직무\n제품화 단계에서 로봇 관절의 수명, 성능, 안전성을 확인하는 역할\n\n## 주요 업무\n- Motor/actuator validation plan 수립 및 수행\n- 성능, 내구, 열, 진동, 부하 조건 테스트\n- 테스트 지그, 자동화 스크립트, 데이터 수집 시스템 구축\n- 고장 분석 및 설계/제조팀 feedback loop 운영\n\n## 요구 역량\n- 전기/기계/메카트로닉스 기반 테스트 엔지니어링 경험\n- 모터, 감속기, actuator, sensor, drive electronics 이해\n- Python/LabVIEW/MATLAB 등으로 테스트 자동화 및 데이터 분석 가능\n- 실험 계획, 계측, 통계적 분석, failure mode 정리 능력"
+    "raw_content": "# Test & Validation Engineer - Motors and Actuators\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0eb854f8-97f7-43a0-8818-f138178586f8\n\n## 직무 개요\n휴머노이드 로봇의 모터와 actuator가 요구 성능과 신뢰성을 만족하는지 검증하는 테스트/검증 직무\n제품화 단계에서 로봇 관절의 수명, 성능, 안전성을 확인하는 역할\n\n## 주요 업무\n- Motor/actuator validation plan 수립 및 수행\n- 성능, 내구, 열, 진동, 부하 조건 테스트\n- 테스트 지그, 자동화 스크립트, 데이터 수집 시스템 구축\n- 고장 분석 및 설계/제조팀 feedback loop 운영\n\n## 요구 역량\n- 전기/기계/메카트로닉스 기반 테스트 엔지니어링 경험\n- 모터, 감속기, actuator, sensor, drive electronics 이해\n- Python/LabVIEW/MATLAB 등으로 테스트 자동화 및 데이터 분석 가능\n- 실험 계획, 계측, 통계적 분석, failure mode 정리 능력"
   },
   {
     "id": "1x_technologies__1X_소개",
@@ -71,20 +71,7 @@ const JOBS_DATA = [
     "title": "1X 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## 1X (1X Technologies) 소개\n노르웨이와 미국에 기반을 둔 차세대 인간형 안전 로봇(Safe Humanoid) 개발 기업\n(근무지: 노르웨이 오슬로 HQ / 미국 캘리포니아주 산호세 San Jose)\n\n## 주요 개발 분야\n가정 및 상업용 바퀴형/이족보행 휴머노이드(NEO, Eve), 고도화된 핑거/핸드 액추에이터, Physical AI 및 모터 제어 S/W\n\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 인터뷰 -> 코딩/기술 테스트 -> 직무별 심화 면접(Technical Deep Dive) -> 팀 컬처 및 최종 면접\n\n## 참고\nOpenAI, EQT Ventures 등으로부터 대규모 투자를 유치하며 AI와 휴머노이드 하드웨어 결합을 선도\n강성을 유연하게 조절할 수 있는 모터/액추에이터 기술을 활용해 사람과 충돌해도 안전한 '소프트 휴머노이드' 구현\n가정 및 상업 환경에서 인간과의 안전한 상호작용 및 일상적인 가사·물류 작업 수행을 최우선 목표로 개발 중"
-  },
-  {
-    "id": "1x_휴머노이드_1X_2600_Electrical_Engineer_-_Actuators_and_Drives",
-    "company": "1X 휴머노이드",
-    "title": "2600_Electrical Engineer - Actuators and Drives",
-    "tags": [
-      "control",
-      "embedded",
-      "ai",
-      "hardware"
-    ],
-    "is_intro": false,
-    "raw_content": "Electrical Engineer - Actuators and Drives\n\n## ## ## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0bfbcb0e-ff28-49c2-9b80-1e5a55c89b82\n\n## ## ## 직무 개요\n휴머노이드 로봇의 actuator와 drive system을 담당하는 전기/전자 하드웨어 직무\n로봇 관절의 성능, 신뢰성, 안전성을 결정하는 모터 구동, 전력전자, 센서 인터페이스를 다루는 역할\n\n주요 업무\n- 로봇 actuator 및 motor drive 전장 설계\n- 전력회로, sensing, protection, thermal, EMC/EMI 이슈 검토\n- 모터/감속기/센서/제어기와 연동되는 drive electronics 개발\n- 하드웨어 bring-up, test, validation, failure analysis 수행\n\n요구 역량\n- 전기전자공학 기반 회로 설계 역량\n- BLDC/PMSM motor drive, inverter, gate driver, current sensing 이해\n- PCB bring-up, 계측기 기반 디버깅, 신뢰성 테스트 경험\n- 로봇 관절 또는 고전력 임베디드 시스템 경험\n\n## ## ##"
+    "raw_content": "## 1X (1X Technologies) 소개\n노르웨이와 미국에 기반을 둔 차세대 인간형 안전 로봇(Safe Humanoid) 개발 기업\n(근무지: 노르웨이 오슬로 HQ / 미국 캘리포니아주 산호세 San Jose)\n\n## 주요 개발 분야\n가정 및 상업용 바퀴형/이족보행 휴머노이드(NEO, Eve), 고도화된 핑거/핸드 액추에이터, Physical AI 및 모터 제어 S/W\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 인터뷰 -> 코딩/기술 테스트 -> 직무별 심화 면접(Technical Deep Dive) -> 팀 컬처 및 최종 면접\n\n## 참고\n- OpenAI, EQT Ventures 등으로부터 대규모 투자를 유치하며 AI와 휴머노이드 하드웨어 결합을 선도\n- 강성을 유연하게 조절할 수 있는 모터/액추에이터 기술을 활용해 사람과 충돌해도 안전한 '소프트 휴머노이드' 구현\n- 가정 및 상업 환경에서 인간과의 안전한 상호작용 및 일상적인 가사·물류 작업 수행을 최우선 목표로 개발 중"
   },
   {
     "id": "agility_robotics_Agility_2600_Robotics_Software_Engineer_II",
@@ -94,7 +81,7 @@ const JOBS_DATA = [
       "embedded"
     ],
     "is_intro": false,
-    "raw_content": "# Robotics Software Engineer II\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-09\n- 근무지: Hybrid - Pittsburgh, PA or Salem, OR\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6008698004\n\n## ## ## 직무 개요\n휴머노이드 로봇 Digit의 production-ready skill을 개발, 테스트, 검증, 통합하는 직무\n프로토타입과 실제 고객 워크플로우 사이에서 로봇 행동을 구현하고, 현장 성능을 확인하며, 실패 원인을 분석하는 역할\n\n## 주요 업무\n- 고객 업무 흐름에 들어갈 로봇 skill 및 behavior 구현\n- Behavior tree, state machine, task planner 기반의 로봇 동작 시퀀스 작성\n- 실제 로봇 하드웨어에서 성능 평가, 실패 분석, 테스트 플랜 수행\n- Teleoperation 데이터 수집과 learned behavior 개선 지원\n- AI, 제어, perception 팀과 협업하여 skill API 기반 워크플로우 통합\n\n## 요구 역량\n- 로봇 SW 개발 경험\n- Python/C++ 기반 로봇 시스템 구현 역량\n- 로봇 하드웨어 디버깅과 실험 설계 경험\n- 상태기계, 행동트리, task planning 등 로봇 행동 설계 이해\n- 실제 배치 환경에서 reliability를 높이는 문제 해결 능력"
+    "raw_content": "# Robotics Software Engineer II\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-09\n- 근무지: Hybrid - Pittsburgh, PA or Salem, OR\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6008698004\n\n## 직무 개요\n휴머노이드 로봇 Digit의 production-ready skill을 개발, 테스트, 검증, 통합하는 직무\n프로토타입과 실제 고객 워크플로우 사이에서 로봇 행동을 구현하고, 현장 성능을 확인하며, 실패 원인을 분석하는 역할\n\n## 주요 업무\n- 고객 업무 흐름에 들어갈 로봇 skill 및 behavior 구현\n- Behavior tree, state machine, task planner 기반의 로봇 동작 시퀀스 작성\n- 실제 로봇 하드웨어에서 성능 평가, 실패 분석, 테스트 플랜 수행\n- Teleoperation 데이터 수집과 learned behavior 개선 지원\n- AI, 제어, perception 팀과 협업하여 skill API 기반 워크플로우 통합\n\n## 요구 역량\n- 로봇 SW 개발 경험\n- Python/C++ 기반 로봇 시스템 구현 역량\n- 로봇 하드웨어 디버깅과 실험 설계 경험\n- 상태기계, 행동트리, task planning 등 로봇 행동 설계 이해\n- 실제 배치 환경에서 reliability를 높이는 문제 해결 능력"
   },
   {
     "id": "agility_robotics_Agility_2600_Senior_Software_Engineer__Navigation",
@@ -104,7 +91,7 @@ const JOBS_DATA = [
       "autonomous-driving"
     ],
     "is_intro": false,
-    "raw_content": "# Senior Software Engineer, Navigation\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-04-13\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5850335004\n\n## ## ## 직무 개요\nDigit 휴머노이드가 물류/제조 현장에서 안정적으로 이동하도록 navigation software를 개발하는 직무\nPerception, localization, planning, behavior stack과 연결해 실제 배치 환경의 이동 성능을 책임지는 역할\n\n## 주요 업무\n- 휴머노이드 로봇 navigation stack 개발\n- Localization, mapping, path planning, obstacle avoidance 연동\n- 실제 현장 데이터 기반 navigation failure 분석\n- Autonomy, perception, controls 팀과 navigation interface 통합\n- 배치 환경에서 reliability와 recoverability 개선\n\n## 요구 역량\n- C++/Python 기반 로봇 SW 개발 경험\n- Navigation, planning, localization, SLAM 이해\n- Linux 기반 실시간 로봇 시스템 개발 경험\n- 실제 로봇 테스트 및 로그 분석 경험\n- 복잡한 시스템에서 성능 병목과 failure mode를 찾는 역량"
+    "raw_content": "# Senior Software Engineer, Navigation\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-04-13\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5850335004\n\n## 직무 개요\nDigit 휴머노이드가 물류/제조 현장에서 안정적으로 이동하도록 navigation software를 개발하는 직무\nPerception, localization, planning, behavior stack과 연결해 실제 배치 환경의 이동 성능을 책임지는 역할\n\n## 주요 업무\n- 휴머노이드 로봇 navigation stack 개발\n- Localization, mapping, path planning, obstacle avoidance 연동\n- 실제 현장 데이터 기반 navigation failure 분석\n- Autonomy, perception, controls 팀과 navigation interface 통합\n- 배치 환경에서 reliability와 recoverability 개선\n\n## 요구 역량\n- C++/Python 기반 로봇 SW 개발 경험\n- Navigation, planning, localization, SLAM 이해\n- Linux 기반 실시간 로봇 시스템 개발 경험\n- 실제 로봇 테스트 및 로그 분석 경험\n- 복잡한 시스템에서 성능 병목과 failure mode를 찾는 역량"
   },
   {
     "id": "agility_robotics_Agility_2600_Senior_Staff_Software_Engineer__Motion_Planning",
@@ -114,7 +101,7 @@ const JOBS_DATA = [
       "control"
     ],
     "is_intro": false,
-    "raw_content": "# Senior Staff Software Engineer, Motion Planning\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-22\n- 근무지: Remote\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6007559004\n\n## ## ## 직무 개요\n휴머노이드 로봇의 whole-body motion, manipulation, grasping, loco-manipulation을 위한 motion planning 기술 리더 직무\n충돌 없는 경로 계획과 trajectory optimization을 실제 배치 가능한 수준으로 설계하고 이끄는 역할\n\n## 주요 업무\n- 휴머노이드용 motion planning 기술 로드맵 수립\n- 고자유도 로봇의 collision-free motion planning 및 trajectory optimization 개발\n- Perception, state estimation, navigation, controls, behaviors 팀과 planning stack 통합\n- 환경 불확실성과 상태추정 오차에 강한 planning 알고리즘 설계\n- 모듈성, 관측성, 테스트 가능성을 갖춘 planning architecture 구축\n\n## 요구 역량\n- 고자유도 로봇 manipulation 또는 mobile manipulation 알고리즘 개발 경험\n- 실제 상용 환경에 로봇 planning 시스템을 배치한 경험\n- trajectory optimization, sampling-based planning, grasp planning, whole-body planning 이해\n- cross-functional architecture decision을 이끌 수 있는 기술 리더십"
+    "raw_content": "# Senior Staff Software Engineer, Motion Planning\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-22\n- 근무지: Remote\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6007559004\n\n## 직무 개요\n휴머노이드 로봇의 whole-body motion, manipulation, grasping, loco-manipulation을 위한 motion planning 기술 리더 직무\n충돌 없는 경로 계획과 trajectory optimization을 실제 배치 가능한 수준으로 설계하고 이끄는 역할\n\n## 주요 업무\n- 휴머노이드용 motion planning 기술 로드맵 수립\n- 고자유도 로봇의 collision-free motion planning 및 trajectory optimization 개발\n- Perception, state estimation, navigation, controls, behaviors 팀과 planning stack 통합\n- 환경 불확실성과 상태추정 오차에 강한 planning 알고리즘 설계\n- 모듈성, 관측성, 테스트 가능성을 갖춘 planning architecture 구축\n\n## 요구 역량\n- 고자유도 로봇 manipulation 또는 mobile manipulation 알고리즘 개발 경험\n- 실제 상용 환경에 로봇 planning 시스템을 배치한 경험\n- trajectory optimization, sampling-based planning, grasp planning, whole-body planning 이해\n- cross-functional architecture decision을 이끌 수 있는 기술 리더십"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_AI_Engineer__Perception",
@@ -125,7 +112,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Staff AI Engineer, Perception\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-04-23\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5973040004\n\n## ## ## 직무 개요\nDigit이 물류/제조 현장에서 주변 물체와 장면을 이해하도록 object perception 시스템을 설계하고 배포하는 기술 리드 직무\n객체 검출, tracking, scene understanding, 6D pose estimation을 production robot에 올리는 역할\n\n## 주요 업무\n- Production robot에 사용되는 object perception architecture와 roadmap 소유\n- Multi-object detection, tracking, scene understanding, 6-DoF object pose estimation 개발\n- 최신 perception 모델 평가 및 도입\n- Embedded system에서 deep neural network와 데이터 처리 파이프라인 최적화\n- Navigation, manipulation, hardware 팀과 제품 요구사항 정렬\n\n## 요구 역량\n- 모바일 로봇에서 ML 기반 object detection을 배포한 경험\n- CNN, multi-object tracking, data association, supervised learning, pose estimation 이해\n- 실시간/임베디드 환경에서 AI 모델을 최적화한 경험\n- 테스트 가능한 perception software architecture 설계 역량"
+    "raw_content": "# Staff AI Engineer, Perception\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-04-23\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5973040004\n\n## 직무 개요\nDigit이 물류/제조 현장에서 주변 물체와 장면을 이해하도록 object perception 시스템을 설계하고 배포하는 기술 리드 직무\n객체 검출, tracking, scene understanding, 6D pose estimation을 production robot에 올리는 역할\n\n## 주요 업무\n- Production robot에 사용되는 object perception architecture와 roadmap 소유\n- Multi-object detection, tracking, scene understanding, 6-DoF object pose estimation 개발\n- 최신 perception 모델 평가 및 도입\n- Embedded system에서 deep neural network와 데이터 처리 파이프라인 최적화\n- Navigation, manipulation, hardware 팀과 제품 요구사항 정렬\n\n## 요구 역량\n- 모바일 로봇에서 ML 기반 object detection을 배포한 경험\n- CNN, multi-object tracking, data association, supervised learning, pose estimation 이해\n- 실시간/임베디드 환경에서 AI 모델을 최적화한 경험\n- 테스트 가능한 perception software architecture 설계 역량"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_AI_Research_Engineer",
@@ -135,7 +122,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Staff AI Research Engineer\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-24\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6098736004\n\n## ## ## 직무 개요\nDigit 휴머노이드의 AI 기반 perception, skill, robot behavior 성능을 높이기 위한 연구개발 직무\n실제 고객 환경에서 동작하는 휴머노이드 로봇에 AI 모델과 로봇 시스템을 연결하는 역할\n\n## 주요 업무\n- 로봇 perception 및 skill 관련 AI 연구개발\n- 실제 로봇 데이터 기반 모델 성능 개선\n- Learned policy와 classical robotics stack 통합\n- 실환경 실패 사례 분석 및 모델 개선 방향 도출\n- AI, autonomy, controls, behavior 팀과 협업\n\n## 요구 역량\n- Machine learning / deep learning 연구개발 경험\n- Python, PyTorch 기반 모델 개발 역량\n- 로봇 perception, manipulation, navigation 중 하나 이상의 경험\n- 실제 로봇 또는 embodied AI 시스템에 모델을 적용한 경험\n- 실험 설계, 데이터 분석, 성능 평가 역량"
+    "raw_content": "# Staff AI Research Engineer\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-24\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6098736004\n\n## 직무 개요\nDigit 휴머노이드의 AI 기반 perception, skill, robot behavior 성능을 높이기 위한 연구개발 직무\n실제 고객 환경에서 동작하는 휴머노이드 로봇에 AI 모델과 로봇 시스템을 연결하는 역할\n\n## 주요 업무\n- 로봇 perception 및 skill 관련 AI 연구개발\n- 실제 로봇 데이터 기반 모델 성능 개선\n- Learned policy와 classical robotics stack 통합\n- 실환경 실패 사례 분석 및 모델 개선 방향 도출\n- AI, autonomy, controls, behavior 팀과 협업\n\n## 요구 역량\n- Machine learning / deep learning 연구개발 경험\n- Python, PyTorch 기반 모델 개발 역량\n- 로봇 perception, manipulation, navigation 중 하나 이상의 경험\n- 실제 로봇 또는 embodied AI 시스템에 모델을 적용한 경험\n- 실험 설계, 데이터 분석, 성능 평가 역량"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_Firmware_Engineer",
@@ -145,7 +132,7 @@ const JOBS_DATA = [
       "embedded"
     ],
     "is_intro": false,
-    "raw_content": "# Staff Firmware Engineer\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-02-02\n- 근무지: Hybrid - Fremont, CA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5789714004\n\n## ## ## 직무 개요\n휴머노이드 로봇의 저수준 센서 네트워크, 제어, 전원 관리 시스템을 구동하는 firmware architecture를 설계하고 구현하는 직무\n하드웨어와 상위 로봇 제어 알고리즘 사이의 interface를 안정적으로 연결하는 역할\n\n## 주요 업무\n- C++ 기반 robot firmware architecture 설계 및 구현\n- EtherCAT, CAN 기반 firmware communication layer 개발\n- Hardware abstraction layer, peripheral driver, application firmware 작성\n- Logic analyzer, oscilloscope 등 계측 장비를 활용한 실시간 하드웨어 테스트/디버깅\n- HW/SW 통합 문제 해결 및 interface 문서화\n\n## 요구 역량\n- Modern C++ 기반 firmware 개발 경험\n- FreeRTOS 또는 유사 RTOS 경험\n- EtherCAT, CAN, 센서 네트워크, 전원관리, 실시간 제어 이해\n- 회로/하드웨어와 함께 디버깅할 수 있는 역량"
+    "raw_content": "# Staff Firmware Engineer\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-02-02\n- 근무지: Hybrid - Fremont, CA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5789714004\n\n## 직무 개요\n휴머노이드 로봇의 저수준 센서 네트워크, 제어, 전원 관리 시스템을 구동하는 firmware architecture를 설계하고 구현하는 직무\n하드웨어와 상위 로봇 제어 알고리즘 사이의 interface를 안정적으로 연결하는 역할\n\n## 주요 업무\n- C++ 기반 robot firmware architecture 설계 및 구현\n- EtherCAT, CAN 기반 firmware communication layer 개발\n- Hardware abstraction layer, peripheral driver, application firmware 작성\n- Logic analyzer, oscilloscope 등 계측 장비를 활용한 실시간 하드웨어 테스트/디버깅\n- HW/SW 통합 문제 해결 및 interface 문서화\n\n## 요구 역량\n- Modern C++ 기반 firmware 개발 경험\n- FreeRTOS 또는 유사 RTOS 경험\n- EtherCAT, CAN, 센서 네트워크, 전원관리, 실시간 제어 이해\n- 회로/하드웨어와 함께 디버깅할 수 있는 역량"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_Robotics_Software_Engineer__Robot_Behaviors",
@@ -155,7 +142,7 @@ const JOBS_DATA = [
       "control"
     ],
     "is_intro": false,
-    "raw_content": "# Staff Robotics Software Engineer, Robot Behaviors\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-05-12\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5994662004\n\n## ## ## 직무 개요\n휴머노이드 로봇이 실제 환경에서 더 넓은 작업을 안정적으로 수행하도록 robot behavior를 설계하고 검증하는 기술 리드 직무\nBehavior planning, motion planning, object perception, manipulation, learned policy를 연결하는 역할\n\n## 주요 업무\n- 복잡한 휴머노이드 behavior의 설계, 구현, 검증 총괄\n- Task decomposition, control flow, recovery, failure handling 설계\n- 새로운 작업/객체/고객 환경에 맞는 manipulation strategy 개발 및 평가\n- Motion planning, controls, object perception, estimation, hardware와 behavior 통합\n- 학습 기반 policy와 전통적 로봇 알고리즘을 섞은 hybrid behavior 구현\n\n## 요구 역량\n- 로봇 behavior planning 또는 autonomy stack 개발 경험\n- 실제 하드웨어에서 실험하고 로그를 분석하는 hands-on 역량\n- Manipulation, perception, motion planning, controls 사이의 interface 이해\n- 팀 기술 방향을 잡고 다른 엔지니어를 멘토링할 수 있는 리더십"
+    "raw_content": "# Staff Robotics Software Engineer, Robot Behaviors\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-05-12\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5994662004\n\n## 직무 개요\n휴머노이드 로봇이 실제 환경에서 더 넓은 작업을 안정적으로 수행하도록 robot behavior를 설계하고 검증하는 기술 리드 직무\nBehavior planning, motion planning, object perception, manipulation, learned policy를 연결하는 역할\n\n## 주요 업무\n- 복잡한 휴머노이드 behavior의 설계, 구현, 검증 총괄\n- Task decomposition, control flow, recovery, failure handling 설계\n- 새로운 작업/객체/고객 환경에 맞는 manipulation strategy 개발 및 평가\n- Motion planning, controls, object perception, estimation, hardware와 behavior 통합\n- 학습 기반 policy와 전통적 로봇 알고리즘을 섞은 hybrid behavior 구현\n\n## 요구 역량\n- 로봇 behavior planning 또는 autonomy stack 개발 경험\n- 실제 하드웨어에서 실험하고 로그를 분석하는 hands-on 역량\n- Manipulation, perception, motion planning, controls 사이의 interface 이해\n- 팀 기술 방향을 잡고 다른 엔지니어를 멘토링할 수 있는 리더십"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_Systems_Engineer__Functional_Safety",
@@ -165,7 +152,7 @@ const JOBS_DATA = [
       "hardware"
     ],
     "is_intro": false,
-    "raw_content": "# Staff Systems Engineer, Functional Safety\n\n## ## ## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-05-06\n- 근무지: Hybrid - Fremont, CA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5986772004\n\n## ## ## 직무 개요\n휴머노이드 로봇 플랫폼의 system-level architecture와 functional safety 요구사항 통합을 담당하는 systems engineering 직무\n기계, 전장, firmware, software 전체에 걸친 안전 요구사항을 정의하고 검증 가능하게 분해하는 역할\n\n## 주요 업무\n- 기능안전을 포함한 system/subsystem architecture 정의\n- Safety, performance, cost, execution speed 사이의 trade-off 분석\n- Jama 등 요구사항 관리 도구로 verifiable requirement 작성 및 분해\n- Integration/Test 팀이 검증할 수 있는 V&V 기준 정의\n- 안전 관련 cross-functional interface 정리\n\n## 요구 역량\n- Safety-critical system 개발 또는 functional safety 경험\n- Mechanical, electrical, firmware, software를 아우르는 시스템 사고\n- 요구사항 관리, interface 정의, V&V 계획 수립 역량\n- 빠른 스타트업 환경에서 안전 표준의 rigor와 제품 출시 속도를 균형 있게 다루는 능력"
+    "raw_content": "# Staff Systems Engineer, Functional Safety\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-05-06\n- 근무지: Hybrid - Fremont, CA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5986772004\n\n## 직무 개요\n휴머노이드 로봇 플랫폼의 system-level architecture와 functional safety 요구사항 통합을 담당하는 systems engineering 직무\n기계, 전장, firmware, software 전체에 걸친 안전 요구사항을 정의하고 검증 가능하게 분해하는 역할\n\n## 주요 업무\n- 기능안전을 포함한 system/subsystem architecture 정의\n- Safety, performance, cost, execution speed 사이의 trade-off 분석\n- Jama 등 요구사항 관리 도구로 verifiable requirement 작성 및 분해\n- Integration/Test 팀이 검증할 수 있는 V&V 기준 정의\n- 안전 관련 cross-functional interface 정리\n\n## 요구 역량\n- Safety-critical system 개발 또는 functional safety 경험\n- Mechanical, electrical, firmware, software를 아우르는 시스템 사고\n- 요구사항 관리, interface 정의, V&V 계획 수립 역량\n- 빠른 스타트업 환경에서 안전 표준의 rigor와 제품 출시 속도를 균형 있게 다루는 능력"
   },
   {
     "id": "agility_robotics__Agility_Robotics_소개",
@@ -173,7 +160,7 @@ const JOBS_DATA = [
     "title": "Agility Robotics 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## Agility Robotics 소개\n미국의 물류·제조 현장 특화 이족 보행 로봇 전문 기업\n(근무지: 미국 오리건주 올버니 Albany HQ / 오리건주 피츠버그·세일럼)\n\n## 주요 개발 분야\n이족 보행 휴머노이드 로봇(Digit), 물류 자율 운영 시스템(Agility Arc), 물류/제조 자동화 전신 제어 S/W\n\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 스크리닝 -> 코딩 및 기술 검증 인터뷰 -> 직무별 심화 면접(Technical Deep Dive) -> 조직 적합성 및 최종 면접\n\n## 참고\n오리건주 올버니에 세계 최초의 대규모 휴머노이드 전용 생산 공장인 '로보팹(RoboFab)'을 구축하여 대량 양산 추진\n아마존(Amazon)의 로보틱스 벤처 펀드 투자를 유치를 시작으로 실전 물류센터에 Digit을 실전 투입하여 테스트 진행\n완벽한 인간 형태보다는 물류 상하차 및 이송 작업에 최적화된 다리 구조와 양팔 형태를 채택해 상용화에 집중"
+    "raw_content": "## Agility Robotics 소개\n미국의 물류·제조 현장 특화 이족 보행 로봇 전문 기업\n(근무지: 미국 오리건주 올버니 Albany HQ / 오리건주 피츠버그·세일럼)\n\n## 주요 개발 분야\n이족 보행 휴머노이드 로봇(Digit), 물류 자율 운영 시스템(Agility Arc), 물류/제조 자동화 전신 제어 S/W\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 스크리닝 -> 코딩 및 기술 검증 인터뷰 -> 직무별 심화 면접(Technical Deep Dive) -> 조직 적합성 및 최종 면접\n\n## 참고\n- 오리건주 올버니에 세계 최초의 대규모 휴머노이드 전용 생산 공장인 '로보팹(RoboFab)'을 구축하여 대량 양산 추진\n- 아마존(Amazon)의 로보틱스 벤처 펀드 투자를 유치를 시작으로 실전 물류센터에 Digit을 실전 투입하여 테스트 진행\n- 완벽한 인간 형태보다는 물류 상하차 및 이송 작업에 최적화된 다리 구조와 양팔 형태를 채택해 상용화에 집중"
   },
   {
     "id": "boston_dynamics_BostonDynamics_2600_Controls_Software_Engineer__Atlas",
@@ -183,7 +170,7 @@ const JOBS_DATA = [
       "control"
     ],
     "is_intro": false,
-    "raw_content": "# Controls Software Engineer, Atlas\n\n## ## ## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Controls-Software-Engineer--Atlas_R2776\n\n## ## ## 직무 개요\nAtlas 휴머노이드 로봇의 제어 소프트웨어와 whole-body control 관련 기능을 개발하는 직무\n고성능 동역학 로봇의 motion control, AI 기반 제어 인프라, 실기체 통합을 다루는 포지션\n\n## 주요 업무\n- Atlas control software 개발\n- Whole-body control 및 motion control 기능 구현\n- Simulation과 실제 로봇 간 성능 검증\n- 로봇 동역학/제어 알고리즘 튜닝\n- 제어 SW infrastructure 개선\n\n## 요구 역량\n- C++ 기반 로봇 SW 개발\n- Control theory, dynamics, optimization 이해\n- Linux 기반 개발 경험\n- 시뮬레이션과 실제 로봇 테스트 경험\n- 복잡한 로봇 시스템 디버깅 역량"
+    "raw_content": "# Controls Software Engineer, Atlas\n\n## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Controls-Software-Engineer--Atlas_R2776\n\n## 직무 개요\nAtlas 휴머노이드 로봇의 제어 소프트웨어와 whole-body control 관련 기능을 개발하는 직무\n고성능 동역학 로봇의 motion control, AI 기반 제어 인프라, 실기체 통합을 다루는 포지션\n\n## 주요 업무\n- Atlas control software 개발\n- Whole-body control 및 motion control 기능 구현\n- Simulation과 실제 로봇 간 성능 검증\n- 로봇 동역학/제어 알고리즘 튜닝\n- 제어 SW infrastructure 개선\n\n## 요구 역량\n- C++ 기반 로봇 SW 개발\n- Control theory, dynamics, optimization 이해\n- Linux 기반 개발 경험\n- 시뮬레이션과 실제 로봇 테스트 경험\n- 복잡한 로봇 시스템 디버깅 역량"
   },
   {
     "id": "boston_dynamics_BostonDynamics_2600_Robotics_Engineer_-_Software_and_Controls",
@@ -193,7 +180,7 @@ const JOBS_DATA = [
       "control"
     ],
     "is_intro": false,
-    "raw_content": "# Robotics Engineer - Software and Controls\n\n## ## ## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Robotics-Engineer--Software-and-Controls_R2145\n\n## ## ## 직무 개요\n로봇의 software와 controls를 함께 다루는 엔지니어 직무\n모터 제어, 로봇 센싱, safety system, behavior control을 연결해 실제 로봇 기능을 구현하는 역할\n\n## 주요 업무\n- Robotics software 및 controls 개발\n- Motor control 관련 기능 구현\n- Robot sensing 데이터 처리\n- Safety system과 behavior control 통합\n- 실제 로봇 테스트 및 성능 튜닝\n\n## 요구 역량\n- C++ 기반 개발 경험\n- 로봇 제어와 센서 처리 이해\n- Motor control 및 embedded/real-time system 이해\n- Safety-critical system 개발 감각\n- 실기체 debugging과 integration 경험"
+    "raw_content": "# Robotics Engineer - Software and Controls\n\n## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Robotics-Engineer--Software-and-Controls_R2145\n\n## 직무 개요\n로봇의 software와 controls를 함께 다루는 엔지니어 직무\n모터 제어, 로봇 센싱, safety system, behavior control을 연결해 실제 로봇 기능을 구현하는 역할\n\n## 주요 업무\n- Robotics software 및 controls 개발\n- Motor control 관련 기능 구현\n- Robot sensing 데이터 처리\n- Safety system과 behavior control 통합\n- 실제 로봇 테스트 및 성능 튜닝\n\n## 요구 역량\n- C++ 기반 개발 경험\n- 로봇 제어와 센서 처리 이해\n- Motor control 및 embedded/real-time system 이해\n- Safety-critical system 개발 감각\n- 실기체 debugging과 integration 경험"
   },
   {
     "id": "boston_dynamics_BostonDynamics_2600_Software_Engineer_in_Automation__Humanoid_Robotics",
@@ -203,7 +190,7 @@ const JOBS_DATA = [
       "embedded"
     ],
     "is_intro": false,
-    "raw_content": "# Software Engineer in Automation, Humanoid Robotics\n\n## ## ## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Software-Engineer-in-Automation--Humanoid-Robotics_R2794\n\n## ## ## 직무 개요\nAtlas 휴머노이드 로봇 개발을 위한 HIL(Hardware-in-the-Loop) 및 자동화 테스트를 개발하는 직무\n로봇 기능을 빠르고 안정적으로 검증할 수 있는 테스트 인프라를 만드는 역할\n\n## 주요 업무\n- Humanoid robotics automation software 개발\n- HIL 테스트 환경 구축\n- Regression test 및 validation pipeline 개발\n- 로봇 하드웨어/소프트웨어 통합 테스트 자동화\n- 테스트 결과 분석 및 품질 개선\n\n## 요구 역량\n- Python/C++ 기반 automation 개발 경험\n- Test infrastructure, CI, hardware integration 이해\n- 로봇 또는 임베디드 시스템 검증 경험\n- 실험 장비와 로봇 하드웨어를 다루는 능력\n- 반복 테스트를 안정적으로 자동화하는 역량"
+    "raw_content": "# Software Engineer in Automation, Humanoid Robotics\n\n## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Software-Engineer-in-Automation--Humanoid-Robotics_R2794\n\n## 직무 개요\nAtlas 휴머노이드 로봇 개발을 위한 HIL(Hardware-in-the-Loop) 및 자동화 테스트를 개발하는 직무\n로봇 기능을 빠르고 안정적으로 검증할 수 있는 테스트 인프라를 만드는 역할\n\n## 주요 업무\n- Humanoid robotics automation software 개발\n- HIL 테스트 환경 구축\n- Regression test 및 validation pipeline 개발\n- 로봇 하드웨어/소프트웨어 통합 테스트 자동화\n- 테스트 결과 분석 및 품질 개선\n\n## 요구 역량\n- Python/C++ 기반 automation 개발 경험\n- Test infrastructure, CI, hardware integration 이해\n- 로봇 또는 임베디드 시스템 검증 경험\n- 실험 장비와 로봇 하드웨어를 다루는 능력\n- 반복 테스트를 안정적으로 자동화하는 역량"
   },
   {
     "id": "boston_dynamics__Boston_Dynamics_소개",
@@ -211,7 +198,7 @@ const JOBS_DATA = [
     "title": "Boston Dynamics 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## Boston Dynamics 소개\n미국을 대표하는 세계 최고 수준의 동적(Dynamic) 로보틱스 전문 기업\n(근무지: 미국 마사추세츠주 월탐 Waltham HQ / 매사추세츠주 케임브리지)\n\n## 주요 개발 분야\n4족 보행 로봇(Spot), 올-일렉트릭 휴머노이드 로봇(Atlas), 물류 자동화 상하차 로봇(Stretch), 자율주행 및 모션 제어 S/W\n\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 인터뷰 -> 기술/코딩 테스트 -> 직무별 심화 심층 면접(Technical Deep Dive) -> 팀 컬처 및 조직 적합성 면접\n\n## 참고\n현대자동차그룹의 핵심 자회사로 그룹 내 로보틱스랩과의 기술 교류 및 상용화 협력 강화\n기존 유압식 Atlas 대신 100% 전동식(All-electric) 차세대 2세대 Atlas를 공개하며 휴머노이드 상용화 가속\n보행·밸런싱 제어 및 동적 움직임(Dynamic Movement) 분야에서 독보적인 글로벌 세계 1위 기술력 보유"
+    "raw_content": "## Boston Dynamics 소개\n미국을 대표하는 세계 최고 수준의 동적(Dynamic) 로보틱스 전문 기업\n(근무지: 미국 마사추세츠주 월탐 Waltham HQ / 매사추세츠주 케임브리지)\n\n## 주요 개발 분야\n4족 보행 로봇(Spot), 올-일렉트릭 휴머노이드 로봇(Atlas), 물류 자동화 상하차 로봇(Stretch), 자율주행 및 모션 제어 S/W\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 인터뷰 -> 기술/코딩 테스트 -> 직무별 심화 심층 면접(Technical Deep Dive) -> 팀 컬처 및 조직 적합성 면접\n\n## 참고\n- 현대자동차그룹의 핵심 자회사로 그룹 내 로보틱스랩과의 기술 교류 및 상용화 협력 강화\n- 기존 유압식 Atlas 대신 100% 전동식(All-electric) 차세대 2세대 Atlas를 공개하며 휴머노이드 상용화 가속\n- 보행·밸런싱 제어 및 동적 움직임(Dynamic Movement) 분야에서 독보적인 글로벌 세계 1위 기술력 보유"
   },
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Perception",
@@ -222,7 +209,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Helix AI Engineer, Perception\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4007375006\n\n## ## ## 직무 개요\n휴머노이드 로봇이 주변 환경과 물체를 이해하도록 perception 모델과 시스템을 개발하는 직무\n비전 모델을 로봇 조작, 이동, 행동 의사결정과 연결하는 역할\n\n## 주요 업무\n- Robot perception 모델 개발\n- Object detection, segmentation, pose estimation, scene understanding\n- 로봇 센서 데이터 처리 및 모델 평가\n- Manipulation / planning stack과 perception 결과 통합\n- 실제 로봇 환경에서 perception failure 분석\n\n## 요구 역량\n- Computer vision 및 deep learning 경험\n- Python, PyTorch 기반 모델 개발\n- RGB-D, multi-camera, sensor calibration 이해\n- 로봇 task와 연결된 perception pipeline 경험\n- 실시간 inference 및 모델 최적화 경험"
+    "raw_content": "# Helix AI Engineer, Perception\n\n## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4007375006\n\n## 직무 개요\n휴머노이드 로봇이 주변 환경과 물체를 이해하도록 perception 모델과 시스템을 개발하는 직무\n비전 모델을 로봇 조작, 이동, 행동 의사결정과 연결하는 역할\n\n## 주요 업무\n- Robot perception 모델 개발\n- Object detection, segmentation, pose estimation, scene understanding\n- 로봇 센서 데이터 처리 및 모델 평가\n- Manipulation / planning stack과 perception 결과 통합\n- 실제 로봇 환경에서 perception failure 분석\n\n## 요구 역량\n- Computer vision 및 deep learning 경험\n- Python, PyTorch 기반 모델 개발\n- RGB-D, multi-camera, sensor calibration 이해\n- 로봇 task와 연결된 perception pipeline 경험\n- 실시간 inference 및 모델 최적화 경험"
   },
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Reinforcement_Learning",
@@ -232,7 +219,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Helix AI Engineer, Reinforcement Learning\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-04-09\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4671707006\n\n## ## ## 직무 개요\n휴머노이드 로봇의 행동과 조작 능력을 강화학습으로 개선하는 AI 엔지니어 직무\n시뮬레이션 학습, 실제 로봇 전이, 평가 자동화를 함께 다루는 포지션\n\n## 주요 업무\n- RL 기반 로봇 policy 학습\n- Reward 설계, policy evaluation, sim-to-real 개선\n- Manipulation 또는 locomotion task 실험\n- 학습 인프라 및 모델 배포 파이프라인 개선\n- Controls, simulation, data 팀과 협업\n\n## 요구 역량\n- Reinforcement learning 알고리즘 이해\n- PyTorch/JAX 등 ML 프레임워크 경험\n- Isaac Sim, MuJoCo 등 물리 시뮬레이션 경험\n- 로봇 제어, 동역학, 최적화 기본기\n- 실제 하드웨어 적용 또는 sim-to-real 경험"
+    "raw_content": "# Helix AI Engineer, Reinforcement Learning\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-04-09\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4671707006\n\n## 직무 개요\n휴머노이드 로봇의 행동과 조작 능력을 강화학습으로 개선하는 AI 엔지니어 직무\n시뮬레이션 학습, 실제 로봇 전이, 평가 자동화를 함께 다루는 포지션\n\n## 주요 업무\n- RL 기반 로봇 policy 학습\n- Reward 설계, policy evaluation, sim-to-real 개선\n- Manipulation 또는 locomotion task 실험\n- 학습 인프라 및 모델 배포 파이프라인 개선\n- Controls, simulation, data 팀과 협업\n\n## 요구 역량\n- Reinforcement learning 알고리즘 이해\n- PyTorch/JAX 등 ML 프레임워크 경험\n- Isaac Sim, MuJoCo 등 물리 시뮬레이션 경험\n- 로봇 제어, 동역학, 최적화 기본기\n- 실제 하드웨어 적용 또는 sim-to-real 경험"
   },
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Robot_Learning",
@@ -242,7 +229,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Helix AI Engineer, Robot Learning\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-01-30\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4649851006\n\n## ## ## 직무 개요\nFigure의 Helix AI 팀에서 휴머노이드 로봇의 robot learning 기능을 개발하는 직무\n로봇이 실제 환경에서 조작과 행동을 학습하고 일반화하도록 모델, 데이터, 평가 파이프라인을 다루는 역할\n\n## 주요 업무\n- Robot learning 모델 개발\n- 로봇 데이터 기반 policy 학습\n- Manipulation 및 embodied AI task 성능 개선\n- 실제 로봇 배포를 고려한 모델 평가\n- AI, controls, software, hardware 팀과 협업\n\n## 요구 역량\n- Python, PyTorch 기반 ML 개발\n- Robotics, manipulation, imitation learning 또는 reinforcement learning 경험\n- 대규모 데이터 처리 및 실험 관리 역량\n- 실제 로봇 또는 시뮬레이터 기반 학습 경험\n- 연구 결과를 제품 기능으로 연결하는 엔지니어링 역량"
+    "raw_content": "# Helix AI Engineer, Robot Learning\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-01-30\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4649851006\n\n## 직무 개요\nFigure의 Helix AI 팀에서 휴머노이드 로봇의 robot learning 기능을 개발하는 직무\n로봇이 실제 환경에서 조작과 행동을 학습하고 일반화하도록 모델, 데이터, 평가 파이프라인을 다루는 역할\n\n## 주요 업무\n- Robot learning 모델 개발\n- 로봇 데이터 기반 policy 학습\n- Manipulation 및 embodied AI task 성능 개선\n- 실제 로봇 배포를 고려한 모델 평가\n- AI, controls, software, hardware 팀과 협업\n\n## 요구 역량\n- Python, PyTorch 기반 ML 개발\n- Robotics, manipulation, imitation learning 또는 reinforcement learning 경험\n- 대규모 데이터 처리 및 실험 관리 역량\n- 실제 로봇 또는 시뮬레이터 기반 학습 경험\n- 연구 결과를 제품 기능으로 연결하는 엔지니어링 역량"
   },
   {
     "id": "figure_ai_FigureAI_2600_Mechanical_Engineer_-_Hands",
@@ -253,7 +240,7 @@ const JOBS_DATA = [
       "hardware"
     ],
     "is_intro": false,
-    "raw_content": "# Mechanical Engineer - Hands\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-01-09\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4643612006\n\n## ## ## 직무 개요\n휴머노이드 로봇 손의 기구 설계와 compliant element를 다루는 기계 설계 직무\n정밀 조작, 내구성, 경량화, 제조성을 모두 고려해 로봇 손 하드웨어를 개발하는 역할\n\n## 주요 업무\n- 로봇 손 메커니즘 설계\n- Compliance, tendon, linkage, actuator packaging 검토\n- 시제품 제작 및 조립/테스트\n- 센서/액추에이터/케이블 routing을 고려한 설계\n- 제조성, 신뢰성, 유지보수성 개선\n\n## 요구 역량\n- 기계공학 기반 로봇/메카트로닉스 설계 경험\n- CAD, tolerance, material, mechanism design 역량\n- 소형 actuator와 센서 통합 설계 이해\n- 반복 시제품 제작과 실험 기반 개선 경험\n- 전장/제어/AI 팀과 협업하는 능력"
+    "raw_content": "# Mechanical Engineer - Hands\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-01-09\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4643612006\n\n## 직무 개요\n휴머노이드 로봇 손의 기구 설계와 compliant element를 다루는 기계 설계 직무\n정밀 조작, 내구성, 경량화, 제조성을 모두 고려해 로봇 손 하드웨어를 개발하는 역할\n\n## 주요 업무\n- 로봇 손 메커니즘 설계\n- Compliance, tendon, linkage, actuator packaging 검토\n- 시제품 제작 및 조립/테스트\n- 센서/액추에이터/케이블 routing을 고려한 설계\n- 제조성, 신뢰성, 유지보수성 개선\n\n## 요구 역량\n- 기계공학 기반 로봇/메카트로닉스 설계 경험\n- CAD, tolerance, material, mechanism design 역량\n- 소형 actuator와 센서 통합 설계 이해\n- 반복 시제품 제작과 실험 기반 개선 경험\n- 전장/제어/AI 팀과 협업하는 능력"
   },
   {
     "id": "figure_ai_FigureAI_2600_Power_Electronics_Engineer__Charging",
@@ -264,7 +251,7 @@ const JOBS_DATA = [
       "hardware"
     ],
     "is_intro": false,
-    "raw_content": "# Power Electronics Engineer, Charging\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4333397006\n\n## ## ## 직무 개요\n휴머노이드 로봇의 충전/전력전자 시스템을 설계하고 검증하는 전기전자 직무\n로봇의 배터리, 충전, 전력 변환, 안전성을 제품 수준으로 구현하는 역할\n\n## 주요 업무\n- Charging system 및 power electronics 설계\n- 전력 변환 회로, 보호회로, thermal 이슈 검토\n- PCB bring-up 및 validation\n- 배터리/전원 시스템과 로봇 플랫폼 통합\n- 안전성, 효율, 신뢰성 개선\n\n## 요구 역량\n- Power electronics 회로 설계 경험\n- DC/DC, charging, battery, protection circuit 이해\n- PCB 설계 및 계측 장비 기반 디버깅 경험\n- Thermal, EMI/EMC, safety 고려 경험\n- 로봇 또는 전기차/모바일 시스템 전원 설계 경험"
+    "raw_content": "# Power Electronics Engineer, Charging\n\n## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4333397006\n\n## 직무 개요\n휴머노이드 로봇의 충전/전력전자 시스템을 설계하고 검증하는 전기전자 직무\n로봇의 배터리, 충전, 전력 변환, 안전성을 제품 수준으로 구현하는 역할\n\n## 주요 업무\n- Charging system 및 power electronics 설계\n- 전력 변환 회로, 보호회로, thermal 이슈 검토\n- PCB bring-up 및 validation\n- 배터리/전원 시스템과 로봇 플랫폼 통합\n- 안전성, 효율, 신뢰성 개선\n\n## 요구 역량\n- Power electronics 회로 설계 경험\n- DC/DC, charging, battery, protection circuit 이해\n- PCB 설계 및 계측 장비 기반 디버깅 경험\n- Thermal, EMI/EMC, safety 고려 경험\n- 로봇 또는 전기차/모바일 시스템 전원 설계 경험"
   },
   {
     "id": "figure_ai_FigureAI_2600_Robot_Operations_Manager",
@@ -275,7 +262,7 @@ const JOBS_DATA = [
       "product"
     ],
     "is_intro": false,
-    "raw_content": "# Robot Operations Manager\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-05-13\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4681405006\n\n## ## ## 직무 개요\n휴머노이드 로봇 운영 현장을 관리하고, 로봇 실험/데이터/배포 운영을 안정화하는 직무\n엔지니어링과 현장 운영 사이에서 로봇이 실제로 잘 굴러가도록 만드는 역할\n\n## 주요 업무\n- Robot operations workflow 운영\n- 로봇 테스트, 데모, 데이터 수집 일정 관리\n- 현장 이슈를 engineering team에 전달\n- 운영 지표와 품질/안전 기준 관리\n- 로봇 운영 인력과 프로세스 개선\n\n## 요구 역량\n- 로봇 또는 하드웨어 운영 경험\n- 현장 문제 해결과 일정/인력 관리 능력\n- 기술팀과 운영팀 사이의 커뮤니케이션 역량\n- 로봇 테스트/데이터 수집 프로세스 이해\n- 빠른 스타트업 환경에서 실행하는 능력"
+    "raw_content": "# Robot Operations Manager\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-05-13\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4681405006\n\n## 직무 개요\n휴머노이드 로봇 운영 현장을 관리하고, 로봇 실험/데이터/배포 운영을 안정화하는 직무\n엔지니어링과 현장 운영 사이에서 로봇이 실제로 잘 굴러가도록 만드는 역할\n\n## 주요 업무\n- Robot operations workflow 운영\n- 로봇 테스트, 데모, 데이터 수집 일정 관리\n- 현장 이슈를 engineering team에 전달\n- 운영 지표와 품질/안전 기준 관리\n- 로봇 운영 인력과 프로세스 개선\n\n## 요구 역량\n- 로봇 또는 하드웨어 운영 경험\n- 현장 문제 해결과 일정/인력 관리 능력\n- 기술팀과 운영팀 사이의 커뮤니케이션 역량\n- 로봇 테스트/데이터 수집 프로세스 이해\n- 빠른 스타트업 환경에서 실행하는 능력"
   },
   {
     "id": "figure_ai_FigureAI_2600_Robotics_Integration_Engineer",
@@ -286,7 +273,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Robotics Integration Engineer\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4387319006\n\n## ## ## 직무 개요\n휴머노이드 로봇의 하드웨어, 소프트웨어, 제어, AI 모듈을 실제 시스템으로 통합하는 직무\n개별 기능이 로봇 전체에서 안정적으로 동작하도록 bring-up, test, debugging을 수행하는 역할\n\n## 주요 업무\n- 로봇 시스템 통합 및 bring-up\n- 센서, 액추에이터, 제어기, SW stack 연동\n- 실기체 테스트와 로그 분석\n- 시스템 수준 failure 분석 및 개선\n- Cross-functional 팀과 통합 일정 관리\n\n## 요구 역량\n- Robotics system integration 경험\n- C++/Python, Linux 기반 개발 경험\n- 센서/액추에이터/통신 인터페이스 이해\n- 실험 장비와 로그를 활용한 디버깅 역량\n- 빠른 하드웨어 개발 환경에서 문제를 좁히는 능력"
+    "raw_content": "# Robotics Integration Engineer\n\n## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4387319006\n\n## 직무 개요\n휴머노이드 로봇의 하드웨어, 소프트웨어, 제어, AI 모듈을 실제 시스템으로 통합하는 직무\n개별 기능이 로봇 전체에서 안정적으로 동작하도록 bring-up, test, debugging을 수행하는 역할\n\n## 주요 업무\n- 로봇 시스템 통합 및 bring-up\n- 센서, 액추에이터, 제어기, SW stack 연동\n- 실기체 테스트와 로그 분석\n- 시스템 수준 failure 분석 및 개선\n- Cross-functional 팀과 통합 일정 관리\n\n## 요구 역량\n- Robotics system integration 경험\n- C++/Python, Linux 기반 개발 경험\n- 센서/액추에이터/통신 인터페이스 이해\n- 실험 장비와 로그를 활용한 디버깅 역량\n- 빠른 하드웨어 개발 환경에서 문제를 좁히는 능력"
   },
   {
     "id": "figure_ai_FigureAI_2600_Senior_Firmware_Engineer",
@@ -297,7 +284,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Senior Firmware Engineer\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-02-16\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4654891006\n\n## ## ## 직무 개요\n휴머노이드 로봇의 저수준 firmware와 embedded software를 개발하는 직무\n센서, 액추에이터, 전력/통신 시스템을 안정적으로 제어하고 상위 software stack과 연결하는 역할\n\n## 주요 업무\n- Embedded firmware 개발\n- Sensor/actuator interface 구현\n- 실시간 제어 및 통신 firmware 개선\n- Hardware bring-up 및 board-level debugging\n- Firmware test 및 validation 자동화\n\n## 요구 역량\n- C/C++ 기반 embedded 개발 경험\n- MCU, RTOS, device driver, communication protocol 이해\n- CAN, EtherCAT, SPI, I2C, UART 등 통신 경험\n- Oscilloscope, logic analyzer 기반 디버깅 경험\n- 하드웨어 팀과 협업하는 능력"
+    "raw_content": "# Senior Firmware Engineer\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-02-16\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4654891006\n\n## 직무 개요\n휴머노이드 로봇의 저수준 firmware와 embedded software를 개발하는 직무\n센서, 액추에이터, 전력/통신 시스템을 안정적으로 제어하고 상위 software stack과 연결하는 역할\n\n## 주요 업무\n- Embedded firmware 개발\n- Sensor/actuator interface 구현\n- 실시간 제어 및 통신 firmware 개선\n- Hardware bring-up 및 board-level debugging\n- Firmware test 및 validation 자동화\n\n## 요구 역량\n- C/C++ 기반 embedded 개발 경험\n- MCU, RTOS, device driver, communication protocol 이해\n- CAN, EtherCAT, SPI, I2C, UART 등 통신 경험\n- Oscilloscope, logic analyzer 기반 디버깅 경험\n- 하드웨어 팀과 협업하는 능력"
   },
   {
     "id": "figure_ai_FigureAI_2600_Software_Integration_Engineer",
@@ -308,7 +295,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Software Integration Engineer\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 게시일: 2025-11-13\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4618234006\n\n## ## ## 직무 개요\n휴머노이드 로봇의 여러 소프트웨어 모듈을 통합하고, 실제 로봇에서 안정적으로 동작하도록 검증하는 직무\nAI, controls, firmware, platform software 사이의 interface를 연결하는 역할\n\n## 주요 업무\n- 로봇 SW module integration\n- CI/test pipeline 기반 통합 검증\n- 로봇 로그 분석 및 regression 대응\n- Hardware/software interface 문제 해결\n- 배포 전 기능 검증과 품질 관리\n\n## 요구 역량\n- C++/Python, Linux 개발 경험\n- 대규모 software integration 경험\n- 로봇 또는 임베디드 시스템 debugging 경험\n- CI/CD, test automation, logging 이해\n- 여러 팀 사이의 interface를 정리하는 커뮤니케이션 능력"
+    "raw_content": "# Software Integration Engineer\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2025-11-13\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4618234006\n\n## 직무 개요\n휴머노이드 로봇의 여러 소프트웨어 모듈을 통합하고, 실제 로봇에서 안정적으로 동작하도록 검증하는 직무\nAI, controls, firmware, platform software 사이의 interface를 연결하는 역할\n\n## 주요 업무\n- 로봇 SW module integration\n- CI/test pipeline 기반 통합 검증\n- 로봇 로그 분석 및 regression 대응\n- Hardware/software interface 문제 해결\n- 배포 전 기능 검증과 품질 관리\n\n## 요구 역량\n- C++/Python, Linux 개발 경험\n- 대규모 software integration 경험\n- 로봇 또는 임베디드 시스템 debugging 경험\n- CI/CD, test automation, logging 이해\n- 여러 팀 사이의 interface를 정리하는 커뮤니케이션 능력"
   },
   {
     "id": "figure_ai_FigureAI_2600_Systems_Integration_Engineer_-_Hand_Subsystem",
@@ -319,7 +306,7 @@ const JOBS_DATA = [
       "ai"
     ],
     "is_intro": false,
-    "raw_content": "# Systems Integration Engineer - Hand Subsystem\n\n## ## ## 공고 기준\n- 회사: Figure AI\n- 게시일: 2025-10-23\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4612612006\n\n## ## ## 직무 개요\n휴머노이드 로봇 손 서브시스템을 전체 로봇 제어 stack에 통합하는 직무\n다자유도 로봇 손의 motion, sensing, control, calibration, validation을 시스템 관점에서 다루는 역할\n\n## 주요 업무\n- Multi-DOF robotic hand 통합\n- Position, torque, tactile sensor와 real-time control 연동\n- Calibration 및 end-of-line bring-up 전략 수립\n- Hand subsystem validation test plan 작성\n- Mechanical, electrical, firmware, software, AI 팀과 협업\n\n## 요구 역량\n- Robotic/electromechanical system integration 경험\n- C++/Python 기반 embedded diagnostics 경험\n- Mechanics, kinematics, controls, dynamics 이해\n- 센서 통합과 motion system tuning 경험\n- 실험 장비 기반 validation/debugging 역량"
+    "raw_content": "# Systems Integration Engineer - Hand Subsystem\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2025-10-23\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4612612006\n\n## 직무 개요\n휴머노이드 로봇 손 서브시스템을 전체 로봇 제어 stack에 통합하는 직무\n다자유도 로봇 손의 motion, sensing, control, calibration, validation을 시스템 관점에서 다루는 역할\n\n## 주요 업무\n- Multi-DOF robotic hand 통합\n- Position, torque, tactile sensor와 real-time control 연동\n- Calibration 및 end-of-line bring-up 전략 수립\n- Hand subsystem validation test plan 작성\n- Mechanical, electrical, firmware, software, AI 팀과 협업\n\n## 요구 역량\n- Robotic/electromechanical system integration 경험\n- C++/Python 기반 embedded diagnostics 경험\n- Mechanics, kinematics, controls, dynamics 이해\n- 센서 통합과 motion system tuning 경험\n- 실험 장비 기반 validation/debugging 역량"
   },
   {
     "id": "figure_ai__Figure_AI_소개",
@@ -327,7 +314,7 @@ const JOBS_DATA = [
     "title": "Figure AI 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## Figure AI 소개\n미국의 범용 휴머노이드 로봇 개발 스타트업\n(근무지: 미국 칼리포니아주 산호세 San Jose HQ)\n\n## 주요 개발 분야\n휴머노이드 로봇(Figure 시리즈), 로봇 VLM 및 시각-언어 모델, 전신 제어(Whole-body control), 액추에이터 및 하드웨어 시스템\n\n\n## 채용 프로세스\n서류전형(포트폴리오/우수성 증명) -> 리크루터 스크리닝 -> 코딩/기술 테스트 -> 직무별 기술/시스템 디자인 면접 -> 팀 컬처 및 최종 면접\n\n## 참고\nOpenAI, Microsoft, NVIDIA, Amazon 등 글로벌 빅테크들로부터 대규모 투자를 받으며 빠르게 성장 중\nOpenAI의 대형 언어/비전 모델을 이식해 인간의 자연어 명령을 이해하고 행동하는 휴머노이드 상용화 추진\n제조·물류 현장(BMW 공장 등) 투입을 시작으로 상업용 및 가정용 범용 로봇 시장 진출 목표"
+    "raw_content": "## Figure AI 소개\n미국의 범용 휴머노이드 로봇 개발 스타트업\n(근무지: 미국 칼리포니아주 산호세 San Jose HQ)\n\n## 주요 개발 분야\n휴머노이드 로봇(Figure 시리즈), 로봇 VLM 및 시각-언어 모델, 전신 제어(Whole-body control), 액추에이터 및 하드웨어 시스템\n\n## 채용 프로세스\n서류전형(포트폴리오/우수성 증명) -> 리크루터 스크리닝 -> 코딩/기술 테스트 -> 직무별 기술/시스템 디자인 면접 -> 팀 컬처 및 최종 면접\n\n## 참고\n- OpenAI, Microsoft, NVIDIA, Amazon 등 글로벌 빅테크들로부터 대규모 투자를 받으며 빠르게 성장 중\n- OpenAI의 대형 언어/비전 모델을 이식해 인간의 자연어 명령을 이해하고 행동하는 휴머노이드 상용화 추진\n- 제조·물류 현장(BMW 공장 등) 투입을 시작으로 상업용 및 가정용 범용 로봇 시장 진출 목표"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_AI_기반_로봇솔루션_SW_개발",
@@ -553,7 +540,7 @@ const JOBS_DATA = [
     "title": "HD현대로보틱스 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## HD현대로보틱스 소개\nHD현대그룹 계열의 국내 1위 산업용 로봇 및 자동화 솔루션 전문 기업\n(근무지: 경기도 성남시 분당 GRC / 대구 본사)\n\n## 주요 개발 분야\n산업용 로봇(자동차·일반 산업용), 협동로봇, FPD(디스플레이) 로봇, 로봇 제어기, 스마트 팩토리 솔루션\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접 + 인성검사 -> 2차 임원면접\n\n## 참고\n국내 산업용 로봇 시장 점유율 1위로, 자동차 제조 및 대형 자동화 라인 기반의 강력한 엔지니어링 역량 보유"
+    "raw_content": "## HD현대로보틱스 소개\nHD현대그룹 계열의 국내 1위 산업용 로봇 및 자동화 솔루션 전문 기업\n(근무지: 경기도 성남시 분당 GRC / 대구 본사)\n\n## 주요 개발 분야\n산업용 로봇(자동차·일반 산업용), 협동로봇, FPD(디스플레이) 로봇, 로봇 제어기, 스마트 팩토리 솔루션\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접 + 인성검사 -> 2차 임원면접\n\n## 참고\n- 국내 산업용 로봇 시장 점유율 1위로, 자동차 제조 및 대형 자동화 라인 기반의 강력한 엔지니어링 역량 보유"
   },
   {
     "id": "두산로보틱스__두산로보틱스_소개",
@@ -561,7 +548,7 @@ const JOBS_DATA = [
     "title": "두산로보틱스 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## 두산로보틱스 소개\n두산그룹 계열의 협동로봇 및 로보틱스 솔루션 전문 기업\n(근무지: 경기도 성남시 분당 이노베이션 센터)\n\n## 주요 개발 분야\n협동로봇(M·A·H·E 시리즈), 피지컬 AI, 실용적 휴머노이드, 서비스/F&B/산업용 로봇 솔루션\n\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n성남 분당에 국내 최대 규모 로봇 R&D 센터인 '이노베이션 센터'를 구축하여 연구 역량 집중\n로봇 자체 소프트웨어 플랫폼인 '다트스위트(Dart-Suite)' 및 AI 기반 로봇 제어 솔루션 고도화 추진"
+    "raw_content": "## 두산로보틱스 소개\n두산그룹 계열의 협동로봇 및 로보틱스 솔루션 전문 기업\n(근무지: 경기도 성남시 분당 이노베이션 센터)\n\n## 주요 개발 분야\n협동로봇(M·A·H·E 시리즈), 피지컬 AI, 실용적 휴머노이드, 서비스/F&B/산업용 로봇 솔루션\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n- 성남 분당에 국내 최대 규모 로봇 R&D 센터인 '이노베이션 센터'를 구축하여 연구 역량 집중\n- 로봇 자체 소프트웨어 플랫폼인 '다트스위트(Dart-Suite)' 및 AI 기반 로봇 제어 솔루션 고도화 추진"
   },
   {
     "id": "두산로보틱스_두산_2509_Biomechanic_Robotics_Engineering",
@@ -589,7 +576,7 @@ const JOBS_DATA = [
     "title": "로보티즈 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## 로보티즈 소개\n국내 대표 로봇 액추에이터 및 지능형 로봇 플랫폼 전문 기업\n(근무지: 서울 마곡 R&D 캠퍼스)\n\n# 주요 개발 분야\n다이내믹셀(DYNAMIXEL) 액추에이터, Physical AI, 휴머노이드, 모바일 매니퓰레이터, 로봇 핸드, 자율주행 배송로봇(개미)\n\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접 -> 2차 임원면접\n(직무에 따라 실무 면접 시 기술 과제 발표 및 과제 전형 진행)\n\n## 참고\n스마트 관절 모듈인 DYNAMIXEL(다이내믹셀) 액추에이터 글로벌 시장 점유율 독보적\nROS/ROS2 생태계 활성화 중심 기업으로, 교육용/연구용 로봇 플랫폼 인지도 및 파급력 매우 높음\n자체 개발한 배송 로봇 '개미'를 통해 실외 자율주행 로봇 상용화 선도 중"
+    "raw_content": "## 로보티즈 소개\n국내 대표 로봇 액추에이터 및 지능형 로봇 플랫폼 전문 기업\n(근무지: 서울 마곡 R&D 캠퍼스)\n\n## 주요 개발 분야\n다이내믹셀(DYNAMIXEL) 액추에이터, Physical AI, 휴머노이드, 모바일 매니퓰레이터, 로봇 핸드, 자율주행 배송로봇(개미)\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접 -> 2차 임원면접\n(직무에 따라 실무 면접 시 기술 과제 발표 및 과제 전형 진행)\n\n## 참고\n- 스마트 관절 모듈인 DYNAMIXEL(다이내믹셀) 액추에이터 글로벌 시장 점유율 독보적\n- ROS/ROS2 생태계 활성화 중심 기업으로, 교육용/연구용 로봇 플랫폼 인지도 및 파급력 매우 높음\n- 자체 개발한 배송 로봇 '개미'를 통해 실외 자율주행 로봇 상용화 선도 중"
   },
   {
     "id": "로보티즈_로보티즈_2600_AI_로봇_데이터_Curation",
@@ -846,7 +833,7 @@ const JOBS_DATA = [
     "title": "삼성전자 미로추 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## 삼성전자 DX부문 미래로봇추진단 소개\n삼성전자 미래로봇추진단은 휴머노이드를 포함한 미래 로봇 원천 기술을 연구·개발하는 전담 조직\n(근무지: 서울 우면동 서울R&D캠퍼스)\n\n## 주요 개발 분야\n휴머노이드, 지능형 자율 시스템, AI 및 로봇\n\n## 채용 프로세스\n서류전형(경력기술서, 포트폴리오) -> 전화면접 ->  기술(실무)면접 -> 인성검사\n- SW 직무의 경우 코딩테스트 실시 (AI 도구 사용 가능)\n\n## 참고\n레인보우로보틱스 보유 자회사로 보유\n레인보우로보틱스 창업자인 오준호 KAIST 명예교수 단장으로 휴머노이드로봇 개발 전담"
+    "raw_content": "## 삼성전자 DX부문 미래로봇추진단 소개\n삼성전자 미래로봇추진단은 휴머노이드를 포함한 미래 로봇 원천 기술을 연구·개발하는 전담 조직\n(근무지: 서울 우면동 서울R&D캠퍼스)\n\n## 주요 개발 분야\n휴머노이드, 지능형 자율 시스템, AI 및 로봇\n\n## 채용 프로세스\n서류전형(경력기술서, 포트폴리오) -> 전화면접 ->  기술(실무)면접 -> 인성검사\n- SW 직무의 경우 코딩테스트 실시 (AI 도구 사용 가능)\n\n## 참고\n- 레인보우로보틱스 보유 자회사로 보유\n- 레인보우로보틱스 창업자인 오준호 KAIST 명예교수 단장으로 휴머노이드로봇 개발 전담"
   },
   {
     "id": "삼성전자_미로추_삼전_2505_VLA조작모델학습",
@@ -967,7 +954,7 @@ const JOBS_DATA = [
     "title": "테슬라 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## Tesla 소개\nTesla는 자율주행과 AI 기술을 기반으로 범용 휴머노이드 로봇 Optimus(옵티머스)를 개발\n(근무지: 미국 팰로알토 HQ / 프리몬트 등)\n\n# 주요 개발 분야\n휴머노이드 로봇(Optimus), 액추에이터 및 정밀 핸드 H/W, 비전 기반 AI(FSD/Computer Vision)\n\n## 채용 프로세스\n서류전형(Evidence of Excellence/포트폴리오) -> AI/리크루터 스크리닝 -> 코딩/기술 테스트 -> 기술/시스템 디자인 면접 -> 패널 면접 및 문화적합성 검증\n\n## 참고\n자동차 제조업체를 넘어 자율주행, AI, 로보틱스 생태계를 아우르는 에코시스템 구축 중\n테슬라의 FSD(Full Self-Driving) 신경망 AI 기술 및 자체 설계 칩(FSD Chip)을 옵티머스 뇌로 이식해 활용"
+    "raw_content": "## Tesla 소개\nTesla는 자율주행과 AI 기술을 기반으로 범용 휴머노이드 로봇 Optimus(옵티머스)를 개발\n(근무지: 미국 팰로알토 HQ / 프리몬트 등)\n\n## 주요 개발 분야\n휴머노이드 로봇(Optimus), 액추에이터 및 정밀 핸드 H/W, 비전 기반 AI(FSD/Computer Vision)\n\n## 채용 프로세스\n서류전형(Evidence of Excellence/포트폴리오) -> AI/리크루터 스크리닝 -> 코딩/기술 테스트 -> 기술/시스템 디자인 면접 -> 패널 면접 및 문화적합성 검증\n\n## 참고\n- 자동차 제조업체를 넘어 자율주행, AI, 로보틱스 생태계를 아우르는 에코시스템 구축 중\n- 테슬라의 FSD(Full Self-Driving) 신경망 AI 기술 및 자체 설계 칩(FSD Chip)을 옵티머스 뇌로 이식해 활용"
   },
   {
     "id": "테슬라_테슬라_2600_AI_Engineer__Manipulation__Optimus",
@@ -1037,7 +1024,7 @@ const JOBS_DATA = [
     "title": "한화로보틱스 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## 한화로보틱스 소개\n한화그룹의 협동로봇 및 스마트 물류 자동화 전담 계열사\n(근무지: 경기도 성남시 판교)\n\n\n# 주요 개발 분야\n협동로봇(HCR 시리즈), 자율주행 모빌리티(AGV/AMR), 푸드테크 및 서비스 로봇\n\n\n## 채용 프로세스\n서류전형(자기소개서/포트폴리오) -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n그룹 차원의 지원 및 투자 진행 중 (한화그룹 3남 김동선 부사장이 미래비전총괄 담당)"
+    "raw_content": "## 한화로보틱스 소개\n한화그룹의 협동로봇 및 스마트 물류 자동화 전담 계열사\n(근무지: 경기도 성남시 판교)\n\n\n## 주요 개발 분야\n협동로봇(HCR 시리즈), 자율주행 모빌리티(AGV/AMR), 푸드테크 및 서비스 로봇\n\n## 채용 프로세스\n서류전형(자기소개서/포트폴리오) -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n- 그룹 차원의 지원 및 투자 진행 중 (한화그룹 3남 김동선 부사장이 미래비전총괄 담당)"
   },
   {
     "id": "한화로보틱스_한화_2502_모바일_로봇_SW_경력_엔지니어",
@@ -1079,7 +1066,7 @@ const JOBS_DATA = [
     "title": "현차 로보틱스랩 소개",
     "tags": [],
     "is_intro": true,
-    "raw_content": "## 현대차그룹 로보틱스랩 소개\n현대차그룹의 로봇 R&D 전담 연구소 \n(근무지: 의왕)\n\n## 주요 개발 분야\n서비스 로봇, 모바일 로봇, 웨어러블, 휴머노이드, 매니퓰레이터\n\n\n## 채용 프로세스\n취업프로세스 : 서류 - 실무면접 + 인성검사 - 인성면접\n\n## 참고\nBoston Dynamics 자회사로 보유"
+    "raw_content": "## 현대차그룹 로보틱스랩 소개\n현대차그룹의 로봇 R&D 전담 연구소 \n(근무지: 의왕)\n\n## 주요 개발 분야\n서비스 로봇, 모바일 로봇, 웨어러블, 휴머노이드, 매니퓰레이터\n\n## 채용 프로세스\n취업프로세스 : 서류 - 실무면접 + 인성검사 - 인성면접\n\n## 참고\n- Boston Dynamics 자회사로 보유"
   },
   {
     "id": "현차_로보틱스랩_현차_2400_Learning-based_Manipulation",
@@ -1294,5 +1281,27 @@ const JOBS_DATA = [
     ],
     "is_intro": false,
     "raw_content": "# 직무상세\n로봇 제품의 사업화 및 서비스 안정성 확보 목표 달성을 위해 확장/재사용 가능한 SW 아키텍처를 설계하고, SW 개발 실무와 함께 품질, 배포, 운영 전반의 엔지니어링 체계를 고도화하는 업무를 수행합니다.\n\n■ SW 아키텍처 설계 및 고도화\n* 로봇 미들웨어 아키텍처 개발\n  - 재사용성과 확장성을 고려한 시스템 아키텍처 설계\n  - 다양한 로봇 HW 플랫폼에 공통 적용 가능한 미들웨어 레이어 설계\n  - 하드웨어 추상화(HAL) 기반으로 플랫폼 독립성 확보\n  - ROS2 / DDS 기반 미들웨어 프레임워크를 활용한 노드 간 통신 구조 설계\n  - 핵심 컴포넌트 및 인터페이스 정의 및 문서화 (Doxygen, Sphinx 등)\n\n■ 플랫폼 구조 설계 및 구현\n* 로봇 플랫폼 구조 설계 및 구현\n  - 핵심 아키텍처를 기반으로 C++/Python 등을 활용한 실제 플랫폼 코드 구현\n  - 로봇 SDK-API 개발 및 문서화, 샘플 코드 및 튜토리얼 개발\n  - 로봇 상태 모니터링, 이상 감지 및 복구, OTA, 다중 프로세스 동기화, 로깅, 보안 등 리눅스 기반 모듈 개발\n\n■ 품질, 배포, 운영 체계 구축\n* SW 품질 보증 및 CI/CD 동기화\n  - 단위테스트, 통합테스트, 시스템 테스트 및 자동화 프레임워크 개발 및 테스트 커버리지 확대\n  - CI/CD 파이프라인 구축 및 프로덕션 배포 자동화, 서비스 런칭 및 안정화\n\n# 지원자격\n* 컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 학사 이상의 학위를 보유하신 분\n* 8년 이상의 실 서비스 또는 제품 환경에서 SW 설계, 개발, QA/QC, 배포, 운영 경력을 보유하신 분\n* 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n* ROS2 또는 로보틱스 관련 오픈소스 활용 및 개선 경험을 보유하신 분\n* 레거시 시스템의 구조 개선 또는 아키텍처 고도화 경험을 보유하신 분\n* 재사용 가능한 공통 SW 구조 또는 플랫폼 설계 경험을 보유하신 분\n* Yocto, Ubuntu, Embedded Linux 환경과 연계한 개발 경험을 보유하신 분\n* C++, Python 사용 경험을 보유하신 분\n* Linux 환경에서의 개발, 디버깅, 운영 경험을 보유하신 분\n* CI/CD, 테스트 자동화, 로그 수집, 모니터링 도구 활용 경험을 보유하신 분\n\n# 우대사항\n* 컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 석사 이상의 학위를 보유하신 분\n* 영어 기술 문서 작성, 영문 보고서 작성, 영어 회의 진행이 가능한 수준의 영어 활용 역량을 보유하신 분\n* 로봇 제품 또는 서비스의 상용화 경험을 보유하신 분\n* 대규모 플랫폼 SW 또는 공통 프레임워크 설계 경험을 보유하신 분\n* 모니터링, 로깅, OTA, DevOps, 테스트 자동화 체계 구축 경험을 보유하신 분\n* 오픈소스 프로젝트 기여 경험을 보유하신 분\n* 팀 또는 조직 단위의 개발 프로세스 표준화 경험을 보유하신 분\n* 클라우드 서버 환경에서 서비스 배포, 운영 또는 시스템 연계 경험을 보유하신 분\n* 정보보안, 클라우드, 시스템 아키텍처 관련 자격증을 보유하신 분\n* Jenkins, GitHub Actions 등 CI/CD 도구 활용 경험을 보유하신 분\n* 로그, 메트릭, 정적 분석, 보안 점검 도구 활용 경험을 보유하신 분\n* AWS, Azure, GCP 등 클라우드 서버 환경 활용 경험을 보유하신 분"
+  },
+  {
+    "id": "현차_로보틱스랩_현차_2606_Learning-based_Bi-Manipulator_Control",
+    "company": "현차 로보틱스랩",
+    "title": "2606_Learning-based Bi-Manipulator Control",
+    "tags": [
+      "ai",
+      "control"
+    ],
+    "is_intro": false,
+    "raw_content": "- Until hiring 2026-06-01 09:00 ~ Until hiring\n\n## Who we are\nThe Robotics Lab brings together a diverse group of experts from various fields for the development of products based on robotics technologies. The Robotics Lab aims to develop technologies that provide a wide range of services in spaces where robots can coexist and work together with humans.\n\nUnder the Robotics Lab, we are a team that focuses on the control and design of medical and industrial wearable robots, as well as articulated robots, and we carry out a wide range of tasks from early-stage research to mass production.\n\n\n## Responsibilities\nIn this role, we are developing and researching reinforcement/imitation learning-based control for precise task execution by a bi-manipulator robot in unstructured tasks.\n\n■ Learning-based Robot Control\n　· Control and simulation for a perceptive bi-manipulator\n　· Developing behavior control and motion planning algorithms based on reinforcement learning/imitation learning\n\n■ Control Programming\n　· Programming real-time robot control algorithms\n　· Programming simulation for machine learning\n　· Optimizing algorithms for faster computation\n\n■ System Programming\n　· Developing system-level control and wired/wireless communication systems\n　· Understanding and implementing CANopen and EtherCAT communication system\n\n## Minimum qualifications\n· Master's degree in mechanical engineering/electrical/electronic engineering/robotics engineering\n· Minimum 5 years of experience in following:\n　- Learning-based manipulator control and motion planning\n　- Sim-to-Real development and implementations for robotics hardware\n· Proficiency in English (fluent in both written and oral business communication\n· Proficiency in C/C++/Python/MATLAB\n\n## Preferred qualifications\n· Ph.D in mechanical engineering/electrical/electronic engineering/robotics engineering\n· Those who have experience in robotics, reinforcement/imitation learning-based control\n· Proficiency in Real-Time Linux, EtherCAT, Learning Framework, and Python or C++\n\n## Process\n1. Applications\n2. Review\n3. Interviews (Personality Test)\n4. Physical Examinations\n5. Acceptance\n\n\n## Others\n[Notes]\n· In accordance with the employment protection laws, eligible candidates (disabled individuals, veterans, etc.) will receive preferential benefits during the process.\n· Applications are accepted only through the Hyundai Motor Company career page, and any other methods are not allowed.\n· The recruitment process may differ based on the timeline of the application submission, and the job post may close early if the position is filled.\n· Additional assignments may be given during the interview rounds, if necessary.\n· The recruitment schedule may be adjusted depending on the progress of the recruitment process.\n· The expected position level specified in the job description may change based on each individual's experience and evaluation results.\n· For any inquiries on recruitment, please refer to the [FAQs] or submit a ticket through '1:1 Inquiries' on our webpage.\n\n[Precautions]\n· If any of the following conditions apply, your acceptance may be revoked, or you may be subject to disadvantages in the selection process: \n　- If the information submitted during the recruitment process (including the application form) differs or cannot be proven in documentation\n　- If you are ineligible to work under company regulations\n　- If you are ineligible to travel abroad (for men, Korean nationals who have not completed military service or are not exempt from military service by the joining date)\n　- If you are unable to join the company on the start date designated by the company upon receiving the final offer\n· Our company respects the trade secrets of third parties and strives to comply with relevant laws and regulations, such as The Unfair Competition Prevention and Trade Secret Protection Act. Please be careful not to disclose any confidential information related to your former/current workplace or to violate the confidentiality obligation of your former/current workplace, during the recruitment process. Violation may result in disadvantage in the recruitment process."
+  },
+  {
+    "id": "현차_로보틱스랩_현차_2608_모바일로봇_임베디드직무_글로벌_채용전환형_인턴십",
+    "company": "현차 로보틱스랩",
+    "title": "2608_모바일로봇_임베디드직무_글로벌 채용전환형 인턴십",
+    "tags": [
+      "embedded",
+      "hardware"
+    ],
+    "is_intro": false,
+    "raw_content": "- Until hiring 2026-07-20 17:00 ~ Until hiring\n\n## 조직소개\n우리 조직은 로보틱스 기술의 핵심 분야인 로봇 제어 시스템 개발 및 연구 전문성을 바탕으로, 제품화를 위한 연구개발 업무를 수행합니다.\n\n## 직무상세\n모바일 로봇의 제어기와 모터드라이버의 전기·전자 하드웨어를 설계하고, 기능안전 요구사항을 반영한 HW 아키텍처와 전장 시스템을 구현하는 역할을 담당합니다. 전력 공급, 통신, 하네스, 충전 및 페이로드 인터페이스를 포함한 전장 시스템 전반을 설계하고, EMC 및 전기 시험을 통해 실제 제품 적용이 가능한 신뢰성 높은 전장 플랫폼을 개발합니다.\n\n또한 모바일 로봇의 주행과 구동을 위한 제어 시스템을 설계하고, 기능안전 아키텍처와 안전 기능을 구현하는 역할을 담당합니다. 제어기와 모터 제어 로직을 중심으로 통신, 전력 관리, 안전 개념을 통합한 시스템을 개발하며, 요구사항 정의부터 기능 구현, 검증, 인증 대응까지 수행하여 안정적이고 신뢰성 높은 제어 시스템을 완성합니다.\n\n■ 제어기 및 모터드라이버 회로 설계/개발\n　· 제어기 및 모터드라이버의 핵심 회로를 설계하고 검증합니다.\n　　- 제어기 및 모터드라이버 회로 설계, 부품 선정 및 회로 검증 수행\n　　- 통신 및 전력 관리 회로 설계\n　　- 회로 설계 산출물 작성 및 설계 개선 수행\n　　- 설계 검토, 부품 적용성 검토 및 하드웨어 안정성 확보\n\n■ 기능안전 HW 아키텍처 설계\n　· 기능안전 요구사항을 반영한 하드웨어 구조를 설계합니다.\n　　- 기능안전 요구사항 분석 및 HW 아키텍처 설계\n　　- 안전 목표 달성을 위한 회로 구조 검토\n　　- 기능안전 관련 기술 문서 작성 및 설계 산출물 관리\n　　- 안전성 확보를 위한 하드웨어 검증 수행\n\n■ 전장 시스템 및 인터페이스 설계\n　· 제품 내·외부 전장 시스템과 인터페이스를 설계합니다.\n　　- 하네스, 충전기, 페이로드 등 전장 시스템 설계\n　　- 전장품 간 인터페이스 정의 및 연결 구조 검토\n　　- 전력 전달, 신호 무결성, 설치성 등을 고려한 전장 설계 수행\n　　- 전장 관련 도면, 명세서 및 인터페이스 문서 작성\n\n■ 제어기 및 모터 제어 시스템 개발\n　· 로봇의 핵심 제어 시스템과 모터 제어 기능을 개발합니다.\n　　- 제어기 시스템 요구사항 정의 및 기능 설계\n　　- 모터 제어 로직 및 관련 시스템 기능 개발\n　　- 통신 및 전력 관리 기능 설계와 시스템 연동 검토\n　　- 시스템 기능 검증 및 성능 개선 수행\n\n■ 기능안전 아키텍처 설계\n　· 기능안전 요구사항을 반영한 시스템 구조와 소프트웨어 아키텍처를 설계합니다.\n　　- 기능안전 요구사항 분석 및 아키텍처 설계\n　　- 안전 개념 반영을 위한 시스템 구조 검토\n　　- 기능안전 대응을 위한 설계 문서 작성 및 관리\n　　- 안전 목표 기반 설계 검증 수행\n\n## 지원자격\n·'27년 6월 이내 해외대 학/석사 졸업 예정이거나 기졸업하신 분\n· 전자공학/전기공학/컴퓨터공학/소프트웨어/로봇공학/인공지능/제어공학 관련 전공하신 분\n· 원어민 수준의 한국어, 영어 커뮤니케이션이 가능하신 분\n· '26년 이내 인턴 실습 가능하신 분\n· 인턴 실습을 위한 체류자격 보유 및 추후 E-7 비자 발급에 결격 사유가 없는 분\n· 해외여행에 결격 사유가 없는 분 (병역필 또는 비대상/면제자 등)\n\n## 우대사항\n· 회로 설계, 임베디드 시스템, 제어 시스템, 기능안전 관련 프로젝트 수행 경험을 보유하신 분\n· 모터 제어, 전력 관리, 통신 인터페이스 관련 개발 경험을 보유하신 분\n· 기능안전 관련 표준 또는 인증 대응 경험을 보유하신 분\n· EMC/전기 시험, 하드웨어 검증 또는 시스템 검증 경험을 보유하신 분\n· C/C++, Python, MATLAB/Simulink 등 개발 및 검증 도구 활용이 가능하신 분\n· 회로 설계 툴, 형상관리 도구, 이슈 관리 도구 사용 경험이 있으신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형/인성검사\n4. 인턴 실습 (5주)\n5. 최종합격\n6. 채용검진\n7. 입사\n\n## 기타\n[전형 안내]\n· 면접전형은 영어로 진행 예정입니다.\n· 동일 기간동안 진행 중인 신입/인턴 채용 공고에 중복으로 지원할 수 없습니다.\n· 접수 기간이 종료되지 않은 공고에 지원 중인 경우, 지원서 제출을 취소하시면 다른 공고에 지원 가능합니다.\n· 진행 중인 전형 단계에서 불합격하신 경우, 다른 공고에 지원하실 수 있습니다.\n\n[지원자 참고사항]\n· 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n· 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n· 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n· 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n· 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n· 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n[기타 유의사항]\n· 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n　- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우  \n　- 회사 내규 상 정상근무가 불가능할 경우\n　- 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n　- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n· 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
   }
 ];

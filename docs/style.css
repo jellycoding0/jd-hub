@@ -536,7 +536,7 @@ body {
     top: 0;
     right: 0;
     width: 100%;
-    max-width: 750px;
+    max-width: 1200px;
     height: 100%;
     background: var(--bg-surface);
     box-shadow: -10px 0 40px rgba(0, 0, 0, 0.6);

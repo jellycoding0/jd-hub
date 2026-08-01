@@ -28,6 +28,12 @@ const statJds = document.getElementById('stat-jds');
 
 // Initialize Dashboard
 document.addEventListener('DOMContentLoaded', () => {
+    // Enable single line breaks in markdown rendering (\n -> <br>)
+    marked.setOptions({
+        breaks: true,
+        gfm: true
+    });
+
     initFilters();
     renderJobs();
     updateGlobalStats();
