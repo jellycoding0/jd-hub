@@ -110,6 +110,9 @@ function initFilters() {
     // Render Company Checkboxes
     companyFilterList.innerHTML = '';
     Object.keys(companies).sort().forEach(companyName => {
+        // Skip "학습 가이드" from the company filter list
+        if (companyName === "학습 가이드") return;
+
         const item = document.createElement('label');
         item.className = 'company-item';
         item.innerHTML = `
@@ -135,6 +138,9 @@ function initFilters() {
     // Sort tags by frequency
     const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a]);
     sortedTags.forEach(tagName => {
+        // Skip system tags for guide and lecture
+        if (tagName === "guide" || tagName === "lecture") return;
+
         const badge = document.createElement('span');
         badge.className = 'tag-badge';
         badge.textContent = `${tagName} (${tags[tagName]})`;

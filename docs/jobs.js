@@ -3,7 +3,7 @@ const JOBS_DATA = [
   {
     "id": "1x_technologies_1X_2600_AI_Researcher_-_Reinforcement_Learning",
     "company": "1X Technologies",
-    "title": "2600_AI Researcher - Reinforcement Learning",
+    "title": "2600 AI Researcher - Reinforcement Learning",
     "tags": [
       "ai"
     ],
@@ -16,7 +16,7 @@ const JOBS_DATA = [
   {
     "id": "1x_technologies_1X_2600_Electrical_Engineer_-_Actuators_and_Drives",
     "company": "1X Technologies",
-    "title": "2600_Electrical Engineer - Actuators and Drives",
+    "title": "2600 Electrical Engineer - Actuators and Drives",
     "tags": [
       "control",
       "embedded"
@@ -30,7 +30,7 @@ const JOBS_DATA = [
   {
     "id": "1x_technologies_1X_2600_Software_Engineer_-_Operating_Systems",
     "company": "1X Technologies",
-    "title": "2600_Software Engineer - Operating Systems",
+    "title": "2600 Software Engineer - Operating Systems",
     "tags": [
       "embedded"
     ],
@@ -43,7 +43,7 @@ const JOBS_DATA = [
   {
     "id": "1x_technologies_1X_2600_Software_Engineer_-_Simulation",
     "company": "1X Technologies",
-    "title": "2600_Software Engineer - Simulation",
+    "title": "2600 Software Engineer - Simulation",
     "tags": [
       "control",
       "ai"
@@ -57,7 +57,7 @@ const JOBS_DATA = [
   {
     "id": "1x_technologies_1X_2600_Tactile_Sensing_Research_Engineer",
     "company": "1X Technologies",
-    "title": "2600_Tactile Sensing Research Engineer",
+    "title": "2600 Tactile Sensing Research Engineer",
     "tags": [
       "autonomous-driving",
       "hardware"
@@ -71,7 +71,7 @@ const JOBS_DATA = [
   {
     "id": "1x_technologies_1X_2600_Test___Validation_Engineer_-_Motors_and_Actuators",
     "company": "1X Technologies",
-    "title": "2600_Test & Validation Engineer - Motors and Actuators",
+    "title": "2600 Test & Validation Engineer - Motors and Actuators",
     "tags": [
       "hardware"
     ],
@@ -95,7 +95,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Robotics_Software_Engineer_II",
     "company": "Agility Robotics",
-    "title": "2600_Robotics Software Engineer II",
+    "title": "2600 Robotics Software Engineer II",
     "tags": [
       "embedded"
     ],
@@ -108,7 +108,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Senior_Software_Engineer__Navigation",
     "company": "Agility Robotics",
-    "title": "2600_Senior Software Engineer, Navigation",
+    "title": "2600 Senior Software Engineer, Navigation",
     "tags": [
       "autonomous-driving"
     ],
@@ -121,7 +121,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Senior_Staff_Software_Engineer__Motion_Planning",
     "company": "Agility Robotics",
-    "title": "2600_Senior Staff Software Engineer, Motion Planning",
+    "title": "2600 Senior Staff Software Engineer, Motion Planning",
     "tags": [
       "control"
     ],
@@ -134,7 +134,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Staff_AI_Engineer__Perception",
     "company": "Agility Robotics",
-    "title": "2600_Staff AI Engineer, Perception",
+    "title": "2600 Staff AI Engineer, Perception",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -148,7 +148,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Staff_AI_Research_Engineer",
     "company": "Agility Robotics",
-    "title": "2600_Staff AI Research Engineer",
+    "title": "2600 Staff AI Research Engineer",
     "tags": [
       "ai"
     ],
@@ -161,7 +161,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Staff_Firmware_Engineer",
     "company": "Agility Robotics",
-    "title": "2600_Staff Firmware Engineer",
+    "title": "2600 Staff Firmware Engineer",
     "tags": [
       "embedded"
     ],
@@ -174,7 +174,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Staff_Robotics_Software_Engineer__Robot_Behaviors",
     "company": "Agility Robotics",
-    "title": "2600_Staff Robotics Software Engineer, Robot Behaviors",
+    "title": "2600 Staff Robotics Software Engineer, Robot Behaviors",
     "tags": [
       "control"
     ],
@@ -187,7 +187,7 @@ const JOBS_DATA = [
   {
     "id": "agility_robotics_Agility_2600_Staff_Systems_Engineer__Functional_Safety",
     "company": "Agility Robotics",
-    "title": "2600_Staff Systems Engineer, Functional Safety",
+    "title": "2600 Staff Systems Engineer, Functional Safety",
     "tags": [
       "hardware"
     ],
@@ -211,7 +211,7 @@ const JOBS_DATA = [
   {
     "id": "boston_dynamics_BostonDynamics_2600_Controls_Software_Engineer__Atlas",
     "company": "Boston Dynamics",
-    "title": "2600_Controls Software Engineer, Atlas",
+    "title": "2600 Controls Software Engineer, Atlas",
     "tags": [
       "control"
     ],
@@ -224,7 +224,7 @@ const JOBS_DATA = [
   {
     "id": "boston_dynamics_BostonDynamics_2600_Robotics_Engineer_-_Software_and_Controls",
     "company": "Boston Dynamics",
-    "title": "2600_Robotics Engineer - Software and Controls",
+    "title": "2600 Robotics Engineer - Software and Controls",
     "tags": [
       "control"
     ],
@@ -237,7 +237,7 @@ const JOBS_DATA = [
   {
     "id": "boston_dynamics_BostonDynamics_2600_Software_Engineer_in_Automation__Humanoid_Robotics",
     "company": "Boston Dynamics",
-    "title": "2600_Software Engineer in Automation, Humanoid Robotics",
+    "title": "2600 Software Engineer in Automation, Humanoid Robotics",
     "tags": [
       "embedded"
     ],
@@ -261,7 +261,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Perception",
     "company": "Figure AI",
-    "title": "2600_Helix AI Engineer, Perception",
+    "title": "2600 Helix AI Engineer, Perception",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -275,7 +275,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Reinforcement_Learning",
     "company": "Figure AI",
-    "title": "2600_Helix AI Engineer, Reinforcement Learning",
+    "title": "2600 Helix AI Engineer, Reinforcement Learning",
     "tags": [
       "ai"
     ],
@@ -288,7 +288,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Robot_Learning",
     "company": "Figure AI",
-    "title": "2600_Helix AI Engineer, Robot Learning",
+    "title": "2600 Helix AI Engineer, Robot Learning",
     "tags": [
       "ai"
     ],
@@ -301,7 +301,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Mechanical_Engineer_-_Hands",
     "company": "Figure AI",
-    "title": "2600_Mechanical Engineer - Hands",
+    "title": "2600 Mechanical Engineer - Hands",
     "tags": [
       "ai",
       "hardware"
@@ -315,7 +315,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Power_Electronics_Engineer__Charging",
     "company": "Figure AI",
-    "title": "2600_Power Electronics Engineer, Charging",
+    "title": "2600 Power Electronics Engineer, Charging",
     "tags": [
       "ai",
       "hardware"
@@ -329,7 +329,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Robot_Operations_Manager",
     "company": "Figure AI",
-    "title": "2600_Robot Operations Manager",
+    "title": "2600 Robot Operations Manager",
     "tags": [
       "ai",
       "product"
@@ -343,7 +343,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Robotics_Integration_Engineer",
     "company": "Figure AI",
-    "title": "2600_Robotics Integration Engineer",
+    "title": "2600 Robotics Integration Engineer",
     "tags": [
       "embedded",
       "ai"
@@ -357,7 +357,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Senior_Firmware_Engineer",
     "company": "Figure AI",
-    "title": "2600_Senior Firmware Engineer",
+    "title": "2600 Senior Firmware Engineer",
     "tags": [
       "embedded",
       "ai"
@@ -371,7 +371,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Software_Integration_Engineer",
     "company": "Figure AI",
-    "title": "2600_Software Integration Engineer",
+    "title": "2600 Software Integration Engineer",
     "tags": [
       "embedded",
       "ai"
@@ -385,7 +385,7 @@ const JOBS_DATA = [
   {
     "id": "figure_ai_FigureAI_2600_Systems_Integration_Engineer_-_Hand_Subsystem",
     "company": "Figure AI",
-    "title": "2600_Systems Integration Engineer - Hand Subsystem",
+    "title": "2600 Systems Integration Engineer - Hand Subsystem",
     "tags": [
       "embedded",
       "ai"
@@ -410,7 +410,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_AI_기반_로봇솔루션_SW_개발",
     "company": "HD현대로보틱스",
-    "title": "2502_AI 기반 로봇솔루션 SW 개발",
+    "title": "2502 AI 기반 로봇솔루션 SW 개발",
     "tags": [
       "ai"
     ],
@@ -423,7 +423,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_AI_기반_모션생성_알고리듬",
     "company": "HD현대로보틱스",
-    "title": "2502_AI 기반 모션생성 알고리듬",
+    "title": "2502 AI 기반 모션생성 알고리듬",
     "tags": [
       "control",
       "ai"
@@ -437,7 +437,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_Unity_기반_로봇_OLP_SW",
     "company": "HD현대로보틱스",
-    "title": "2502_Unity 기반 로봇 OLP SW",
+    "title": "2502 Unity 기반 로봇 OLP SW",
     "tags": [
       "embedded"
     ],
@@ -450,7 +450,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_기구설계",
     "company": "HD현대로보틱스",
-    "title": "2502_기구설계",
+    "title": "2502 기구설계",
     "tags": [
       "hardware"
     ],
@@ -463,7 +463,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_기구양산설계",
     "company": "HD현대로보틱스",
-    "title": "2502_기구양산설계",
+    "title": "2502 기구양산설계",
     "tags": [
       "hardware"
     ],
@@ -476,7 +476,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_동작제어_SW__모션제어_",
     "company": "HD현대로보틱스",
-    "title": "2502_동작제어 SW (모션제어)",
+    "title": "2502 동작제어 SW (모션제어)",
     "tags": [
       "control"
     ],
@@ -489,7 +489,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_공통_SW",
     "company": "HD현대로보틱스",
-    "title": "2502_로봇 공통 SW",
+    "title": "2502 로봇 공통 SW",
     "tags": [
       "embedded"
     ],
@@ -502,7 +502,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_모션_제어",
     "company": "HD현대로보틱스",
-    "title": "2502_로봇 모션 제어",
+    "title": "2502 로봇 모션 제어",
     "tags": [
       "control"
     ],
@@ -515,7 +515,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_비전_알고리듬",
     "company": "HD현대로보틱스",
-    "title": "2502_로봇 비전 알고리듬",
+    "title": "2502 로봇 비전 알고리듬",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -529,7 +529,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_서보_제어_FW",
     "company": "HD현대로보틱스",
-    "title": "2502_로봇 서보 제어 FW",
+    "title": "2502 로봇 서보 제어 FW",
     "tags": [
       "control",
       "embedded"
@@ -543,7 +543,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_응용_SW",
     "company": "HD현대로보틱스",
-    "title": "2502_로봇 응용 SW",
+    "title": "2502 로봇 응용 SW",
     "tags": [
       "embedded"
     ],
@@ -556,7 +556,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_제어기_설계",
     "company": "HD현대로보틱스",
-    "title": "2502_로봇 제어기 설계",
+    "title": "2502 로봇 제어기 설계",
     "tags": [
       "control"
     ],
@@ -569,7 +569,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇시스템_전장_HW",
     "company": "HD현대로보틱스",
-    "title": "2502_로봇시스템 전장 HW",
+    "title": "2502 로봇시스템 전장 HW",
     "tags": [
       "hardware"
     ],
@@ -582,7 +582,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_생성형_AI_기반_로봇응용_SW",
     "company": "HD현대로보틱스",
-    "title": "2502_생성형 AI 기반 로봇응용 SW",
+    "title": "2502 생성형 AI 기반 로봇응용 SW",
     "tags": [
       "ai"
     ],
@@ -595,7 +595,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_센서_퓨전_AI",
     "company": "HD현대로보틱스",
-    "title": "2502_센서 퓨전 AI",
+    "title": "2502 센서 퓨전 AI",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -609,7 +609,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_신뢰성해석",
     "company": "HD현대로보틱스",
-    "title": "2502_신뢰성해석",
+    "title": "2502 신뢰성해석",
     "tags": [
       "hardware"
     ],
@@ -622,7 +622,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_자동화솔루션_기구개발_설계",
     "company": "HD현대로보틱스",
-    "title": "2502_자동화솔루션 기구개발 설계",
+    "title": "2502 자동화솔루션 기구개발 설계",
     "tags": [
       "hardware"
     ],
@@ -635,7 +635,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_자동화솔루션_전장_제어_설계",
     "company": "HD현대로보틱스",
-    "title": "2502_자동화솔루션 전장 제어 설계",
+    "title": "2502 자동화솔루션 전장 제어 설계",
     "tags": [
       "control",
       "hardware"
@@ -649,7 +649,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_제어기_RTOS",
     "company": "HD현대로보틱스",
-    "title": "2502_제어기 RTOS",
+    "title": "2502 제어기 RTOS",
     "tags": [
       "control",
       "embedded"
@@ -663,7 +663,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_제어기_인터페이스_SW",
     "company": "HD현대로보틱스",
-    "title": "2502_제어기 인터페이스 SW",
+    "title": "2502 제어기 인터페이스 SW",
     "tags": [
       "control",
       "embedded"
@@ -677,7 +677,7 @@ const JOBS_DATA = [
   {
     "id": "hd현대로보틱스_HD현대_2502_하네스_설계",
     "company": "HD현대로보틱스",
-    "title": "2502_하네스 설계",
+    "title": "2502 하네스 설계",
     "tags": [
       "hardware"
     ],
@@ -712,7 +712,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2509_Biomechanic_Robotics_Engineering",
     "company": "두산로보틱스",
-    "title": "2509_Biomechanic Robotics Engineering",
+    "title": "2509 Biomechanic Robotics Engineering",
     "tags": [
       "hardware"
     ],
@@ -725,7 +725,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2607_Robot_Control_Engineer",
     "company": "두산로보틱스",
-    "title": "2607_Robot Control Engineer",
+    "title": "2607 Robot Control Engineer",
     "tags": [
       "control",
       "embedded"
@@ -739,7 +739,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_AI___Robotics_Security_Engineer",
     "company": "두산로보틱스",
-    "title": "2608_AI & Robotics Security Engineer",
+    "title": "2608 AI & Robotics Security Engineer",
     "tags": [
       "ai"
     ],
@@ -752,7 +752,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_Robotics_DevOps_Engineer_",
     "company": "두산로보틱스",
-    "title": "2608_Robotics DevOps Engineer",
+    "title": "2608 Robotics DevOps Engineer",
     "tags": [
       "ai",
       "embedded"
@@ -766,7 +766,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_Robotics_Mechanical_Engineer",
     "company": "두산로보틱스",
-    "title": "2608_Robotics Mechanical Engineer",
+    "title": "2608 Robotics Mechanical Engineer",
     "tags": [
       "hardware"
     ],
@@ -779,7 +779,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_로봇_임베디드_SW_개발자",
     "company": "두산로보틱스",
-    "title": "2608_로봇 임베디드 SW 개발자",
+    "title": "2608 로봇 임베디드 SW 개발자",
     "tags": [
       "embedded",
       "hardware"
@@ -793,7 +793,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_로봇_컨트롤_엔지니어",
     "company": "두산로보틱스",
-    "title": "2608_로봇 컨트롤 엔지니어",
+    "title": "2608 로봇 컨트롤 엔지니어",
     "tags": [
       "control"
     ],
@@ -806,7 +806,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_로봇_프레임워크_개발자_Linux_",
     "company": "두산로보틱스",
-    "title": "2608_로봇 프레임워크 개발자(Linux)",
+    "title": "2608 로봇 프레임워크 개발자(Linux)",
     "tags": [
       "embedded",
       "hardware"
@@ -820,7 +820,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_모션플래닝_엔지니어_",
     "company": "두산로보틱스",
-    "title": "2608_모션플래닝 엔지니어",
+    "title": "2608 모션플래닝 엔지니어",
     "tags": [
       "control"
     ],
@@ -833,7 +833,7 @@ const JOBS_DATA = [
   {
     "id": "두산로보틱스_두산_2608_응용모션_개발자",
     "company": "두산로보틱스",
-    "title": "2608_응용모션 개발자",
+    "title": "2608 응용모션 개발자",
     "tags": [
       "control"
     ],
@@ -857,7 +857,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_AI_로봇_데이터_Curation",
     "company": "로보티즈",
-    "title": "2600_AI 로봇 데이터 Curation",
+    "title": "2600 AI 로봇 데이터 Curation",
     "tags": [
       "ai"
     ],
@@ -870,7 +870,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_HD_Map",
     "company": "로보티즈",
-    "title": "2600_HD Map",
+    "title": "2600 HD Map",
     "tags": [
       "autonomous-driving"
     ],
@@ -883,7 +883,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_로봇_주행지도_Map_",
     "company": "로보티즈",
-    "title": "2600_로봇 주행지도(Map)",
+    "title": "2600 로봇 주행지도(Map)",
     "tags": [
       "autonomous-driving"
     ],
@@ -896,7 +896,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_로봇_플랫폼_기구설계",
     "company": "로보티즈",
-    "title": "2600_로봇 플랫폼 기구설계",
+    "title": "2600 로봇 플랫폼 기구설계",
     "tags": [
       "hardware"
     ],
@@ -909,7 +909,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_로봇용_액추에이터_기구설계_및_감속기_개발",
     "company": "로보티즈",
-    "title": "2600_로봇용 액추에이터 기구설계 및 감속기 개발",
+    "title": "2600 로봇용 액추에이터 기구설계 및 감속기 개발",
     "tags": [
       "hardware"
     ],
@@ -922,7 +922,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_Sim-to-Real",
     "company": "로보티즈",
-    "title": "2600_배송로봇 Manipulation Sim-to-Real",
+    "title": "2600 배송로봇 Manipulation Sim-to-Real",
     "tags": [
       "control",
       "ai"
@@ -936,7 +936,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_VLA_RFM_선행",
     "company": "로보티즈",
-    "title": "2600_배송로봇 Manipulation VLA RFM 선행",
+    "title": "2600 배송로봇 Manipulation VLA RFM 선행",
     "tags": [
       "control",
       "ai"
@@ -950,7 +950,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_배송로봇_매니퓰레이터_제어_시스템",
     "company": "로보티즈",
-    "title": "2600_배송로봇 매니퓰레이터 제어 시스템",
+    "title": "2600 배송로봇 매니퓰레이터 제어 시스템",
     "tags": [
       "control"
     ],
@@ -963,7 +963,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_서비스_및_인프라_웹",
     "company": "로보티즈",
-    "title": "2600_서비스 및 인프라 웹",
+    "title": "2600 서비스 및 인프라 웹",
     "tags": [
       "product"
     ],
@@ -976,7 +976,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_세미휴머노이드_필드",
     "company": "로보티즈",
-    "title": "2600_세미휴머노이드 필드",
+    "title": "2600 세미휴머노이드 필드",
     "tags": [
       "hardware"
     ],
@@ -989,7 +989,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일_로봇_Perception__신입_경력_",
     "company": "로보티즈",
-    "title": "2600_실내외 자율주행 모바일 로봇 Perception (신입 경력)",
+    "title": "2600 실내외 자율주행 모바일 로봇 Perception (신입 경력)",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -1003,7 +1003,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일로봇_Perception",
     "company": "로보티즈",
-    "title": "2600_실내외 자율주행 모바일로봇 Perception",
+    "title": "2600 실내외 자율주행 모바일로봇 Perception",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -1017,7 +1017,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_자율주행로봇_시스템_Backend_개발",
     "company": "로보티즈",
-    "title": "2600_자율주행로봇 시스템 Backend 개발",
+    "title": "2600 자율주행로봇 시스템 Backend 개발",
     "tags": [
       "autonomous-driving",
       "product"
@@ -1031,7 +1031,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_Localization",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 Localization",
+    "title": "2600 휴머노이드 Localization",
     "tags": [
       "autonomous-driving"
     ],
@@ -1044,7 +1044,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_Navigation",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 Navigation",
+    "title": "2600 휴머노이드 Navigation",
     "tags": [
       "autonomous-driving"
     ],
@@ -1057,7 +1057,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_Perception___Manipulation",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 Perception & Manipulation",
+    "title": "2600 휴머노이드 Perception & Manipulation",
     "tags": [
       "control",
       "autonomous-driving"
@@ -1071,7 +1071,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_강화학습",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 강화학습",
+    "title": "2600 휴머노이드 강화학습",
     "tags": [
       "ai"
     ],
@@ -1084,7 +1084,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_네비게이션",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 네비게이션",
+    "title": "2600 휴머노이드 네비게이션",
     "tags": [
       "autonomous-driving"
     ],
@@ -1097,7 +1097,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_로컬라이제이션",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 로컬라이제이션",
+    "title": "2600 휴머노이드 로컬라이제이션",
     "tags": [
       "autonomous-driving"
     ],
@@ -1110,7 +1110,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 모방학습",
+    "title": "2600 휴머노이드 모방학습",
     "tags": [
       "ai"
     ],
@@ -1123,7 +1123,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습_2",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 모방학습_2",
+    "title": "2600 휴머노이드 모방학습 2",
     "tags": [
       "ai"
     ],
@@ -1136,7 +1136,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 시스템 소프트웨어",
+    "title": "2600 휴머노이드 시스템 소프트웨어",
     "tags": [
       "embedded"
     ],
@@ -1149,7 +1149,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어_2",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 시스템 소프트웨어_2",
+    "title": "2600 휴머노이드 시스템 소프트웨어 2",
     "tags": [
       "embedded"
     ],
@@ -1162,7 +1162,7 @@ const JOBS_DATA = [
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_인지_및_조작_제어",
     "company": "로보티즈",
-    "title": "2600_휴머노이드 인지 및 조작 제어",
+    "title": "2600 휴머노이드 인지 및 조작 제어",
     "tags": [
       "control",
       "autonomous-driving"
@@ -1187,7 +1187,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2505_VLA조작모델학습",
     "company": "삼성전자 미로추",
-    "title": "2505_VLA조작모델학습",
+    "title": "2505 VLA조작모델학습",
     "tags": [
       "ai"
     ],
@@ -1200,7 +1200,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2505_로봇_제어_플랫폼_",
     "company": "삼성전자 미로추",
-    "title": "2505_로봇 제어 플랫폼​",
+    "title": "2505 로봇 제어 플랫폼​",
     "tags": [
       "control"
     ],
@@ -1213,7 +1213,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2505_모터제어_펌웨어_개발_",
     "company": "삼성전자 미로추",
-    "title": "2505_모터제어 펌웨어 개발​",
+    "title": "2505 모터제어 펌웨어 개발​",
     "tags": [
       "control",
       "embedded"
@@ -1227,7 +1227,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2505_서보_모터_드라이버_회로_설계_",
     "company": "삼성전자 미로추",
-    "title": "2505_서보 모터 드라이버 회로 설계​",
+    "title": "2505 서보 모터 드라이버 회로 설계​",
     "tags": [
       "hardware"
     ],
@@ -1240,7 +1240,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2505_학습기반_Manipulation_AI_",
     "company": "삼성전자 미로추",
-    "title": "2505_학습기반 Manipulation AI​",
+    "title": "2505 학습기반 Manipulation AI​",
     "tags": [
       "control",
       "ai"
@@ -1254,7 +1254,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2511_휴머노이드향_궤적_최적화_및_제어__모션_플래닝_및_제어__",
     "company": "삼성전자 미로추",
-    "title": "2511_휴머노이드향 궤적 최적화 및 제어 (모션 플래닝 및 제어)​",
+    "title": "2511 휴머노이드향 궤적 최적화 및 제어 (모션 플래닝 및 제어)​",
     "tags": [
       "control"
     ],
@@ -1267,7 +1267,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2603_로봇_핸드_센서_",
     "company": "삼성전자 미로추",
-    "title": "2603_로봇 핸드 센서​",
+    "title": "2603 로봇 핸드 센서​",
     "tags": [
       "hardware"
     ],
@@ -1280,7 +1280,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2603_로봇_핸드_제어_",
     "company": "삼성전자 미로추",
-    "title": "2603_로봇 핸드 제어​",
+    "title": "2603 로봇 핸드 제어​",
     "tags": [
       "control"
     ],
@@ -1293,7 +1293,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2603_로봇SW인프라",
     "company": "삼성전자 미로추",
-    "title": "2603_로봇SW인프라",
+    "title": "2603 로봇SW인프라",
     "tags": [
       "embedded"
     ],
@@ -1306,7 +1306,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2603_보행제어_",
     "company": "삼성전자 미로추",
-    "title": "2603_보행제어​",
+    "title": "2603 보행제어​",
     "tags": [
       "control"
     ],
@@ -1319,7 +1319,7 @@ const JOBS_DATA = [
   {
     "id": "삼성전자_미로추_삼전_2603_전신제어_",
     "company": "삼성전자 미로추",
-    "title": "2603_전신제어​",
+    "title": "2603 전신제어​",
     "tags": [
       "control"
     ],
@@ -1328,19 +1328,6 @@ const JOBS_DATA = [
     "is_guide": false,
     "is_lecture": false,
     "raw_content": "# [미래로봇추진단] 전신제어\n\n## 수행업무\n- 휴머노이드 전신 제어 기술 개발\n   - 실시간 모션 Retargeting 기술 개발 (Motion capture, Video data 활용)\n   - 전신 모션 모방 및 실시간 텔레오퍼레이션 기술 개발\n   - 언어 입력 기반 모션 생성 기술 (대규모 데이터셋 활용)\n   - 조작 연동 작업 기술 개발 (Loco-manipulation)\n   - Sim2Real Deployment\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 족형 로봇(2족/4족)의 강화학습 기반 제어 등 3년 이상 유관경력 보유하신 분\n- Character Animation 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- Physics-based character control 등 유관전공 석사 이상 학위 보유하신 분\n- Robotics 기반 지식(Kinematics/Dynamics, Modeling and Control)을 보유하신 분\n- Isaac Gym/Lab, MuJoCo 활용한 학습 경험을 보유하신 분\n- LLM, VLM연동 로봇 제어 경험을 보유하신 분"
-  },
-  {
-    "id": "추천_직무_강의_멘토_추천_강의",
-    "company": "추천 직무 강의",
-    "title": "멘토의 로보틱스 & 임베디드 추천 강좌",
-    "tags": [
-      "lecture"
-    ],
-    "year": "",
-    "is_intro": false,
-    "is_guide": false,
-    "is_lecture": true,
-    "raw_content": "#  로보틱스 핵심 실무 강의 모음\n\n> ** 로봇 개발자 성장 로드맵**\n> 기초 개념부터 시뮬레이션·실로봇 제어, 통신, 양산 프로세스, 실무 포트폴리오 완성까지!  \n> 현직자의 노하우를 담아 실무 역량 강화와 취업 성공을 한 번에 준비하세요.\n\n---\n\n##  온라인 실무 프로젝트 강좌 (인프런)\n\n###  [제어 SW] 현직자가 알려주는 로봇 제어: 시뮬부터 실로봇(SO-ARM101) 제어까지\n* 🔗 **수강 신청**: [인프런 바로가기 ↗](https://inf.run/WzgEe)\n* **🎯 추천 대상**: 로봇 제어, 전신 제어(WBC), 힘 제어, 모션 플래닝 직무 준비생\n* ** 핵심 내용**: 시뮬레이션 환경 구축부터 실제 매니퓰레이터 제어까지, 실무 핵심 파이프라인 완벽 정복\n\n###  [임베디드 SW] 현직자가 알려주는 MCU 임베디드 SW 기초 개념 이해\n* 🔗 **수강 신청**: [인프런 바로가기 ↗](https://inf.run/t2SpR)\n* **🎯 추천 대상**: 로봇 임베디드, 펌웨어(Firmware), MCU/DSP 개발자 지망생\n* ** 핵심 내용**: 로봇 하드웨어 제어의 뼈대가 되는 MCU 구조 및 C/C++ 기초 개념 탑재\n\n###  [자율주행 SW]\n> ⏳ **개설 예정** (Coming Soon)\n\n---\n\n##  온라인 실무 로봇 개발 프로세스 강좌 (인프런)\n\n###  현직 개발자가 알려주는 로봇 실무 개발 프로세스 : 로봇 양산 사이클\n* 🔗 **수강 신청**: [인프런 바로가기 ↗](https://inf.run/CWCTn)\n* **🎯 추천 대상**: 로봇 기업 취업 희망자, 전체 개발/양산 프로세스의 흐름을 파악하고 싶은 예비 개발자\n* ** 핵심 내용**: 단순 프로토타입 제작을 넘어 상용 로봇 제품화 및 제조·양산 사이클의 실무 인사이트 제공\n\n###  로보틱스 시스템 완전 해부 : 부품부터 통신까지\n* 🔗 **수강 신청**: [인프런 바로가기 ↗](https://inf.run/Byh4k)\n* **🎯 추천 대상**: 하드웨어(회로/기구) 및 시스템 엔지니어, 제어/임베디드 융합 개발자\n* ** 핵심 내용**: 액추에이터, 센서, 주요 통신 프로토콜(CAN, EtherCAT 등) 로봇 시스템의 모든 구성 요소 해부\n\n---\n\n##  실시간 라이브 멘토링 & 프로젝트 (코멘토)\n\n###  대기업 로봇 개발자와 함께하는 SW 개발 실무 성과 만들기 (직무부트캠프)\n* 🔗 **수강 신청**: [코멘토 바로가기 ↗](https://comento.kr/edu/learn/camp/detail-G1707)\n* **🎯 추천 대상**: 5주간 현직 멘토의 밀착 피드백을 받아 차별화된 실무 포트폴리오를 완성하고 싶은 수강생\n* ** 핵심 내용**: 실제 기업 과제 기반 프로젝트 수행, 1:1 멘토링 및 실무 성과형 포트폴리오 구축"
   },
   {
     "id": "tesla__테슬라_소개",
@@ -1356,7 +1343,7 @@ const JOBS_DATA = [
   {
     "id": "tesla_테슬라_2600_AI_Engineer__Manipulation__Optimus",
     "company": "Tesla",
-    "title": "2600_AI Engineer, Manipulation, Optimus",
+    "title": "2600 AI Engineer, Manipulation, Optimus",
     "tags": [
       "control",
       "ai"
@@ -1370,7 +1357,7 @@ const JOBS_DATA = [
   {
     "id": "tesla_테슬라_2600_Embedded_Software_Engineer__Optimus",
     "company": "Tesla",
-    "title": "2600_Embedded Software Engineer, Optimus",
+    "title": "2600 Embedded Software Engineer, Optimus",
     "tags": [
       "embedded"
     ],
@@ -1383,7 +1370,7 @@ const JOBS_DATA = [
   {
     "id": "tesla_테슬라_2600_Reinforcement_Learning_Engineer__Policy__Optimus",
     "company": "Tesla",
-    "title": "2600_Reinforcement Learning Engineer, Policy, Optimus",
+    "title": "2600 Reinforcement Learning Engineer, Policy, Optimus",
     "tags": [
       "ai"
     ],
@@ -1396,7 +1383,7 @@ const JOBS_DATA = [
   {
     "id": "tesla_테슬라_2600_Reinforcement_Learning_Engineer__Whole_Body_Controls__Optimus",
     "company": "Tesla",
-    "title": "2600_Reinforcement Learning Engineer, Whole Body Controls, Optimus",
+    "title": "2600 Reinforcement Learning Engineer, Whole Body Controls, Optimus",
     "tags": [
       "control",
       "ai"
@@ -1410,7 +1397,7 @@ const JOBS_DATA = [
   {
     "id": "tesla_테슬라_2600_Software_Engineer__Robotics_Integrations",
     "company": "Tesla",
-    "title": "2600_Software Engineer, Robotics Integrations",
+    "title": "2600 Software Engineer, Robotics Integrations",
     "tags": [
       "embedded"
     ],
@@ -1423,7 +1410,7 @@ const JOBS_DATA = [
   {
     "id": "tesla_테슬라_2600_Sr__Robotics_Manufacturing_Engineer__Optimus_Actuators",
     "company": "Tesla",
-    "title": "2600_Sr. Robotics Manufacturing Engineer, Optimus Actuators",
+    "title": "2600 Sr. Robotics Manufacturing Engineer, Optimus Actuators",
     "tags": [
       "hardware"
     ],
@@ -1434,9 +1421,9 @@ const JOBS_DATA = [
     "raw_content": "# Sr. Robotics Manufacturing Engineer, Optimus Actuators\nJob Category\tManufacturing\nLocation\tFremont, California\nReq. ID\t264474\nJob Type\tFull-time\n\n## What to Expect\nTesla is seeking a highly motivated Manufacturing Engineer to develop new processes and automation equipment with the actuator design team in Fremont, CA. The Manufacturing Engineer will optimize designs for manufacturability, streamline assembly processes, and implement automation solutions for gearing, motors, electrical components and harnesses of both linear and rotary actuators. The Manufacturing Engineer thrives in a fast-paced, dynamic environment and will play a pivotal role in shaping the future of AI robotics.\n\n## What You’ll Do\nCollaborate with hardware engineering and production teams to take actuator design through prototype development and into volume production\nProvide design for manufacturing feedback to simplify designs for highest production efficiency and scalability\nDevelop adaptable pilot assembly processes to support product design iteration and variable quality of incoming material\nDevelop flexible machine concepts for high-volume production minimizing complexity and cost while maximizing number of supported product variants\nGenerate machine specifications, process documentation and manufacturing instructions\nIdentify and resolve a diverse range of equipment mechanical, electrical, controls and software issues in production\n\n## What You’ll Bring\nProficiency in CAD software (SolidWorks, Catia, and AutoCAD preferred)\nProficiency in mechanical assembly methods, electrical integration, testing and troubleshooting\nStrong hands-on experience with pilot and high-volume manufacturing, and the transition between\nProven track record of data-driven methodology to solve multi-faceted problems\nAbility to remain highly productive and organized while managing competing priorities and tight deadlines\nDegree in Mechanical or Mechatronics Engineering, or equivalent experience\n\n## Compensation and Benefits\n\n\n## Benefits\nAlong with competitive pay, as a full-time Tesla employee, you are eligible for the following benefits at day 1 of hire:\n\nMedical plans > plan options with $0 payroll deduction\nFamily-building, fertility, adoption and surrogacy benefits\nDental (including orthodontic coverage) and vision plans, both have options with a $0 paycheck contribution\nCompany Paid (Health Savings Accounts) HSA Contribution when enrolled in the High-Deductible medical plan with HSA\nHealthcare and Dependent Care Flexible Spending Accounts (FSA)\n401(k) with employer match, Employee Stock Purchase Plans, and other financial benefits\nCompany paid Basic Life, AD&D\nShort-term and long-term disability insurance (90 day waiting period)\nEmployee Assistance Program\nSick and Vacation time (Flex time for salary positions, Accrued hours for Hourly positions), and Paid Holidays\nBack-up childcare and parenting support resources\nVoluntary benefits to include: critical illness, hospital indemnity, accident insurance, theft & legal services, and pet insurance\nWeight Loss and Tobacco Cessation Programs\nTesla Babies program\nCommuter benefits\nEmployee discounts and perks program\n\nExpected Compensation\n$91,600 - $276,000/annual salary + cash and stock awards + benefits\nPay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\nTesla is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to any factor, including veteran status and disability status, protected by applicable federal, state or local laws.\n\nTesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.\n\nFor quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here). Please contact ADA@tesla.com for ADA related questions or to request ADA accommodations.\n\nPrivacy is a top priority for Tesla. We build it into our products and view it as an essential part of our"
   },
   {
-    "id": "학습_가이드_멘토_추천_강의",
+    "id": "학습_가이드_직무별_실무_프로젝트_강의",
     "company": "학습 가이드",
-    "title": "멘토의 로보틱스 & 임베디드 추천 강좌",
+    "title": "직무별 실무 프로젝트/강의",
     "tags": [
       "lecture"
     ],
@@ -1444,20 +1431,20 @@ const JOBS_DATA = [
     "is_intro": false,
     "is_guide": false,
     "is_lecture": true,
-    "raw_content": "#  로보틱스 직무별 참고 강의/프로젝트\n\n---\n\n## 온라인 강의 (인프런)\n\n### [제어SW 직무] 현직자가 알려주는 로봇 제어: 시뮬부터 실로봇(SO-ARM101) 제어까지\n* **수강 신청**: [인프런 바로가기](https://inf.run/WzgEe)\n* **주요 내용**: 시뮬레이션 환경 구축부터 실제 매니퓰레이터 제어까지 실무 핵심 파이프라인 완벽 정복\n\n### [임베디드SW 직무] 현직자가 알려주는 MCU 임베디드 SW 기초 개념 이해\n* **수강 신청**: [인프런 바로가기](https://inf.run/t2SpR)\n* **주요 내용**: 실무 EV보드로 로봇 임베디드 MCU SW 개념 이해\n\n### [자율주행SW 직무]\n* **상태**: 개설 예정 (Coming Soon)\n* **주요 내용**: EV보드와 미니PC로 실제 자율주행 모바일 로봇 제작\n\n### [공통 직무] 현직 개발자가 알려주는 로봇 실무 개발 프로세스 : 로봇 양산 사이클\n* **수강 신청**: [인프런 바로가기](https://inf.run/CWCTn)\n* **주요 내용**: 로봇 기업 취업 희망자, 전체 개발/양산 프로세스의 흐름을 파악하고 싶은 예비 개발자를 위한 개념 강의\n\n### [공통 직무] 로보틱스 시스템 완전 해부 : 부품부터 통신까지\n* **수강 신청**: [인프런 바로가기](https://inf.run/Byh4k)\n* **주요 내용**: 액추에이터, 센서, 주요 통신 프로토콜(CAN, EtherCAT 등) 로봇 시스템의 모든 구성 요소 해부\n\n---\n\n## 실시간 라이브 멘토링 (코멘토)\n\n### 대기업 로봇 개발자와 함께하는 SW 개발 실무 성과 만들기 (직무부트캠프)\n* **수강 신청**: [코멘토 바로가기](https://comento.kr/edu/learn/camp/detail-G1707)\n* **주요 내용**: 5주간 현직 멘토와 실제 기업 과제 기반 프로젝트 수행 및 실무 성과형 포트폴리오 만들기"
+    "raw_content": "---\n\n## 💻 온라인 강의 (인프런)\n\n### [제어SW 직무] 현직자가 알려주는 로봇 제어: 시뮬부터 실로봇(SO-ARM101) 제어까지\n* 🔗 **수강 신청**: [바로가기 링크](https://inf.run/WzgEe)\n* **주요 내용**: 시뮬레이션 환경 구축부터 실제 매니퓰레이터 제어까지 실무 핵심 파이프라인 완벽 정복\n\n### [임베디드SW 직무] 현직자가 알려주는 MCU 임베디드 SW 기초 개념 이해\n* 🔗 **수강 신청**: [바로가기 링크](https://inf.run/t2SpR)\n* **주요 내용**: 실무 EV보드로 로봇 임베디드 MCU SW 개념 이해\n\n### [자율주행SW 직무]\n* **상태**: 개설 예정 (Coming Soon)\n* **주요 내용**: EV보드와 미니PC로 실제 자율주행 모바일 로봇 제작\n\n### [공통 직무] 현직 개발자가 알려주는 로봇 실무 개발 프로세스 : 로봇 양산 사이클\n* 🔗 **수강 신청**: [바로가기 링크](https://inf.run/CWCTn)\n* **주요 내용**: 로봇 기업 취업 희망자, 전체 개발/양산 프로세스의 흐름을 파악하고 싶은 예비 개발자를 위한 개념 강의\n\n### [공통 직무] 로보틱스 시스템 완전 해부 : 부품부터 통신까지\n* 🔗 **수강 신청**: [바로가기 링크](https://inf.run/Byh4k)\n* **주요 내용**: 액추에이터, 센서, 주요 통신 프로토콜(CAN, EtherCAT 등) 로봇 시스템의 모든 구성 요소 해부\n\n---\n\n##  실시간 라이브 멘토링 (코멘토)\n\n### 대기업 로봇 개발자와 함께하는 SW 개발 실무 성과 만들기 (직무부트캠프)\n* 🔗 **수강 신청**: [바로가기 링크](https://comento.kr/edu/learn/camp/detail-G1707)\n* **주요 내용**: 5주간 현직 멘토와 실제 기업 과제 기반 프로젝트 수행 및 실무 성과형 포트폴리오 만들기"
   },
   {
-    "id": "학습_가이드_수강추천_학부강의",
+    "id": "학습_가이드_직무별_전공강의_수강_가이드",
     "company": "학습 가이드",
-    "title": "멘토의 로보틱스 & 임베디드 추천 강좌",
+    "title": "전공강의 수강 가이드",
     "tags": [
       "guide"
     ],
     "year": "",
     "is_intro": false,
     "is_guide": true,
-    "is_lecture": true,
-    "raw_content": "# 로봇 개발 직무별 수강 추천 학부 과목 가이드\n> **목적**: 관심 직무에 맞춰 필요한 학부 과목과 핵심 역량을 파악하고, 취업을 효율적으로 준비할 수 있도록 돕기 위함\n\n---\n\n## 🛠️ 직무별 추천 수강 과목\n\n| 직무 대분류 | 세부 직무 | 추천 수강 과목 (학부) | 채용공고(JD) 핵심 키워드 정리 |\n| :--- | :--- | :--- | :--- |\n| **하드웨어**<br>*(Hardware)* | **기구설계** | • 정역학<br>• 동역학<br>• 고체(재료)역학<br>• 기구학<br>• 기계요소설계<br>• CAD / 3D 모델링 | • 로봇 구조 설계<br>• 액추에이터 배치<br>• 링크 매커니즘 설계<br>• 강성 및 경량화 설계 |\n| | **검증/해석** | • 유한요소법 (FEM/FEA)<br>• 진동공학<br>• 신뢰성공학<br>• 열역학 | • 응력 / 변형 해석<br>• 진동 감쇄 설계<br>• 가혹 조건 시험 평가<br>• 수명 및 신뢰성 검증 |\n| | **회로설계** | • 회로이론<br>• 전자회로<br>• 디지털 논리회로<br>• 전력전자공학<br>• 신호 및 시스템 | • 모터 드라이버 회로 설계<br>• 전원 분배 장치(PDU) 설계<br>• PCB 아트워크<br>• 센서 신호 처리 |\n| **소프트웨어**<br>*(Software)* | **임베디드** | • 마이크로프로세서 응용<br>• 임베디드 시스템<br>• 컴퓨터 구조<br>• 데이터 구조<br>• 운영체제 (OS)<br>• RTOS | • 펌웨어 (Firmware) 개발<br>• 모터 제어 (FOC 등)<br>• 통신 프로토콜 (CAN, EtherCAT)<br>• 디바이스 드라이버 이식 |\n| | **제어** | • 자동제어 (고전/현대)<br>• 로봇공학<br>• 기구학<br>• 선형대수학<br>• 최적화 이론 | • 정 / 역기구학<br>• 전신 제어 (WBC)<br>• 힘 제어 (Force Control)<br>• 모션 플래닝 (Motion Planning)<br>• 궤적 최적화 |\n| | **자율주행**<br>*(인지/판단)* | • 컴퓨터 비전 / 영상처리<br>• 주행 알고리즘<br>• 확률과 통계<br>• 선형대수학 | • SLAM (지도작성/위치추정)<br>• Localization / Navigation<br>• Path Finding / 경로 계획<br>• 장애물 회피 (ROS/ROS2 필수) |\n| | **AI / 학습**<br>*(Physical AI)* | • 기계학습 / 딥러닝<br>• 강화학습<br>• 최적화 기법<br>• 로봇 학습 (Robot Learning) | • Sim-to-Real 모방학습<br>• 로봇 파운데이션 모델 (VLA/RFM)<br>• 양팔 조작 (Manipulation) AI |\n\n---\n\n## 💡 로봇 개발자 직무 공통 기본기\n로봇 개발은 대표적인 융합 학문이므로, 세부 직무에 관계없이 아래의 공통 기본기를 다져놓는 것을 적극 권장함.\n\n### 1. 수학적 기초 (Mathematics)\n* 📘 **선형대수학 (Linear Algebra)**\n  * 로봇의 기구학(Kinematics), 자율주행(SLAM), AI 및 제어 전 분야에서 회전 변환 및 상태 방정식을 다룰 때 필수적임.\n* 📊 **확률과 통계 (Probability & Statistics)**\n  * 자율주행 인지 센서 데이터의 노이즈 필터링(Kalman Filter, Particle Filter) 및 AI 학습을 위한 핵심 수학적 베이스임.\n\n### 2. 프로그래밍 역량 (Programming)\n* 💻 **`C / C++` (실시간성 확보)**\n  * 임베디드(Firmware), 실시간 제어(RTOS), 자율주행(SLAM) 직무에서 **필수**적이며, 실시간 메모리 관리와 성능 극대화에 활용.\n* 🐍 **`Python` (AI 및 프로토타이핑)**\n  * AI/학습 직무의 주력 언어이며, 자율주행/컴퓨터 비전 모델 프로토타이핑 및 데이터 파이프라인 처리에 필수적.\n\n---\n\n> 🎯 **ROS & Simulator**\n> * **프로젝트 중심의 체득 권장**: 현업 필수 역량인 ROS/ROS2 및 시뮬레이터(Gazebo, Isaac Sim 등) 활용 능력은 실제 대외 활동, 프로젝트, 캡스톤 디자인을 통해 직접 로봇을 구동해보며 체득하는 것을 권장함.\n> * *(대부분의 대학 커리커리큘럼에 ROS 과목이 개설되어 있지 않거나 이론 위주인 경우가 많기 때문.)*"
+    "is_lecture": false,
+    "raw_content": "> **목적**: 관심 직무에 맞춰 필요한 학부 과목과 핵심 역량을 파악하고, 취업을 효율적으로 준비할 수 있도록 돕기 위함\n\n---\n\n##  직무별 추천 수강 과목\n\n| 직무 대분류 | 세부 직무 | 추천 수강 과목 (학부) | 채용공고(JD) 핵심 키워드 정리 |\n| :--- | :--- | :--- | :--- |\n| **하드웨어**<br>*(Hardware)* | **기구설계** | • 정역학<br>• 동역학<br>• 고체(재료)역학<br>• 기구학<br>• 기계요소설계<br>• CAD / 3D 모델링 | • 로봇 구조 설계<br>• 액추에이터 배치<br>• 링크 매커니즘 설계<br>• 강성 및 경량화 설계 |\n| | **검증/해석** | • 유한요소법 (FEM/FEA)<br>• 진동공학<br>• 신뢰성공학<br>• 열역학 | • 응력 / 변형 해석<br>• 진동 감쇄 설계<br>• 가혹 조건 시험 평가<br>• 수명 및 신뢰성 검증 |\n| | **회로설계** | • 회로이론<br>• 전자회로<br>• 디지털 논리회로<br>• 전력전자공학<br>• 신호 및 시스템 | • 모터 드라이버 회로 설계<br>• 전원 분배 장치(PDU) 설계<br>• PCB 아트워크<br>• 센서 신호 처리 |\n| **소프트웨어**<br>*(Software)* | **임베디드** | • 마이크로프로세서 응용<br>• 임베디드 시스템<br>• 컴퓨터 구조<br>• 데이터 구조<br>• 운영체제 (OS)<br>• RTOS | • 펌웨어 (Firmware) 개발<br>• 모터 제어 (FOC 등)<br>• 통신 프로토콜 (CAN, EtherCAT)<br>• 디바이스 드라이버 이식 |\n| | **제어** | • 자동제어 (고전/현대)<br>• 로봇공학<br>• 기구학<br>• 선형대수학<br>• 최적화 이론 | • 정 / 역기구학<br>• 전신 제어 (WBC)<br>• 힘 제어 (Force Control)<br>• 모션 플래닝 (Motion Planning)<br>• 궤적 최적화 |\n| | **자율주행**<br>*(인지/판단)* | • 컴퓨터 비전 / 영상처리<br>• 주행 알고리즘<br>• 확률과 통계<br>• 선형대수학 | • SLAM (지도작성/위치추정)<br>• Localization / Navigation<br>• Path Finding / 경로 계획<br>• 장애물 회피 (ROS/ROS2 필수) |\n| | **AI / 학습**<br>*(Physical AI)* | • 기계학습 / 딥러닝<br>• 강화학습<br>• 최적화 기법<br>• 로봇 학습 (Robot Learning) | • Sim-to-Real 모방학습<br>• 로봇 파운데이션 모델 (VLA/RFM)<br>• 양팔 조작 (Manipulation) AI |\n\n---\n\n##  로봇 개발자 직무 공통 기본기\n로봇 개발은 대표적인 융합 학문이므로, 세부 직무에 관계없이 아래의 공통 기본기를 다져놓는 것을 적극 권장함.\n\n### 1. 수학적 기초 (Mathematics)\n* 📘 **선형대수학 (Linear Algebra)**\n  * 로봇의 기구학(Kinematics), 자율주행(SLAM), AI 및 제어 전 분야에서 회전 변환 및 상태 방정식을 다룰 때 필수적임.\n* 📊 **확률과 통계 (Probability & Statistics)**\n  * 자율주행 인지 센서 데이터의 노이즈 필터링(Kalman Filter, Particle Filter) 및 AI 학습을 위한 핵심 수학적 베이스임.\n\n### 2. 프로그래밍 역량 (Programming)\n* 💻 **`C / C++` (실시간성 확보)**\n  * 임베디드(Firmware), 실시간 제어(RTOS), 자율주행(SLAM) 직무에서 **필수**적이며, 실시간 메모리 관리와 성능 극대화에 활용.\n* 🐍 **`Python` (AI 및 프로토타이핑)**\n  * AI/학습 직무의 주력 언어이며, 자율주행/컴퓨터 비전 모델 프로토타이핑 및 데이터 파이프라인 처리에 필수적.\n\n---\n\n> 🎯 **ROS & Simulator**\n> * **프로젝트 중심의 체득 권장**: 현업 필수 역량인 ROS/ROS2 및 시뮬레이터(Gazebo, Isaac Sim 등) 활용 능력은 실제 대외 활동, 프로젝트, 캡스톤 디자인을 통해 직접 로봇을 구동해보며 체득하는 것을 권장함.\n> * *(대부분의 대학 커리커리큘럼에 ROS 과목이 개설되어 있지 않거나 이론 위주인 경우가 많기 때문.)*"
   },
   {
     "id": "한화로보틱스__한화로보틱스_소개",
@@ -1473,7 +1460,7 @@ const JOBS_DATA = [
   {
     "id": "한화로보틱스_한화_2502_모바일_로봇_SW_경력_엔지니어",
     "company": "한화로보틱스",
-    "title": "2502_모바일 로봇 SW 경력 엔지니어",
+    "title": "2502 모바일 로봇 SW 경력 엔지니어",
     "tags": [
       "embedded",
       "autonomous-driving"
@@ -1487,7 +1474,7 @@ const JOBS_DATA = [
   {
     "id": "한화로보틱스_한화_2506_모바일_로봇_주행_SW_개발",
     "company": "한화로보틱스",
-    "title": "2506_모바일 로봇 주행 SW 개발",
+    "title": "2506 모바일 로봇 주행 SW 개발",
     "tags": [
       "hardware"
     ],
@@ -1500,7 +1487,7 @@ const JOBS_DATA = [
   {
     "id": "한화로보틱스_한화_2507_협동_로봇_제어_SW_개발자",
     "company": "한화로보틱스",
-    "title": "2507_협동 로봇 제어 SW 개발자",
+    "title": "2507 협동 로봇 제어 SW 개발자",
     "tags": [
       "control",
       "embedded"
@@ -1525,7 +1512,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2400_Learning-based_Manipulation",
     "company": "현차 로보틱스랩",
-    "title": "2400_Learning-based Manipulation",
+    "title": "2400 Learning-based Manipulation",
     "tags": [
       "control",
       "ai"
@@ -1539,7 +1526,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2400_On-Device_AI",
     "company": "현차 로보틱스랩",
-    "title": "2400_On-Device AI",
+    "title": "2400 On-Device AI",
     "tags": [
       "ai"
     ],
@@ -1552,7 +1539,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2400_로봇_플랫폼_설계",
     "company": "현차 로보틱스랩",
-    "title": "2400_로봇 플랫폼 설계",
+    "title": "2400 로봇 플랫폼 설계",
     "tags": [
       "hardware"
     ],
@@ -1565,7 +1552,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2400_모바일_로봇_설계",
     "company": "현차 로보틱스랩",
-    "title": "2400_모바일 로봇 설계",
+    "title": "2400 모바일 로봇 설계",
     "tags": [
       "hardware"
     ],
@@ -1578,7 +1565,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2406_Spatial_AI",
     "company": "현차 로보틱스랩",
-    "title": "2406_Spatial AI",
+    "title": "2406 Spatial AI",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -1592,7 +1579,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2406_관절_로봇_제어",
     "company": "현차 로보틱스랩",
-    "title": "2406_관절 로봇 제어",
+    "title": "2406 관절 로봇 제어",
     "tags": [
       "control"
     ],
@@ -1605,7 +1592,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2408_AI_Perception",
     "company": "현차 로보틱스랩",
-    "title": "2408_AI Perception",
+    "title": "2408 AI Perception",
     "tags": [
       "autonomous-driving",
       "ai"
@@ -1619,7 +1606,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2408_Robot_Virtualization",
     "company": "현차 로보틱스랩",
-    "title": "2408_Robot Virtualization",
+    "title": "2408 Robot Virtualization",
     "tags": [
       "ai"
     ],
@@ -1632,7 +1619,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2408_Speech_Dialog_System",
     "company": "현차 로보틱스랩",
-    "title": "2408_Speech Dialog System",
+    "title": "2408 Speech Dialog System",
     "tags": [
       "ai"
     ],
@@ -1645,7 +1632,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2408_Speech_Signal_Enhancement",
     "company": "현차 로보틱스랩",
-    "title": "2408_Speech Signal Enhancement",
+    "title": "2408 Speech Signal Enhancement",
     "tags": [
       "ai"
     ],
@@ -1658,7 +1645,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2408_모바일_로봇_SLAM",
     "company": "현차 로보틱스랩",
-    "title": "2408_모바일 로봇 SLAM",
+    "title": "2408 모바일 로봇 SLAM",
     "tags": [
       "autonomous-driving"
     ],
@@ -1671,7 +1658,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2408_모바일_로봇_시험평가",
     "company": "현차 로보틱스랩",
-    "title": "2408_모바일 로봇 시험평가",
+    "title": "2408 모바일 로봇 시험평가",
     "tags": [
       "hardware"
     ],
@@ -1684,7 +1671,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2408_인체_모델링_및_시뮬레이션",
     "company": "현차 로보틱스랩",
-    "title": "2408_인체 모델링 및 시뮬레이션",
+    "title": "2408 인체 모델링 및 시뮬레이션",
     "tags": [
       "hardware"
     ],
@@ -1697,7 +1684,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2410_WEB_서비스_시스템_개발",
     "company": "현차 로보틱스랩",
-    "title": "2410_WEB 서비스 시스템 개발",
+    "title": "2410 WEB 서비스 시스템 개발",
     "tags": [
       "product"
     ],
@@ -1710,7 +1697,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2410_배송_모바일_로봇상품기획",
     "company": "현차 로보틱스랩",
-    "title": "2410_배송 모바일 로봇상품기획",
+    "title": "2410 배송 모바일 로봇상품기획",
     "tags": [
       "product"
     ],
@@ -1723,7 +1710,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2410_영업_전략_영업_운영",
     "company": "현차 로보틱스랩",
-    "title": "2410_영업 전략 영업 운영",
+    "title": "2410 영업 전략 영업 운영",
     "tags": [
       "product"
     ],
@@ -1736,7 +1723,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2500_의료기기_법규_인증",
     "company": "현차 로보틱스랩",
-    "title": "2500_의료기기 법규 인증",
+    "title": "2500 의료기기 법규 인증",
     "tags": [
       "product"
     ],
@@ -1749,7 +1736,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2510_Bi-Manipulator_제어",
     "company": "현차 로보틱스랩",
-    "title": "2510_Bi-Manipulator 제어",
+    "title": "2510 Bi-Manipulator 제어",
     "tags": [
       "control"
     ],
@@ -1762,7 +1749,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2510_착용형_로봇_설계",
     "company": "현차 로보틱스랩",
-    "title": "2510_착용형 로봇 설계",
+    "title": "2510 착용형 로봇 설계",
     "tags": [
       "hardware"
     ],
@@ -1775,7 +1762,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2600_Bi-Manipulator_양팔로봇__제어_및_강화학습_SW_개발",
     "company": "현차 로보틱스랩",
-    "title": "2600_Bi-Manipulator(양팔로봇) 제어 및 강화학습 SW 개발",
+    "title": "2600 Bi-Manipulator(양팔로봇) 제어 및 강화학습 SW 개발",
     "tags": [
       "control",
       "ai"
@@ -1789,7 +1776,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2604_Robotics_Middleware_Architecture___SW_Platform_Development",
     "company": "현차 로보틱스랩",
-    "title": "2604_Robotics Middleware Architecture & SW Platform Development",
+    "title": "2604 Robotics Middleware Architecture & SW Platform Development",
     "tags": [
       "embedded"
     ],
@@ -1802,7 +1789,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2606_Learning-based_Bi-Manipulator_Control",
     "company": "현차 로보틱스랩",
-    "title": "2606_Learning-based Bi-Manipulator Control",
+    "title": "2606 Learning-based Bi-Manipulator Control",
     "tags": [
       "ai",
       "control"
@@ -1816,7 +1803,7 @@ const JOBS_DATA = [
   {
     "id": "현차_로보틱스랩_현차_2608_모바일로봇_임베디드직무_글로벌_채용전환형_인턴십",
     "company": "현차 로보틱스랩",
-    "title": "2608_모바일로봇_임베디드직무_글로벌 채용전환형 인턴십",
+    "title": "2608 모바일로봇 임베디드직무 글로벌 채용전환형 인턴십",
     "tags": [
       "embedded",
       "hardware"
