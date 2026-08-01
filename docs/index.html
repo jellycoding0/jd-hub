@@ -30,15 +30,13 @@
                     <span>ROBOTICS & AI JOB Description ARCHIVE</span>
                 </div>
             </div>
-            <div class="stats-container">
-                <div class="stat-card">
-                    <span class="stat-label">기업 수</span>
-                    <span class="stat-value" id="stat-companies">0</span>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-label">직무 공고 수</span>
-                    <span class="stat-value" id="stat-jds">0</span>
-                </div>
+            <div class="header-actions">
+                <button id="btn-show-guide" class="btn-guide">
+                    <i class="fa-solid fa-graduation-cap"></i> 전공강의 수강 가이드
+                </button>
+                <button id="btn-show-lecture" class="btn-guide btn-lecture-spec">
+                    <i class="fa-solid fa-graduation-cap"></i> 직무별 프로젝트
+                </button>
             </div>
         </header>
 
@@ -55,14 +53,7 @@
                     </div>
                 </div>
 
-                <!-- Tags Filter -->
-                <div class="filter-section">
-                    <h3><i class="fa-solid fa-tags"></i> 직무 카테고리</h3>
-                    <div class="tag-cloud" id="tag-cloud">
-                        <!-- Dynamic Tags -->
-                    </div>
-                </div>
-
+                
                 <!-- Companies Filter -->
                 <div class="filter-section">
                     <div class="section-header">
@@ -73,6 +64,25 @@
                         <!-- Dynamic Companies -->
                     </div>
                 </div>
+
+                <!-- Tags Filter -->
+                <div class="filter-section">
+                    <h3><i class="fa-solid fa-tags"></i> 직무 카테고리</h3>
+                    <div class="tag-cloud" id="tag-cloud">
+                        <!-- Dynamic Tags -->
+                    </div>
+                </div>
+
+                <!-- Years Filter -->
+                <div class="filter-section">
+                    <h3><i class="fa-solid fa-calendar-days"></i> 공고 년도</h3>
+                    <div class="tag-cloud" id="year-filter-list">
+                        <!-- Dynamic Years -->
+                    </div>
+                </div>
+
+
+
             </aside>
 
             <!-- Main Content Area -->

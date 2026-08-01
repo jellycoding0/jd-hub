@@ -1,6 +1,7 @@
 // Main State
 let activeTags = new Set();
 let activeCompanies = new Set();
+let activeYears = new Set();
 let searchQuery = "";
 let sortBy = "company";
 
@@ -8,6 +9,7 @@ let sortBy = "company";
 const jobsGrid = document.getElementById('jobs-grid');
 const tagCloud = document.getElementById('tag-cloud');
 const companyFilterList = document.getElementById('company-filter-list');
+const yearFilterList = document.getElementById('year-filter-list');
 const searchInput = document.getElementById('search-input');
 const sortSelect = document.getElementById('sort-select');
 const resultsCount = document.getElementById('results-count');
@@ -57,12 +59,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnClosePanel.addEventListener('click', closeDetailPanel);
     panelOverlay.addEventListener('click', closeDetailPanel);
+
+    // Bind Guide Button
+    const btnShowGuide = document.getElementById('btn-show-guide');
+    if (btnShowGuide) {
+        btnShowGuide.addEventListener('click', () => {
+            const guideJob = JOBS_DATA.find(j => j.is_guide);
+            if (guideJob) {
+                openDetailPanel(guideJob);
+            }
+        });
+    }
+
+    // Bind Lecture Button
+    const btnShowLecture = document.getElementById('btn-show-lecture');
+    if (btnShowLecture) {
+        btnShowLecture.addEventListener('click', () => {
+            const lectureJob = JOBS_DATA.find(j => j.is_lecture);
+            if (lectureJob) {
+                openDetailPanel(lectureJob);
+            }
+        });
+    }
 });
 
 // Calculate and initialize filter options
 function initFilters() {
     const companies = {};
     const tags = {};
+    const years = {};
     
     JOBS_DATA.forEach(job => {
         // Count JDs per company
@@ -75,6 +100,11 @@ function initFilters() {
                 tags[cleanTag] = (tags[cleanTag] || 0) + 1;
             }
         });
+
+        // Count JDs per year
+        if (job.year) {
+            years[job.year] = (years[job.year] || 0) + 1;
+        }
     });
 
     // Render Company Checkboxes
@@ -122,6 +152,31 @@ function initFilters() {
         
         tagCloud.appendChild(badge);
     });
+
+    // Render Year Badges
+    yearFilterList.innerHTML = '';
+    Object.keys(years).sort().forEach(yearName => {
+        const badge = document.createElement('span');
+        badge.className = 'tag-badge';
+        let displayText = `20${yearName}년`;
+        if (yearName === '26') {
+            displayText = "2026년 이후";
+        }
+        badge.textContent = `${displayText} (${years[yearName]})`;
+        
+        badge.addEventListener('click', () => {
+            if (activeYears.has(yearName)) {
+                activeYears.delete(yearName);
+                badge.classList.remove('active');
+            } else {
+                activeYears.add(yearName);
+                badge.classList.add('active');
+            }
+            renderJobs();
+        });
+        
+        yearFilterList.appendChild(badge);
+    });
 }
 
 
@@ -138,6 +193,11 @@ function renderJobs() {
         if (activeTags.size > 0) {
             const hasMatchingTag = job.tags.some(tag => activeTags.has(tag.toLowerCase().trim()));
             if (!hasMatchingTag) return false;
+        }
+
+        // Year Filter
+        if (activeYears.size > 0 && !activeYears.has(job.year)) {
+            return false;
         }
         
         // Search query filter (matches company, title, tag, or content)
@@ -181,10 +241,15 @@ function renderJobs() {
 
     filtered.forEach(job => {
         const card = document.createElement('div');
-        card.className = `job-card ${job.is_intro ? 'intro-card' : ''}`;
+        const isGuide = job.is_guide;
+        const isLecture = job.is_lecture;
+        card.className = `job-card ${job.is_intro ? 'intro-card' : ''} ${isGuide ? 'guide-card' : ''} ${isLecture ? 'lecture-card' : ''}`;
         
         const tagsHtml = job.tags.map(t => `<span class="card-tag">${t}</span>`).join('');
+        const yearBadgeHtml = (job.year && !job.is_intro && !isGuide && !isLecture) ? `<span class="card-tag year-tag" style="background: rgba(168, 85, 247, 0.08); color: var(--secondary); border: 1px solid rgba(168, 85, 247, 0.15); font-weight: 500;">'${job.year}년</span>` : '';
         const badgeIntroHtml = job.is_intro ? `<span class="card-badge-intro">기업소개</span>` : '';
+        const badgeGuideHtml = isGuide ? `<span class="card-badge-guide">학습가이드</span>` : '';
+        const badgeLectureHtml = isLecture ? `<span class="card-badge-lecture">추천강의</span>` : '';
 
         card.innerHTML = `
             <div class="card-top">
@@ -194,9 +259,12 @@ function renderJobs() {
             <div class="card-bottom">
                 <div class="card-tags">
                     ${tagsHtml}
+                    ${yearBadgeHtml}
                 </div>
                 <div class="card-meta">
                     ${badgeIntroHtml}
+                    ${badgeGuideHtml}
+                    ${badgeLectureHtml}
                 </div>
             </div>
         `;
@@ -237,6 +305,7 @@ function closeDetailPanel() {
 
 // Update Global Dashboard Statistics
 function updateGlobalStats() {
+    if (!statCompanies || !statJds) return;
     // Unique companies count
     const uniqueCompanies = new Set(JOBS_DATA.map(j => j.company));
     statCompanies.textContent = uniqueCompanies.size;

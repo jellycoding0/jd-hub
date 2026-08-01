@@ -84,6 +84,128 @@ body {
     gap: 1rem;
 }
 
+/* Header Actions */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.btn-guide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    height: 42px;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(59, 130, 246, 0.15));
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    color: var(--text-main);
+    padding: 0 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.05);
+    white-space: nowrap;
+}
+
+.btn-guide:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.25), rgba(59, 130, 246, 0.25));
+    border-color: var(--secondary);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);
+}
+
+.btn-guide i {
+    color: var(--secondary);
+    font-size: 1rem;
+}
+
+/* Recommended Lecture Button Custom Style */
+.btn-lecture-spec {
+    border-color: rgba(236, 72, 153, 0.4) !important;
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.15), rgba(168, 85, 247, 0.15)) !important;
+}
+
+.btn-lecture-spec:hover {
+    border-color: #db2777 !important;
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.25) !important;
+}
+
+.btn-lecture-spec i {
+    color: #ec4899 !important;
+}
+
+/* Guide Card Styling */
+.guide-card {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.6) 0%, rgba(88, 28, 135, 0.15) 100%) !important;
+    border: 1px solid rgba(168, 85, 247, 0.3) !important;
+    box-shadow: 0 8px 32px rgba(168, 85, 247, 0.08) !important;
+}
+
+.guide-card:hover {
+    border-color: var(--secondary) !important;
+    box-shadow: 0 12px 40px rgba(168, 85, 247, 0.25) !important;
+}
+
+.card-badge-guide {
+    background: linear-gradient(135deg, var(--secondary), var(--accent)) !important;
+    color: #fff !important;
+    padding: 0.25rem 0.55rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(168, 85, 247, 0.3);
+}
+
+/* Intro Card Styling (Cyan/Teal Theme) */
+.intro-card {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.6) 0%, rgba(13, 148, 136, 0.12) 100%) !important;
+    border: 1px solid rgba(13, 148, 136, 0.3) !important;
+    box-shadow: 0 8px 32px rgba(13, 148, 136, 0.08) !important;
+}
+
+.intro-card:hover {
+    border-color: #0d9488 !important;
+    box-shadow: 0 12px 40px rgba(13, 148, 136, 0.25) !important;
+}
+
+.card-badge-intro {
+    background: linear-gradient(135deg, #0d9488, #2dd4bf) !important;
+    color: #fff !important;
+    padding: 0.25rem 0.55rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(13, 148, 136, 0.3);
+}
+
+/* Lecture Card Styling (Pink / Rose Theme) */
+.lecture-card {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.6) 0%, rgba(219, 39, 119, 0.12) 100%) !important;
+    border: 1px solid rgba(219, 39, 119, 0.3) !important;
+    box-shadow: 0 8px 32px rgba(219, 39, 119, 0.08) !important;
+}
+
+.lecture-card:hover {
+    border-color: #db2777 !important;
+    box-shadow: 0 12px 40px rgba(219, 39, 119, 0.25) !important;
+}
+
+.card-badge-lecture {
+    background: linear-gradient(135deg, #db2777, #f472b6) !important;
+    color: #fff !important;
+    padding: 0.25rem 0.55rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(219, 39, 119, 0.3);
+}
+
 .logo-img {
     height: 48px;
     width: auto;
@@ -393,12 +515,12 @@ body {
 .job-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
-    border-radius: 16px;
-    padding: 1.5rem;
+    border-radius: 14px;
+    padding: 1.1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 220px;
+    height: 200px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -764,4 +886,37 @@ body {
     .panel-body {
         padding: 2.5rem 1.5rem;
     }
+}
+
+/* Markdown Tables Styling */
+#detail-markdown table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.92rem;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+#detail-markdown th {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--secondary);
+    font-weight: 600;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+    text-align: left;
+}
+
+#detail-markdown td {
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    vertical-align: top;
+    line-height: 1.6;
+}
+
+#detail-markdown tr:hover td {
+    background: rgba(255, 255, 255, 0.02);
 }
