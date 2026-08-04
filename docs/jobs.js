@@ -328,8 +328,7 @@ const JOBS_DATA = [
     "company": "Figure AI",
     "title": "2600 Power Electronics Engineer, Charging",
     "tags": [
-      "ai",
-      "hw_기구"
+      "hw_전장"
     ],
     "year": "26",
     "is_intro": false,
@@ -582,7 +581,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 로봇시스템 전장 HW",
     "tags": [
-      "hw_기구"
+      "hw_전장"
     ],
     "year": "25",
     "is_intro": false,
@@ -648,8 +647,8 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 자동화솔루션 전장 제어 설계",
     "tags": [
-      "control",
-      "hw_기구"
+      "hw_전장",
+      "control"
     ],
     "year": "25",
     "is_intro": false,
@@ -690,7 +689,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 하네스 설계",
     "tags": [
-      "hw_기구"
+      "hw_전장"
     ],
     "year": "25",
     "is_intro": false,
@@ -803,8 +802,7 @@ const JOBS_DATA = [
     "company": "두산로보틱스",
     "title": "2608 로봇 임베디드 SW 개발자",
     "tags": [
-      "embedded",
-      "hw_기구"
+      "embedded"
     ],
     "year": "26",
     "is_intro": false,
@@ -830,8 +828,7 @@ const JOBS_DATA = [
     "company": "두산로보틱스",
     "title": "2608 로봇 프레임워크 개발자(Linux)",
     "tags": [
-      "embedded",
-      "hw_기구"
+      "embedded"
     ],
     "year": "26",
     "is_intro": false,
@@ -1251,7 +1248,7 @@ const JOBS_DATA = [
     "company": "삼성전자 미로추",
     "title": "2505 서보 모터 드라이버 회로 설계​",
     "tags": [
-      "hw_기구"
+      "hw_전장"
     ],
     "year": "25",
     "is_intro": false,
@@ -1524,7 +1521,7 @@ const JOBS_DATA = [
     "company": "위로보틱스",
     "title": "2608 휴머노이드 전장 하드웨어 엔지니어",
     "tags": [
-      "hw_기구",
+      "hw_전장",
       "embedded"
     ],
     "year": "26",
@@ -1680,7 +1677,7 @@ const JOBS_DATA = [
     "company": "한화로보틱스",
     "title": "2506 모바일 로봇 전장 HW 개발",
     "tags": [
-      "hw_기구"
+      "hw_전장"
     ],
     "year": "25",
     "is_intro": false,
@@ -2009,8 +2006,7 @@ const JOBS_DATA = [
     "company": "현차 로보틱스랩",
     "title": "2608 모바일로봇 임베디드직무 글로벌 채용전환형 인턴십",
     "tags": [
-      "embedded",
-      "hw_기구"
+      "hw_전장"
     ],
     "year": "26",
     "is_intro": false,
@@ -2115,7 +2111,7 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 전장,회로 양산개발 엔지니어",
     "tags": [
-      "hw_기구",
+      "hw_전장",
       "embedded"
     ],
     "year": "26",

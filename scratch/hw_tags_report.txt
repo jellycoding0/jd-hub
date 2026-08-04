@@ -1,0 +1,33 @@
+=== CURRENT HW TAGS REPORT ===
+1. Folder: 1X_Technologies | Tag: hw_전장 | File: 1X_2600_Tactile Sensing Research Engineer.md
+2. Folder: 1X_Technologies | Tag: hw_기구 | File: 1X_2600_Test & Validation Engineer - Motors and Actuators.md
+3. Folder: Agility Robotics | Tag: hw_기구 | File: Agility_2600_Staff Systems Engineer, Functional Safety.md
+4. Folder: Figure AI | Tag: hw_기구 | File: FigureAI_2600_Mechanical Engineer - Hands.md
+5. Folder: Figure AI | Tag: hw_전장 | File: FigureAI_2600_Power Electronics Engineer, Charging.md
+6. Folder: HD현대로보틱스 | Tag: hw_기구 | File: HD현대_2502_기구설계.md
+7. Folder: HD현대로보틱스 | Tag: hw_기구 | File: HD현대_2502_기구양산설계.md
+8. Folder: HD현대로보틱스 | Tag: hw_전장 | File: HD현대_2502_로봇시스템 전장 HW.md
+9. Folder: HD현대로보틱스 | Tag: hw_기구 | File: HD현대_2502_신뢰성해석.md
+10. Folder: HD현대로보틱스 | Tag: hw_기구 | File: HD현대_2502_자동화솔루션 기구개발 설계.md
+11. Folder: HD현대로보틱스 | Tag: hw_전장 | File: HD현대_2502_자동화솔루션 전장 제어 설계.md
+12. Folder: HD현대로보틱스 | Tag: hw_전장 | File: HD현대_2502_하네스 설계.md
+13. Folder: 두산로보틱스 | Tag: hw_기구 | File: 두산_2509_Biomechanic Robotics Engineering.md
+14. Folder: 두산로보틱스 | Tag: hw_기구 | File: 두산_2608_Robotics Mechanical Engineer.md
+15. Folder: 로보티즈 | Tag: hw_기구 | File: 로보티즈_2600_로봇 플랫폼 기구설계.md
+16. Folder: 로보티즈 | Tag: hw_기구 | File: 로보티즈_2600_로봇용 액추에이터 기구설계 및 감속기 개발.md
+17. Folder: 로보티즈 | Tag: hw_전장 | File: 로보티즈_2600_세미휴머노이드 필드.md
+18. Folder: 삼성전자_미로추 | Tag: hw_전장 | File: 삼전_2505_서보 모터 드라이버 회로 설계​.md
+19. Folder: 삼성전자_미로추 | Tag: hw_기구 | File: 삼전_2603_로봇 핸드 센서​.md
+20. Folder: 에이딘로보틱스 | Tag: hw_기구 | File: 에이딘로보틱스_2608_택타일 센서 및 로봇핸드용 기구 설계 엔지니어 채용.md
+21. Folder: 위로보틱스 | Tag: hw_기구 | File: 위로보틱스_2608_휴머노이드 로봇 설계 엔지니어.md
+22. Folder: 위로보틱스 | Tag: hw_전장 | File: 위로보틱스_2608_휴머노이드 전장 하드웨어 엔지니어.md
+23. Folder: 테슬라 | Tag: hw_기구 | File: 테슬라_2600_Sr. Robotics Manufacturing Engineer, Optimus Actuators.md
+24. Folder: 한화로보틱스 | Tag: hw_전장 | File: 한화_2506_모바일 로봇 전장 HW 개발.md
+25. Folder: 현차_로보틱스랩 | Tag: hw_기구 | File: 현차_2400_로봇 플랫폼 설계.md
+26. Folder: 현차_로보틱스랩 | Tag: hw_기구 | File: 현차_2400_모바일 로봇 설계.md
+27. Folder: 현차_로보틱스랩 | Tag: hw_기구 | File: 현차_2408_모바일 로봇 시험평가.md
+28. Folder: 현차_로보틱스랩 | Tag: hw_기구 | File: 현차_2408_인체 모델링 및 시뮬레이션.md
+29. Folder: 현차_로보틱스랩 | Tag: hw_기구 | File: 현차_2510_착용형 로봇 설계.md
+30. Folder: 홀리데이로보틱스 | Tag: hw_기구 | File: 홀리데이로보틱스_2608_로봇 조립 오퍼레이터.md
+31. Folder: 홀리데이로보틱스 | Tag: hw_기구 | File: 홀리데이로보틱스_2608_양산 개발 CAD,설계 엔지니어.md
+32. Folder: 홀리데이로보틱스 | Tag: hw_전장 | File: 홀리데이로보틱스_2608_전장,회로 양산개발 엔지니어.md
