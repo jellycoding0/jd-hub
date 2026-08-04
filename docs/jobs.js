@@ -555,7 +555,8 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 로봇 응용 SW",
     "tags": [
-      "임베디드SW"
+      "임베디드SW",
+      "제어"
     ],
     "year": "25",
     "is_intro": false,
@@ -568,7 +569,8 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 로봇 제어기 설계",
     "tags": [
-      "제어"
+      "제어",
+      "HW전장"
     ],
     "year": "25",
     "is_intro": false,
@@ -621,7 +623,8 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 신뢰성해석",
     "tags": [
-      "HW기구"
+      "HW기구",
+      "시험"
     ],
     "year": "25",
     "is_intro": false,
@@ -1157,7 +1160,7 @@ const JOBS_DATA = [
     "company": "로보티즈",
     "title": "2600 휴머노이드 시스템 소프트웨어",
     "tags": [
-      "어플리케이션SW"
+      "임베디드SW"
     ],
     "year": "26",
     "is_intro": false,
@@ -1170,7 +1173,7 @@ const JOBS_DATA = [
     "company": "로보티즈",
     "title": "2600 휴머노이드 시스템 소프트웨어 2",
     "tags": [
-      "어플리케이션SW"
+      "임베디드SW"
     ],
     "year": "26",
     "is_intro": false,
@@ -2007,8 +2010,7 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 Forward Deployed Robotics Engineer",
     "tags": [
-      "기획",
-      "임베디드SW"
+      "필드서비스"
     ],
     "year": "26",
     "is_intro": false,
@@ -2021,7 +2023,8 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 HW Quality Evaluation 엔지니어 (신뢰성 담당)",
     "tags": [
-      "품질"
+      "품질",
+      "시험"
     ],
     "year": "26",
     "is_intro": false,
@@ -2034,8 +2037,8 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 Software Engineer (테스트,제조,생 시스템)",
     "tags": [
-      "품질",
-      "어플리케이션SW"
+      "시험",
+      "필드서비스"
     ],
     "year": "26",
     "is_intro": false,
@@ -2048,7 +2051,8 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 SW Quality Evaluation 엔지니어",
     "tags": [
-      "품질"
+      "품질",
+      "필드서비스"
     ],
     "year": "26",
     "is_intro": false,
@@ -2102,7 +2106,8 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 휴머노이드로봇 Field Service Manager",
     "tags": [
-      "품질"
+      "품질",
+      "필드서비스"
     ],
     "year": "26",
     "is_intro": false,
