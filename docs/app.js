@@ -5,6 +5,17 @@ let activeYears = new Set();
 let searchQuery = "";
 let sortBy = "company";
 
+// Tag display translation mapping (Korean & Custom terms)
+const TAG_DISPLAY_NAMES = {
+    "ai": "AI",
+    "control": "제어",
+    "embedded": "임베디드SW",
+    "hw_전장": "HW전장",
+    "hw_기구": "HW기구",
+    "autonomous-driving": "자율주행",
+    "product": "양산/기획"
+};
+
 // DOM Elements
 const jobsGrid = document.getElementById('jobs-grid');
 const tagCloud = document.getElementById('tag-cloud');
@@ -135,15 +146,18 @@ function initFilters() {
 
     // Render Tag Badges
     tagCloud.innerHTML = '';
+    const allowedJobTags = new Set(Object.keys(TAG_DISPLAY_NAMES));
+    
     // Sort tags by frequency
     const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a]);
     sortedTags.forEach(tagName => {
-        // Skip system tags for guide and lecture
-        if (tagName === "guide" || tagName === "lecture") return;
+        const cleanTagName = tagName.toLowerCase().trim();
+        if (!allowedJobTags.has(cleanTagName)) return;
 
         const badge = document.createElement('span');
         badge.className = 'tag-badge';
-        badge.textContent = `${tagName} (${tags[tagName]})`;
+        const displayName = TAG_DISPLAY_NAMES[cleanTagName] || tagName;
+        badge.textContent = `${displayName} (${tags[tagName]})`;
         
         badge.addEventListener('click', () => {
             if (activeTags.has(tagName)) {
@@ -251,7 +265,11 @@ function renderJobs() {
         const isLecture = job.is_lecture;
         card.className = `job-card ${job.is_intro ? 'intro-card' : ''} ${isGuide ? 'guide-card' : ''} ${isLecture ? 'lecture-card' : ''}`;
         
-        const tagsHtml = job.tags.map(t => `<span class="card-tag">${t}</span>`).join('');
+        const tagsHtml = job.tags.map(t => {
+            const cleanT = t.toLowerCase().trim();
+            const displayName = TAG_DISPLAY_NAMES[cleanT] || t;
+            return `<span class="card-tag">${displayName}</span>`;
+        }).join('');
         const yearBadgeHtml = (job.year && !job.is_intro && !isGuide && !isLecture) ? `<span class="card-tag year-tag" style="background: rgba(168, 85, 247, 0.08); color: var(--secondary); border: 1px solid rgba(168, 85, 247, 0.15); font-weight: 500;">'${job.year}년</span>` : '';
         const badgeIntroHtml = job.is_intro ? `<span class="card-badge-intro">기업소개</span>` : '';
         const badgeGuideHtml = isGuide ? `<span class="card-badge-guide">학습가이드</span>` : '';
@@ -290,7 +308,8 @@ function openDetailPanel(job) {
     job.tags.forEach(tag => {
         const badge = document.createElement('span');
         badge.className = 'card-tag';
-        badge.textContent = tag;
+        const cleanTag = tag.toLowerCase().trim();
+        badge.textContent = TAG_DISPLAY_NAMES[cleanTag] || tag;
         detailTags.appendChild(badge);
     });
     

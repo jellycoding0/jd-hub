@@ -60,7 +60,7 @@ const JOBS_DATA = [
     "title": "2600 Tactile Sensing Research Engineer",
     "tags": [
       "autonomous-driving",
-      "hardware"
+      "hw_전장"
     ],
     "year": "26",
     "is_intro": false,
@@ -73,7 +73,7 @@ const JOBS_DATA = [
     "company": "1X Technologies",
     "title": "2600 Test & Validation Engineer - Motors and Actuators",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -189,7 +189,7 @@ const JOBS_DATA = [
     "company": "Agility Robotics",
     "title": "2600 Staff Systems Engineer, Functional Safety",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -315,7 +315,7 @@ const JOBS_DATA = [
     "title": "2600 Mechanical Engineer - Hands",
     "tags": [
       "ai",
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -329,7 +329,7 @@ const JOBS_DATA = [
     "title": "2600 Power Electronics Engineer, Charging",
     "tags": [
       "ai",
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -463,7 +463,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 기구설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -476,7 +476,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 기구양산설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -582,7 +582,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 로봇시스템 전장 HW",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -622,7 +622,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 신뢰성해석",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -635,7 +635,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 자동화솔루션 기구개발 설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -649,7 +649,7 @@ const JOBS_DATA = [
     "title": "2502 자동화솔루션 전장 제어 설계",
     "tags": [
       "control",
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -690,7 +690,7 @@ const JOBS_DATA = [
     "company": "HD현대로보틱스",
     "title": "2502 하네스 설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -736,7 +736,7 @@ const JOBS_DATA = [
     "company": "두산로보틱스",
     "title": "2509 Biomechanic Robotics Engineering",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -790,7 +790,7 @@ const JOBS_DATA = [
     "company": "두산로보틱스",
     "title": "2608 Robotics Mechanical Engineer",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -804,7 +804,7 @@ const JOBS_DATA = [
     "title": "2608 로봇 임베디드 SW 개발자",
     "tags": [
       "embedded",
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -831,7 +831,7 @@ const JOBS_DATA = [
     "title": "2608 로봇 프레임워크 개발자(Linux)",
     "tags": [
       "embedded",
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -920,7 +920,7 @@ const JOBS_DATA = [
     "company": "로보티즈",
     "title": "2600 로봇 플랫폼 기구설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -933,7 +933,7 @@ const JOBS_DATA = [
     "company": "로보티즈",
     "title": "2600 로봇용 액추에이터 기구설계 및 감속기 개발",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -1000,7 +1000,7 @@ const JOBS_DATA = [
     "company": "로보티즈",
     "title": "2600 세미휴머노이드 필드",
     "tags": [
-      "hardware"
+      "hw_전장"
     ],
     "year": "26",
     "is_intro": false,
@@ -1251,7 +1251,7 @@ const JOBS_DATA = [
     "company": "삼성전자 미로추",
     "title": "2505 서보 모터 드라이버 회로 설계​",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -1291,7 +1291,7 @@ const JOBS_DATA = [
     "company": "삼성전자 미로추",
     "title": "2603 로봇 핸드 센서​",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -1355,10 +1355,7 @@ const JOBS_DATA = [
     "id": "에이딘로보틱스__에이딘로보틱스_소개",
     "company": "에이딘로보틱스",
     "title": "에이딘로보틱스 소개",
-    "tags": [
-      "에이딘로보틱스",
-      "기업소개"
-    ],
+    "tags": [],
     "year": "26",
     "is_intro": true,
     "is_guide": false,
@@ -1384,7 +1381,7 @@ const JOBS_DATA = [
     "company": "에이딘로보틱스",
     "title": "2608 택타일 센서 및 로봇핸드용 기구 설계 엔지니어 채용",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -1410,10 +1407,7 @@ const JOBS_DATA = [
     "id": "엔젤로보틱스__엔젤로보틱스_소개",
     "company": "엔젤로보틱스",
     "title": "엔젤로보틱스 소개",
-    "tags": [
-      "엔젤로보틱스",
-      "기업소개"
-    ],
+    "tags": [],
     "year": "26",
     "is_intro": true,
     "is_guide": false,
@@ -1450,10 +1444,7 @@ const JOBS_DATA = [
     "id": "위로보틱스__위로보틱스_소개",
     "company": "위로보틱스",
     "title": "위로보틱스 소개",
-    "tags": [
-      "위로보틱스",
-      "기업소개"
-    ],
+    "tags": [],
     "year": "26",
     "is_intro": true,
     "is_guide": false,
@@ -1493,7 +1484,7 @@ const JOBS_DATA = [
     "company": "위로보틱스",
     "title": "2608 휴머노이드 로봇 설계 엔지니어",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -1533,7 +1524,7 @@ const JOBS_DATA = [
     "company": "위로보틱스",
     "title": "2608 휴머노이드 전장 하드웨어 엔지니어",
     "tags": [
-      "hardware",
+      "hw_기구",
       "embedded"
     ],
     "year": "26",
@@ -1625,7 +1616,7 @@ const JOBS_DATA = [
     "company": "Tesla",
     "title": "2600 Sr. Robotics Manufacturing Engineer, Optimus Actuators",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -1689,7 +1680,7 @@ const JOBS_DATA = [
     "company": "한화로보틱스",
     "title": "2506 모바일 로봇 전장 HW 개발",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -1754,7 +1745,7 @@ const JOBS_DATA = [
     "company": "현차 로보틱스랩",
     "title": "2400 로봇 플랫폼 설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "24",
     "is_intro": false,
@@ -1767,7 +1758,7 @@ const JOBS_DATA = [
     "company": "현차 로보틱스랩",
     "title": "2400 모바일 로봇 설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "24",
     "is_intro": false,
@@ -1873,7 +1864,7 @@ const JOBS_DATA = [
     "company": "현차 로보틱스랩",
     "title": "2408 모바일 로봇 시험평가",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "24",
     "is_intro": false,
@@ -1886,7 +1877,7 @@ const JOBS_DATA = [
     "company": "현차 로보틱스랩",
     "title": "2408 인체 모델링 및 시뮬레이션",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "24",
     "is_intro": false,
@@ -1964,7 +1955,7 @@ const JOBS_DATA = [
     "company": "현차 로보틱스랩",
     "title": "2510 착용형 로봇 설계",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "25",
     "is_intro": false,
@@ -2019,7 +2010,7 @@ const JOBS_DATA = [
     "title": "2608 모바일로봇 임베디드직무 글로벌 채용전환형 인턴십",
     "tags": [
       "embedded",
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -2031,10 +2022,7 @@ const JOBS_DATA = [
     "id": "홀리데이로보틱스__홀리데이로보틱스_소개",
     "company": "홀리데이로보틱스",
     "title": "홀리데이로보틱스 소개",
-    "tags": [
-      "홀리데이로보틱스",
-      "기업소개"
-    ],
+    "tags": [],
     "year": "26",
     "is_intro": true,
     "is_guide": false,
@@ -2100,7 +2088,7 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 로봇 조립 오퍼레이터",
     "tags": [
-      "hardware",
+      "hw_기구",
       "product"
     ],
     "year": "26",
@@ -2114,7 +2102,7 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 양산 개발 CAD,설계 엔지니어",
     "tags": [
-      "hardware"
+      "hw_기구"
     ],
     "year": "26",
     "is_intro": false,
@@ -2127,7 +2115,7 @@ const JOBS_DATA = [
     "company": "홀리데이로보틱스",
     "title": "2608 전장,회로 양산개발 엔지니어",
     "tags": [
-      "hardware",
+      "hw_기구",
       "embedded"
     ],
     "year": "26",
