@@ -67,6 +67,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const guideJob = JOBS_DATA.find(j => j.is_guide);
             if (guideJob) {
                 openDetailPanel(guideJob);
+                // Send custom event to GA4
+                if (typeof gtag === 'function') {
+                    gtag('event', 'click_guide_button', {
+                        'event_category': 'academic_guide',
+                        'event_label': '전공강의_수강_가이드'
+                    });
+                }
             }
         });
     }
@@ -78,6 +85,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const lectureJob = JOBS_DATA.find(j => j.is_lecture);
             if (lectureJob) {
                 openDetailPanel(lectureJob);
+                // Send custom event to GA4
+                if (typeof gtag === 'function') {
+                    gtag('event', 'click_lecture_button', {
+                        'event_category': 'lecture_recommend',
+                        'event_label': '실무_프로젝트_강의'
+                    });
+                }
             }
         });
     }
