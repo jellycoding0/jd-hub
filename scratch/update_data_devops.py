@@ -1,0 +1,101 @@
+import os
+
+file_path = r"C:\ws\project_jelly\1.강의자료\1-3.직무분석(JD)\직무별_면접_기출_빈출_질문\데이터.md"
+
+content = """# 데이터 & DevOps 직무 면접 빈출 질문 (로봇 데이터 파이프라인 / MLOps / 텔레메트리 / 엣지 인프라)
+
+---
+
+## Q1. [개념/이론] 로봇 센서 및 주행/제어 텔레메트리 파이프라인에서 수집되는 시계열(Time-series) 데이터의 특징과 처리 메커니즘은?
+
+- **답변 예시**: 관절 토크, 엔코더 값, 센서 패킷, ROS Topic 메트릭 등으로 구성되며, 타임스탬프(Timestamps) 순서로 수집되어 고속 이벤트를 미세 시간 간격으로 동기화 및 적재하는 시계열 처리가 핵심입니다.
+
+---
+
+## Q2. [시스템/응용] 대규모 로봇군(AMR Fleet)에서 발생하는 텔레메트리 데이터를 실시간 수집하기 위한 MQTT 및 Apache Kafka 기반 인제션 파이프라인 설계 방식은?
+
+- **답변 예시**: 저전력 엣지 로봇 디바이스에서는 경량 프로토콜인 MQTT로 엣지 게이트웨이에 전송하고, 게이트웨이에서 Apache Kafka 파티션을 이용해 수만 건의 텔레메트리 메시지를 병렬 브로커에 인제션(Ingestion)합니다.
+
+---
+
+## Q3. [시스템/응용] 로봇 ROSbag 파일(대용량 멀티모달 센서 데이터)을 클라우드 데이터 레이크(Amazon S3) 및 Parquet/Iceberg 포맷으로 ETL 가공하는 방법은?
+
+- **답변 예시**: ROSbag 내의 이미지, 포인트클라우드, 관절 궤적 데이터를 파싱하여 열 지향(Columnar) 데이터 저장 형식인 Parquet/Iceberg 포맷으로 변환함으로써 쿼리 속도를 10배 이상 향상시키고 데이터 레이크하우스에 적재합니다.
+
+---
+
+## Q4. [개념/이론] 로봇 관절 감속기나 모터의 예지보전(PdM - Predictive Maintenance)을 위한 수집 데이터 특징 추출(Feature Engineering) 기법은?
+
+- **답변 예시**: 전류 및 진동 신호의 주파수 영역 변환(FFT)을 수행하여 특정 고장 주파수 밴드의 피크값, RMS, 첨도(Kurtosis), 왜도(Skewness) 등 이상 징후 파라미터를 추출하고 경고를 발생시킵니다.
+
+---
+
+## Q5. [실무/트러블슈팅] 로봇 센서 수집 중 발생하는 데이터 결측치(Missing Values) 처리 및 아웃라이어(Outlier) 필터링 파이프라인 구축은?
+
+- **답변 예시**: 물리적 연속성을 고려해 선형/스플라인 보간법을 활용하고, Z-Score, IQR(Interquartile Range), 사비츠키-골레이(Savitzky-Golay) 필터 파이프라인을 구축해 노이즈를 자동 제거합니다.
+
+---
+
+## Q6. [개념/이론] 시계열 DB(InfluxDB, TimescaleDB, ClickHouse)와 관계형 DB(PostgreSQL), NoSQL(MongoDB)의 로봇 시스템 적재 비교 및 선택 기준은?
+
+- **답변 예시**: 고속 시계열 적재와 실시간 모니터링에는 ClickHouse/TimescaleDB를 사용하고, 로봇 장비 원장 및 메타데이터에는 PostgreSQL, 비정형 관제 로그에는 MongoDB를 선택합니다.
+
+---
+
+## Q7. [실무/트러블슈팅] 로봇 이상 감지(Anomaly Detection) 모델 개발 시 Autoencoder 및 Isolation Forest 모델 구축 사례는?
+
+- **답변 예시**: 정상 가동 시의 관절 토크 및 구동 전류 데이터를 오토인코더(Autoencoder)에 학습시킨 후, 복원 오차(Reconstruction Error)가 설정 임계치를 초과할 때 관절 손상 초기 징후로 판정하여 사전 정비를 유도합니다.
+
+---
+
+## Q8. [시스템/응용] MLOps / DataOps 관점에서 로봇 ML 모델 재학습 파이프라인을 오케스트레이터(Apache Airflow / Kubeflow)로 자동화한 경험은?
+
+- **답변 예시**: 매일 야간에 당일 수집된 로봇 작동 데이터를 정제하여 Airflow DAG 기반으로 특성 추출, 모델 재학습, 배포용 TensorRT 모듈 생성 및 CI/CD 전송 과정을 자동화합니다.
+
+---
+
+## Q9. [시스템/응용] 수백 대 로봇 디바이스에 컨테이너화(Docker)된 소프트웨어 패키지를 배포하고 관리하기 위한 엣지 Kubernetes (K3s, KubeEdge) 구축 방안은?
+
+- **답변 예시**: 엣지 디바이스 리소스 제약을 극복하기 위해 경량화된 K3s 또는 KubeEdge를 도입하고, 노드 그룹 태그별로 롤링 업데이트(Rolling Update)를 수행하여 무중단 배포 환경을 구현합니다.
+
+---
+
+## Q10. [개념/이론] 로봇 텔레메트리 및 시스템 상태 모니터링을 위해 OpenTelemetry, Prometheus, Grafana를 연결하는 Observability 파이프라인 구조는?
+
+- **답변 예시**: 로봇 SW에 OpenTelemetry SDK를 내장하여 메트릭과 트레이스를 수집하고, Prometheus로 시계열 메트릭을 풀(Pull) 저장한 뒤 Grafana 대시보드 및 Alertmanager 알림을 연결합니다.
+
+---
+
+## Q11. [실무/트러블슈팅] 대용량 로봇 관제 데이터 쿼리 시 Snowflake 또는 BigQuery 파티셔닝(Partitioning) 및 클러스터링 최적화 경험은?
+
+- **답변 예시**: 로봇 ID, 날짜(Date), 직무 유형별로 파티셔닝 및 클러스터링을 적용하고, 불필요한 Full Scan을 방지하도록 쿼리 구조와 인덱싱을 최적화해 비용을 절감합니다.
+
+---
+
+## Q12. [시스템/응용] 스트리밍 데이터 처리 프레임워크(Apache Flink, Spark Streaming)를 이용한 실시간 로봇 관제 모니터링 방식은?
+
+- **답변 예시**: 수백 대 AMR의 주행 상태 텔레메트리 데이터를 Flink의 윈도우(Window) 연산으로 실시간 분석하여, 특정 구간 병목이나 장애물 고립 발생 시 실시간으로 우회 지령을 전달합니다.
+
+---
+
+## Q13. [개념/이론] 데이터 무결성(Data Integrity) 확보 및 센서 간 타임스탬프 동기화를 위한 PTP (IEEE 1588) 프로토콜 구축은?
+
+- **답변 예시**: 로봇 센서(카메라, 라이다, IMU)의 시간이 어긋나면 센서 퓨전 위치 추정이 왜곡되므로, PTP(Precision Time Protocol) 마스터 서버를 연동해 마이크로초 단위로 데이터 타임스탬프를 정밀 동기화합니다.
+
+---
+
+## Q14. [실무/트러블슈팅] 비전 데이터 수집 시 개인정보보호(GDPR) 대응을 위한 엣지 비식별화(Anonymization) 가공 파이프라인은?
+
+- **답변 예시**: 모바일 로봇이 수집한 영상 데이터 수집 즉시 엣지단에서 보행자 얼굴 및 차량 번호판을 고속 탐지(YOLO)하여 모자이크 블러링(Blurring) 처리 후 클라우드로 전송합니다.
+
+---
+
+## Q15. [시스템/응용] 로봇 데이터 플랫폼 설계 시 Data Mesh 아키텍처 및 도메인 중심 데이터 오너십(Domain-driven Data Ownership) 적용은?
+
+- **답변 예시**: 로봇 하드웨어 메트릭, 비전 인지 데이터, 자율주행 궤적 데이터를 각각 독립된 데이터 도메인 제품(Data Product)으로 분리하여, API 기반 분산 데이터 플랫폼을 운영합니다.
+"""
+
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(content.strip() + "\n")
+
+print("Successfully updated 데이터.md with DevOps & MLOps terms!")

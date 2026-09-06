@@ -13,7 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ROBOTICS 채용공고(JD) 모음</title>
+    <title>ROBOTICS CAREER HUB</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=10.34.0">
 </head>
 <body>
     <div class="app-container">
@@ -36,15 +36,21 @@
             <div class="logo-area">
                 <img src="logo.png" alt="Jelly Logo" class="logo-img">
                 <div class="logo-text">
-                    <h1>ROBOTICS 채용공고(JD) 모음</h1>
-                    <span>ROBOTICS & AI JOB Description ARCHIVE</span>
+                    <h1>ROBOTICS CAREER HUB</h1>
+                    <span>ROBOTICS & AI JOB ARCHIVE, INTERVIEW & INDUSTRY NEWS</span>
                 </div>
             </div>
-            <div class="header-actions">
-                <button id="btn-show-guide" class="btn-guide">
-                    <i class="fa-solid fa-graduation-cap"></i> 전공강의 수강 가이드
+            <div class="header-nav-tabs">
+                <button id="tab-btn-jobs" class="nav-tab active">
+                    <i class="fa-solid fa-briefcase"></i> 채용공고 모음
                 </button>
-                <button id="btn-show-lecture" class="btn-guide btn-lecture-spec">
+                <button id="tab-btn-interviews" class="nav-tab">
+                    <i class="fa-solid fa-comments"></i> 면접기출 & 꿀팁
+                </button>
+                <button id="tab-btn-news" class="nav-tab">
+                    <i class="fa-solid fa-newspaper"></i> 로봇 산업 뉴스
+                </button>
+                <button id="tab-btn-lectures" class="nav-tab">
                     <i class="fa-solid fa-diagram-project"></i> 로봇 실무 프로젝트/강의
                 </button>
             </div>
@@ -52,67 +58,173 @@
 
         <!-- Main Body -->
         <div class="app-body">
-            <!-- Sidebar (Filters) -->
-            <aside class="app-sidebar">
-                <!-- Search Box -->
-                <div class="filter-section">
-                    <h3><i class="fa-solid fa-magnifying-glass"></i> 통합 검색</h3>
-                    <div class="search-wrapper">
-                        <input type="text" id="search-input" placeholder="회사명, 직무, 핵심 키워드 검색...">
-                        <i class="fa-solid fa-keyboard search-icon"></i>
-                    </div>
+            <!-- Jobs Archive View -->
+            <div id="view-jobs" class="tab-view active">
+                <div class="view-layout">
+                    <!-- Sidebar (Filters) -->
+                    <aside class="app-sidebar">
+                        <!-- Search Box -->
+                        <div class="filter-section">
+                            <h3><i class="fa-solid fa-magnifying-glass"></i> 통합 검색</h3>
+                            <div class="search-wrapper">
+                                <i class="fa-solid fa-magnifying-glass search-left-icon"></i>
+                                <input type="text" id="search-input" placeholder="회사명, 직무, 핵심 키워드 검색...">
+                                <i class="fa-solid fa-keyboard search-icon"></i>
+                            </div>
+                        </div>
+
+                        <!-- Companies Filter -->
+                        <div class="filter-section">
+                            <div class="section-header">
+                                <h3><i class="fa-solid fa-building"></i> 기업 필터</h3>
+                                <button id="btn-clear-companies" class="btn-text">전체 해제</button>
+                            </div>
+                            <div class="company-list" id="company-filter-list">
+                                <!-- Dynamic Companies -->
+                            </div>
+                        </div>
+
+                        <!-- Career Type Filter -->
+                        <div class="filter-section">
+                            <h3><i class="fa-solid fa-user-tag"></i> 채용 구분</h3>
+                            <div class="tag-cloud" id="career-filter-list">
+                                <!-- Dynamic Career Tags (신입, 경력) -->
+                            </div>
+                        </div>
+
+                        <!-- Tags Filter -->
+                        <div class="filter-section">
+                            <h3><i class="fa-solid fa-tags"></i> 직무 카테고리</h3>
+                            <div class="tag-cloud" id="tag-cloud">
+                                <!-- Dynamic Tags -->
+                            </div>
+                        </div>
+
+                        <!-- Years Filter -->
+                        <div class="filter-section">
+                            <h3><i class="fa-solid fa-calendar-days"></i> 공고 년도</h3>
+                            <div class="tag-cloud" id="year-filter-list">
+                                <!-- Dynamic Years -->
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- Main Content Area -->
+                    <main class="app-content">
+                        <div class="content-header">
+                            <h2 id="results-count">검색 결과: 0개 포지션</h2>
+                            <div class="sort-wrapper">
+                                <label for="sort-select">정렬 기준:</label>
+                                <select id="sort-select">
+                                    <option value="latest" selected>최신순</option>
+                                    <option value="company">기업명 순</option>
+                                    <option value="title">직무명 순</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Cards Grid -->
+                        <div class="jobs-grid" id="jobs-grid">
+                            <!-- Dynamic Job Cards -->
+                        </div>
+                    </main>
                 </div>
+            </div>
 
-                
-                <!-- Companies Filter -->
-                <div class="filter-section">
-                    <div class="section-header">
-                        <h3><i class="fa-solid fa-building"></i> 기업 필터</h3>
-                        <button id="btn-clear-companies" class="btn-text">전체 해제</button>
-                    </div>
-                    <div class="company-list" id="company-filter-list">
-                        <!-- Dynamic Companies -->
-                    </div>
+            <!-- Interviews DB View -->
+            <div id="view-interviews" class="tab-view" style="display: none;">
+                <div class="view-layout interview-layout">
+                    <!-- Interview Category Sidebar -->
+                    <aside class="app-sidebar interview-sidebar">
+                        <!-- Section 1: Tips -->
+                        <div class="filter-section">
+                            <h3><i class="fa-solid fa-lightbulb"></i> 합격 전략 꿀팁</h3>
+                            <div class="interview-cat-list" id="tips-cat-list" style="max-height: 220px; overflow-y: auto;">
+                                <!-- Dynamic Tips Buttons -->
+                            </div>
+                        </div>
+
+                        <!-- Section 2: Job Categories -->
+                        <div class="filter-section" style="margin-top: 16px;">
+                            <h3><i class="fa-solid fa-list-check"></i> 직무 선택 (기출 Q&A)</h3>
+                            <div class="interview-cat-list" id="interview-cat-list" style="max-height: calc(100vh - 380px); overflow-y: auto;">
+                                <!-- Dynamic Interview Category Buttons -->
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- Main Interview Content Area -->
+                    <main class="app-content interview-content">
+                        <div class="content-header interview-header">
+                            <h2 id="selected-interview-title"><i class="fa-solid fa-book-open"></i> 면접 기출 질문</h2>
+                            <span class="interview-badge">실무/기술 면접 질문 DB</span>
+                        </div>
+                        <div class="interview-card">
+                            <div class="markdown-body" id="interview-markdown">
+                                <!-- Rendered Interview Q&A MD -->
+                            </div>
+                        </div>
+                    </main>
                 </div>
+            </div>
 
-                <!-- Tags Filter -->
-                <div class="filter-section">
-                    <h3><i class="fa-solid fa-tags"></i> 직무 카테고리</h3>
-                    <div class="tag-cloud" id="tag-cloud">
-                        <!-- Dynamic Tags -->
-                    </div>
+            </div>
+
+            <!-- News View (Promoted to 5th Main Tab) -->
+            <div id="view-news" class="tab-view" style="display: none;">
+                <div class="view-layout interview-layout">
+                    <!-- Sidebar (Filters & Search for News) -->
+                    <aside class="app-sidebar interview-sidebar">
+                        <!-- Search Box -->
+                        <div class="filter-section">
+                            <h3><i class="fa-solid fa-magnifying-glass"></i> 뉴스 검색</h3>
+                            <div class="search-wrapper">
+                                <i class="fa-solid fa-magnifying-glass search-left-icon"></i>
+                                <input type="text" id="news-search-input" placeholder="기사 제목, 기업명, 키워드 검색...">
+                                <i class="fa-solid fa-keyboard search-icon"></i>
+                            </div>
+                        </div>
+
+                        <!-- News List -->
+                        <div class="filter-section">
+                            <h3><i class="fa-solid fa-newspaper"></i> 최신 로봇 뉴스 (총 <span id="news-total-count">0</span>건)</h3>
+                            <div class="interview-cat-list" id="news-cat-list" style="max-height: calc(100vh - 300px); overflow-y: auto;">
+                                <!-- Dynamic News List Items -->
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- Main Content Area for News -->
+                    <main class="app-content interview-content">
+                        <div class="content-header interview-header">
+                            <h2 id="selected-news-title"><i class="fa-solid fa-newspaper"></i> 로봇 산업 최신 동향</h2>
+                            <span class="interview-badge" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.3);">산업 기사 아카이브</span>
+                        </div>
+                        <div class="interview-card">
+                            <div class="markdown-body" id="news-markdown">
+                                <!-- Rendered News MD -->
+                            </div>
+                        </div>
+                    </main>
                 </div>
+            </div>
 
-                <!-- Years Filter -->
-                <div class="filter-section">
-                    <h3><i class="fa-solid fa-calendar-days"></i> 공고 년도</h3>
-                    <div class="tag-cloud" id="year-filter-list">
-                        <!-- Dynamic Years -->
-                    </div>
+            <!-- Lectures View -->
+            <div id="view-lectures" class="tab-view" style="display: none;">
+                <div class="view-layout lecture-layout">
+                    <main class="app-content lecture-content">
+                        <div class="content-header lecture-header">
+                            <h2><i class="fa-solid fa-rocket"></i> 로봇 실무 프로젝트 / 강의 안내</h2>
+                            <span class="lecture-badge">실무 커리큘럼 & 프로젝트</span>
+                        </div>
+                        <div class="lecture-card">
+                            <div class="markdown-body" id="lecture-markdown">
+                                <!-- Rendered Lecture MD -->
+                            </div>
+                        </div>
+                    </main>
                 </div>
-
-
-
-            </aside>
-
-            <!-- Main Content Area -->
-            <main class="app-content">
-                <div class="content-header">
-                    <h2 id="results-count">검색 결과: 0개 포지션</h2>
-                    <div class="sort-wrapper">
-                        <label for="sort-select">정렬 기준:</label>
-                        <select id="sort-select">
-                            <option value="company">기업명 순</option>
-                            <option value="title">직무명 순</option>
-                        </select>
-                    </div>
-                </div>
-
-                <!-- Cards Grid -->
-                <div class="jobs-grid" id="jobs-grid">
-                    <!-- Dynamic Job Cards -->
-                </div>
-            </main>
+            </div>
 
             <!-- Details Slide-out Panel -->
             <div class="detail-panel" id="detail-panel">
@@ -141,8 +253,7 @@
     </div>
 
     <!-- Load Data -->
-    <script src="jobs.js?v=2.0.1"></script>
-    <!-- App Logic -->
-    <script src="app.js?v=2.0.1"></script>
+    <script src="jobs.js?v=10.34.0"></script>
+    <script src="app.js?v=10.34.0"></script>
 </body>
 </html>
