@@ -32,10 +32,24 @@ const statJds = document.getElementById('stat-jds');
 
 // Initialize Dashboard
 document.addEventListener('DOMContentLoaded', () => {
-    // Enable single line breaks in markdown rendering (\n -> <br>)
+    // Configure marked options & link renderer (open in new tab)
+    const renderer = new marked.Renderer();
+    const defaultLinkRenderer = renderer.link.bind(renderer);
+    renderer.link = (href, title, text) => {
+        let linkUrl = href;
+        if (typeof href === 'object' && href !== null) {
+            linkUrl = href.href;
+            text = href.text;
+            title = href.title;
+        }
+        const html = defaultLinkRenderer(linkUrl, title, text);
+        return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" ');
+    };
+
     marked.setOptions({
         breaks: true,
-        gfm: true
+        gfm: true,
+        renderer: renderer
     });
 
     initFilters();
@@ -440,14 +454,16 @@ function updateGlobalStats() {
 // Main Navigation Tab Switching & Hash Deep Linking
 function initTabNavigation() {
     const tabBtnJobs = document.getElementById('tab-btn-jobs');
-    const tabBtnInterviews = document.getElementById('tab-btn-interviews');
+    const tabBtnInterviews = document.getElementById('tab-btn-interview') || document.getElementById('tab-btn-interviews');
     const tabBtnNews = document.getElementById('tab-btn-news');
     const tabBtnLectures = document.getElementById('tab-btn-lectures');
+    const tabBtnQna = document.getElementById('tab-btn-qna');
     
     if (tabBtnJobs) tabBtnJobs.addEventListener('click', () => switchTab('jobs'));
     if (tabBtnInterviews) tabBtnInterviews.addEventListener('click', () => switchTab('interviews'));
     if (tabBtnNews) tabBtnNews.addEventListener('click', () => switchTab('news'));
     if (tabBtnLectures) tabBtnLectures.addEventListener('click', () => switchTab('lectures'));
+    if (tabBtnQna) tabBtnQna.addEventListener('click', () => switchTab('qna'));
 
     window.addEventListener('hashchange', handleHashChange);
     handleHashChange();
@@ -471,6 +487,8 @@ function handleHashChange() {
         }
     } else if (rawHash === 'lectures') {
         switchTab('lectures', false);
+    } else if (rawHash === 'qna') {
+        switchTab('qna', false);
     } else if (rawHash === 'jobs') {
         switchTab('jobs', false);
     }
@@ -481,21 +499,25 @@ function switchTab(tabName, updateHash = true) {
     const viewInterviews = document.getElementById('view-interviews');
     const viewNews = document.getElementById('view-news');
     const viewLectures = document.getElementById('view-lectures');
+    const viewQna = document.getElementById('view-qna');
     
     const tabBtnJobs = document.getElementById('tab-btn-jobs');
-    const tabBtnInterviews = document.getElementById('tab-btn-interviews');
+    const tabBtnInterviews = document.getElementById('tab-btn-interview') || document.getElementById('tab-btn-interviews');
     const tabBtnNews = document.getElementById('tab-btn-news');
     const tabBtnLectures = document.getElementById('tab-btn-lectures');
+    const tabBtnQna = document.getElementById('tab-btn-qna');
 
     if (viewJobs) viewJobs.style.display = 'none';
     if (viewInterviews) viewInterviews.style.display = 'none';
     if (viewNews) viewNews.style.display = 'none';
     if (viewLectures) viewLectures.style.display = 'none';
+    if (viewQna) viewQna.style.display = 'none';
 
     if (tabBtnJobs) tabBtnJobs.classList.remove('active');
     if (tabBtnInterviews) tabBtnInterviews.classList.remove('active');
     if (tabBtnNews) tabBtnNews.classList.remove('active');
     if (tabBtnLectures) tabBtnLectures.classList.remove('active');
+    if (tabBtnQna) tabBtnQna.classList.remove('active');
 
     if (tabName === 'jobs') {
         if (viewJobs) viewJobs.style.display = 'block';
@@ -537,7 +559,46 @@ function switchTab(tabName, updateHash = true) {
                 'event_label': '로봇_실무_프로젝트_강의'
             });
         }
+    } else if (tabName === 'qna') {
+        if (viewQna) viewQna.style.display = 'block';
+        if (tabBtnQna) tabBtnQna.classList.add('active');
+        if (updateHash) history.replaceState(null, '', '#qna');
+        initQnaView();
+
+        if (typeof gtag === 'function') {
+            gtag('event', 'click_tab_qna', {
+                'event_category': 'navigation',
+                'event_label': 'QNA'
+            });
+        }
     }
+}
+
+function initQnaView() {
+    const wrapper = document.getElementById('giscus-wrapper');
+    if (!wrapper) return;
+    if (wrapper.querySelector('script')) return;
+
+    const themeUrl = 'https://jellycoding0.github.io/jd-hub/giscus-theme.css';
+
+    const script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.setAttribute('data-repo', 'jellycoding0/jd-hub');
+    script.setAttribute('data-repo-id', 'R_kgDOTm5Ecg');
+    script.setAttribute('data-category', 'Q&A');
+    script.setAttribute('data-category-id', 'DIC_kwDOTm5Ecs4DFFFl');
+    script.setAttribute('data-mapping', 'specific');
+    script.setAttribute('data-term', 'Q&A 게시판');
+    script.setAttribute('data-strict', '0');
+    script.setAttribute('data-reactions-enabled', '0');
+    script.setAttribute('data-emit-metadata', '0');
+    script.setAttribute('data-input-position', 'top');
+    script.setAttribute('data-theme', themeUrl);
+    script.setAttribute('data-lang', 'ko');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
+
+    wrapper.appendChild(script);
 }
 
 // Integrated Interview & Tips View Handler (Separated Sidebars)

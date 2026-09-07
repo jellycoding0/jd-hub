@@ -1,0 +1,34 @@
+@import url("https://giscus.app/themes/transparent_dark.css");
+
+/* Hide all reaction buttons in main bar and popover menu except Heart */
+button[data-reaction]:not([data-reaction="HEART"]),
+.giscus-reactions button:not([data-reaction="HEART"]),
+div[class*="popover"] button:not([data-reaction="HEART"]),
+div[class*="menu"] button:not([data-reaction="HEART"]) {
+    display: none !important;
+}
+
+button[data-reaction="HEART"] {
+    display: inline-flex !important;
+}
+
+/* Hide Preview (미리보기) tab in main comment box and reply boxes */
+button[id*="preview"],
+button[data-tab="preview"],
+button[data-target*="preview"],
+button[aria-controls*="preview"],
+button[data-view="preview"],
+[role="tablist"] > button:nth-child(2),
+[role="tablist"] > [role="tab"]:nth-child(2),
+.tabnav-tabs > *:nth-child(2),
+.tabnav-tab:nth-child(2),
+.giscus-comment-box-tabs,
+ul[role="tablist"],
+div[role="tablist"],
+[role="tablist"],
+nav[aria-label="Comment"],
+nav[aria-label="Reply"],
+nav[aria-label="댓글"],
+nav[aria-label="답글"] {
+    display: none !important;
+}

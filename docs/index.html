@@ -27,7 +27,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=10.34.0">
+    <link rel="stylesheet" href="style.css?v=10.68.0">
 </head>
 <body>
     <div class="app-container">
@@ -44,14 +44,17 @@
                 <button id="tab-btn-jobs" class="nav-tab active">
                     <i class="fa-solid fa-briefcase"></i> 채용공고 모음
                 </button>
-                <button id="tab-btn-interviews" class="nav-tab">
-                    <i class="fa-solid fa-comments"></i> 면접기출 & 꿀팁
+                <button id="tab-btn-interview" class="nav-tab">
+                    <i class="fa-solid fa-comments"></i> 직무별 면접 질문
                 </button>
                 <button id="tab-btn-news" class="nav-tab">
-                    <i class="fa-solid fa-newspaper"></i> 로봇 산업 뉴스
+                    <i class="fa-newspaper"></i> 정보 및 뉴스
                 </button>
-                <button id="tab-btn-lectures" class="nav-tab">
-                    <i class="fa-solid fa-diagram-project"></i> 로봇 실무 프로젝트/강의
+                <button id="tab-btn-qna" class="nav-tab">
+                    <i class="fa-solid fa-circle-question"></i> Q&A
+                </button>
+                <button id="tab-btn-lectures" class="nav-tab nav-tab-cta">
+                    <i class="fa-solid fa-rocket"></i> 실무 프로젝트 & 강의
                 </button>
             </div>
         </header>
@@ -226,6 +229,46 @@
                 </div>
             </div>
 
+            <!-- Q&A View (Giscus GitHub Discussions Integration) -->
+            <div id="view-qna" class="tab-view" style="display: none;">
+                <div class="view-layout qna-layout">
+                    <main class="app-content qna-content">
+                        <div class="content-header qna-header">
+                            <h2><i class="fa-solid fa-circle-question"></i> Q&A 게시판</h2>
+                            <div class="header-action-group">
+                                <a href="https://github.com/jellycoding0/jd-hub/discussions" target="_blank" rel="noopener noreferrer" class="btn-primary-qna">
+                                    <i class="fa-brands fa-github"></i> GitHub Discussions에서 보기
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="qna-guide-card">
+                            <div class="guide-icon"><i class="fa-solid fa-circle-question"></i></div>
+                            <div class="guide-text">
+                                <h4>Q&A 게시판 이용 가이드</h4>
+                                <p>로봇/AI 직무 준비, 강의 내용, 채용 정보 등에 대해 자유롭게 질문과 답변을 나누세요.</p>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span><strong>질문 및 답변 등록</strong> : 아래 창에서 GitHub 로그인 후 자유롭게 질문 및 답변을 작성하세요.</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        <span><strong>글 수정 및 삭제</strong> : 우측 상단 <strong>'GitHub Discussions에서 보기'</strong> 버튼 접속 후 해당 글 구역 <strong>더보기(...)</strong> 메뉴 또는 하단 <strong>Delete discussion</strong>을 통해 언제든지 수정 및 삭제가 가능합니다.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="qna-card">
+                            <div class="giscus-wrapper" id="giscus-wrapper">
+                                <!-- Dynamic Giscus Embed -->
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+
             <!-- Details Slide-out Panel -->
             <div class="detail-panel" id="detail-panel">
                 <div class="panel-overlay" id="panel-overlay"></div>
@@ -253,7 +296,7 @@
     </div>
 
     <!-- Load Data -->
-    <script src="jobs.js?v=10.34.0"></script>
-    <script src="app.js?v=10.34.0"></script>
+    <script src="jobs.js?v=10.68.0"></script>
+    <script src="app.js?v=10.68.0"></script>
 </body>
 </html>

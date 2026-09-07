@@ -658,9 +658,13 @@ body {
 
 .content-header h2 {
     font-family: var(--font-display);
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75%;
 }
 
 .sort-wrapper {
@@ -1036,21 +1040,38 @@ body {
     color: #e2e8f0;
 }
 
+.markdown-body h1 {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #f8fafc;
+    line-height: 1.45;
+    margin: 0 0 1.2rem 0;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
 .markdown-body h2 {
     font-family: var(--font-display);
-    font-size: 1.3rem;
+    font-size: 1.18rem;
     font-weight: 600;
     color: var(--primary);
-    margin: 2rem 0 1rem 0;
+    margin: 1.8rem 0 0.8rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     padding-bottom: 0.4rem;
+    word-break: keep-all;
+    overflow-wrap: break-word;
 }
 
 .markdown-body h3 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin: 1.5rem 0 0.8rem 0;
+    margin: 1.4rem 0 0.6rem 0;
+    word-break: keep-all;
+    overflow-wrap: break-word;
 }
 
 .markdown-body p {
@@ -1454,6 +1475,43 @@ body {
     box-shadow: 0 0 12px rgba(168, 85, 247, 0.2);
 }
 
+/* High-Conversion CTA Tab: 실무 프로젝트 & 강의 */
+.nav-tab-cta {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.3) 0%, rgba(16, 185, 129, 0.3) 100%) !important;
+    border: 1px solid rgba(139, 92, 246, 0.5) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.25);
+    transition: var(--transition-smooth);
+}
+
+.nav-tab-cta:hover {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.55) 0%, rgba(16, 185, 129, 0.55) 100%) !important;
+    border-color: #10b981 !important;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+    transform: translateY(-2px);
+}
+
+.nav-tab-cta.active {
+    background: linear-gradient(135deg, #8b5cf6 0%, #10b981 100%) !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 22px rgba(16, 185, 129, 0.6);
+}
+
+.tab-badge-hot {
+    background: #ef4444;
+    color: #ffffff;
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 0.12rem 0.45rem;
+    border-radius: 10px;
+    margin-left: 0.35rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(239, 68, 68, 0.5);
+    display: inline-block;
+}
+
 /* Responsive adjustment for Navigation Tabs & Interview Layout */
 @media (max-width: 900px) {
     .nav-tabs-wrapper {
@@ -1478,9 +1536,173 @@ body {
         max-height: 200px;
     }
     
-    .interview-card, .lecture-card {
+    .interview-card, .lecture-card, .qna-card {
         padding: 1.2rem;
     }
 }
+
+/* Q&A Section Styles */
+.qna-layout {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+.qna-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.qna-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.qna-header h2 {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.header-action-group {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.btn-primary-qna {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.1rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+}
+
+.btn-primary-qna:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+    transform: translateY(-2px);
+    color: #ffffff;
+}
+
+.btn-secondary-qna {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.1rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #94a3b8;
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+.btn-secondary-qna:hover {
+    background: rgba(51, 65, 85, 0.9);
+    border-color: #94a3b8;
+    color: #f8fafc;
+    transform: translateY(-2px);
+}
+
+.qna-badge {
+    padding: 0.35rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 20px;
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.qna-guide-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.qna-guide-card .guide-icon {
+    font-size: 2rem;
+    color: var(--primary);
+    padding-top: 0.2rem;
+}
+
+.qna-guide-card .guide-text h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.4rem;
+}
+
+.qna-guide-card .guide-text p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.6rem;
+}
+
+.qna-guide-card .guide-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.qna-guide-card .guide-text li {
+    font-size: 0.88rem;
+    color: #cbd5e1;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    line-height: 1.6;
+}
+
+.qna-guide-card .guide-text li i {
+    color: #10b981;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    flex-shrink: 0;
+}
+
+.qna-guide-card .guide-text li span {
+    flex: 1;
+}
+
+.qna-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.8rem;
+    min-height: 450px;
+}
+
+.giscus-wrapper {
+    width: 100%;
+}
+
 
 
