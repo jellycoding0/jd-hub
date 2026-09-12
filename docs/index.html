@@ -27,7 +27,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=10.68.0">
+    <link rel="stylesheet" href="style.css?v=10.80.0">
 </head>
 <body>
     <div class="app-container">
@@ -65,64 +65,106 @@
             <div id="view-jobs" class="tab-view active">
                 <div class="view-layout">
                     <!-- Sidebar (Filters) -->
-                    <aside class="app-sidebar">
-                        <!-- Search Box -->
-                        <div class="filter-section">
-                            <h3><i class="fa-solid fa-magnifying-glass"></i> 통합 검색</h3>
-                            <div class="search-wrapper">
+                    <aside class="app-sidebar" id="app-sidebar">
+                        <!-- Mobile Filter Header (Visible on mobile bottom sheet) -->
+                        <div class="mobile-filter-header">
+                            <div class="mobile-filter-title">
+                                <i class="fa-solid fa-sliders"></i> 상세 필터 설정
+                            </div>
+                            <div class="mobile-filter-actions">
+                                <button id="btn-clear-all-mobile" class="btn-text">초기화</button>
+                                <button id="btn-close-mobile-filter" class="btn-icon-close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-scroll-content">
+                            <!-- Companies Filter -->
+                            <div class="filter-section">
+                                <div class="section-header">
+                                    <h3><i class="fa-solid fa-building"></i> 기업 필터</h3>
+                                    <button id="btn-clear-companies" class="btn-text">전체 해제</button>
+                                </div>
+                                <div class="company-list" id="company-filter-list">
+                                    <!-- Dynamic Companies -->
+                                </div>
+                            </div>
+
+                            <!-- Career Type Filter -->
+                            <div class="filter-section">
+                                <h3><i class="fa-solid fa-user-tag"></i> 채용 구분</h3>
+                                <div class="tag-cloud" id="career-filter-list">
+                                    <!-- Dynamic Career Tags (신입, 경력) -->
+                                </div>
+                            </div>
+
+                            <!-- Tags Filter -->
+                            <div class="filter-section">
+                                <h3><i class="fa-solid fa-tags"></i> 직무 카테고리</h3>
+                                <div class="tag-cloud" id="tag-cloud">
+                                    <!-- Dynamic Tags -->
+                                </div>
+                            </div>
+
+                            <!-- Years Filter -->
+                            <div class="filter-section">
+                                <h3><i class="fa-solid fa-calendar-days"></i> 공고 년도</h3>
+                                <div class="tag-cloud" id="year-filter-list">
+                                    <!-- Dynamic Years -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile Filter Footer (Visible on mobile bottom sheet) -->
+                        <div class="mobile-filter-footer">
+                            <button id="btn-apply-mobile-filter" class="btn-apply-filter">
+                                결과 보기 (<span id="mobile-filter-result-count">0</span>개 공고)
+                            </button>
+                        </div>
+                    </aside>
+
+                    <!-- Mobile Filter Backdrop -->
+                    <div class="mobile-filter-backdrop" id="mobile-filter-backdrop"></div>
+
+                    <!-- Main Content Area -->
+                    <main class="app-content">
+                        <!-- Top Integrated Search Bar -->
+                        <div class="top-search-section">
+                            <div class="main-search-wrapper">
                                 <i class="fa-solid fa-magnifying-glass search-left-icon"></i>
                                 <input type="text" id="search-input" placeholder="회사명, 직무, 핵심 키워드 검색...">
                                 <i class="fa-solid fa-keyboard search-icon"></i>
                             </div>
                         </div>
 
-                        <!-- Companies Filter -->
-                        <div class="filter-section">
-                            <div class="section-header">
-                                <h3><i class="fa-solid fa-building"></i> 기업 필터</h3>
-                                <button id="btn-clear-companies" class="btn-text">전체 해제</button>
+                        <!-- Reorganized 2-Line Control Bar -->
+                        <div class="content-header jobs-control-header">
+                            <!-- Line 1: Quick Career Filter Chips -->
+                            <div class="control-line-chips">
+                                <div class="quick-chips-container" id="quick-career-chips">
+                                    <button class="chip-item active" data-career="all">전체</button>
+                                    <button class="chip-item" data-career="신입">신입</button>
+                                    <button class="chip-item" data-career="경력">경력</button>
+                                </div>
                             </div>
-                            <div class="company-list" id="company-filter-list">
-                                <!-- Dynamic Companies -->
-                            </div>
-                        </div>
 
-                        <!-- Career Type Filter -->
-                        <div class="filter-section">
-                            <h3><i class="fa-solid fa-user-tag"></i> 채용 구분</h3>
-                            <div class="tag-cloud" id="career-filter-list">
-                                <!-- Dynamic Career Tags (신입, 경력) -->
-                            </div>
-                        </div>
-
-                        <!-- Tags Filter -->
-                        <div class="filter-section">
-                            <h3><i class="fa-solid fa-tags"></i> 직무 카테고리</h3>
-                            <div class="tag-cloud" id="tag-cloud">
-                                <!-- Dynamic Tags -->
-                            </div>
-                        </div>
-
-                        <!-- Years Filter -->
-                        <div class="filter-section">
-                            <h3><i class="fa-solid fa-calendar-days"></i> 공고 년도</h3>
-                            <div class="tag-cloud" id="year-filter-list">
-                                <!-- Dynamic Years -->
-                            </div>
-                        </div>
-                    </aside>
-
-                    <!-- Main Content Area -->
-                    <main class="app-content">
-                        <div class="content-header">
-                            <h2 id="results-count">검색 결과: 0개 포지션</h2>
-                            <div class="sort-wrapper">
-                                <label for="sort-select">정렬 기준:</label>
-                                <select id="sort-select">
-                                    <option value="latest" selected>최신순</option>
-                                    <option value="company">기업명 순</option>
-                                    <option value="title">직무명 순</option>
-                                </select>
+                            <!-- Line 2: Results Count (Left) & Mobile Filter Button + Sort Select (Right) -->
+                            <div class="control-line-actions">
+                                <h2 id="results-count"><span class="count-prefix">검색 결과: </span><strong class="count-num">0</strong>개 포지션</h2>
+                                <div class="header-right-group">
+                                    <button id="btn-open-mobile-filter" class="btn-mobile-filter">
+                                        <i class="fa-solid fa-sliders"></i> 필터 <span id="mobile-active-filter-badge" class="filter-badge">0</span>
+                                    </button>
+                                    <div class="sort-wrapper">
+                                        <label for="sort-select" class="sort-label">정렬:</label>
+                                        <select id="sort-select">
+                                            <option value="latest" selected>최신순</option>
+                                            <option value="company">기업명 순</option>
+                                            <option value="title">직무명 순</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -142,7 +184,7 @@
                         <!-- Section 1: Tips -->
                         <div class="filter-section">
                             <h3><i class="fa-solid fa-lightbulb"></i> 합격 전략 꿀팁</h3>
-                            <div class="interview-cat-list" id="tips-cat-list" style="max-height: 220px; overflow-y: auto;">
+                            <div class="interview-cat-list" id="tips-cat-list" style="max-height: 170px; overflow-y: auto;">
                                 <!-- Dynamic Tips Buttons -->
                             </div>
                         </div>
@@ -150,7 +192,7 @@
                         <!-- Section 2: Job Categories -->
                         <div class="filter-section" style="margin-top: 16px;">
                             <h3><i class="fa-solid fa-list-check"></i> 직무 선택 (기출 Q&A)</h3>
-                            <div class="interview-cat-list" id="interview-cat-list" style="max-height: calc(100vh - 380px); overflow-y: auto;">
+                            <div class="interview-cat-list" id="interview-cat-list" style="max-height: 260px; overflow-y: auto;">
                                 <!-- Dynamic Interview Category Buttons -->
                             </div>
                         </div>
@@ -173,11 +215,11 @@
 
             </div>
 
-            <!-- News View (Promoted to 5th Main Tab) -->
+            <!-- News View -->
             <div id="view-news" class="tab-view" style="display: none;">
-                <div class="view-layout interview-layout">
+                <div class="view-layout interview-layout news-layout" id="news-layout-container">
                     <!-- Sidebar (Filters & Search for News) -->
-                    <aside class="app-sidebar interview-sidebar">
+                    <aside class="app-sidebar interview-sidebar news-sidebar" id="news-sidebar-area">
                         <!-- Search Box -->
                         <div class="filter-section">
                             <h3><i class="fa-solid fa-magnifying-glass"></i> 뉴스 검색</h3>
@@ -191,19 +233,22 @@
                         <!-- News List -->
                         <div class="filter-section">
                             <h3><i class="fa-solid fa-newspaper"></i> 최신 로봇 뉴스 (총 <span id="news-total-count">0</span>건)</h3>
-                            <div class="interview-cat-list" id="news-cat-list" style="max-height: calc(100vh - 300px); overflow-y: auto;">
+                            <div class="interview-cat-list news-cat-list-wrapper" id="news-cat-list">
                                 <!-- Dynamic News List Items -->
                             </div>
                         </div>
                     </aside>
 
                     <!-- Main Content Area for News -->
-                    <main class="app-content interview-content">
-                        <div class="content-header interview-header">
+                    <main class="app-content interview-content news-content" id="news-content-area">
+                        <div class="content-header interview-header news-header-bar">
+                            <button id="btn-back-to-news-list" class="btn-back-to-news-list" style="display: none;">
+                                <i class="fa-solid fa-arrow-left"></i> 뉴스 목록으로
+                            </button>
                             <h2 id="selected-news-title"><i class="fa-solid fa-newspaper"></i> 로봇 산업 최신 동향</h2>
                             <span class="interview-badge" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.3);">산업 기사 아카이브</span>
                         </div>
-                        <div class="interview-card">
+                        <div class="interview-card news-article-card">
                             <div class="markdown-body" id="news-markdown">
                                 <!-- Rendered News MD -->
                             </div>
@@ -295,8 +340,32 @@
         </div>
     </div>
 
+    <!-- Mobile Bottom Navigation Bar (768px and below) -->
+    <nav class="mobile-bottom-nav" id="mobile-bottom-nav">
+        <button class="mobile-nav-item active" id="mobile-nav-jobs">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>공고 모음</span>
+        </button>
+        <button class="mobile-nav-item" id="mobile-nav-interview">
+            <i class="fa-solid fa-comments"></i>
+            <span>면접 기출</span>
+        </button>
+        <button class="mobile-nav-item" id="mobile-nav-news">
+            <i class="fa-solid fa-newspaper"></i>
+            <span>정보·뉴스</span>
+        </button>
+        <button class="mobile-nav-item" id="mobile-nav-qna">
+            <i class="fa-solid fa-circle-question"></i>
+            <span>Q&A</span>
+        </button>
+        <button class="mobile-nav-item mobile-nav-cta" id="mobile-nav-lectures">
+            <i class="fa-solid fa-rocket"></i>
+            <span>실무 강의</span>
+        </button>
+    </nav>
+
     <!-- Load Data -->
-    <script src="jobs.js?v=10.68.0"></script>
-    <script src="app.js?v=10.68.0"></script>
+    <script src="jobs.js?v=10.80.0"></script>
+    <script src="app.js?v=10.80.0"></script>
 </body>
 </html>
