@@ -1,4 +1,5 @@
 // Main State
+const QNA_ENABLED = document.body.dataset.qnaEnabled === 'true';
 let activeTags = new Set();
 let activeCompanies = new Set();
 let activeYears = new Set();
@@ -284,6 +285,9 @@ function initFilters() {
     validJds.forEach(job => {
         companyCounts[job.company] = (companyCounts[job.company] || 0) + 1;
     });
+    JOBS_DATA.filter(job => job.is_intro).forEach(intro => {
+        if (!(intro.company in companyCounts)) companyCounts[intro.company] = 0;
+    });
 
     if (companyFilterList) {
         companyFilterList.innerHTML = '';
@@ -425,8 +429,13 @@ function getJobDateVal(j) {
 
     // Render Cards
     jobsGrid.innerHTML = '';
+    // Company introductions stay above results, independently of job filters/sort.
+    const introductions = JOBS_DATA
+        .filter(job => job.is_intro && activeCompanies.has(job.company))
+        .sort((a, b) => a.company.localeCompare(b.company, 'ko'));
+    const visibleCards = [...introductions, ...filtered];
     
-    if (filtered.length === 0) {
+    if (visibleCards.length === 0) {
         jobsGrid.innerHTML = `
             <div class="empty-state">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -436,9 +445,10 @@ function getJobDateVal(j) {
         return;
     }
 
-    filtered.forEach(job => {
+    visibleCards.forEach(job => {
         const card = document.createElement('div');
         card.className = 'job-card';
+        card.dataset.kind = job.is_intro ? 'intro' : 'job';
 
         // Separate career tags vs job category tags
         const careerTags = [];
@@ -465,11 +475,11 @@ function getJobDateVal(j) {
         }).join('');
 
         let yearBadgeHtml = '';
-        if (job.year) {
+        if (job.is_intro) {
+            yearBadgeHtml = `<span class="card-badge-intro">회사 소개</span>`;
+        } else if (job.year) {
             const yearStr = job.year.length === 2 ? `20${job.year}` : job.year;
             yearBadgeHtml = `<span class="card-tag-year">${yearStr}년</span>`;
-        } else if (job.is_intro) {
-            yearBadgeHtml = `<span class="card-badge-intro">소개</span>`;
         }
 
         card.innerHTML = `
@@ -501,7 +511,7 @@ function openDetailPanel(job) {
     detailTitle.textContent = job.title;
     
     let yearBadgeHtml = '';
-    if (job.year) {
+    if (job.year && !job.is_intro) {
         const yearStr = job.year.length === 2 ? `20${job.year}` : job.year;
         yearBadgeHtml = `<span class="card-tag-year">${yearStr}년 공고</span>`;
     }
@@ -561,6 +571,8 @@ function updateGlobalStats() {
 
 // Main Navigation Tab Switching & Hash Deep Linking
 function initTabNavigation() {
+    document.getElementById('tab-btn-strategy')?.addEventListener('click', () => switchTab('strategy'));
+    document.getElementById('mobile-nav-strategy')?.addEventListener('click', () => switchTab('strategy'));
     const tabBtnJobs = document.getElementById('tab-btn-jobs');
     const tabBtnInterviews = document.getElementById('tab-btn-interview') || document.getElementById('tab-btn-interviews');
     const tabBtnNews = document.getElementById('tab-btn-news');
@@ -593,11 +605,20 @@ function handleHashChange() {
     const rawHash = decodeURIComponent(window.location.hash.replace('#', '').trim());
     if (!rawHash) return;
 
-    if (rawHash.startsWith('interviews')) {
+    if (rawHash.startsWith('interviews') || rawHash.startsWith('strategy')) {
         const parts = rawHash.split('/');
-        switchTab('interviews', false);
+        const isStrategy = parts[0] === 'strategy' || strategyCategories.some(tip => tip.name === parts[1]);
+        const tab = isStrategy ? 'strategy' : 'interviews';
+        if (parts[1]) {
+            if (isStrategy) currentStrategyCategory = parts[1];
+            else currentInterviewCategory = parts[1];
+        }
+        switchTab(tab, false);
         if (parts.length > 1 && parts[1]) {
             renderInterviewItem(parts[1], false);
+        }
+        if (isStrategy && parts[0] === 'interviews') {
+            history.replaceState(null, '', `#strategy/${encodeURIComponent(currentStrategyCategory)}`);
         }
     } else if (rawHash.startsWith('news')) {
         const parts = rawHash.split('/');
@@ -615,6 +636,12 @@ function handleHashChange() {
 }
 
 function switchTab(tabName, updateHash = true) {
+    if (tabName === 'qna' && !QNA_ENABLED) {
+        tabName = 'jobs';
+        updateHash = true;
+    }
+    const tabBtnStrategy = document.getElementById('tab-btn-strategy');
+    if (tabBtnStrategy) tabBtnStrategy.classList.remove('active');
     const viewJobs = document.getElementById('view-jobs');
     const viewInterviews = document.getElementById('view-interviews');
     const viewNews = document.getElementById('view-news');
@@ -630,6 +657,7 @@ function switchTab(tabName, updateHash = true) {
     const mobileNavItems = {
         jobs: document.getElementById('mobile-nav-jobs'),
         interviews: document.getElementById('mobile-nav-interview'),
+        strategy: document.getElementById('mobile-nav-strategy'),
         news: document.getElementById('mobile-nav-news'),
         lectures: document.getElementById('mobile-nav-lectures'),
         qna: document.getElementById('mobile-nav-qna')
@@ -657,16 +685,24 @@ function switchTab(tabName, updateHash = true) {
         if (viewJobs) viewJobs.style.display = 'block';
         if (tabBtnJobs) tabBtnJobs.classList.add('active');
         if (updateHash) history.replaceState(null, '', '#jobs');
-    } else if (tabName === 'interviews') {
+    } else if (tabName === 'interviews' || tabName === 'strategy') {
+        currentPreparationTab = tabName;
+        const isStrategy = tabName === 'strategy';
         if (viewInterviews) viewInterviews.style.display = 'block';
-        if (tabBtnInterviews) tabBtnInterviews.classList.add('active');
-        if (updateHash) history.replaceState(null, '', `#interviews/${encodeURIComponent(currentInterviewCategory)}`);
+        const activeButton = isStrategy ? tabBtnStrategy : tabBtnInterviews;
+        if (activeButton) activeButton.classList.add('active');
+        document.getElementById('strategy-categories-section').hidden = !isStrategy;
+        document.getElementById('interview-categories-section').hidden = isStrategy;
+        const badge = viewInterviews.querySelector('.interview-badge');
+        if (badge) badge.textContent = isStrategy ? '취업 준비 가이드 & 꿀팁' : '실무/기술 면접 질문 DB';
+        const category = isStrategy ? currentStrategyCategory : currentInterviewCategory;
+        if (updateHash) history.replaceState(null, '', `#${tabName}/${encodeURIComponent(category)}`);
         initInterviewView();
 
         if (typeof gtag === 'function') {
-            gtag('event', 'click_tab_interviews', {
+            gtag('event', `click_tab_${tabName}`, {
                 'event_category': 'navigation',
-                'event_label': '면접기출_및_꿀팁'
+                'event_label': isStrategy ? '취업전략' : '면접기출'
             });
         }
     } else if (tabName === 'news') {
@@ -709,6 +745,7 @@ function switchTab(tabName, updateHash = true) {
 }
 
 function initQnaView() {
+    if (!QNA_ENABLED) return;
     const wrapper = document.getElementById('giscus-wrapper');
     if (!wrapper) return;
     if (wrapper.querySelector('script')) return;
@@ -735,8 +772,24 @@ function initQnaView() {
     wrapper.appendChild(script);
 }
 
-// Integrated Interview & Tips View Handler (Separated Sidebars)
-let currentInterviewCategory = "실무면접 팁";
+// Independent tabs reuse the existing Markdown layout and retain their selections.
+const interviewCategoryOrder = [
+    '공통', 'AI학습', '자율주행', 'SW', '제어', '임베디드',
+    '기구설계', '회로설계', '데이터', '생산기술', '시험평가',
+    '품질', '안전', '인증', '보안', '기획'
+];
+let currentInterviewCategory = interviewCategoryOrder[0];
+let currentStrategyCategory = "취업전략 팁";
+let currentPreparationTab = 'interviews';
+const strategyCategories = [
+    { name: "전공강의 수강 가이드", isGuide: true },
+    { name: "취업전략 팁", key: "취업전략" },
+    { name: "서류 & 포트폴리오 팁", key: "서류/포트폴리오" },
+    { name: "실무면접 팁", key: "실무면접" },
+    { name: "인성검사 팁", key: "인성검사" },
+    { name: "코딩테스트 팁", key: "코딩테스트" },
+    { name: "인성면접 팁", key: "인성면접" }
+];
 
 function initInterviewView() {
     const tipsCatList = document.getElementById('tips-cat-list');
@@ -745,19 +798,11 @@ function initInterviewView() {
 
     // 1. Populate Tips Box
     tipsCatList.innerHTML = '';
-    const tipsCategories = [
-        { name: "전공강의 수강 가이드", isGuide: true },
-        { name: "취업전략 팁", key: "취업전략" },
-        { name: "서류 & 포트폴리오 팁", key: "서류/포트폴리오" },
-        { name: "실무면접 팁", key: "실무면접" },
-        { name: "인성검사 팁", key: "인성검사" },
-        { name: "코딩테스트 팁", key: "코딩테스트" },
-        { name: "인성면접 팁", key: "인성면접" }
-    ];
+    const tipsCategories = strategyCategories;
 
     tipsCategories.forEach(tip => {
         const btn = document.createElement('button');
-        btn.className = `interview-cat-btn ${tip.name === currentInterviewCategory ? 'active' : ''}`;
+        btn.className = `interview-cat-btn ${tip.name === currentStrategyCategory ? 'active' : ''}`;
         btn.dataset.category = tip.name;
 
         let badgeHtml = `<span class="badge-count" style="background: rgba(236,72,153,0.2); color:#f472b6;">TIPS</span>`;
@@ -779,9 +824,11 @@ function initInterviewView() {
     interviewCatList.innerHTML = '';
     const qaCategories = Object.keys(INTERVIEW_DATA);
     qaCategories.sort((a, b) => {
-        if (a === "공통") return -1;
-        if (b === "공통") return 1;
-        return a.localeCompare(b, 'ko');
+        const rank = category => {
+            const index = interviewCategoryOrder.indexOf(category);
+            return index === -1 ? interviewCategoryOrder.length : index;
+        };
+        return rank(a) - rank(b) || a.localeCompare(b, 'ko');
     });
 
     qaCategories.forEach(cat => {
@@ -802,18 +849,25 @@ function initInterviewView() {
     });
 
     // Initial render
-    renderInterviewItem(currentInterviewCategory, false);
+    renderInterviewItem(currentPreparationTab === 'strategy' ? currentStrategyCategory : currentInterviewCategory, false);
 }
 
 function renderInterviewItem(catName, updateHash = true) {
-    currentInterviewCategory = catName;
+    const isStrategy = strategyCategories.some(tip => tip.name === catName);
+    const tab = isStrategy ? 'strategy' : 'interviews';
+    if (isStrategy) currentStrategyCategory = catName;
+    else currentInterviewCategory = catName;
+    if (currentPreparationTab !== tab) {
+        switchTab(tab, updateHash);
+        return;
+    }
 
-    if (updateHash && window.location.hash.includes('interviews')) {
-        history.replaceState(null, '', `#interviews/${encodeURIComponent(catName)}`);
+    if (updateHash) {
+        history.replaceState(null, '', `#${tab}/${encodeURIComponent(catName)}`);
     }
 
     // Update Active Class across both Tips and Job Category Sidebars
-    document.querySelectorAll('.interview-sidebar .interview-cat-btn').forEach(btn => {
+    document.querySelectorAll('#view-interviews .interview-cat-btn').forEach(btn => {
         if (btn.dataset.category === catName) {
             btn.classList.add('active');
         } else {
@@ -830,8 +884,7 @@ function renderInterviewItem(catName, updateHash = true) {
     }
 
     // Check if it's a Tip or Guide
-    const tipKeys = ["전공강의 수강 가이드", "취업전략 팁", "서류 & 포트폴리오 팁", "실무면접 팁", "인성검사 팁", "코딩테스트 팁", "인성면접 팁"];
-    if (tipKeys.includes(catName)) {
+    if (isStrategy) {
         if (catName === "전공강의 수강 가이드") {
             if (selectedTitle) {
                 selectedTitle.innerHTML = `<i class="fa-solid fa-graduation-cap"></i> 전공강의 수강 가이드`;

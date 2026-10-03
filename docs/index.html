@@ -27,9 +27,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=10.80.0">
+    <link rel="stylesheet" href="style.css?v=10.86.0">
 </head>
-<body>
+<!-- Set data-qna-enabled to "true" to restore the Q&A menu and board. -->
+<body data-qna-enabled="false">
     <div class="app-container">
         <!-- Header -->
         <header class="app-header">
@@ -45,7 +46,10 @@
                     <i class="fa-solid fa-briefcase"></i> 채용공고 모음
                 </button>
                 <button id="tab-btn-interview" class="nav-tab">
-                    <i class="fa-solid fa-comments"></i> 직무별 면접 질문
+                    <i class="fa-solid fa-comments"></i> 면접기출
+                </button>
+                <button id="tab-btn-strategy" class="nav-tab">
+                    <i class="fa-solid fa-lightbulb"></i> 취업전략
                 </button>
                 <button id="tab-btn-news" class="nav-tab">
                     <i class="fa-newspaper"></i> 정보 및 뉴스
@@ -182,17 +186,17 @@
                     <!-- Interview Category Sidebar -->
                     <aside class="app-sidebar interview-sidebar">
                         <!-- Section 1: Tips -->
-                        <div class="filter-section">
-                            <h3><i class="fa-solid fa-lightbulb"></i> 합격 전략 꿀팁</h3>
-                            <div class="interview-cat-list" id="tips-cat-list" style="max-height: 170px; overflow-y: auto;">
+                        <div class="filter-section" id="strategy-categories-section" hidden>
+                            <h3><i class="fa-solid fa-lightbulb"></i> 취업전략</h3>
+                            <div class="interview-cat-list" id="tips-cat-list" style="max-height: 480px; overflow-y: auto;">
                                 <!-- Dynamic Tips Buttons -->
                             </div>
                         </div>
 
                         <!-- Section 2: Job Categories -->
-                        <div class="filter-section" style="margin-top: 16px;">
+                        <div class="filter-section" id="interview-categories-section">
                             <h3><i class="fa-solid fa-list-check"></i> 직무 선택 (기출 Q&A)</h3>
-                            <div class="interview-cat-list" id="interview-cat-list" style="max-height: 260px; overflow-y: auto;">
+                            <div class="interview-cat-list" id="interview-cat-list">
                                 <!-- Dynamic Interview Category Buttons -->
                             </div>
                         </div>
@@ -348,7 +352,11 @@
         </button>
         <button class="mobile-nav-item" id="mobile-nav-interview">
             <i class="fa-solid fa-comments"></i>
-            <span>면접 기출</span>
+            <span>면접기출</span>
+        </button>
+        <button class="mobile-nav-item" id="mobile-nav-strategy">
+            <i class="fa-solid fa-lightbulb"></i>
+            <span>취업전략</span>
         </button>
         <button class="mobile-nav-item" id="mobile-nav-news">
             <i class="fa-solid fa-newspaper"></i>
@@ -365,8 +373,8 @@
     </nav>
 
     <!-- Load Data -->
-    <script src="jobs.js?v=10.81.0"></script>
+    <script src="jobs.js?v=10.88.0"></script>
     <script src="content-loader.js?v=10.81.0"></script>
-    <script src="app.js?v=10.81.0"></script>
+    <script src="app.js?v=10.87.0"></script>
 </body>
 </html>

@@ -6765,82 +6765,82 @@ const JOBS_DATA = [
 const INTERVIEW_DATA = {
   "공통": {
     "content_path": "content/02628761567a4916e8cb02a7.md",
-    "content_version": "bee8a2e86b77e732",
+    "content_version": "8e71625fb69b6853",
     "question_count": 16
   },
   "AI학습": {
     "content_path": "content/7364fe8bc5cf11113d154823.md",
-    "content_version": "ea1d4f103475d8f1",
+    "content_version": "5d3683bb85b270d5",
     "question_count": 20
   },
   "SW": {
     "content_path": "content/4ba50e719edef212f8e7101b.md",
-    "content_version": "d36bb09263bf38bf",
+    "content_version": "40fe481e17f86f2f",
     "question_count": 20
   },
   "기구설계": {
     "content_path": "content/3af78c4bb098a887c8ff7579.md",
-    "content_version": "bd7a6452f24388c3",
+    "content_version": "c22f0bc979374c51",
     "question_count": 20
   },
   "기획": {
     "content_path": "content/d470f89c7c95ec1b992a36c7.md",
-    "content_version": "0f81819c40bf426d",
+    "content_version": "4ccd9100ae3bbea7",
     "question_count": 15
   },
   "데이터": {
     "content_path": "content/641680d272de0b632d8e6b86.md",
-    "content_version": "a80d1faa6e8af9bd",
+    "content_version": "72c410c858e2f6fc",
     "question_count": 15
   },
   "보안": {
     "content_path": "content/d8b60035e331f35df1c6314b.md",
-    "content_version": "6ca8dab192cbbbe7",
+    "content_version": "5c6f182b00657f05",
     "question_count": 15
   },
   "생산기술": {
     "content_path": "content/c2651e47d13871303a404edb.md",
-    "content_version": "b404d97df9840430",
+    "content_version": "6adf04baafac8d81",
     "question_count": 15
   },
   "시험평가": {
     "content_path": "content/1a0d2e019215d49a856e1b3e.md",
-    "content_version": "d164b49f01834129",
+    "content_version": "9bda6633210dd686",
     "question_count": 18
   },
   "안전": {
     "content_path": "content/e883e147772a144b74c1f1fe.md",
-    "content_version": "0a912ca354eb30aa",
+    "content_version": "4da79cd6d491f220",
     "question_count": 15
   },
   "인증": {
     "content_path": "content/44bb2a1f0671e8b3a3810c18.md",
-    "content_version": "919d3d420296d356",
+    "content_version": "a11e67b09aafdbb1",
     "question_count": 15
   },
   "임베디드": {
     "content_path": "content/38cc39df5c8cfa07a321c4a1.md",
-    "content_version": "4a953c5c76c163ee",
+    "content_version": "d87e8ebe9a8dadde",
     "question_count": 34
   },
   "자율주행": {
     "content_path": "content/25137f16fbe57d59c2792648.md",
-    "content_version": "f97ac4632412f116",
+    "content_version": "99d4321a35a74e50",
     "question_count": 20
   },
   "제어": {
     "content_path": "content/40aadd596c9baa7425731120.md",
-    "content_version": "13c524b1d77b88b1",
+    "content_version": "bd9ad997fbe42d06",
     "question_count": 20
   },
   "품질": {
     "content_path": "content/961b213e54cbf87b438282f7.md",
-    "content_version": "e37943b73b5798c1",
+    "content_version": "fdefa4dde7bbaddf",
     "question_count": 15
   },
   "회로설계": {
     "content_path": "content/c95e733e4062a67db470734f.md",
-    "content_version": "83d781d734e2f629",
+    "content_version": "7ac44ee10dc57a3d",
     "question_count": 15
   }
 };
