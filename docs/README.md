@@ -1,5 +1,14 @@
 # 🤖 ROBO-JD: 로보틱스 & AI 채용공고 아카이브
 
+## Markdown 데이터 생성 및 로컬 확인
+
+- 프로젝트 루트에서 `python build_dashboard.py` 실행함. 기존 원본 폴더의 `.md`를 읽어 `docs/jobs.js`에는 목록 정보·본문 경로·내용 버전만, `docs/content/*.md`에는 화면에 표시할 본문을 생성함. 면접 문항 수는 빌드 시 계산함.
+- 원본 Markdown을 수정한 뒤 다시 빌드함. `docs/content/`는 생성 결과이므로 직접 편집하지 않음. 기존의 frontmatter 및 `수강생 준비 포인트` 제외 처리는 공고·가이드·뉴스에 그대로 적용함.
+- `python -m http.server 8000 --directory docs` 실행 후 `http://localhost:8000`에서 확인함. `fetch()`를 사용하므로 `index.html`을 파일로 직접 열지 않음.
+- 본문은 상세 화면을 열 때 불러오며, 본문 검색 시에는 필터에 해당하는 문서를 추가로 읽음. 첫 검색은 다운로드 시간이 필요하며 이후 검색·열람에는 메모리 캐시를 재사용함. 실패한 요청은 다시 시도할 수 있음.
+- 배포할 때 `jobs.js`, `app.js`, `content-loader.js`, `index.html`, `content/`를 함께 반영함. 경로는 상대 경로라 GitHub Pages의 저장소 하위 주소에서도 동작함. 내용 버전으로 Markdown 캐시를 구분함.
+- 회귀 확인: `python -B -m unittest discover -s tests` 및 `node --test tests/content-loader.test.cjs`를 프로젝트 루트에서 실행함.
+
 수강생(멘티)들이 취업 준비 및 직무 분석을 가장 효율적으로 진행할 수 있도록 돕는 **로보틱스 & AI 채용공고 아카이브 대시보드**입니다.
 
 ---

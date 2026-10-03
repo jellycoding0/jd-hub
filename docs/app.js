@@ -5,6 +5,8 @@ let activeYears = new Set();
 let activeCareers = new Set();
 let searchQuery = "";
 let sortBy = "latest";
+let jobsRenderRequest = 0;
+let newsRenderRequest = 0;
 
 // DOM Elements
 const jobsGrid = document.getElementById('jobs-grid');
@@ -56,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderJobs();
     updateGlobalStats();
     initTabNavigation();
-    initInterviewView();
     initMobileFilterModal();
     
     // Bind Event Listeners
@@ -309,8 +310,9 @@ function initFilters() {
 }
 
 // Render Jobs Grid
-function renderJobs() {
+async function renderJobs() {
     if (!jobsGrid || typeof JOBS_DATA === 'undefined') return;
+    const request = ++jobsRenderRequest;
 
     let filtered = JOBS_DATA.filter(job => !job.is_intro && !job.is_guide && !job.is_lecture && !job.is_tips && !job.is_news);
 
@@ -344,23 +346,26 @@ function renderJobs() {
 
     // Filter by Search Query
     if (searchQuery) {
-        filtered = filtered.filter(job => {
-            const searchHaystack = `${job.company} ${job.title} ${job.tags.join(' ')} ${job.raw_content}`.toLowerCase();
-            return searchHaystack.includes(searchQuery);
-        });
+        jobsGrid.textContent = '본문을 검색하는 중입니다…';
+        if (resultsCount) resultsCount.textContent = '검색 중…';
+        try {
+            filtered = await searchMarkdownEntries(filtered, searchQuery,
+                job => `${job.company} ${job.title} ${job.tags.join(' ')}`,
+                () => request === jobsRenderRequest);
+        } catch (error) {
+            if (request !== jobsRenderRequest) return;
+            if (resultsCount) resultsCount.textContent = '검색을 완료하지 못했습니다.';
+            showContentError(jobsGrid, '일부 본문을 불러오지 못해 검색을 완료하지 못했습니다.', renderJobs);
+            return;
+        }
+        if (request !== jobsRenderRequest) return;
     }
 
 function getJobDateVal(j) {
     if (j.date_val) return j.date_val;
-    const raw = j.raw_content || '';
     const title = j.title || '';
     const jid = j.id || '';
     const year = j.year || '';
-
-    const m1 = raw.match(/(?:게시일|발행일자|마감일|마감):\s*(\d{4})[-.\s](\d{1,2})[-.\s](\d{1,2})/);
-    if (m1) {
-        return `${m1[1]}${String(m1[2]).padStart(2, '0')}${String(m1[3]).padStart(2, '0')}`;
-    }
 
     const m2 = (title + ' ' + jid).match(/\b(2[3-9])(0[1-9]|1[0-2])\b/);
     if (m2) {
@@ -522,14 +527,14 @@ function openDetailPanel(job) {
             shortcutBtn.addEventListener('click', () => {
                 closeDetailPanel();
                 switchTab('interviews');
-                renderInterviewCategory(matchedTag.trim());
+                renderInterviewItem(matchedTag.trim());
             });
             detailTags.appendChild(shortcutBtn);
         }
     }
     
     // Parse Markdown
-    detailMarkdown.innerHTML = marked.parse(job.raw_content);
+    renderMarkdownDocument(detailMarkdown, job);
     
     // Show Panel
     detailPanel.classList.add('active');
@@ -537,6 +542,10 @@ function openDetailPanel(job) {
 
 // Close Detail Panel
 function closeDetailPanel() {
+    if (detailMarkdown) {
+        markdownRenderRequests.delete(detailMarkdown);
+        detailMarkdown.removeAttribute('aria-busy');
+    }
     if (detailPanel) detailPanel.classList.remove('active');
     renderJobs();
 }
@@ -780,8 +789,7 @@ function initInterviewView() {
         btn.className = `interview-cat-btn ${cat === currentInterviewCategory ? 'active' : ''}`;
         btn.dataset.category = cat;
 
-        const qMatches = INTERVIEW_DATA[cat] ? INTERVIEW_DATA[cat].match(/## Q\d+/g) : null;
-        const qCount = qMatches ? qMatches.length : 20;
+        const qCount = INTERVIEW_DATA[cat].question_count;
 
         btn.innerHTML = `
             <span>${cat}</span>
@@ -815,6 +823,11 @@ function renderInterviewItem(catName, updateHash = true) {
 
     const selectedTitle = document.getElementById('selected-interview-title');
     const interviewMarkdown = document.getElementById('interview-markdown');
+    if (interviewMarkdown) {
+        markdownRenderRequests.delete(interviewMarkdown);
+        interviewMarkdown.removeAttribute('aria-busy');
+        interviewMarkdown.textContent = '해당 자료를 찾을 수 없습니다.';
+    }
 
     // Check if it's a Tip or Guide
     const tipKeys = ["전공강의 수강 가이드", "취업전략 팁", "서류 & 포트폴리오 팁", "실무면접 팁", "인성검사 팁", "코딩테스트 팁", "인성면접 팁"];
@@ -826,7 +839,7 @@ function renderInterviewItem(catName, updateHash = true) {
             if (interviewMarkdown && typeof JOBS_DATA !== 'undefined') {
                 const guideJob = JOBS_DATA.find(j => j.is_guide);
                 if (guideJob) {
-                    interviewMarkdown.innerHTML = marked.parse(guideJob.raw_content);
+                    renderMarkdownDocument(interviewMarkdown, guideJob);
                 } else {
                     interviewMarkdown.innerHTML = `<h1>전공강의 수강 가이드</h1><p>가이드를 불러오는 중입니다.</p>`;
                 }
@@ -841,7 +854,7 @@ function renderInterviewItem(catName, updateHash = true) {
             if (interviewMarkdown && typeof JOBS_DATA !== 'undefined') {
                 const tipJob = JOBS_DATA.find(j => j.is_tips && (j.tip_category === subcatKey || j.tip_category.includes(subcatKey)));
                 if (tipJob) {
-                    interviewMarkdown.innerHTML = marked.parse(tipJob.raw_content);
+                    renderMarkdownDocument(interviewMarkdown, tipJob);
                 } else {
                     interviewMarkdown.innerHTML = `<h1>${catName}</h1><p>가이드를 불러오는 중입니다.</p>`;
                 }
@@ -853,8 +866,10 @@ function renderInterviewItem(catName, updateHash = true) {
             selectedTitle.innerHTML = `<i class="fa-solid fa-book-open"></i> ${catName} 직무 면접 기출 질문`;
         }
         if (interviewMarkdown && typeof INTERVIEW_DATA !== 'undefined' && INTERVIEW_DATA[catName]) {
-            interviewMarkdown.innerHTML = marked.parse(INTERVIEW_DATA[catName]);
-            enhanceInterviewDOM(interviewMarkdown);
+            renderMarkdownDocument(interviewMarkdown, INTERVIEW_DATA[catName], markdown => {
+                interviewMarkdown.innerHTML = marked.parse(markdown);
+                enhanceInterviewDOM(interviewMarkdown);
+            });
         }
     }
 
@@ -1227,18 +1242,27 @@ function initNewsView() {
     }
 }
 
-function renderNewsList() {
+async function renderNewsList() {
     const newsCatList = document.getElementById('news-cat-list');
     const newsTotalCount = document.getElementById('news-total-count');
     if (!newsCatList || typeof JOBS_DATA === 'undefined') return;
+    const request = ++newsRenderRequest;
 
     let newsItems = getSortedNewsItems();
 
     if (currentNewsSearchQuery) {
-        newsItems = newsItems.filter(news => {
-            const searchHaystack = `${news.title} ${news.raw_content}`.toLowerCase();
-            return searchHaystack.includes(currentNewsSearchQuery);
-        });
+        newsCatList.textContent = '본문을 검색하는 중입니다…';
+        if (newsTotalCount) newsTotalCount.textContent = '…';
+        try {
+            newsItems = await searchMarkdownEntries(newsItems, currentNewsSearchQuery,
+                news => news.title, () => request === newsRenderRequest);
+        } catch (error) {
+            if (request !== newsRenderRequest) return;
+            if (newsTotalCount) newsTotalCount.textContent = '—';
+            showContentError(newsCatList, '일부 뉴스 본문을 불러오지 못해 검색을 완료하지 못했습니다.', renderNewsList);
+            return;
+        }
+        if (request !== newsRenderRequest) return;
     }
 
     if (newsTotalCount) {
@@ -1320,7 +1344,7 @@ function renderNewsItem(newsId, updateHash = true, userClick = false) {
         selectedNewsTitle.innerHTML = `<i class="fa-solid fa-newspaper"></i> ${newsJob.title}`;
     }
     if (newsMarkdown) {
-        newsMarkdown.innerHTML = marked.parse(newsJob.raw_content);
+        renderMarkdownDocument(newsMarkdown, newsJob);
     }
 
     if (window.innerWidth <= 768 && (userClick || (window.location.hash.includes('/') && window.location.hash.startsWith('#news/')))) {
@@ -1333,7 +1357,7 @@ function renderLectureView() {
     if (!lectureMarkdown || typeof JOBS_DATA === 'undefined') return;
 
     const lectureJob = JOBS_DATA.find(j => j.is_lecture);
-    if (!lectureJob || !lectureJob.raw_content) {
+    if (!lectureJob) {
         lectureMarkdown.innerHTML = `
             <h1>로봇 실무 프로젝트 / 커리큘럼 안내</h1>
             <p>로봇 및 AI 실무 프로젝트 관련 커리큘럼이 준비되는 대로 업데이트될 예정입니다.</p>
@@ -1341,10 +1365,11 @@ function renderLectureView() {
         return;
     }
 
+    renderMarkdownDocument(lectureMarkdown, lectureJob, markdown => {
     try {
-        const sections = parseLectureMarkdown(lectureJob.raw_content);
+        const sections = parseLectureMarkdown(markdown);
         if (!sections || sections.length === 0) {
-            lectureMarkdown.innerHTML = marked.parse(lectureJob.raw_content);
+            lectureMarkdown.innerHTML = marked.parse(markdown);
             return;
         }
 
@@ -1397,8 +1422,9 @@ function renderLectureView() {
         lectureMarkdown.innerHTML = html;
     } catch (e) {
         console.error('Failed to parse lecture cards:', e);
-        lectureMarkdown.innerHTML = marked.parse(lectureJob.raw_content);
+        lectureMarkdown.innerHTML = marked.parse(markdown);
     }
+    });
 }
 
 function getCourseThumbnailAndIcon(title, badge) {

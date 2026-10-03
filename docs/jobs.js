@@ -17,7 +17,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI Researcher - Reinforcement Learning\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/a5ad1287-e0a0-471d-9a65-cc24c62b6664\n\n## 직무 개요\n가정용 휴머노이드 NEO가 manipulation과 locomotion 작업을 수행할 수 있도록 RL policy를 학습하고 실제 로봇에 배포하는 직무\n시뮬레이션 성능이 아니라 실제 가정 환경에서 안정적으로 작동하는 field success를 중요하게 봄\n\n## 주요 업무\n- Manipulation/locomotion task용 RL policy 학습 및 배포\n- Sim-to-real gap을 줄이는 training, randomization, evaluation pipeline 구축\n- 표준 benchmark와 자동 regression detection 기반의 policy iteration 속도 개선\n- Hardware, controls, data collection, QA 팀과 협업하여 production skill로 전달\n\n## 요구 역량\n- Python 또는 C++와 대규모 코드베이스 경험\n- PyTorch 기반 RL policy 학습 경험\n- Isaac Sim, MuJoCo 등 시뮬레이션 플랫폼 활용 경험\n- 실제 하드웨어에서 manipulation 또는 locomotion policy를 훈련/전이한 경험\n- PPO, SAC, TD-MPC 등 RL 알고리즘 이해"
+    "content_path": "content/68e251765c48e294fb966433.md",
+    "content_version": "0f368ffbd491e03e"
   },
   {
     "id": "1x_technologies_1X_2600_Electrical_Engineer_-_Actuators_and_Drives",
@@ -36,7 +37,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Electrical Engineer - Actuators and Drives\n\nElectrical Engineer - Actuators and Drives\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0bfbcb0e-ff28-49c2-9b80-1e5a55c89b82\n\n## 직무 개요\n휴머노이드 로봇의 actuator와 drive system을 담당하는 전기/전자 하드웨어 직무\n로봇 관절의 성능, 신뢰성, 안전성을 결정하는 모터 구동, 전력전자, 센서 인터페이스를 다루는 역할\n\n주요 업무\n- 로봇 actuator 및 motor drive 전장 설계\n- 전력회로, sensing, protection, thermal, EMC/EMI 이슈 검토\n- 모터/감속기/센서/제어기와 연동되는 drive electronics 개발\n- 하드웨어 bring-up, test, validation, failure analysis 수행\n\n요구 역량\n- 전기전자공학 기반 회로 설계 역량\n- BLDC/PMSM motor drive, inverter, gate driver, current sensing 이해\n- PCB bring-up, 계측기 기반 디버깅, 신뢰성 테스트 경험\n- 로봇 관절 또는 고전력 임베디드 시스템 경험"
+    "content_path": "content/df1f9ba09efd7463bffa4184.md",
+    "content_version": "3b0644d2cfb65b7e"
   },
   {
     "id": "1x_technologies_1X_2600_Software_Engineer_-_Operating_Systems",
@@ -55,7 +57,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Software Engineer - Operating Systems\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/a9c41bfd-5b06-4fb4-ae4e-50d82c3dbf7a\n\n## 직무 개요\n휴머노이드 NEO의 로봇 운영체제/시스템 소프트웨어 계층을 개발하는 직무\n상위 AI와 로봇 하드웨어가 안정적으로 연결되도록 runtime, system service, deployment infrastructure를 다루는 역할로 해석할 수 있음\n\n## 주요 업무\n- 로봇의 core runtime 및 operating system layer 개발\n- 센서/액추에이터/AI 모듈이 안정적으로 통신하도록 시스템 SW 설계\n- 로봇 현장 배포를 위한 update, monitoring, debugging infrastructure 개선\n- 성능, 안정성, 관측성, fault recovery를 고려한 low-level software 구현\n\n## 요구 역량\n- C++/Python 기반 시스템 소프트웨어 개발 역량\n- Linux, process/thread, networking, device interface, build/deployment 이해\n- 로봇 또는 임베디드 시스템에서 reliability를 높인 경험\n- 대규모 코드베이스에서 테스트 가능한 SW를 작성한 경험"
+    "content_path": "content/5b2d7077f66779121114ab50.md",
+    "content_version": "6b15dd42111cde5a"
   },
   {
     "id": "1x_technologies_1X_2600_Software_Engineer_-_Simulation",
@@ -74,7 +77,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Software Engineer - Simulation\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/bd7452e9-1f5a-4e49-b468-2ad98c20e2c3\n\n## 직무 개요\n휴머노이드 로봇의 AI 학습, 정책 평가, 시스템 검증을 위한 simulation software를 개발하는 직무\n로봇 AI 조직에 속한 simulation 공고로, 단순 3D 렌더링보다 학습/평가/배포 pipeline과 연결되는 시뮬레이션 역할이 중요\n\n## 주요 업무\n- 로봇 학습과 검증을 위한 시뮬레이션 환경 구축\n- Synthetic data, policy evaluation, regression test용 simulation pipeline 개선\n- 물리 시뮬레이터와 로봇 제어/AI stack 통합\n- 실제 로봇 데이터와 시뮬레이션 결과의 차이를 줄이는 tooling 개발\n\n## 요구 역량\n- Python/C++ 기반 simulation software 개발 경험\n- Isaac Sim, MuJoCo, Gazebo, Unity/Unreal 등 물리/로봇 시뮬레이션 경험\n- Robotics, control, perception, RL 중 하나 이상과 연결된 프로젝트 경험\n- 대규모 실험을 자동화하고 결과를 분석하는 engineering 역량"
+    "content_path": "content/7784c54cbac45eb0c3aa242d.md",
+    "content_version": "f47e717f64b01e50"
   },
   {
     "id": "1x_technologies_1X_2600_Tactile_Sensing_Research_Engineer",
@@ -95,7 +99,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Tactile Sensing Research Engineer\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/e28952a1-8abc-489d-b213-a3011e5fe87d\n\n## 직무 개요\n휴머노이드 로봇의 손/피부/접촉 기반 조작을 위한 tactile sensing 기술을 연구개발하는 직무\n가정용 로봇이 물체를 안전하고 정밀하게 다루려면 시각뿐 아니라 접촉 정보가 중요하다는 맥락의 포지션\n\n## 주요 업무\n- 촉각 센서 하드웨어/신호처리/데이터 파이프라인 연구\n- 접촉, 압력, 미끄러짐, 물체 상태를 추정하는 sensing algorithm 개발\n- Grasping, manipulation, safety 제어와 tactile signal 통합\n- 실제 로봇 손/엔드이펙터에서 tactile sensing 성능 평가\n\n## 요구 역량\n- 센서 데이터 처리, 신호처리, ML 기반 tactile perception 경험\n- 로봇 손, gripper, contact-rich manipulation 이해\n- Python/C++ 기반 실험/분석 도구 개발 역량\n- 하드웨어와 알고리즘을 함께 다루는 연구개발 경험"
+    "content_path": "content/44b6ec5ed498b6714423ba03.md",
+    "content_version": "b9c4a9b45f8b70f8"
   },
   {
     "id": "1x_technologies_1X_2600_Test___Validation_Engineer_-_Motors_and_Actuators",
@@ -115,7 +120,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Test & Validation Engineer - Motors and Actuators\n\n## 공고 기준\n- 회사: 1X\n- 게시일: 2026-06-17\n- 근무지: San Carlos, CA\n- 출처: https://jobs.ashbyhq.com/1x/0eb854f8-97f7-43a0-8818-f138178586f8\n\n## 직무 개요\n휴머노이드 로봇의 모터와 actuator가 요구 성능과 신뢰성을 만족하는지 검증하는 테스트/검증 직무\n제품화 단계에서 로봇 관절의 수명, 성능, 안전성을 확인하는 역할\n\n## 주요 업무\n- Motor/actuator validation plan 수립 및 수행\n- 성능, 내구, 열, 진동, 부하 조건 테스트\n- 테스트 지그, 자동화 스크립트, 데이터 수집 시스템 구축\n- 고장 분석 및 설계/제조팀 feedback loop 운영\n\n## 요구 역량\n- 전기/기계/메카트로닉스 기반 테스트 엔지니어링 경험\n- 모터, 감속기, actuator, sensor, drive electronics 이해\n- Python/LabVIEW/MATLAB 등으로 테스트 자동화 및 데이터 분석 가능\n- 실험 계획, 계측, 통계적 분석, failure mode 정리 능력"
+    "content_path": "content/2aa6ef3c00bfd007d6a5ffc0.md",
+    "content_version": "eecb540f863c21ee"
   },
   {
     "id": "1x_technologies__1X_소개",
@@ -131,7 +137,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 1X (1X Technologies) 소개\n노르웨이와 미국에 기반을 둔 차세대 인간형 안전 로봇(Safe Humanoid) 개발 기업\n(근무지: 노르웨이 오슬로 HQ / 미국 캘리포니아주 산호세 San Jose)\n\n## 주요 개발 분야\n가정 및 상업용 바퀴형/이족보행 휴머노이드(NEO, Eve), 고도화된 핑거/핸드 액추에이터, Physical AI 및 모터 제어 S/W\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 인터뷰 -> 코딩/기술 테스트 -> 직무별 심화 면접(Technical Deep Dive) -> 팀 컬처 및 최종 면접\n\n## 참고\n- OpenAI, EQT Ventures 등으로부터 대규모 투자를 유치하며 AI와 휴머노이드 하드웨어 결합을 선도\n- 강성을 유연하게 조절할 수 있는 모터/액추에이터 기술을 활용해 사람과 충돌해도 안전한 '소프트 휴머노이드' 구현\n- 가정 및 상업 환경에서 인간과의 안전한 상호작용 및 일상적인 가사·물류 작업 수행을 최우선 목표로 개발 중"
+    "content_path": "content/db9b16d5ae55ccb68fae6061.md",
+    "content_version": "b28fd87acb5b0379"
   },
   {
     "id": "agility_robotics_Agility_2600_Robotics_Software_Engineer_II",
@@ -150,7 +157,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robotics Software Engineer II\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-09\n- 근무지: Hybrid - Pittsburgh, PA or Salem, OR\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6008698004\n\n## 직무 개요\n휴머노이드 로봇 Digit의 production-ready skill을 개발, 테스트, 검증, 통합하는 직무\n프로토타입과 실제 고객 워크플로우 사이에서 로봇 행동을 구현하고, 현장 성능을 확인하며, 실패 원인을 분석하는 역할\n\n## 주요 업무\n- 고객 업무 흐름에 들어갈 로봇 skill 및 behavior 구현\n- Behavior tree, state machine, task planner 기반의 로봇 동작 시퀀스 작성\n- 실제 로봇 하드웨어에서 성능 평가, 실패 분석, 테스트 플랜 수행\n- Teleoperation 데이터 수집과 learned behavior 개선 지원\n- AI, 제어, perception 팀과 협업하여 skill API 기반 워크플로우 통합\n\n## 요구 역량\n- 로봇 SW 개발 경험\n- Python/C++ 기반 로봇 시스템 구현 역량\n- 로봇 하드웨어 디버깅과 실험 설계 경험\n- 상태기계, 행동트리, task planning 등 로봇 행동 설계 이해\n- 실제 배치 환경에서 reliability를 높이는 문제 해결 능력"
+    "content_path": "content/c2ebc554a3465d6f7e78b6ff.md",
+    "content_version": "8394a29951c09037"
   },
   {
     "id": "agility_robotics_Agility_2600_Senior_Software_Engineer__Navigation",
@@ -170,7 +178,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Senior Software Engineer, Navigation\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-04-13\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5850335004\n\n## 직무 개요\nDigit 휴머노이드가 물류/제조 현장에서 안정적으로 이동하도록 navigation software를 개발하는 직무\nPerception, localization, planning, behavior stack과 연결해 실제 배치 환경의 이동 성능을 책임지는 역할\n\n## 주요 업무\n- 휴머노이드 로봇 navigation stack 개발\n- Localization, mapping, path planning, obstacle avoidance 연동\n- 실제 현장 데이터 기반 navigation failure 분석\n- Autonomy, perception, controls 팀과 navigation interface 통합\n- 배치 환경에서 reliability와 recoverability 개선\n\n## 요구 역량\n- C++/Python 기반 로봇 SW 개발 경험\n- Navigation, planning, localization, SLAM 이해\n- Linux 기반 실시간 로봇 시스템 개발 경험\n- 실제 로봇 테스트 및 로그 분석 경험\n- 복잡한 시스템에서 성능 병목과 failure mode를 찾는 역량"
+    "content_path": "content/a65c37bba3b93212a5aa303b.md",
+    "content_version": "32eb250b28aa8384"
   },
   {
     "id": "agility_robotics_Agility_2600_Senior_Staff_Software_Engineer__Motion_Planning",
@@ -190,7 +199,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Senior Staff Software Engineer, Motion Planning\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-22\n- 근무지: Remote\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6007559004\n\n## 직무 개요\n휴머노이드 로봇의 whole-body motion, manipulation, grasping, loco-manipulation을 위한 motion planning 기술 리더 직무\n충돌 없는 경로 계획과 trajectory optimization을 실제 배치 가능한 수준으로 설계하고 이끄는 역할\n\n## 주요 업무\n- 휴머노이드용 motion planning 기술 로드맵 수립\n- 고자유도 로봇의 collision-free motion planning 및 trajectory optimization 개발\n- Perception, state estimation, navigation, controls, behaviors 팀과 planning stack 통합\n- 환경 불확실성과 상태추정 오차에 강한 planning 알고리즘 설계\n- 모듈성, 관측성, 테스트 가능성을 갖춘 planning architecture 구축\n\n## 요구 역량\n- 고자유도 로봇 manipulation 또는 mobile manipulation 알고리즘 개발 경험\n- 실제 상용 환경에 로봇 planning 시스템을 배치한 경험\n- trajectory optimization, sampling-based planning, grasp planning, whole-body planning 이해\n- cross-functional architecture decision을 이끌 수 있는 기술 리더십"
+    "content_path": "content/2af07f7e93f190ce42ee10b4.md",
+    "content_version": "f41e7c856ea0c232"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_AI_Engineer__Perception",
@@ -209,7 +219,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Staff AI Engineer, Perception\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-04-23\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5973040004\n\n## 직무 개요\nDigit이 물류/제조 현장에서 주변 물체와 장면을 이해하도록 object perception 시스템을 설계하고 배포하는 기술 리드 직무\n객체 검출, tracking, scene understanding, 6D pose estimation을 production robot에 올리는 역할\n\n## 주요 업무\n- Production robot에 사용되는 object perception architecture와 roadmap 소유\n- Multi-object detection, tracking, scene understanding, 6-DoF object pose estimation 개발\n- 최신 perception 모델 평가 및 도입\n- Embedded system에서 deep neural network와 데이터 처리 파이프라인 최적화\n- Navigation, manipulation, hardware 팀과 제품 요구사항 정렬\n\n## 요구 역량\n- 모바일 로봇에서 ML 기반 object detection을 배포한 경험\n- CNN, multi-object tracking, data association, supervised learning, pose estimation 이해\n- 실시간/임베디드 환경에서 AI 모델을 최적화한 경험\n- 테스트 가능한 perception software architecture 설계 역량"
+    "content_path": "content/c993f35e726978948a672df3.md",
+    "content_version": "e2b122d5cad1656c"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_AI_Research_Engineer",
@@ -228,7 +239,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Staff AI Research Engineer\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-06-24\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=6098736004\n\n## 직무 개요\nDigit 휴머노이드의 AI 기반 perception, skill, robot behavior 성능을 높이기 위한 연구개발 직무\n실제 고객 환경에서 동작하는 휴머노이드 로봇에 AI 모델과 로봇 시스템을 연결하는 역할\n\n## 주요 업무\n- 로봇 perception 및 skill 관련 AI 연구개발\n- 실제 로봇 데이터 기반 모델 성능 개선\n- Learned policy와 classical robotics stack 통합\n- 실환경 실패 사례 분석 및 모델 개선 방향 도출\n- AI, autonomy, controls, behavior 팀과 협업\n\n## 요구 역량\n- Machine learning / deep learning 연구개발 경험\n- Python, PyTorch 기반 모델 개발 역량\n- 로봇 perception, manipulation, navigation 중 하나 이상의 경험\n- 실제 로봇 또는 embodied AI 시스템에 모델을 적용한 경험\n- 실험 설계, 데이터 분석, 성능 평가 역량"
+    "content_path": "content/cbbb308c8994022d7e7ee08d.md",
+    "content_version": "1ee90b39cf80b404"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_Firmware_Engineer",
@@ -247,7 +259,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Staff Firmware Engineer\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-02-02\n- 근무지: Hybrid - Fremont, CA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5789714004\n\n## 직무 개요\n휴머노이드 로봇의 저수준 센서 네트워크, 제어, 전원 관리 시스템을 구동하는 firmware architecture를 설계하고 구현하는 직무\n하드웨어와 상위 로봇 제어 알고리즘 사이의 interface를 안정적으로 연결하는 역할\n\n## 주요 업무\n- C++ 기반 robot firmware architecture 설계 및 구현\n- EtherCAT, CAN 기반 firmware communication layer 개발\n- Hardware abstraction layer, peripheral driver, application firmware 작성\n- Logic analyzer, oscilloscope 등 계측 장비를 활용한 실시간 하드웨어 테스트/디버깅\n- HW/SW 통합 문제 해결 및 interface 문서화\n\n## 요구 역량\n- Modern C++ 기반 firmware 개발 경험\n- FreeRTOS 또는 유사 RTOS 경험\n- EtherCAT, CAN, 센서 네트워크, 전원관리, 실시간 제어 이해\n- 회로/하드웨어와 함께 디버깅할 수 있는 역량"
+    "content_path": "content/4667c9db024e9c6b9a581e00.md",
+    "content_version": "675774905328fcb1"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_Robotics_Software_Engineer__Robot_Behaviors",
@@ -266,7 +279,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Staff Robotics Software Engineer, Robot Behaviors\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-05-12\n- 근무지: Hybrid - Fremont, CA / Salem, OR / Pittsburgh, PA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5994662004\n\n## 직무 개요\n휴머노이드 로봇이 실제 환경에서 더 넓은 작업을 안정적으로 수행하도록 robot behavior를 설계하고 검증하는 기술 리드 직무\nBehavior planning, motion planning, object perception, manipulation, learned policy를 연결하는 역할\n\n## 주요 업무\n- 복잡한 휴머노이드 behavior의 설계, 구현, 검증 총괄\n- Task decomposition, control flow, recovery, failure handling 설계\n- 새로운 작업/객체/고객 환경에 맞는 manipulation strategy 개발 및 평가\n- Motion planning, controls, object perception, estimation, hardware와 behavior 통합\n- 학습 기반 policy와 전통적 로봇 알고리즘을 섞은 hybrid behavior 구현\n\n## 요구 역량\n- 로봇 behavior planning 또는 autonomy stack 개발 경험\n- 실제 하드웨어에서 실험하고 로그를 분석하는 hands-on 역량\n- Manipulation, perception, motion planning, controls 사이의 interface 이해\n- 팀 기술 방향을 잡고 다른 엔지니어를 멘토링할 수 있는 리더십"
+    "content_path": "content/9c27e1f69083e07494c03a68.md",
+    "content_version": "0a5c65a9fb1172c5"
   },
   {
     "id": "agility_robotics_Agility_2600_Staff_Systems_Engineer__Functional_Safety",
@@ -287,7 +301,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Staff Systems Engineer, Functional Safety\n\n## 공고 기준\n- 회사: Agility Robotics\n- 게시일: 2026-05-06\n- 근무지: Hybrid - Fremont, CA\n- 출처: https://www.agilityrobotics.com/about/job-post?gh_jid=5986772004\n\n## 직무 개요\n휴머노이드 로봇 플랫폼의 system-level architecture와 functional safety 요구사항 통합을 담당하는 systems engineering 직무\n기계, 전장, firmware, software 전체에 걸친 안전 요구사항을 정의하고 검증 가능하게 분해하는 역할\n\n## 주요 업무\n- 기능안전을 포함한 system/subsystem architecture 정의\n- Safety, performance, cost, execution speed 사이의 trade-off 분석\n- Jama 등 요구사항 관리 도구로 verifiable requirement 작성 및 분해\n- Integration/Test 팀이 검증할 수 있는 V&V 기준 정의\n- 안전 관련 cross-functional interface 정리\n\n## 요구 역량\n- Safety-critical system 개발 또는 functional safety 경험\n- Mechanical, electrical, firmware, software를 아우르는 시스템 사고\n- 요구사항 관리, interface 정의, V&V 계획 수립 역량\n- 빠른 스타트업 환경에서 안전 표준의 rigor와 제품 출시 속도를 균형 있게 다루는 능력"
+    "content_path": "content/49758bdbb5acb8e0ab8d804e.md",
+    "content_version": "0fe520e3b029329c"
   },
   {
     "id": "agility_robotics__Agility_Robotics_소개",
@@ -303,7 +318,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## Agility Robotics 소개\n미국의 물류·제조 현장 특화 이족 보행 로봇 전문 기업\n(근무지: 미국 오리건주 올버니 Albany HQ / 오리건주 피츠버그·세일럼)\n\n## 주요 개발 분야\n이족 보행 휴머노이드 로봇(Digit), 물류 자율 운영 시스템(Agility Arc), 물류/제조 자동화 전신 제어 S/W\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 스크리닝 -> 코딩 및 기술 검증 인터뷰 -> 직무별 심화 면접(Technical Deep Dive) -> 조직 적합성 및 최종 면접\n\n## 참고\n- 오리건주 올버니에 세계 최초의 대규모 휴머노이드 전용 생산 공장인 '로보팹(RoboFab)'을 구축하여 대량 양산 추진\n- 아마존(Amazon)의 로보틱스 벤처 펀드 투자를 유치를 시작으로 실전 물류센터에 Digit을 실전 투입하여 테스트 진행\n- 완벽한 인간 형태보다는 물류 상하차 및 이송 작업에 최적화된 다리 구조와 양팔 형태를 채택해 상용화에 집중"
+    "content_path": "content/50314c2c7f5bb52d16f086b6.md",
+    "content_version": "0a0f84d5faa1bdad"
   },
   {
     "id": "boston_dynamics_BostonDynamics_2600_Controls_Software_Engineer__Atlas",
@@ -323,7 +339,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Controls Software Engineer, Atlas\n\n## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Controls-Software-Engineer--Atlas_R2776\n\n## 직무 개요\nAtlas 휴머노이드 로봇의 제어 소프트웨어와 whole-body control 관련 기능을 개발하는 직무\n고성능 동역학 로봇의 motion control, AI 기반 제어 인프라, 실기체 통합을 다루는 포지션\n\n## 주요 업무\n- Atlas control software 개발\n- Whole-body control 및 motion control 기능 구현\n- Simulation과 실제 로봇 간 성능 검증\n- 로봇 동역학/제어 알고리즘 튜닝\n- 제어 SW infrastructure 개선\n\n## 요구 역량\n- C++ 기반 로봇 SW 개발\n- Control theory, dynamics, optimization 이해\n- Linux 기반 개발 경험\n- 시뮬레이션과 실제 로봇 테스트 경험\n- 복잡한 로봇 시스템 디버깅 역량"
+    "content_path": "content/58e7fa97fefe3fe04cd36518.md",
+    "content_version": "1146f4d10950ba5e"
   },
   {
     "id": "boston_dynamics_BostonDynamics_2600_Robotics_Engineer_-_Software_and_Controls",
@@ -343,7 +360,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robotics Engineer - Software and Controls\n\n## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Robotics-Engineer--Software-and-Controls_R2145\n\n## 직무 개요\n로봇의 software와 controls를 함께 다루는 엔지니어 직무\n모터 제어, 로봇 센싱, safety system, behavior control을 연결해 실제 로봇 기능을 구현하는 역할\n\n## 주요 업무\n- Robotics software 및 controls 개발\n- Motor control 관련 기능 구현\n- Robot sensing 데이터 처리\n- Safety system과 behavior control 통합\n- 실제 로봇 테스트 및 성능 튜닝\n\n## 요구 역량\n- C++ 기반 개발 경험\n- 로봇 제어와 센서 처리 이해\n- Motor control 및 embedded/real-time system 이해\n- Safety-critical system 개발 감각\n- 실기체 debugging과 integration 경험"
+    "content_path": "content/a7c447a3728f7f5fb9d5c833.md",
+    "content_version": "65a7ed8ec9a5095f"
   },
   {
     "id": "boston_dynamics_BostonDynamics_2600_Software_Engineer_in_Automation__Humanoid_Robotics",
@@ -362,7 +380,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Software Engineer in Automation, Humanoid Robotics\n\n## 공고 기준\n- 회사: Boston Dynamics\n- 출처: https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Software-Engineer-in-Automation--Humanoid-Robotics_R2794\n\n## 직무 개요\nAtlas 휴머노이드 로봇 개발을 위한 HIL(Hardware-in-the-Loop) 및 자동화 테스트를 개발하는 직무\n로봇 기능을 빠르고 안정적으로 검증할 수 있는 테스트 인프라를 만드는 역할\n\n## 주요 업무\n- Humanoid robotics automation software 개발\n- HIL 테스트 환경 구축\n- Regression test 및 validation pipeline 개발\n- 로봇 하드웨어/소프트웨어 통합 테스트 자동화\n- 테스트 결과 분석 및 품질 개선\n\n## 요구 역량\n- Python/C++ 기반 automation 개발 경험\n- Test infrastructure, CI, hardware integration 이해\n- 로봇 또는 임베디드 시스템 검증 경험\n- 실험 장비와 로봇 하드웨어를 다루는 능력\n- 반복 테스트를 안정적으로 자동화하는 역량"
+    "content_path": "content/c6e6379dc8575b820ec4bc6f.md",
+    "content_version": "7ad7032efc589be8"
   },
   {
     "id": "boston_dynamics__Boston_Dynamics_소개",
@@ -378,7 +397,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## Boston Dynamics 소개\n미국을 대표하는 세계 최고 수준의 동적(Dynamic) 로보틱스 전문 기업\n(근무지: 미국 마사추세츠주 월탐 Waltham HQ / 매사추세츠주 케임브리지)\n\n## 주요 개발 분야\n4족 보행 로봇(Spot), 올-일렉트릭 휴머노이드 로봇(Atlas), 물류 자동화 상하차 로봇(Stretch), 자율주행 및 모션 제어 S/W\n\n## 채용 프로세스\n서류전형(이력서 및 포트폴리오) -> 리크루터 인터뷰 -> 기술/코딩 테스트 -> 직무별 심화 심층 면접(Technical Deep Dive) -> 팀 컬처 및 조직 적합성 면접\n\n## 참고\n- 현대자동차그룹의 핵심 자회사로 그룹 내 로보틱스랩과의 기술 교류 및 상용화 협력 강화\n- 기존 유압식 Atlas 대신 100% 전동식(All-electric) 차세대 2세대 Atlas를 공개하며 휴머노이드 상용화 가속\n- 보행·밸런싱 제어 및 동적 움직임(Dynamic Movement) 분야에서 독보적인 글로벌 세계 1위 기술력 보유"
+    "content_path": "content/92ae46aee18a576830d01ab4.md",
+    "content_version": "5ab9aaa95e4f628d"
   },
   {
     "id": "fanuc__FANAC_소개",
@@ -394,7 +414,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## FANAC 소개\n세계 최대 규모의 산업용 로봇 및 공장 자동화(FA) 전문 기업\n(일본 FANUC의 한국 법인 '한국화낙' 기준)\n(근무지: 창원 본사, 경인 지사(안양), 천안, 대구, 대전 등)  \n\n## 주요 개발 분야\n산업용 및 협동 로봇, FA(공장자동화) 시스템, 지능화 솔루션\n\n\n## 채용 프로세스\n서류전형 -> 1차 면접 (실무진/기술 역량 면접) -> 2차 면접 (임원 면접) -> 신체검사 -> 최종합격\n\n## 참고\n- 글로벌 시장점유율 1위급 기술력: 세계 CNC 시장 및 산업용 로봇 시장을 선도하는 압도적 기술력 보유\n- 사업 특징: 일본 본사에서 개발 및 제조된 원천 기술/제품을 바탕으로 국내 주요 제조 대기업에 FA 솔루션 공급, 엔지니어링, 기술 지원, 애플리케이션 개발을 전담  \n- 독보적 재무 건전성: 높은 영업이익률과 무차입 경영으로 유명한 알짜 외국계 기업"
+    "content_path": "content/649c65a21e8b2f26fc52f5b5.md",
+    "content_version": "cd6df4af6540adbf"
   },
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Perception",
@@ -413,7 +434,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Helix AI Engineer, Perception\n\n## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4007375006\n\n## 직무 개요\n휴머노이드 로봇이 주변 환경과 물체를 이해하도록 perception 모델과 시스템을 개발하는 직무\n비전 모델을 로봇 조작, 이동, 행동 의사결정과 연결하는 역할\n\n## 주요 업무\n- Robot perception 모델 개발\n- Object detection, segmentation, pose estimation, scene understanding\n- 로봇 센서 데이터 처리 및 모델 평가\n- Manipulation / planning stack과 perception 결과 통합\n- 실제 로봇 환경에서 perception failure 분석\n\n## 요구 역량\n- Computer vision 및 deep learning 경험\n- Python, PyTorch 기반 모델 개발\n- RGB-D, multi-camera, sensor calibration 이해\n- 로봇 task와 연결된 perception pipeline 경험\n- 실시간 inference 및 모델 최적화 경험"
+    "content_path": "content/3ce360a1ab510660d7ad81fa.md",
+    "content_version": "a69859f95b05838e"
   },
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Reinforcement_Learning",
@@ -432,7 +454,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Helix AI Engineer, Reinforcement Learning\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-04-09\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4671707006\n\n## 직무 개요\n휴머노이드 로봇의 행동과 조작 능력을 강화학습으로 개선하는 AI 엔지니어 직무\n시뮬레이션 학습, 실제 로봇 전이, 평가 자동화를 함께 다루는 포지션\n\n## 주요 업무\n- RL 기반 로봇 policy 학습\n- Reward 설계, policy evaluation, sim-to-real 개선\n- Manipulation 또는 locomotion task 실험\n- 학습 인프라 및 모델 배포 파이프라인 개선\n- Controls, simulation, data 팀과 협업\n\n## 요구 역량\n- Reinforcement learning 알고리즘 이해\n- PyTorch/JAX 등 ML 프레임워크 경험\n- Isaac Sim, MuJoCo 등 물리 시뮬레이션 경험\n- 로봇 제어, 동역학, 최적화 기본기\n- 실제 하드웨어 적용 또는 sim-to-real 경험"
+    "content_path": "content/cd026bb3010508e177c71aad.md",
+    "content_version": "e597ecf1ba059a81"
   },
   {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Robot_Learning",
@@ -451,7 +474,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Helix AI Engineer, Robot Learning\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-01-30\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4649851006\n\n## 직무 개요\nFigure의 Helix AI 팀에서 휴머노이드 로봇의 robot learning 기능을 개발하는 직무\n로봇이 실제 환경에서 조작과 행동을 학습하고 일반화하도록 모델, 데이터, 평가 파이프라인을 다루는 역할\n\n## 주요 업무\n- Robot learning 모델 개발\n- 로봇 데이터 기반 policy 학습\n- Manipulation 및 embodied AI task 성능 개선\n- 실제 로봇 배포를 고려한 모델 평가\n- AI, controls, software, hardware 팀과 협업\n\n## 요구 역량\n- Python, PyTorch 기반 ML 개발\n- Robotics, manipulation, imitation learning 또는 reinforcement learning 경험\n- 대규모 데이터 처리 및 실험 관리 역량\n- 실제 로봇 또는 시뮬레이터 기반 학습 경험\n- 연구 결과를 제품 기능으로 연결하는 엔지니어링 역량"
+    "content_path": "content/12569d73925b1e1b6994a4e2.md",
+    "content_version": "6104612939dcbd44"
   },
   {
     "id": "figure_ai_FigureAI_2600_Mechanical_Engineer_-_Hands",
@@ -470,7 +494,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Mechanical Engineer - Hands\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-01-09\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4643612006\n\n## 직무 개요\n휴머노이드 로봇 손의 기구 설계와 compliant element를 다루는 기계 설계 직무\n정밀 조작, 내구성, 경량화, 제조성을 모두 고려해 로봇 손 하드웨어를 개발하는 역할\n\n## 주요 업무\n- 로봇 손 메커니즘 설계\n- Compliance, tendon, linkage, actuator packaging 검토\n- 시제품 제작 및 조립/테스트\n- 센서/액추에이터/케이블 routing을 고려한 설계\n- 제조성, 신뢰성, 유지보수성 개선\n\n## 요구 역량\n- 기계공학 기반 로봇/메카트로닉스 설계 경험\n- CAD, tolerance, material, mechanism design 역량\n- 소형 actuator와 센서 통합 설계 이해\n- 반복 시제품 제작과 실험 기반 개선 경험\n- 전장/제어/AI 팀과 협업하는 능력"
+    "content_path": "content/49295dda518a69f01b807123.md",
+    "content_version": "9bf97089f7fd19cf"
   },
   {
     "id": "figure_ai_FigureAI_2600_Power_Electronics_Engineer__Charging",
@@ -489,7 +514,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Power Electronics Engineer, Charging\n\n## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4333397006\n\n## 직무 개요\n휴머노이드 로봇의 충전/전력전자 시스템을 설계하고 검증하는 전기전자 직무\n로봇의 배터리, 충전, 전력 변환, 안전성을 제품 수준으로 구현하는 역할\n\n## 주요 업무\n- Charging system 및 power electronics 설계\n- 전력 변환 회로, 보호회로, thermal 이슈 검토\n- PCB bring-up 및 validation\n- 배터리/전원 시스템과 로봇 플랫폼 통합\n- 안전성, 효율, 신뢰성 개선\n\n## 요구 역량\n- Power electronics 회로 설계 경험\n- DC/DC, charging, battery, protection circuit 이해\n- PCB 설계 및 계측 장비 기반 디버깅 경험\n- Thermal, EMI/EMC, safety 고려 경험\n- 로봇 또는 전기차/모바일 시스템 전원 설계 경험"
+    "content_path": "content/7f69505205f663e82fe64d76.md",
+    "content_version": "1ff0e54a6962f67c"
   },
   {
     "id": "figure_ai_FigureAI_2600_Robot_Operations_Manager",
@@ -508,7 +534,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robot Operations Manager\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-05-13\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4681405006\n\n## 직무 개요\n휴머노이드 로봇 운영 현장을 관리하고, 로봇 실험/데이터/배포 운영을 안정화하는 직무\n엔지니어링과 현장 운영 사이에서 로봇이 실제로 잘 굴러가도록 만드는 역할\n\n## 주요 업무\n- Robot operations workflow 운영\n- 로봇 테스트, 데모, 데이터 수집 일정 관리\n- 현장 이슈를 engineering team에 전달\n- 운영 지표와 품질/안전 기준 관리\n- 로봇 운영 인력과 프로세스 개선\n\n## 요구 역량\n- 로봇 또는 하드웨어 운영 경험\n- 현장 문제 해결과 일정/인력 관리 능력\n- 기술팀과 운영팀 사이의 커뮤니케이션 역량\n- 로봇 테스트/데이터 수집 프로세스 이해\n- 빠른 스타트업 환경에서 실행하는 능력"
+    "content_path": "content/947f06aa0cc15460cf6660f2.md",
+    "content_version": "982c6fd5c115ea99"
   },
   {
     "id": "figure_ai_FigureAI_2600_Robotics_Integration_Engineer",
@@ -528,7 +555,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robotics Integration Engineer\n\n## 공고 기준\n- 회사: Figure AI\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4387319006\n\n## 직무 개요\n휴머노이드 로봇의 하드웨어, 소프트웨어, 제어, AI 모듈을 실제 시스템으로 통합하는 직무\n개별 기능이 로봇 전체에서 안정적으로 동작하도록 bring-up, test, debugging을 수행하는 역할\n\n## 주요 업무\n- 로봇 시스템 통합 및 bring-up\n- 센서, 액추에이터, 제어기, SW stack 연동\n- 실기체 테스트와 로그 분석\n- 시스템 수준 failure 분석 및 개선\n- Cross-functional 팀과 통합 일정 관리\n\n## 요구 역량\n- Robotics system integration 경험\n- C++/Python, Linux 기반 개발 경험\n- 센서/액추에이터/통신 인터페이스 이해\n- 실험 장비와 로그를 활용한 디버깅 역량\n- 빠른 하드웨어 개발 환경에서 문제를 좁히는 능력"
+    "content_path": "content/7b29ded614ded9c816a034ae.md",
+    "content_version": "45e713981164b97f"
   },
   {
     "id": "figure_ai_FigureAI_2600_Senior_Firmware_Engineer",
@@ -548,7 +576,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Senior Firmware Engineer\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2026-02-16\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4654891006\n\n## 직무 개요\n휴머노이드 로봇의 저수준 firmware와 embedded software를 개발하는 직무\n센서, 액추에이터, 전력/통신 시스템을 안정적으로 제어하고 상위 software stack과 연결하는 역할\n\n## 주요 업무\n- Embedded firmware 개발\n- Sensor/actuator interface 구현\n- 실시간 제어 및 통신 firmware 개선\n- Hardware bring-up 및 board-level debugging\n- Firmware test 및 validation 자동화\n\n## 요구 역량\n- C/C++ 기반 embedded 개발 경험\n- MCU, RTOS, device driver, communication protocol 이해\n- CAN, EtherCAT, SPI, I2C, UART 등 통신 경험\n- Oscilloscope, logic analyzer 기반 디버깅 경험\n- 하드웨어 팀과 협업하는 능력"
+    "content_path": "content/3c8acb8ab90abfe4cf2fbb95.md",
+    "content_version": "8302bb2b3691c607"
   },
   {
     "id": "figure_ai_FigureAI_2600_Software_Integration_Engineer",
@@ -568,7 +597,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Software Integration Engineer\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2025-11-13\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4618234006\n\n## 직무 개요\n휴머노이드 로봇의 여러 소프트웨어 모듈을 통합하고, 실제 로봇에서 안정적으로 동작하도록 검증하는 직무\nAI, controls, firmware, platform software 사이의 interface를 연결하는 역할\n\n## 주요 업무\n- 로봇 SW module integration\n- CI/test pipeline 기반 통합 검증\n- 로봇 로그 분석 및 regression 대응\n- Hardware/software interface 문제 해결\n- 배포 전 기능 검증과 품질 관리\n\n## 요구 역량\n- C++/Python, Linux 개발 경험\n- 대규모 software integration 경험\n- 로봇 또는 임베디드 시스템 debugging 경험\n- CI/CD, test automation, logging 이해\n- 여러 팀 사이의 interface를 정리하는 커뮤니케이션 능력"
+    "content_path": "content/bf30454ea77257c23580a9de.md",
+    "content_version": "2d8dd19c7c7ca308"
   },
   {
     "id": "figure_ai_FigureAI_2600_Systems_Integration_Engineer_-_Hand_Subsystem",
@@ -587,7 +617,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Systems Integration Engineer - Hand Subsystem\n\n## 공고 기준\n- 회사: Figure AI\n- 게시일: 2025-10-23\n- 근무지: San Jose, CA\n- 출처: https://job-boards.greenhouse.io/figureai/jobs/4612612006\n\n## 직무 개요\n휴머노이드 로봇 손 서브시스템을 전체 로봇 제어 stack에 통합하는 직무\n다자유도 로봇 손의 motion, sensing, control, calibration, validation을 시스템 관점에서 다루는 역할\n\n## 주요 업무\n- Multi-DOF robotic hand 통합\n- Position, torque, tactile sensor와 real-time control 연동\n- Calibration 및 end-of-line bring-up 전략 수립\n- Hand subsystem validation test plan 작성\n- Mechanical, electrical, firmware, software, AI 팀과 협업\n\n## 요구 역량\n- Robotic/electromechanical system integration 경험\n- C++/Python 기반 embedded diagnostics 경험\n- Mechanics, kinematics, controls, dynamics 이해\n- 센서 통합과 motion system tuning 경험\n- 실험 장비 기반 validation/debugging 역량"
+    "content_path": "content/461ab228c7484c93fcb42767.md",
+    "content_version": "9ead5b13542ba896"
   },
   {
     "id": "figure_ai__Figure_AI_소개",
@@ -603,7 +634,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## Figure AI 소개\n미국의 범용 휴머노이드 로봇 개발 스타트업\n(근무지: 미국 칼리포니아주 산호세 San Jose HQ)\n\n## 주요 개발 분야\n휴머노이드 로봇(Figure 시리즈), 로봇 VLM 및 시각-언어 모델, 전신 제어(Whole-body control), 액추에이터 및 하드웨어 시스템\n\n## 채용 프로세스\n서류전형(포트폴리오/우수성 증명) -> 리크루터 스크리닝 -> 코딩/기술 테스트 -> 직무별 기술/시스템 디자인 면접 -> 팀 컬처 및 최종 면접\n\n## 참고\n- OpenAI, Microsoft, NVIDIA, Amazon 등 글로벌 빅테크들로부터 대규모 투자를 받으며 빠르게 성장 중\n- OpenAI의 대형 언어/비전 모델을 이식해 인간의 자연어 명령을 이해하고 행동하는 휴머노이드 상용화 추진\n- 제조·물류 현장(BMW 공장 등) 투입을 시작으로 상업용 및 가정용 범용 로봇 시장 진출 목표"
+    "content_path": "content/5c45dbc7b3ef533c4df77db0.md",
+    "content_version": "4c7dea23232471cc"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_AI_기반_로봇솔루션_SW_개발",
@@ -623,7 +655,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑧ AI 기반 로봇솔루션 SW 개발\n\n## 주요 업무\n물류, 용접, 조립 등 실제 산업 현장에 최적화된 AI 탑재형 솔루션 패키지 SW 개발, 현장 데이터 수집 및 분석 파이프라인 구축\n\n## 자격/우대\nAI 솔루션의 실제 필드 적용 및 최적화 경험자, ROS 환경 개발 역량 우수자"
+    "content_path": "content/6457c3c338d344f5d9c10e22.md",
+    "content_version": "dd05877d4d797e66"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_AI_기반_모션생성_알고리듬",
@@ -643,7 +676,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ② AI 기반 모션생성 알고리듬\n\n## 주요 업무\nAI 기술을 활용한 로봇의 자율 모션 생성 및 제어 알고리즘 개발, 멀티 로봇 간의 태스크 플래닝(Task Planning) 기술 개발, 강화학습(RL) 및 모방학습(IL) 기반 로봇 모션 최적화 기술 개발\n\n## 지원 자격\n매니퓰레이터 제어 및 모션 생성 알고리즘 개발 역량, C++, Python, ROS/ROS2 프레임워크 활용 가능자"
+    "content_path": "content/08ed18819e2f751d4d06898d.md",
+    "content_version": "634db1b8a505deb2"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_Unity_기반_로봇_OLP_SW",
@@ -662,7 +696,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ④ Unity 기반 로봇 OLP SW\n\n## 주요 업무\nUnity 3D 엔진을 활용한 로봇 가상 시뮬레이터 및 오프라인 프로그래밍(OLP) 소프트웨어 개발, 가상 환경 내 로봇 티칭 및 디지털 트윈 인터페이스 구현\n\n## 자격/우대\nC# 및 Unity 개발 숙련자, 3D 그래픽스 및 기구 렌더링/물리 엔진 연동 경험자"
+    "content_path": "content/87ed4fe5825dd226a17401c3.md",
+    "content_version": "1ac4fc7cbb6c374e"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_기구설계",
@@ -681,7 +716,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ① 기구설계\n\n## 주요 업무\n산업용 로봇(다관절, 협동로봇 등) 및 자동화 시스템의 기구부 본체 구조 설계, 감속기·모터 등 구동 부품 선정 및 배치, 시제품 제작 및 조립·구동 테스트\n\n## 지원 자격\n기계공학 및 관련 학과 전공자, 3D CAD(NX, SolidWorks, Catia 등) 활용 가능자\n\n## 우대 사항\n로봇 기구 설계 프로젝트 경험자, 기구학 및 동역학 해석 역량 보유자"
+    "content_path": "content/baf0acc70d38365c93465bd0.md",
+    "content_version": "dec4755ad093798a"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_기구양산설계",
@@ -700,7 +736,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ③ 기구양산설계\n\n## 주요 업무\n개발 완료된 로봇 제품의 양산 이관 및 최적화 설계, 제조 원가 절감(VAd/VE) 및 생산성 향상을 위한 구조 개선, 금형·주조·가공품의 도면화 및 치수 공차 분석, 양산 불량 분석 및 대책 수립\n\n## 지원 자격\n기계/메카트로닉스 공학 전공자, 도면 해독 및 GD&T(기하공차) 지식 보유자\n\n## 우대 사항\n제조 공정(주조, 사출, 가공 등) 및 금형에 대한 이해도가 높은 자, 양산 팔로우업 경험자"
+    "content_path": "content/138f04fa56273f8970960c45.md",
+    "content_version": "2ea1b85a2a45e4ef"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_동작제어_SW__모션제어_",
@@ -720,7 +757,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑦ 동작제어 SW (모션제어)\n\n## 주요 업무\n로봇 기구의 진동을 억제하는 제진 제어, 모델 기반 제어(모션 프로파일 생성), 비선형 제어 및 외부 방해를 상쇄하는 외란 관측기(DOB) 알고리즘 구현\n\n## 지원 자격\nC, C++ 개발 언어 활용 능력, PID 제어 및 선형/비선형 제어 이론에 대한 깊은 이해와 실제 구현 경험"
+    "content_path": "content/330c71c2df90831069464cbe.md",
+    "content_version": "f263a88ecb956be5"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_공통_SW",
@@ -739,7 +777,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑤ 로봇 공통 SW\n\n## 주요 업무\n로봇 교시(Teaching)·설정·모니터링·통신 및 다양한 사용자 편의 기능 개발, 교시 수행 엔진(Playback) 유지보수 및 개발, 응용 기능 관련 프레임워크 소프트웨어 및 UI 개발\n\n## 지원 자격\nC/C++, Python 개발 언어 활용 가능자"
+    "content_path": "content/b68d0fe88ac1727e92626c7c.md",
+    "content_version": "5cd8484188b21aed"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_모션_제어",
@@ -758,7 +797,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑧ 로봇 모션 제어\n\n## 주요 업무\n다축 로봇(매니퓰레이터) 정기구학/역기구학(Kinematics) 및 동역학(Dynamics) 기반 모션 제어 알고리즘 개발, 궤적 계획(Trajectory Planning) 설계\n\n## 자격/우대\n로봇공학/제어공학 석사 이상 우대, 기구학 및 궤적 생성 소프트웨어 개발 역량 보유자"
+    "content_path": "content/a0944bf8f23ea67bd840a34e.md",
+    "content_version": "f480d08a40584a74"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_비전_알고리듬",
@@ -777,7 +817,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ① 로봇 비전 알고리듬\n\n## 주요 업무\n2D/3D 카메라 기반 오브젝트 인식, 로봇 피킹(Picking) 및 포지셔닝을 위한 비전 알고리즘 개발, OpenCV 기반 이미지 프로세싱 및 공간 좌표계 캘리브레이션\n\n## 자격/우대\nC++, Python 가능자, 3D 포인트 클라우드(Point Cloud) 데이터 처리 혹은 딥러닝 기반 객체 검출(Object Detection) 경험자"
+    "content_path": "content/2313cce8ec74fdf334c75550.md",
+    "content_version": "435b4376005d6798"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_서보_제어_FW",
@@ -796,7 +837,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ② 로봇 서보 제어 FW\n\n## 주요 업무\n로봇용 서보 모터 구동 펌웨어(FW) 개발, DSP 및 MCU 기반 모터 제어 펌웨어 개발, FPGA 개발 및 검증, 서보 제어 알고리즘 설계 및 성능 평가\n\n## 지원 자격\nC, C++ 개발 언어 활용 및 서보모터 제어 개발 경험\n\n## 우대 사항\n임베디드 시스템 소프트웨어 개발 경험, Verilog 및 VHDL 활용 기술 보유자"
+    "content_path": "content/2b99dc37f468eb8e574148d0.md",
+    "content_version": "b5e5d24bfb5f9e44"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_응용_SW",
@@ -815,7 +857,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑥ 로봇 응용 SW\n\n## 주요 업무\n산업 현장별 맞춤형 로봇 어플리케이션 소프트웨어 개발, 외부 디바이스(PLC, 상위 시스템) 연동 공정 소프트웨어 구현, API 및 SDK 개발\n\n## 자격/우대\n컴퓨터/SW 전공, 네트워크 프로토콜(TCP/IP, Modbus 등) 및 상용 프레임워크 개발 경험자"
+    "content_path": "content/db64b0ee3014282869c81bc2.md",
+    "content_version": "496ce5cc84c9662c"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇_제어기_설계",
@@ -834,7 +877,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ④ 로봇 제어기 설계\n\n## 주요 업무\n로봇 제어기(Controller)의 기구부 및 패키징 설계, 제어기 내부 부품(드라이브, SMPS, 메인보드 등) 배치 및 방열/냉각 구조 설계, 제어기 외함(Enclosure) 설계 및 방수/방진(IP 등급) 규격 만족 검증\n\n## 지원 자격\n기계/전기전자 융합 전공 또는 기계공학 전공자, 3D CAD 활용 숙련자\n\n## 우대 사항\n열유체 해석(CFD)을 통한 방열 설계 경험자, 전장 제어기 패키징 설계 경력자"
+    "content_path": "content/7b7a7954f31a1dc303752052.md",
+    "content_version": "7f145eba15b6526f"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_로봇시스템_전장_HW",
@@ -853,7 +897,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ④ 로봇시스템 전장 HW\n\n## 주요 업무\n로봇 제어 시스템 전장(전기/전자 장치) 회로 설계, 제어기 내부 드라이브 및 전원부 하드웨어 개발, 전장 노이즈(EMC/EMI) 대책 수립 및 검증\n\n## 자격/우대\n전기/전자공학 전공, 회로 설계 툴(Altium, PADS 등) 및 계측기 활용 가능자"
+    "content_path": "content/dc68ff19e1e972ef69df971c.md",
+    "content_version": "7922dc2a20173785"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_생성형_AI_기반_로봇응용_SW",
@@ -873,7 +918,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ③ 생성형 AI 기반 로봇응용 SW\n\n## 주요 업무\n생성형 AI(LLM 등)를 결합한 사용자 의도 추론 알고리즘 개발, 로봇 제어용 코드 및 명령어 자동 생성/변환 서비스 설계 및 시스템 구현\n\n## 지원 자격\nC++, Python, ROS/ROS2 활용 능력, 대형언어모델(LLM) 및 자연어처리(NLP) 모델 기반 응용 소프트웨어 프로젝트 수행 경험 보유자\n\n## 우대 사항\nVision-Language-Action(VLA) 모델 기반 애플리케이션 개발 경험"
+    "content_path": "content/2a86ef9707f05da0ea6ecbcb.md",
+    "content_version": "e46b4d859f7f1d18"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_센서_퓨전_AI",
@@ -892,7 +938,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑤ 센서 퓨전 AI\n\n## 주요 업무\n라이다(LiDAR), 레이더, 비전, IMU 등 이기종 센서 데이터 결합(Sensor Fusion) 알고리즘 개발, 환경 인지 고도화를 위한 딥러닝 모델 설계\n\n## 자격/우대\n다양한 센서 인터페이스 다뤄본 경험, AI/딥러닝 기반 데이터 융합 알고리즘 설계 역량"
+    "content_path": "content/c6a3f949eddd5e3fb8aa1d87.md",
+    "content_version": "ffb60845783e39a6"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_신뢰성해석",
@@ -911,7 +958,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ② 신뢰성해석\n\n## 주요 업무\n로봇 구조물 및 구동부의 CAE(Computer-Aided Engineering) 해석, 유한요소해석(FEA)을 통한 구조·진동·피로·열해석 수행, 로봇 수명 예측 및 취약부 개선 안 도출\n\n## 지원 자격\n기계공학 전공자 (해석 분야 전공 석사 이상 우대), ANSYS, Abaqus, Hypermesh 등 상용 해석 툴 활용 가능자\n\n## 우대 사항\n구조 진동 및 피로 수명 해석 경험자, 실제 시험 데이터와 CAE 해석 결과 정합성 검증 경험자"
+    "content_path": "content/c4acbccc2082c4837f7fb61a.md",
+    "content_version": "a89fd42d5c9a4302"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_자동화솔루션_기구개발_설계",
@@ -930,7 +978,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑥ 자동화솔루션 기구개발/설계\n\n## 주요 업무\n로봇을 활용한 제조 자동화 라인/시스템 기구 구조 설계, 전용 그리퍼 및 엔드이펙터(End-Effector) 설계, 구조/유공압 시스템 레이아웃 구성\n\n## 자격/우대\n기계/메카트로닉스 전공, 3D CAD(NX, SolidWorks 등) 활용 능력 우수자"
+    "content_path": "content/cf01f5c0a934f4a9d8b45a8b.md",
+    "content_version": "f7bf00bf036b8868"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_자동화솔루션_전장_제어_설계",
@@ -951,7 +1000,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑦ 자동화솔루션 전장/제어 설계\n\n## 주요 업무\n자동화 솔루션 시스템 전체 전장 도면 설계, PLC 기반 공정 제어 시퀀스 프로그래밍, 세이프티(Safety) 시스템 설계 및 시운전 대응\n\n## 자격/우대\n전기/전자/제어 전공, 상용 PLC(멜섹, 지멘스 등) 및 HMI 작화 스킬 보유자"
+    "content_path": "content/9b0ae8fbd0c6357f15f7f5ba.md",
+    "content_version": "8334f474ac283536"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_제어기_RTOS",
@@ -971,7 +1021,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ① 제어기 RTOS\n\n## 주요 업무\nRTOS 커널 및 BSP 개발/유지보수 (VxWorks, Linux 기반), RTOS 기반 커널 모듈 개발, 제어기 운용 미들웨어 개발, RTOS 기반 소프트웨어 최적화\n\n## 지원 자격\nC, C++ 개발 언어 활용 능력\n\n## 우대 사항\n크로스 컴파일 개발 환경 경험자, RTOS 기반 애플리케이션 개발 경력, VxWorks BSP 개발 경험자"
+    "content_path": "content/8a07302dc3b32b3e2c6b686e.md",
+    "content_version": "c4a173484eec6c0b"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_제어기_인터페이스_SW",
@@ -991,7 +1042,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ③ 제어기 인터페이스 SW\n\n## 주요 업무\n산업용 통신 프로토콜 개발, 고속 IO(Input/Output) 펌웨어 구현, EtherCAT 통신 소프트웨어 및 센서 인터페이스 소프트웨어 구현\n\n## 자격/우대\nC/C++ 역량, 산업용 필드버스(Fieldbus) 통신망 및 임베디드 인터페이스 개발 지식 보유자"
+    "content_path": "content/5347b0da63e7beb470bf7d33.md",
+    "content_version": "1625b4723d6f026a"
   },
   {
     "id": "hd현대로보틱스_HD현대_2502_하네스_설계",
@@ -1010,7 +1062,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# ⑤ 하네스 설계\n\n## 주요 업무\n로봇 내부 및 제어기 간을 연결하는 케이블 메커니즘 및 하네스(Harness) 경로(Routing) 설계, 로봇 가동 범위(다축 회전) 내 케이블의 꼬임·마모 방지를 위한 가이드 설계, 커넥터 및 케이블 사양 선정 및 회로도 기반 와이어링 설계\n\n## 지원 자격\n전기/전자공학, 기계공학 전공자\n\n## 우대 사항\n로봇이나 자동차 등 고가동부 케이블/하네스 설계 경험자, 전기 도면(E-CAD) 및 3D 하네스 라우팅 툴 활용 가능자\n\n## 메모\n기구설계/양산설계/제어기설계 직무는 어떤 3D CAD 툴을 얼마나 능숙하게 다룰 수 있는지, 그리고 공차 분석이나 가공 방식(주조, 절삭 등)에 대한 이해도가 있는지를 어필하는 것이 좋습니다.\n신뢰성해석은 석사 학위자나 툴(ANSYS 등)을 활용한 프로젝트 경험이 핵심입니다.\n하네스 설계는 다관절 로봇이 계속 움직여야 하는 특성상 '내구성'과 '가동 범위 레이아웃 최적화' 경험을 강조하면 좋은 점수를 받을 수 있습니다."
+    "content_path": "content/b7d2d8eae3bb901847074308.md",
+    "content_version": "d8350e8fb7e97ffd"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_AI기반로봇솔루션S_W개발",
@@ -1029,7 +1082,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI기반로봇솔루션 S/W 개발\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 비전/AI가 결합된 로봇 자동화 셀 솔루션 S/W 통합 개발\n  - 물류/제조 라인 내 디파렛타이징, 상차, 검사 AI 솔루션 커스텀 개발\n  - 현장 로봇 제어기 및 실시간 센서 인터페이스 통합 S/W 파이프라인 개발\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, 로봇공학 등 관련 전공)\n  - C++, Python 기반 소프트웨어 개발 경력 3년 이상\n  - AI 모델 및 비전 시스템 로봇 연동 개발 경험자\n\n## 우대 사항\n  - 물류 자동화, 제조 비전 솔루션 현장 적용 및 상용화 경험자"
+    "content_path": "content/644b2965fa558971f1e772df.md",
+    "content_version": "4bd0c823530f89e8"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_AI기반모션생성알고리듬",
@@ -1049,7 +1103,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI 기반 모션생성 알고리듬\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 강화학습(Reinforcement Learning) 및 모션 생성 AI 모델 기반 로봇 제어\n  - 복잡한 환경에서의 장애물 실시간 회피 및 경로 생성(Path Planning) 알고리즘 개발\n  - Sim-to-Real 갭 극복을 위한 시뮬레이션 환경 구축 및 도메인 랜더마이징 기법 적용\n\n## 지원 자격\n  - 학사 이상 (AI, 로봇공학, 컴퓨터공학 등 관련 전공)\n  - PyTorch/TensorFlow 기반 AI 알고리즘 개발 경력 3년 이상\n  - C++ 및 Python 개발 능력 보유자\n\n## 우대 사항\n  - 석/박사 학위 소지자\n  - Isaac Sim, MuJoCo, Gazebo 등 로봇 시뮬레이터 활용 강점이 있는 자\n  - 로봇 핑거/핸드 및 매니퓰레이터 강화학습 적용 경험자"
+    "content_path": "content/d6581cf3b9025c4f22820894.md",
+    "content_version": "a12eb40de74babab"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_AM기술교육",
@@ -1068,7 +1123,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AM기술교육\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사) / 신갈\n\n## 수행 업무\n  - 고객사, 대리점 및 사내 엔지니어 대상 로봇 조작/조작/유지보수 기술 교육 커리큘럼 개발\n  - 로봇 교육용 교재 작성 및 강의 실습 진행\n  - 교육 트레이닝 센터 운영 및 기술 자격 인증 제도 관리\n\n## 지원 자격\n  - 학사 이상 (공학계열 전공 선호)\n  - 로봇 엔지니어링 또는 기술 교육/강의 경력 3년 이상\n\n## 우대 사항\n  - 로봇 티칭 및 유지보수 실무 능력 우수자\n  - 직무 교육 과정 설계 및 강의 경험자"
+    "content_path": "content/4ef5f9128ba1ebf8012e91b5.md",
+    "content_version": "7fddabb7e75f21d4"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_AM기술영업",
@@ -1087,7 +1143,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AM기술영업\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 / 울산 / 신갈 / 서울\n\n## 수행 업무\n  - 납품된 로봇 및 자동화 설비의 After Market(애프터 마켓) 부품/수리 영업\n  - 로봇 개조, 유지보수 계약(MA), 오버홀(Overhaul) 서비스 수주 영업\n  - 고객 만족도 관리 및 유지보수 부품 견적 대응\n\n## 지원 자격\n  - 학사 이상 (전공 무관)\n  - 기술 영업 또는 서비스/부품 영업 경력 3년 이상\n\n## 우대 사항\n  - 로봇 및 장비 유지보수/애프터서비스 영업 경험자\n  - 기계/전장 도면 해석 가능자"
+    "content_path": "content/4b03e6a6c3e48fac0c78a6f8.md",
+    "content_version": "92396abd2c9ecb4f"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_EPC구매",
@@ -1105,7 +1162,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# EPC 구매\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC) / 대구 (본사)\n\n## 수행 업무\n  - 턴키 자동화 솔루션 프로젝트(EPC) 관련 외주 기자재 및 공사 구매\n  - 외주 업체 선정, 단가 협상, 입찰(RFP) 진행 및 계약 작성\n  - 프로젝트별 구매 예산 및 원가 관리\n\n## 지원 자격\n  - 학사 이상 (전공 무관)\n  - 설비/건설/EPC/자동화 프로젝트 구매 경력 3년 이상\n\n## 우대 사항\n  - 물류/제조 자동화 SI 프로젝트 구매 경험자\n  - 하도급법 및 계약 관련 법률 지식 보유자"
+    "content_path": "content/ba37d716bc517874e5571b7c.md",
+    "content_version": "3ee81b85921f8e9e"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_Unity기반로봇OLPS_W",
@@ -1124,7 +1182,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Unity 기반 로봇 OLP S/W\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - Unity 엔진 기반 로봇 오프라인 프로그래밍(OLP, Offline Programming) 및 시뮬레이터 개발\n  - 3D CAD 데이터 파싱 및 디지털 트윈(Digital Twin) 환경 구축\n  - 시물레이션 상의 로봇 작업 로직 생성 및 가상 검증 기능 구현\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, 그래픽스, 로봇공학 등 관련 전공)\n  - Unity 엔진 및 C# 프로그래밍 경력 3년 이상\n  - 3D 수학(선형대수, 매트릭스, 쿼터니언) 이해 우수자\n\n## 우대 사항\n  - 로봇 시뮬레이터(RoboDK, Process Simulate 등) 사용 및 개발 경험자\n  - CAD 파서(STEP, IGES 등) 연동 개발 경험자"
+    "content_path": "content/c7023122b74c56c666967f73.md",
+    "content_version": "ab0f8e197569a00f"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_개발구매_중국소싱_",
@@ -1143,7 +1202,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 개발구매 (중국소싱)\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC) / 대구 (본사)\n\n## 수행 업무\n  - 중국 내 로봇 요소 부품 및 가공품 협력사 발굴 및 소싱(Sourcing)\n  - 중국 공급사 견적 검토, 단가 협상 및 부품 신뢰성/품질 검증 대응\n  - 중국 공급망 관리 및 통관/물류 대응\n\n## 지원 자격\n  - 학사 이상 (전공 무관)\n  - 중국 부품 소싱 및 해외 구매 경력 3년 이상\n  - 비즈니스 중국어 필수 (원어민 수준 또는 HSK 6급 이상)\n\n## 우대 사항\n  - 중국 기계 가공, 사출, 전자부품 업체 소싱 경험자\n  - 현지 협력사 감사(Audit) 경험자\n\n## 6. 품질 관리 / 품질 평가"
+    "content_path": "content/9c78580e1052cce73736e59c.md",
+    "content_version": "41463a792b46fee4"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_개발구매",
@@ -1162,7 +1222,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 개발구매\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC) / 대구 (본사)\n\n## 수행 업무\n  - 신제품 개발 단계별 부품(감속기, 모터, 센서, 가공품 등) 개발 구매 및 단가 타당성 검토\n  - 개발 시품 자재 수급 및 협력사 개발 일정 관리\n  - Target Cost 달성을 위한 원가 분석 및 개발 협력사 이원화 수립\n\n## 지원 자격\n  - 학사 이상 (공학계열 선호)\n  - 제조업 개발구매 경력 3년 이상\n\n## 우대 사항\n  - 로봇 부품(모터, 감속기, 베어링 등) 구매 경험자\n  - 원가 분석(Cost Table) 역량 보유자"
+    "content_path": "content/bc5fe5f1b1de0cfd3a04920d.md",
+    "content_version": "80275d716aab0fe1"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_기구개발품질기획",
@@ -1183,7 +1244,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구 개발품질 기획\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC) / 대구 (본사)\n\n## 수행 업무\n  - 신제품 개발 단계별 기구 부품 개발 품질 Gate 관리 (FMEA, CP 수립)\n  - 시제품 검수, 신규 부품 초물 검사 및 협력사 품질 지도\n  - 개발 중 기구 문제점 개선 대책 수립 및 검증\n\n## 지원 자격\n  - 학사 이상 (기계공학 계열 전공)\n  - 기계 부품 개발 품질 또는 QA 경력 3년 이상\n\n## 우대 사항\n  - DFMEA, PFMEA 수립 및 운영 경험자\n  - 정밀 기계 부품(가공, 주조) 도면 해독 및 측정 지식 보유자"
+    "content_path": "content/e24188efe31a6da6f5cd1f09.md",
+    "content_version": "76e4bcfb376e646b"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_기구설계",
@@ -1203,7 +1265,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구설계\n\n- **구분:** 신입 / 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 기구 설계 (구동기, 프레임, 센서, 엔드이펙터 등)\n  - NX, Solidworks, Autocad 활용 설계\n  - 제품 기획 (사양 선정 / 경쟁사 BM)\n  - 제품 개발 (요소 설계, 모델링, 제작 및 검증)\n  - 동역학, 진동, 내구 검증 및 시제품/양산설계\n  - 시제품 제작, 양산, 조립성 고려 설계, 원가 공정 최적화\n  - 시험평가 (성능, 내구), 로봇 관련 안전 인증\n  - 프로젝트 관리, 설계 표준, 기술문서 작성\n\n## 지원 자격\n  - [신입] 학사 이상 (기계, 메카트로닉스 등 관련 전공), 3D CAD 활용 능력 및 기초 역학 지식 보유자\n  - [경력] 관련 직무 유관 경력 보유자, 3D CAD (NX, SolidWorks 등) 활용 능력 우수자, 유체/열/동역학/재료 역학 설계 적용 가능자\n\n## 우대 사항\n  - 석사 이상 학위 소지자\n  - 산업용/서비스 로봇, 자동화 장비 기구 설계 경험자\n  - 감속기, 모터, 베어링 등 요소 부품 선정 및 적용 경험자"
+    "content_path": "content/5da41e1110513df666d5914d.md",
+    "content_version": "25904a531993d595"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_기구설계_PM",
@@ -1223,7 +1286,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구설계/PM\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC) / 대구 (본사)\n\n## 수행 업무\n  - 자동화 솔루션 프로젝트 기구 분야 PM(Project Manager) 역할 수행\n  - 고객 사양 분석, WBS 작성, 일정 및 릴리즈 관리\n  - 기구 설계 검토 및 출하/설치 시운전 기구 이슈 관리\n\n## 지원 자격\n  - 학사 이상 (기계공학 계열 전공)\n  - 로봇/자동화 설비 기구 설계 및 엔지니어링 PM 경력 5년 이상\n\n## 우대 사항\n  - 대형 프로젝트 엔지니어링 PM 경험자\n  - PMP 자격증 소지자"
+    "content_path": "content/950f8cb03c5f9e6627e5022a.md",
+    "content_version": "ca7a7fe1731e605a"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_기구양산설계",
@@ -1243,7 +1307,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구양산설계\n\n- **구분:** 신입 / 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사)\n\n## 수행 업무\n  - 양산 로봇 기구 개선 및 원가 절감(VE) 설계\n  - 양산 중 발생 품질 문제 원인 분석 및 수평 전개 개선 설계\n  - 금형, 주조, 가공, 판금 부품 양산성 검토 및 금형/가공업체 대응\n  - 양산 부품 조립 단가 및 공정 최적화를 위한 3D/2D 도면 변경 관리\n\n## 지원 자격\n  - [신입] 학사 이상 (기계공학, 메카트로닉스 관련 전공), 2D/3D CAD 기초 활용 능력 및 가공/공정/재료 지식 보유자\n  - [경력] 양산 설계 및 생산 대응 실무 경력 보유자, 주물/가공/사출/판금 공정 지식 및 도면 변경 관리 경험자\n\n## 우대 사항\n  - 로봇 또는 기계 장비 양산 설계 및 생산 대응 경험자\n  - 주물, 가공, 사출, 판금 부품 제조 공정 지식 보유자"
+    "content_path": "content/27311505c9c9b3919d7befc0.md",
+    "content_version": "43b8518c7bc0973c"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_기능성능품질평가",
@@ -1262,7 +1327,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기능 성능 품질 평가\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사)\n\n## 수행 업무\n  - 완성형 로봇 제품의 궤적 정밀도, 반복정밀도(ISO 9283 기준) 측정 평가\n  - 로봇 내구성 시험, 가혹 조건 시험 및 환경(온습도, 방수) 신뢰성 평가\n  - 품질 평가 데이터 분석 및 문제점 발굴/개선 리포트 작성\n\n## 지원 자격\n  - 학사 이상 (기계, 전기전자, 메카트로닉스 관련 전공)\n  - 로봇 또는 기계 장비 품질 평가/시험 신뢰성 경력 3년 이상\n\n## 우대 사항\n  - 레이저 트래커, 3D 측정기 활용 로봇 측정 평가 경험자\n  - ISO 9283 로봇 성능 평가 규격 지식 보유자"
+    "content_path": "content/caa622edab522728399aa149.md",
+    "content_version": "b22ecabc46b733ad"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_동작제어S_W_모션제어_",
@@ -1281,7 +1347,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 동작제어 S/W (모션제어)\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 다축 로봇 정/역기구학(Kinematics) 및 동역학(Dynamics) 알고리즘 구현\n  - 궤적 생성(Trajectory Generation), 보간(Interpolation) 알고리즘 개발\n  - 충돌 감지, 진동 억제, 비전 연동 모션 제어 S/W 개발\n\n## 지원 자격\n  - 학사 이상 (제어공학, 로봇공학, 기계공학 등 관련 전공)\n  - C/C++ 기반 로봇 모션 제어 알고리즘 개발 경력 3년 이상\n  - 로봇 기구학/동역학 지식 필수 보유자\n\n## 우대 사항\n  - 석/박사 학위 소지자\n  - 산업용 수직다관절/협동로봇 모션 제어 개발 경험자"
+    "content_path": "content/8172880489486281f1eaa03d.md",
+    "content_version": "26caf43de8e4bb40"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇공통S_W",
@@ -1300,7 +1367,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 공통 S/W\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 제어 코어 미들웨어 및 공통 모듈 소프트웨어 아키텍처 설계\n  - 로봇 좌표계 변환, 태스크 스케줄링 및 상태 관리 S/W 개발\n  - C++ 기반 로봇 프레임워크 개발\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, 로봇공학 등 관련 전공)\n  - Modern C++(C++11/14/17) 숙련자 (개발 경력 3년 이상)\n  - 객체지향 설계 및 디자인 패턴 지식 보유자\n\n## 우대 사항\n  - ROS2 기반 아키텍처 설계 및 커스텀 미들웨어 개발 경험자\n  - 대규모 소프트웨어 프로젝트 아키텍처 설계 경험자"
+    "content_path": "content/56c985e90344d4d2bd1ce549.md",
+    "content_version": "686ccf260480be57"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇모션제어",
@@ -1319,7 +1387,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 모션 제어\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 고속/고정밀 로봇 팔 관절 제어 및 외란 보상 알고리즘 개발\n  - 중력 보상, 마찰력 보상, 강성/순응 제어(Compliance Control) 구현\n  - 실시간 모션 궤적 필터링 및 둔화/충격 방지 알고리즘 개발\n\n## 지원 자격\n  - 학사 이상 (제어/기계/메카트로닉스/로봇공학 관련 전공)\n  - 로봇 모션 제어 알고리즘 연구/개발 경력 3년 이상\n  - Matlab/Simulink 및 C/C++ 구현 가능자\n\n## 우대 사항\n  - 석/박사 학위 소지자\n  - 협동로봇 또는 다축 로봇 모션 제어기 개발 실무 경험자"
+    "content_path": "content/3e5562f0a231e5ede1fa1e43.md",
+    "content_version": "c143cae598eccaa0"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇비전알고리듬",
@@ -1338,7 +1407,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 비전 알고리듬\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 2D/3D 비전 센서 기반 로봇 가이던스 및 인식 알고리즘 개발\n  - 3D Point Cloud 처리(ICP, Segmentation, Feature Extraction) 및 Object Pose Estimation\n  - 비전-로봇 좌표계 Hand-Eye 캘리브레이션 알고리즘 구현\n\n## 지원 자격\n  - 학사 이상 (컴퓨터비전, AI, 전자/컴공 등 관련 전공)\n  - OpenCV, PCL 등 비전 라이브러리 활용 개발 경력 3년 이상\n  - C++ 및 Python 프로그래밍 숙련자\n\n## 우대 사항\n  - 석/박사 학위 소지자\n  - Bin-picking, 빈피킹 및 3D 비전 로봇 가이던스 상용화 경험자"
+    "content_path": "content/233696c00ac73654e7af062b.md",
+    "content_version": "2e48d5ab2fe6c6b9"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇서보제어F_W",
@@ -1357,7 +1427,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 서보 제어 F/W\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 관절 모터 구동용 서보 드라이버 펌웨어(Firmware) 개발\n  - 전류/속도/위치 제어 루프 설계 및 튜닝 알고리즘 구현\n  - EtherCAT, CANopen 등 이더넷/시리얼 기반 서보 통신 프로토콜 구현\n  - 게인 튜닝 및 진동 제어, 모터 보호 알고리즘 개발\n\n## 지원 자격\n  - 학사 이상 (전기전자공학, 제어공학, 메카트로닉스 등 관련 전공)\n  - MCU/DSP 기반 C/C++ 펌웨어 개발 경력 3년 이상\n  - 모터 제어(BLDC, PMSM) 이론 및 실무 경험자\n\n## 우대 사항\n  - EtherCAT 통신 슬레이브 펌웨어 개발 경험자\n  - FOC(Field Oriented Control) 알고리즘 구현 및 튜닝 경험자"
+    "content_path": "content/38e7bce808b2d61d4001d7e1.md",
+    "content_version": "d36d665176b61bc8"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇시스템전장H_W",
@@ -1376,7 +1447,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇시스템 전장 H/W\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 제어기 및 시스템 전장 회로 설계 (전원부, I/O, 통신, 안전회로)\n  - PCB ArtWork 설계 및 시제품 제작, 시험/검증\n  - 노이즈(EMC/EMI) 대책 수립 및 인증 대응\n  - 전장 부품(릴레이, 차단기, SMPS 등) 선정 및 배선도 작성\n\n## 지원 자격\n  - 학사 이상 (전기전자공학 관련 전공)\n  - 회로 설계 툴 (OrCAD, Altium 등) 활용 능력 및 회로 설계 경력 3년 이상\n  - CE, UL 등 산업용 기기 안전/EMC 인증 경험자\n\n## 우대 사항\n  - 로봇 또는 산업용 드라이브/제어기 회로 설계 경험자\n  - 전력전자 및 안전릴레이 회로 설계 경험자"
+    "content_path": "content/e56de5c70a80a20d0136a05a.md",
+    "content_version": "69cd5c2df23b322c"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇응용S_W",
@@ -1395,7 +1467,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 응용 S/W\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 애플리케이션(팔레타이징, 용접, 이재, 봉지 등) 로직 개발\n  - 사용자 인터페이스(UI/UX) 연동 및 애플리케이션 API 개발\n  - 고객 맞춤형 로봇 솔루션 패키지 S/W 구현\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, 로봇공학, 소프트웨어 관련 전공)\n  - C++, C#, Python 중 1개 이상 개발 경력 3년 이상\n  - 로봇 응용 로직 및 공정 알고리즘 이해도 보유자\n\n## 우대 사항\n  - 산업용 로봇 애플리케이션 개발 경험자\n  - Qt, WPF 등 GUI 프레임워크 개발 경험자"
+    "content_path": "content/8b824721ba5ff49df55e660a.md",
+    "content_version": "2a187e1fcf827443"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇응용프론트엔드S_W",
@@ -1414,7 +1487,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 응용 프론트엔드 S/W\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 티칭펜던트 및 웹/앱 기반 UI/UX 프론트엔드 개발\n  - 3D 로봇 뷰어 및 3D 씬(Scene) 렌더링 화면 구현\n  - 제어기 백엔드 REST API / WebSocket 통신 연동 인터페이스 작성\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, SW 관련 전공)\n  - React, Vue.js, Electron, TypeScript 등 프론트엔드 개발 경력 3년 이상\n  - WebGL 또는 Three.js 활용 3D 그래픽스 개발 경험자\n\n## 우대 사항\n  - 산업용 웹 UI 또는 모바일 UI 앱 개발 및 상용화 경험자\n  - Figma 등을 통한 UI/UX 설계 및 디자인 시스템 구축 경험자"
+    "content_path": "content/1cfbcb9c74312ab9a1f6816c.md",
+    "content_version": "38c6395fb590b34a"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇적용설계_기구_",
@@ -1433,7 +1507,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 적용 설계 (기구)\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사) / 분당 (GRC)\n\n## 수행 업무\n  - 산업용 로봇 옵션 부품(변형 툴, 브래킷, 케이블 드레스팩) 기구 설계\n  - 특수 환경(방수, 방폭, 고온) 로봇 사양 기구 응용 설계\n  - 로봇 도면 관리 및 고객 기술 사양서(Speck Sheet) 대응\n\n## 지원 자격\n  - 학사 이상 (기계공학 계열 전공)\n  - 3D CAD 활용 기구 응용 설계 경력 3년 이상\n\n## 우대 사항\n  - 산업용 로봇 드레스팩(Dress Pack) 설계 및 브래킷 설계 경험자\n  - 방폭/Clean room 로봇 기구 설계 경험자\n\n## 4. 사업기획 / 영업기획 / 국내외 영업"
+    "content_path": "content/aebc1e448f1a6cd1b415516b.md",
+    "content_version": "94146f9fcc4915bc"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇적용설계_제어_",
@@ -1452,7 +1527,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 적용 설계 (제어)\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사) / 분당 (GRC)\n\n## 수행 업무\n  - 고객사 현장 로봇 적용을 위한 로봇 제어 시스템 맞춤 설계 및 엔지니어링\n  - 특수 공정(용접, 도장, 실링 등) 전용 로봇 제어 옵션 파라미터 개발\n  - 로봇 현장 시운전 및 제어 튜닝, 고객 기술 지원\n\n## 지원 자격\n  - 학사 이상 (전기전자, 제어공학, 메카트로닉스 관련 전공)\n  - 로봇 또는 자동화 제어 엔지니어링 경력 3년 이상\n\n## 우대 사항\n  - 자동차, 조선, 일반 산업체 로봇 시운전 및 튜닝 경력자\n  - Spot/Arc 용접, 도장 공정 로봇 적용 경험자"
+    "content_path": "content/a987c68140bce381910bba27.md",
+    "content_version": "69cabb0257d76c13"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_로봇제어기설계",
@@ -1471,7 +1547,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 제어기 설계\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 제어기 랙(Rack) 및 캐비닛 구조 기구 설계\n  - 제어기 내부 방열, 발열 분석 및 열설계\n  - 방수/방진(IP등급) 및 내진/진동 구조 설계\n  - 제어기 기구 부품 사양 수립 및 양산성 검토\n\n## 지원 자격\n  - 학사 이상 (기계공학, 메카트로닉스 관련 전공)\n  - 3D CAD 활용 3D 기구 설계 경력 3년 이상\n  - 열/유체 및 판금 가공에 대한 지식 보유자\n\n## 우대 사항\n  - 산업용 제어기, 전장 랙 캐비닛 설계 경험자\n  - Ansys Icepak 등 열해석 툴 활용 가능자"
+    "content_path": "content/d015563a2720b8a577fcf45d.md",
+    "content_version": "4a6ee0ecf58ca52c"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_사업기획",
@@ -1490,7 +1567,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 사업기획\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC) / 서울\n\n## 수행 업무\n  - 로보틱스 중장기 사업 전략(Vision & Strategy) 수립 및 M&A, 신사업 검토\n  - 사내 경영진 보고 자료 작성 및 주요 경영 지표(KPI) 관리\n  - 타사 제휴, 합작법인(JV), 오픈 이노베이션 추진\n\n## 지원 자격\n  - 학사 이상 (경영/경제/산업공학/공학 전공)\n  - 전사 사업기획, 전략기획, 컨설팅 경력 3년 이상\n\n## 우대 사항\n  - 로봇/IT/하이테크 분야 전략기획 경험자\n  - 전략 컨설팅 펌(Firm) 출신자 우대"
+    "content_path": "content/978a3a4f886e39001e2302c8.md",
+    "content_version": "7066568912fffe65"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_산업용로봇영업",
@@ -1509,7 +1587,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 산업용로봇영업\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 서울 / 대구 / 울산 / 신갈\n\n## 수행 업무\n  - 국내외 자동차, 전자, 일반 산업체 대상 산업용 로봇 영업 활동\n  - 신규 고객사 발굴, 대리점 관리 및 수주 영업\n  - 견적서 작성, 계약 체결 및 매출/채권 관리\n\n## 지원 자격\n  - 학사 이상 (전공 무관, 공학계열 선호)\n  - B2B 기계/장비/로봇 기술 영업 경력 3년 이상\n\n## 우대 사항\n  - 로봇 또는 자동화 설비 영업 경력자\n  - 비즈니스 영어/중국어/일어 가능자"
+    "content_path": "content/602d7fd760e9801551523980.md",
+    "content_version": "0590bf9e11ef6745"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_상품기획",
@@ -1528,7 +1607,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 상품기획\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 신규 로봇 제품군(산업용, 협동, 물류로봇 등) 라인업 로드맵 수립 및 상품 기획\n  - 시장 요구사항(VOC) 수집 및 Target Cost, Specs 정의 (PRD 작성)\n  - 신제품 개발 단계별 Gate 리뷰 및 런칭 마케팅 관리\n\n## 지원 자격\n  - 학사 이상 (공학 및 경영학 전공)\n  - 기계, IT, 로봇 제품 상품기획/PM 경력 3년 이상\n\n## 우대 사항\n  - B2B 로봇/장비 신제품 상품 기획 성공 경험자\n  - 기술에 대한 이해도와 시장 분석 능력을 겸비한 자\n\n## 5. 생산 / 구매 / 공급망 관리"
+    "content_path": "content/e2361e682ed0178b67614302.md",
+    "content_version": "946a9f1d8b18d85a"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_생산관리",
@@ -1546,7 +1626,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 생산관리\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사)\n\n## 수행 업무\n  - 로봇 제품 생산 계획(월/주간) 수립 및 주도적 공정 진척 관리\n  - 영업 주문 기반 납기 관리 및 공정 부하 분석\n  - 자재 수급 계획 연동 생산 실적 및 재고 적정성 관리\n\n## 지원 자격\n  - 학사 이상 (산업공학, 경영학, 공학계열 전공)\n  - 제조업 생산관리(PPC) 경력 3년 이상\n\n## 우대 사항\n  - ERP(SAP) PP 모듈 활용 능력 우수자\n  - 로봇 또는 기계 조립 제조업 생산관리 경력자"
+    "content_path": "content/68ed0d3424aac23c416a472d.md",
+    "content_version": "2dd099abe7301a6d"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_생산기술",
@@ -1565,7 +1646,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 생산기술\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사)\n\n## 수행 업무\n  - 신규 로봇 및 제어기 양산 공정 설계, 공정 라인 구축\n  - 조립 지그, 시험 지그 및 조립 도구 설계/도입\n  - 작업 표준서 작성, 조립 공수 절감(IE) 및 공정 품질 개선\n\n## 지원 자격\n  - 학사 이상 (기계공학, 메카트로닉스, 산업공학 관련 전공)\n  - 생산기술/공정기술 경력 3년 이상\n\n## 우대 사항\n  - 로봇, 정밀 기계, 자동차 부품 조립 라인 생기 경험자\n  - 3D CAD 활용 조립 지그 설계 가능자"
+    "content_path": "content/2871a1a3956c9f1155e434a9.md",
+    "content_version": "877e0b643b937d32"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_생성형AI기반로봇응용S_W",
@@ -1585,7 +1667,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 생성형 AI기반 로봇 응용 S/W\n\n- **구분:** 신입 / 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - LLM/VLM(Vision Language Model) 기반 로봇 자연어 지시 이행 및 태스크 파싱 S/W 개발\n  - 멀티모달 AI 프롬프트 엔지니어링 및 로봇 행동 시퀀스 자동 생성\n  - 생성형 AI 기반 자율 작업 로봇 에이전트 아키텍처 개발\n\n## 지원 자격\n  - [신입] 학사 이상 (컴퓨터공학, AI, 로봇공학 관련 전공), Python/PyTorch 및 LLM 기본 개발 지식 보유자\n  - [경력] LLM/VLM 파인튜닝 및 로봇 연동 관련 개발 실무 경력 보유자, Modern C++ 및 Python 구현 역량 보유자\n\n## 우대 사항\n  - 석/박사 학위 소지자\n  - LangChain, LlamaIndex 등 LLM 에이전트 프레임워크 사용 경험자\n  - 로봇 제어 시스템과 LLM/VLM 연동 프로젝트 수행 경험자"
+    "content_path": "content/c3071d0df9381bc5ba97b653.md",
+    "content_version": "ea8624c5000a1350"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_센서퓨전AI",
@@ -1604,7 +1687,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 센서 퓨전 AI\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - Vision, Tactile(촉각), Force/Torque(F/T), LiDAR 등 다중 센서 융합 AI 알고리즘 개발\n  - 로봇 파악(Grasping) 및 정밀 조립을 위한 센서 데이터 기반 상태 추정\n  - 다중 센서 데이터 동기화 및 딥러닝 센서 퓨전 모델 개발\n\n## 지원 자격\n  - 학사 이상 (AI, 전자공학, 로봇공학 등 관련 전공)\n  - 센서 퓨전 및 딥러닝 기반 신호/이미지 처리 경력 3년 이상\n  - Python/PyTorch 및 C++ 구현 능력자\n\n## 우대 사항\n  - 석/박사 학위 소지자\n  - F/T 센서 및 비전 융합 기반 로봇 조립/파지 알고리즘 개발 경험자\n\n## 3. 자동화 솔루션 / 로봇 적용 설계"
+    "content_path": "content/4bb069ac88655d5017587892.md",
+    "content_version": "0f1646ee518d0216"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_신뢰성해석",
@@ -1624,7 +1708,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 신뢰성해석\n\n- **구분:** 신입 / 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 기구 및 부품의 구조, 진동, 열, 동역학 해석\n  - Ansys, RecurDyn, Abaqus 등 CAE 툴 활용 해석 모델 구축 및 검증\n  - 시험 결과와 CAE 해석 결과의 매칭 및 모델 개선\n  - 로봇 신뢰성 평가 규격 수립 및 해석 기반 설계 가이드 제공\n\n## 지원 자격\n  - [신입] 학사 이상 (기계공학, 항공우주공학, 조선해양공학 등 관련 전공), 역학(재료, 동역학, 진동학) 지식 보유자\n  - [경력] CAE 해석 툴 활용 실무 경력 보유자, 해석 모델 구축 및 검증 능력 보유자\n\n## 우대 사항\n  - 석/박사 학위 소지자\n  - 로봇 또는 정밀 기계 시스템 CAE 해석 실무 경험자\n  - 시험 데이터(Vibration, Strain gauge 등) 분석 및 매칭 경험자"
+    "content_path": "content/f7cb871531904721ac8d22d5.md",
+    "content_version": "df62453c7e795886"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_양산품질",
@@ -1643,7 +1728,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 양산 품질\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사)\n\n## 수행 업무\n  - 양산 로봇 제품 및 공정 품질 관리, 공정 불량률 개선\n  - 고객 클레임 대응, 필드 불량 원인 분석(8D Report) 및 삭감 대책 추진\n  - 양산 협력사 품질 감사(Audit) 및 신뢰성 품질 관리\n\n## 지원 자격\n  - 학사 이상 (공학계열 전공)\n  - 제조업 양산 품질 관리(QC/QA) 경력 3년 이상\n\n## 우대 사항\n  - 로봇, 자동차, 정밀 기계 양산 품질 경력자\n  - 6 Sigma BB/GB 자격증 소지자"
+    "content_path": "content/3795ba6f4aa5bd23bce1aa28.md",
+    "content_version": "ea0764965ae45859"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_영업기획",
@@ -1663,7 +1749,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 영업기획\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 서울 / 분당\n\n## 수행 업무\n  - 중장기 국내외 로봇 영업 전략 수립 및 매출/이익 목표 관리\n  - 글로벌 로봇 시장/경쟁사 동향 분석 및 Price 전략 수립\n  - 판매 실적 분석, 영업 PSI 관리 및 채권/수주 데이터 분석\n\n## 지원 자격\n  - 학사 이상 (경영학, 경제학, 산업공학 등 관련 전공)\n  - B2B 기업 영업기획 및 사업관리 경력 3년 이상\n\n## 우대 사항\n  - 제조업/로봇 산업 영업기획 경력자\n  - Data 분석(Excel, Tableau, Power BI 등) 우수자"
+    "content_path": "content/4d75137d0de02365796de1e6.md",
+    "content_version": "1c88e3273af7d4e1"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_자동화솔루션기구개발_설계",
@@ -1682,7 +1769,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 자동화솔루션 기구개발/설계\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 기반 자동화 라인/셀 기구 장치(그리퍼, 지그, 툴, 컨베이어) 설계\n  - 셀 단위 로봇 배치 및 3D 레이아웃 검토, 타정/간섭 체크\n  - 자동화 솔루션 부품 선정 및 원가/양산 기구 설계\n\n## 지원 자격\n  - 학사 이상 (기계공학, 메카트로닉스 관련 전공)\n  - 3D CAD 활용 자동화 장비 기구 설계 경력 3년 이상\n\n## 우대 사항\n  - 디스플레이, 이차전지, 자동차 라인 자동화 장비 설계 경험자\n  - EOAT(End-of-Arm Tooling) 전용 그리퍼 설계 경험자"
+    "content_path": "content/2ca995e70df810683eb57149.md",
+    "content_version": "45658676a96893d2"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_자동화솔루션전장_제어설계",
@@ -1703,7 +1791,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 자동화솔루션 전장/제어설계\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 자동화 셀 전장 시스템(제어반, PLC, 센서, 세이프티) 설계\n  - PLC 프로그래밍(Mitsubishi, Siemens, LS 등) 및 Touch HMI 화면 구축\n  - 시운전 및 자동화 라인 인터락(Interlock), MES 연동 제어\n\n## 지원 자격\n  - 학사 이상 (전기전자, 제어공학 등 관련 전공)\n  - 자동화 설비 전장 설계 및 PLC 제어 경력 3년 이상\n\n## 우대 사항\n  - 로봇 연동 PLC 자동화 라인 시운전 경험자\n  - EPLAN을 이용한 전장 도면 설계 가능자"
+    "content_path": "content/ab54f250c50f25b31640a524.md",
+    "content_version": "545dd93d3a97a069"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_자동화솔루션턴키영업",
@@ -1722,7 +1811,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 자동화솔루션 턴키 영업\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 서울 / 분당\n\n## 수행 업무\n  - 물류, 제조 분야 로봇 자동화 턴키(Turn-key) 프로젝트 수주 영업\n  - 고객 제안서 작성, 입찰 대응 및 RFP 분석\n  - 사내 설계/기술팀과 협업하여 제안 딜리버리 및 수주 승인 관리\n\n## 지원 자격\n  - 학사 이상 (전공 무관)\n  - 엔지니어링 턴키 설비 및 자동화 시스템 영업 경력 3년 이상\n\n## 우대 사항\n  - 물류 자동화(SI) 수주 영업 경험자\n  - 제안서 작성 및 프레젠테이션 능력 우수자"
+    "content_path": "content/74fda6ffecac7a5ed1858573.md",
+    "content_version": "bf4cc43cf61d374b"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_제어기RTOS",
@@ -1742,7 +1832,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 제어기 RTOS\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 제어기용 실시간 운영체제(RTOS, Linux Xenomai, FreeRTOS 등) 포팅 및 최적화\n  - 커널 드라이버 및 Low-level HAL 개발\n  - 제어 주기에 따른 실시간성(Determinism) 검증 및 성능 튜닝\n  - 시스템 아키텍처 설계 및 BSP(Board Support Package) 개발\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, 전자공학, 제어공학 등 관련 전공)\n  - C/C++ 언어 숙련자\n  - RTOS 또는 Embedded Linux 기반 개발 경력 3년 이상\n\n## 우대 사항\n  - Xenomai, PREEMPT_RT 기반 실시간 제어 시스템 개발 경험자\n  - ARM/x86 아키텍처 및 펌웨어 개발 경험자"
+    "content_path": "content/ce5071ed199e9ba64b48f981.md",
+    "content_version": "61223a8d2853b862"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_제어기S_W품질기획",
@@ -1763,7 +1854,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 제어기 S/W품질 기획\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 제어기 소프트웨어 품질 보증(QA) 프로세스 수립 및 관리\n  - S/W 정적/동적 검증 계획 수립, 필드 버그 트래킹 및 이슈 관리\n  - 소프트웨어 형상 관리 및 릴리즈 승인 절차 운영\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, SW 관련 전공)\n  - Embedded S/W QA 또는 SW 품질 관리 경력 3년 이상\n\n## 우대 사항\n  - ISO 26262, ASPICE 등 SW 품질 프로세스 경험자\n  - SW 테스팅 자격증(ISTQB 등) 소지자"
+    "content_path": "content/d99d70250f709b6a5c3444a8.md",
+    "content_version": "e52cb751f6db4df8"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_제어기_외주배선납기관리",
@@ -1783,7 +1875,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 제어기/외주배선 납기관리\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (본사)\n\n## 수행 업무\n  - 로봇 제어기 및 하네스/배선 외주 임가공 협력사 관리 및 납기 모니터링\n  - 외주 자재 수급 이슈 대응 및 일자별 생산 스케줄 관리\n  - 외주 단가 검토 및 협력사 공정 진척율 확인\n\n## 지원 자격\n  - 학사 이상 (전공 무관)\n  - 제조업 외주 관리, 자재 관리, SCM 경력 3년 이상\n\n## 우대 사항\n  - 전장/하네스 외주 제조 관리 경험자\n  - ERP 시스템 활용 능력 보유자"
+    "content_path": "content/46bbf952a46ce76a8c6cb32c.md",
+    "content_version": "2a6fa9cd530cf34d"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_제어기인터페이스S_W",
@@ -1802,7 +1895,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 제어기 인터페이스 S/W\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n  - 로봇 제어기와 외부 장비(티칭펜던트, PLC, 비전, 상위 MES 등) 간 통신 S/W 개발\n  - 필드버스(EtherNet/IP, PROFINET, Modbus 등) 프로토콜 개발 및 연동\n  - 제어기 API 및 SDK 개발 및 유지보수\n\n## 지원 자격\n  - 학사 이상 (컴퓨터공학, 전자/제어공학 등 관련 전공)\n  - C/C++, C# 프로그램 개발 경력 3년 이상\n  - 산업용 통신 프로토콜에 대한 이해 및 개발 경험자\n\n## 우대 사항\n  - OPC UA, ROS/ROS2 통신 연동 경험자\n  - 로봇 제어기 SDK/API 설계 경험자"
+    "content_path": "content/1a634f72f689b81717d8b408.md",
+    "content_version": "116f5e07ee08a41e"
   },
   {
     "id": "hd현대로보틱스_HD현대_2603_하네스설계",
@@ -1821,7 +1915,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 하네스 설계\n\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC) / 대구 (본사)\n\n## 수행 업무\n  - 로봇 내부 및 제어기 간 연결 케이블/하네스 설계 및 부품(커넥터, 케이블) 선정\n  - 케이블 가동 내구성(굴곡, 비틀림) 검토 및 시험 평가\n  - 전장 도면 및 케이블 결선도 작성\n  - 하네스 양산 제조사 대응 및 신뢰성 검증\n\n## 지원 자격\n  - 학사 이상 (전기전자공학, 기계공학 등 관련 전공)\n  - 전장/하네스 설계 경력 3년 이상\n  - 커넥터, 케이블 사양 지식 보유자\n\n## 우대 사항\n  - 로봇 관절 통과 케이블 하네스 설계 및 내구성 평가 경험자\n  - EPLAN 등 전장 CAD 활용 가능자\n\n## 2. 소프트웨어 / 모션제어 / AI / OLP"
+    "content_path": "content/0b87cae95a0ce0b59907e127.md",
+    "content_version": "259efe3336685822"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_AI기반모션생성알고리듬_2_",
@@ -1841,7 +1936,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI기반 모션생성 알고리듬(2)\n\n- **소속:** 지능화소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- AI기반 로봇 모션생성 및 제어 알고리즘 개발\n  - AI/딥러닝 기반의 로봇 모션 생성 기술 및 지능형 제어 알고리즘 개발\n  - 개발된 AI 모델의 로봇 시스템 통합(Integration) 및 실물 로봇 대상 검증/최적화\n\n## 우대 사항 / 지원 자격\n- 유관 경력 2년 이상(석사 2년, 박사 8년 인정)\n- 다관절 로봇 제어 및 motion 생성 알고리즘 개발 경력 보유\n- C++/Python/ROS2 프로그래밍 언어 활용능력\n- NVIDIA Isaac 활용 로봇 강화학습 개발 경력 보유"
+    "content_path": "content/27a4ce4af2ec9c8afffb7ce9.md",
+    "content_version": "4720f6897e6cc3e1"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_AI기반모션생성알고리듬",
@@ -1861,7 +1957,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI기반 모션생성 알고리듬\n\n- **소속:** 지능화소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- AI기반 로봇 모션생성 및 제어 알고리즘 개발\n  - AI/딥러닝 기반의 로봇 모션 생성 기술 및 지능형 제어 알고리즘 개발\n  - 다중 로봇 환경의 효율적 태스크 플래닝(Task Planning) 및 자원 할당 기술 개발\n  - 개발된 AI 모델의 로봇 시스템 통합(Integration) 및 실물 로봇 대상 검증/최적화\n\n## 우대 사항 / 지원 자격\n- AI기반 로봇 응용 기능 적용 상품화 개발 경험\n- 이기종 센서(LiDAR, 카메라 등) 기반 주변 환경 인식 기술 개발 경험"
+    "content_path": "content/b62daf337515849582e059e0.md",
+    "content_version": "0dda2cf186fd4ea0"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_AM영업",
@@ -1880,7 +1977,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 영업 (AM영업팀)\n\n- **소속:** AM영업팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍)\n\n## 수행 업무\n- FPD로봇 부품 및 AS 기술 영업\n- 판매아이템 기획 및 개발\n- 고객 및 Service BOM 관리\n- Clean Room 출입가능자 (필수)\n\n## 우대 사항 / 지원 자격\n- 이공계열 전공\n- 로봇 또는 디스플레이 산업 직무 경험자\n- 컴퓨터 활용 능력 보유자(MS Office등)"
+    "content_path": "content/c9ac4143554b76fbf7d1d779.md",
+    "content_version": "8eb8382d41e02009"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_CAD기반OLPSW개발",
@@ -1899,7 +1997,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# CAD기반 OLP SW 개발\n\n- **소속:** 솔루션신사업팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- CAD 기반 로봇 OLP/시뮬레이션/운영 프로그램 설계 및 개발\n- CAD/3D모델 Data Import, Geometry 분석, 좌표계/경로/간섭처리기능 개발\n- 로봇 작업경로 생성, 자세 최적화, Cycle time 검토 및 프로그램 변환, Post-processing\n- 비전데이터, 스캔데이터, 공정데이터와 연계한 로봇 모션 생성 및 보정\n- 자동화 시스템 운영 SW, 로봇 OLP, 비전시스템 연동 모듈 개발\n- 고객 요구사항 기술검토, 제안서, 개발계획, 설계서, 결과보고서 작성\n- 현장 적용, 로봇 티칭/시운전 지원 및 사용자 피드백 반영\n\n## 우대 사항 / 지원 자격\n- 로봇공학, 공장자동화, 컴퓨터공학, 전산공학 전공자\n- 로봇 OLP, Digital Twin, Process Simulate, ROBCAD 등 사용/개발 경험\n- CAD/CAM/CAE, OpenCascade, Parasolid, ACIS 등 3D SW 경험\n- 로봇 자동화 시스템 SW 개발 및 시운전 경험"
+    "content_path": "content/2ca4eaca3e6a9cba81a98dae.md",
+    "content_version": "229d29600828d840"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_H_W개발",
@@ -1918,7 +2017,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# H/W개발\n\n- **소속:** 제어플랫폼개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 로봇 제어기 하드웨어 설계\n  - 아날로그 및 디지털 회로 설계, 제어기 구조 설계\n  - 신뢰성 확보 및 규격 인증 / 안전 기능\n- 협동로봇 전장 HW 설계\n  - 각종 센서 인터페이스 보드 / IO, 통신 보드\n\n## 우대 사항 / 지원 자격\n- 하드웨어 설계 분야 3년 이상의 경력 (필수)\n  - 회로 설계 및 시뮬레이션 툴 사용 가능자 (Orcad, Altium, Matlab 등)\n  - Digital/Analog 회로 설계 가능자, 회로 시뮬레이션 가능자\n- 로봇제어기 전장 보드 설계 경험자\n- 협동로봇 전장 보드 설계 경험자"
+    "content_path": "content/1c2be5af92f38dc110c8147e.md",
+    "content_version": "f090a03753040cc4"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_PM_프로젝트매니지먼트_",
@@ -1937,7 +2037,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# PM(프로젝트매니지먼트)\n\n- **소속:** 프로젝트매니지먼트 파트\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 월간 S&OP 운영 및 판매 Forecast 분석\n- 판매 Forecast 기반 생산/출하/재고 계획 수립 및 관리\n- 생산/출하 현황 관리 및 최적화\n- SCM KPI 관리 및 프로세스 관리\n- 매출 및 공헌이익 추정 및 실적 관리\n- 전사 수요/공급 계획 수립 및 운영\n- 적정재고 수준 유지 및 납기 경쟁력 확보\n- 영업/생산/구매/법인 간 SCM 운영 체계 구축\n- 프로젝트 별 공헌이익 추정 및 실적 분석\n\n## 우대 사항 / 지원 자격\n- 학사 이상 (산업공학, 경영학, 물류/SCM관련 전공 우대)\n- SCM, 생산관리, 수요예측, 영업기획 등 관련 경력 3년 이상\n- ERP(SAP등) 및 Excel 활용 역량 보유\n- 제조업 S&OP 운영 및 공급망 관리 경험자\n- SAP PP/MM/SD 모듈 활용 경험자\n- 데이터 분석 Tool 활용 가능자"
+    "content_path": "content/a9e40be627fa5bd1ea8ef65f.md",
+    "content_version": "b7ef815bca05222a"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_ProductDesign",
@@ -1956,7 +2057,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Product Design\n\n- **소속:** 지능화소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 로봇 S/W UX 화면 설계(WireFrame) 및 UI 디자인\n  - OLP (Offline Programming), 로봇 비전, Teach Pendant 등 응용 S/W의 UX 및 UI 디자인 개발\n\n## 우대 사항 / 지원 자격\n- 유관 경력 3년 이상(석사 2년, 박사 8년 인정) (필수)\n- Figma, ProtoPie 등 UI 디자인 및 프로토타입을 위한 툴 사용 가능자 (필수)\n- 시각디자인, 산업디자인 등 디자인 관련 학과 전공자 및 유사업무 경력 보유 (필수)\n- 모바일/웹 환경에 대한 디자인 실무 경험 보유 (필수)\n- 로봇 등 제조 시스템 인터페이스 설계 및 디자인 경험"
+    "content_path": "content/e753dad3f3bf5397d3cb5cc8.md",
+    "content_version": "1afd0bd3de9c81e6"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_개발구매",
@@ -1975,7 +2077,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 개발구매\n\n- **소속:** 통합구매팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍) / 분당 (GRC)\n\n## 수행 업무\n- 산업용 로봇 및 자동화 장비용 전장품 개발 구매 전반\n  - 국내·해외 신규 협력사 발굴 및 평가\n  - 공급사 육성 및 공급망 리스크 관리\n  - BOM 기반 Should Cost 분석 및 원가혁신 추진\n- 신제품 개발 단계 구매전략 수립 및 공급망 구축\n- 국내·해외 신규 공급사 발굴 및 협력사 개발\n\n## 우대 사항 / 지원 자격\n- 글로벌 소싱 및 해외 공급사 관리 경험자\n- PCB/SMT 공정, 케이블 하네스 등 제조 프로세스 지식\n- 중국어 비즈니스 커뮤니케이션 가능자 및 BCC 소싱 경험"
+    "content_path": "content/e83cc06db5540b80ccec7bcc.md",
+    "content_version": "3209f8ff27a89dac"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_경영기획",
@@ -1994,7 +2097,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 경영기획\n\n- **소속:** 경영지원팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍) / 분당 (GRC)\n\n## 수행 업무\n- 중장기 경영 전략 수립 및 실행 관리\n- KPI 수립 및 성과 관리\n- 경영 분석 및 의사결정 지원\n- 유관 조직 협업 및 운영 지원\n\n## 우대 사항 / 지원 자격\n- 이공계열 전공\n- 제조업 또는 기술 기반 기업 기획 업무를 수행한 경험\n- CEO 및 최고경영진 대상 보고자료 작성 경험"
+    "content_path": "content/dda1cfe4705f51c82b2525ec.md",
+    "content_version": "d62c1e89bba9a86e"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_공정SW",
@@ -2013,7 +2117,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 공정SW\n\n- **소속:** 솔루션엔지니어링팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍) / 분당 (GRC)\n\n## 수행 업무\n- 스마트팩토리 시스템 설계 및 구축\n  - 라인/셀 공정 운영 시스템 설계/개발\n  - 생산 공정 간 통합 제어 알고리즘 설계\n  - 실시간 모니터링 시스템 개발\n  - 데이터 분석 및 시각화 솔루션 개발\n- MES(제조실행시스템)/ACS(AMR Control System) WCS(Warehouse Control System) 구축 및 운영\n- 제조 현장 데이터 수집 및 분석 시스템 구축\n  - IoT 디바이스 연동 및 통합 관리 시스템 개발\n\n## 우대 사항 / 지원 자격\n- 전장설계 및 전장도면 검토 가능자 및 로봇 / PLC 제어 및 시운전 가능자\n- 시스템 제어로직 설계 유경험자"
+    "content_path": "content/0a084a7ca1d832eb9af62906.md",
+    "content_version": "ba080da6aacd27d4"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_공통SW",
@@ -2032,7 +2137,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 공통SW\n\n- **소속:** 로봇소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 교시, 설정, 모니터링, 통신 및 각종 편의 기능 개발\n- 교시 수행 엔진 (플레이백) 유지 보수 및 개발\n- 응용 기능 관련 프레임워크 SW 및 UI 개발\n\n## 우대 사항 / 지원 자격\n- Python, JS 등 다양한 언어 경험자\n- 유관 실무 경력 2년 이상"
+    "content_path": "content/34e091612dd8d571671808bd.md",
+    "content_version": "184c857894f6086e"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_국책과제기획_관리",
@@ -2051,7 +2157,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 국책과제 기획/관리\n\n- **소속:** 용접솔루션개발팀\n- **구분:** 경력\n- **학력:** 석사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 솔루션 기술 기획 / 정부 과제 발굴 및 기획\n- 국책과제 제안 및 수주 지원\n- 정부 R&D 과제 수행 및 프로젝트 관리\n- 연구비 및 행정 관리\n\n## 우대 사항 / 지원 자격\n- 공학·기술경영·경영 등 박사 학위 소지자\n- 로봇·AI·스마트팩토리·자동화·제조 분야 정부 R&D 과제 기획 및 수행 경험\n- 대형 국책과제 주관기관 PM 또는 실무 책임자 경험\n- 산업통상자원부, 중소벤처기업부 등 정부 R&D 과제 수행 경험"
+    "content_path": "content/41f310b83cdef2a4a16ecb8a.md",
+    "content_version": "76be5c240a3f70d9"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_글로벌파트너십발굴",
@@ -2070,7 +2177,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 글로벌 파트너십 발굴\n\n- **소속:** 신사업팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 국내외 파트너 후보군 발굴 및 초기 파트너십 구축\n- PoC 기획 및 초기 사업 / 협력 모델 제안\n- 신규 BM 점검\n  - 타겟 고객 정의, 수익 모델, GTM 전략 등 (시나리오별 사업화 전략 설계)\n\n## 우대 사항 / 지원 자격\n- 석사 이상 학력 소지자(석사 2년, 박사 8년 경력 인정)\n- 해외 사업/글로벌 BD 경험 및 JV 또는 전략적 제휴 추진 경험\n- 로봇/자동화 산업 네트워크\n- 해외대학 출신 및 글로벌 회사 근무 경험"
+    "content_path": "content/d657a798c471314364d79fd0.md",
+    "content_version": "33371f3c219cccb7"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_기구설계",
@@ -2089,7 +2197,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구설계\n\n- **소속:** 기구양산설계팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍)\n\n## 수행 업무\n- 요소 설계 및 모델링\n- 양산 설계 (품질/원가 개선)\n- 시험 평가 (성능, 내구, 안전인증)\n- 제작 표준, 기술문서 작성/관리\n\n## 우대 사항 / 지원 자격\n- 요소설계, 모델링 및 해석 등 로봇/기계 제품 설계 및 개발 경험\n- NX, Solidworks, Autocad 활용 능력"
+    "content_path": "content/8d925433259acb78563c0834.md",
+    "content_version": "92e8f24eff7c7a06"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_로봇VLA_RFM기술개발",
@@ -2108,7 +2217,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 VLA / RFM 기술개발\n\n- **소속:** 지능화소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 공정 도메인 특화 VLA, RFM 기술개발\n  - 신규 로봇 파운데이션 모델(RFM) 및 VLA 모델 학습\n  - 멀티모달 데이터(Web Data), 로봇 데이터(Sim/Real) 구축 및 데이터 증강(Data Augmentation)\n  - 시뮬레이션 환경(Isaac Sim, MuJoCo 등)과 실세계 로그를 통한 Sim-to-Real 및 데이터 합성(Data Synthesis)\n\n## 우대 사항 / 지원 자격\n- 유관 경력 5년 이상(석사 2년, 박사 8년 인정) (필수)\n- C++/Python/ROS2 프로그래밍 언어 활용능력 (필수)\n- NVIDIA Isaac(Isaac Sim/Gym/Lab 등) 환경을 활용한 로봇 강화학습(RL) 개발 및 시뮬레이션 경험 보유 (필수)\n- 멀티모달(Vision-Language) 데이터 또는 로봇 행동(Action) 데이터 기반의 VLA / RFM 데이터셋 구축 및 모델 학습 보유 (필수)\n- 생성형 AI 모델 기반의 가상 데이터 합성(Synthetic Data Generation) 기술 개발 경험\n- 모방학습 및 강화학습 기반의 로봇 제어 알고리즘 개발 경험\n- PyTorch 기반의 대규모 분산 학습 인프라(Multi-GPU) 운영 및 최적화 경험"
+    "content_path": "content/ad20edc38221f206f907478f.md",
+    "content_version": "c85972001eb30c77"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_로봇비전알고리듬",
@@ -2127,7 +2237,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇비전 알고리듬\n\n- **소속:** 지능화소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 3차원 영상 처리 알고리듬 개발\n  - 3차원 센서 I/F 및 점군데이터 처리 기술 개발\n  - Multi-View Geometry 기반 3차원 형상 복원\n  - 카메라 캘리브레이션 기술 개발\n  - 3D 객체 분할/검출(Object Segmentation, Detection) 기술 개발\n  - 객체 추적(Object Tracking) 기술 개발\n  - 3차원 공간 인식 및 자세 추정(6D Pose Estimation) 기술 개발\n  - RGB, Depth, Point Cloud 기반 비전 검사 알고리즘 개발\n- 딥러닝 기반 비전 알고리듬 개발\n  - Object Detection, Segmentation, Pose Estimation 모델 개발\n  - 비전 기반 결함 검출 및 이상 탐지(Anomaly Detection) 모델 개발\n  - 데이터셋 구축, 라벨링 및 데이터 증강 기술 개발\n  - 시스템 통합(Integration) 및 실 환경 대상 검증/최적화\n\n## 우대 사항 / 지원 자격\n- 유관 경력 5년 이상(석사 2년, 박사 8년 인정) (필수)\n- C++/C#/Python 프로그래밍 언어 활용 능력 (필수)\n- ROS, 딥러닝 및 강화학습 개발 경험 보유 (필수)\n- OpenCV, PCL, Open3D 등 활용 가능자 (필수)\n- 산업용 로봇 비전 적용 상품화 개발 경험자"
+    "content_path": "content/beacadf3c59a722586bd45a2.md",
+    "content_version": "3640d0b2f8fa9d4c"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_로봇안전기능개발",
@@ -2146,7 +2257,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 안전기능 개발\n\n- **소속:** 제어플랫폼개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 로봇 안전기능 알고리즘 개발\n  - 기능 안전 SW 개발 및 기구학 / 동역학 기반 로봇 모니터링 개발\n  - 3D 형상 충돌 알고리즘 개발\n  - 로봇 안전 기능 시뮬레이션 개발 및 안전 인증\n- 로봇 안전 응용기능 개발\n\n## 우대 사항 / 지원 자격\n- 이공계열 전공 (필수)\n- 유관 분야 3년 이상의 경력 (필수)\n  - 다관절 로봇 제어 알고리즘에 대한 이해\n  - C/C++ 프로그래밍 언어 활용능력\n- 다관절로봇 제어 알고리즘 개발 경험\n- 로봇 안전 기능 개발 및 인증 프로세스 경험"
+    "content_path": "content/5eec38d3d2ee9c2356c9d8cc.md",
+    "content_version": "017069c505055b2d"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_로봇핸드",
@@ -2165,7 +2277,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 핸드\n\n- **소속:** 연구기획파트\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 인간형 4~5지 로봇핸드 개발\n  - 로봇 핸드 기구 슬림화 및 다자유도 관절 설계\n  - 손가락 굵기 일체형 스마트 액추에이터 설계\n  - Dexterous manipulation 및 파지 제어를 위한 센싱부 설계\n\n## 우대 사항 / 지원 자격\n- Hand manipulation 제어 경험\n- ROS2 기반 로봇 소프트웨어 개발 경험\n- 다축 택타일/FT 센서 데이터 프로세싱 경험\n- EtherCAT 등 통신 프로토콜에 대한 이해"
+    "content_path": "content/9d529d563ec97df0d743b55a.md",
+    "content_version": "334ee3cf998932d5"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_물류자동화컨설팅",
@@ -2184,7 +2297,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 물류자동화 컨설팅\n\n- **소속:** 솔루션엔지니어링팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍) / 분당 (GRC)\n\n## 수행 업무\n- 물류 전략 및 네트워크 최적화\n- 물류센터 운영 프로세스 진단 및 설계\n- 물류 IT 시스템 구축 컨설팅\n- 데이터 분석 및 지표(KPI) 정의\n\n## 우대 사항 / 지원 자격\n- 물류시뮬레이션(Visual Component, Automod 등) 가능자\n- 물류 네트워크 최적화 툴(AnyLogistix 등) 가능자\n- AutoCAD 등 도면 설계/검토 가능자"
+    "content_path": "content/65444e335560c2a4f321f035.md",
+    "content_version": "a9f4e1d2a7e547b8"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_비전SW개발",
@@ -2204,7 +2318,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 비전 SW 개발\n\n- **소속:** 솔루션신사업팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 2D/3D Vision 기반 로봇 가이던스, 검사, 위치보정 SW 설계 및 개발\n- 카메라, 조명, 렌즈, 3D 센서, 프레임그래버 등 비전 HW 선정/검토 및 인터페이스 개발\n- 영상 전처리, 특징 추출, 결함/품질 판정, 물체 인식 및 좌표계 캘리브레이션 알고리듬 개발\n- 비전 결과를 PLC/로봇/통합제어 SW와 연동하여 자동화 공정에 적용\n- 비전 검사 레시피, 파라미터 관리, 로그/이미지 저장 및 추적성 기능 구현\n- 고객 샘플 테스트, PoC, 성능검증, 현장 튜닝 및 안정화 지원\n- 비전 관련 제안서, 시험성적서, 사양서, 운영 매뉴얼 작성\n\n## 우대 사항 / 지원 자격\n- 3D Vision, 딥러닝 기반 결함검사/객체인식/세그멘테이션 경험\n- Cognex, Keyence, SICK, Basler, Teledyne 등 비전 솔루션 경험\n- 로봇 비전 가이던스, Bin Picking, 용접/절단/표면검사 적용 경험\n- AI 모델 학습/배포, GPU 환경, PyTorch/TensorFlow 활용 경험\n- 자동화 장비 시운전 및 양산 안정화 경험"
+    "content_path": "content/3cdbd439463472d7b88ae0a8.md",
+    "content_version": "78dc8e5acce407d5"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_산업용로봇영업",
@@ -2223,7 +2338,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 산업용로봇 영업\n\n- **소속:** 로봇영업1팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍)\n\n## 수행 업무\n- 주요 고객사 KAM 영업 (Key Account Manager)\n- 자동차 OEM 및 부품사 신규 고객 발굴\n\n## 우대 사항 / 지원 자격\n- 산업용로봇 산업 내 근무 경험자 (한국화낙, 가와사키, OTC, 나치 등)\n- 자동차 OEM 및 부품사 기술 영업 경험자"
+    "content_path": "content/b1bb7f7453b6424967e8543f.md",
+    "content_version": "7c42066307b3acca"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_상품기획",
@@ -2242,7 +2358,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 상품기획\n\n- **소속:** 마케팅팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 시장 조사, VOC 수집/관리 및 상품기획 (산업용/협동 로봇, 제어기 및 관련 소프트웨어, 자동화 솔루션 외)\n- 제품/기술/솔루션 Sales Material 기획 및 제작\n- 제품 라인업 중장기 로드맵 수립 및 라이프사이클 관리\n\n## 우대 사항 / 지원 자격\n- 로봇/자동화 산업 관련 재직 및 채용 직무 관련 업무 경험 8년 이상\n- 산업용 로봇 외 산업 자동화 관련 상품기획, 제품기획, 기술서비스, 자동화 라인 설계/기획 경험\n- 글로벌 산업용 로봇 제조/판매사 근무 경험\n- 국내 SI(자동화 기업) 및 자동차, 전기전자 외 전방산업 기업 근무경험"
+    "content_path": "content/adfa32e62f02dc0a28c8b65c.md",
+    "content_version": "357a880704cf2671"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_생산관리",
@@ -2260,7 +2377,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 생산관리\n\n- **소속:** 로봇생산팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍)\n\n## 수행 업무\n- FPD로봇 생산 공정 관리 (수주 산업)\n  - 사내/사외 공정 계획 수립/실적 확인\n  - 자재 납기 관리 (모듈품 포함)\n  - SAP ERP 생산오더/백로그 관리\n  - 제조 품질 개선, 제조 원가 절감, 안전 개선, 생산성 향상 활동 수행\n\n## 우대 사항 / 지원 자격\n- 이공계열 전공\n- 기계, 전자/전기 전공자 및 FPD 로봇 생산관리 경험자\n- 수주산업 생산관리 최소 5년 이상의 경력(필수)\n  - (출장 다수) 기계분야 모듈품 납기 관리 경력 (필수)\n  - 수주산업 특성에 따라 공정 계획 수립/수정 가능 한 생산관리 경력 (필수)"
+    "content_path": "content/43026de48575387de489bfaf.md",
+    "content_version": "a86683afdc5bd369"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_생산기술",
@@ -2279,7 +2397,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 생산기술\n\n- **소속:** 로봇생산팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍)\n\n## 수행 업무\n- 공정 설계, 작업 표준화 (Control Plan 작성)\n- 생산에 필요한 설비, 치공구, 검사장비, 자동화 장비 검토 및 개발\n- 생산성 개선, 품질 안정화, 원가절감, 안전 개선\n\n## 우대 사항 / 지원 자격\n- 기계, 전자/전기 전공자 및 생산기술 기획 경험자"
+    "content_path": "content/ea15ae8be2b23d672e8dd028.md",
+    "content_version": "6d5dc9c0b1c1831a"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_생성형AI기반로봇응용SW기술",
@@ -2299,7 +2418,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 생성형 AI기반 로봇응용 SW기술\n\n- **소속:** 지능화소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 생성형 AI기반 로봇 제어 코드 생성 기술개발\n  - 생성형 AI 기반 로봇 제어 알고리즘 개발\n  - 코드 자동 생성 및 변환 서비스 설계 및 구현\n- 생성형 AI기반 사용자 의도추론 및 시퀀스 분리 기술 개발\n  - 비정형 자연어 명령에 대한 의도분석 및 단계별 하위 작업 분할 알고리즘 개발\n  - 복잡한 다단계 임무를 수행하는 로봇 Agent OS 아키텍처 설계 및 개발\n  - 상황 변화에 대응하는 동적 경로 및 행동 재계획 시스템 구축\n\n## 우대 사항 / 지원 자격\n- C++/Python/ROS2 프로그래밍 언어 활용능력 (필수)\n- LLM(대형언어모델) 및 NLP(자연어처리) 모델 기반 로봇 응용 SW개발 프로젝트 수행 경험 (필수)\n- LangChain, LlamaIndex 등을 활용한 AI Agent 설계/개발 경험 (필수)\n- ROS / ROS2 환경에서의 로봇 제어 또는 어플리케이션 개발 경험 (필수)\n- 생성형 AI(LLM, VLA) 기반 어플리케이션 개발 경험\n- 생성형 AI 기반 로봇 제어 및 스크립트 언어 자동생성 프로젝트 경험\n- 로봇 시뮬레이터(Isaac Sim, PyBullet, MuJoCo 등) 활용 능숙자\n- 임베디드 타겟 대상 AI 모델 경량화 및 최적화 경험"
+    "content_path": "content/90c3df9062ef5972f3a4a3b2.md",
+    "content_version": "fcdc561f5998bc83"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_솔루션_기구설계PM",
@@ -2319,7 +2439,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구설계 PM (솔루션엔지니어링)\n\n- **소속:** 솔루션엔지니어링팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍) / 분당 (GRC)\n\n## 수행 업무\n- 고객사양 기술검토 및 제안서 작성\n  - 자동화 시스템 공정 컨셉 및 Layout 설계\n  - BOM 작성 및 비용 산출\n  - 표준화 설비 최적 설계 수행\n  - 로봇 관련 응용 기구물(툴 등) 설계 및 제작\n  - 시뮬레이션 등 응용 SW를 활용한 설계 검증\n- 구매/제작 검수 및 납기 관리\n  - 예산/일정/인원 관리\n  - 품질/사양 검수\n\n## 우대 사항 / 지원 자격\n- AutoCad/NX/Solid Works 활용 가능자 우대\n- HRSpace 또는 Visual Component 등을 활용한 시뮬레이션 가능자\n- 정적/동적 해석 및 관련 툴 사용 및 산업용/협동 로봇 적용설계 경험"
+    "content_path": "content/f17793ffa574f0a7c0b235c2.md",
+    "content_version": "4612a8df95264dcc"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_솔루션_제어설계",
@@ -2338,7 +2459,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 제어설계 (솔루션엔지니어링)\n\n- **소속:** 솔루션엔지니어링팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍) / 분당 (GRC)\n\n## 수행 업무\n- 자동화시스템 아키텍쳐 / 제어로직 설계\n- 로봇시스템 제어 응용 (비전 등 연동 운영)\n- 제어 관련 고객사양 기술검토 및 제안서 작성 (직접비, BOM, 제작사양서 등)\n- PLC 프로그램 컨셉 검토 / 설계\n- 구매/제작 검수 및 납기 관리 (예산/일정/인원 관리, 품질/사양 검수)\n\n## 우대 사항 / 지원 자격\n- 전장설계 및 전장도면 검토 및 로봇 / PLC 제어 및 시운전 가능자\n- 시스템 제어로직 설계 유경험자"
+    "content_path": "content/6efea5371775903ad7b1af56.md",
+    "content_version": "a2faaa35e1f9dd71"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_신사업BM_사업모델_",
@@ -2357,7 +2479,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 신사업 BM(사업모델)\n\n- **소속:** 신사업팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 제조물류 자동화 사업화 전략 수립\n  - 시장성·사업성 검토 및 사업모델 기획\n  - 사업 전략 구체화 및 실행 로드맵 수립\n  - 유관 부문(기술, 영업, 투자) 협업 체계 구축 및 추진\n  - 신규 법인 설립 전 사업 운영 모델 및 성장 전략 수립\n- 사업 수행 신규 법인 설립 및 사업 전략 총괄 수행\n  - 신규 법인 중장기 사업 계획 수립 및 실행 관리\n  - 신규 고객·파트너 발굴 및 사업 확장 추진\n  - 사업 성과 관리 및 조직 운영 체계 구축\n\n## 우대 사항 / 지원 자격\n- 유관 경력 10년 이상 (필수)\n- 제조·물류 자동화 또는 산업재 분야 사업 경험 보유 (필수)\n- 신규 사업 전략 수행 및 사업 실행 경험 및 조직 또는 프로젝트 리딩 경험 (필수)\n- 제조·물류 자동화 산업 전문성 보유자\n- CEO/사업총괄/전략 책임자 직속 업무 수행 경험\n- 신규 사업 런칭 경험 및 법인 설립 및 이사회 운영/경영관리 경험\n※ 신규 법인 설립 이후 신규 법인 주소지 근무 (신규 법인 사업전략 총괄 역할 수행)"
+    "content_path": "content/14afc61a1205e42a82196a8d.md",
+    "content_version": "35d15bb14f8a221e"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_신사업전략수립",
@@ -2376,7 +2499,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 신사업전략수립\n\n- **소속:** 신사업팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 당사 미래 사업 포트폴리오 전략 수립\n  - 중장기 청사진 및 운영 방향성 설계 및 핵심 성장축 정의\n- 주요 사업-R&D 개발로드맵 간 정합성 점검\n- 미래 산업 센싱/발굴 (핵심 신기술 및 산업 트렌드 파악)\n- 초기 사업 기회 도출, 협력/투자 Long List 구축\n\n## 우대 사항 / 지원 자격\n- 석사 이상 학력 소지자 (석사 2년, 박사 8년 경력 인정)\n- CTO 조직 내 기술기획 및 컨설팅 또는 중장기 전략 프로젝트 경험\n- 해외대학 출신 및 글로벌 회사 근무 경험"
+    "content_path": "content/fb890f6cc78ea59ce412041d.md",
+    "content_version": "920f9a3b12179dd2"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_안전보건관리",
@@ -2395,7 +2519,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 안전보건관리\n\n- **소속:** 안전환경팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 안전/보건업무\n- 현장안전관리\n  - GRC, 용인/남사신뢰성센터 현장 안전점검/감독\n  - 사외 고객사 현장 안전점검/지원\n\n## 우대 사항 / 지원 자격\n- 소방·위험물 관련 자격증 소지자\n- 제조업 안전관리 경험(인턴/현장실습 포함) 및 전기·기계·안전 관련 자격증"
+    "content_path": "content/3e885817e52a27bda5715290.md",
+    "content_version": "76b4ae2173d62529"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_양팔로봇모빌리티시스템",
@@ -2415,7 +2540,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 양팔 로봇 모빌리티시스템\n\n- **소속:** 연구기획파트\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 양팔로봇(휴머노이드)향 모바일 시스템 개발\n  - 충전/배터리/구동부 사양 개발\n  - 모바일 전장 시스템 Arch. 개발\n  - 기능 안전 프로세스 수행 (ISO10218-2)\n\n## 우대 사항 / 지원 자격\n- 산업용 AMR 개발 경험\n- 모바일 매니퓰레이터 개발 경험\n- 기능안전 개발 경험"
+    "content_path": "content/a7b50ea94ec580fce7c10286.md",
+    "content_version": "7bc0065d6557bd53"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_양팔로봇모션제어기술",
@@ -2434,7 +2560,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 양팔 로봇 모션제어기술\n\n- **소속:** 연구기획파트\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 양팔로봇(휴머노이드) Dual Arm 제어 알고리즘 개발\n  - 다자유도 로봇 매니퓰레이터 모션 제어\n  - Dual-arm task 경로 생성 및 최적화\n  - Xenomai RTOS 기반 Application 개발\n\n## 우대 사항 / 지원 자격\n- 로봇 시스템 HW 설계 경력자\n- EtherCAT synchronous 제어 경험자\n- 다관절 동역학 simulation (MATLAB, RecurDyn, RoboticsLab 등) 경력자"
+    "content_path": "content/8ac1a769aa2b825532866bc0.md",
+    "content_version": "9e08ac09da747b56"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_양팔로봇액추에이터",
@@ -2453,7 +2580,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 양팔 로봇 액추에이터\n\n- **소속:** 연구기획파트\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 양팔로봇(휴머노이드) 스마트 액추에이터 개발\n  - 프레임리스 모터 활용 QDD / DD 설계\n  - 하모닉/유성기어 감속기 적층 설계\n  - 듀얼 엔코더 및 센싱부 통합 스마트 액추에이터 패키징 설계\n\n## 우대 사항 / 지원 자격\n- 가공 공차 (GD&T) 설계 경험\n- 기어 치형/싸이클로이드 등 정밀 기계 요소품 설계 경험\n- 모터 PID 제어 및 다축 로봇 제어 알고리즘 설계 경험\n- EtherCAT 등 통신 프로토콜에 대한 이해"
+    "content_path": "content/144271e9aa63b178090e2806.md",
+    "content_version": "82dedd49964b3bb5"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_양팔로봇전장시스템",
@@ -2472,7 +2600,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 양팔 로봇 전장시스템\n\n- **소속:** 연구기획파트\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 양팔로봇(휴머노이드)향 전장 보드 펌웨어 개발\n  - 48V/24V 전원 제어 및 모니터링 설계\n  - 센서 인터페이스 설계\n  - RS485/UART/SPI 통신 프로토콜 설계\n\n## 우대 사항 / 지원 자격\n- 로봇 전장 시스템 설계 경험\n- ST/TI/Renesas MCU 개발 경험\n- Safety function 사양 개발 경험\n- EtherCAT/SPI/UART 통신 프로토콜에 대한 이해"
+    "content_path": "content/700a81fdfcc971698bcdfa60.md",
+    "content_version": "4b4f21107bf8e360"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_용접_SW개발",
@@ -2491,7 +2620,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# SW개발 (용접솔루션)\n\n- **소속:** 용접솔루션개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 지능형 로봇 자동화 시스템 SW 설계 및 개발\n- 로봇 경로 생성 및 모션 제어 SW 개발\n- 3D 비전 및 로봇 인지 시스템 개발\n- 로봇 시스템 통합 및 플랫폼 개발\n\n## 우대 사항 / 지원 자격\n- 조선 자동화 시스템 개발 경험\n- 산업용 로봇 API/SDK 기반 제어 SW 개발 경험\n- 자율 로봇 프로그래밍 또는 Robot Path Planning 시스템 개발 경험\n- ROS/ROS 2, MoveIt 등 로봇 SW Framework 활용 경험\n- OpenCV, PCL, Open3D 등 Computer Vision 활용 경험\n- 3D Vision, Point Cloud Processing 등 Scan-to-Path 개발 경험\n- CUDA/GPU 기반 병렬처리 및 AI/Deep Learning 적용 경험"
+    "content_path": "content/ef760439ce96c0ed4a40e45f.md",
+    "content_version": "2fd6cb944b0096c7"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_용접_기구설계",
@@ -2510,7 +2640,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구설계 (용접솔루션)\n\n- **소속:** 용접솔루션개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 자동화 장비 및 로봇 시스템 기구설계\n- 설계 검증 및 제작 대응\n- 설계 표준화 및 품질 관리\n\n## 우대 사항 / 지원 자격\n- 대형 자동화 프로젝트 수행 경험\n- 산업용 로봇 또는 협동로봇 기반 자동화 시스템 설계 경험\n- 조선소 자동화 수행 경험 (배관 생산 자동화 수행 경험 우대)\n- AutoCAD, CREO 등 기계설계 Tool 활용 역량"
+    "content_path": "content/a866f8ad27bb806ab94c9b7d.md",
+    "content_version": "ee09e2c52afb4048"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_용접_기구설계PM",
@@ -2530,7 +2661,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 기구설계 PM (용접솔루션)\n\n- **소속:** 용접솔루션개발팀\n- **구분:** 경력\n- **학력:** 석사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 자동화 솔루션 설계 및 제안\n- 자동화 프로젝트 실행 PM\n- 기구설계 기술 리딩 및 설계 검증\n- 고객 및 협력업체 관리\n\n## 우대 사항 / 지원 자격\n- 대형 자동화 프로젝트 PM 또는 PL 경험\n- 산업용 로봇 또는 협동로봇 기반 자동화 시스템 구축 경험\n- AutoCAD, CREO 등 기계설계 Tool 활용 역량\n- 해외 고객 또는 글로벌 프로젝트 수행 경험"
+    "content_path": "content/ccdfc9aec0c8fbd532edc0a9.md",
+    "content_version": "b54ebd7543e3c9aa"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_용접_전장설계",
@@ -2549,7 +2681,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 전장설계 (용접솔루션)\n\n- **소속:** 용접솔루션개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 자동화 장비 및 로봇 시스템 전장설계\n- 전장 제작 및 설치·시운전 대응\n- 설계 검증 및 안전 관리\n- 설계 표준화 및 품질 관리\n\n## 우대 사항 / 지원 자격\n- 대형 자동화 프로젝트 수행 경험\n- 산업용 로봇 또는 협동로봇 기반 자동화 전장 설계 경험\n- 조선소 자동화 수행 경험 (배관 생산 자동화 수행 경험 우대)\n- AutoCAD Electrical, EPLAN 등 전장설계 Tool 활용 역량\n- CE, UL, KCs 등 국내외 안전규격 대응 경험\n- 대형 자동화 프로젝트 또는 양산설비 구축 경험"
+    "content_path": "content/5e12a96f0c982fc45e1f6a83.md",
+    "content_version": "76bbda0429f060f1"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_자재관리",
@@ -2567,7 +2700,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 자재관리\n\n- **소속:** AM운영팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 대구 (현풍)\n\n## 수행 업무\n- 계획/재고 관리\n  - 출고 이력 및 FCST 기반 수요 예측\n  - 재고 커버리지 및 Fill Rate 등 KPI 관리\n  - 장기재고 분석 및 관리 (6개월 / 12개월 기준)\n- 납기 관리 및 개선\n  - 구매 발주(PO) 기반 자재 납기 일정 관리\n  - 공급 리스크 사전 식별 및 대응 (단종, 생산 이슈 등)\n\n## 우대 사항 / 지원 자격\n- 로봇/자동차 관련 업무 종사자\n- 유관자격증 소지자(유통관리사,물류관리사) 및 컴퓨터 활용 능력 1급 소지자"
+    "content_path": "content/533731ef418c761fea9988b8.md",
+    "content_version": "51b5c7048e3dcf98"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_제어SW",
@@ -2587,7 +2721,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 제어SW\n\n- **소속:** 로봇소프트웨어개발팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 로봇 동작/힘 제어 등 제어기 설계 및 제어 성능 개선 연구 및 유지 보완\n  - 시뮬레이션 및 실기 테스트를 통한 성능검증 및 분석\n  - 이슈 분석 및 제어기 튜닝\n\n## 우대 사항 / 지원 자격\n- Matlab, Python 등 시뮬레이션 및 데이터 분석 능통자\n- 유관 실무 경력 2년 이상"
+    "content_path": "content/225764978a56b79087b16834.md",
+    "content_version": "6c96d6cc62f7ff31"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_커뮤니케이션",
@@ -2606,7 +2741,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 커뮤니케이션\n\n- **소속:** 마케팅팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 당사 기업 및 제품 마케팅 전략 수립 및 캠페인 기획·운영\n- 오프라인 마케팅 기획 및 총괄 운영 (국내외 전시, 고객 초청 행사 등)\n- 온라인 마케팅 기획, 운영 및 성과 분석 (링크드인, 유튜브 등)\n- 제품 브로셔, 카탈로그, 영상, 보도자료 등 마케팅 콘텐츠 기획 및 제작\n- CRM 기반 마케팅 전략 수립ㆍ운영 및 리드 발굴 및 육성\n- 글로벌 대리점 및 해외법인 마케팅 활동 지원\n\n## 우대 사항 / 지원 자격\n- B2B 마케팅/홍보 업무 8년 이상의 경험 보유자\n- 로봇, 자동화, 정밀기계 등 기술집약형 산업 경력 기간 우대\n- SEO, Google Analytics, Search Console 등 디지털 마케팅 경험 보유자\n- 영어 활용 능력 및 글로벌 마케팅·전시회 운영 경험 보유자\n- 원활한 커뮤니케이션 및 협업 역량 보유자"
+    "content_path": "content/8c6c74931527156b926c7bf4.md",
+    "content_version": "f1e4945241df87ee"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_투자_M_A",
@@ -2625,7 +2761,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 투자 / M&A\n\n- **소속:** 신사업팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- 투자 및 M&A 프로세스 실행\n  - TDD, FDD, LDD 실사 조율 (리스크 요인 분석 및 대응 구조 설계)\n  - 투자 구조 설계, 벨류에이션 / Deal 조건 협상\n  - 투자 심의 프로세스 수행 (심의 자료 작성 등)\n\n## 우대 사항 / 지원 자격\n- 석사 이상 학력 소지자 (석사 2년, 박사 8년 경력 인정)\n- CPA/ CFA 등 자격증 소지자\n- IB/회계법인/PE/VC 경력 및 해외/대형 Deal Lead 경험\n- 해외대학 출신 및 글로벌 회사 근무 경험"
+    "content_path": "content/a0aa60f4ef27d11afb554f83.md",
+    "content_version": "92835e81719c75f6"
   },
   {
     "id": "hd현대로보틱스_HD현대_2608_프로그램개발",
@@ -2644,7 +2781,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 프로그램 개발\n\n- **소속:** 디지털혁신팀\n- **구분:** 경력\n- **학력:** 학사 이상\n- **근무지:** 분당 (GRC)\n\n## 수행 업무\n- SAP Public Cloud ERP 구축/운영관련 경력\n\n## 우대 사항 / 지원 자격\n- SAP Public Cloud ERP 개발관련 경험(Fiori, RAP, BTP 등)\n- S/4HANA Configuration\n- 재무회계 업무 경험\n- SAP ERP 모듈 자격증 소지자"
+    "content_path": "content/7e6ae13089876cfd47a27018.md",
+    "content_version": "bd11bd05a0109ca2"
   },
   {
     "id": "hd현대로보틱스__HD현대로보틱스_소개",
@@ -2660,7 +2798,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## HD현대로보틱스 소개\nHD현대그룹 계열의 국내 1위 산업용 로봇 및 자동화 솔루션 전문 기업\n(근무지: 경기도 성남시 분당 GRC / 대구 본사)\n\n## 주요 개발 분야\n산업용 로봇(자동차·일반 산업용), 협동로봇, FPD(디스플레이) 로봇, 로봇 제어기, 스마트 팩토리 솔루션\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접 + 인성검사 -> 2차 임원면접\n\n## 참고\n- 국내 산업용 로봇 시장 점유율 1위로, 자동차 제조 및 대형 자동화 라인 기반의 강력한 엔지니어링 역량 보유"
+    "content_path": "content/ae898b510a3a9f5b05cc84c5.md",
+    "content_version": "8a2d63d0377e8803"
   },
   {
     "id": "lg전자_LG_2609_생산기술원_로봇_AMR_HW_Platform_개발",
@@ -2680,7 +2819,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 생산기술원 로봇 AMR HW Platform 개발\n\n## 맡게 될 업무\n\n- 산업용 휴머노이드 및 Mobile Manipulator의 기구, 전장, 구동계 통합 설계\n- 시스템 요구사항 기반 HW 아키텍처 수립 및 성능 최적화\n- 관절모듈, 감속기, 구동부, 프레임 구조 설계\n- 강성, 내구성, 경량화 및 열 특성 분석\n\n## 조직 소개\n\n우리 팀의 미션(목표)은 AI Powered Industrial Humanoid 개발을 통해 스마트 팩토리 Biz. 미래를 준비하고 자사 제조 경쟁력을 강화하는 것입니다. 주요 업무는 Industrial Humanoid Robot 솔루션 개발 및 PoC하는 역할을 하고 있습니다. AI 인식&제어, 로보틱스 제어를 융합한(적재적소) 최적 제어 솔루션을 구축하고, 양산 현장에 투입 가능한 메커니즘 설계 및 HW Platform 개발을 진행 하고 있습니다.\n\n## 근무지\n\n마곡 LG사이언스파크\n\n## 지원자격\n\n**전공**: 유관 전공\n\n### 필수 사항\n\n- 로봇 Arm 및 AMR 개발 경력 5년 이상\n- 메카트로닉스/구동계 설계 경험 : 모터/감속기 등 적정 관절 모듈 선정 및 구조 설계 역량\n- 휴머노이드 및 Legged 메커니즘 설계 경험\n\n### 우대 사항\n\n- 양산형 로봇 제품 개발 경험 : Prototype 개발부터 양산 전환까지의 전 과정 수행 경험\n- 제조성(DFM), 조립성(DFA), 원가 최적화 경험\n- 로봇공학 석사/박사 학위 보유\n\n## 전형 절차\n\n| 단계 | 일정 |\n|------|------|\n| 서류전형 | ~09/10 (목) |\n| 인성검사 | 09/19 (토) |\n| 1차 면접전형 | 9월 말 ~ 10월 |\n| 2차 면접전형 | 10월 |\n| 평판조회 및 채용검진 | 11월 |\n\n- 경력에 따라 추가 면접을 진행할 수 있습니다.\n- 전문 어학 기관을 통해, 별도 영어 면접을 진행할 수 있습니다.\n- 채용 프로세스별 순서 및 일정은 내부사정에 의해 변경될 수 있으며, 전형결과는 LG Careers 통해 확인 가능합니다.\n\n## 지원 자격 및 유의사항\n\n- 병역 대상자의 경우, 군필자 또는 면제자에 한하여 지원 가능합니다.\n- 해외 출장 / 여행에 결격 사유가 없는 경우에 한해 지원 가능합니다.\n- 취업 보호 대상자(보훈대상자/장애인)는 관련 법규 등에 의거하여 우대합니다.\n- 입사지원서 및 채용 전형 과정에서 허위 사실이 발각될 경우는 입사가 취소될 수 있습니다.\n\n## 제출 방법\n\n- 반드시 LG그룹 채용사이트(careers.lg.com)을 통한 온라인 지원만 가능 (우편, e-mail, 방문접수 불가)\n- 지원서 제출은 마감 전까지 수시로 가능하며 가장 최근 저장한 상태로 최종 반영됩니다.\n- 공고 마감일에는 지원자들의 문의가 많으므로 마감 3일 전까지 문의/요청 해주시기 바랍니다.\n\n**문의처**: LG Careers 내 1:1 질문하기\n\n## 기타 사항\n\n당사는 타인의 영업비밀을 부정한 방법으로 취득, 사용하지 않으며, 채용 예정자로부터 前 회사 소유의 어떠한 자료도 요구하거나 전달 받지 않습니다. 前 회사 영업비밀을 임의로 전달할 경우에는 채용상 불이익이 있을 수 있습니다."
+    "content_path": "content/9a7ed63bbe6253525122ee0b.md",
+    "content_version": "2f796827e478a288"
   },
   {
     "id": "lg전자__LG전자_소개",
@@ -2696,7 +2836,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## LG 소개\nLG전자 로보틱스 관련 부서 : 로보틱스사업센터 (CEO 직속),  CTO 부문 (로봇선행연구소 / AI연구소), HS사업본부 (Home Appliance Solution)\n(근무지: 서울 마곡 LG사이언스파크 등)\n\n## 주요 개발 분야\n로봇청소기, 모바일 로봇, 잔디깎기 로봇 등 다양한 로봇 개발 및 양산\n\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n로보스타: LG전자의 자회사로, 산업용 및 서비스 로봇 제조·사업 전담\n베어로보틱스: 자율주행 서빙 로봇을 개발하는 글로벌 스타트업 (LG전자가 지분 투자, 본사: 미국 LA / R&D: 서울·구미)"
+    "content_path": "content/89084555ceae995e46d76b12.md",
+    "content_version": "bdca266aac641fa4"
   },
   {
     "id": "두산로보틱스__두산로보틱스_소개",
@@ -2712,7 +2853,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 두산로보틱스 소개\n두산그룹 계열의 협동로봇 및 로보틱스 솔루션 전문 기업\n(근무지: 경기도 성남시 분당 이노베이션 센터)\n\n## 주요 개발 분야\n협동로봇(M·A·H·E 시리즈), 피지컬 AI, 실용적 휴머노이드, 서비스/F&B/산업용 로봇 솔루션\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n- 성남 분당에 국내 최대 규모 로봇 R&D 센터인 '이노베이션 센터'를 구축하여 연구 역량 집중\n- 로봇 자체 소프트웨어 플랫폼인 '다트스위트(Dart-Suite)' 및 AI 기반 로봇 제어 솔루션 고도화 추진"
+    "content_path": "content/4710ef4c7f73ffc74e895375.md",
+    "content_version": "0d288a001089392b"
   },
   {
     "id": "두산로보틱스_두산_2509_Biomechanic_Robotics_Engineering",
@@ -2731,7 +2873,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [두산로보틱스] [R&D] Biomechanic Robotics Engineering\n\n## 모집부문\n[R&D] Biomechanic Robotics Engineering\n\n## 업무내용\n휴머노이드 생체 구조 원리 분석 및 메커니즘 설계\n\n관절 별 적합한 모터 및 액츄에이터 설계 및 표준화 수립\n\nAI & Robotics Engineer와 협업, 행체모방 메커니즘을 구현\n\n## 자격요건\n미국(혹은 영미권) 대학 공학 계열 전공자\n\n신규 입사 : 기졸업자 또는 ’26년 6월 이내 졸업 예정자 (학사, 석사, 박사 공통)\n\nGlobal 산학 장학생 : ’26년 6월 ~ ’29년 6월 이내 졸업 예정자(학사, 석사, 박사 공통)\n\n산학 장학생에게는 졸업시까지 산학 장학금이 지원되며, 졸업 이후 입사\n\n컴퓨터, 전산, 소프트웨어, 인공지능, 데이터 과학 및 기타 유관전공(학사/석사/박사 모두 지원 가능)\n\n## 출처\n대학생 대외활동 공모전 채용 사이트 링커리어 https://linkareer.com/"
+    "content_path": "content/23478696787da830761d02ba.md",
+    "content_version": "55cf62975be88208"
   },
   {
     "id": "두산로보틱스_두산_2607_Robot_Control_Engineer",
@@ -2750,7 +2893,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [두산로보틱스] Robot Control Engineer 채용\n\n> 26.07\n\n| 구분 | 내용 |\n|---|---|\n| 모집분야 | Robot Control Engineer |\n| 근무지역 | 분당(오리역) |\n\n## 이런 일을 수행해요\n- 로봇의 진동 저감 제어 알고리즘을 구현해요.\n- 협동 로봇과 지능형 솔루션의 힘제어 알고리즘을 구현해요.\n- 협동 로봇의 충돌 감지 알고리즘을 구현해요.\n- 장기적으로 다양한 센서들을 활용하여 Contact-Rich 한 환경에서도 위 알고리즘들의 성능과 지능을 높이는 일을 해요.\n\n## 이런 경험을 가진 분을 찾아요\n- 다관절 로봇 알고리즘 개발 경력이 5년 이상인 분\n- 다관절 로보틱스(기구학, 동역학, 제어) 기초가 탄탄한 분\n- 다관절 로봇의 위치 제어, Interaction 제어기의 튜닝 경험이 있는 분\n- 제어 성능을 높이기 위해서 다관절 로봇의 불확실성을 identification하고, adaptive한 알고리즘들을 적용해 본 분\n- 위 알고리즘들을 RT-OS 프레임워크를 활용하여 개발해 본 분\n- C++, Python 등 로봇 프로그래밍/알고리즘 랭귀지 활용이 우수한 분\n\n## 이런 경험이 있으시면 더 좋아요!\n- 물리기반 제어 알고리즘을 기본으로 학습 기반 알고리즘 개발 경력이 있거나 협업 경험이 있는 분\n- 전통적인 산업용, 협동 로봇 이외의 도전적인 폼팩터에서 제어 알고리즘 개발 경험이 있는 분\n\n## 자격요건\n- 석사 이상 학위 소지자\n- 남자의 경우 병역 이행을 완료하였거나 면제된 자\n- 해외여행 또는 해외 근무에 결격사유가 없는 자"
+    "content_path": "content/b0d1f59d17b22ab03b89f970.md",
+    "content_version": "27a027acd891a5e0"
   },
   {
     "id": "두산로보틱스_두산_2608_AI___Robotics_Security_Engineer",
@@ -2771,7 +2915,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI & Robotics Security Engineer\n\n\"AI-Powered Robotics Solution & Humanoid\"\n\n두산로보틱스는 협동로봇으로 기업고객과 직원 모두에게 안전하고 즉각적인 생산성 향상, 업무 효율성 증진을 견인해주는 로봇과 솔루션을 개발하는 기업입니다.\n\n미국에 위치한 ONExia 인수를 시작으로 AI Powered Robotics Solution 개발이 본격적으로 진행되고 있고, Practical Humanoid 개발까지 나아가고 있습니다. :)\n\n## 우리는 이런 사람을 찾습니다!\n두산로보틱스는 AI Agent & Physical Ai 기반 Robot OS를 직접 개발하고 있으며, LLM, Agent, Device Security와 같은 새로운 보안영역을 함께 만들어가실 분을 찾고 있습니다.\n\n기존 로봇이 정해진 작업을 반복 수행하는 시스템이었다면, 우리가 만드는 Robot OS는 스스로 환경을 인식하고, 판단하며, 다양한 도구와 시스템을 활용해 작업을 수행하는 Agentic Robot Platform을 지향합니다.\n\n이러한 변화는 로봇이 더 많은 권한과 자율성을 갖게 된다는 의미이기도 합니다. 따라서 보안은 단순히 시스템을 보호하는 역할을 넘어, 로봇과 AI가 안전하고 신뢰할 수 있는 방식으로 동작하도록 만드는 핵심 기술이 되고 있습니다.\n\nSecurity Team은 제품 출시 직전에 보안을 점검하는 조직이 아닙니다. Robot OS, AI Agent, Cloud Platform, Engineering Platform이 설계되는 초기 단계부터 참여하여 제품과 플랫폼 전반에 보안을 내재화하고, 개발 조직이 더 빠르고 안전하게 제품을 만들 수 있도록 지원합니다.\n\n## 이런 미션을 주도해요 (Key Responsibilities)\n1. 개발 전 과정에 Secure SDLC를 적용하여 보안이 자연스럽게 개발 프로세스에 포함되도록 합니다.\n\n2. Robot OS, AI Platform, Cloud Infrastructure에 대한 보안 아키텍처를 설계하고 개선합니다.\n\n3. Product Security Review 및 Threat Modeling을 수행하여 잠재적인 위험을 사전에 식별하고 대응합니다.\n\n4. 오픈소스, 라이브러리, 컨테이너, 빌드 파이프라인 등 Software Supply Chain Security 체계를 구축합니다.\n\n5. Identity & Access Management(IAM) 및 인증·인가 체계를 설계합니다.\n\n6. 취약점 관리, 침해사고 대응, 보안 모니터링 체계를 구축하고 운영합니다.\n\n7. 개발 조직과 협력하여 보안 자동화 및 Security Engineering 문화를 만들어 갑니다.\n\n8. 글로벌 시장 진출을 위한 보안 규제 및 표준 대응을 위한 체계를 구축합니다.\n\n\n[우리 같이 아래의 문제를 해결해봐요!]\n\n1. Secure SDLC 구축\n\n2. Cloud Infrastructure Security\n\n3. Product Security Review\n\n4. Supply Chain Security\n\n5. Identity & Access Management\n\n6. Vulnerability Management\n\n7. Incident Response\n\n## 아래와 같은 역량을 증명해 오신 분을 찾아요 (Requirements)\n1. Application, Product, Cloud Security 실무 경험이 있으신 분\n\n2. Threat Modeling 실무 경험이 있으신 분\n\n3. Secure Development 실무 경험이 있으신 분\n\n4. 선제적으로 발생할 보안 문제를 직접 제기하고 해결안을 고민해보신 분\n\n⚡ 이런 경험이 있으시면 더욱 강력한 시너지를 낼 수 있어요 (Preferred Qualifications)\n\n1. AI/LLM, Device, OT/ICS Security 실무 경험이 있으신 분\n\n2. Agent Framework 구축 경험이 있으신 분\n\n3. Robot ROS1/2 활용역량 또는 보안강화 경험이 있으신 분\n\n \n\n## 채용 전형\n서류 전형 ＞ DCAT(온라인 인성검사) ＞ 1차 면접 ＞ 2차 면접 ＞ CEO 면접 ＞ 처우 협의 ＞ 입사 \n\n※ 전형 진행 과정상 서류 합격자에 한 해  커리어 두산으로 지원서 작성을 요청드릴 수 있어요."
+    "content_path": "content/c28fe001ba93a285b21657cf.md",
+    "content_version": "ec4672842773fc28"
   },
   {
     "id": "두산로보틱스_두산_2608_Robotics_DevOps_Engineer_",
@@ -2790,7 +2935,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robotics DevOps Engineer\n\n## 합류할 팀을 ​소개해요!\n두산로보틱스의 AI/SW 본부에 새롭게 신설되는 팀에서 다양한 로보틱스 및 소프트웨어 문제를 분석/해결할 수 있는 솔루션 만들어요. 로보틱스 소프트웨어 플랫폼을 직접 설계, 개발, 운영하는 업무를 수행할 예정입니다. 소프트웨어의 End to End를 수행한다고 봐주시면 좋을 것 같아요! 내부 생산성을 높이고 시스템 효율을 높이며 자체 솔루션도 만들고, AI를 활용해 Agentic 솔루션과 파이프 라인을 만들어가며 자동화를 이끌! 멋진 동료를 기다립니다!!🤗\n\n## 이런 미션을 주도해요! (Key Responsibilities)\n로보틱스 플랫폼의 인프라 환경(EKS 기반)을 설계, 운영 및 고도화 해요.\n서비스별 배포 파이프라인(CI/CD)을 자동화하고, 효율적인 개발 프로세스를 구축해요.\n장애 모니터링 및 로그 수집 체계를 고도화하여 선제적으로 문제를 탐지하고 대응해요.\nKubernetes, Cloud Native 환경에서 안정적이고 확장 가능한 운영 환경을 구현해요.\n내부 개발자들이 쉽게 배포·운영할 수 있도록 개발자 중심의 DevOps 문화를 만들어요.\n\n## 본격적인 시작 전, 먼저 확인해 주세요!\n학사 이상 학위 소지자 \n남자의 경우 병역 이행을 완료하였거나 면제된 분\n해외여행 또는 해외 근무에 결격사유가 없는 분\n국가공무원법상 채용결격사유에 해당하지 않는 분\n \n\n## 아래와 같은 역량을 증명해 오신 분을 찾아요! (Requirements)\nKubernetes, Docker 기반 클라우드 인프라 운영 경험이 7년 이상인 분\nJenkins, GitHub Actions, ArgoCD 등 CI/CD 환경 구축 및 개선 경험이 있는 분\nInfrastructure as Code (Terraform, Helm 등) 활용 능력을 갖추신 분\n로깅, 모니터링 (Grafana, Prometheus, Loki 등) 환경 구성 경험이 있는 분\n시스템 장애의 근본 원인 분석 및 구조적 개선 경험이 있는 분\n\n## 사용하는 기술을 알려드릴게요!\nAWS EKS 기반 Kubernetes 운영 : 서비스 pod 관리, 오토스케일링, 네트워크 구조 설계 및 개선\nIaC (Terraform, Helm) : 인프라 환경을 코드로 관리하고, 배포 재현성과 안정성 확보\nCI/CD (GitHub Actions, ArgoCD, Jenkins) : 서비스 빌드·배포 자동화 및 지속적 개선\nObservability (Prometheus, Grafana, Loki, ELK Stack) : 모니터링, 로깅, 알람 시스템 구축\n \n\n## 이런 경험이 있으시면 더욱 강력한 시너지를 낼 수 있어요! (Preferred Qualifications)\n로보틱스나 IoT 환경에서의 Edge-Cloud 통합 운영 경험이 있는 분\n오픈소스 기여 또는 커스텀 플러그인 제작 경험이 있는 분\nAWS, GCP 등 멀티 클라우드 환경 운영 경험이 있는 분\n\n## 혜택 및 복지\n• 출퇴근이 자유로운 선택적 근로제도 실시! (코어타임 10~15시) \n\n• 구성원의 업무 및 휴가 일정을 효율적으로 조정할 수 있는 시간차 제도! \n\n• 로봇회사인 만큼 다양한 음료와 커피도 로봇이 제공\n\n• 여름휴가 별도 5일과 휴가비 지급(유급!) \n\n \n\n## 채용 전형\n서류 전형 ＞ DCAT(온라인 인성검사) & 1차 면접  ＞ 2차 면접 ＞ 처우협의 ＞ 입사 \n\n※ 필요 경험 기반의 경험을 상세히 작성해주실 수록 서류 전형 합격이 높아집니다.\n\n※ 입사지원서 내용이 사실과 다를 경우 합격(입사)이 취소됩니다.\n\n※ 국가공무원법상 채용 결격 사유에 해당하는 자는 채용이 취소될 수 있습니다. \n\n※ 서류 합격자에 한 해,  커리어 두산 으로 지원서 작성을 요청드리고 있습니다. 지원자에 따라 전형이 변경될 수 있습니다."
+    "content_path": "content/8133f67b8dcbedafeb86707c.md",
+    "content_version": "635bbe84d590d3a0"
   },
   {
     "id": "두산로보틱스_두산_2608_Robotics_Mechanical_Engineer",
@@ -2809,7 +2955,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robotics Mechanical Engineer\n\n- Engineer경력 5년 이상정규직두산로보틱스 이노베이션센터상시 모집\n\n협동로봇을 기반으로 한 AI Robot Solution과 Humanoid를 설계하시며 새로운 로봇을 만들어가실 분을 찾고 있습니다. 아래 직무에 한 분야라도 접점이 있으신 분은 부담없이 등록해 주시기 바랍니다! \n\n \n\n## 세부 분야\n[기구 동역학 해석]\n\n새로운 로봇 개발을 위해 다양한 동적이슈를 해석하고 최적화 설계를 통해 설계기준을 수립해요.\n\n \n\n[로봇 시스템 설계]\n\n새로운 로봇 시스템의 요구사항에 기반해 가장 적합한 메커니즘과 부품을 설계하고, 프로토 제작과 시험을 통해 표준화 및 양산품질을 확보해요.\n\n \n\n[로봇 설계 검증]\n새롭게 개발하는 로봇과 각종 부품들의 개발목표에 맞춰 검증 항목을 정의하고, 기준과 시험절차를 수립해 신뢰성을 평가해요.\n\n \n\n## 자격 요건\n관련분야 석사학위 이상 보유하신 분\n로봇 또는 다관절 기계의 구동장치 설계를 5년 이상 수행하신 분\n다양한 설계/분석프로그램 활용 역량과 결과값을 명확히 해석하실 수 있는 분\n \n\n## 우대 사항\n선행연구를 최적화 과정을 통해 양산설계를 이룬 과정을 직접 경험해보신 분\n개발과정 중에 Risk를 도출, 개선까지 이끌어낸 경험이 있으신 분"
+    "content_path": "content/b1a47f8ec503701319a12d1e.md",
+    "content_version": "61df77e775d762e9"
   },
   {
     "id": "두산로보틱스_두산_2608_로봇_임베디드_SW_개발자",
@@ -2829,7 +2976,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 임베디드 SW 개발자\n\n- Robot R&D경력 3년 이상 정규직 두산로보틱스 이노베이션센터2026.08.09 마감\n\n## 합류할 팀을 ​소개해요!\n \nController Engineering팀은 협동로봇이 안정적이고 안전하게 동작할 수 있도록 로봇 제어기를 개발해요.\n\n제어기의 기구 설계부터 Safety Board의 I/O 인터페이스·전력 회로 설계, 전장 배선 구성, 하드웨어 동작을 보장하기 위한 임베디드 소프트웨어 개발까지 제어기 전반을 담당해요.\n\n로봇에 전원을 안정적으로 공급하고, 이상 신호나 비정상 동작이 감지되면 안전하게 전원을 차단하여 로봇을 정지시키는 것이 저희의 핵심 역할이에요.\n\n또한 제어기의 하드웨어와 임베디드 소프트웨어를 상위 소프트웨어가 구동되는 SBC와 연결하기 위한 로봇 프레임워크를 개발해요. \n\n모션 알고리즘을 개발하는 팀과 상위 응용·AI소프트웨어를 개발하는 팀 사이에서 전원·상태·진단·안전 정보를 연결하고, 각 조직의 기능이 하나의 로봇 시스템에서 안정적으로 동작하도록 인터페이스와 시스템 구조를 설계해요.\n\n협동로봇에 요구되는 기능안전 기준을 충족하기 위해 제어기 하드웨어와 소프트웨어를 안전 관점에서 설계·검증하고, SIL·PL 및 Category 등 안전등급 인증에 필요한 요구사항 분석, 시험과 기술문서 작성 및 인증 대응도 수행해요. 기구·회로·전장·임베디드 소프트웨어·프레임워크를 아우르는 시스템 엔지니어링을 통해 신뢰할 수 있고 확장 가능한 로봇 제어기를 만드는 것이 목표예요.\n\n\n▎ Controller Engineering팀에서는 제어기의 하드웨어부터 상위 소프트웨어와 연결되는 프레임워크까지 폭넓게 경험하며, 로봇 시스템 전체를 이해하고 통합하는 역량을 함께 키울 수 있어요.\n\n \n \n\n## 이런 미션을 주도해요! (Key Responsibilities)\nPLe/Cat.4 안전 등급 달성 위한 이중화 MCU 기반의 세이프티 펌웨어를 설계 및 구현해요\nDSP, MCU를 활용한 모터 제어 알고리즘 최적화 및 고속 디지털 신호 처리 시스템을 구축해요\n하드웨어 런타임 자가 진단 소프트웨어 및 통신 데이터 무결성 검증 로직을 개발해요\n고속 산업용 통신 프로토콜 스택 구현 및 실시간성이 보장될 수 있도록 관리해요\nIEC 61508 기반 S/W 개발 프로세스 준수 및 단위/통합 테스트를 통한 코드 신뢰성을 검증해요\n \n\n## 본격적인 시작 전, 먼저 확인해 주세요!\n학사 이상 학위 소지자\n남자의 경우 병역 이행을 완료하였거나 면제된 분\n해외여행 또는 해외 근무에 결격사유가 없는 분\n국가공무원법상 채용결격사유에 해당하지 않는 분\n\n## 아래와 같은 역량을 증명해 오신 분을 찾아요! (Requirements)\nC/C++ 기반 임베디드 펌웨어 개발 분야 경력이 3년 이상인 분\nFail-safe 로직 구현 및 고신뢰성 실시간 제어 역량이 있는 분\nARM Cortex-M/R 시리즈 MCU 및 TI C2000 계열 DSP 활용 역량이 있는 분\n산업용 통신(EtherCAT, CAN, TCP/IP) 인터페이스 구현 경험을 보유한 분\n회로도 분석 능력이 있는 분\n \n\n## 이런 경험이 있으시면 더욱 강력한 시너지를 낼 수 있어요! (Preferred Qualifications)\n로봇, 항공, 모빌리티 등 고신뢰성이 요구되는 산업군에서 미션 크리티컬한 시스템 개발 및 상용화 경험이 있는 분\nTI Hercules, Infineon AURIX 등 Safety-certified MCU 기반 개발 경험이 있는 분\n기능 안전 인증(ISO 13849, IEC 61508)을 위한 소프트웨어 산출물 작성 및 심사 대응 경험이 있는 분\nRTOS(FreeRTOS, uC/OS) 기반의 멀티태스킹 설계 및 리눅스 시스템 관련 지식이 있는 분\n\n## 혜택 및 복지\n• 출퇴근이 자유로운 선택적 근로제도 실시! (코어타임 10~15시) \n\n• 구성원의 업무 및 휴가 일정을 효율적으로 조정할 수 있는 시간차 제도! \n\n• 로봇회사인 만큼 다양한 음료와 커피도 로봇이 제공\n\n• 여름휴가 별도 5일과 휴가비 지급(유급!) \n\n \n\n## 채용 전형\n서류 전형 ＞ DCAT(온라인 인성검사) & 1차 면접  ＞ 2차 면접 ＞ 처우협의 ＞ 입사 \n\n※ 필요 경험 기반의 경험을 상세히 작성해주실 수록 서류 전형 합격이 높아집니다.\n\n※ 입사지원서 내용이 사실과 다를 경우 합격(입사)이 취소됩니다.\n\n※ 국가공무원법상 채용 결격 사유에 해당하는 자는 채용이 취소될 수 있습니다. \n\n※ 서류 합격자에 한 해,  커리어 두산 으로 지원서 작성을 요청드리고 있습니다. 지원자에 따라 전형이 변경될 수 있습니다."
+    "content_path": "content/71ae0f974ef7de6545a4f4ae.md",
+    "content_version": "377088d989dd0aeb"
   },
   {
     "id": "두산로보틱스_두산_2608_로봇_컨트롤_엔지니어",
@@ -2848,7 +2996,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 컨트롤 엔지니어\n\n## 합류할 팀을 ​소개해요!\nRobot Dynamics & Motion Control(RDMC) 팀은 용접·샌딩·머신텐딩처럼 사람이 수행하기 어렵고 위험한 고난도 공정을 로봇으로 자동화·재현하는 핵심 기능을 개발해요. 특정 솔루션 하나에 종속되지 않고, 다양한 로봇 응용에 공통으로 활용할 수 있는 모션·제어·센싱 기능을 일반화된 형태로 설계하는 것이 저희의 본분이에요. 단일 팔 작업을 넘어 부가축 등 여유자유도 로봇 제어까지 확장하며, 고난도 공정을 로봇이 안정적으로 재현하도록 핵심 기능을 고도화하는 것이 목표예요. \n\n## 이런 미션을 주도해요! (Key Responsibilities)\n로봇의 진동 저감 제어 알고리즘을 구현해요.\n협동 로봇과 지능형 솔루션의 힘제어 알고리즘을 구현해요.\n협동 로봇의 충돌 감지 알고리즘을 구현해요. \n장기적으로 다양한 센서들을 활용하여 Contact-Rich 한 환경에서도 위 알고리즘들의 성능과 지능을 높이는 일을 해요.\n \n\n## 본격적인 시작 전, 먼저 확인해 주세요!\n학사 이상 학위 소지자\n남자의 경우 병역 이행을 완료하였거나 면제된 분\n해외여행 또는 해외 근무에 결격사유가 없는 분\n국가공무원법상 채용결격사유에 해당하지 않는 분\n\n## 아래와 같은 역량을 증명해 오신 분을 찾아요! (Requirements)\n다관절 로봇 알고리즘 개발(토크기반 제어) 경력이 3년 이상인 분 \n다관절 로보틱스(기구학, 동역학, 제어) 기초가 탄탄한 분 \nC++ 등 로봇 프로그래밍/알고리즘 랭귀지 활용이 우수한 분\n \n\n## 이런 경험이 있으시면 더욱 강력한 시너지를 낼 수 있어요! (Preferred Qualifications)\n룰 기반 제어 알고리즘을 기본으로 학습 기반 알고리즘 개발 경력이 있거나 협업 경험이 있는 분 \n전통적인 산업용, 협동 로봇 이외의 도전적인 폼팩터에서 제어 알고리즘 개발 경험이 있는 분 \n필드 서비스 및 조립 생산성을 고려한 Modular Design 및 전장 박스 최적화 경험이 있는 분\n다관절 로봇의 위치 제어, Interaction 제어기의 튜닝 경험이 있는 분 \n제어 성능을 높이기 위해서 다관절 로봇의 불확실성을 identification하고, adaptive한 알고리즘들을 적용해 본 분\n위 알고리즘들을 RT-OS 프레임워크를 활용하여 개발한 분\n\n## 혜택 및 복지\n• 출퇴근이 자유로운 선택적 근로제도 실시! (코어타임 10~15시) \n\n• 구성원의 업무 및 휴가 일정을 효율적으로 조정할 수 있는 시간차 제도! \n\n• 로봇회사인 만큼 다양한 음료와 커피도 로봇이 제공\n\n• 여름휴가 별도 5일과 휴가비 지급(유급!) \n\n \n\n## 채용 전형\n서류 전형 ＞ DCAT(온라인 인성검사) & 1차 면접  ＞ 2차 면접 ＞ 처우협의 ＞ 입사 \n\n※ 필요 경험 기반의 경험을 상세히 작성해주실 수록 서류 전형 합격이 높아집니다.\n\n※ 입사지원서 내용이 사실과 다를 경우 합격(입사)이 취소됩니다.\n\n※ 국가공무원법상 채용 결격 사유에 해당하는 자는 채용이 취소될 수 있습니다. \n\n※ 서류 합격자에 한 해,  커리어 두산 으로 지원서 작성을 요청드리고 있습니다. 지원자에 따라 전형이 변경될 수 있습니다."
+    "content_path": "content/08f9905afd6a62d2ca93f026.md",
+    "content_version": "719fddbb1dec892b"
   },
   {
     "id": "두산로보틱스_두산_2608_로봇_프레임워크_개발자_Linux_",
@@ -2868,7 +3017,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 프레임워크 개발자(Linux)\n\n- Robot R&D경력 5년 이상정규직두산로보틱스 이노베이션센터2026.08.09 마감\n\n## 합류할 팀을 ​소개해요!\n \n\nController Engineering팀은 협동로봇이 안정적이고 안전하게 동작할 수 있도록 로봇 제어기를 개발해요.\n\n제어기의 기구 설계부터 Safety Board의 I/O 인터페이스·전력 회로 설계, 전장 배선 구성, 하드웨어 동작을 보장하기 위한 임베디드 소프트웨어 개발까지 제어기 전반을 담당해요.\n\n로봇에 전원을 안정적으로 공급하고, 이상 신호나 비정상 동작이 감지되면 안전하게 전원을 차단하여 로봇을 정지시키는 것이 저희의 핵심 역할이에요.\n\n또한 제어기의 하드웨어와 임베디드 소프트웨어를 상위 소프트웨어가 구동되는 SBC와 연결하기 위한 로봇 프레임워크를 개발해요. \n\n모션 알고리즘을 개발하는 팀과 상위 응용·AI소프트웨어를 개발하는 팀 사이에서 전원·상태·진단·안전 정보를 연결하고, 각 조직의 기능이 하나의 로봇 시스템에서 안정적으로 동작하도록 인터페이스와 시스템 구조를 설계해요.\n\n협동로봇에 요구되는 기능안전 기준을 충족하기 위해 제어기 하드웨어와 소프트웨어를 안전 관점에서 설계·검증하고, SIL·PL 및 Category 등 안전등급 인증에 필요한 요구사항 분석, 시험과 기술문서 작성 및 인증 대응도 수행해요. 기구·회로·전장·임베디드 소프트웨어·프레임워크를 아우르는 시스템 엔지니어링을 통해 신뢰할 수 있고 확장 가능한 로봇 제어기를 만드는 것이 목표예요.\n\n\n▎ Controller Engineering팀에서는 제어기의 하드웨어부터 상위 소프트웨어와 연결되는 프레임워크까지 폭넓게 경험하며, 로봇 시스템 전체를 이해하고 통합하는 역량을 함께 키울 수 있어요.\n\n \n\n## 이런 미션을 주도해요! (Key Responsibilities)\n로봇 제어기의 기능안전 요구사항을 분석하고, Safety Board와 SBC 사이의 기능 및 인터페이스 요구사항을 정의해요.\nSafety Board와 SBC 간 전원·상태·진단·안전 데이터 교환을 위한 통신 사양과 고장 대응 구조를 설계하고 통합해요.\nEtherCAT, Ethernet(TCP/IP·UDP), CAN 및 Serial 통신을 활용하여 제어기 내부 통신 인터페이스를 구현하고 검증해요.\n통신 데이터의 CRC, Sequence Counter, Timeout, Heartbeat 및 데이터 유효성 검사를 적용하여 통신 이상을 진단하고 안전한 상태로 전환될 수 있도록 설계해요.\nSafety Board 펌웨어 개발자와 협업하여 안전 상태 제어, I/O 신호 처리, 전원 차단, Watchdog  및 고장 진단 기능을 통합하고 검증해요.\n요구사항 기반 시험, Fault Injection 및 시스템 통합 시험을 통해 단일 고장과 통신 이상 발생 시 안전 기능이 정상적으로 수행되는지 검증해요.\n기능안전 요구사항과 설계·구현·시험 결과 간 추적성을 관리하고, 인증에 필요한 기술문서 작성과 인증기관 대응을 수행해요.\n \n\n## 본격적인 시작 전, 먼저 확인해 주세요!\n학사 이상 학위 소지자\n남자의 경우 병역 이행을 완료하였거나 면제된 분\n해외여행 또는 해외 근무에 결격사유가 없는 분\n국가공무원법상 채용결격사유에 해당하지 않는 분\n\n## 아래와 같은 역량을 증명해 오신 분을 찾아요! (Requirements)\n임베디드 시스템 또는 로봇 제어기 관련 개발 경험을 3년 이상 보유하신 분\nC/C++ 기반 임베디드 소프트웨어를 설계하고 구현한 경험이 있는 분\nEtherCAT, Ethernet(TCP/IP·UDP), CAN, UART 또는 SPI 중 하나 이상의 통신 인터페이스를 구현하고 디버깅한 경험이 있는 분\nMCU·RTOS 기반 펌웨어와 Embedded Linux 시스템의 역할 및 연동 구조를 이해하시는 분\n기능안전 개발 생명주기와 안전 요구사항, 안전 상태, 진단 및 고장 대응 개념을 이해하시는 분\n회로도와 데이터시트를 기반으로 하드웨어 동작을 이해하고, 오실로스코프·로직애널라이저 등을 활용한 시스템 디버깅이 가능한 분\n요구사항, 인터페이스 사양, 설계서 및 시험 결과를 문서화하고 관련 조직과 협업할 수 있는 분\n\n## 이런 경험이 있으시면 더욱 강력한 시너지를 낼 수 있어요! (Preferred Qualifications)\nISO 10218, ISO 13849, IEC 61508 또는 IEC 62061 등 로봇·산업 기능안전 표준 기반의 제품 개발이나 인증 대응 경험이 있는 분\n안전 요구사항 분석, FMEA/FMEDA, 고장 주입 시험, Diagnostic Coverage 및 PL/SIL 산출 업무를 경험하신 분\nEmbedded Linux의 BSP, Bootloader, Device Tree, Device Driver 또는 시스템 서비스 개발 경험이 있는 분\nLinux의 실시간성, 프로세스 우선순위, 메모리 및 시스템 자원 관리에 대한 이해가 있는 분\nSafety over EtherCAT(FSoE) 등 안전 통신 프로토콜을 적용하거나 검토한 경험이 있는 분\nMCU·RTOS와 Linux 간 통신 또는 이기종 연산장치 간 통신 구조를 설계한 경험이 있는 분\nCPU·GPU·NPU·DSP 등 서로 다른 연산장치가 결합된 임베디드 플랫폼의 구조와 하드웨어 가속기 활용 방식을 이해하시는 분\nShared Memory, DMA, Socket 등 프로세서 또는 시스템 간 데이터 교환 기술을 경험하신 분\nMISRA C/C++, 정적·동적 분석, 단위·통합 시험 및 고신뢰성 소프트웨어 검증 프로세스를 경험하신 분\n\n## 혜택 및 복지\n• 출퇴근이 자유로운 선택적 근로제도 실시! (코어타임 10~15시) \n\n• 구성원의 업무 및 휴가 일정을 효율적으로 조정할 수 있는 시간차 제도! \n\n• 로봇회사인 만큼 다양한 음료와 커피도 로봇이 제공\n\n• 여름휴가 별도 5일과 휴가비 지급(유급!) \n\n \n\n## 채용 전형\n서류 전형 ＞ DCAT(온라인 인성검사) & 1차 면접  ＞ 2차 면접 ＞ 처우협의 ＞ 입사 \n\n※ 필요 경험 기반의 경험을 상세히 작성해주실 수록 서류 전형 합격이 높아집니다.\n\n※ 입사지원서 내용이 사실과 다를 경우 합격(입사)이 취소됩니다.\n\n※ 국가공무원법상 채용 결격 사유에 해당하는 자는 채용이 취소될 수 있습니다. \n\n※ 서류 합격자에 한 해,  커리어 두산 으로 지원서 작성을 요청드리고 있습니다. 지원자에 따라 전형이 변경될 수 있습니다."
+    "content_path": "content/0add366dd7a1f1881a700db8.md",
+    "content_version": "710600e103e9570e"
   },
   {
     "id": "두산로보틱스_두산_2608_모션플래닝_엔지니어_",
@@ -2887,7 +3037,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모션플래닝 엔지니어\n\n## 합류할 팀을 ​소개해요!\nRobot Dynamics & Motion Control(RDMC) 팀은 용접·샌딩·머신텐딩처럼 사람이 수행하기 어렵고 위험한 고난도 공정을 로봇으로 자동화·재현하는 핵심 기능을 개발해요. 특정 솔루션 하나에 종속되지 않고, 다양한 로봇 응용에 공통으로 활용할 수 있는 모션·제어·센싱 기능을 일반화된 형태로 설계하는 것이 저희의 본분이에요. 단일 팔 작업을 넘어 부가축 등 여유자유도 로봇 제어까지 확장하며, 고난도 공정을 로봇이 안정적으로 재현하도록 핵심 기능을 고도화하는 것이 목표예요. \n\n \n\n## 이런 미션을 주도해요! (Key Responsibilities)\n• 협동로봇 솔루션의 Motion Planning을 개발해요 \n• 협동로봇의 Global Inverse Kinematics와 Singular Avoidance를 개발해요\n• HW의 가속을 통한 Real-Time Motion Planning을 개발해요\n• 장기적으로 Multi-arm Coordination과 Task Planning을 개발해요\n\n \n\n## 본격적인 시작 전, 먼저 확인해 주세요!\n학사 이상 학위 소지자\n남자의 경우 병역 이행을 완료하였거나 면제된 분\n해외여행 또는 해외 근무에 결격사유가 없는 분\n국가공무원법상 채용결격사유에 해당하지 않는 분\n\n## 아래와 같은 역량을 증명해 오신 분을 찾아요! (Requirements)\n• 다관절 로봇 알고리즘 개발(실시간 모션 생성) 경력이 3년 이상인 분 \n\n• 다관절 로보틱스(기구학, 동역학, 제어) 기초가 탄탄한 분 \n\n• C++ 등 로봇 프로그래밍/알고리즘 랭귀지 활용이 우수하신 분\n\n \n\n## 이런 경험이 있으시면 더욱 강력한 시너지를 낼 수 있어요! (Preferred Qualifications)\n• 다관절 로봇의 Motion을 최적화하여 문제를 해결해보신 분\n• 강화학습, 모방학습 등을 이용해 로봇 모션을 최적화해보신 분\n• 관련 전공/연구 박사학위를 보유하신 분\n\n## 혜택 및 복지\n• 출퇴근이 자유로운 선택적 근로제도 실시! (코어타임 10~15시) \n\n• 구성원의 업무 및 휴가 일정을 효율적으로 조정할 수 있는 시간차 제도! \n\n• 로봇회사인 만큼 다양한 음료와 커피도 로봇이 제공\n\n• 여름휴가 별도 5일과 휴가비 지급(유급!) \n\n \n\n## 채용 전형\n서류 전형 ＞ DCAT(온라인 인성검사) & 1차 면접  ＞ 2차 면접 ＞ 처우협의 ＞ 입사 \n\n※ 필요 경험 기반의 경험을 상세히 작성해주실 수록 서류 전형 합격이 높아집니다.\n\n※ 입사지원서 내용이 사실과 다를 경우 합격(입사)이 취소됩니다.\n\n※ 국가공무원법상 채용 결격 사유에 해당하는 자는 채용이 취소될 수 있습니다. \n\n※ 서류 합격자에 한 해,  커리어 두산 으로 지원서 작성을 요청드리고 있습니다. 지원자에 따라 전형이 변경될 수 있습니다."
+    "content_path": "content/dcbcce985a25b00417db968c.md",
+    "content_version": "bc9d477165665337"
   },
   {
     "id": "두산로보틱스_두산_2608_응용모션_개발자",
@@ -2906,7 +3057,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 응용모션 개발자\n\n- Robot Dynamics & Motion ControlRobot R&D응용 모션 개발자경력 2 ~ 5년정규직두산로보틱스 이노베이션센터2026.08.09 마감\n\n## 합류할 팀을 ​소개해요!\n \n\nRobot Dynamics & Motion Control(RDMC) 팀은 용접·샌딩·머신텐딩처럼 사람이 수행하기 어렵고 위험한 고난도 공정을 로봇으로 자동화·재현하는 핵심 기능을 개발해요. 특정 솔루션 하나에 종속되지 않고, 다양한 로봇 응용에 공통으로 활용할 수 있는 모션·제어·센싱 기능을 일반화된 형태로 설계하는 것이 저희의 본분이에요. 단일 팔 작업을 넘어 부가축 등 여유자유도 로봇 제어까지 확장하며, 고난도 공정을 로봇이 안정적으로 재현하도록 핵심 기능을 고도화하는 것이 목표예요.\n\n현재는 용접 과제가 메인이라 입사 초기에는 용접 응용 개발에 함께 참여하게 돼요. 다만 저희가 만드는 건 “용접 전용 기능”이 아니라 여러 응용으로 확장 가능한 범용 기능이에요.\n\n## 이런 미션을 주도해요! (Key Responsibilities)\n \n\n• 로봇의 용접 응용 모션(위빙, 부가축 whole-body control)을 구현하고 테스트를 통해 개발해요.\n• 협동로봇과 기타 센서를 이용해 용접선 추종 기술을 개발해요.\n• 용접 이외에도 Conveyor Tracking 등의 응용과 연관된 로봇의 코어 모션 연동과 응용 모션 계층을 나누고 모듈화해요.\n• 필드 엔지니어, 백엔드, 프런트엔드 엔지니어와 협업하여 다양한 용접공정 자동화에 적합한 지능형 용접솔루션을 개발해요.\n• 장기적으로는 Physical AI Platform Team과 협업하여 고숙련 용접공의 작업을 모방하고 데이터 기반으로 용접 조건을 최적화하여 고숙련 노동자를 대체하는게 목표에요.\n \n\n## 본격적인 시작 전, 먼저 확인해 주세요!\n학사 이상 학위 소지자\n남자의 경우 병역 이행을 완료하였거나 면제된 분\n해외여행 또는 해외 근무에 결격사유가 없는 분\n국가공무원법상 채용결격사유에 해당하지 않는 분\n\n \n\n## 아래와 같은 역량을 증명해 오신 분을 찾아요! (Requirements)\n \n\n• 로봇과 유관한 전공의 석사학위 이상을 보유한 분\n• 로봇의 모션 생성, 센서 기반 응용 알고리즘 설계 경험 등 제어개발 5년 이상 경력을 보유한 분(학위과정 포함)\n• ROS, Python, C++, RTOS 등 로봇 프로그래밍/알고리즘 랭귀지 활용이 우수한 분\n \n \n\n## 이런 경험이 있으시면 더욱 강력한 시너지를 낼 수 있어요! (Preferred Qualifications)\n \n\n• 다관절 로봇 활용 용접, 샌딩, 머신텐딩 등 열악한 환경 속의 로봇 응용 개발 경험이 있는 분\n• 고객사와 협업하여 신규 로봇솔루션을 개발, 안정화 작업을 경험해본 분\n• AI기반 로봇제어 알고리즘 및 머신러닝 기술 경험이 있는 분\n \n\n## 혜택 및 복지\n• 출퇴근이 자유로운 선택적 근로제도 실시! (코어타임 10~15시) \n\n• 구성원의 업무 및 휴가 일정을 효율적으로 조정할 수 있는 시간차 제도! \n\n• 로봇회사인 만큼 다양한 음료와 커피도 로봇이 제공\n\n• 여름휴가 별도 5일과 휴가비 지급(유급!) \n\n \n\n## 채용 전형\n서류 전형 ＞ DCAT(온라인 인성검사) & 1차 면접  ＞ 2차 면접 ＞ 처우협의 ＞ 입사 \n\n※ 필요 경험 기반의 경험을 상세히 작성해주실 수록 서류 전형 합격이 높아집니다.\n\n※ 입사지원서 내용이 사실과 다를 경우 합격(입사)이 취소됩니다.\n\n※ 국가공무원법상 채용 결격 사유에 해당하는 자는 채용이 취소될 수 있습니다. \n\n※ 서류 합격자에 한 해,  커리어 두산 으로 지원서 작성을 요청드리고 있습니다. 지원자에 따라 전형이 변경될 수 있습니다."
+    "content_path": "content/58d16530694835e2ff526f3e.md",
+    "content_version": "5a0519afa89544a3"
   },
   {
     "id": "두산로보틱스_두산_2609_로봇_기구_설계",
@@ -2926,7 +3078,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 기구 설계\n\n> 26/9 신입채용\n\n## 수행 업무\n로봇 기구 설계\n\n## 전공\n기계, 전기전자, 로봇 공학 관련학과 및 경험\n\n## 자격\n석사학위 취득(예정) 이상 지원 가능\n\n근무지 분당(오리)\n\n\n\n\n## 자격요건\n\n* 정규 4년제 대학교(이상) 졸업자 및 '27년 2월 졸업예정자\n* 모집분야 관련 전공/자격요건 이외에도 동일 전문성을 갖추고 있는 자는 지원 가능\n* 어학 : 지원서 제출 마감일 기준 2년 이내 취득한 공인영어성적 보유자\n- TOEIC Speaking 또는 OPIc : 인문 IM(Intermediate Mid), 이공 IL(Intermediate Low)등급 이상\n* 병역필 또는 면제자, 해외 근무에 결격사유 없는 자\n\n## 전형 절차\n\n* 전형단계 : 입사지원서(DBS) ▶ DCAT ▶ 실무 면접 ▶ 경영진 면접 ▶ 최종 입사\n\n※ 전형내용 및 채용일정은 회사 사정과 운영상황에 따라 변경될 수 있습니다.\n※ 채용검진은 각 회사 일정에 따라 진행됩니다.\n- **입사지원**: 2026.09.01 ~ 2026.09.21 18시까지\n- **DCAT**: 10월 중\n- **실무 면접**: 10월 ~ 11월 중\n- **경영진 면접**: 12월 중\n- **최종 입사**: '26년 12월 ~ '27년 1월 중\n\n## 접수 방법\n\n* 접수기간 : 2026년 9월 1일(화)~2026년 9월 21일(월) 18:00\n* 접수방법 : 채용홈페이지 커리어두산(https://career.doosan.com/)을 통한 온라인 접수\n\n※ 마감 이후에는 지원서 접수가 불가하오니 기간 내 지원을 완료해 주시기 바랍니다.\n※ 입사지원서 작성 시 DBS(Doosan Biodata Survey)를 반드시 응시하여야 합니다.\n\n## 진행 상태\n\n접수중(~ 2026.09.21)\n\n\n**문의처**: - 커리어두산 - 입사지원하기 - FAQ 게시판 - 궁금합니다\n\n## 기타사항\n- 국가보훈대상자 및 국가등록장애인은 관련 법에 의거하여 우대됩니다. (증빙 서류 제출 필요)\n- 경영진 면접 전형 및 신체검사 후 통과하신 분에 한하여 최종 입사자격이 부여됩니다.\n- 지원서 작성 내용이 사실과 다르거나 증빙할 수 없을 경우, 합격(입사)이 취소됩니다.\n- 전체 채용일정 종료 후 지원자 본인이 직접 제출한 서류(온라인 제출 외)에 대해 반환 청구가 가능합니다."
+    "content_path": "content/802bdda52f87554e6ad30fc5.md",
+    "content_version": "917505fe947eaaef"
   },
   {
     "id": "두산로보틱스_두산_2609_로봇_모션_플래닝",
@@ -2946,7 +3099,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 모션 플래닝\n\n> 26/9 신입채용\n\n## 수행 업무\n로봇 모션 플래닝\n\n## 전공\n기계, 전기전자, 컴퓨터공학, 제어공학, 로봇공학 관련학과 및 경험\n\n## 자격\n석사학위 취득(예정) 이상 지원 가능\n\n\n## 자격요건\n\n* 정규 4년제 대학교(이상) 졸업자 및 '27년 2월 졸업예정자\n* 모집분야 관련 전공/자격요건 이외에도 동일 전문성을 갖추고 있는 자는 지원 가능\n* 어학 : 지원서 제출 마감일 기준 2년 이내 취득한 공인영어성적 보유자\n- TOEIC Speaking 또는 OPIc : 인문 IM(Intermediate Mid), 이공 IL(Intermediate Low)등급 이상\n* 병역필 또는 면제자, 해외 근무에 결격사유 없는 자\n\n## 전형 절차\n\n* 전형단계 : 입사지원서(DBS) ▶ DCAT ▶ 실무 면접 ▶ 경영진 면접 ▶ 최종 입사\n\n※ 전형내용 및 채용일정은 회사 사정과 운영상황에 따라 변경될 수 있습니다.\n※ 채용검진은 각 회사 일정에 따라 진행됩니다.\n- **입사지원**: 2026.09.01 ~ 2026.09.21 18시까지\n- **DCAT**: 10월 중\n- **실무 면접**: 10월 ~ 11월 중\n- **경영진 면접**: 12월 중\n- **최종 입사**: '26년 12월 ~ '27년 1월 중\n\n## 접수 방법\n\n* 접수기간 : 2026년 9월 1일(화)~2026년 9월 21일(월) 18:00\n* 접수방법 : 채용홈페이지 커리어두산(https://career.doosan.com/)을 통한 온라인 접수\n\n※ 마감 이후에는 지원서 접수가 불가하오니 기간 내 지원을 완료해 주시기 바랍니다.\n※ 입사지원서 작성 시 DBS(Doosan Biodata Survey)를 반드시 응시하여야 합니다.\n\n## 진행 상태\n\n접수중(~ 2026.09.21)\n\n\n**문의처**: - 커리어두산 - 입사지원하기 - FAQ 게시판 - 궁금합니다\n\n## 기타사항\n- 국가보훈대상자 및 국가등록장애인은 관련 법에 의거하여 우대됩니다. (증빙 서류 제출 필요)\n- 경영진 면접 전형 및 신체검사 후 통과하신 분에 한하여 최종 입사자격이 부여됩니다.\n- 지원서 작성 내용이 사실과 다르거나 증빙할 수 없을 경우, 합격(입사)이 취소됩니다.\n- 전체 채용일정 종료 후 지원자 본인이 직접 제출한 서류(온라인 제출 외)에 대해 반환 청구가 가능합니다."
+    "content_path": "content/5617798beb502abdf3b5e607.md",
+    "content_version": "50f0b4831dc09957"
   },
   {
     "id": "두산로보틱스_두산_2609_로봇_인버터_개발",
@@ -2966,7 +3120,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 인버터 개발\n\n> 26/9 신입채용\n\n## 수행 업무\n로봇 인버터 개발\n\n## 전공\n기계, 전기전자, 컴퓨터공학, 제어공학, 로봇공학 관련학과 및 경험\n\n## 자격\n석사학위 취득(예정) 이상 지원 가능\n\n\n\n## 자격요건\n\n* 정규 4년제 대학교(이상) 졸업자 및 '27년 2월 졸업예정자\n* 모집분야 관련 전공/자격요건 이외에도 동일 전문성을 갖추고 있는 자는 지원 가능\n* 어학 : 지원서 제출 마감일 기준 2년 이내 취득한 공인영어성적 보유자\n- TOEIC Speaking 또는 OPIc : 인문 IM(Intermediate Mid), 이공 IL(Intermediate Low)등급 이상\n* 병역필 또는 면제자, 해외 근무에 결격사유 없는 자\n\n## 전형 절차\n\n* 전형단계 : 입사지원서(DBS) ▶ DCAT ▶ 실무 면접 ▶ 경영진 면접 ▶ 최종 입사\n\n※ 전형내용 및 채용일정은 회사 사정과 운영상황에 따라 변경될 수 있습니다.\n※ 채용검진은 각 회사 일정에 따라 진행됩니다.\n- **입사지원**: 2026.09.01 ~ 2026.09.21 18시까지\n- **DCAT**: 10월 중\n- **실무 면접**: 10월 ~ 11월 중\n- **경영진 면접**: 12월 중\n- **최종 입사**: '26년 12월 ~ '27년 1월 중\n\n## 접수 방법\n\n* 접수기간 : 2026년 9월 1일(화)~2026년 9월 21일(월) 18:00\n* 접수방법 : 채용홈페이지 커리어두산(https://career.doosan.com/)을 통한 온라인 접수\n\n※ 마감 이후에는 지원서 접수가 불가하오니 기간 내 지원을 완료해 주시기 바랍니다.\n※ 입사지원서 작성 시 DBS(Doosan Biodata Survey)를 반드시 응시하여야 합니다.\n\n## 진행 상태\n\n접수중(~ 2026.09.21)\n\n\n**문의처**: - 커리어두산 - 입사지원하기 - FAQ 게시판 - 궁금합니다\n\n## 기타사항\n- 국가보훈대상자 및 국가등록장애인은 관련 법에 의거하여 우대됩니다. (증빙 서류 제출 필요)\n- 경영진 면접 전형 및 신체검사 후 통과하신 분에 한하여 최종 입사자격이 부여됩니다.\n- 지원서 작성 내용이 사실과 다르거나 증빙할 수 없을 경우, 합격(입사)이 취소됩니다.\n- 전체 채용일정 종료 후 지원자 본인이 직접 제출한 서류(온라인 제출 외)에 대해 반환 청구가 가능합니다."
+    "content_path": "content/ff66a052e9259b34d49d3e4f.md",
+    "content_version": "334b89e6253aecb6"
   },
   {
     "id": "두산로보틱스_두산_2609_로봇_컨트롤",
@@ -2986,7 +3141,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 컨트롤\n\n> 26/9 신입채용\n\n## 수행 업무\n로봇 컨트롤\n\n## 전공\n기계, 전기전자, 컴퓨터공학, 제어공학, 로봇공학 관련학과 및 경험\n\n## 자격\n석사학위 취득(예정) 이상 지원 가능\n\n## 자격요건\n\n* 정규 4년제 대학교(이상) 졸업자 및 '27년 2월 졸업예정자\n* 모집분야 관련 전공/자격요건 이외에도 동일 전문성을 갖추고 있는 자는 지원 가능\n* 어학 : 지원서 제출 마감일 기준 2년 이내 취득한 공인영어성적 보유자\n- TOEIC Speaking 또는 OPIc : 인문 IM(Intermediate Mid), 이공 IL(Intermediate Low)등급 이상\n* 병역필 또는 면제자, 해외 근무에 결격사유 없는 자\n\n## 전형 절차\n\n* 전형단계 : 입사지원서(DBS) ▶ DCAT ▶ 실무 면접 ▶ 경영진 면접 ▶ 최종 입사\n\n※ 전형내용 및 채용일정은 회사 사정과 운영상황에 따라 변경될 수 있습니다.\n※ 채용검진은 각 회사 일정에 따라 진행됩니다.\n- **입사지원**: 2026.09.01 ~ 2026.09.21 18시까지\n- **DCAT**: 10월 중\n- **실무 면접**: 10월 ~ 11월 중\n- **경영진 면접**: 12월 중\n- **최종 입사**: '26년 12월 ~ '27년 1월 중\n\n## 접수 방법\n\n* 접수기간 : 2026년 9월 1일(화)~2026년 9월 21일(월) 18:00\n* 접수방법 : 채용홈페이지 커리어두산(https://career.doosan.com/)을 통한 온라인 접수\n\n※ 마감 이후에는 지원서 접수가 불가하오니 기간 내 지원을 완료해 주시기 바랍니다.\n※ 입사지원서 작성 시 DBS(Doosan Biodata Survey)를 반드시 응시하여야 합니다.\n\n## 진행 상태\n\n접수중(~ 2026.09.21)\n\n\n**문의처**: - 커리어두산 - 입사지원하기 - FAQ 게시판 - 궁금합니다\n\n## 기타사항\n- 국가보훈대상자 및 국가등록장애인은 관련 법에 의거하여 우대됩니다. (증빙 서류 제출 필요)\n- 경영진 면접 전형 및 신체검사 후 통과하신 분에 한하여 최종 입사자격이 부여됩니다.\n- 지원서 작성 내용이 사실과 다르거나 증빙할 수 없을 경우, 합격(입사)이 취소됩니다.\n- 전체 채용일정 종료 후 지원자 본인이 직접 제출한 서류(온라인 제출 외)에 대해 반환 청구가 가능합니다."
+    "content_path": "content/f2526b1bd042d52f612b7023.md",
+    "content_version": "881015144c2f96fc"
   },
   {
     "id": "두산로보틱스_두산_2609_영업_서비스_기술지원",
@@ -3007,7 +3163,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 영업 서비스 기술지원\n\n> 26/9 신입채용\n\n## 수행 업무\n영업/서비스 기술지원\n\n## 전공\n기계, 전기전자, 컴퓨터공학, 제어공학, 로봇공학 관련학과 및 경험\n\n\n## 자격요건\n\n* 정규 4년제 대학교(이상) 졸업자 및 '27년 2월 졸업예정자\n* 모집분야 관련 전공/자격요건 이외에도 동일 전문성을 갖추고 있는 자는 지원 가능\n* 어학 : 지원서 제출 마감일 기준 2년 이내 취득한 공인영어성적 보유자\n- TOEIC Speaking 또는 OPIc : 인문 IM(Intermediate Mid), 이공 IL(Intermediate Low)등급 이상\n* 병역필 또는 면제자, 해외 근무에 결격사유 없는 자\n\n## 전형 절차\n\n* 전형단계 : 입사지원서(DBS) ▶ DCAT ▶ 실무 면접 ▶ 경영진 면접 ▶ 최종 입사\n\n※ 전형내용 및 채용일정은 회사 사정과 운영상황에 따라 변경될 수 있습니다.\n※ 채용검진은 각 회사 일정에 따라 진행됩니다.\n- **입사지원**: 2026.09.01 ~ 2026.09.21 18시까지\n- **DCAT**: 10월 중\n- **실무 면접**: 10월 ~ 11월 중\n- **경영진 면접**: 12월 중\n- **최종 입사**: '26년 12월 ~ '27년 1월 중\n\n## 접수 방법\n\n* 접수기간 : 2026년 9월 1일(화)~2026년 9월 21일(월) 18:00\n* 접수방법 : 채용홈페이지 커리어두산(https://career.doosan.com/)을 통한 온라인 접수\n\n※ 마감 이후에는 지원서 접수가 불가하오니 기간 내 지원을 완료해 주시기 바랍니다.\n※ 입사지원서 작성 시 DBS(Doosan Biodata Survey)를 반드시 응시하여야 합니다.\n\n## 진행 상태\n\n접수중(~ 2026.09.21)\n\n\n**문의처**: - 커리어두산 - 입사지원하기 - FAQ 게시판 - 궁금합니다\n\n## 기타사항\n- 국가보훈대상자 및 국가등록장애인은 관련 법에 의거하여 우대됩니다. (증빙 서류 제출 필요)\n- 경영진 면접 전형 및 신체검사 후 통과하신 분에 한하여 최종 입사자격이 부여됩니다.\n- 지원서 작성 내용이 사실과 다르거나 증빙할 수 없을 경우, 합격(입사)이 취소됩니다.\n- 전체 채용일정 종료 후 지원자 본인이 직접 제출한 서류(온라인 제출 외)에 대해 반환 청구가 가능합니다."
+    "content_path": "content/a8c744a324e35969fd952b19.md",
+    "content_version": "46648b052f11e979"
   },
   {
     "id": "두산로보틱스_두산_2609_품질관리",
@@ -3027,7 +3184,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 품질관리\n\n> 26/9 신입채용\n\n## 수행 업무\n품질 관리\n\n## 전공\n기계, 전기전자, 컴퓨터공학, 제어공학, 로봇공학 관련학과 및 경험\n\n근무지 : 수원\n\n\n## 자격요건\n\n* 정규 4년제 대학교(이상) 졸업자 및 '27년 2월 졸업예정자\n* 모집분야 관련 전공/자격요건 이외에도 동일 전문성을 갖추고 있는 자는 지원 가능\n* 어학 : 지원서 제출 마감일 기준 2년 이내 취득한 공인영어성적 보유자\n- TOEIC Speaking 또는 OPIc : 인문 IM(Intermediate Mid), 이공 IL(Intermediate Low)등급 이상\n* 병역필 또는 면제자, 해외 근무에 결격사유 없는 자\n\n## 전형 절차\n\n* 전형단계 : 입사지원서(DBS) ▶ DCAT ▶ 실무 면접 ▶ 경영진 면접 ▶ 최종 입사\n\n※ 전형내용 및 채용일정은 회사 사정과 운영상황에 따라 변경될 수 있습니다.\n※ 채용검진은 각 회사 일정에 따라 진행됩니다.\n- **입사지원**: 2026.09.01 ~ 2026.09.21 18시까지\n- **DCAT**: 10월 중\n- **실무 면접**: 10월 ~ 11월 중\n- **경영진 면접**: 12월 중\n- **최종 입사**: '26년 12월 ~ '27년 1월 중\n\n## 접수 방법\n\n* 접수기간 : 2026년 9월 1일(화)~2026년 9월 21일(월) 18:00\n* 접수방법 : 채용홈페이지 커리어두산(https://career.doosan.com/)을 통한 온라인 접수\n\n※ 마감 이후에는 지원서 접수가 불가하오니 기간 내 지원을 완료해 주시기 바랍니다.\n※ 입사지원서 작성 시 DBS(Doosan Biodata Survey)를 반드시 응시하여야 합니다.\n\n## 진행 상태\n\n접수중(~ 2026.09.21)\n\n\n**문의처**: - 커리어두산 - 입사지원하기 - FAQ 게시판 - 궁금합니다\n\n## 기타사항\n- 국가보훈대상자 및 국가등록장애인은 관련 법에 의거하여 우대됩니다. (증빙 서류 제출 필요)\n- 경영진 면접 전형 및 신체검사 후 통과하신 분에 한하여 최종 입사자격이 부여됩니다.\n- 지원서 작성 내용이 사실과 다르거나 증빙할 수 없을 경우, 합격(입사)이 취소됩니다.\n- 전체 채용일정 종료 후 지원자 본인이 직접 제출한 서류(온라인 제출 외)에 대해 반환 청구가 가능합니다."
+    "content_path": "content/d9f6ce260e1417b909492e6c.md",
+    "content_version": "6ec700e17a14349d"
   },
   {
     "id": "로보티즈__로보티즈_소개",
@@ -3043,7 +3201,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 로보티즈 소개\n국내 대표 로봇 액추에이터 및 지능형 로봇 플랫폼 전문 기업\n(근무지: 서울 마곡 R&D 캠퍼스)\n\n## 주요 개발 분야\n다이내믹셀(DYNAMIXEL) 액추에이터, Physical AI, 휴머노이드, 모바일 매니퓰레이터, 로봇 핸드, 자율주행 배송로봇(개미)\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접 -> 2차 임원면접\n(직무에 따라 실무 면접 시 기술 과제 발표 및 과제 전형 진행)\n\n## 참고\n- 스마트 관절 모듈인 DYNAMIXEL(다이내믹셀) 액추에이터 글로벌 시장 점유율 독보적\n- ROS/ROS2 생태계 활성화 중심 기업으로, 교육용/연구용 로봇 플랫폼 인지도 및 파급력 매우 높음\n- 자체 개발한 배송 로봇 '개미'를 통해 실외 자율주행 로봇 상용화 선도 중"
+    "content_path": "content/db928679e29a4cb8bc0ae377.md",
+    "content_version": "1e568f94cb24e67d"
   },
   {
     "id": "로보티즈_로보티즈_2600_AI_로봇_데이터_Curation",
@@ -3063,7 +3222,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI 로봇 데이터 Curation 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 로봇 학습에 사용할 시연, 주행, 조작 데이터를 수집하고 품질을 관리합니다.\n- 실패 사례, 이상치, 중복 데이터를 분류하고 학습에 적합한 데이터셋으로 정제합니다.\n- 데이터 라벨링 기준, 버전 관리, 품질 지표를 설계하여 학습 파이프라인과 연결합니다.\n- 연구원 및 엔지니어와 협업하여 모델 성능 개선에 필요한 데이터 요구사항을 정의합니다.\n\n## 지원자격\n- Python 기반 데이터 처리 및 분석 경험이 필요합니다.\n- 이미지, 센서, 로봇 로그 등 비정형 데이터를 다뤄본 경험이 있으면 적합합니다.\n- ML 데이터셋 구조, 라벨링, 검수 프로세스에 대한 이해가 필요합니다.\n\n## 우대사항\n- 로봇, 자율주행, 비전 AI 데이터 구축 경험\n- MLOps, DataOps, 데이터 버전 관리 도구 활용 경험\n- ROS/ROS2 bag, 카메라, LiDAR, IMU 데이터 처리 경험"
+    "content_path": "content/af39da41b2212d62adc79f7e.md",
+    "content_version": "b8473b525725e27a"
   },
   {
     "id": "로보티즈_로보티즈_2600_HD_Map",
@@ -3082,7 +3242,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# HD Map 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 실내외 자율주행 로봇 운용을 위한 정밀 지도 데이터를 구축하고 관리합니다.\n- 주행 가능 영역, 차선/보행로, 장애물, POI 등 로봇 운행에 필요한 지도 요소를 정의합니다.\n- SLAM, Localization, Navigation 시스템에서 활용 가능한 지도 포맷과 갱신 절차를 설계합니다.\n- 현장 주행 데이터와 지도 데이터를 비교하여 지도 정확도와 운용 안정성을 개선합니다.\n\n## 지원자격\n- 지도 제작, 공간정보, 로봇 자율주행 중 하나 이상의 경험이 필요합니다.\n- 좌표계, 센서 캘리브레이션, 지도 데이터 구조에 대한 이해가 필요합니다.\n- Python 또는 C++ 기반 데이터 처리 경험이 있으면 적합합니다.\n\n## 우대사항\n- LiDAR/Camera 기반 Mapping 또는 SLAM 경험\n- ROS/ROS2 Navigation Stack 활용 경험\n- GIS, HD Map, 자율주행 지도 구축 프로젝트 경험"
+    "content_path": "content/746d721c5c0bacbd92247066.md",
+    "content_version": "00c5d25138cf1559"
   },
   {
     "id": "로보티즈_로보티즈_2600_로봇_주행지도_Map_",
@@ -3101,7 +3262,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 주행지도(Map) 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 모바일 로봇의 주행 경로 계획과 위치 추정을 위한 지도 데이터를 구축합니다.\n- 현장 환경을 분석하여 로봇이 이동 가능한 영역, 제한 구역, 충전 위치 등을 정의합니다.\n- 지도 생성, 편집, 검증 도구를 운영하고 주행 품질을 개선합니다.\n- 주행 로그를 기반으로 지도 오류와 위치 추정 문제를 분석합니다.\n\n## 지원자격\n- 모바일 로봇, SLAM, Navigation 관련 기본 지식이 필요합니다.\n- 지도 데이터 처리와 현장 테스트를 수행할 수 있는 문제 해결 능력이 필요합니다.\n- Linux, Python, ROS/ROS2 환경에 익숙하면 적합합니다.\n\n## 우대사항\n- 실내외 배송로봇 또는 AMR 지도 구축 경험\n- LiDAR SLAM, Visual SLAM, Localization 튜닝 경험\n- 현장 실증 및 로봇 운영 데이터 분석 경험"
+    "content_path": "content/828753f446b0bff3381c05c7.md",
+    "content_version": "e7c1adbe1f56c675"
   },
   {
     "id": "로보티즈_로보티즈_2600_로봇_플랫폼_기구설계",
@@ -3120,7 +3282,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 플랫폼 기구설계\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드, 모바일 로봇, 매니퓰레이터 플랫폼의 기구 구조를 설계합니다.\n- 프레임, 관절, 구동부, 센서 장착 구조를 제품 요구사항에 맞춰 구체화합니다.\n- 3D CAD 기반 설계, 시제품 제작, 조립성 검토, 시험 개선을 수행합니다.\n- 제어, 전장, 생산 부문과 협업하여 양산 가능한 구조로 설계를 고도화합니다.\n\n## 지원자격\n- 기계공학 또는 로봇 기구설계 관련 지식이 필요합니다.\n- 3D CAD를 활용한 부품/조립체 설계 경험이 필요합니다.\n- 구동기, 베어링, 감속기, 하우징 등 기계요소에 대한 이해가 필요합니다.\n\n## 우대사항\n- 휴머노이드, 매니퓰레이터, 모바일 로봇 설계 경험\n- 동역학/강성/열/내구 해석 경험\n- 시제품 제작, 시험평가, 양산 이관 경험"
+    "content_path": "content/862bc71d78253d489e9acf75.md",
+    "content_version": "8d11305223bbd59d"
   },
   {
     "id": "로보티즈_로보티즈_2600_로봇용_액추에이터_기구설계_및_감속기_개발",
@@ -3139,7 +3302,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇용 액추에이터 기구설계 및 감속기 개발\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 로봇 관절에 사용되는 액추에이터와 감속기 기구를 설계합니다.\n- 토크, 백래시, 효율, 내구성 요구사항을 반영하여 구동 모듈 구조를 개발합니다.\n- 시제품 제작 후 성능, 소음, 열, 수명 특성을 시험하고 개선합니다.\n- 로봇 플랫폼 적용을 고려해 소형화, 경량화, 조립성, 양산성을 검토합니다.\n\n## 지원자격\n- 기계요소설계, 동력전달장치, 정밀기구 설계 경험이 필요합니다.\n- 모터, 감속기, 베어링, 센서 일체형 구동 모듈에 대한 이해가 필요합니다.\n- CAD 기반 상세 설계와 도면화 역량이 필요합니다.\n\n## 우대사항\n- 하모닉/유성/사이클로이드 등 감속기 설계 경험\n- 로봇 액추에이터, 서보 모듈, DYNAMIXEL 관련 경험\n- 내구 시험, 성능 검증, 양산 설계 경험"
+    "content_path": "content/1cf736044230f30c2e15a179.md",
+    "content_version": "06cd0c5516afc91f"
   },
   {
     "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_Sim-to-Real",
@@ -3159,7 +3323,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 배송로봇 Manipulation Sim-to-Real 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 배송로봇 매니퓰레이션 작업을 시뮬레이션에서 학습하고 실제 로봇에 적용합니다.\n- 물체 파지, 문/버튼/엘리베이터 조작 등 실제 환경 태스크를 모델링합니다.\n- 도메인 랜덤화, 센서 노이즈, 물리 파라미터 튜닝을 통해 Sim-to-Real 성능을 개선합니다.\n- 실험 데이터를 분석하여 정책, 제어기, 시뮬레이션 모델을 반복 개선합니다.\n\n## 지원자격\n- 로봇 매니퓰레이션, 강화학습, 모방학습 중 하나 이상의 경험이 필요합니다.\n- Isaac Sim/Lab, MuJoCo, PyBullet 등 물리 시뮬레이터 활용 경험이 있으면 적합합니다.\n- Python, C++, ROS/ROS2 기반 실험 구현 역량이 필요합니다.\n\n## 우대사항\n- 실제 로봇 팔 또는 모바일 매니퓰레이터 실험 경험\n- 정책 학습, reward 설계, domain randomization 경험\n- 비전/힘 센서 기반 조작 태스크 개발 경험"
+    "content_path": "content/fb30b61a87d81cd06464dd87.md",
+    "content_version": "1faccec692c2635b"
   },
   {
     "id": "로보티즈_로보티즈_2600_배송로봇_Manipulation_VLA_RFM_선행",
@@ -3178,7 +3343,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 배송로봇 Manipulation VLA/RFM 선행연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 배송로봇의 조작 작업에 VLA, RFM 등 로봇 파운데이션 모델을 적용합니다.\n- 언어 명령, 시각 정보, 로봇 상태를 행동으로 연결하는 정책 모델을 연구합니다.\n- 데이터 수집, 사전학습, 파인튜닝, 평가 체계를 설계합니다.\n- 기존 제어/인식 시스템과 상위 AI 정책을 통합하여 실제 태스크 성공률을 높입니다.\n\n## 지원자격\n- 딥러닝, 로봇학습, 멀티모달 모델 중 하나 이상의 연구/개발 경험이 필요합니다.\n- PyTorch 기반 모델 학습과 실험 관리 경험이 필요합니다.\n- 로봇 조작 문제와 데이터 기반 정책 학습에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- VLA, RFM, imitation learning, reinforcement learning 경험\n- 로봇 데이터셋 구축 및 policy evaluation 경험\n- 실제 로봇 또는 시뮬레이터 기반 manipulation 연구 경험"
+    "content_path": "content/6774a01f02ec25e66b870a1b.md",
+    "content_version": "52fff91e44220a4c"
   },
   {
     "id": "로보티즈_로보티즈_2600_배송로봇_매니퓰레이터_제어_시스템",
@@ -3197,7 +3363,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 배송로봇 매니퓰레이터 제어 시스템 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 배송로봇에 탑재되는 매니퓰레이터의 동역학 모델링과 제어기를 설계합니다.\n- 힘 제어, 임피던스/어드미턴스 제어 등 접촉 상황을 고려한 안전 제어를 구현합니다.\n- LiDAR, 카메라, F/T 센서 등 다중 센서 정보를 활용해 조작 안정성을 높입니다.\n- ROS2 기반 저지연 제어 루프와 상위 AI 정책 연동 구조를 개발합니다.\n\n## 지원자격\n- 로봇공학, 제어, 전자, 기계, 컴퓨터 관련 전공 또는 동등한 역량이 필요합니다.\n- 로봇 동역학/제어 이론과 ROS2 기반 개발 경험이 필요합니다.\n- C++/Python, Linux 기반 실험 및 디버깅 역량이 필요합니다.\n\n## 우대사항\n- 모바일 매니퓰레이터, 다이나믹셀, QDD 액추에이터 제어 경험\n- RTOS, CAN, EtherCAT 등 실시간/산업용 통신 경험\n- ICRA, IROS 등 로봇 분야 연구 실적 또는 실기체 적용 경험"
+    "content_path": "content/adddfca6cf4c0758fb8da066.md",
+    "content_version": "5133c13a37c91fb9"
   },
   {
     "id": "로보티즈_로보티즈_2600_서비스_및_인프라_웹",
@@ -3216,7 +3383,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 서비스 및 인프라 웹 개발자\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 웹 기반 서비스, 관리 시스템, 사내 업무 시스템을 개발하고 운영합니다.\n- PHP, JavaScript 기반 기능 구현과 API 연동을 수행합니다.\n- 클라우드 서버, Linux 인프라, 데이터베이스 운영 환경을 관리합니다.\n- 로봇 서비스 운영에 필요한 관리자 도구와 데이터 조회 기능을 개선합니다.\n\n## 지원자격\n- PHP와 JavaScript를 활용한 웹 개발 경험이 필요합니다.\n- REST API 설계, DBMS 운영, 쿼리 최적화 경험이 필요합니다.\n- Linux 서버와 웹 서비스 배포 구조에 대한 이해가 필요합니다.\n\n## 우대사항\n- AWS 또는 클라우드 인프라 구축/운영 경험\n- ERP, 쇼핑몰, 기업용 관리 시스템 개발 경험\n- AI Agent 또는 로봇 서비스와 웹 시스템 연동 경험"
+    "content_path": "content/0dfab4be2b62abac4e413d17.md",
+    "content_version": "2075600d41983edd"
   },
   {
     "id": "로보티즈_로보티즈_2600_세미휴머노이드_필드",
@@ -3235,7 +3403,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 세미휴머노이드 필드엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 세미휴머노이드 로봇의 현장 설치, 테스트, 유지보수 업무를 수행합니다.\n- 하드웨어 조립 상태, 센서/액추에이터 동작, 소프트웨어 설정을 점검합니다.\n- 고객 또는 실증 현장에서 발생하는 이슈를 분석하고 개발팀에 피드백합니다.\n- 로봇 운용 매뉴얼, 점검 절차, 장애 대응 프로세스를 개선합니다.\n\n## 지원자격\n- 로봇, 기계, 전자, 소프트웨어 중 하나 이상의 기본 이해가 필요합니다.\n- 현장 테스트와 문제 해결을 꼼꼼하게 수행할 수 있어야 합니다.\n- Linux, 네트워크, 간단한 스크립트 활용 경험이 있으면 적합합니다.\n\n## 우대사항\n- 로봇 필드 테스트, A/S, 기술지원 경험\n- ROS/ROS2, DYNAMIXEL, 센서/액추에이터 점검 경험\n- 고객 대응 및 현장 실증 프로젝트 경험"
+    "content_path": "content/d555fce53698f7fc44277d11.md",
+    "content_version": "76ccf174cdac63fc"
   },
   {
     "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일_로봇_Perception__신입_경력_",
@@ -3256,7 +3425,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 실내외 자율주행 모바일 로봇 Perception 엔지니어 (신입/경력)\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 실내외 자율주행 로봇의 객체 인식, 장애물 인식, 주행 환경 이해 기능을 개발합니다.\n- 카메라, LiDAR, IMU 등 센서 데이터를 융합하여 주행 판단에 필요한 정보를 제공합니다.\n- 딥러닝 기반 인식 모델을 학습, 평가, 최적화하고 로봇 시스템에 배포합니다.\n- 현장 주행 데이터를 분석하여 오탐, 미탐, 환경 변화 대응 성능을 개선합니다.\n\n## 지원자격\n- 컴퓨터비전, 딥러닝, 로봇 Perception 중 하나 이상의 경험이 필요합니다.\n- Python/C++ 기반 모델 개발 및 데이터 처리 경험이 필요합니다.\n- 신입은 관련 프로젝트 경험, 경력은 실서비스 또는 실기체 적용 경험이 있으면 적합합니다.\n\n## 우대사항\n- Object Detection, Segmentation, Tracking, 3D Perception 경험\n- ROS/ROS2 기반 센서 파이프라인 개발 경험\n- TensorRT, ONNX 등 모델 최적화 및 온디바이스 배포 경험"
+    "content_path": "content/b353bb2e7ded790eb1d5a64c.md",
+    "content_version": "92c50c4987b12316"
   },
   {
     "id": "로보티즈_로보티즈_2600_실내외_자율주행_모바일로봇_Perception",
@@ -3276,7 +3446,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 실내외 자율주행 모바일로봇 Perception 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 모바일 로봇의 주행 환경 인식을 위한 비전/센서 처리 알고리즘을 개발합니다.\n- 보행자, 차량, 장애물, 주행 가능 영역을 인식하는 모델과 파이프라인을 구현합니다.\n- 다양한 조명, 날씨, 실내외 환경 변화에 강건한 인식 성능을 확보합니다.\n- 자율주행 스택과 연동하여 perception 결과의 실시간성과 안정성을 개선합니다.\n\n## 지원자격\n- 딥러닝 기반 컴퓨터비전 또는 로봇 센서 처리 경험이 필요합니다.\n- Python, C++, Linux 기반 개발 경험이 필요합니다.\n- 카메라/LiDAR 데이터 처리와 성능 평가 경험이 있으면 적합합니다.\n\n## 우대사항\n- ROS/ROS2, OpenCV, PyTorch 활용 경험\n- 2D/3D Detection, Segmentation, Sensor Fusion 경험\n- 실외 배송로봇 또는 AMR perception 개발 경험"
+    "content_path": "content/4ffe320840bcbc3df6bd8e2a.md",
+    "content_version": "a9036876f1b064b2"
   },
   {
     "id": "로보티즈_로보티즈_2600_자율주행로봇_시스템_Backend_개발",
@@ -3295,7 +3466,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 자율주행로봇 시스템 Backend 개발\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 자율주행 로봇 관제, 운영, 데이터 수집을 위한 백엔드 시스템을 개발합니다.\n- 로봇 상태, 주행 로그, 미션, 지도, 사용자 요청을 처리하는 API를 설계합니다.\n- 로봇과 서버 간 통신 안정성, 장애 대응, 데이터 저장 구조를 개선합니다.\n- 운영자 도구와 서비스 플랫폼이 사용할 수 있는 서버 기능을 제공합니다.\n\n## 지원자격\n- 백엔드 서버 개발 및 API 설계 경험이 필요합니다.\n- 데이터베이스, 메시징, 인증, 로그 처리 등 서비스 운영 기본기가 필요합니다.\n- 로봇 또는 IoT 디바이스와 연동되는 시스템 구조에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- 로봇 관제 시스템, fleet management, IoT backend 개발 경험\n- Docker, Kubernetes, 클라우드 인프라 운영 경험\n- 실시간 통신, MQTT/WebSocket/gRPC 활용 경험"
+    "content_path": "content/f8c1fbccd2c50b2aa1733bfe.md",
+    "content_version": "70f597de84705339"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_Localization",
@@ -3314,7 +3486,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 Localization 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 자기 위치 추정 알고리즘을 개발합니다.\n- 카메라, IMU, LiDAR, 관절 상태 등 다양한 센서 정보를 융합합니다.\n- 보행 중 흔들림, 동적 환경, 센서 노이즈에 강건한 추정 성능을 확보합니다.\n- Navigation, Perception, Control 모듈과 위치 정보를 연동합니다.\n\n## 지원자격\n- Localization, SLAM, State Estimation 관련 경험이 필요합니다.\n- 확률 필터, 최적화, 좌표계 변환에 대한 이해가 필요합니다.\n- C++/Python, ROS/ROS2 기반 로봇 개발 경험이 있으면 적합합니다.\n\n## 우대사항\n- Visual-Inertial Odometry, LiDAR Localization, Sensor Fusion 경험\n- 휴머노이드 또는 이동 로봇 실기체 적용 경험\n- GTSAM, Ceres, Eigen 등 최적화/수치계산 라이브러리 활용 경험"
+    "content_path": "content/e8b28a91c4016a215007907f.md",
+    "content_version": "5896659da6518542"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_Navigation",
@@ -3333,7 +3506,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 Navigation 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇이 실내외 공간을 이동하기 위한 경로 계획 및 주행 판단 기능을 개발합니다.\n- 보행 제어, 장애물 회피, 위치 추정, 지도 정보를 연동한 navigation stack을 구성합니다.\n- 사람 환경에서 안전하게 이동하기 위한 local planning과 recovery 동작을 설계합니다.\n- 시뮬레이션과 실제 로봇 테스트를 통해 이동 성능과 안정성을 개선합니다.\n\n## 지원자격\n- 로봇 Navigation, Path Planning, Motion Planning 경험이 필요합니다.\n- ROS/ROS2 기반 navigation stack 이해와 개발 경험이 있으면 적합합니다.\n- C++/Python 기반 알고리즘 구현 능력이 필요합니다.\n\n## 우대사항\n- Nav2, SLAM, Localization, Costmap 튜닝 경험\n- 휴머노이드 보행 제어와 경로 계획 연동 경험\n- 동적 장애물 회피, 사람 밀집 환경 주행 경험"
+    "content_path": "content/3e467578c163c2a8ee664f6e.md",
+    "content_version": "ed67e560be44788a"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_Perception___Manipulation",
@@ -3352,7 +3526,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 Perception & Manipulation 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드가 물체와 작업 환경을 인식하고 조작할 수 있는 통합 기능을 개발합니다.\n- 객체 인식, 자세 추정, 파지점 계산, 조작 경로 생성 기능을 연결합니다.\n- 로봇 팔, 핸드, 비전 센서를 연동하여 pick-and-place와 정밀 조작 태스크를 구현합니다.\n- 실제 환경 테스트를 통해 인식-조작 연동 실패 원인을 분석하고 개선합니다.\n\n## 지원자격\n- 컴퓨터비전, 로봇 매니퓰레이션, motion planning 중 하나 이상의 경험이 필요합니다.\n- ROS/ROS2, Python/C++ 기반 로봇 시스템 개발 경험이 필요합니다.\n- 좌표계, 캘리브레이션, 센서-로봇 연동에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- 6D Pose Estimation, Visual Servoing, Grasp Planning 경험\n- MoveIt, ros2_control, 로봇 핸드/팔 연동 경험\n- 딥러닝 모델의 온디바이스 배포 및 최적화 경험"
+    "content_path": "content/0587fe051fdbb76af854e8de.md",
+    "content_version": "15d0dcca3e446f62"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_강화학습",
@@ -3371,7 +3546,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 강화학습 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 보행, 균형, 조작 동작을 위한 강화학습 정책을 개발합니다.\n- observation, action, reward, termination 조건을 설계하고 학습 안정성을 개선합니다.\n- 시뮬레이터 기반 대규모 학습과 실제 로봇 적용을 위한 Sim-to-Real 전략을 수립합니다.\n- 학습 결과를 제어 시스템과 통합하고 실기체 테스트로 성능을 검증합니다.\n\n## 지원자격\n- Reinforcement Learning, 로봇 제어, 물리 시뮬레이션 경험이 필요합니다.\n- PyTorch 기반 학습 코드 구현과 실험 분석 역량이 필요합니다.\n- 로봇 운동학/동역학 또는 제어 이론에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- Isaac Gym/Lab, MuJoCo, Legged Gym 등 활용 경험\n- 휴머노이드/족형 로봇 보행 정책 개발 경험\n- Domain Randomization, Policy Distillation, Sim-to-Real 경험"
+    "content_path": "content/86cb8db0824f3f31573b18dd.md",
+    "content_version": "764dd1fa6603f185"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_네비게이션",
@@ -3390,7 +3566,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 네비게이션 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 이동 목표 설정, 경로 계획, 장애물 회피 알고리즘을 연구합니다.\n- 보행 가능한 지형과 이동 제약을 고려한 휴머노이드 특화 navigation 기능을 개발합니다.\n- Perception, Localization, Control 모듈과 navigation 결과를 연동합니다.\n- 시뮬레이션 및 실제 환경에서 이동 실패 케이스를 분석하고 개선합니다.\n\n## 지원자격\n- 로봇 navigation, path planning, motion planning 관련 연구/개발 경험이 필요합니다.\n- ROS/ROS2 기반 시스템 통합과 C++/Python 구현 역량이 필요합니다.\n- 확률적 계획, 최적화, 그래프 탐색 알고리즘에 대한 이해가 있으면 적합합니다.\n\n## 우대사항\n- 휴머노이드 또는 이동 로봇 navigation 연구 경험\n- Nav2, SLAM, Costmap, Behavior Tree 활용 경험\n- 동적 환경, 사람-로봇 공존 공간에서의 이동 계획 경험"
+    "content_path": "content/6b6a5eaaec20affa8124379a.md",
+    "content_version": "c277fe53028fcb01"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_로컬라이제이션",
@@ -3409,7 +3586,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 로컬라이제이션 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 위치, 자세, 상태를 추정하는 알고리즘을 연구합니다.\n- 보행 충격과 센서 노이즈가 있는 상황에서도 안정적인 state estimation을 구현합니다.\n- 카메라, IMU, LiDAR, 관절 센서 데이터를 융합하여 위치 추정 정확도를 높입니다.\n- Navigation 및 Control 모듈과 추정 결과를 실시간으로 연동합니다.\n\n## 지원자격\n- SLAM, Localization, Sensor Fusion, State Estimation 경험이 필요합니다.\n- 수학적 모델링, 확률 필터, 최적화 기반 추정에 대한 이해가 필요합니다.\n- C++/Python, ROS/ROS2 환경에서 실험을 수행할 수 있어야 합니다.\n\n## 우대사항\n- VIO, LiDAR SLAM, factor graph 기반 추정 경험\n- 휴머노이드/족형 로봇의 동적 상태 추정 경험\n- 실기체 데이터 기반 캘리브레이션 및 디버깅 경험"
+    "content_path": "content/21dc6cc68575b143f21321d2.md",
+    "content_version": "503ba5fde242e835"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습",
@@ -3428,7 +3606,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 모방학습 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 사람 시연 데이터나 원격조작 데이터를 활용해 휴머노이드 행동 정책을 학습합니다.\n- 데이터 수집, 정제, 행동 라벨링, policy learning 파이프라인을 구축합니다.\n- 보행, 조작, 양팔 작업 등 휴머노이드 태스크에 적합한 imitation learning 모델을 개발합니다.\n- 실제 로봇 적용 결과를 분석하여 데이터와 모델을 반복 개선합니다.\n\n## 지원자격\n- Imitation Learning, Behavior Cloning, 로봇 학습 경험이 필요합니다.\n- PyTorch 기반 모델 학습과 데이터 처리 경험이 필요합니다.\n- 로봇 제어, 센서 데이터, 시뮬레이터 중 하나 이상의 이해가 있으면 적합합니다.\n\n## 우대사항\n- Teleoperation, motion retargeting, human demonstration 데이터 활용 경험\n- Diffusion Policy, ACT, VLA 등 로봇 정책 모델 경험\n- 휴머노이드 또는 매니퓰레이터 실기체 적용 경험"
+    "content_path": "content/5c8f55e10cd308bcd9cd6a0c.md",
+    "content_version": "0d17696e4f92368f"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_모방학습_2",
@@ -3447,7 +3626,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 모방학습 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드가 사람 동작과 작업 절차를 학습할 수 있도록 모방학습 알고리즘을 연구합니다.\n- 시연 데이터 수집 방식, 데이터 품질 기준, 학습 목표를 설계합니다.\n- 행동 정책 모델을 학습하고 다양한 태스크에서 일반화 성능을 평가합니다.\n- 강화학습, VLA, teleoperation 시스템과 연계하여 성능을 개선합니다.\n\n## 지원자격\n- 로봇학습, 모방학습, 딥러닝 연구 경험이 필요합니다.\n- Python/PyTorch 기반 실험 구현과 논문 기반 알고리즘 재현 역량이 필요합니다.\n- 로봇 운동학, 제어, 센서 데이터에 대한 기본 이해가 있으면 적합합니다.\n\n## 우대사항\n- 로봇 정책 학습, diffusion policy, sequence model 경험\n- 휴머노이드/매니퓰레이터 데이터 수집 및 실험 경험\n- Sim-to-Real, Domain Adaptation, Dataset Curation 경험"
+    "content_path": "content/9e32b8e59efed3c417c1a329.md",
+    "content_version": "ff65e3d9097fc7ec"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어",
@@ -3466,7 +3646,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 시스템 소프트웨어 엔지니어\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 ROS2 기반 시스템 소프트웨어를 개발합니다.\n- 센서, 액추에이터, 제어기 등 하드웨어 모듈을 소프트웨어와 연동합니다.\n- DYNAMIXEL 및 ros2_control 기반 controller, hardware interface를 개발하고 안정화합니다.\n- 실기체 환경에서 발생하는 시스템 이슈를 분석하고 성능을 개선합니다.\n\n## 지원자격\n- C++ 또는 Python 기반 개발 경험이 필요합니다.\n- ROS/ROS2, Linux 환경에서 로봇 소프트웨어를 개발한 경험이 필요합니다.\n- 로봇 하드웨어 연동, 디버깅, 로그 분석에 대한 기본 이해가 필요합니다.\n\n## 우대사항\n- DYNAMIXEL SDK, ros2_control, hardware interface 개발 경험\n- 휴머노이드, 모바일 로봇, 매니퓰레이터 시스템 통합 경험\n- 실시간 제어, 센서 드라이버, embedded Linux 경험"
+    "content_path": "content/120a432f8df84ba0cc72da15.md",
+    "content_version": "b8b538cf6bc6edc3"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_시스템_소프트웨어_2",
@@ -3485,7 +3666,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 시스템 소프트웨어 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 로봇의 시스템 아키텍처와 소프트웨어 프레임워크를 연구합니다.\n- 제어, 인식, 학습, 통신 모듈이 안정적으로 동작하는 런타임 구조를 설계합니다.\n- 로봇 상태 관리, 모듈 간 메시징, 장애 대응, 로그/모니터링 기능을 개선합니다.\n- 실험실 연구 코드가 실제 로봇에서 반복 운용될 수 있도록 시스템화합니다.\n\n## 지원자격\n- 로봇 시스템 소프트웨어, middleware, embedded Linux 경험이 필요합니다.\n- C++/Python, ROS/ROS2 기반 대규모 로봇 소프트웨어 개발 경험이 있으면 적합합니다.\n- 시스템 디버깅, 성능 분석, 안정화 역량이 필요합니다.\n\n## 우대사항\n- ROS2 middleware, DDS, real-time control loop 경험\n- 휴머노이드 또는 다관절 로봇 시스템 통합 경험\n- CI/CD, 테스트 자동화, 로봇 SW 배포 경험"
+    "content_path": "content/d6d69bdb9b894ef2f7b8247d.md",
+    "content_version": "db3b2439be2e7a1e"
   },
   {
     "id": "로보티즈_로보티즈_2600_휴머노이드_인지_및_조작_제어",
@@ -3504,7 +3686,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 인지 및 조작 제어 연구원\n\n원문 링크: https://robotis.notion.site/robotis-recruiting\n\n## 수행업무\n- 휴머노이드 매니퓰레이션을 위한 비전 기반 인지와 조작 제어 기능을 연구합니다.\n- 객체 인식, pose estimation, 파지 위치 보정, 조작 시퀀스를 통합합니다.\n- RGB-D, LiDAR 등 센서 정보를 활용해 정밀 조작과 pick-and-place 성능을 높입니다.\n- 딥러닝 모델을 로봇 시스템에 배포하고 실환경 성능을 개선합니다.\n\n## 지원자격\n- 로봇, 컴퓨터비전, 제어, 컴퓨터공학 관련 전공 또는 동등한 역량이 필요합니다.\n- 비전 알고리즘과 로봇 조작 시스템을 연결해 본 경험이 있으면 적합합니다.\n- ROS2 기반 시스템 통합과 성능 최적화 경험이 필요합니다.\n\n## 우대사항\n- 6D Pose Estimation, Visual Servoing, Grasp Planning 경험\n- 로봇 팔/핸드 제어와 perception pipeline 연동 경험\n- ONNX, TensorRT 등 모델 최적화 및 배포 경험"
+    "content_path": "content/b9a2c3338465c36aa37e43c5.md",
+    "content_version": "6f7f4cf350cc92b7"
   },
   {
     "id": "삼성전자_미로추__삼성전자_미로추_소개",
@@ -3520,7 +3703,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 미로추 소개\n\n## 삼성전자 DX부문 미래로봇추진단 소개\n삼성전자 미래로봇추진단은 휴머노이드를 포함한 미래 로봇 원천 기술을 연구·개발하는 전담 조직\n(근무지: 서울 우면동 서울R&D캠퍼스)\n\n## 주요 개발 분야\n휴머노이드, 지능형 자율 시스템, AI 및 로봇\n\n## 채용 프로세스\n서류전형(경력기술서, 포트폴리오) -> 전화면접 ->  기술(실무)면접 -> 인성검사\n- SW 직무의 경우 코딩테스트 실시 (AI 도구 사용 가능)\n\n## 참고\n- 레인보우로보틱스 보유 자회사로 보유\n- 레인보우로보틱스 창업자인 오준호 KAIST 명예교수 단장으로 휴머노이드로봇 개발 전담\n- 세메스(천안) 계열사 에서도 반도체 제조용 기계 및 로봇 개발"
+    "content_path": "content/0d77fd13e6f69117f24962d5.md",
+    "content_version": "8695dc8f4615ef08"
   },
   {
     "id": "삼성전자_미로추_삼전_2505_VLA조작모델학습",
@@ -3540,7 +3724,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] VLA 조작 모델 사전/사후 학습\n\n## 수행업무\n- 로봇 조작(manipulation)을 위한 VLA(Vision-Language-Action) 기반 정책 모델 설계/학습\n- 대규모 로봇 데이터 기반 사전학습(pretraining) 파이프라인 구축 및 스케일링\n   - 멀티모달 입력과 action sequence를 활용한 policy pretraining\n- 모델 성능(강건성/일반화/성공률) 확보를 위한 강화학습 기반 post-training 연구 및 적용\n\noffline RL / RL fine-tuning / RLHF 유사한 preference 기반 최적화\n   - 안전 제약 하 reward design, advantage estimation, policy improvement, 안정적 fine-tuning 전략 수립\n- 학습 안정성 및 수렴 성능 향상을 위한 optimizer 및 학습 알고리즘 개선\n   - AdamW 외 Muon, Shampoo 등 적용/분석 및 학습 성능 개선\n- 데이터 품질 향상을 위한 데이터 분석·curation·버저닝·품질 스코어링 및 관리 체계 구축\n   - outlier/실패 에피소드 탐지, coverage/entropy 분석, 데이터 quality metric 설계 등\n- 모델 평가 체계 구축 및 시뮬–실환경 전이 분석(Sim2Real)\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 대규모 학습 등 2년 이상 유관경력 보유하신 분\n- Imitation Learning 등 2년 이상 유관경력 보유하신 분\n- Reinforcement Learning 등 2년 이상 유관경력 보유하신 분\n- Python 기반 데이터 분석 등 2년 이상 유관경력 보유하신 분\n- 학습 과정 진단 및 개선 등 2년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 컴퓨터공학, AI, 로봇공학 등 유관전공 석사 이상 학위 보유하신 분\n- 로봇/멀티모달 분야에서 대규모 데이터·대규모 모델 사전학습(pretraining) 경험을 보유하신 분\n- 모델 성능(성공률/강건성/일반화)을 향상을 위한 강화학습 기반 post-training 연구 경험을 보유하신 분\n- Optimizer(Muon 등) 적용/개선 경험을 보유하신 분\n- 데이터 curation/품질관리(MLOps·DataOps) 경험을 보유하신 분\n- 시뮬레이터 기반 대규모 실험(Isaac Lab, MuJoCo 등) 및 Sim2Real 도메인 갭 완화 경험을 보유하신 분"
+    "content_path": "content/d605eb61552d452e0628ace4.md",
+    "content_version": "aed73e1181d63adf"
   },
   {
     "id": "삼성전자_미로추_삼전_2505_로봇_제어_플랫폼_",
@@ -3559,7 +3744,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 미래로봇추진단 로봇 제어 플랫폼\n\n## 수행업무\n- 휴머노이드향 실시간 제어 프레임워크 개발\n   - 저지연 및 낮은 지터를 보장하는 실시간 제어루프 설계 및 구현\n   - 병렬링크 기구학 모델링 및 구현\n   - 제어 레벨 안전 기능 구현\n- 휴머노이드 플랫폼 시스템 관리 기능 및 캘리브레이션 개발\n   - 휴머노이드 설정 통합 관리 시스템 구축\n   - 기구학 영점 설정 기능 및 IMU/FT센서 캘리브레이션 개발\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 로봇 양산을 위한 SW 플랫폼 개발 관련 분야 3년 이상 유관경력 보유하신 분\n- 로봇 제어 소프트웨어 또는 실시간 시스템 개발 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 로봇공학, 기계공학, 전자공학 등 유관전공 석사 이상 학위 보유하신 분\n- 로봇 기구학/동역학(Kinematics/Dynamics) 솔버 구현 경험 보유하신 분\n- 다관절 로봇(매니퓰레이터, 휴머노이드, 다족로봇) 제어 개발 경험 보유하신 분\n- 실시간 OS(PreemptRT, Xenomai 등) 기반 개발 경험 보유하신 분\n- C/C++ 기반 실시간 제어 루프 구현 경험 보유하신 분\n- 모델 기반 제어(MPC, WBC 등) 구현 경험 보유하신 분"
+    "content_path": "content/aff6f79155cfed40e27278fa.md",
+    "content_version": "24c406b720764b04"
   },
   {
     "id": "삼성전자_미로추_삼전_2505_모터제어_펌웨어_개발_",
@@ -3578,7 +3764,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 모터제어 펌웨어 개발\n\n## 수행업무\n- 휴머노이드 로봇 액추에이터의 모터 제어 펌웨어 개발/시험\n   - PMSM 모터의 FOC 모터제어 펌웨어 개발\n   - 서보 드라이버 성능 및 신뢰성 확보를 위한 성능 시험 및 평가\n- 휴머노이드 로봇 액추에이터의 통신 및 시스템 펌웨어 개발/시험\n   - CAN/EtherCAT/SPI/I2C 등 통신 펌웨어 개발\n   - 엔코더, ADC, 센서 등 MCU 펌웨어 개발\n\n## 지원자격\n- FOC 모터 제어 및 MCU 펌웨어 개발 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 모터제어 등 유관전공 석사 이상 학위 보유하신 분\n- EtherCAT / CAN 통신 펌웨어 개발 경험을 보유하신 분"
+    "content_path": "content/4303b6df0075a50bb5976bb1.md",
+    "content_version": "1b63c883afd21337"
   },
   {
     "id": "삼성전자_미로추_삼전_2505_서보_모터_드라이버_회로_설계_",
@@ -3597,7 +3784,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 서보 모터 드라이버 회로 설계\n\n## 수행업무\n- 서보 모터 드라이버 개발\n   - 모터 제어용 신호처리 회로 설계\n   - DC 및 BLDC 모터 구동용 인버터 회로 설계 및 전력 소자 최적화\n   - 실시간 통신 회로 설계 및 신호품질 성능 확보(CAN/Ethercat/RS-485 등)\n   - 전원 및 보호 회로 설계(ESD/EMC 대응)\n   - 서보 드라이버 성능 및 신뢰성 확보\n\n## 지원자격\n- 서보 모터 드라이버 개발 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 기계공학 등 유관전공 석사 이상 학위 보유하신 분\n- 기업체에서의 로봇 개발 및 양산 경험 보유하신 분"
+    "content_path": "content/2638aa63a04fc5542451c588.md",
+    "content_version": "6acd8a401586103c"
   },
   {
     "id": "삼성전자_미로추_삼전_2505_학습기반_Manipulation_AI_",
@@ -3617,7 +3805,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 학습기반 Manipulation AI\n\n## 수행업무\n- 학습 기반 Manipulation\n   - 고속/정밀 조립 작업 등을 위한 Reinforcement Learning 기반 방법론 연구 및 개발\n   - Multi-Task 수행이 가능한 Imitation Learning 기반 로봇 조작 알고리즘 연구 및 구현\n   - 도구 사용 등 로봇 핸드의 Dexterity 확보를 위한 강화/모방 학습 기반의 In-Hand Manipulation 기술 개발\n   - 물리 시뮬레이터 (Isaac Lab, Mujoco 등) 이용 가상 Manipulation 데이터 생성을 위한 기술 개발\n   - 대규모 데이터 해석 및 Curation, 학습 Recipe 디자인\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 로봇 Manipulation (강화학습, 모방학습, 혹은 Motion Planning) 등 3년 이상 유관경력 보유하신 분\n- 로봇 학습 (시뮬레이터/ MLOps 개발, 데이터 처리) 등 3년 이상 유관경력 보유하신 분\n- 머신러닝 이론/알고리즘 관련 연구 (모방/강화 학습, 데이터 사이언스) 등 3년 이상 유관경력 보유하신 분\n- 소프트웨어 개발에 필수적인 프로그래밍 경험(Python, C++) 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- AI, Robotics, Control, Computer Science 등 유관전공 박사 학위 보유하신 분\n- 로봇 Manipulation을 위한 모방/강화 학습 기반 제어 모델 개발 경험 보유하신 분\n- Robotics 기반 지식 (Kinematics, Dynamics, Planning, and Control) 보유하신 분\n- 학습 알고리즘 이론 지식 (강화학습, Domain Adaptation, Robust Learning Theory 등) 보유하신 분"
+    "content_path": "content/86cd44fa047fc06f6675a65d.md",
+    "content_version": "e0aeced279047842"
   },
   {
     "id": "삼성전자_미로추_삼전_2511_휴머노이드향_궤적_최적화_및_제어__모션_플래닝_및_제어__",
@@ -3636,7 +3825,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 휴머노이드향 궤적 최적화 및 제어 (모션 플래닝 및 제어)\n\n## 수행업무\n- 휴머노이드 로봇을 위한 실시간 Trajectory Optimization / MPC 기반 모션 플래닝 알고리즘 설계 및 구현\n- 전신 운동학/동역학 제약 및 접촉(contact) 조건을 포함한 구속조건 비선형 최적화 문제 설계\n- 실환경(on-robot) 적용을 위한 계산시간 단축: 문제 구조화(sparsity exploitation), constraint relaxation, 수치 안정화\n- Solver 선택/튜닝/직접 구현 및 성능 최적화\n   - IPOPT/SNOPT/OSQP/HPIPM 등 활용 및 한계 분석\n   - 필요 시 맞춤형 QP/NLP solver 개발\n- 병렬화(parallelization) 기반 solver 가속 연구·개발\n   - GPU 활용, batch solve, decomposition(ADMM, Schur complement) 등\n- 실로봇 및 시뮬레이터에서의 검증, 성능 분석(안정성/추종오차/접촉 일관성), 시스템 통합\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 수학적 모델링 및 수치 계산 기반 문제 해결 연구 개발 등 2년 이상 유관경력 보유하신 분\n- Trajectory optimization, motion planning 개발 등 2년 이상 유관경력 보유하신 분\n- Constrained opimization: NLP/QP formulation, SQP, interior-point, ADMM 등 2년 이상 유관경력 보유하신 분\n- MPC, Optimal control 개발 등 2년 이상 유관경력 보유하신 분\n- Solver 활용/튜닝/구현, IPOPT/SNOPT/OSQP 등 2년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 로봇공학, 기계, 전기전자, 수학, 컴퓨터공학 등 유관전공 석사 이상 학위 보유하신 분\n- 수치해석·최적화(선형/비선형, 제약 최적화)관련 개발 경험을 보유하신 분\n- 로봇 운동학/동역학/제어에 대한 이해 및 구현 경험을 보유하신 분\n- Trajectory Optimization, MPC, Whole-Body Control 개발 경험을 보유하신 분\n- 병렬 solver(Parallel Solver) 설계·적용 경험을 보유하신 분\n   - multi-threaded QP/NLP, GPU 가속, batched optimization, decomposition 기반 병렬화\n   - CasADi 기반 최적화 파이프라인 구축/연구 경험 및 관련 확장/가속 적용"
+    "content_path": "content/b553684a8a002c819849023d.md",
+    "content_version": "3bb7fe11274d534c"
   },
   {
     "id": "삼성전자_미로추_삼전_2603_로봇_핸드_센서_",
@@ -3655,7 +3845,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 로봇 핸드 센서\n\n## 수행업무\n- 핸드용 촉각 센싱 솔루션 개발\n   - 촉각 센서 성능 검증을 통한 로봇 핸드 센서 사양 도출, 센서 Array 개발\n   - 촉각 센서 캘리브레이션 알고리즘 개발\n   - 로봇 핸드 촉각센서 실장 및 양산 성능 확보\n   - 촉각 센서 기반 피드백 제어 알고리즘 개발\n- 다양한 센서 솔루션 개발\n   - 다양한 센서 (카메라, 촉각센서, 힘센서 등) 활용한 로봇 핸드 고도화\n   - 새로운 방식의 촉각 센서 개발\n   - 센서용 HW 개발 및 신호 처리\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 촉각 센서 (Array 방식) 개발/응용 등 3년 이상 유관경력 보유하신 분\n- 촉각 센서 기반 피드백 제어 알고리즘 개발 등 3년 이상 유관경력 보유하신 분\n- 다양한 센서 HW 개발 및 신호처리 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 센서 개발, 신호처리 등 유관전공 박사 이상 학위 보유하신 분\n- 로봇 핸드용 촉각 센서 (Array 방식) 개발 경험을 보유하신 분"
+    "content_path": "content/e623326a2751ad8f73c7dd08.md",
+    "content_version": "0d8e2e11ba44d8df"
   },
   {
     "id": "삼성전자_미로추_삼전_2603_로봇_핸드_제어_",
@@ -3675,7 +3866,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 로봇 핸드 제어\n\n## 수행업무\n- Tendon-Driven 메커니즘 및 제어 기술 개발\n   - 손 관련 기구학적 움직임에 대한 전문지식을 바탕으로 Tendon 방식의 로봇 핸드 설계\n   - Tendon 방식의 고성능/고자유도 핸드 제어 기술 개발\n   - Dexterous 핸드 개발에 필요한 최소 구동기로 최적의 모션 구현\n   - 실환경 적용 및 검증을 통한 로봇 핸드 상용화\n- 핸드 시스템 엔지니어링\n   - 다양한 방식 (Tendon, Direct, Linkage)의 핸드 구동기 및 제어 기술 개발\n   - 조작 AI 기술 고도화를 위한 핸드 활용한 원격조작 솔루션 개발\n   - 촉각 센서 기반 피드백 제어\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 로봇 핸드 (Tendon, Direct, Linkage) 제어 등 3년 이상 유관경력 보유하신 분\n- Tendon 구동기 및 제어 기술 등 3년 이상 유관경력 보유하신 분\n- 핸드 시스템 엔지니어링(기구/HW/제어/센서통합/원격조작) 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- Tendon 구동기 및 제어 등 유관전공 박사 이상 학위 보유하신 분\n- 핸드를 활용한 원격조작 시스템 개발 경험을 보유하신 분"
+    "content_path": "content/a64e64359592591712be48b5.md",
+    "content_version": "bd147ffe134036f1"
   },
   {
     "id": "삼성전자_미로추_삼전_2603_로봇SW인프라",
@@ -3694,7 +3886,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 2026 상반기 공고\n\n[미래로봇추진단] 로봇 SW 인프라\n\n## 수행업무\n- 휴머노이드 소프트웨어 빌드 및 배포 시스템 구축\n   - 바이너리 구성 및 버전 관리 체계 설계\n   - CI/CD 파이프라인 구축 및 자동화\n   - 로봇 플랫폼 배포 환경 설계 및 구현\n- 테스트 자동화 인프라 개발\n   - 로봇 소프트웨어 테스트 프레임워크 설계 및 구현\n   - HIL(Hardware-in-the-Loop) 테스트 환경 구축\n   - 시뮬레이션 기반 자동화 테스트 시스템 개발\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 로봇 또는 임베디드 시스템의 빌드/배포 인프라 개발 등 3년 이상 유관경력 보유하신 분\n- 소프트웨어 테스트 자동화 및 CI/CD 시스템 구축 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 컴퓨터공학, 소프트웨어공학 등 유관전공 학사 이상 학위 보유하신 분\n- 로봇 양산 환경의 SW 배포 및 버전 관리 경험 보유하신 분\n- HIL/SIL 테스트 환경 구축 경험 보유하신 분\n- 임베디드 Linux 기반 시스템 이미지 빌드 및 관리 경험 보유하신 분\n- 시뮬레이터(MuJoCo, Isaac Sim 등) 연동 테스트 자동화 경험 보유하신 분"
+    "content_path": "content/0e9f59caccac60acb47b487a.md",
+    "content_version": "c5748a33558873cd"
   },
   {
     "id": "삼성전자_미로추_삼전_2603_보행제어_",
@@ -3713,7 +3906,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 보행제어\n\n## 수행업무\n- 휴머노이드 이동 기술 개발\n   - 강화/모방 학습 기반 휴머노이드의 이동제어 알고리즘 개발\n   - 휴머노이드용 State estimator 개발 (Visual-Inertial-Leg odometry)\n   - Perception 연동한 자율 이동 기술 개발 (E2E / Hierarchical)\n   - Motion Prior 활용한 자연스러운 이동 모션 구현\n   - Sim2Real Deployment\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 족형 로봇(2족/4족)의 강화학습 기반 제어 등 3년 이상 유관경력 보유하신 분\n- Visual SLAM(Navigation) / Sensor Fusion, Calibration 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- 학습 기반 로봇제어 등 유관전공 석사 이상 학위 보유하신 분\n- Robotics 기반 지식(Kinematics/Dynamics, Modeling and Control)을 보유하신 분\n- Isaac Gym/Lab, MuJoCo 활용한 학습 경험을 보유하신 분\n- LLM, VLM연동 로봇 제어 경험을 보유하신 분"
+    "content_path": "content/c82077d3d579a4509f697ebd.md",
+    "content_version": "cc831d7c67e14345"
   },
   {
     "id": "삼성전자_미로추_삼전_2603_전신제어_",
@@ -3732,7 +3926,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [미래로봇추진단] 전신제어\n\n## 수행업무\n- 휴머노이드 전신 제어 기술 개발\n   - 실시간 모션 Retargeting 기술 개발 (Motion capture, Video data 활용)\n   - 전신 모션 모방 및 실시간 텔레오퍼레이션 기술 개발\n   - 언어 입력 기반 모션 생성 기술 (대규모 데이터셋 활용)\n   - 조작 연동 작업 기술 개발 (Loco-manipulation)\n   - Sim2Real Deployment\n\n## 지원자격\n아래 항목 중 한 가지 이상의 경험이 있으신 분\n- 족형 로봇(2족/4족)의 강화학습 기반 제어 등 3년 이상 유관경력 보유하신 분\n- Character Animation 등 3년 이상 유관경력 보유하신 분\n\n## 우대사항\n- Physics-based character control 등 유관전공 석사 이상 학위 보유하신 분\n- Robotics 기반 지식(Kinematics/Dynamics, Modeling and Control)을 보유하신 분\n- Isaac Gym/Lab, MuJoCo 활용한 학습 경험을 보유하신 분\n- LLM, VLM연동 로봇 제어 경험을 보유하신 분"
+    "content_path": "content/c62db8d50f2d5064f7e98021.md",
+    "content_version": "6388647aeca685fb"
   },
   {
     "id": "에이딘로보틱스__에이딘로보틱스_소개",
@@ -3748,7 +3943,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 에이딘로보틱스 소개\n성균관대학교 로보틱스 연구실(LIR)에서 창업된 센서 및 로봇 부품 전문 스타트업입니다.\n(근무지: 경기도 수원시 영통구 등)\n\n## 주요 개발 분야\n- 다축 힘/토크 센서, 초소형 토크 센서\n- 초음파 안전 센서, 물류 자율주행 로봇\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n- 로봇의 손과 발 끝에 들어가는 정밀 감지 센서 기술력으로 국내외 대기업 제조라인 공급 확대 중"
+    "content_path": "content/7f22a6b5dc50b072e5ce6752.md",
+    "content_version": "d0222b9074bd704f"
   },
   {
     "id": "에이딘로보틱스_에이딘로보틱스_2608_사족보행_로봇_연구개발_경력_채용",
@@ -3767,7 +3963,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 사족보행 로봇 연구개발 경력 채용\n\n## 회사 소개 (ABOUT US)\n에이딘로보틱스는 성균관대학교 로보틱스 연구실(Robotics Innovation Lab)에서 출발한 로봇 부품 및 플랫폼 전문 스타트업으로, 독자적인 센싱 기술을 바탕으로 사족보행 로봇과 필드 로봇 솔루션을 개발합니다. \n\n\"로봇이 인간 삶에 더 가까이 다가가는 세상\"을 만들기 위하여 연구개발 중심의 성장 체계를 갖추고 있으며, 도전적이고 진취적인 팀원들과 함께 지속적인 기술 혁신을 이루어내고 있습니다. 다양한 현장에 적용 가능한 사족보행 로봇의 핵심 제어/하드웨어 및 시스템 개발을 이끌어갈 뛰어난 인재를 찾습니다.\n\n*   **근무 형태**: 정규직 (수습기간 3개월)\n*   **근무지**: 경기도 안양시 본사\n\n## 지원 자격 및 우대사항 (QUALIFICATIONS)\n\n### [공통 요건]\n*   관련 분야 학사 이상 (석/박사 학위 소지자 우대)\n*   로봇, 기계, 제어, 전자, 컴퓨터 관련 전공자\n*   해외여행에 결격사유가 없는 자 (남성의 경우 병역필 또는 면제자)\n\n### 01. 선행제어 알고리즘 및 시스템\n*   **자격요건**:\n    *   관련 분야 학사 이상 학위 소지자\n    *   로보틱스/제어 관련 기본 지식 보유 (C/C++, Python 활용 가능자)\n    *   Model Predictive Control (MPC), Whole Body Control (WBC) 등 로봇 제어 분야 경험\n    *   ROS/ROS2 기반 로봇 개발 및 시뮬레이션 경험\n    *   Linux 기반 개발 환경 구축 및 활용 가능자\n*   **우대사항**:\n    *   관련 분야 석/박사 학위 소지자\n    *   사족/이족보행 로봇 제어 알고리즘 개발 및 실로봇 적용 경험자\n    *   강화학습 기반의 로봇 제어 알고리즘 개발 경험자\n    *   Rigid Body Dynamics 등 다물체 동역학 기반 제어기 설계 경험자\n    *   학술 논문 게재 및 특허 출원 경험 (로봇 제어 분야)\n\n### 02. 제어시스템 개발\n*   **자격요건**:\n    *   임베디드 시스템 개발 및 C/C++ 프로그래밍 가능자\n    *   로봇 통신 프로토콜 (CAN, EtherCAT 등) 개발 및 활용 경험\n    *   Linux 환경 개발 가능자\n*   **우대사항**:\n    *   관련 분야 석/박사 학위 소지자\n    *   임베디드 시스템 기반 로봇 S/W 개발 경험자\n    *   모터 제어 및 센서 연동 개발 경험자\n    *   ROS/ROS2 기반 로봇 시스템 개발 경험자\n    *   로봇 시스템 통합 및 필드 테스트 경험자\n\n### 03. 제어 HW 설계 및 실조립 구현\n*   **자격요건**:\n    *   MCU/DSP 기반 회로 설계 및 CAD Tool (Altium, OrCAD 등) 활용 가능자\n    *   전력 회로 설계 및 아트웍 경험자\n    *   임베디드 회로 검증 및 측정 장비 (오실로스코프 등) 사용 가능자\n*   **우대사항**:\n    *   관련 분야 석/박사 학위 소지자\n    *   로봇 제어 HW 설계 및 모터 드라이버 설계 경험자\n    *   노이즈 차단 및 EMI/EMC 대응 설계 경험자\n    *   임베디드 Firmware (C/C++) 작성 경험자\n    *   로봇 HW 시스템 구축 및 실기 검증 경험자\n\n## 전형 절차 (PROCESS)\n*   **STEP 01**: 서류전형 (이력서 및 포트폴리오)\n*   **STEP 02**: 1차 실무진 면접\n*   **STEP 03**: 2차 임원 면접\n*   **STEP 04**: 최종 합격 및 처우 협의\n*   *문의사항: hr@aidinrobotics.co.kr (상기 전형은 일부 변동될 수 있습니다)*\n\n---"
+    "content_path": "content/b1a163f9434c9bec4a25d44b.md",
+    "content_version": "3d82bfabbe749cc0"
   },
   {
     "id": "에이딘로보틱스_에이딘로보틱스_2608_택타일_센서_및_로봇핸드용_기구_설계_엔지니어_채용",
@@ -3786,7 +3983,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 택타일 센서 및 로봇핸드용 기구 설계 엔지니어 채용\n\n## 근무 조건 및 개요\n*   **고용 형태**: 정규직 (수습 2개월)\n*   **경력**: 경력 3년 이상\n*   **근무지**: 경기도 안양시 동안구 본사\n*   **급여**: 회사 내규에 따름 (면접 후 결정)\n*   **모집 인원**: 기구설계 엔지니어 1명\n\n## 지원 자격 및 우대사항 (QUALIFICATIONS)\n\n### [자격요건]\n*   학력: 학사 이상 학위 소지자\n*   경력: 관련 분야 경력 3년 이상\n*   3D CAD (SolidWorks 등)를 활용한 기구 설계 가능자\n*   기본적인 기계 설계 및 도면 작성/해석 능력 보유자\n*   연구개발(R&D) 환경에서의 협업에 대한 이해와 소통 능력\n\n### [우대사항]\n*   센서 또는 정밀 기구 설계 경험 보유자\n*   폴리머 및 고무 기반 시제품/테스트 장비 설계 및 제작 경험 보유자\n*   금형 관련 설계 및 가공 프로세스 경험 보유자\n*   로봇핸드 또는 로봇 메커니즘 설계 경험 보유자\n*   기구학(Kinematics) 및 링크 구조 설계 경험 보유자"
+    "content_path": "content/65e5c54252157ead3a64b5a3.md",
+    "content_version": "4bcafca40b27bcc2"
   },
   {
     "id": "에이딘로보틱스_에이딘로보틱스_2608_휴머노이드_로봇_제어___학습_기반_제어_엔지니어",
@@ -3806,7 +4004,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 로봇 제어 · 학습 기반 제어 엔지니어\n\n## 근무 조건 및 개요\n*   **고용 형태**: 정규직 (수습 2개월)\n*   **경력**: 경력 2년 이상\n*   **근무지**: 경기도 안양시 동안구 본사\n*   **모집 인원**: 휴머노이드 로봇 제어 / 학습 기반 제어 엔지니어 1명\n\n## 지원 자격 및 우대사항 (QUALIFICATIONS)\n\n### [자격요건]\n*   학력: 학사 이상 학위 소지자\n*   경력: 관련 분야 2년 이상 경력자\n*   로봇 및 자동화 시스템의 하드웨어/소프트웨어 구조에 대한 전반적인 이해도\n*   휴머노이드 또는 다관절 로봇 제어 경험자\n*   ROS 2 기반 시스템 소프트웨어 개발 경험자\n*   Python 및 C/C++, Git 사용 가능자\n\n### [우대사항]\n*   Reinforcement Learning(강화학습), Imitation Learning(모방학습) 기반 Manipulation Policy 학습 및 적용 경험자\n*   센서 퓨전(IMU, Force/Torque, Joint Torque Estimation) 및 Low-level 제어기 튜닝 경험자\n*   고전 제어 및 모델 기반 제어(PD, Impedance, Inverse Dynamics) 설계 경험자\n*   Physical AI 기반 로봇 학습·제어 연구 및 개발 경험자\n*   Linux 환경 로그 분석 및 시스템 디버깅 능력 보유자\n*   ROS2_control 기반 Controller 및 Hardware Interface 연동 경험자\n*   Isaac Sim 환경에서의 로봇 데이터 파이프라인 구축 및 시뮬레이션 경험자\n\n---"
+    "content_path": "content/35534c50c78a78a25c2e6861.md",
+    "content_version": "00c64abd0b83ecd3"
   },
   {
     "id": "엔젤로보틱스__엔젤로보틱스_소개",
@@ -3822,7 +4021,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 엔젤로보틱스 소개\nKAIST 공경철 교수가 창업한 헬스케어 및 산업용 착용형 로봇 기업 (KOSDAQ 상장)\n(근무지: 본사 - 서울 광진구 강변테크노마트 / R&D 및 사업장 - 서울 성동구 성수동)\n\n## 주요 개발 분야\n- 하반신 마비 환자 재활용 로봇('엔젤렉스'), 산업 현장 근골격계 보호 웨어러블 로봇('엔젤기어')\n- 일상 보행 보조 웨어러블 슈트('엔젤슈트') 및 로봇 핵심 부품(모듈, 센서)\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n(※ 직무/경력에 따라 PT 발표, 과제, 레퍼런스 체크 등이 추가되거나 면접 단계가 다소 조정될 수 있음)\n\n## 참고\n- 위로보틱스와 함께 웨어러블 로봇 분야 대표주자로 꼽히며 의료·보행 재활 시장에 특화\n- 국제 사이보그 올림픽(Cybathlon) 외골격 로봇 종목 연속 금메달 수상 등 웨어러블 로봇 분야 독보적 기술력 보유"
+    "content_path": "content/bb719372f1c97cde2454ceb3.md",
+    "content_version": "ec9cb3925088f653"
   },
   {
     "id": "엔젤로보틱스_엔젤로보틱스_2608_Motor_Driver_Firmware_Engineer",
@@ -3841,7 +4041,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Motor Driver Firmware Engineer\n\n## 포지션 상세\n[회사소개]\n엔젤로보틱스는 웨어러블 로봇 기반의 헬스케어, 방산, 산업안전의 기술을 토대로 연구, 개발, 제조, 판매하는 대한민국 상장 기업으로, Physical AI 플랫폼을 중심으로 로봇 산업의 새로운 패러다임을 구축하고 있습니다. 당사는 첨단 로보틱스 기술, 규제 기반 의료기기 산업, 제조 운영, 디지털 헬스케어, 글로벌 유통 구조가 복합적으로 결합된 산업 구조를 가지고 있으며, 성장 초기 상장사로서 재무 체계의 고도화, 글로벌 확장 인프라 구축, 거버넌스 체계 정립이 동시에 요구되는 단계에 있습니다.\n## 주요업무\n• BLDC 정류 제어 알고리즘 개발 : FOC & Trapezoidal 정류 기법 등\n• BLDC 제어 알고리즘 개발 및 튜닝 : 위치/속도/전류 제어\n• 모터 식별 시스템 개발 및 튜닝 (전기/기계 식별, 마찰 보상 튜닝 등)\n• 모터 드라이버 안전 기능 개발 (과온/과전압/과전류)\n## 자격요건\n• 책임급 : 학사 10년 이상 ~/ 석사 8년 이상 ~\n• 필수스킬\n· BLDC 제어 이론 및 실무 경험 보유\n· MCU level 펌웨어 개발 및 실무/양산 경험 보유\n· 디지털 회로 해석 및 오실로스코프 사용 경험 보유\n· C 혹은 C++ 가능자\n## 우대사항\n• 모터 드라이버 모듈 양산 경력\n• 로봇 시스템의 일반적인 제어(PID 등) 을 경험해 보신 분\n• 로봇 양산 경력을 보유하신 분\n• 통신 시스템(EtherCAT, FDCAN) 에 대한 지식을 보유하고 계신 분\n• SW 코드관리/협업툴 사용경험 :Github, SVN 등\n## 혜택 및 복지\n중식 제공, 건강검진 제공, 통신비 지원, 회식비 지원 등 등\n채용 전형\n서류전형 - 1차 실무면접 - 2차 CEO면접 - 최종합격"
+    "content_path": "content/443b6e6eb13c8fc7551f1a35.md",
+    "content_version": "037cd985fa48cb52"
   },
   {
     "id": "엔젤로보틱스_엔젤로보틱스_2608_Software_Quality_Assurance__SW_QA_",
@@ -3862,7 +4063,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Software Quality Assurance (SW QA)\n\n[회사소개]\n엔젤로보틱스는 웨어러블 로봇 기반의 헬스케어, 방산, 산업안전의 기술을 토대로 연구, 개발, 제조, 판매하는 대한민국 상장 기업으로, Physical AI 플랫폼을 중심으로 로봇 산업의 새로운 패러다임을 구축하고 있습니다. 당사는 첨단 로보틱스 기술, 규제 기반 의료기기 산업, 제조 운영, 디지털 헬스케어, 글로벌 유통 구조가 복합적으로 결합된 산업 구조를 가지고 있으며, 성장 초기 상장사로서 재무 체계의 고도화, 글로벌 확장 인프라 구축, 거버넌스 체계 정립이 동시에 요구되는 단계에 있습니다.\n## 주요업무\n1. IEC 62304 기반 SW Lifecycle 운영\n• IEC 62304 기반 SW Lifecycle 운영\n• IEC 62304 기반 SW Development Lifecycle 구축 및 운영\n• Software Development Process 개선\n• Software Verification 프로세스구축\n• Software Validation 활동수행\n• Traceability Matrix 운영\n• SOUP(Software of Unknown Provenance) 관리\n• Software Release Review 수행\n• Configuration Management 운영\n• Version Control 정책검토\n• SW Change Impact Analysis 수행\n\n2. Software Quality Assurance\n• SW Quality Plan 수립\n• Defect Tracking 및 Trend 분석\n• Regression Test 운영\n• Integration Test 지원\n• System Verification 지원\n• Static Analysis 운영경험우대\n• Code Review Process 개선\n• Test Coverage 분석\n• SW 품질 KPI 운영\n\n3. Medical Device Cybersecurity\n• 의료기기 Cybersecurity 프로세스 구축\n• Threat Modeling 수행\n• Vulnerability Assessment 수행\n• Security Patch Process 운영\n• Secure SDLC 운영\n• Authentication / Authorization 검토\n• BLE Security 검토\n• SBOM(Software Bill of Materials) 개념 이해 우대\n• FDA Cybersecurity Guidance 대응 경험 우대\n\n4. Complaint / CAPA / PMS- Software Complaint 조사 및 분석\n• Field Software Failure Investigation\n• CAPA 운영\n• Anomaly Tracking 운영\n• Post Market Surveillance 기반 Trend 분석\n• 재발방지대책수립\n• Remote Issue Analysis 경험우대\n\n5. Process Improvement\n• Agile / Waterfall 개발프로세스이해\n• 개발프로세스개선활동수행\n• Software Documentation 개선\n• SW SOP 구축 및 운영\n• 품질 Audit 대응\n• eQMS 기반 문서 관리 경험 우대\n## 자격요건\n• 의료기기또는 Embedded SW QA 경력 8년 이상\n• 과장/차장급 이상\n• IEC 62304 대응경험필수\n• SW Validation 경험필수\n• Cybersecurity Process 경험필수\n• Verification & Validation 경험필수\n• 의료기기 QMS 경험 필수\n• Software Development Process 경험필수\n• 영어 커뮤니케이션 중급 이상 / 기술문서 Reading/Writing 가능자 우대\n## 우대사항\n• Wearable Robot 또는재활로봇경험\n• Android/iOS App QA 경험\n• AI/Algorithm 품질경험우대\n• FDA Cybersecurity 대응경험\n• ISO 13485 심사대응경험\n• Jira/ALM/eQMS 활용경험\n## 혜택 및 복지\n중식 제공, 건강검진 제공, 통신비 지원, 회식비 지원 등\n채용 전형\n서류전형 - 1차 실무면접 - 2차 CEO면접 - 최종합격"
+    "content_path": "content/52775146c07582404b937271.md",
+    "content_version": "64ae8e6e5d24246f"
   },
   {
     "id": "위로보틱스__위로보틱스_소개",
@@ -3878,7 +4080,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 위로보틱스 소개\n삼성전자 로봇개발팀 출신 엔지니어들이 2021년에 설립한 한국의 웨어러블 로봇 전문 스타트업입니다.\n(근무지: 충남 천안시 / 향후 경기도 판교 등으로 이전 예정)\n\n## 주요 개발 분야\n- 보행 보조 웨어러블 로봇 '윔(WIM)' 및 구동·제어 모듈\n- 스트링(Cable/String) 기반의 메커니즘 및 유연 구동·제어 기술\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n- 보행 보조 로봇 '윔(WIM)'으로 CES 혁신상을 수상하며 시장에서 뛰어난 기술력 인정받음\n- 웨어러블 로봇 분야를 시작으로 피지컬 AI 기반의 휴머노이드 등 범용 로봇 영역으로 확장 중"
+    "content_path": "content/5452956016f0e0c32e2a7001.md",
+    "content_version": "cf792f04b9d2c81a"
   },
   {
     "id": "위로보틱스_위로보틱스_2608_휴머노이드_로봇_AI_엔지니어__Inference_System_",
@@ -3897,7 +4100,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 로봇 AI 엔지니어 (Inference System)\n\n## 포지션 상세\n위로보틱스는 세계 최초로 Single Motor 기반 개인용 보행 보조 웨어러블 로봇을 상용화하고, 3년 연속 총 4개의 CES Innovation Awards를 수상한 Deep Tech 로보틱스 기업입니다.\n\n우리는 고자유도 정밀 로봇 핸드 기술, 높은 역구동성(backdrivability)을 갖춘 액추에이터 설계, 경량 메커니즘, 그리고 실시간 전신 제어 기술을 기반으로 차세대 로봇 플랫폼을 개발하고 있습니다.\n\n이러한 핵심 기술을 집약하여 2025년 차세대 휴머노이드 로봇 ALLEX를 공개했습니다. ALLEX는 인간 수준의 정교한 매니퓰레이션과 물리적 상호작용을 목표로 설계된 휴머노이드 로봇으로, 고자유도 손과 팔, 고성능 액추에이터, 그리고 전신 실시간 제어 아키텍처를 기반으로 합니다.\n\n위로보틱스는 이러한 기술을 바탕으로 로봇이 실제 물리 세계에서 접촉과 상호작용을 통해 학습하고 지능을 발전시킬 수 있는 Physical AI 플랫폼을 구축하고 있으며, 세계 최고 수준의 범용 휴머노이드 로봇을 통해 차세대 로보틱스의 새로운 패러다임을 만들어가고 있습니다.\n## 주요업무\n[부서소개]\nWIRobotics는 로봇이 스스로 이해하고, 학습하며, 행동할 수 있는 지능을 구축하고 있습니다.\n시각·언어·행동 데이터를 통합한 대규모 로봇 AI 모델(Robot Foundation Model) 을 개발하여, 휴머노이드 로봇이 실제 세계에서 물리적으로 상호작용하고 스스로 학습할 수 있는 Physical Intelligence를 구현합니다.\n\n[담당업무]\nAI 엔지니어 (Inference System / Runtime Optimization / Deployment)\n시스템 엔지니어링·성능 최적화·배포 경험을 기반으로 실시간 로봇 inference pipeline을 설계하고 최적화 수행. 실시간 inference pipeline을 구축\n\n• 실시간 로봇 inference pipeline 아키텍처 설계 및 구축\n• TensorRT, ONNX Runtime, CUDA 기반 모델 변환 및 최적화\n• Quantization, Pruning, mixed precision 등 latency·memory 개선\n• Profiling 기반 성능 분석 및 시스템 디버깅\n• Edge/embedded 환경에서의 deployment 및 운영 안정화\n• ML/로봇 시스템 팀과 협업하여 모델-시스템 통합 성능 최적화\n## 자격요건\n• Python / C++ 기반 소프트웨어 개발 및 최적화 경험\n• GPU/NPU 기반 모델 inference 최적화 경험 (TensorRT, ONNX Runtime, CUDA 등)\n• 모델 경량화, 효율화, 배포 경험 (quantization, pruning, TensorRT/ONNX 변환 등)\n• 시스템 구조 설계 및 성능 병목 분석 경험 (inference pipeline profiling, latency/memory optimization 등)\n## 우대사항\n• Senior/Staff 수준의 시스템 엔지니어링 경험\n• ROS/ROS2, embedded system, 실시간 시스템 경험\n• Robotics inference 적용 경험 (선택사항. 필수 아님)\n## 혜택 및 복지\n• 1주년 여행지원(200만원)\n• 건강검진(연 60만원)\n• 복지몰(연 60만원)\n• 월 1회 15시 조기 퇴근(Happy Day) 운영\n• 연차/반차/반반차\n• 선택적 근로시간제 운영(8시-10시 출근)\n• 명절 선물\n• 팀비 지원\n• 생일 반차, 선물 지급\n• 경조사 지원\n• 직무 교육 지원"
+    "content_path": "content/2754316151036d98150f2f86.md",
+    "content_version": "da0d56c44838edf7"
   },
   {
     "id": "위로보틱스_위로보틱스_2608_휴머노이드_로봇_AI엔지니어__Robot_Learning_",
@@ -3916,7 +4120,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 로봇 AI엔지니어 (Robot Learning)\n\n## 포지션 상세\n\"위로보틱스는 세계 최초로 Single Motor 기반 개인용 보행 보조 웨어러블 로봇을 상용화하고, 3년 연속 총 4개의 CES Innovation Awards를 수상한 Deep Tech 로보틱스 기업입니다.\n\n우리는 고자유도 정밀 로봇 핸드 기술, 높은 역구동성(backdrivability)을 갖춘 액추에이터 설계, 경량 메커니즘, 그리고 실시간 전신 제어 기술을 기반으로 차세대 로봇 플랫폼을 개발하고 있습니다.\n\n이러한 핵심 기술을 집약하여 2025년 차세대 휴머노이드 로봇 ALLEX를 공개했습니다. ALLEX는 인간 수준의 정교한 매니퓰레이션과 물리적 상호작용을 목표로 설계된 휴머노이드 로봇으로, 고자유도 손과 팔, 고성능 액추에이터, 그리고 전신 실시간 제어 아키텍처를 기반으로 합니다.\n\n위로보틱스는 이러한 기술을 바탕으로 로봇이 실제 물리 세계에서 접촉과 상호작용을 통해 학습하고 지능을 발전시킬 수 있는 Physical AI 플랫폼을 구축하고 있으며, 세계 최고 수준의 범용 휴머노이드 로봇을 통해 차세대 로보틱스의 새로운 패러다임을 만들어가고 있습니다.\"\n## 주요업무\n[부서 소개]\nWIRobotics는 로봇이 스스로 이해하고, 학습하며, 행동할 수 있는 지능을 구축하고 있습니다.\n높은 성능과 dexterity를 갖춘 로봇에 ACT, Diffusion Policy, VLA 등 최신 로봇 학습 기반 모델을 실제 로봇에 적용하여, 높은 인간수준의 고난이도 작업을 수행할 수 있는 physical intelligence를 구현합니다.\n\n[직무 소개 및 업무내용]\nAI 엔지니어 (Robot Learning / Generative Policy / VLA)\nACT, Diffusion Policy, VLA(Visual-Language-Action) 등 최신 로봇 학습 기반 모델을 실제 로봇에 적용하고 성능 개선. 실제 환경에서 모델을 학습, 배포, 디버깅하는 end-to-end 시스템 작업 수행.\n\n• ACT, Diffusion Policy, Transformer 기반 로봇 정책 모델 적용 및 학습\n• VLA 기반 행동 정책 적용 및 운영\n• 모방 학습(Imitation Learning) 및 강화 학습(Reinforcement Learning)을 통한 제어 정책 학습\n• DAgger, Behavior Cloning, Policy Gradient 등의 알고리즘 적용\n• 로봇 데이터 수집 파이프라인 설계 및 데이터 정제/증강\n• 시뮬레이션과 실제 로봇 간 안정적인 학습·검증 파이프라인 구축\n## 자격요건\n[자격요건]\n1. 경 력: 5년 이상\n2. 학 력: 학사 이상\n3. 필수역량 및 경험\n• 머신러닝 및 딥러닝 모델에 대한 높은 이해 (Transformer, Diffusion, ACT, VLA 등)\n• Behavior Cloning, DAgger, Policy Gradient 등 IL/RL 알고리즘 이해 및 구현 경험\n• Python / C++ 기반 모델 개발 및 최적화 경험\n• 학습된 모델을 실제 로봇 제어 시스템에 적용해본 경험\n## 우대사항\n• Robotics / Machine Learning / Control 전공 또는 관련 석·박사 우대\n• IsaacSim, MuJoCo, RLBench, RT-X 등 로봇 학습 생태계 경험\n• Multimodal policy기반 VLA action space 활용 및 튜닝 경험\n## 혜택 및 복지\n• 1주년 여행지원(200만원)\n• 건강검진(연 60만원)\n• 복지몰(연 60만원)\n• 월 1회 15시 조기 퇴근(Happy Day) 운영\n• 연차/반차/반반차\n• 선택적 근로시간제 운영(8시-10시 출근)\n• 명절 선물\n• 팀비 지원\n• 생일 반차, 선물 지급\n• 경조사 지원\n• 직무 교육 지원"
+    "content_path": "content/219ae2f9e5e4b649d5a93a15.md",
+    "content_version": "ef2d2363646d71db"
   },
   {
     "id": "위로보틱스_위로보틱스_2608_휴머노이드_로봇_설계_엔지니어",
@@ -3935,7 +4140,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 로봇 설계 엔지니어\n\n## 포지션 상세\n\"위로보틱스는 세계 최초로 Single Motor 기반 개인용 보행 보조 웨어러블 로봇을 상용화하고, 3년 연속 총 4개의 CES Innovation Awards를 수상한 Deep Tech 로보틱스 기업입니다.\n\n우리는 고자유도 정밀 로봇 핸드 기술, 높은 역구동성(backdrivability)을 갖춘 액추에이터 설계, 경량 메커니즘, 그리고 실시간 전신 제어 기술을 기반으로 차세대 로봇 플랫폼을 개발하고 있습니다.\n\n이러한 핵심 기술을 집약하여 2025년 차세대 휴머노이드 로봇 ALLEX를 공개했습니다. ALLEX는 인간 수준의 정교한 매니퓰레이션과 물리적 상호작용을 목표로 설계된 휴머노이드 로봇으로, 고자유도 손과 팔, 고성능 액추에이터, 그리고 전신 실시간 제어 아키텍처를 기반으로 합니다.\n\n위로보틱스는 이러한 기술을 바탕으로 로봇이 실제 물리 세계에서 접촉과 상호작용을 통해 학습하고 지능을 발전시킬 수 있는 Physical AI 플랫폼을 구축하고 있으며, 세계 최고 수준의 범용 휴머노이드 로봇을 통해 차세대 로보틱스의 새로운 패러다임을 만들어가고 있습니다.\"\n## 주요업무\n[부서소개]\n휴머노이드 로봇의 상·하체, 고자유도 로봇 핸드, 모바일 플랫폼, 리더 시스템을 포함한 프로토타입 및 양산 제품의 전체 기구 설계를 담당합니다.\n이 포지션은 경량·고강성 구조물과 정밀 구동계(감속기, 텐던, 케이블, 정밀 기어 등)를 직접 설계하며,\u000b로봇의 성능, 신뢰성, 생산성을 종합적으로 최적화하는 핵심 역할을 수행합니다.\n\n• 휴머노이드 로봇 ALLEX의 프로토타입 및 양산 설계\n• 상·하체, 팔, 손, 목, 허리를 포함한 고자유도 메커니즘 설계\n• 경량·고강성 구조물 및 구동계 설계\n• DFMA(Design for Manufacturing and Assembly) 기반 제조·조립 공정 최적화\n• 3D CAD 설계 및 해석 (SolidWorks, CATIA, NX 등)\n• 도면·BOM·기술 문서 작성 및 협력업체 커뮤니케이션\n• 프로토타입 제작, 조립, 테스트 및 품질 개선\n## 자격요건\n• 구조해석(FEA), 재질 선정, 공차 설계 경험\n• 기계, 메카트로닉스, 로봇공학 등 관련 전공 학사 이상\n• 3D CAD 활용 능숙\n• 로봇 또는 정밀 메커니즘 설계 분야 경험\n• DFM/DFA 및 양산 공정 설계 이해\n## 우대사항\n• 휴머노이드·협동로봇·산업용 매니퓰레이터 설계 경험\n• 하중·토크·강성 분석을 통한 모터·감속기·케이블 등 주요 부품 사양 결정 경험\n## 혜택 및 복지\n• 1주년 여행지원(200만원)\n• 건강검진(연 60만원)\n• 복지몰(연 60만원)\n• 월 1회 15시 조기 퇴근(Happy Day) 운영\n• 연차/반차/반반차\n• 선택적 근로시간제 운영(8시-10시 출근)\n• 명절 선물\n• 팀비 지원\n• 생일 반차, 선물 지급\n• 경조사 지원\n• 직무 교육 지원"
+    "content_path": "content/9d7b2b1d5e35d1fa8e5caf7e.md",
+    "content_version": "49a096aedc150ba1"
   },
   {
     "id": "위로보틱스_위로보틱스_2608_휴머노이드_로봇_소프트웨어_엔지니어",
@@ -3954,7 +4160,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 로봇 소프트웨어 엔지니어\n\n## 포지션 상세\n위로보틱스는 세계 최초로 Single Motor 기반 개인용 보행 보조 웨어러블 로봇을 상용화하고, 3년 연속 총 4개의 CES Innovation Awards를 수상한 Deep Tech 로보틱스 기업입니다.\n\n우리는 고자유도 정밀 로봇 핸드 기술, 높은 역구동성(backdrivability)을 갖춘 액추에이터 설계, 경량 메커니즘, 그리고 실시간 전신 제어 기술을 기반으로 차세대 로봇 플랫폼을 개발하고 있습니다.\n\n이러한 핵심 기술을 집약하여 2025년 차세대 휴머노이드 로봇 ALLEX를 공개했습니다. ALLEX는 인간 수준의 정교한 매니퓰레이션과 물리적 상호작용을 목표로 설계된 휴머노이드 로봇으로, 고자유도 손과 팔, 고성능 액추에이터, 그리고 전신 실시간 제어 아키텍처를 기반으로 합니다.\n\n위로보틱스는 이러한 기술을 바탕으로 로봇이 실제 물리 세계에서 접촉과 상호작용을 통해 학습하고 지능을 발전시킬 수 있는 Physical AI 플랫폼을 구축하고 있으며, 세계 최고 수준의 범용 휴머노이드 로봇을 통해 차세대 로보틱스의 새로운 패러다임을 만들어가고 있습니다.\n## 주요업무\n[부서소개]\n초 고자유도 휴머노이드 로봇의 실시간 제어 및 데이터 인프라 소프트웨어를 개발합니다.\nLinux 실시간 OS와 ROS2 기반으로 모듈형 제어 시스템, 멀티스레드 로직, 데이터 스트리밍, 실시간 제어 및 시뮬레이션 환경을 구축합니다.\n\n• 실시간 Linux기반 Middleware 구축 및 ROS2/DDS 기반 제어 및 운영 소프트웨어 개발\n• 실시간 로깅·모니터링·시각화·업데이트 시스템 구축\n• 센서 데이터 스트리밍, 데이터 로깅, 전처리 자동화\n• Gazebo/Isaac Sim 기반 시뮬레이션 및 CI 통합 테스트\n• 제어·AI·하드웨어 팀과 협업\n## 자격요건\n• Python/C++ 기반 대규모 시스템 개발 경험\n• Realtime Linux, 멀티스레드, 네트워크 프로그래밍 이해\n• Git, Docker, CI/CD 활용 능력로봇/자동화 장비 전장 설계 경험\n## 우대사항\n• ROS2, RTOS, DDS, Xenomai 등 실시간 프레임워크 경험\n• 로봇·자율주행 소프트웨어 개발 경력\n• 고성능 최적화(C++/Rust) 경험\n## 혜택 및 복지\n• 1주년 여행지원(200만원)\n• 건강검진(연 60만원)\n• 복지몰(연 60만원)\n• 월 1회 15시 조기 퇴근(Happy Day) 운영\n• 연차/반차/반반차\n• 선택적 근로시간제 운영(8시-10시 출근)\n• 명절 선물\n• 팀비 지원\n• 생일 반차, 선물 지급\n• 경조사 지원\n• 직무 교육 지원"
+    "content_path": "content/1eb8b5884a04ffe45b479c24.md",
+    "content_version": "04f95d102d2dbd40"
   },
   {
     "id": "위로보틱스_위로보틱스_2608_휴머노이드_로봇_제어_엔지니어",
@@ -3973,7 +4180,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 로봇 제어 엔지니어\n\n## 포지션 상세\n위로보틱스는 세계 최초로 Single Motor 기반 개인용 보행 보조 웨어러블 로봇을 상용화하고, 3년 연속 총 4개의 CES Innovation Awards를 수상한 Deep Tech 로보틱스 기업입니다.\n\n우리는 고자유도 정밀 로봇 핸드 기술, 높은 역구동성(backdrivability)을 갖춘 액추에이터 설계, 경량 메커니즘, 그리고 실시간 전신 제어 기술을 기반으로 차세대 로봇 플랫폼을 개발하고 있습니다.\n\n이러한 핵심 기술을 집약하여 2025년 차세대 휴머노이드 로봇 ALLEX를 공개했습니다. ALLEX는 인간 수준의 정교한 매니퓰레이션과 물리적 상호작용을 목표로 설계된 휴머노이드 로봇으로, 고자유도 손과 팔, 고성능 액추에이터, 그리고 전신 실시간 제어 아키텍처를 기반으로 합니다.\n\n위로보틱스는 이러한 기술을 바탕으로 로봇이 실제 물리 세계에서 접촉과 상호작용을 통해 학습하고 지능을 발전시킬 수 있는 Physical AI 플랫폼을 구축하고 있으며, 세계 최고 수준의 범용 휴머노이드 로봇을 통해 차세대 로보틱스의 새로운 패러다임을 만들어가고 있습니다.\n## 주요업무\n[부서소개]\n휴머노이드 로봇 ALLEX의 전신 제어 시스템을 설계하고 구현합니다.\n고자유도 팔·손뿐 아니라 모바일 플랫폼과 이족보행, 상체를 포함한 전신 동역학 기반 제어를 수행하며, 운동학/동역학 해석부터 실시간 제어기 구현, 실기 검증, 양산 신뢰성 확보까지 전 과정을 주도합니다.\n\n또한, 리더–팔로워 시스템 간 리타게팅(Retargeting) 및 샘플링 비동기 환경에서의 정밀 모션 동기화 제어를 포함한 원격 제어(teleoperation) 및 상호작용 시스템을 개발합니다.\n\n운동학·동역학 기반 제어 알고리즘 개발\n• 기구학 모델링, Redundancy 포함 최적 제어 설계\n• 마찰모델, Nonlinearity 및 Dynamics 모델링 및 실시간 제어기 구현\n\n로봇 전신 통합 제어 (Full-Body Control)\n• 상체·하체·이족보행·모바일 플랫폼을 포함한 통합 모션 제어\n• 고자유도 손(Hand) 및 다중 서브시스템 간 협조 제어\n• 물리적 상호작용 및 안전 제어 로직 설계\n• 임피던스/어드미턴스 제어, 접촉 기반 상호작용 제어\n• 안전 제어 로직 및 한계보호 시스템 설계\n\n통신 기반 실시간 제어 인프라 개발\n• EtherCAT 기반 저지연 제어 네트워크 설계 및 구현\n• 실시간 경로 계획 및 on-the-fly 재계획 기능 모션 플래닝 Library 구축\n• 리타게팅 및 원격제어(teleoperation) 알고리즘 개발\n• Similar / Dissimilar Kinematics 구조 간 동작 매핑\n• 리더–팔로워 시스템 간 모션 정밀도 유지 및 비동기 샘플링 보정\n## 자격요건\n• 로봇공학, 제어공학, 메카트로닉스 석사 이상\n• C/C++, ROS2, RTOS 실시간 제어 구현 경험\n• 고자유도 로봇 제어 및 센서 융합 경험\n## 우대사항\n• 휴머노이드 제어 실무 경험\n• EtherCAT 기반 고속 제어 및 안전 제어 경험\n• 고정밀 시뮬레이션 환경 구축 능력\n## 혜택 및 복지\n• 1주년 여행지원(200만원)\n• 건강검진(연 60만원)\n• 복지몰(연 60만원)\n• 월 1회 15시 조기 퇴근(Happy Day) 운영\n• 연차/반차/반반차\n• 선택적 근로시간제 운영(8시-10시 출근)\n• 명절 선물\n• 팀비 지원\n• 생일 반차, 선물 지급\n• 경조사 지원\n• 직무 교육 지원"
+    "content_path": "content/4359711b430c314d623637d5.md",
+    "content_version": "b330f22795a051e4"
   },
   {
     "id": "위로보틱스_위로보틱스_2608_휴머노이드_전장_하드웨어_엔지니어",
@@ -3993,7 +4201,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드 전장 하드웨어 엔지니어\n\n## 포지션 상세\n\"위로보틱스는 세계 최초로 Single Motor 기반 개인용 보행 보조 웨어러블 로봇을 상용화하고, 3년 연속 총 4개의 CES Innovation Awards를 수상한 Deep Tech 로보틱스 기업입니다.\n\n우리는 고자유도 정밀 로봇 핸드 기술, 높은 역구동성(backdrivability)을 갖춘 액추에이터 설계, 경량 메커니즘, 그리고 실시간 전신 제어 기술을 기반으로 차세대 로봇 플랫폼을 개발하고 있습니다.\n\n이러한 핵심 기술을 집약하여 2025년 차세대 휴머노이드 로봇 ALLEX를 공개했습니다. ALLEX는 인간 수준의 정교한 매니퓰레이션과 물리적 상호작용을 목표로 설계된 휴머노이드 로봇으로, 고자유도 손과 팔, 고성능 액추에이터, 그리고 전신 실시간 제어 아키텍처를 기반으로 합니다.\n\n위로보틱스는 이러한 기술을 바탕으로 로봇이 실제 물리 세계에서 접촉과 상호작용을 통해 학습하고 지능을 발전시킬 수 있는 Physical AI 플랫폼을 구축하고 있으며, 세계 최고 수준의 범용 휴머노이드 로봇을 통해 차세대 로보틱스의 새로운 패러다임을 만들어가고 있습니다.\"\n## 주요업무\n[부서소개]\n휴머노이드 로봇을 포함한 전체 시스템의 전장 하드웨어를 설계·양산화합니다.\n고속 통신·고신뢰 전력 시스템을 포함한 제어기, 서보 드라이버, 센서 보드 등 핵심 전자 시스템을 직접 개발합니다.\n\n• 메인보드·서보드라이버·센서보드 회로 설계 및 제작\n• EtherCAT, CAN, RS485 등 고속 통신 설계\n• 전력분배, 보호회로, EMI/EMC 대응\n• 하네스·커넥터·배선 설계 및 양산 관리\n• 회로 시험·인증(CE, KC 등) 및 신뢰성 검증\n• 부품 수급 및 협력사 관리\n## 자격요건\n• 전기·전자·메카트로닉스 관련 전공 학사 이상\n• 고전류·고속 신호 PCB 설계 경험\n• Altium Designer, OrCAD, KiCad 등 활용 능숙\n• 전력변환 및 보호회로 설계 경험\n• 로봇/자동화 장비 전장 설계 경험\n## 우대사항\n• BLDC 서보·정밀 모터 제어 하드웨어 설계 경험\n• EMC/EMI 인증, UL/CE/KC/Functional Safety 등 안전규격 대응 경험\n• 구동 하네스 설계 및 제조 경험\n## 혜택 및 복지\n• 1주년 여행지원(200만원)\n• 건강검진(연 60만원)\n• 복지몰(연 60만원)\n• 월 1회 15시 조기 퇴근(Happy Day) 운영\n• 연차/반차/반반차\n• 선택적 근로시간제 운영(8시-10시 출근)\n• 명절 선물\n• 팀비 지원\n• 생일 반차, 선물 지급\n• 경조사 지원\n• 직무 교육 지원"
+    "content_path": "content/a6959c19bad2849840b9ca39.md",
+    "content_version": "0359b6ba0258e0ac"
   },
   {
     "id": "tesla__테슬라_소개",
@@ -4009,7 +4218,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## Tesla 소개\nTesla는 자율주행과 AI 기술을 기반으로 범용 휴머노이드 로봇 Optimus(옵티머스)를 개발\n(근무지: 미국 팰로알토 HQ / 프리몬트 등)\n\n## 주요 개발 분야\n휴머노이드 로봇(Optimus), 액추에이터 및 정밀 핸드 H/W, 비전 기반 AI(FSD/Computer Vision)\n\n## 채용 프로세스\n서류전형(Evidence of Excellence/포트폴리오) -> AI/리크루터 스크리닝 -> 코딩/기술 테스트 -> 기술/시스템 디자인 면접 -> 패널 면접 및 문화적합성 검증\n\n## 참고\n- 자동차 제조업체를 넘어 자율주행, AI, 로보틱스 생태계를 아우르는 에코시스템 구축 중\n- 테슬라의 FSD(Full Self-Driving) 신경망 AI 기술 및 자체 설계 칩(FSD Chip)을 옵티머스 뇌로 이식해 활용"
+    "content_path": "content/294f4b6abf808aeb6082b993.md",
+    "content_version": "702b6fbab24de024"
   },
   {
     "id": "tesla_테슬라_2600_AI_Engineer__Manipulation__Optimus",
@@ -4028,7 +4238,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI Engineer, Manipulation, Optimus\nJob Category\tTesla AI\nLocation\tPalo Alto, California\nReq. ID\t224501\nJob Type\tFull-time\n\n## What to Expect\nTesla AI is solving robust embodied intelligence through humanoid robots. Core to this is the manipulation stack, which presents a unique opportunity to work on state-of-the-art algorithms for object manipulation culminating in their deployment to real world production applications. Our robotic manipulation software engineers develop and own this stack from inception to deployment. Most importantly, you will see your work repeatedly shipped to and utilized by thousands of Humanoid Robots in real world applications.\n\n## What You’ll Do\nDesign and develop our learned robotic manipulation software stack and algorithms\nDevelop robotic manipulation capabilities including but not limited to (re)grasping, pick-and-place, and more dexterous behaviors to enable useful work in both structured and unstructured environments\nModel robotic manipulation processes to enable analysis, simulation, planning, and controls\nReason about uncertainty due to measurements and physical interaction with the environment, and develop algorithms that adapt well to imperfect information\nAssist with overall software architecture design, including designing interfaces between subsystems\nShip production quality, safety-critical software\nCollaborate with a team of exceptional individuals laser focused on bringing useful bi-ped humanoid robots into the real world\n\n## What You’ll Bring\nProduction quality modern C++ or Python\nExperience in deep imitation learning or reinforcement learning in realistic applications\nExposure to robotics learning through tactile and/or vision-based sensors\nExperience writing both production-level Python (including Numpy and Pytorch) and modern C++\nProven track record of training and deploying real world neural networks\nFamiliarity with 3D computer vision and/or graphics pipelines\nExperience with Natural Language Processing\nExperience with distributed deep learning systems\nPrior work in Robotics, State estimation, Visual Odometry, SLAM, Structure from Motion, 3D Reconstruction\n\n## Compensation and Benefits\n\n\n## Benefits\nAlong with competitive pay, as a full-time Tesla employee, you are eligible for the following benefits at day 1 of hire:\n\nMedical plans > plan options with $0 payroll deduction\nFamily-building, fertility, adoption and surrogacy benefits\nDental (including orthodontic coverage) and vision plans, both have options with a $0 paycheck contribution\nCompany Paid (Health Savings Accounts) HSA Contribution when enrolled in the High-Deductible medical plan with HSA\nHealthcare and Dependent Care Flexible Spending Accounts (FSA)\n401(k) with employer match, Employee Stock Purchase Plans, and other financial benefits\nCompany paid Basic Life, AD&D\nShort-term and long-term disability insurance (90 day waiting period)\nEmployee Assistance Program\nSick and Vacation time (Flex time for salary positions, Accrued hours for Hourly positions), and Paid Holidays\nBack-up childcare and parenting support resources\nVoluntary benefits to include: critical illness, hospital indemnity, accident insurance, theft & legal services, and pet insurance\nWeight Loss and Tobacco Cessation Programs\nTesla Babies program\nCommuter benefits\nEmployee discounts and perks program\n\nExpected Compensation\n$176,000 - $420,000/annual salary + cash and stock awards + benefits\nPay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\nTesla is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to any factor, including veteran status and disability status, protected by applicable federal, state or local laws.\n\nTesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.\n\nFor quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here). Please contact ADA@tesla.com for ADA related questions or to request ADA accommodations.\n\nPrivacy is a top priority for Tesla. We build it into our products and view it as an essential part of our business. To understand more about the data we collect and process as part of your application, please view our Tesla Talent Privacy Notice ."
+    "content_path": "content/156bcdaa0787bbb1ef42b567.md",
+    "content_version": "50e67468e395ac2a"
   },
   {
     "id": "tesla_테슬라_2600_Embedded_Software_Engineer__Optimus",
@@ -4047,7 +4258,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Embedded Software Engineer, Optimus\nJob Category\tTesla AI\nLocation\tPalo Alto, California\nReq. ID\t266024\nJob Type\tFull-time\n\n## What to Expect\nTesla is on a path to building humanoid robots at scale to automate repetitive and boring tasks. \n\nWe are looking for firmware engineers to develop embedded platform drivers and application layer code for various robotics applications on our TeslaBot platform. In this role, you will develop scalable drivers to interface with an ASIC or bring up a new communication protocol or optimize existing drivers to improve performance or write application-level modules to achieve a specific function on a given subsystem. \n\nThe robotics firmware team is small, passionate, and fast moving. Come join a team of deeply knowledgeable engineers that strive to build the most robust and reliable embedded systems using cutting edge software development tools and practices.\n\n## What You’ll Do\nDevelopment of scalable real-time embedded software that implements sensing, control and safety management of the Tesla Bot actuators\nBring up new sensors, communication networks and new PCBA for various robotic applications\nDevelop automated tests to ensure high quality software releases and accurate functionality\nBe involved in the full life cycle of firmware development from concept through integration, test, and release as our fleet of robot grows\nWork closely with the hardware and controls team to specify hardware actuation, sensing requirements and influence electronics designs\n\n## What You’ll Bring\n2+ years of relevant experience in real-time embedded software development \nDegree in Computer Science, Physics, Computer Engineering, Electrical Engineering or proof of exceptional skills in related fields, with practical software engineering experience, or equivalent experience\nProficiency in C, familiarity with Python is a plus \nExperience with reading electrical schematics and understanding circuit behavior \nKnowledge of microcontroller peripherals such as ADC, PWM, SPI and I2C, ethernet and CAN\nExperience working with sensors and digital signal processing \nExperience working with the physical and data link layers of ethernet and/or other communication protocols\n\n## Compensation and Benefits\n\n\n## Benefits\nAlong with competitive pay, as a full-time Tesla employee, you are eligible for the following benefits at day 1 of hire:\n\nMedical plans > plan options with $0 payroll deduction\nFamily-building, fertility, adoption and surrogacy benefits\nDental (including orthodontic coverage) and vision plans, both have options with a $0 paycheck contribution\nCompany Paid (Health Savings Accounts) HSA Contribution when enrolled in the High-Deductible medical plan with HSA\nHealthcare and Dependent Care Flexible Spending Accounts (FSA)\n401(k) with employer match, Employee Stock Purchase Plans, and other financial benefits\nCompany paid Basic Life, AD&D\nShort-term and long-term disability insurance (90 day waiting period)\nEmployee Assistance Program\nSick and Vacation time (Flex time for salary positions, Accrued hours for Hourly positions), and Paid Holidays\nBack-up childcare and parenting support resources\nVoluntary benefits to include: critical illness, hospital indemnity, accident insurance, theft & legal services, and pet insurance\nWeight Loss and Tobacco Cessation Programs\nTesla Babies program\nCommuter benefits\nEmployee discounts and perks program\n\nExpected Compensation\n$140,000 - $390,000/annual salary + cash and stock awards + benefits\nPay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\nTesla is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to any factor, including veteran status and disability status, protected by applicable federal, state or local laws.\n\nTesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.\n\nFor quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here). Please contact ADA@tesla.com for ADA related questions or to request ADA accommodations.\n\nPrivacy is a top priority for Tesla. We build it into our products and view it as an essential part of our business. To understand more about the data we collect and process as part of your application, please view our Tesla Talent Privacy Notice ."
+    "content_path": "content/347988713227301a34990022.md",
+    "content_version": "d75b598b5e56868f"
   },
   {
     "id": "tesla_테슬라_2600_Reinforcement_Learning_Engineer__Policy__Optimus",
@@ -4066,7 +4278,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Reinforcement Learning Engineer, Policy, Optimus\nJob Category\tTesla AI\nLocation\tPalo Alto, California\nReq. ID\t222416\nJob Type\tFull-time\n\n## What to Expect\nTesla AI is solving robust embodied intelligence through humanoid robots. The goal of our reinforcement learning team is to build and demonstrate a general robot learning system that can leverage AI to perform complex physical tasks, ranging from full body locomotion, precise manipulation, and more. Our reinforcement and imitation learning engineers are responsible for end-to-end robotic learning and own this stack from inception to deployment. Most importantly, you will see your work repeatedly shipped to and utilized by thousands of humanoid robots in real world applications. \n\n## What You’ll Do\nDevelop end-to-end robotic learning with either reinforcement or imitation learning \nReinforcing correct set of actions, rewarding correct behavior and negating incorrect behavior (with real-time action/reward feedback loops) \nPerform a large number of instructions and generalize new tasks with different objects and environments \nLearn to perform dexterous tasks using high degree of freedom hands\nLearn different robot policies to solve language-conditioned tasks from vision \nShip production quality, safety-critical software \n\n## What You’ll Bring\nExperience in end-to-end robotic learning, with either imitation or reinforcement learning \nExperience writing production-level Python (including Numpy and Pytorch) \nExperience with distributed deep learning systems \nExposure to robot learning through tactile and/or vision-based sensors is a plus \nProven track record of training and deploying real world neural networks\n\n## Compensation and Benefits\n\n\n## Benefits\nAlong with competitive pay, as a full-time Tesla employee, you are eligible for the following benefits at day 1 of hire:\n\nMedical plans > plan options with $0 payroll deduction\nFamily-building, fertility, adoption and surrogacy benefits\nDental (including orthodontic coverage) and vision plans, both have options with a $0 paycheck contribution\nCompany Paid (Health Savings Accounts) HSA Contribution when enrolled in the High-Deductible medical plan with HSA\nHealthcare and Dependent Care Flexible Spending Accounts (FSA)\n401(k) with employer match, Employee Stock Purchase Plans, and other financial benefits\nCompany paid Basic Life, AD&D\nShort-term and long-term disability insurance (90 day waiting period)\nEmployee Assistance Program\nSick and Vacation time (Flex time for salary positions, Accrued hours for Hourly positions), and Paid Holidays\nBack-up childcare and parenting support resources\nVoluntary benefits to include: critical illness, hospital indemnity, accident insurance, theft & legal services, and pet insurance\nWeight Loss and Tobacco Cessation Programs\nTesla Babies program\nCommuter benefits\nEmployee discounts and perks program\n\nExpected Compensation\n$176,000 - $420,000/annual salary + cash and stock awards + benefits\nPay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\nTesla is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to any factor, including veteran status and disability status, protected by applicable federal, state or local laws.\n\nTesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.\n\nFor quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here). Please contact ADA@tesla.com for ADA related questions or to request ADA accommodations.\n\nPrivacy is a top priority for Tesla. We build it into our products and view it as an essential part of our business. To understand more about the data we collect and process as part of your application, please view our Tesla Talent Privacy Notice ."
+    "content_path": "content/d00072bd0da9081d3147378f.md",
+    "content_version": "ddfd75f9e04bf234"
   },
   {
     "id": "tesla_테슬라_2600_Reinforcement_Learning_Engineer__Whole_Body_Controls__Optimus",
@@ -4085,7 +4298,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Reinforcement Learning Engineer, Whole Body Controls, Optimus\nJob Category\tTesla AI\nLocation\tPalo Alto, California\nReq. ID\t244485\nJob Type\tFull-time\n\n## What to Expect\nTesla AI is solving robust embodied intelligence through humanoid robots. You will work on cutting-edge policy learning algorithms that allow the robot to walk, dance, balance, and recover from disturbances in real-world settings. Most importantly, the motion policies that you deploy will be repeatedly shipped and utilized by thousands of humanoid robots in real-world applications. \n\n## What You’ll Do\nDevelop end-to-end reinforcement-learning policies for whole-body movements \n\nDesign observations, actions, and rewards based on first principles and deep physics understanding \n\nDevelop techniques to improve sim2real transfer, including classical modeling techniques \n\nEvaluate policies both in simulation and on hardware \n\nShip production-quality policies to a fleet of bots \n\n## What You’ll Bring\nExperience writing production-quality python (including numpy and pytorch) \n\nSolid understanding of robotics fundamentals, including geometry, linear algebra, kinematics, dynamics, probability, and statistics \n\nFamiliarity with Machine learning and Reinforcement Learning fundamentals OR strong background in optimization-based planning and control \n\nExperience working with robotic systems, ideally on legged robotic systems with high degrees of freedom \n\nExperience with sim2real techniques OR deep understanding of physics fundamentals\n\nExperience implementing control strategies including impedance control, adaptive control, force control, MPC on hardware preferred \n\n \n\n## Compensation and Benefits\n\n\n## Benefits\nAlong with competitive pay, as a full-time Tesla employee, you are eligible for the following benefits at day 1 of hire:\n\nMedical plans > plan options with $0 payroll deduction\nFamily-building, fertility, adoption and surrogacy benefits\nDental (including orthodontic coverage) and vision plans, both have options with a $0 paycheck contribution\nCompany Paid (Health Savings Accounts) HSA Contribution when enrolled in the High-Deductible medical plan with HSA\nHealthcare and Dependent Care Flexible Spending Accounts (FSA)\n401(k) with employer match, Employee Stock Purchase Plans, and other financial benefits\nCompany paid Basic Life, AD&D\nShort-term and long-term disability insurance (90 day waiting period)\nEmployee Assistance Program\nSick and Vacation time (Flex time for salary positions, Accrued hours for Hourly positions), and Paid Holidays\nBack-up childcare and parenting support resources\nVoluntary benefits to include: critical illness, hospital indemnity, accident insurance, theft & legal services, and pet insurance\nWeight Loss and Tobacco Cessation Programs\nTesla Babies program\nCommuter benefits\nEmployee discounts and perks program\n\nExpected Compensation\n$176,000 - $420,000/annual salary + cash and stock awards + benefits\nPay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\nTesla is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to any factor, including veteran status and disability status, protected by applicable federal, state or local laws.\n\nTesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.\n\nFor quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here). Please contact ADA@tesla.com for ADA related questions or to request ADA accommodations.\n\nPrivacy is a top priority for Tesla. We build it into our products and view it as an essential part of our business. To understand more about the data we collect and process as part of your application, please view our Tesla Talent Privacy Notice ."
+    "content_path": "content/a2958ff5355fbc264657b272.md",
+    "content_version": "6f4f889c7c43941c"
   },
   {
     "id": "tesla_테슬라_2600_Software_Engineer__Robotics_Integrations",
@@ -4104,7 +4318,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robotics Integrations Engineer\nJob Category\tTesla AI\nLocation\tAUSTIN, Texas\nReq. ID\t250588\nJob Type\tFull-time\n\n## What to Expect\nTesla’s Factory Automation Robotics team builds fleet management and robot control software that operates autonomous robots and automation systems - including AMRs, ASRS, conveyance systems, and Optimus - across global manufacturing and warehouse facilities. These systems are production-critical and directly impact factory throughput, uptime, and scalability.\n\nWe are seeking a robotics software integrations engineer to lead deployments, provide production support, and drive continuous improvement of these applications across Tesla factories. The role blends a software engineering foundation with project leadership and cross-functional coordination to ensure reliable delivery, adoption, and sustained performance of robotics and automation systems.\n\nThe ideal candidate is equally comfortable debugging distributed and edge software issues, representing factory needs to engineering teams, and guiding cross-functional groups through new deployments.\n\nThis position is based in Austin, TX, with up to 15% travel to Tesla factories worldwide for onsite project launches. As the primary on-call responder for production systems, this role requires after-hours availability to support incident response, including nights and weekends on a rotating schedule.\n\n## What You’ll Do\nRepresent factory operations in the development and deployment of robotics applications, ensuring product capabilities meet operational requirements and KPIs are reported to leadership and engineering teams\nProvide hands-on support for production systems, including triaging issues, debugging distributed and edge software, and driving short- and long-term resolutions with engineering teams\nCollaborate with manufacturing engineers to gather requirements, prioritize feature requests, and validate solutions in live factory environments\nEnsure system reliability and uptime through proactive monitoring, structured escalation, and continuous improvement initiatives, including workflow automation, documentation, and process standardization\nServe as incident commander for critical production issues, coordinating teams to resolve incidents, minimize downtime, and provide data-driven root cause analysis with corrective actions\nDocument troubleshooting procedures, provide user training, and mentor local engineers and technicians on software usage and best practices\n\n## What You’ll Bring\nDegree in Computer Science, Software Engineering, Robotics, or related field, or equivalent practical experience\n3+ years of experience in a robotics or automation integration role, with demonstrated ability to deploy fleet management or robot control software, triage production incidents, and drive resolution across software, networking, and hardware layers\nStrong organizational skills with experience in project management, deployment coordination, or program execution, and the ability to work independently while managing multiple priorities in a fast-changing environment\nExcellent communication skills, with the ability to translate between technical and operations teams\nExperience with backend technologies (Go, C/C++, SQL) and DevOps tooling (Docker, Kubernetes, Helm, CI/CD); familiarity with messaging systems (NATS, Kafka) or API frameworks (GraphQL, gRPC) is a plus\nExperience in robotics, industrial automation, or fleet management systems is a plus\n\n## Compensation and Benefits\n\n\n## Benefits\nAlong with competitive pay, as a full-time Tesla employee, you are eligible for the following benefits at day 1 of hire:\n\nMedical plans > plan options with $0 payroll deduction\nFamily-building, fertility, adoption and surrogacy benefits\nDental (including orthodontic coverage) and vision plans, both have options with a $0 paycheck contribution\nCompany Paid (Health Savings Accounts) HSA Contribution when enrolled in the High-Deductible medical plan with HSA\nHealthcare and Dependent Care Flexible Spending Accounts (FSA)\n401(k) with employer match, Employee Stock Purchase Plans, and other financial benefits\nCompany paid Basic Life, AD&D\nShort-term and long-term disability insurance (90 day waiting period)\nEmployee Assistance Program\nSick and Vacation time (Flex time for salary positions, Accrued hours for Hourly positions), and Paid Holidays\nBack-up childcare and parenting support resources\nVoluntary benefits to include: critical illness, hospital indemnity, accident insurance, theft & legal services, and pet insurance\nWeight Loss and Tobacco Cessation Programs\nTesla Babies program\nCommuter benefits\nEmployee discounts and perks program\n\nTesla is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to any factor, including veteran status and disability status, protected by applicable federal, state or local laws.\n\nTesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.\n\nFor quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here). Please contact ADA@tesla.com for ADA related questions or to request ADA accommodations.\n\nPrivacy is a top priority for Tesla. We build it into our products and view it as an essential part of our business. To understand more about the data we collect and process as part of your application, please view our Tesla Talent Privacy Notice ."
+    "content_path": "content/62428e9ba8b3a944c560bdcf.md",
+    "content_version": "29f3a24f738765fa"
   },
   {
     "id": "tesla_테슬라_2600_Sr__Robotics_Manufacturing_Engineer__Optimus_Actuators",
@@ -4123,7 +4338,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Sr. Robotics Manufacturing Engineer, Optimus Actuators\nJob Category\tManufacturing\nLocation\tFremont, California\nReq. ID\t264474\nJob Type\tFull-time\n\n## What to Expect\nTesla is seeking a highly motivated Manufacturing Engineer to develop new processes and automation equipment with the actuator design team in Fremont, CA. The Manufacturing Engineer will optimize designs for manufacturability, streamline assembly processes, and implement automation solutions for gearing, motors, electrical components and harnesses of both linear and rotary actuators. The Manufacturing Engineer thrives in a fast-paced, dynamic environment and will play a pivotal role in shaping the future of AI robotics.\n\n## What You’ll Do\nCollaborate with hardware engineering and production teams to take actuator design through prototype development and into volume production\nProvide design for manufacturing feedback to simplify designs for highest production efficiency and scalability\nDevelop adaptable pilot assembly processes to support product design iteration and variable quality of incoming material\nDevelop flexible machine concepts for high-volume production minimizing complexity and cost while maximizing number of supported product variants\nGenerate machine specifications, process documentation and manufacturing instructions\nIdentify and resolve a diverse range of equipment mechanical, electrical, controls and software issues in production\n\n## What You’ll Bring\nProficiency in CAD software (SolidWorks, Catia, and AutoCAD preferred)\nProficiency in mechanical assembly methods, electrical integration, testing and troubleshooting\nStrong hands-on experience with pilot and high-volume manufacturing, and the transition between\nProven track record of data-driven methodology to solve multi-faceted problems\nAbility to remain highly productive and organized while managing competing priorities and tight deadlines\nDegree in Mechanical or Mechatronics Engineering, or equivalent experience\n\n## Compensation and Benefits\n\n\n## Benefits\nAlong with competitive pay, as a full-time Tesla employee, you are eligible for the following benefits at day 1 of hire:\n\nMedical plans > plan options with $0 payroll deduction\nFamily-building, fertility, adoption and surrogacy benefits\nDental (including orthodontic coverage) and vision plans, both have options with a $0 paycheck contribution\nCompany Paid (Health Savings Accounts) HSA Contribution when enrolled in the High-Deductible medical plan with HSA\nHealthcare and Dependent Care Flexible Spending Accounts (FSA)\n401(k) with employer match, Employee Stock Purchase Plans, and other financial benefits\nCompany paid Basic Life, AD&D\nShort-term and long-term disability insurance (90 day waiting period)\nEmployee Assistance Program\nSick and Vacation time (Flex time for salary positions, Accrued hours for Hourly positions), and Paid Holidays\nBack-up childcare and parenting support resources\nVoluntary benefits to include: critical illness, hospital indemnity, accident insurance, theft & legal services, and pet insurance\nWeight Loss and Tobacco Cessation Programs\nTesla Babies program\nCommuter benefits\nEmployee discounts and perks program\n\nExpected Compensation\n$91,600 - $276,000/annual salary + cash and stock awards + benefits\nPay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.\n\nTesla is an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to any factor, including veteran status and disability status, protected by applicable federal, state or local laws.\n\nTesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.\n\nFor quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here). Please contact ADA@tesla.com for ADA related questions or to request ADA accommodations.\n\nPrivacy is a top priority for Tesla. We build it into our products and view it as an essential part of our"
+    "content_path": "content/01edac0e0cb1fd62cc82f421.md",
+    "content_version": "bef2bf42966a2b9a"
   },
   {
     "id": "한화로보틱스__한화로보틱스_소개",
@@ -4139,7 +4355,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 한화로보틱스 소개\n한화그룹의 협동로봇 및 스마트 물류 자동화 전담 계열사\n(근무지: 경기도 성남시 판교)\n\n\n## 주요 개발 분야\n협동로봇(HCR 시리즈), 자율주행 모빌리티(AGV/AMR), 푸드테크 및 서비스 로봇\n\n## 채용 프로세스\n서류전형(자기소개서/포트폴리오) -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n\n## 참고\n- 그룹 차원의 지원 및 투자 진행 중 (한화그룹 3남 김동선 부사장이 미래비전총괄 담당)"
+    "content_path": "content/3a1f4529ab8cec65734e4aa1.md",
+    "content_version": "e6776e38ece4cc85"
   },
   {
     "id": "한화로보틱스_한화_2502_모바일_로봇_SW_경력_엔지니어",
@@ -4159,7 +4376,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모바일 로봇 SW 경력 엔지니어\n\n접수기간: 2025.02.19 20:00 - 2025.03.07 15:00\n\n## 주요업무\n- 모바일 로봇 주행 SW개발 및 테스트\n- 모바일 로봇 경로 계획 SW 모듈 개발 및 검증\n- 모바일 로봇 인지 SW 모듈 개발 및 검증\n- 모바일 로봇 인공지능 SW 개발 및 검증\n\n## 자격요건\n- 프로그래밍 (C++) 능숙자\n- 객체지향 프로그래밍이 가능하신 분\n- 원활한 의사소통 및 협업 가능하신 분\n\n## 우대사항\n- 모바일 로봇 소프트웨어 개발 경력자\n- 모바일 로봇 주행 관련 양산 적용 경험자\n- 모바일 로봇 주행 관련 특허 및 논문 보유자\n- 자율 주행 관련 이론에 대한 이해와 알고리즘 설계 및 코드 구현에 대한 열의가 있으신 분\n- 경로 계획에 관련된 이론 이해 및 알고리즘 구현 경험이 있으신 분\n- 인공지능 프로그래밍 실무 경험자\n- ROS2, Linux, Docker, git, Visual Studio 활용 능력 보유자\n\n## 공통 응시 자격\n- 학위: 학사 이상 (석/박사 우대)\n- 해외여행에 결격사유가 없는 자 (남성의 경우, 군필 또는 군면제자)"
+    "content_path": "content/4aee075fbfff205d48251c69.md",
+    "content_version": "cac441e1b8cab0b0"
   },
   {
     "id": "한화로보틱스_한화_2506_모바일_로봇_전장_HW_개발",
@@ -4179,7 +4397,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모바일/서비스 로봇 전장 HW 개발\n\n## 직무상세\n로봇 하드웨어의 설계 품질 및 신뢰성 확보 목표 달성을 위해 모바일/서비스 로봇의 전장 시스템 아키텍처를 설계하고, 전장 회로 설계 및 제어반 배치 등 HW 개발 실무와 연계하여 시스템 엔지니어링 체계를 고도화하는 업무를 수행합니다.\n\n## 전장 시스템 아키텍처 설계 및 고도화\n- 로봇 전장 시스템 아키텍처 개발\n- 안정성과 확장성을 고려한 전원 분배 시스템(PDS) 및 전장 아키텍처 설계\n- 다양한 모터 드라이버 및 센서 인터페이스에 공통 적용 가능한 전장 신호 트리 레이어 설계\n- 하드웨어 보호 및 회로 분리를 통한 노이즈 대책(EMC/EMI) 및 최적의 전력 효율 확보\n- CAN, EtherCAT, 이더넷 등 산업용 통신 배선 및 전원 케이블 가이드를 활용한 하드웨어 간 인터페이스 구조 설계\n- 핵심 전장 모듈 및 와이어링 하네스 인터페이스 정의 및 문서화\n\n## 전장 회로 설계 및 구현\n- 로봇 전장 회로 설계 및 구현\n- 핵심 아키텍처를 기반으로 OrCAD / PADS 등을 활용한 실제 회로도 설계 및 PCB 아트웍 검토\n- 메인 제어 보드, 전원 전력 분배 보드 및 전장 제어반(Control 패널) 컴포넌트 배치 및 설계\n- 로봇 배터리 관리 시스템(BMS) 인터페이스, 이상 전류/전압 감지 및 비상 정지(Fail-safe) 회로 개발, 하네스 케이블 2D/3D 경로 설계 등 하드웨어 기반 모듈 개발\n\n## 품질 및 검증 체계 구축\n- 전장 HW 품질 보증 및 검증\n- 전장 신뢰성 테스트 환경 구축 및 전기적 안전성 검증\n- 전원 노이즈 분석, 환경 신뢰성(내열/내한/진동), 전자기 적합성(EMC) 테스트 프레임워크 구축\n- 회로 시뮬레이션 및 부품 수명(MTBF) 분석을 통한 실시간 전장 안정성 확보\n\n## 지원자격\n- 전기공학/전자공학/제어계측공학/로보틱스 분야에서 학사 이상의 학위를 보유하신 분\n- 8년 이상의 실 제품 또는 양산 환경에서 전장 회로 설계, PCB 아트웍, 하네스 설계, 양산 적용 경력을 보유하신 분\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n- OrCAD, PADS, Altium 등 회로 설계 및 PCB 레이아웃 도구 활용 및 아키텍처 설계 경험을 보유하신 분\n- 전원 장치(SMPS, DC-DC 컨버터) 및 배터리 시스템(BMS) 설계 및 모듈 적용 경험을 보유하신 분\n- 모터 드라이버, 센서 인터페이스 회로 설계 및 하네스 배선 가이드 수립 경험을 보유하신 분\n- ISO 26262(기능안전) 또는 로봇 안전 규격(ISO 13482, CE 등) 인증 대응 전장 설계 경험을 보유하신 분\n- 오실로스코프, 멀티미터, 전원 공급기 등 계측기를 활용한 전장 하드웨어 디버깅 경험을 보유하신 분\n- 전장 부품 규격서 분석 및 부품 선정, BOM 관리 시스템 구축 경험을 보유하신 분\n\n## 우대사항\n- 전기공학/전자공학/제어계측공학/로보틱스 분야에서 석사 이상의 학위를 보유하신 분\n- 영어 기술 문서 작성, 영문 보고서 작성, 영어 회의 진행이 가능한 수준의 영어 활용 역량을 보유하신 분\n- 로봇 제품 또는 모빌리티의 상용화 및 양산 전장 개발 경험을 보유하신 분\n- 대규모 장비 또는 공통 전장 프레임워크 설계 및 검증 체계 수립 경험을 보유하신 분\n- 노이즈 시뮬레이션(SI/PI), 열해석 활용 검증, 차폐 디자인 설계 경험을 보유하신 분\n- 오토모티브 또는 산업용 고성능 커넥터 및 케이블링 오픈소스 제품군 활용 경험을 보유하신 분\n- 팀 또는 조직 단위의 전장 개발/설계 프로세스 표준화 경험을 보유하신 분\n- 기계 하드웨어(3D CAD 구조물) 연계 전장 컴포넌트 배치 및 간섭 검토 참여 경험을 보유하신 분\n- 회로 정적 분석 도구(Worst Case Analysis 등) 활용 및 취약점 개선 경험을 보유하신 분\n- PDM, ERP 시스템 등을 활용한 전장 HW 설계 변경 관리(ECO) 및 BOM 최적화 구축 경험을 보유하신 분"
+    "content_path": "content/f550d38425ee419ed68105b7.md",
+    "content_version": "c2ff3b33679115c0"
   },
   {
     "id": "한화로보틱스_한화_2507_협동_로봇_제어_SW_개발자",
@@ -4200,7 +4419,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 협동 로봇 제어 SW 개발자\n\n## 직무상세\n로봇 제어 성능 최적화 및 안정성 확보 목표 달성을 위해 모바일/서비스 로봇의 임베디드 제어기 SW 아키텍처를 설계하고, 모터 제어 및 센서 인터페이스 등 로우레벨 제어 SW 개발 실무와 연계하여 하드웨어 제어 엔지니어링 체계를 고도화하는 업무를 수행합니다.\n\n## 임베디드 제어 SW 아키텍처 설계 및 고도화\n- 로봇 임베디드 제어기 SW 아키텍처 개발\n- 실시간성(Real-time) 및 확장성을 고려한 펌웨어(Firmware) 아키텍처 설계\n- 다양한 모터 드라이버 및 센서 부품에 공통 적용 가능한 드라이버 레이어 설계\n- 하드웨어 추상화(HAL) 및 레지스터 레벨 제어를 통한 최적의 제어 주기 확보\n- CAN, EtherCAT, RS-485 등 산업용 통신 프레임워크를 활용한 액추에이터 및 제어기 간 통신 구조 설계\n- 핵심 제어 알고리즘 및 인터페이스 정의 및 문서화\n\n## 제어기 구조 설계 및 구현\n- 로봇 임베디드 제어기 구조 설계 및 구현\n- 핵심 아키텍처를 기반으로 C/C++ 등을 활용한 실제 펌웨어 코드 구현\n- 모터 제어(기동, 정지, 가감속 제어 등) 및 엔코더/IMU/BMS 등 센서 인터페이스 개발\n- 로봇 상태 모니터링, 하드웨어 이상 감지 및 비상 정지(Fail-safe), 부트로더 및 펌웨어 업데이트(OTA), 다중 인터럽트 처리 및 제어 타이밍 동기화 등 Bare-metal 또는 RTOS 기반 모듈 개발\n\n## 품질 및 검증 체계 구축\n- 임베디드 SW 품질 보증 및 검증\n- HIL(Hardware-in-the-Loop) 테스트 환경 구축 및 제어 알고리즘 검증\n- 단위테스트, 통합테스트 및 하드웨어 연계 테스트 자동화 프레임워크 구축\n- 코드 정적 분석 및 최적화를 통한 실시간 제어 안정성 확보\n\n## 지원자격\n- 컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 학사 이상의 학위를 보유하신 분\n- 8년 이상의 실 제품 또는 양산 환경에서 임베디드 제어 SW 설계, 개발, 검증, 양산 적용 경력을 보유하신 분\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n- Cortex-M, MSP430, TMS320 등 다양한 MCU/DSP 제품군 기반 개발 및 아키텍처 설계 경험을 보유하신 분\n- FreeRTOS, Zephyr 등 RTOS 환경 활용 및 모듈 설계 경험을 보유하신 분\n- 모터 제어 알고리즘(FOC 등) 설계 및 구현 경험을 보유하신 분\n- CAN, EtherCAT, RS-485/232, SPI, I2C 등 통신 프로토콜 설계 및 드라이버 개발 경험을 보유하신 분\n- C, C++ 사용 경험을 보유하신 분\n- 오실로스코프, 로직 아날라이저 등 계측기를 활용한 하드웨어 디버깅 경험을 보유하신 분\n- 펌웨어 버전 관리 및 빌드 시스템 구축 경험을 보유하신 분\n\n## 우대사항\n- 컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 석사 이상의 학위를 보유하신 분\n- 영어 기술 문서 작성, 영문 보고서 작성, 영어 회의 진행이 가능한 수준의 영어 활용 역량을 보유하신 분\n- 로봇 제품 또는 모빌리티의 상용화 및 양산 개발 경험을 보유하신 분\n- 자동차 기능 안전 표준(ISO 26262) 또는 로봇 안전 표준(ISO 13482, IEC 61508) 대응 경험을 보유하신 분\n- MATLAB / Simulink를 활용한 제어 시뮬레이션 및 자동 코드 생성 경험을 보유하신 분\n- 부트로더 설계 및 암호화/보안 적용 경험을 보유하신 분\n- 팀 또는 조직 단위의 임베디드 개발 프로세스 표준화 경험을 보유하신 분\n- 제어 하드웨어 회로도 분석 및 설계 검토 참여 경험을 보유하신 분\n- 정적 분석 도구(QAC, Coverity 등) 활용 및 취약점 개선 경험을 보유하신 분\n- Jenkins 등을 활용한 임베디드 SW 빌드/테스트 자동화 구축 경험을 보유하신 분"
+    "content_path": "content/8ff78b67f8078e8e65dfa39c.md",
+    "content_version": "92cc26978a4e83b0"
   },
   {
     "id": "현대모비스__현대모비스_소개",
@@ -4216,7 +4436,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 모비스 로보틱스 소개\n현대모비스 로보틱스사업실은 자동차 부품 선행 기술과 대량 양산 노하우를 바탕으로, 로봇 개별 부품부터 시스템 통합까지 핵심 기술을 내재화 하려함\n(근무지: 의왕)\n\n## 주요 개발 분야\n로보틱스 구동부품, 센서 및 전장\n\n## 채용 프로세스\n서류전형 ➔ 1차 면접(실무) + 인적성검사 ➔ 2차 면접(임원/영어) + 채용검진 ➔ 최종 입사\n\n## 참고\n핵심 부품 공식 수주: 보스턴 다이내믹스의 차세대 전기식 휴머노이드 로봇 ‘아틀라스(Atlas)’에 탑재되는 핵심 관절 구동부품(액추에이터) 수주 및 양산 협력이 유력"
+    "content_path": "content/ccad3cab6ffc7420356399ae.md",
+    "content_version": "988cf1b26c8f6f93"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_PM",
@@ -4235,7 +4456,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 PM\n\n- 경력-관리직 | [로보틱스사업실] 2026년 4월 연구직/관리직 경력채용 (Robotics Business Group, senior-res./admin.)\n\n# 로보틱스 PM\n\n**부서/기간**: 로보틱스사업실 | 의왕연구소 (~ 2026-04-13)\n\n### 직무상세\n\n[로보틱스 부품 프로젝트 관리]\n\n 프로젝트 목표, 범위, 일정 정의\n 리스크 분석 및 대응 전략 마련\n 진행 상황 모니터링 및 일정 관리\n 프로젝트 진행 상황 정기 보고(대시보드, 리포트)\n 프로젝트 KPI 설정 및 성과 분석\n\n[고객사 대응 및 커뮤니케이션]\n\n 내부 팀 및 외부 파트너와의 협업\n 고객 요구사항 및 변경 요청 관리\n\n### ✨ 우대사항\n\n영어 회화 능력 우수자\n로봇 프로젝트 참여 경험 보유자\n신사업 프로젝트 관리 경험 보유자\n글로벌 OEM 수주/영업 경험 보유자\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다. 단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다. 예시) \n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가 \n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가 \n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능. \n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다. \n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n### ✨ 우대사항\n\n영어 회화 능력 우수자\n로봇 프로젝트 참여 경험 보유자\n신사업 프로젝트 관리 경험 보유자\n글로벌 OEM 수주/영업 경험 보유자\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다. 단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다. 예시) \n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가 \n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가 \n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능. \n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다. \n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n### 📋 전형절차\n\n지원서 접수(~4/13) → 인적성검사(5/初) → 1차 면접(5/中) → 2차 면접 및 채용검진(5/末) → 입사(7/中) \n※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다. \n※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다.\n\n### 전형절차\n\n지원서 접수(~4/13) → 인적성검사(5/初) → 1차 면접(5/中) → 2차 면접 및 채용검진(5/末) → 입사(7/中) \n※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다. \n※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다.\n\n### 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다. 단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다. 예시) \n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가 \n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가 \n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능. \n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다. \n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다."
+    "content_path": "content/59b33e921bb4db351a748b4e.md",
+    "content_version": "eab0c61b73becdb8"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_기구설계",
@@ -4255,7 +4477,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 기구설계\n\n- 신입-연구직 | [로보틱스사업실] 2026년 상반기 연구직 신입채용 (Robotics Business Group, entry-res.)\n\n# 로보틱스 기구설계\n\n**부서/기간**: 로보틱스사업실 | HW | 기구 | 의왕연구소 (2026-02-28 ~ 2026-03-13 11:00)\n\n### 직무상세\n\n**[로봇용 액츄에이터 기구/시스템 설계]**\n- 로봇용 액츄에이터 고객사 요구조건 분석 및 설계사양서 작성\n- 로봇용 액츄에이터 요구조건 및 내부 부품의 강성/구조 고려한 레이아웃 설계\n- 로봇용 액츄에이터 핵심 부품(감속기, 베어링, 구동부품, 하우징 등) 설계\n- 로봇용 액츄에이터 감속부 호계구조 설계\n\n### 우대사항\n\n- 영어 회화 능력 우수자\n- 3D 설계 툴(CATIA 등) 활용 경험 보유자\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.  \n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.  \n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능  \n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*  \n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*\n\n---"
+    "content_path": "content/0993a89a818ebaf86acd8cca.md",
+    "content_version": "08ef3ad78abade32"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_모터설계",
@@ -4275,7 +4498,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 모터설계\n\n- 신입-연구직 | [로보틱스사업실] 2026년 4월 연구직 신입채용 (Robotics Business Group, entry-res.)\n\n# 로보틱스 모터설계\n\n**부서/기간**: 로보틱스사업실 | HW | 기구 | 의왕연구소 (2026-04-02 ~ 2026-04-13 10:00)\n\n### 직무상세\n\n**[로봇용 액츄에이터 모터 설계]**\n- 모터 핵심 부품 설계 및 성능 육성\n  - 전자기설계, 축계 강성 설계, 하우징 강성/방열 설계 등\n  - 누설/기타 전자 설계\n- 모터 스펙 설정을 위한 근거 검토\n  - 내구 및 성능 요구 조건 고려\n- 원가절감 및 생산성을 고려한 DFx\n\n### 우대사항\n\n- 영어 회화 능력 우수자\n- 모터 전자기설계 Tool 활용 능력 보유자 (J-MAG or Ansys Maxwell)\n- 3D 설계 Tool 활용 능숙 보유자 (CATIA)\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.  \n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.  \n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능  \n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*  \n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*\n\n---"
+    "content_path": "content/3d2237dc3abc880e58d35d2c.md",
+    "content_version": "382377dbcfebbf16"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_생산기술",
@@ -4295,7 +4519,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 생산기술\n\n- 신입-관리직 | [로보틱스사업실] 2026년 4월 관리직 신입채용 (Robotics Business Group, entry-admin.)\n\n# 로보틱스 생산기술\n\n**부서/기간**: 로보틱스사업실 | 생산 | 생산기술 | 의왕연구소 (2026-04-02 ~ 2026-04-13 10:00)\n\n### 직무상세\n\n**[로봇용 액츄에이터 생산기술]**\n- 소형 액츄에이터 조립/검사 라인 구축\n- 신기술/신공법 개발 및 중장기 전략 수립\n- 설비 제작 및 현장 설치/시운전 수행\n- 신규 공장 및 설비 투자 검토\n- 신제품 사양/도면 검토 및 제조 공정 설계\n\n### 우대사항\n\n- 공학계열 전공자(기계/전기/전자공학 등)\n- 로봇 또는 소형 액츄에이터 제품 관련 인턴/프로젝트 경험 보유자\n- 영어 회화 능력 우수자\n- 설계 프로그램(CATIA, CAD) 활용 능력 보유자\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.  \n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.  \n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능  \n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*  \n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*\n\n---"
+    "content_path": "content/5f79c29684b41bbbab54a563.md",
+    "content_version": "d0f0c14fcfe26a09"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_센서설계",
@@ -4315,7 +4540,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 센서설계\n\n- 경력-연구직 | [로보틱스사업실] 2026년 4월 연구직 경력 채용 (Robotics Business Group, Senior-res.)\n\n# 로보틱스 센서설계\n\n**부서/기간**: 로보틱스사업실 | HW | 회로 | 의왕연구소 (2026-04-02 ~ 2026-04-13 10:00)\n\n### 직무상세\n\n**[로봇용 핸드 촉각(Tactile)센서 설계]**\n- 로봇 그리퍼용 Tactile Sensor 구조 설계 및 개발\n  - 압력/힘/접촉 감지 센서 설계\n  - 센서 신호처리 및 회로 설계\n  - 센서 패키징 및 기구/소재 설계\n  - Tactile Sensor 양산 설계 및 공정 최적화\n- 로봇 시스템 설계 통합 및 성능 검증\n\n### 우대사항\n\n- 영어 회화 능력 우수자\n- 로봇 액츄에이터 설계 경험자\n- 로봇 핸드 및 그리퍼 시스템 개발 경험\n- Haptic / Tactile Sensing 관련 연구 & 개발 경험\n- 실리콘, 고무, 폴리머 등 소프트 소재 기반 센서 설계 경험\n- 3D 설계 툴 활용 경험자 (CATIA 사용 우대)\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.  \n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.  \n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능  \n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*  \n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*"
+    "content_path": "content/f22513584596fd50274c884a.md",
+    "content_version": "a74ca691b3a47878"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_시작",
@@ -4335,7 +4561,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 시작\n\n- 경력-연구직 | [로보틱스사업실] 2026년 4월 연구직 경력 채용 (Robotics Business Group, Senior-res.)\n\n# 로보틱스 시작\n\n**부서/기간**: 로보틱스사업실 | 공통R&D | 시작 | 차량연구소 (2026-04-02 ~ 2026-04-13 10:00)\n\n### 직무상세\n\n**[로봇 시스템 시작개발]**\n- 로보틱스 시작품 부품 개발 및 제작/OE 공급\n- 신제품 시작품 도면 검토 및 개선점 도출\n- 시작품 개발 계획 수립 및 투자 검토\n- 협력사 부품 개발 관리 및 품질 육성\n- 시작 라인 구축 및 시작품 조립\n- 시작품 문제점 개선 및 양산 사전 검증\n\n### 우대사항\n\n- 부품 설계/개발 또는 설비 구축 경험자 (기구/전장/S/W)\n- 로보틱스 또는 지능화 관련 프로젝트 참여 경험자\n- 영어 회화 능력 우수자\n- GD&T 관련 교육 이수자\n- CATIA, PMP, 데이터분석 등 자격증 보유자\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.  \n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.  \n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능  \n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*  \n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*\n\n---"
+    "content_path": "content/ca51e3b4d64709c6cb8a017f.md",
+    "content_version": "b7ea62e943577adb"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_평가",
@@ -4354,7 +4581,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 평가\n\n- 경력-연구직 | [로보틱스사업실] 2026년 4월 연구직 경력 채용 (Robotics Business Group, Senior-res.)\n\n# 로보틱스 평가\n\n**부서/기간**: 로보틱스사업실 | 공통R&D | 평가 | 차량연구소 (2026-04-02 ~ 2026-04-13 10:00)\n\n### 직무상세\n\n**[로봇용 액츄에이터 시스템 평가]**\n- 로보틱스 시스템의 성능 평가 및 품질 검증\n- 로보틱스 시스템 평가 절차 개발 및 조건 설정\n- 평가 결과 분석 및 설계 개선 사항 도출\n- 로보틱스 특화 평가 기준/절차 내재화\n- 경쟁사 벤치마킹 성능 비교 및 기술적 우위 분석\n- 고객사 대응 및 커뮤니케이션\n\n### 우대사항\n\n- 제어사/로보틱스 시스템 평가 장비 구축 및 운용 경험자 (기구관점)\n- 로보틱스 또는 시험/경쟁 프로젝트 참여 경험자\n- 영어 회화 능력 우수자\n- 데이터 처리 관련 자격증 보유자\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 주의해 주시기 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.  \n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.  \n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 완료(전형포기 및 탈락) 후, 타 공고 지원 가능  \n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*  \n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*\n\n---"
+    "content_path": "content/b6fb939037e07abe753ea2de.md",
+    "content_version": "545361c0a31323a5"
   },
   {
     "id": "현대모비스_현대모비스_2604_로보틱스_회로설계",
@@ -4373,7 +4601,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 회로설계\n\n- 경력-연구직 | [로보틱스사업실] 2026년 4월 연구직 경력 채용 (Robotics Business Group, Senior-res.)\n\n# 로보틱스 회로설계\n\n**부서/기간**: 로보틱스사업실 | HW | 회로 | 의왕연구소 (2026-04-02 ~ 2026-04-13 10:00)\n\n### 직무상세\n\n**[로봇용 액츄에이터 회로 설계]**\n- 고객사 E/E 요구사항 분석 및 설계사양서 작성\n- 3상 모터 구동 제어기 설계 및 양산화 개발\n  - 3상 모터 구동 인버터 회로 및 PCB 설계\n  - MCU 및 주변 디지털/아날로그 회로 설계\n  - 전원 DC-DC 컨버터 설계 및 신호 무결성 고려한 PCB 설계\n  - EMC SI/PI 고려 설계 및 검증\n- 원가절감 및 양산성 확보를 위한 DFx 수행\n\n### 우대사항\n\n- 영어 회화 능력 우수자\n- 액츄에이터 또는 모터제어기 설계 경험자\n- 로봇 프로젝트 참여 경험자\n- 다축 모터 제어기 설계 경험자\n- 회로/PCB 설계 툴 양호 경험자\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.  \n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.  \n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능  \n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*  \n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*\n\n---"
+    "content_path": "content/a77aa8765a4e1f42aeea3a1c.md",
+    "content_version": "0ef074fae69f9430"
   },
   {
     "id": "현대모비스_현대모비스_2604_로봇용_액추에이터_기구시스템_설계",
@@ -4392,7 +4621,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇용 액추에이터 기구시스템 설계\n\n- 경력-연구직 | [로보틱스사업실] 2026년 4월 연구직 경력채용 (Robotics Business Group, senior-res.)\n\n# 로봇용 액추에이터 기구시스템 설계\n\n**부서/기간**: 로보틱스사업실 | HW | 기구 | 의왕연구소 (~ 2026-04-13)\n\n### 직무상세\n\n**[로봇용 액추에이터 기구/시스템 설계]**\n- 고객사 요구조건 분석 및 설계사양서 작성\n- 요구조건 및 내부 부품의 강성/구조 고려한 레이아웃 설계\n- 액추에이터 기구 설계 및 구조 해석\n- 액추에이터 구성 요소간 인터페이스 정의 및 통합\n- 유성기어/하모닉 기어 기반 감속기 설계\n- 선행/양산 개발 액추에이터 시스템 단위 성능 육성\n- 설계 내재화/최적화를 통한 원가 개선\n- 글로벌 고객사 기술 미팅 및 출장/파견 대응\n\n### 우대사항\n\n- 어학(영어) 능력 우수자\n- 3D 설계 툴 활용 경험자 (CATIA 사용 우대)\n- 로봇용 액추에이터 감속기, 전자, 제어로직/SW 설계 경험자\n- 휴머노이드/산업용 로봇 관련 프로젝트 경험자\n- KISSsoft/MASTA 활용 가능자\n\n### ℹ️ 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능\n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*\n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*\n\n### 기타\n\n- 상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내될 예정입니다.\n- 지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증명이 불가능한 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 임직원지인자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영향력을 행사하는 일이 없도록 각별히 유의 바랍니다.\n- 지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n  단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n  *(예시)*\n  - 로보틱스사업실 전형 진행 중, 로보틱스사업실 내 타 공고 중복지원 불가\n  - 로보틱스사업실 전형 진행 중, 타 사업부(부문/BU) 내 공고 중복지원 불가\n  - 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능\n  *※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.*\n  *※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.*"
+    "content_path": "content/0c9e1e9cb3c34af6b4ff2e32.md",
+    "content_version": "6771f1480a7f02bd"
   },
   {
     "id": "현대모비스_현대모비스_2608_로보틱스_전장기구_설계",
@@ -4413,7 +4643,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 전장기구 설계\n\n- 신입-연구직 | [로보틱스사업실] 2026년 하반기 연구직 신입채용 (Robotics Business Group, entry-res.)\n\n# 로보틱스 전장기구 설계\n\n**부서/기간**: 로보틱스사업실 | HW | 기구 | 의왕연구소 (2026-07-31 ~ 2026-08-10 11:00)\n\n### 🛠️ 직무상세\n\n[전장 기구 설계]\n휴머노이드 액추에이터/그리퍼/제어기 전장 부품 요구사항 정의 및 아키텍처 설계\n휴머노이드 액추에이터/그리퍼/제어기 전장 부품 설계 및 양산 개발\n- 신뢰성 확보 설계 (방열, 방수, 내구 등)\n- 신호/전력 전달 구조 설계 (커넥터, 버스바, 터미널, 케이블 등)\n- 패키지 설계 및 Layout 최적화\n- 부품 간 접합 구조 설계 및 공법 최적화\n\n### ✨ 우대사항\n\n기계공학 전공자\n제품 설계 관련 인턴/프로젝트 경험 보유자\n영어 회화 능력 우수자\nCATIA/3DCS 등 설계 TOOL 경험 보유자\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n### 🎓 지원자격\n\n2026년 8월 졸업 예정자 또는 기졸업자\n※ 최종합격 후 회사에서 지정하는 날짜에 입사 가능해야 하며, 학/석사 졸업 요건을 충족하지 못할 경우 입사 취소될 수 있습니다.\n※ 박사 학위 소지자는 경력 선발 전형으로 지원해주시기 바랍니다.\n해외여행에 결격 사유가 없으신 분 (남자는 병역필 또는 면제 인원)\n공인 영어성적 보유하신 분  (2024.08.11~2026.08.10 11:00 內 국내에서 취득한 성적)\n※ TOEIC, TOEIC SPEAKING, OPIC, TEPS, G-TELP에 한합니다.\n※ 단, 영어권 국가의 해외대학 졸업자는 공인어학 보유 요건에서 제외됩니다.\n\n### 📋 전형절차\n\n지원서 접수(7/31~8/10) → 인적성검사(8/15~8/18) → 1차 면접(8월) → 2차 면접(9월) → 채용 검진(9월) → 입사(10월)\n※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다.\n※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다.\n\n### 지원자격\n\n2026년 8월 졸업 예정자 또는 기졸업자\n※ 최종합격 후 회사에서 지정하는 날짜에 입사 가능해야 하며, 학/석사 졸업 요건을 충족하지 못할 경우 입사 취소될 수 있습니다.\n※ 박사 학위 소지자는 경력 선발 전형으로 지원해주시기 바랍니다.\n해외여행에 결격 사유가 없으신 분 (남자는 병역필 또는 면제 인원)\n공인 영어성적 보유하신 분  (2024.08.11~2026.08.10 11:00 內 국내에서 취득한 성적)\n※ TOEIC, TOEIC SPEAKING, OPIC, TEPS, G-TELP에 한합니다.\n※ 단, 영어권 국가의 해외대학 졸업자는 공인어학 보유 요건에서 제외됩니다.\n\n### 📋 전형절차\n\n지원서 접수(7/31~8/10) → 인적성검사(8/15~8/18) → 1차 면접(8월) → 2차 면접(9월) → 채용 검진(9월) → 입사(10월)\n※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다.\n※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다.\n\n### 우대사항\n\n기계공학 전공자\n제품 설계 관련 인턴/프로젝트 경험 보유자\n영어 회화 능력 우수자\nCATIA/3DCS 등 설계 TOOL 경험 보유자\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n---\n\n### 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다."
+    "content_path": "content/d3eba2c5f83ffd8e21413a66.md",
+    "content_version": "504976f2454e6e6a"
   },
   {
     "id": "현대모비스_현대모비스_2608_로봇_핸즈_SW_개발",
@@ -4433,7 +4664,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 핸즈 SW 개발\n\n- 신입-연구직 | [로보틱스사업실] 2026년 하반기 연구직 신입채용 (Robotics Business Group, entry-res.)\n\n# 로봇 핸즈 SW 개발\n\n**부서/기간**: 로보틱스사업실 | SW/로직 | 임베디드 | 의왕연구소 (2026-07-31 ~ 2026-08-10 11:00)\n\n### 🛠️ 직무상세\n\n[로봇용 액추에이터 제어기 SW 설계]\n로봇 관절 및 그리퍼 액추에이터 SW 요구사항 분석 및 설계\n모터 구동 SW 설계 (전류/속도/위치/토크 제어)\nMCU/RTOS 기반 실시간 제어 SW 아키텍처 설계\n센서 피드백, 통신, 진단, 보호 로직 설계\n\n[액추에이터 SW 플랫폼 및 계층형 구조 설계]\n로보틱스 특성에 맞는 Driver/BSW, Middleware, Application Logic 구조 정의\n선행 개발 SW의 양산 적용을 위한 공통 SW 모듈화 및 재사용 구조 설계\n\n[양산 SW 개발 및 검증 체계 구축]\nSW 요구사항/설계/구현/검증 프로세스 수립\nUnit/Integration/HIL/Function Test 및 EOL Test 대응\nSW Release, Version 관리 및 품질 확보\n\n### ✨ 우대사항\n\n전기/전자공학 전공자\n로봇용 관절 및 핸즈 액추에이터용 SW 설계 관련 경험 보유자\nMatlab Simulink 활용 Simulation 관련 경험 보유자\n  MCU 기반 SW 개발 및 튜닝 관련 경험 보유자\n휴머노이드, 협동로봇, AMR 등 로봇용 액추에이터 SW 개발 관련 경험 보유자\n  Ethernet SW 설계 관련 경험 보유자\n로봇/서보드라이버/구동제어 SW 개발 관련 경험 보유자\n영어 회화 능력 우수자\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n### 🎓 지원자격\n\n2026년 8월 졸업 예정자 또는 기졸업자\n※ 최종합격 후 회사에서 지정하는 날짜에 입사 가능해야 하며, 학/석사 졸업 요건을 충족하지 못할 경우 입사 취소될 수 있습니다.\n※ 박사 학위 소지자는 경력 선발 전형으로 지원해주시기 바랍니다.\n해외여행에 결격 사유가 없으신 분 (남자는 병역필 또는 면제 인원)\n공인 영어성적 보유하신 분  (2024.08.11~2026.08.10 11:00 內 국내에서 취득한 성적)\n※ TOEIC, TOEIC SPEAKING, OPIC, TEPS, G-TELP에 한합니다.\n※ 단, 영어권 국가의 해외대학 졸업자는 공인어학 보유 요건에서 제외됩니다.\n\n### 📋 전형절차\n\n지원서 접수(7/31~8/10) → 인적성검사/SW코딩테스트(8/15~8/18) → 1차 면접(8월) → 2차 면접(9월) → 채용 검진(9월) → 입사(10월)\n※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다.\n※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다.\n※ 현대자동차그룹 Softeer 정기 역량진단에서 등급인증 자격을 획득하신 분은 SW코딩테스트가 면제되오니, 지원서에 취득번호 입력 부탁드립니다.\n\n### 지원자격\n\n2026년 8월 졸업 예정자 또는 기졸업자\n※ 최종합격 후 회사에서 지정하는 날짜에 입사 가능해야 하며, 학/석사 졸업 요건을 충족하지 못할 경우 입사 취소될 수 있습니다.\n※ 박사 학위 소지자는 경력 선발 전형으로 지원해주시기 바랍니다.\n해외여행에 결격 사유가 없으신 분 (남자는 병역필 또는 면제 인원)\n공인 영어성적 보유하신 분  (2024.08.11~2026.08.10 11:00 內 국내에서 취득한 성적)\n※ TOEIC, TOEIC SPEAKING, OPIC, TEPS, G-TELP에 한합니다.\n※ 단, 영어권 국가의 해외대학 졸업자는 공인어학 보유 요건에서 제외됩니다.\n\n### 📋 전형절차\n\n지원서 접수(7/31~8/10) → 인적성검사/SW코딩테스트(8/15~8/18) → 1차 면접(8월) → 2차 면접(9월) → 채용 검진(9월) → 입사(10월)\n※ 2차 면접 시 영어 면접이 실시되오니 참고하시기 바랍니다.\n※ 운영 상황에 따라 일부 전형은 온라인으로 진행될 수 있으며, 전형 및 일정 또한 변경될 수 있습니다.\n※ 현대자동차그룹 Softeer 정기 역량진단에서 등급인증 자격을 획득하신 분은 SW코딩테스트가 면제되오니, 지원서에 취득번호 입력 부탁드립니다.\n\n### 우대사항\n\n전기/전자공학 전공자\n로봇용 관절 및 핸즈 액추에이터용 SW 설계 관련 경험 보유자\nMatlab Simulink 활용 Simulation 관련 경험 보유자\n  MCU 기반 SW 개발 및 튜닝 관련 경험 보유자\n휴머노이드, 협동로봇, AMR 등 로봇용 액추에이터 SW 개발 관련 경험 보유자\n  Ethernet SW 설계 관련 경험 보유자\n로봇/서보드라이버/구동제어 SW 개발 관련 경험 보유자\n영어 회화 능력 우수자\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n### ℹ️ 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다.\n\n---\n\n### 기타\n\n상시 채용 특성상 전형 일정이 변동될 수 있으며, 상세 일정은 전형별 합격자에 한하여 개별 안내드릴 예정입니다.\n지원서를 포함한 채용 전형 전 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우, 혹은 고의적인 기재사항 누락이 확인될 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n입사지원자는 지원시점부터 채용 전 과정에 걸쳐 전/현직 직장의 영업비밀을 침해하는 일이 없도록 각별히 유의 바랍니다.\n지원서 접수는 온라인(채용사이트)을 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n전형이 진행중인 경우, 당사 타 공고에 중복지원 불가합니다.\n단, 전형이 종료된 이후(전형포기 및 탈락)에는 당사 타 공고에 지원이 가능합니다.\n예시)\n- 로보틱스사업실 전형 진행 中, 로보틱스사업실 내 타 공고 중복지원 불가\n- 로보틱스사업실 전형 진행 中, 타 사업부(부문/BU) 내 공고 중복지원 불가\n- 로보틱스사업실 전형 종료(전형포기 및 탈락) 후, 타 공고 지원 가능.\n※ 전형포기: 본인의 의사로 전형을 포기할 경우, 해당 전형 인사담당자에게 전형포기 의사를 밝힌 시점부터 타 공고 지원 가능합니다.\n※ 탈락: 전형 결과 발표에서 불합격 통보를 받은 인원의 경우, 불합격 통보 시점부터 타 공고 지원 가능합니다."
+    "content_path": "content/40010dbe762e7fd30dec4ceb.md",
+    "content_version": "4803cbc7562420e3"
   },
   {
     "id": "현차_로보틱스랩__현차_로보틱스랩_소개",
@@ -4449,7 +4681,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스랩 소개\n\n## 현대차그룹 로보틱스랩 소개\n현대차그룹의 로봇 R&D 전담 연구소 \n(근무지: 의왕)\n\n## 주요 개발 분야\n서비스 로봇, 모바일 로봇, 웨어러블, 휴머노이드, 매니퓰레이터\n\n## 채용 프로세스\n취업프로세스 : 서류 - 실무면접 + 인성검사 - 인성면접\n\n## 참고\n- Boston Dynamics 자회사로 보유\n- 현대차 그룹내 현대위아, 현대로템, 현대모비스도 로봇 사업/연구 진행 중"
+    "content_path": "content/793acf454d58e71a7ddf081f.md",
+    "content_version": "c9a2724dfdfd06ed"
   },
   {
     "id": "현차_로보틱스랩_현차_2400_Learning-based_Manipulation",
@@ -4468,7 +4701,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [로보틱스랩] Robotics Engineer - Learning-based Manipulation\nHyundai Motor Company  의왕\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n그 중 머신러닝/딥러닝 기술을 활용한 Manipulation 시스템을 개발하며, 이론에서 그치는 것이 아니라 실제 개발 중인 로봇에 적용하여 고객에게 가치를 전달할 수 있는 서비스를 개발합니다. 다중/다종 카메라 환경에서 Manipulation 알고리즘 관련된 연구/개발을 진행합니다. 이 기술을 로봇플랫폼에 적용하여 지속적으로 알고리즘의 신뢰도를 개선합니다.\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n다양한 환경에서 동작하는 다종/다중 영상 센서 기반의 Bimanual Manipulation 비전 시스템 개발하는 업무를 진행합니다.\n\n■ Learning-based Manipulation\n\nManipulation 기술에 대한 연구 개발\n\n(아래 요소 기술 중 한 가지 이상에 대한 업무를 담당하게 됩니다.)\n\nRL for manipulation\nImitation Learning\nUnseen Object Grasp\nSim to Real\nLarge-batch parallel simulations for RL\nRobot Arm Teleoperation\nBimanual Manipulation\n\n## 지원자격\n석사 이상의 학위를 보유하신 분\n석사 취득 후 실무수행 3년 이상의 경력을 보유하신 분\nAI 알고리즘의 실제 로봇 서비스 적용 경험 보유하신 분\nPython, C/C++, Linux, ROS 활용 가능하신 분\n최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n컴퓨터공학, 전기전자 박위 학위를 보유하신 분\nTop-tier 학회 논문 1편 이상 보유 (NIPS, ICCV, CVPR 등)하신 분\nOpen source contributor 경험을 보유하신 분\n\n## 기타\n[기타 유의사항]\n\n지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n[지원자 참고사항]\n\n지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/a429b3f437f655511083d0c1.md",
+    "content_version": "57d58cff82917351"
   },
   {
     "id": "현차_로보틱스랩_현차_2400_On-Device_AI",
@@ -4487,7 +4721,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [로보틱스랩] Robotics Engineer - On-Device AI\nHyundai Motor Company  의왕\n\n## 조직소개\n우리 조직은 머신러닝/딥러닝 기술을 활용한 로봇비전 시스템을 개발하며, 이론에서 그치는 것이 아니라 실제 개발 중인 로봇에 적용하여 고객에게 가치를 전달할 수 있는 서비스를 개발합니다.\n\n모델 경량화/최적화 기술 연구를 통해, AI 기술들이 실시간 구동이 가능하도록 개발하며, 로봇에 적용을 위해 ROS2기반 비전AI 시스템을 개발합니다. 다양한 벤치마크 실험을 통해 효율적인 로봇 비전 추론 시스템 구축을 위한 가이드라인을 제시합니다.\n\n## 직무상세\n딥러닝 모델 경량화 기술 연구 및 개발\nOn-Device AI 최적화 기술 개발\nROS 기반 로봇비전 AI시스템 개발\n\n[딥러닝 모델 경량화 기술 개발]\n\nPruning, Filter Decomposition, Quantization, Knowledge Distillation 연구\nTensorRT, OpenVino 등을 이용한 추론 기술 개발\n\n[On-Device AI 최적화 기술 개발]\n\n로봇(제어기) 적용울 위한 AI 모델 CUDA, SIMD 활용 추론 최적화\n저전력 구동을 위한 임베디드 S/W 개발\n모델 추론 간 효율화를 위한 IPC 통신 및 메모리 최적화\n\n[로봇 비전 AI 시스템 개발]\n\nROS2 기반 Vision AI 시스템 아키텍쳐 설계 및 개발\n임베디드 플랫폼 (ex. NVIDIA Jetson, Qualcomm RB5 등)에 대한 AI 성능 벤치마크 분석\nAI accelerator 포팅 및 성능 분석\n\n## 지원자격\n학사 이상의 학위 보유하신 분\nCS, EE 전공하신 분\n석사 취득 후 실무수행 3년 이상, 학사 5년 이상 관련 분야 업무 경험 보유하신 분\n모델 경량화를 적용한 프로젝트 경험하신 분\nPython, C/C++, Linux, ROS, Cuda 활용 가능하신 분\n최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\nTop-tier 학회 논문 2편 이상 보유하신 분 (CVPR, ECCV, ICCV 등)\nOpen source contributor 우대\n\n## 기타\n[기타 유의사항]\n\n지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n[지원자 참고사항]\n\n취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n지원서 접수 마감일에는 지원자가 대거 몰려 입사지원이 어려울 수 있으니, 여유있게 미리 제출하시기를 권장합니다.\n지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/6467c1b28480aaf9cd03451a.md",
+    "content_version": "c8db7e9e74121039"
   },
   {
     "id": "현차_로보틱스랩_현차_2400_로봇_플랫폼_설계",
@@ -4506,7 +4741,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [로보틱스랩] Robotics Engineer - 로봇 플랫폼 설계\nHyundai Motor Company  의왕\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며,\n\n사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n그중 우리 조직은 의료용/산업용 착용 로봇 및 관절형 로봇에 관련한 제어와 설계 연구를 주 업무로 수행하고 있습니다.\n\n선행 연구에서부터 양산화까지 넓은 범위의 일들을 수행할 수 있어 로봇 전문가로 성장할 수 있는 기회를 제공합니다.\n\n우리 로보틱스랩에서는 새로운 모빌리티를 함께 만들어 나갈 여러분의 지원을 기대하고 있습니다.\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n로봇 플랫폼 전체 구성의 설계 (6자유도 이상 우대)\nBLDC 모터 기반 모듈형 통합 구동계 설계\n3D 솔리드 기반 CAD 설계 (Solidworks 선호)\n구동계 소형화를 위한 최적설계\n로봇의 구성요소 (모터, 감속기, 엔코더 등)의 이해를 바탕으로 한 설계\n\n[로봇 플랫폼 설계]\n\n로봇 기구 및 다관절 메커니즘 설계 및 해석\n엑츄에이터, 센서류, 하니스 등 메카트로닉 컴포넌트 설계\n구동계 소형화 설계를 통한 로봇 플랫폼 설계\n로봇 전장/회로 통합 고려 설계\n\n[선행 플랫폼/메커니즘 설계]\n\n다양한 플랫폼에 대한 이해를 바탕으로 한 혁신 메커니즘 및 시스템 개발\n컨셉 검증을 위한 프로토타입 설계\n신규 로봇 플랫폼의 제안 및 설계\n로봇 메커니즘에 대한 기구학 및 동역학 해석\n\n## 지원자격\n석사 이상의 학위 보유하신 분\n관련 직무에 대해 3년 이상의 경력을 보유하신 분\n기계공학 전공하신 분\n기계설계 및 동역학 관련 과목 수강하신 분\n로봇 기구 및 구동기 설계 경험 보유하신 분\nSolidWorks 활용 능력 보유하신 분\n최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n착용/보행 로봇, 다관절 로봇 설계 경험 보유하신 분\nRecudyn 등 기타 해석툴 활용 능력 보유하신 분\n비즈니스 영어 활용 능력 보유하신 분\n\n## 기타\n본 공고는 상시공고로 매월 말일까지 접수되는 지원서를 기준으로 월 별 채용프로세스가 진행됩니다.\n지원서 접수 마감일에는 지원자가 몰려 입사지원이 어려울 수 있으니, 여유 있게 미리 제출하시기를 권장합니다.\n지원서의 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형 상의 불이익을 받을 수 있습니다.\n취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다."
+    "content_path": "content/e9eae7759d130707b8b48129.md",
+    "content_version": "ba35ed39b13440ea"
   },
   {
     "id": "현차_로보틱스랩_현차_2400_모바일_로봇_설계",
@@ -4525,7 +4761,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [로보틱스랩] Robotics Engineer - 모바일 로봇 설계\nHyundai Motor Company  의왕\n\n\n 채용공고 마감됨\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n그 중 우리 조직은 PnD와 DnL 기술과 그를 기반으로 한 초소형 모빌리티와 배송 로봇 플랫폼에 대한 연구개발을 진행하고 있습니다.\n\n고도화된 신규 플랫폼 / 제어 알고리즘 / 자율 이동 기술을 바탕으로 고객에게 한차원 높은 경험을 선사하는 것을 목표로 하고 있습니다.\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n다자유도 마이크로 모빌리티 및 모바일 로봇의 기구설계/구조해석/인버터개발/펌웨어개발/양산설계/양산데이터 관리 등의 업무를 수행합니다.\n\n■ 기구설계 및 해석\n\n하드웨어 개발에 필요한 전반적인 설계 프로세스(컨셉도출>프로토타입>기구개선>최종품) 수행\n요소기술설계(모터, 감속기, 엔코더 구성의 구동모듈 설계) 및 최적화\n해석 및 시뮬레이션을 활용한 사양도출 및 설계검증\n사용 목적별(용량, 환경, 크기 등) 특화된 타겟 플랫폼의 시스템 통합(SI)\n\n■ 인버터/펌웨어 개발\n\n인버터(모터드라이브) / 펌웨어 개발\n시스템 전원, 제어기, 모터 드라이브, 각종 신호처리/센서 관련 회로 설계 및 펌웨어 개발\n실/내외 로봇에 적용이 가능한 모바일 로봇용 배터리팩 및 해당 BMS의 개발, 관리\n모바일 플랫폼 와이어링 하네스의 설계 및 개발\n요소 부품 및 모듈 성능평가를 위한 테스트 회로의 구성 및 운영\n\n■ 양산설계 및 양산 데이터 관리\n\nPnD/DnL 모듈 기반 양산 개발(양산제품 성능개량 및 설계 변경)\nE/O, BOM, 양산 도면의 관리 및 기 개발시스템의 양산 이관\n개발 구매(신규 부품 및 거래선 발굴, 육성, 대체품 검토), 부품/제품 검사기준서 관리\n\n## 지원자격\n학사 이상의 학위를 보유하신 분\n관련 직무에 대해 3년 이상의 경력을 보유하신 분\n기계공학, 전기전자, 산업공학 계열을 전공하신 분\n설계툴(SolidWorks, CATIA, PADS), 해석툴(RecurDyn, Ansys) 활용이 가능하신 분\n최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n석사 혹은 박사 학위를 보유하신 분\n모터모듈, 매니퓰레이터, 모바일 로봇, 소형 모빌리티, AGV개발 경험 보유하신 분\n\n## 기타\n[기타 유의사항]\n\n지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n[지원자 참고사항]\n\n지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/da8012943a2f11e8280d6823.md",
+    "content_version": "e074a0645bd054cf"
   },
   {
     "id": "현차_로보틱스랩_현차_2406_Spatial_AI",
@@ -4544,7 +4781,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Spatial AI\n\n## 직무상세\n- 환경 조건에 강인한 카메라 기반 자세 추정 및 위치 인식 기술 개발\n\n- 실내외 다양한 환경 및 다종/다중 영상 센서 기반의 로봇 비전 시스템 개발\n\n\n[Computer Vision 일반]\n\n- Image processing\n\n- Multi-view geometry\n\n- Multi Camera Calibration, Camera IMU Calibration\n\n- Camera Pose Estimation\n\n- Feature Tracking\n\n\n[Semantic Local Mapping]\n\n- 아래 요소 기술 중 한 가지 이상에 대한 업무를 담당하게 됩니다.\n\n- Visual Inertial Odometry, Visual Odometry\n\n- 2.5D Elevation Mapping\n\n- Visual Localization\n\n- Semantic/Instance/Panoptic Segmentation\n\n- Occupancy Network\n\n## 지원자격\n- 석사 이상의 학위 소유하신 분\n\n- 석사 취득 후 실무 수행 3년 이상의 경력 보유하신 분\n\n- 컴퓨터공학, 전기전자공학 전공하신 분\n\n- AI 알고리즘의 실제 로봇 서비스 적용 경험 보유하신 분\n\n- Python, C/C++, Linux, ROS 활용 가능하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 박사 이상의 학위 소유하신 분\n\n- 컴퓨터 공학, 전기전자공학 전공하신 분\n\n- Top-Tier 학회 논문 2편 이상 보유(NIPS, ICCV, CVPR 등)\n\n- Open source contributor 우대"
+    "content_path": "content/3e834e915d7aff60eaaf7dfa.md",
+    "content_version": "3604ddf5190f9e6c"
   },
   {
     "id": "현차_로보틱스랩_현차_2406_관절_로봇_제어",
@@ -4563,7 +4801,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 관절 로봇 제어\n\n## 직무상세\n- 상/하반신을 포함한 착용로봇 플랫폼 및 매니퓰레이터 제어 알고리즘 개발\n\n- 생체신호 및 각종 모션 관련 센서 / 엑츄에이터 등을 이용한 예측 제어 및 모델 기반 제어\n\n- 로봇 제어를 위한 임베디드 환경에서 제어 알고리즘 프로그래밍\n\n\n[제어 알고리즘]\n\n- 로봇 플랫폼의 동역학 기반 제어 및 시뮬레이션\n\n- 직/간접 토크 기반 제어 및 알고리즘 개발\n\n- 학습 기반 경로 계획 및 모션 제어 알고리즘 개발\n\n- 착용자 모션/보행 인지 및 예측 알고리즘 개발\n\n\n[제어 프로그래밍]\n\n- 임베디드 환경에서 실시간성을 고려한 로봇 제어 알고리즘 프로그래밍\n\n- Real-Time OS 기반 로봇 제어 알고리즘 구현\n\n- 고속 연산을 위한 알고리즘 최적화\n\n\n[시스템 프로그래밍]\n\n- 시스템 운영을 위한 FSM(Finite State Machine) 설계\n\n- 시스템 주변 장치 제어 및 유/무선 통신 구현\n\n- CANopen, EtherCAT 통신의 구현 및 이해\n\n## 지원자격\n- 석사 이상의 학위 소유하신 분\n\n- 관련 직무에 대해 3년 이상의 경력 보유하신 분\n\n- 기계공학, 전기전자, 로봇공학, 동역학, 제어공학 관련 전공하신 분\n\n- 기구학 및 전자회로에 대한 이해를 보유하신 분\n\n- C/C++/MATLAB 활용 능력 보유하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 최적 제어, 강인 제어, 로봇 공학, 강화학습기반 제어 과목 이수하신 분\n\n- 비즈니스 영어회화 능통하신 분\n\n- Microprocessor 및 Real-Time 환경 작업 가능하신 분\n\n- Real-Time Linux, EtherCAT 활용 가능하신 분"
+    "content_path": "content/1a11dc0cd2924ac391200f88.md",
+    "content_version": "861ec18e3fa0ed4d"
   },
   {
     "id": "현차_로보틱스랩_현차_2408_AI_Perception",
@@ -4582,7 +4821,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# AI Perception\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n머신러닝/딥러닝 기술을 활용한 로봇비전 시스템을 개발하며, 이론에서 그치는 것이 아니라 실제 개발 중인 로봇에 적용하여 고객에게 가치를 전달할 수 있는 서비스를 개발합니다.\n\nImage/Video 입력에 대하여 Object detection, Scene segmentation, Action recognition, Visual surveillance 등 다양한 AI 기술을 연구/개발합니다.\n\n각 알고리즘이 환경에 강인하게 동작하도록 다양한 카메라를 개발하여 활용하며, 로봇에 장착된 카메라를 넘어 로봇 주변 인프라의 카메라 영상과 연계하여 상황을 판단하여 능동적인 동작이 가능하도록 representation 능력을 향상시키기 위한 기술을 연구합니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\nDeep learning 기반 객체 분석 및 상황 인식 기술 연구 및 RGB 영상 활용 3D 객체 및 공간 재구성 연구와 학습을 위한 데이터 획득 및 분석/관리 업무를 수행합니다.\n\n\n■ Deep learning 기반 객체 인식 및 분석 연구\n\n　- 객체 탐지/추적 및 상황 분석\n\n　　- Re-identification 기반의 객체 추적 기술\n\n　　- Vision-Language model 을 활용한 객체 및 상황 분석 (행동, 객체 attribute 등)\n\n\n■ Deep learning 기반 reconstruction 연구\n\n　- 객체 및 공간 3D reconstrunction\n\n　　- RGB 기반 3D reconstruction (Nerf, SDF, Gaussian splatting)\n\n　　- LRM (Large Reconstruction Model)\n\n\n■ 데이터셋 분석 및 Curation\n\n　- Data acquisition & labeling & curation\n\n　- Unlabeled data 분석 및 Edge case 분석\n\n　- 데이터 관리 및 Ops 연동\n\n## 지원자격\n- 석사 이상의 학위를 보유하신 분\n\n- 유관분야 석사를 취득 후 실무수행 경력을 3년 이상 보유하신 분\n\n- 카메라, 비디오 입력 기반의 AI 알고리즘 실제 서비스 적용 경험을 보유하신 분\n\n- CS, EE을 전공하신 분\n\n- Python, C/C++, Linux 활용 능력을 보유하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 박사 이상의 학위를 보유하신 분\n\n- 영상 신호처리 과목을 이수하신 분\n\n- 딥러닝 3D reconstruction을 위한 데이터 전처리 알고리즘 개발 경험을 보유하신 분\n\n- C++ 활용 inference application 개발 경험을 보유하신 분\n\n- AWS 등 cloud 기반 추론 환경 활용 능력을 보유하신 분\n\n- Nvidia jetson 제어기 환경 활용 능력을 보유하신 분\n\n## 전형단계\n1. 지원서 접수 / Applications\n\n2. 서류전형 / Review\n\n3. 면접전형 (인성검사) / Interviews (Personality Test)\n\n4. 채용검진 / Physical Examinations\n\n5. 최종합격 / Acceptance\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/1c4afbfc2e520ba2ddf6bf42.md",
+    "content_version": "c6dc3c63056c268f"
   },
   {
     "id": "현차_로보틱스랩_현차_2408_Robot_Virtualization",
@@ -4601,7 +4841,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Robot Virtualization\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그 중 우리 조직은 로봇 지능을 선행 연구하는 조직으로 로봇 전문가로서 성장할 수 있는 기회가 제공되며, 고객에게 가치있는 서비스를 제공하기 위해 다양한 기술을 연구 개발하고 있습니다.\n\n자율 이동 기술, VISION 기반 인지 기술, 고객의 로봇 사용성 향상을 위한 대화 처리 시스템, 다목적 로봇 Task 관리 및 Middleware SW, 로봇 관제 시스템 기술 그리고 이러한 소프트웨어의 통합과 최적화를 통해 고도화된 로봇 지능 SW 개발을 연구합니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n로봇 가상화 솔루션 연구 개발 및 Digital Twin 구축 업무를 수행합니다.\n\n\n■ 로봇 시뮬레이션을 위한 가상화 솔루션 연구 개발\n\n　- 오픈 소스 기반 Robot 3D simulator 프로그래밍 및 가상화 솔루션 개발 (OpenRMF, NVIDIA Isaac Sim, Habitat, ReplicaCAD, etc.)\n\n　- Robot 3D simulator 기술 동향 리서치 및 성능 분석/비교\n\n　- 로봇 가상화 솔루션 최적화 및 고도화\n\n\n■ 로봇 Digital-Twin 개발 및 구축\n\n　- 로봇 3D 가상화 솔루션 기반으로 안내/실내외 배송/패트롤 등 다양한 지능형 로봇 서비스 테스트 베드용 Digital Twin 개발과 구축\n\n　- 물리 엔진이 적용된 가상화 환경에서 로봇 주행 및 주위 환경과 인터렉션 검증 및 안정화\n\n## 지원자격\n- 석사 이상의 학위를 보유하신 분\n\n- 관련 직무에 대해 3년 이상의 경력을 보유하신 분\n\n- 컴퓨터 사이언스, 전자공학, 컴퓨터공학을 전공하신 분\n\n- 가상화 솔루션 개발 관련 경력을 보유하신 분\n\n- Linux OS, Docker, ROS, Git 활용 능력을 보유하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- Simulator Programming 관련 자격증을 보유하신 분\n\n- 가상화 솔루션 성능 최적화, ROS based simulator 개발 관련 경험을 보유하신 분\n\n- Gazebo or Isaac Sim 중급 이상, Git, DevOps 상급 이상 활용 능력을 보유하신 분\n\n## 전형단계\n1. 지원서 접수 / Applications\n\n2. 서류전형 / Review\n\n3. 면접전형 (인성검사) / Interviews (Personality Test)\n\n4. 채용검진 / Physical Examinations\n\n5. 최종합격 / Acceptance\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/c07501551590b09a6d6d116a.md",
+    "content_version": "2180b3828f826055"
   },
   {
     "id": "현차_로보틱스랩_현차_2408_Speech_Dialog_System",
@@ -4620,7 +4861,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Speech Dialog System\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그 중 우리 조직은 로봇 지능을 선행 연구하는 조직으로 로봇 전문가로서 성장할 수 있는 기회가 제공되며, 고객에게 가치있는 서비스를 제공하기 위해 다양한 기술을 연구 개발하고 있습니다.\n\n자율 이동 기술, VISION 기반 인지 기술, 고객의 로봇 사용성 향상을 위한 대화 처리 시스템, 다목적 로봇 Task 관리 및 Middleware SW, 로봇 관제 시스템 기술 그리고 이러한 소프트웨어의 통합과 최적화를 통해 고도화된 로봇 지능 SW 개발을 연구합니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n음성인식 시스템 요소 기술 통합 설계 및 개발 업무를 수행합니다.\n\n\n■ 음성 인식 시스템 구조 설계 및 구현\n\n　- 음성인식 시스템 성능 향상을 위한 요소기술 통합 구조 설계 및 구현\n\n　- 음성인식 시스템 관련 최신 기술 동향 및 분석\n\n\n■ 로봇 음성인식 시스템 적용 및 평가\n\n　- 로봇 유저 시나리오 검토 및 시나리오 설계 기반한 음성인식 기능 통합\n\n　- 음성인식 시스템 성능 평가 및 개선\n\n\n■ 차세대 대화처리 연구\n\n　- 다양한 사용자 입력/출력을 처리/제어하는 차세대 멀티모달 대화처리 엔진 개발\n\n　- LLM 적용 대화처리 기술 개발\n\n## 지원자격\n- 석사 이상의 학위를 보유하신 분\n\n- 관련 직무에 대해 3년 이상의 경력을 보유하신 분\n\n- 컴퓨터 사이언스, 전자공학, 컴퓨터공학을 전공하신 분\n\n- 음성 인식 시스템 개발, SW 개발 프로세스 및 Agile 개발 경험을 보유하신 분\n\n- 프로그램 언어(C/C++, Python 등) 및 딥러닝 라이브러리 사용(tensorflow, pytorch 등) 경험을 보유하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 박사 이상의 학위를 보유하신 분\n\n- SW 개발 관련 자격증, 경진대회 수상 이력을 보유하신 분\n\n- 음성 인식 시스템 양산 경험을 보유하신 분\n\n- Git, Docker 등의 SW 개발 툴과 시스템 개발 Tool 경험을 보유하신 분\n\n## 전형단계\n1. 지원서 접수 / Applications\n\n2. 서류전형 / Review\n\n3. 면접전형 (인성검사) / Interviews (Personality Test)\n\n4. 채용검진 / Physical Examinations\n\n5. 최종합격 / Acceptance\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/1a5c03d9a75634af7a21659b.md",
+    "content_version": "574b955d7e66dc24"
   },
   {
     "id": "현차_로보틱스랩_현차_2408_Speech_Signal_Enhancement",
@@ -4639,7 +4881,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Speech Signal Enhancement\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그 중 우리 조직은 로봇 지능을 선행 연구하는 조직으로 로봇 전문가로서 성장할 수 있는 기회가 제공되며, 고객에게 가치있는 서비스를 제공하기 위해 다양한 기술을 연구 개발하고 있습니다.\n\n자율 이동 기술, VISION 기반 인지 기술, 고객의 로봇 사용성 향상을 위한 대화 처리 시스템, 다목적 로봇 Task 관리 및 Middleware SW, 로봇 관제 시스템 기술 그리고 이러한 소프트웨어의 통합과 최적화를 통해 고도화된 로봇 지능 SW 개발을 연구합니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n로봇 음성 처리 알고리즘과 시스템을 개발하고 최적화하는 업무를 수행합니다.\n\n\n■ 음성 신호처리 알고리즘 개발\n\n　- 잡음환경에서 음성 인식 성능향상을 위한 AEC, NR, VAD, EPD 알고리즘 개발\n\n　- 딥러닝/신호처리 기반 BF, SS, SSL 등의 멀티채널 알고리즘 개발\n\n　- 딥러닝 기반 Speaker Verification, Event Detection 알고리즘 개발\n\n　- 실내/외 환경에서 대화 인식 성능 향상을 위한 Multi-modal 인식 기술 개발\n\n\n■ 로봇용 음성 신호처리 임베디드 보드 개발 및 시스템 개발\n\n　- 신호처리/딥러닝 모델 최적화 및 경량화\n\n　- 음성 전처리 모델 임베디드 포팅 및 테스트\n\n　- 로봇 자연어 인식을 위한 음성 전처리 사양 도출, 시스템 구축 및 개발\n\n\n■ 음성 신호처리 모델 학습 및 테스트 환경 구축\n\n　- 딥러닝 모델 학습/평가을 위한 DB 수집 및 생성\n\n　- 음성 신호처리 알고리즘 성능 테스트 환경 구축 및 성능 분석\n\n　- 음성 신호처리 관련 최신논문 동향 분석을 통한 시스템 구현\n\n## 지원자격\n- 석사 이상의 학위를 보유하신 분\n\n- 관련 직무에 대해 3년 이상의 경력을 보유하신 분\n\n- 컴퓨터 사이언스, 전자공학, 컴퓨터공학을 전공하신 분\n\n- 음성 신호처리 알고리즘 및 시스템 개발 경험을 보유하신 분\n\n- 프로그램 언어(C/C++, Python 등) 및 딥러닝 라이브러리 사용 경험(Tensorflow, Pytorch 등)을 보유하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사가 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 박사 이상의 학위를 보유하신 분\n\n- Signal Processing and Systems, Pattern Recognition and Machine Learning, Probability and Random Processes를 전공하신 분\n\n- SW 개발 관련 자격증, 경진대회 수상하신 분\n\n- 학회 논문 보유(Interspeech, ICCASP 등), 임베디드 음성 시스템 설계 및 제품 개발 경험을 보유하신 분\n\n- git, docker 등의 SW 개발 툴과 시스템 개발 Tool 경험을 보유하신 분\n\n## 전형단계\n1. 지원서 접수 / Applications\n\n2. 서류전형 / Review\n\n3. 면접전형 (인성검사) / Interviews (Personality Test)\n\n4. 채용검진 / Physical Examinations\n\n5. 최종합격 / Acceptance\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/ce8b7bf216f91a1882296676.md",
+    "content_version": "20d67ee66ce6a214"
   },
   {
     "id": "현차_로보틱스랩_현차_2408_모바일_로봇_SLAM",
@@ -4658,7 +4901,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모바일 로봇 SLAM\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그 중 우리 조직은 PnD와 DnL 기술과 그를 기반으로 한 초소형 모빌리티와 배송 로봇 플랫폼에 대한 연구개발을 진행하고 있습니다.\n\n고도화된 신규 플랫폼 / 제어 알고리즘 / 자율 이동 기술을 바탕으로 고객에게 한차원 높은 경험을 선사하는 것을 목표로 하고 있습니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n로봇의 자율 이동 기술을 위한 다양한 센서 바탕의 정밀 측위 및 지도 작성(SLAM)·업데이트·관리 기술 개발 업무를 진행합니다.\n\n\n■ Visual SLAM\n\n　- Visual Odometry 및 Visual SLAM 알고리즘 개발\n\n　- 다양한 센서와 융합을 통한 State Estimation 기능 개발\n\n　- Vision 데이터를 활용한 공간 지도 제작 기술 개발 (Photogrammetry, 3D Reconstruction, SFM)\n\n\n■ LiDAR SLAM\n\n　- 로봇 자율이동을 위한 3D LiDAR based SLAM/정밀 측위 기술 개발\n\n　- 센서 퓨전(LiDAR, IMU, GPS) 기반 SLAM/정밀 측위 기술 개발\n\n　- 공간 특성을 활용한 강인한 SLAM 기술 (점군 정합, 최적화, 시맨틱 정보 활용) 개발\n\n\n■ Map update & management\n\n　- 다중 지도 정합, 지도 변화구간 자동감지 및 업데이트 기술 개발\n\n　- 로봇 자율이동을 위한 맵(point cloud, image 등) 데이터베이스 관리 및 유지 보수 기술 개발\n\n　- 로봇 자율이동을 위한 맵(2d/3d) 생성 자동화, 효율화 시스템 개발\n\n## 지원자격\n- 석사 이상의 학위를 소유하신 분\n\n- 관련 직무에 대해 3년 이상의 경력을 보유하신 분\n\n- 기계공학, 컴퓨터공학, 전자공학을 전공하신 분\n\n- C / C++ 프로그래밍 언어 활용을 가능하신 분\n\n- ROS (Robot Operating System) 개발 경험을 보유하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 실환경 서비스로봇 개발 경험 보유하신 분\n\n- 오픈소스 S/W 컨트리뷰터 경험 보유하신 분\n\n## 전형단계\n1. 지원서 접수 / Applications\n\n2. 서류전형 / Review\n\n3. 면접전형 (인성검사) / Interviews (Personality Test)\n\n4. 채용검진 / Physical Examinations\n\n5. 최종합격 / Acceptance\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/e07d93c381384e078721eb3c.md",
+    "content_version": "363d48bd29b75e9b"
   },
   {
     "id": "현차_로보틱스랩_현차_2408_모바일_로봇_시험평가",
@@ -4677,7 +4921,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모바일 로봇 시험평가\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그 중 우리 조직은 PnD와 DnL 기술과 그를 기반으로 한 초소형 모빌리티와 배송 로봇 플랫폼에 대한 연구개발을 진행하고 있습니다.\n\n고도화된 신규 플랫폼 / 제어 알고리즘 / 자율 이동 기술을 바탕으로 고객에게 한차원 높은 경험을 선사하는 것을 목표로 하고 있습니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n모바일 로봇의 시험평가 기준 개발, 테스트 환경 구성, 시험/평가 수행, 시험결과 분석 등의 업무를 수행합니다.\n\n\n■ HW 성능평가\n\n　- 하드웨어 단품/하위 어셈블리에 대한 전반적인 기능/성능평가\n\n　- 제어기, 모터드라이버, 배터리 등 전장품에 대한 기능/성능평가\n\n　- 이상동작 및 기능고장에 대한 정의수립\n\n\n■ 통합플랫폼 성능평가\n\n　- 로봇 시험평가 기준 개발\n\n　- 성능평가장비 개발 및 테스트 환경구축\n\n　- 자체 시험평가 수행 및 결과 분석\n\n　- 외부 인증업체와의 협업을 통한 각종 안전인증 및 규격인증 획득\n\n## 지원자격\n- 학사 이상의 학위를 소유하신 분\n\n- 관련 직무에 대해 3년 이상의 경력을 보유하신 분\n\n- 기계공학, 전기전자, 산업공학을 전공하신 분\n\n- 로봇 시스템 구성 및 전원, 신호 흐름에 대한 이해도/경험을 보유하신 분\n\n- 로봇 시험, 평가를 위한 세부항목과 평가방법 도출을 위한 단품, 제품 관점의 이해도/경험을 보유하신 분\n\n- 로봇제품 안전인증(예: ISO13482, UL3300)에 대한 이해도/경험을 보유하신 분\n\n- 설계툴(Solidworks, CATIA, PADS), 해석툴(Recurdyn, Ansys) 활용이 가능하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 석사 이상의 학위를 소유하신 분\n\n- 모터모듈, 매니퓰레이터, 모바일 로봇, 소형 모빌리티, AGV개발 경험을 보유하신 분\n\n## 전형단계\n1. 지원서 접수 / Applications\n\n2. 서류전형 / Review\n\n3. 면접전형 (인성검사) / Interviews (Personality Test)\n\n4. 채용검진 / Physical Examinations\n\n5. 최종합격 / Acceptance\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/ab024cd0cb6d0f32fb6539c1.md",
+    "content_version": "86677369109d6d45"
   },
   {
     "id": "현차_로보틱스랩_현차_2408_인체_모델링_및_시뮬레이션",
@@ -4696,7 +4941,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 인체 모델링 및 시뮬레이션\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그 중 우리 조직은 의료용/산업용 착용 로봇 및 관절형 로봇에 관련한 제어와 설계 연구를 주 업무로 수행하고 있습니다. 선행 연구에서부터 양산화까지 넓은 범위의 일들을 수행할 수 있어 로봇 전문가로 성장할 수 있는 기회를 제공합니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n착용 로봇 설계 및 평가를 위한 생체역학 기반 디지털 인체 모델링 및 시뮬레이션, 착용 시나리오 기반 실험 설계/수행을 통해 평가/해석하고, 제품 설계 엔지니어와 협력하여 설계 개선 방안을 연구합니다.\n\n\n■ 인체 모델링 및 시뮬레이션\n\n　- 생체역학 기반 인체 근골격 동역학 모델 개발 및 시뮬레이션\n\n　- 착용 로봇 설계 정보(CAD) 기반의 인체-로봇 통합 동역학 모델 개발 및 시뮬레이션\n\n　- 시뮬레이션을 통한 착용 로봇 설계 파라미터 최적화 및 제품 컨셉 검증\n\n\n■ 실험 수행, 데이터 평가 및 해석\n\n　- 착용 로봇 사용 시나리오 기반 실험 설계\n\n　- 실험 환경 구축 (또는 장소 섭외) 및 피험자 선정\n\n　- 모션캡쳐/근전도/힘센서 등을 이용한 인체 동작 실험 데이터 획득, 처리 및 분석\n\n　- 생체역학 기반의 착용 로봇 평가 지표의 개발 및 산출\n\n　- 분석 결과를 보고서 등의 전달 가능한 형태로 가공\n\n\n■ 제품 설계 개선 방안 연구\n\n　- 평가 및 해석 결과를 제품 설계 엔지니어와 공유\n\n　- 제품 프로토타입 개발 단계에서 적극적 사용 및 협력 지원\n\n　- 제품 설계 개선 방안에 대해 설계 엔지니어에게 피드백 제공\n\n\n■ 학술 및 대외 활동\n\n　- 관련 분야 최신 연구 동향 파악 및 정보 보고\n\n　- 학회/전시회 등 각종 대외 활동 참가\n\n　- 착용형 로봇 외부 적용 사례 발생 시 기술 지원\n\n## 지원자격\n- 석사 이상의 학위를 소유하신 분\n\n- 관련 직무에 대해 3년 이상의 경력을 보유하신 분\n\n- 기계공학, 생체역학, 의공학, 컴퓨터공학 관련 전공하신 분\n\n- AnyBody, OpenSim, MATLAB, Python 활용이 가능하신 분\n\n- 최종합격 후, 회사가 지정하는 입사일에 입사 가능하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 비즈니스 영어 회화가 가능하신 분\n\n- 산업체 근무 경력을 보유하신 분\n\n- 디지털 인체 모델링을 이용한 제품 설계 및 해석 경험을 보유하신 분\n\n- 동역학 및 유한요소 기반의 제품 해석 경험을 보유하신 분\n\n- 모션캡쳐, 근전도 등 생체역학 기반 실험 장비 사용 및 데이터 분석 경험을 보유하신 분\n\n- SolidWorks, MuJoCo, RecurDyn, Ansys 활용 능력을 보유하신 분\n\n## 전형단계\n1. 지원서 접수 / Applications\n\n2. 서류전형 / Review\n\n3. 면접전형 (인성검사) / Interviews (Personality Test)\n\n4. 채용검진 / Physical Examinations\n\n5. 최종합격 / Acceptance\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 공고 진행 상황에 따라 서류전형에서 Pre-interview가 진행될 수 있습니다."
+    "content_path": "content/5f8eecd4e02af9301b52a93d.md",
+    "content_version": "d41482f1d8fd8988"
   },
   {
     "id": "현차_로보틱스랩_현차_2410_WEB_서비스_시스템_개발",
@@ -4716,7 +4962,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# WEB 서비스 시스템 개발\n\n## 조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그 중 우리 조직은 다양한 로봇을 제어하고, 실시간 관리하며, 사용자에게 고품질의 서비스를 제공하기 위한 관제 시스템과, 로봇 FE, BE 개발을 담당하고 있습니다.\n\n또한 다양한 분야의 전문가들과 기초연구부터 양산개발까지 함께 진행하고 있습니다.\n\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n\n(https://robotics.hyundai.com/)\n\n## 직무상세\n안내, 배송, 패트롤, 사이니지 등 다양한 로봇 및 로봇 관제 서버와 연동 할 도메인별 WEB 서비스 시스템을 설계 및 개발합니다.\n\n\n■ 로봇배송 및 주문관리 시스템 개발\n\n　- 로봇관제와 연동되는 주문관리 시스템 개발 (Spring)\n\n　- 결제, 정산, 쿠폰, 배너, 리포트, 이벤트 등 관리 기능개발 및 유지보수\n\n\n■ 로봇 광고 및 컨텐츠 관리 솔루션 개발\n\n　- 로봇에 사용되는 광고 및 컨텐츠 송출서버 개발\n\n　- 광고 및 로봇 컨텐츠 관리 시스템 개발\n\n\n■ 기타\n\n　- 백오피스 시스템에 대한 화면 및 기능 설계\n\n　- SRS, SDS 작성 및 이슈, 버전별 형상 및 배포 관리\n\n## 지원자격\n- 학사 이상의 학위를 보유하신 분\n\n- 학위 취득 후, 해당 분야 3년 이상의 실무 경력을 보유하신 분\n\n- JAVA8, ORM, Kafka, Maven/Gradle, ELK, Docker 등 활용 능력을 보유하신 분\n\n- 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n- 비즈니스 외국어 능력을 보유하신 분\n\n- 프로젝트 개발 일정 관리 및 QA 경험이 있으신 분\n\n- 상용 웹솔루션 설계/개발 경험, 대규모 서비스 운영 경험을 보유하신 분을 보유하신 분\n\n- SaaS 서비스 설계/개발/운영 경험을 보유하신 분\n\n- 운영서비스 보안 인증처리 경험을 보유하신 분\n\n- Frontend 설계 및 개발에 대한 이해를 보유하신 분\n\n## 전형단계\n1. 지원서 접수\n\n2. 서류전형\n\n3. 면접전형 (인성검사)\n\n4. 채용검진\n\n5. 최종합격\n\n## 기타\n[기타 유의사항]\n\n\n- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)은 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n- 회사 내규상 정상근무가 불가능할 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n\n\n[지원자 참고사항]\n\n\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n\n- 취업보호대상자(장애, 보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 공고 내 직급 수준은 예상 직급으로 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다."
+    "content_path": "content/3552f3eaf9cab31e28d44889.md",
+    "content_version": "56d32176407aefb4"
   },
   {
     "id": "현차_로보틱스랩_현차_2410_배송_모바일_로봇상품기획",
@@ -4735,7 +4982,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n그 중 우리 조직은 모바일 로봇의 사업화를 추진하고 있습니다.\n이를 위하여 시장/고객을 조사하고 산업/기술 트렌드를 분석하여 신기술/신제품/신시장을 발굴하고 있으며, 로봇 개발부터 시작하여 생산, 판매, 서비스로 연결되는 일련의 value chain 구축을 준비하고 있습니다.\n또한 다양한 국내 및 글로벌 로봇 업체/기관 등과의 협업을 통해 로봇 생태계를 구축하는데 앞장서고 있습니다.\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n(https://robotics.hyundai.com/)\n\n## 직무상세\n배송로봇/모바일로봇의 신상품 컨셉을 수립하고, 상품 기획 및 시장 조사 업무를 진행합니다.\n\n■ 신상품 컨셉 수립\n\n신상품 개발 프로세스 초기 단계에 상품 개발 방향성 설정\n\n시장조사, 소비자 니즈 파악, 경쟁사 분석, 개발목표 설정, 사업 관련 법규항목 확인 기반 검토\n\n상품 컨셉 강화요소 검토\n\n소비자 선호 및 경쟁사 트렌드, 지역별 법규 및 규제 고려, 디자인, 사양, 제품 포지셔닝\n\n■ 상품 기획\n\n사업/개발 관련 회사 內 자원 고려, 부문간 조율/조정을 통한 상품화 기획\n\n비즈니스 방향성 수립 및 사업성 검토 / 주요 개발 목표 수립\n\n원가/구매/생산/품질 기획 및 PM 부문과 협의 기반 최적화 상품 기획\n\n■ 시장 조사\n\n시장 및 고객 지향적 사업을 위해 정보를 기반으로한 기업과 소비자를 연계시키는 활동\n\n시장 및 고객 이해를 위한 기초 조사, 상품 컨셉 개발 조사, 비즈니스 정합성 조사 등\n\n## 지원자격\n공학(기계, 전기전자, 컴퓨터, 산업) 또는 경영/경제학과를 전공 분야에서 학사 이상의 학위를 보유하신 분\n\n3년 이상의 제조업 or IT/서비스 부문 기획/전략 수립 실무 경력을 보유하신 분\n\n3년 이상의 신상품 컨셉 수립 or 상품전략 수립, 상품기획 업무 경험을 보유하신 분\n\n비즈니스 영어 회화가 가능하신 분\n\n해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\n로봇 또는 신사업 관련 수행 경험을 보유하신 분"
+    "content_path": "content/241a7917fa87feb425962018.md",
+    "content_version": "e32c6faed4b333ed"
   },
   {
     "id": "현차_로보틱스랩_현차_2410_영업_전략_영업_운영",
@@ -4755,7 +5003,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "#  조직소개\n로보틱스랩은 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n그 중 우리 조직은 모바일/서비스 로봇의 기획부터 생산, 판매/AS까지 로봇 사업 전반을 수행하고 있습니다.\n기획 측면에서는 모바일/서비스 로봇의 중장기 전략을 수립하고, 개별 상품 및 서비스를 기획하고 있습니다.\n또한 유관부문과 협업하여 로봇 제조, 부품 구매, 품질 검증 등의 업무를 수행하고 있으며, 판매 및 AS 전략을 수립하고, 실제 판매/AS 수행을 위한 다양한 방안을 추진하고 있습니다.\n더불어 우리 조직은 다양한 글로벌 로봇 업체/서비스 업체/정부 기관 등과의 협업을 통해 로봇 생태계를 구축하는데 앞장서고 있습니다.\n\n더 자세한 정보는 로보틱스랩 웹사이트에서 확인해 보세요.\n(https://robotics.hyundai.com/)\n\n## 직무상세\n단기 및 중장기 영업전략 및 목표를 수립하고, 모바일/서비스 로봇의 영업 실무 수행 및 파트너 계약과 영업/실적 관리 업무를 수행합니다.\n\n■ 영업 전략 수립\n\n현대차 로보틱스 영업 전략 수립\n\n판매 방식 / 채널, 판매 가격 / 물량 등\n\n지역별 영업 전략 수립 (한국 및 주요 선진국)\n\n■ 기술 영업\n\n주요 고객 대상 기술 영업 수행 (정부, 기업)\n\n■ 영업 조직 구축/관리\n\n국내외 영업 조직 구축 및 관리\n\n판매방식 & 채널별 조직 시스템 구축 및 효율적 관리 방안 발굴\n\n■ 영업/매출 관리\n\n연간/월간 판매계획 수립 (RP운영)\n\n월별 영업 실행계획 및 판매 지원 방안 수립\n\n매출 관리 (셀인/ 셀아웃, 물류, 재고관리 등)\n\n연간/월간 판매 관리 및 Management 보고\n\n## 지원자격\n학사 이상의 학위를 보유하신 분\n\n5년 이상의 영업 관련 경력을 보유하신 분\n\n로봇 또는 신사업 관련 수행 경험을 보유하신 분\n\n비즈니스 영어 회화가 가능하신 분\n\n다양한 외부 파트너들과 원활하게 의사소통하고 이해관계 조율이 가능하신 분\n\n해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n## 우대사항\nB2G 영업 수행 또는 기술영업 경험을 보유하신 분"
+    "content_path": "content/5527be293d2a32fd745f070d.md",
+    "content_version": "433b419ded8426c2"
   },
   {
     "id": "현차_로보틱스랩_현차_2500_의료기기_법규_인증",
@@ -4775,7 +5024,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [공고 안내]\n\n본 공고는 커리어리셋이 우수 기업 및 기관의 채용을 돕기 위해 엄선한 추천 공고입니다.\n\n커리어리셋을 통해 지원하시면, 당사의 매칭 시스템을 통해 해당 인사담당자에게 회원님의 이력서가 안전하고 빠르게 전달됩니다.\n\n \n\n우리 조직은 산업현장의 근골격 부담을 줄이는 산업용 착용로봇과 재활·보조를 위한 의료용 착용로봇을 개발·사업화하는 업무를 수행합니다.\n\n \n\n## 직무상세\n로보틱스 기술들을 융합하여 국내·외 의료기기 법규 전략을 수립하고, 인증 및 허가 업무를 수행합니다.\n\n의료기기 법규 전략 수립\n　- 국내·외 의료기기 인허가 전략 수립 및 실행\n　- 식약처(MFDS), FDA, CE(MDR) 등 글로벌 규제 요건 분석 및 대응\n\n의료기기 인허가 및 인증 업무 총괄\n　- 의료기기 허가/신고/등록 문서 작성 및 유지관리\n　- 임상·비임상(성능, 안전성) 시험 및 기술문서 준비\n　- 인증기관, 시험기관, 규제당국과의 커뮤니케이션 주도 (의료용 착용로봇, 산업용 착용로봇)\n\n품질경영시스템 구축 및 운영\n　- ISO 13485 기반 품질경영시스템 구축·운영 및 유지관리\n　- 설계관리, 변경관리, 문서관리 체계 수립\n　- 내부심사 및 외부 심사(식약처, 인증기관) 대응\n\n \n\n## 지원자격\n- 의료기기 분야에서 학사 이상의 학위를 보유하신 분\n- 5년 이상의 의료기기 법규,인증,품질관리 경력을 보유하신 분\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n- 국내외 의료기기 인허가 경험을 보유하신 분\n\n \n\n## 우대사항\n- 의료기기 분야에서 석사 이상의 학위를 보유하신 분\n- 총 8년 이상의 품질책임자/의료기기 RA 경력을 보유하신 분\n- FDA 510(k) Class 2 이상 심사 경험을 보유하신 분\n\n \n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n \n\n※ 현대자동차 채용정보입니다. 자세한 채용사항은 현대자동차 홈페이지를 확인해주세요."
+    "content_path": "content/07b781e79853359f4c4c1a21.md",
+    "content_version": "593585038a83b03e"
   },
   {
     "id": "현차_로보틱스랩_현차_2510_Bi-Manipulator_제어",
@@ -4794,7 +5044,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [로보틱스랩] Bi-Manipulator 제어\n\n\n2025-10-01 09:00 ~ 2025-10-17 17:00\n\n## 조직소개\n로보틱스랩은 내재화된 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그중 우리 조직은 의료용 및 산업용 착용 로봇과 관절형 로봇의 제어 및 설계 연구를 중심으로, 선행 연구부터 양산화까지 폭넓은 범위의 업무를 수행합니다.\n\n## 직무상세\n비정형 환경에서 Bi-Manipulator 로봇의 작업 수행을 위해 모델 기반 및 강화 학습 기반 제어 알고리즘에 대해 연구 개발하는 업무를 수행합니다.\n\n\n■ 제어 알고리즘\n\n　- 환경인지 기반 양팔 로봇 제어 및 시뮬레이션\n\n　- 강화 학습/모방 학습/Classifier-Guided Diffusion Model 기반 제어 알고리즘 개발\n\n　- 학습 기반 경로 계획 및 모션 제어 알고리즘 개발\n\n\n■ 제어 프로그래밍\n\n　- 실시간 로봇 제어 알고리즘 프로그래밍\n\n　- 머신러닝을 위한 시뮬레이션 프로그래밍\n\n　- 고속 연산을 위한 알고리즘 최적화\n\n\n■ 시스템 프로그래밍\n\n　- 시스템 주변 장치 제어 및 유/무선 통신 구현\n\n　- CANopen, EtherCAT 통신 시스템 이해 및 구현\n\n## 지원자격\n- 기계공학/전기전자/로봇공학 관련 분야에서 박사 학위를 보유하신 분\n\n- 1년 이상의 아래 직무 수행 경험을 보유하신 분\n\n　- Bi-Manipulator 로봇 제어 및 모션 플래닝\n\n　- 로봇 하드웨어 Sim-to-Real 구현/개발\n\n　- Real-Time OS 및 EtherCAT 기반 로봇 시스템을 사용하여 제어 알고리즘을 구현\n\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n\n- C/C++/Python/MATLAB 활용이 가능하신 분\n\n## 우대사항\n- 최적 제어, 강인 제어, 로봇 공학, 강화 학습 기반 제어에 대한 경험을 보유하신 분\n\n- Real-Time Linux, EtherCAT, Learning Framework, Python or C++ 활용 능력이 우수하신 분\n\n## 전형단계\n1. 지원서 접수\n\n2. 서류전형\n\n3. 면접전형 (인성검사)\n\n4. 채용검진\n\n5. 최종합격\n\n## 기타\n[지원자 참고사항]\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 지원서 접수 마감일에는 지원자가 대거 몰려 입사지원이 어려울 수 있으니, 여유있게 미리 제출하시기를 권장합니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n\n[기타 유의사항]\n\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n　- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n\n　- 회사 내규 상 정상근무가 불가능할 경우\n\n　- 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n\n　- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/bf60e3de949c264cccca26f6.md",
+    "content_version": "f9cd4d30ea6edf07"
   },
   {
     "id": "현차_로보틱스랩_현차_2510_착용형_로봇_설계",
@@ -4813,7 +5064,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# [로보틱스랩] 착용형 로봇 설계\n\n\n2025-10-01 09:00 ~ 2025-10-17 17:00\n\n## 조직소개\n로보틱스랩은 내재화된 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있으며, 사람과 함께할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서의 모든 서비스를 제공하는 로봇으로 확장 가능한 기술을 지향하고 있습니다.\n\n\n그중 우리 조직은 의료용 및 산업용 착용 로봇과 관절형 로봇의 제어 및 설계 연구를 중심으로, 선행 연구부터 양산화까지 폭넓은 범위의 업무를 수행합니다.\n\n## 직무상세\n착용형 로봇 개발부터 모터/감속기/센서 결합 통합 구동기 설계, 링크 메커니즘의 설계, 기구학/동역학/구조해석 등의 업무를 수행합니다.\n\n\n■ 착용로봇 개발\n\n　- 하지마비 환자용 의료용 착용로봇 개발\n\n　- 산업용 Passive Type 착용로봇 개발\n\n　- 의료기관 임상시험 및 산업 현장 POC 수행\n\n\n■ 구동계 개발\n\n　- 센서/모터/감속기/드라이버 등이 통합된 구동 모듈 개발\n\n　- 초박형/경량형/고성능 구동계 시스템 개발\n\n　- 선행 구동 시스템 개발\n\n\n■ 메커니즘 개발 및 해석\n\n　- 링크 메커니즘 및 기타 로봇 메커니즘의 개발\n\n　- 기구학 및 동역학 해석\n\n　- 로봇의 경량화 및 강건성 확보를 위한 구조해석\n\n## 지원자격\n- 기계/전기전자/컴퓨터 관련 분야에서 석사 이상의 학위를 보유하신 분\n\n- 2년 이상의 로봇 기구 설계 및 기계 구조해석 경력을 보유하신 분\n\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n\n- SolidWorks 활용 능력을 보유하신 분\n\n## 우대사항\n- Wearable Type 로봇 또는 선행 로봇 플랫폼 설계 경험을 보유하신 분\n\n- RecurDyn, Ansys, Matlab 활용 능력을 보유하신 분\n\n## 전형단계\n1. 지원서 접수\n\n2. 서류전형\n\n3. 면접전형 (인성검사)\n\n4. 채용검진\n\n5. 최종합격\n\n## 기타\n[지원자 참고사항]\n\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n\n- 지원서 접수 마감일에는 지원자가 대거 몰려 입사지원이 어려울 수 있으니, 여유있게 미리 제출하시기를 권장합니다.\n\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n\n[기타 유의사항]\n\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n\n　- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n\n　- 회사 내규 상 정상근무가 불가능할 경우\n\n　- 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n\n　- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/0adfcc34e05d30def4374ae2.md",
+    "content_version": "b90154d8f1899b2c"
   },
   {
     "id": "현차_로보틱스랩_현차_2600_Bi-Manipulator_양팔로봇__제어_및_강화학습_SW_개발",
@@ -4835,7 +5087,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Bi-Manipulator(양팔로봇) 제어 및 강화학습 SW 개발\n\n## 직무상세\n로봇 미들웨어 및 플랫폼 SW 검증을 위해 CI/CD 파이프라인과 연계된 자동화 테스트 프레임워크를 개발하고, 기능/성능/안정성 측면의 다양한 검증 실무와 엔지니어링 체계를 고도화하는 업무를 수행합니다.\n\n■ SW 테스트 자동화 및 프레임워크 개발\n\n로봇 SW 테스트 자동화 시스템 개발\n\n재사용성과 확장성을 고려한 테스트 프레임워크 설계 및 구현\n\nROS2 / DDS 기반 미들웨어 노드 및 인터페이스 단위/통합 테스트 자동화 구조 설계\n\n하드웨어 에뮬레이션 및 시뮬레이터(Gazebo 등) 연계 테스트 환경 구축\n\n핵심 테스트 컴포넌트 개발 및 명세/결과 문서화 자동화\n\n■ 검증 및 품질 고도화\n\n로봇 SW 품질 검증 및 실무 수행\n\n핵심 아키텍처 기반의 C++/Python 등 테스트 스크립트 및 모듈 구현\n\n로봇 SDK-API의 검증 기획, 시나리오 설계, 테스트 케이스 개발 및 실행\n\n로봇 상태 모니터링, 예외 상황 처리, 부하/성능/보안 등 리눅스 시스템 레벨 검증\n\n■ 배포 및 운영 체계 연계\n\nSW 품질 보증 및 CI/CD 동기화\n\n단위테스트, 통합테스트, 시스템 테스트의 CI/CD 파이프라인 연동 및 자동화\n\n빌드/배포 프로세스 내 테스트 자동화 적용을 통한 품질 가시성 확보 및 릴리즈 안정화\n\n## 지원자격\n컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 학사 이상의 학위를 보유하신 분\n\n8년 이상의 실 서비스 또는 제품 환경에서 SW 검증, 테스트 자동화, QA/QC, 배포/운영 경력을 보유하신 분\n\n비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n\nROS2 또는 로보틱스 관련 오픈소스 활용 및 테스트 경험을 보유하신 분\n\nSW 테스트 프레임워크 설계 및 자동화 테스트 시스템 구축 경험을 보유하신 분\n\n단위/통합/시스템 테스트 시나리오 설계 및 테스트 케이스 작성 역량을 보유하신 분\n\nYocto, Ubuntu, Embedded Linux 환경과 연계한 검증 및 개발 경험을 보유하신 분\n\nC++, Python 사용 경험을 보유하신 분\n\nLinux 환경에서의 개발, 디버깅, 로그 분석 경험을 보유하신 분\n\nCI/CD 도구 및 테스트 자동화, 모니터링 도구 활용 경험을 보유하신 분\n\n## 우대사항\n컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 석사 이상의 학위를 보유하신 분\n\n영어 기술 문서 작성, 영문 보고서 작성, 영어 회의 진행이 가능한 수준의 영어 활용 역량을 보유하신 분\n\n로봇 제품 또는 서비스의 상용화 및 품질 검증 완료 경험을 보유하신 분\n\n대규모 플랫폼 SW 또는 공통 프레임워크 검증 및 QA 체계 수립 경험을 보유하신 분\n\n모니터링, 로깅, 시뮬레이터 활용 검증, DevOps 체계 구축 경험을 보유하신 분\n\n오픈소스 프로젝트 기여 또는 테스트 자동화 도구 기여 경험을 보유하신 분\n\n팀 또는 조직 단위의 테스트 프로세스 및 품질 표준화 경험을 보유하신 분\n\n클라우드 서버 환경과 연계된 시스템 테스트 및 통합 검증 경험을 보유하신 분\n\nISTQB 등 SW 테스트/품질 관련 전문 자격증을 보유하신 분\n\nJenkins, GitHub Actions 등 CI/CD 도구 활용 경험을 보유하신 분\n\n로그 분석, 메트릭 수집, 정적 분석, 보안 점검 도구 활용 경험을 보유하신 분\n\nAWS, Azure, GCP 등 클라우드 인프라 활용 경험을 보유하신 분"
+    "content_path": "content/345e674a2151bdf3bb757c8d.md",
+    "content_version": "ea8bdeb0358d5856"
   },
   {
     "id": "현차_로보틱스랩_현차_2604_Robotics_Middleware_Architecture___SW_Platform_Development",
@@ -4856,7 +5109,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 직무상세\n로봇 제품의 사업화 및 서비스 안정성 확보 목표 달성을 위해 확장/재사용 가능한 SW 아키텍처를 설계하고, SW 개발 실무와 함께 품질, 배포, 운영 전반의 엔지니어링 체계를 고도화하는 업무를 수행합니다.\n\n■ SW 아키텍처 설계 및 고도화\n* 로봇 미들웨어 아키텍처 개발\n  - 재사용성과 확장성을 고려한 시스템 아키텍처 설계\n  - 다양한 로봇 HW 플랫폼에 공통 적용 가능한 미들웨어 레이어 설계\n  - 하드웨어 추상화(HAL) 기반으로 플랫폼 독립성 확보\n  - ROS2 / DDS 기반 미들웨어 프레임워크를 활용한 노드 간 통신 구조 설계\n  - 핵심 컴포넌트 및 인터페이스 정의 및 문서화 (Doxygen, Sphinx 등)\n\n■ 플랫폼 구조 설계 및 구현\n* 로봇 플랫폼 구조 설계 및 구현\n  - 핵심 아키텍처를 기반으로 C++/Python 등을 활용한 실제 플랫폼 코드 구현\n  - 로봇 SDK-API 개발 및 문서화, 샘플 코드 및 튜토리얼 개발\n  - 로봇 상태 모니터링, 이상 감지 및 복구, OTA, 다중 프로세스 동기화, 로깅, 보안 등 리눅스 기반 모듈 개발\n\n■ 품질, 배포, 운영 체계 구축\n* SW 품질 보증 및 CI/CD 동기화\n  - 단위테스트, 통합테스트, 시스템 테스트 및 자동화 프레임워크 개발 및 테스트 커버리지 확대\n  - CI/CD 파이프라인 구축 및 프로덕션 배포 자동화, 서비스 런칭 및 안정화\n\n# 지원자격\n* 컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 학사 이상의 학위를 보유하신 분\n* 8년 이상의 실 서비스 또는 제품 환경에서 SW 설계, 개발, QA/QC, 배포, 운영 경력을 보유하신 분\n* 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n* ROS2 또는 로보틱스 관련 오픈소스 활용 및 개선 경험을 보유하신 분\n* 레거시 시스템의 구조 개선 또는 아키텍처 고도화 경험을 보유하신 분\n* 재사용 가능한 공통 SW 구조 또는 플랫폼 설계 경험을 보유하신 분\n* Yocto, Ubuntu, Embedded Linux 환경과 연계한 개발 경험을 보유하신 분\n* C++, Python 사용 경험을 보유하신 분\n* Linux 환경에서의 개발, 디버깅, 운영 경험을 보유하신 분\n* CI/CD, 테스트 자동화, 로그 수집, 모니터링 도구 활용 경험을 보유하신 분\n\n# 우대사항\n* 컴퓨터공학/소프트웨어공학/로보틱스/전자공학/제어공학 분야에서 석사 이상의 학위를 보유하신 분\n* 영어 기술 문서 작성, 영문 보고서 작성, 영어 회의 진행이 가능한 수준의 영어 활용 역량을 보유하신 분\n* 로봇 제품 또는 서비스의 상용화 경험을 보유하신 분\n* 대규모 플랫폼 SW 또는 공통 프레임워크 설계 경험을 보유하신 분\n* 모니터링, 로깅, OTA, DevOps, 테스트 자동화 체계 구축 경험을 보유하신 분\n* 오픈소스 프로젝트 기여 경험을 보유하신 분\n* 팀 또는 조직 단위의 개발 프로세스 표준화 경험을 보유하신 분\n* 클라우드 서버 환경에서 서비스 배포, 운영 또는 시스템 연계 경험을 보유하신 분\n* 정보보안, 클라우드, 시스템 아키텍처 관련 자격증을 보유하신 분\n* Jenkins, GitHub Actions 등 CI/CD 도구 활용 경험을 보유하신 분\n* 로그, 메트릭, 정적 분석, 보안 점검 도구 활용 경험을 보유하신 분\n* AWS, Azure, GCP 등 클라우드 서버 환경 활용 경험을 보유하신 분"
+    "content_path": "content/eaf85c2422dc5a1a88963d14.md",
+    "content_version": "bcfa9976866b447a"
   },
   {
     "id": "현차_로보틱스랩_현차_2606_Learning-based_Bi-Manipulator_Control",
@@ -4876,7 +5130,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Learning-based Bi-Manipulator Control\n\n- Until hiring 2026-06-01 09:00 ~ Until hiring\n\n## Who we are\nThe Robotics Lab brings together a diverse group of experts from various fields for the development of products based on robotics technologies. The Robotics Lab aims to develop technologies that provide a wide range of services in spaces where robots can coexist and work together with humans.\n\nUnder the Robotics Lab, we are a team that focuses on the control and design of medical and industrial wearable robots, as well as articulated robots, and we carry out a wide range of tasks from early-stage research to mass production.\n\n\n## Responsibilities\nIn this role, we are developing and researching reinforcement/imitation learning-based control for precise task execution by a bi-manipulator robot in unstructured tasks.\n\n■ Learning-based Robot Control\n　· Control and simulation for a perceptive bi-manipulator\n　· Developing behavior control and motion planning algorithms based on reinforcement learning/imitation learning\n\n■ Control Programming\n　· Programming real-time robot control algorithms\n　· Programming simulation for machine learning\n　· Optimizing algorithms for faster computation\n\n■ System Programming\n　· Developing system-level control and wired/wireless communication systems\n　· Understanding and implementing CANopen and EtherCAT communication system\n\n## Minimum qualifications\n· Master's degree in mechanical engineering/electrical/electronic engineering/robotics engineering\n· Minimum 5 years of experience in following:\n　- Learning-based manipulator control and motion planning\n　- Sim-to-Real development and implementations for robotics hardware\n· Proficiency in English (fluent in both written and oral business communication\n· Proficiency in C/C++/Python/MATLAB\n\n## Preferred qualifications\n· Ph.D in mechanical engineering/electrical/electronic engineering/robotics engineering\n· Those who have experience in robotics, reinforcement/imitation learning-based control\n· Proficiency in Real-Time Linux, EtherCAT, Learning Framework, and Python or C++\n\n## Process\n1. Applications\n2. Review\n3. Interviews (Personality Test)\n4. Physical Examinations\n5. Acceptance\n\n\n## Others\n[Notes]\n· In accordance with the employment protection laws, eligible candidates (disabled individuals, veterans, etc.) will receive preferential benefits during the process.\n· Applications are accepted only through the Hyundai Motor Company career page, and any other methods are not allowed.\n· The recruitment process may differ based on the timeline of the application submission, and the job post may close early if the position is filled.\n· Additional assignments may be given during the interview rounds, if necessary.\n· The recruitment schedule may be adjusted depending on the progress of the recruitment process.\n· The expected position level specified in the job description may change based on each individual's experience and evaluation results.\n· For any inquiries on recruitment, please refer to the [FAQs] or submit a ticket through '1:1 Inquiries' on our webpage.\n\n[Precautions]\n· If any of the following conditions apply, your acceptance may be revoked, or you may be subject to disadvantages in the selection process: \n　- If the information submitted during the recruitment process (including the application form) differs or cannot be proven in documentation\n　- If you are ineligible to work under company regulations\n　- If you are ineligible to travel abroad (for men, Korean nationals who have not completed military service or are not exempt from military service by the joining date)\n　- If you are unable to join the company on the start date designated by the company upon receiving the final offer\n· Our company respects the trade secrets of third parties and strives to comply with relevant laws and regulations, such as The Unfair Competition Prevention and Trade Secret Protection Act. Please be careful not to disclose any confidential information related to your former/current workplace or to violate the confidentiality obligation of your former/current workplace, during the recruitment process. Violation may result in disadvantage in the recruitment process."
+    "content_path": "content/83fb5f18f5e81ebda708f7f4.md",
+    "content_version": "c45895c1a36d5307"
   },
   {
     "id": "현차_로보틱스랩_현차_2608_모바일로봇_임베디드직무_글로벌_채용전환형_인턴십",
@@ -4897,7 +5152,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모바일로봇_임베디드직무_글로벌 채용전환형 인턴십\n\n- Until hiring 2026-07-20 17:00 ~ Until hiring\n\n## 조직소개\n우리 조직은 로보틱스 기술의 핵심 분야인 로봇 제어 시스템 개발 및 연구 전문성을 바탕으로, 제품화를 위한 연구개발 업무를 수행합니다.\n\n## 직무상세\n모바일 로봇의 제어기와 모터드라이버의 전기·전자 하드웨어를 설계하고, 기능안전 요구사항을 반영한 HW 아키텍처와 전장 시스템을 구현하는 역할을 담당합니다. 전력 공급, 통신, 하네스, 충전 및 페이로드 인터페이스를 포함한 전장 시스템 전반을 설계하고, EMC 및 전기 시험을 통해 실제 제품 적용이 가능한 신뢰성 높은 전장 플랫폼을 개발합니다.\n\n또한 모바일 로봇의 주행과 구동을 위한 제어 시스템을 설계하고, 기능안전 아키텍처와 안전 기능을 구현하는 역할을 담당합니다. 제어기와 모터 제어 로직을 중심으로 통신, 전력 관리, 안전 개념을 통합한 시스템을 개발하며, 요구사항 정의부터 기능 구현, 검증, 인증 대응까지 수행하여 안정적이고 신뢰성 높은 제어 시스템을 완성합니다.\n\n■ 제어기 및 모터드라이버 회로 설계/개발\n　· 제어기 및 모터드라이버의 핵심 회로를 설계하고 검증합니다.\n　　- 제어기 및 모터드라이버 회로 설계, 부품 선정 및 회로 검증 수행\n　　- 통신 및 전력 관리 회로 설계\n　　- 회로 설계 산출물 작성 및 설계 개선 수행\n　　- 설계 검토, 부품 적용성 검토 및 하드웨어 안정성 확보\n\n■ 기능안전 HW 아키텍처 설계\n　· 기능안전 요구사항을 반영한 하드웨어 구조를 설계합니다.\n　　- 기능안전 요구사항 분석 및 HW 아키텍처 설계\n　　- 안전 목표 달성을 위한 회로 구조 검토\n　　- 기능안전 관련 기술 문서 작성 및 설계 산출물 관리\n　　- 안전성 확보를 위한 하드웨어 검증 수행\n\n■ 전장 시스템 및 인터페이스 설계\n　· 제품 내·외부 전장 시스템과 인터페이스를 설계합니다.\n　　- 하네스, 충전기, 페이로드 등 전장 시스템 설계\n　　- 전장품 간 인터페이스 정의 및 연결 구조 검토\n　　- 전력 전달, 신호 무결성, 설치성 등을 고려한 전장 설계 수행\n　　- 전장 관련 도면, 명세서 및 인터페이스 문서 작성\n\n■ 제어기 및 모터 제어 시스템 개발\n　· 로봇의 핵심 제어 시스템과 모터 제어 기능을 개발합니다.\n　　- 제어기 시스템 요구사항 정의 및 기능 설계\n　　- 모터 제어 로직 및 관련 시스템 기능 개발\n　　- 통신 및 전력 관리 기능 설계와 시스템 연동 검토\n　　- 시스템 기능 검증 및 성능 개선 수행\n\n■ 기능안전 아키텍처 설계\n　· 기능안전 요구사항을 반영한 시스템 구조와 소프트웨어 아키텍처를 설계합니다.\n　　- 기능안전 요구사항 분석 및 아키텍처 설계\n　　- 안전 개념 반영을 위한 시스템 구조 검토\n　　- 기능안전 대응을 위한 설계 문서 작성 및 관리\n　　- 안전 목표 기반 설계 검증 수행\n\n## 지원자격\n·'27년 6월 이내 해외대 학/석사 졸업 예정이거나 기졸업하신 분\n· 전자공학/전기공학/컴퓨터공학/소프트웨어/로봇공학/인공지능/제어공학 관련 전공하신 분\n· 원어민 수준의 한국어, 영어 커뮤니케이션이 가능하신 분\n· '26년 이내 인턴 실습 가능하신 분\n· 인턴 실습을 위한 체류자격 보유 및 추후 E-7 비자 발급에 결격 사유가 없는 분\n· 해외여행에 결격 사유가 없는 분 (병역필 또는 비대상/면제자 등)\n\n## 우대사항\n· 회로 설계, 임베디드 시스템, 제어 시스템, 기능안전 관련 프로젝트 수행 경험을 보유하신 분\n· 모터 제어, 전력 관리, 통신 인터페이스 관련 개발 경험을 보유하신 분\n· 기능안전 관련 표준 또는 인증 대응 경험을 보유하신 분\n· EMC/전기 시험, 하드웨어 검증 또는 시스템 검증 경험을 보유하신 분\n· C/C++, Python, MATLAB/Simulink 등 개발 및 검증 도구 활용이 가능하신 분\n· 회로 설계 툴, 형상관리 도구, 이슈 관리 도구 사용 경험이 있으신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형/인성검사\n4. 인턴 실습 (5주)\n5. 최종합격\n6. 채용검진\n7. 입사\n\n## 기타\n[전형 안내]\n· 면접전형은 영어로 진행 예정입니다.\n· 동일 기간동안 진행 중인 신입/인턴 채용 공고에 중복으로 지원할 수 없습니다.\n· 접수 기간이 종료되지 않은 공고에 지원 중인 경우, 지원서 제출을 취소하시면 다른 공고에 지원 가능합니다.\n· 진행 중인 전형 단계에서 불합격하신 경우, 다른 공고에 지원하실 수 있습니다.\n\n[지원자 참고사항]\n· 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n· 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n· 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n· 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n· 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n· 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다.\n\n[기타 유의사항]\n· 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n　- 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우  \n　- 회사 내규 상 정상근무가 불가능할 경우\n　- 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n　- 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n· 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/f72047aa6abe34e145b6540c.md",
+    "content_version": "0f2146089665cff1"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_Bi-manipulator_제어",
@@ -4916,7 +5172,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Bi-manipulator 제어\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 내재화된 로보틱스 기술을 바탕으로 의료/서비스/산업용 관절형 로봇 제어 및 시스템 SW의 연구개발 업무를 수행합니다.\n\n## 직무상세\nBi-Manipulator 로봇의 다양한 작업 수행을 위한 실시간 환경에서의 제어 알고리즘 및 힘/인지 기반 조작 제어에 대해 연구 개발하는 업무를 수행합니다.\n\n### 제어 알고리즘\n- 동역학 및 학습 기반 양팔 로봇 제어 알고리즘 개발\n- 힘/인지 기반 제어 알고리즘 개발\n- 그리퍼/마스터암 제어 알고리즘 개발\n\n### 제어 프로그래밍\n- 실시간 로봇 제어 알고리즘 프로그래밍\n- 시뮬레이션 프로그래밍\n- 고속 연산을 위한 알고리즘 최적화\n\n### 시스템 프로그래밍\n- 시스템 주변 장치 제어 및 유/무선 통신 구현\n- CANopen, EtherCAT 통신 시스템 이해 및 구현\n\n## 지원자격\n- 기계공학, 전기·전자공학, 로봇공학 관련 분야에서 석사 이상의 학위를 보유하신 분\n- 5년 이상의 로봇 제어 경력을 보유하신 분\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n- Manipulator 제어 및 모션 플래닝에 대한 연구 경험을 보유하신 분\n- C, C++, Python, MATLAB 활용이 가능하신 분\n\n## 우대사항\n- 최적 제어, 강인 제어, 로봇 공학, 강화학습, 모방학습 기반 제어에 대한 경험을 보유하신 분\n- 양산 제품의 제어 알고리즘 개발 및 소프트웨어 배포 경험을 보유하신 분\n- Real-Time Linux, EtherCAT, C++ 활용 능력이 뛰어나신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/00484e19c208c52d5889ea40.md",
+    "content_version": "f0c07016831dd5e2"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_Perceptive_AI_개발",
@@ -4935,7 +5192,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Perceptive AI 개발\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 로봇에게 지능을 부여하기 위해 카메라 입력을 기반으로 물체와 환경을 인식하는 AI와 알고리즘을 개발하고 로봇에 탑재하는 업무를 수행합니다.\n\n## 직무상세\n현실 세계에서 유연하고 강건하게 동작하는 알고리즘 개발을 위해 AI 모델들을 연구하고 우리의 목표 로봇과 테스크에 맞게 개선하며,\nAI 모델 개발을 넘어 AI 모델 인식 결과를 적절히 활용할 수 있는 알고리즘을 설계하는 업무를 수행합니다.\n\n### 3D vision AI\n- 3D 비전 AI 기반 객체 인식 알고리즘 개발\n  - 타겟 물체 6DoF Pose, Grasp Pose 추정 AI 알고리즘 개발\n  - 물체 적재 위치 추정 알고리즘 개발\n\n### Perception AI\n- 로봇 객체 및 환경 인식 알고리즘 개발\n  - Visual Prompt 기반 타겟 물체 검출 AI 알고리즘 개발\n  - 물체조작을 위한 공간 인식 AI 알고리즘 개발\n\n### 알고리즘 개선 및 양산화\n- 비전 AI 알고리즘 양산화 설계\n  - 알고리즘 data path 및 구조 개선\n  - 비전 AI 알고리즘 양산 spec. 설계\n  - 비전 AI 알고리즘 평가 방안 설계\n\n## 지원자격\n- 전기ㆍ전자공학, AI, 컴퓨터사이언스 분야에서 석사 이상의 학위를 보유하신 분\n- 5년 이상의 Vision AI 관련 분야 업무 경력을 보유하신 분\n- Vision AI 를 활용한 알고리즘을 양산에 적용해 본 경험을 보유하신 분\n- C/C++, git, Python, Pytorch 활용이 가능하신 분\n\n## 우대사항\n- NVIDIA Jetson 제어기, TensorRT 등 NVIDIA 플랫폼 개발 경험을 보유하신 분\n- Task level에서 알고리즘의 전체 구조 설계, 최적화 및 개선 경험을 보유하신 분\n- 실제 환경에서 다양한 종류의 RGB, RGBD camera를 다뤄본 경험을 보유하신 분\n- Isaac Sim, ROS2 활용이 가능하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/d2cd68782d1536720832da25.md",
+    "content_version": "075bb920257d8821"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_관절로봇_HW_검증평가",
@@ -4955,7 +5213,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 관절로봇 HW 검증평가\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 내재화된 로보틱스 기술을 바탕으로, 양팔로봇과 같이 사람의 신체 구조와 움직임을 모사하는 다관절 로봇을 설계하고 연구합니다.\n로봇의 팔, 손, 다리, 몸통을 구성하는 관절 구조 설계, 액추에이터 및 동력전달계 설계, 로봇의 자세와 동작을 계산하는 기구학·동역학 해석에 이르기까지,\n로봇의 기구적 완성도를 높이는 전 과정을 기구 설계 분야의 다양한 전문가들이 원팀으로 협업하여 업무를 수행합니다.\n\n## 직무상세\n로봇의 구조적 안정성과 동적 성능을 사전에 확보하는 것을 목표로, 정적/강성 해석과 동역학 해석을 통해 설계 타당성을 검토하고 구동계 부하 조건을 도출하며,\n이를 바탕으로 성능·신뢰성 시험 평가와 해석-실측 상관성 검증을 거쳐 그 결과를 설계 개선에 반영하는 해석·검증·평가 업무를 수행합니다.\n\n### 성능평가 및 신뢰성 평가\n- 구조 안정성 확보를 위한 정적 해석(CAE) 수행\n  - 응력, 변형, 피로 등 구조 해석 수행\n  - 해석 결과 기반 설계 타당성 검토 및 피드백\n\n### 구조/강성 해석\n- 관절 동적 거동 예측을 위한 동역학 해석 수행\n  - 속도, 토크, 부하 등 동적 거동 시뮬레이션\n  - 구동계 부하 프로파일 산출 및 설계 반영\n\n### 동역학 해석\n- 로봇 및 모듈 성능·신뢰성 확보를 위한 시험 평가 수행\n  - 정밀도, 반복정밀도, 강성 등 성능평가 시험 수행\n  - 내구, 환경(진동·온습도 등) 신뢰성 시험 계획 및 결과 분석\n\n### 해석-실측 상관성 검증 및 개선 반영\n- 해석 정확도 향상을 위한 실측 데이터 기반 상관성 검증\n  - 해석 결과와 실측 데이터 비교 및 오차 분석\n  - 상관성 검증 결과의 설계 개선 반영 및 해석 모델 보정\n\n## 지원자격\n- 기계공학, 로봇공학 분야에서 학사 이상의 학위를 보유하신 분\n- 3년 이상의 로봇 해석, 검증 및 평가 업무 경험을 보유하신 분\n- 해석 결과를 바탕으로 설계 타당성을 검토하고 설계 변경에 피드백을 반영한 경험을 보유하신 분\n- 정밀도, 반복정밀도 및 강성 등 로봇/모듈 성능 시험 평가 경험을 보유하신 분\n- 3D CAD/CAE 중상급 이상 활용이 가능하신 분\n\n## 우대사항\n- 6년 이상의 로봇 해석,검증 및 평가 업무 경험을 보유하신 분\n- 비즈니스 영어 활용이 가능하신 분\n- 상관성 검증 결과를 바탕으로 해석 모델을 보정하거나 설계 개선에 반영한 경험을 보유하신 분\n- 열해석을 기반으로 방열 구조 설계 경험을 보유하신 분\n- 가속내구시험 등 신뢰성 시험을 계획하고 결과를 분석한 경험을 보유하신 분\n- Recurdyn, Ansys, Solidworks, Motor-CAD 활용이 가능하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/26737d34dea59107560f2351.md",
+    "content_version": "7e71cc13c3fdbf65"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_관절로봇_SW_검증평가",
@@ -4975,7 +5234,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 관절로봇 SW 검증평가\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 의료용/산업용 착용 로봇 및 관절형 로봇과 관련된 제어 및 설계의 연구개발 업무를 수행합니다.\n\n## 직무상세\n로봇 양산 제품의 소프트웨어 성능 최적화, 통합 시스템 검증 및 테스트를 통해 양산품의 품질, 안정성, 신뢰성을 확보하는 업무를 수행합니다.\n\n### 통합 테스트\n- 기능 테스트\n  - 구동부, 센서, 통신 시스템의 통합 동작 검증\n  - 연속 동작 조건에서 안정성 및 신뢰성 검증\n- 테스트 스크립트 및 기준서 작성\n  - 자동화 테스트 스크립트 개발 및 유지보수\n  - 검사 기준서(SOP) 및 판정 기준 수립\n\n### 양산 SW 최적화\n- 펌웨어 메모리 최적화 및 실시간 제어 성능 개선\n  - 메모리 사용량 분석 및 최적화를 통한 리소스 효율화\n  - 제어 루프 응답 속도 개선 및 지연시간 최소화\n- 양산 소프트웨어 성능 분석 및 개선\n  - 프로토타입 대비 양산 환경에서의 성능 차이 분석\n  - CPU 사용률, 메모리 할당, 전력 소비량 최적화\n\n## 지원자격\n- 컴퓨터공학 분야에서 학사 이상의 학위를 보유하신 분\n- 5년 이상의 기능 테스트, SW 검증 경력을 보유하신 분\n- C, C++, python 활용이 가능하신 분\n\n## 우대사항\n- 양산 및 상품화 경험을 보유하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/d9f1c980fbc33b6cc2baaea4.md",
+    "content_version": "6344f109b9622c83"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_관절로봇_기구설계_및_메커니즘_개발",
@@ -4994,7 +5254,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 관절로봇 기구설계 및 메커니즘 개발\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 내재화된 로보틱스 기술을 바탕으로, 양팔로봇과 같이 사람의 신체 구조와 움직임을 모사하는 다관절 로봇을 설계하고 연구합니다.\n로봇의 팔, 손, 다리, 몸통을 구성하는 관절 구조 설계, 액추에이터 및 동력전달계 설계, 로봇의 자세와 동작을 계산하는 기구학·동역학 해석에 이르기까지,\n로봇의 기구적 완성도를 높이는 전 과정을 기구 설계 분야의 다양한 전문가들이 원팀으로 협업하여 업무를 수행합니다.\n\n## 직무상세\n요구사항에 적합한 안정적이고 신뢰성 높은 관절 로봇 개발을 목표로, 컨셉 제안부터 설계, 해석, 제작, 평가까지 로봇 개발 프로세스 전반을 수행합니다.\n이를 통해 높은 성능과 기능성을 확보하고, 더 나아가 양산으로까지 이어질 수 있는 관절 로봇의 개발 업무를 수행합니다.\n\n### 로봇 기본 사양 설계\n- 로봇 목표 성능 충족을 위한 시스템 레벨 기본 사양 설계\n  - 요구 사양 분석 및 시스템 사양 정의\n  - 로봇 형상 및 구조 컨셉 수립\n\n### 구동부 및 메커니즘 설계\n- 요구 성능 충족을 위한 구동기 사양 최적설계 및 신규 기구 메커니즘 개발\n  - 구동기 사양 도출 및 최적 사양 선정\n  - 동력전달 구조 설계 및 최적화\n  - 신규·도전적인 메커니즘 발굴 및 적용\n\n### 로봇 HW 패키징 설계\n- 로봇 구조물 내 부품 통합을 위한 HW 패키징 설계\n  - 센서 등 주요 부품의 배치 및 레이아웃 설계\n  - 부품 통합을 고려한 구조물 형상 설계\n\n## 지원자격\n- 기계공학, 로봇공학 분야에서 학사 이상의 학위를 보유하신 분\n- 3년 이상의 로봇기구설계 업무 경험을 보유하신 분\n- 로봇 시스템 사양 선정 및 설계, 기구 메커니즘 설계, HW 패키징 설계에 이르는 기구 설계 실무 경험을 보유하신 분\n- 3D CAD 툴 중상급 이상 활용이 가능하신 분\n\n## 우대사항\n- 6년 이상의 로봇기구설계 업무 경험을 보유하신 분\n- 비즈니스 영어 활용이 가능하신 분\n- 다관절 매니퓰레이터, 휴머노이드, 그리퍼, 모바일로봇 개발 경험을 보유하신 분\n- 로봇 관절 구동계 및 메커니즘 설계 경험을 보유하신 분\n- 외형 디자인을 고려한 커버 설계 경험을 보유하신 분\n- Solidworks, Autocad, Ansys, Recurdyn 활용이 가능하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/1e21317308028ed42b77eb60.md",
+    "content_version": "36b020b7c8e23e83"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_관절로봇_시스템_SW_개발",
@@ -5014,7 +5275,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 관절로봇 시스템 SW 개발\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 내재화된 로보틱스 기술을 바탕으로 의료/서비스/산업용 관절형 로봇 제어 및 시스템 SW의 연구개발 업무를 수행합니다.\n\n## 직무상세\n안정적인 로봇 시스템 운영이라는 목표 달성을 위해 로봇 시스템을 통합·최적화하고 실시간·이기종 통신 기반 소프트웨어를 개발·검증하는 업무를 수행합니다.\n\n### 로봇 시스템 통합 및 최적화\n- 이기종 시스템 간 통신 아키텍처 설계 및 통합\n- 시스템 전반의 처리 효율성 및 성능 최적화\n- Real-time OS Task 관리 및 아키텍처 개발\n\n### 통합 어플리케이션 개발\n- 로봇 제어용 프론트엔드 어플리케이션 개발\n- 사용자 인터페이스 기반 로봇 운용 환경 구축\n- 로봇 행동/작업 관리자 개발\n\n### 학습 기반 제어 프레임워크 개발\n- 강화학습·모방학습 기반 로봇 제어 프레임워크 구축\n- VLA 등 최신 AI 학습 기반 로봇 제어 기술 적용을 위한 시스템 구축\n\n## 지원자격\n- 기계공학, 전기· 전자공학, 컴퓨터공학, 로봇공학 관련 분야에서 석사 이상의 학위를 보유하신 분\n- 3년 이상의 로봇 시스템 소프트웨어 경력을 보유하신 분\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n- 로봇 시스템 아키텍쳐 개발 경험을 보유하신 분\n- 로봇용 프론트엔드 어플리케이션 개발 경험을 보유하신 분\n- 학습기반 제어 프레임워크 개발 경험을 보유하신 분\n- C, C++, Python, MATLAB 학습 관련 NVIDIA SW 스텍 활용이 가능하신 분\n\n## 우대사항\n- 양산 제품의 소프트웨어 배포 경험을 보유하신 분\n- Real-Time Linux, EtherCAT, Learning Framework, Python or C++ 활용 능력이 뛰어나신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/88d3adacd36dd607d61c9c07.md",
+    "content_version": "93f6299a4f7f3b64"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_관절로봇_양산개발",
@@ -5033,7 +5295,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 관절로봇 양산개발\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 내재화된 로보틱스 기술을 바탕으로, 양팔로봇과 같이 사람의 신체 구조와 움직임을 모사하는 다관절 로봇을 설계하고 연구합니다.\n로봇의 팔, 손, 다리, 몸통을 구성하는 관절 구조 설계, 액추에이터 및 동력전달계 설계, 로봇의 자세와 동작을 계산하는 기구학·동역학 해석에 이르기까지,\n로봇의 기구적 완성도를 높이는 전 과정을 기구 설계 분야의 다양한 전문가들이 원팀으로 협업하여 업무를 수행합니다.\n\n## 직무상세\n안정적이고 신뢰성 높은 관절 로봇 양산을 목표로, 선행 개발된 로봇의 양산화 설계·도면출도, 모듈별 성능 검증 및 개선설계 등 양산 프로세스 전반을 수행합니다.\n이를 통해 높은 품질 수준을 확보하고, 국내외 안전 인증 대응까지 아우르는 기구 개발 업무를 수행합니다.\n\n### 로봇 양산설계 및 도면출도\n- 선행 개발 로봇의 양산화 기구 설계 및 도면 출도\n  - 로봇 3D 모델링 및 2D 도면 작성\n  - 설계변경 관리 및 이력 관리\n\n### 모듈별 부품 성능 검증 및 개선설계\n- 모듈별 시험을 통한 성능검증 및 개선설계 반영\n  - 핵심 요소 부품 성능/신뢰성 평가\n  - 시험 결과 기반 설계 개선 및 최적화\n\n### 양산 프로세스 및 품질 관리\n- 표준화된 양산 프로세스 준수를 통한 양산 대응 및 품질 확보\n  - 조립 공정 표준(작업표준서, 검사기준) 수립 및 관리\n  - 협력사 품질 이슈 대응 및 개선 활동 참여\n\n### 법규 및 인증\n- 국내외 인증 규격 검토를 통한 안전 설계 반영 및 인증 대응\n  - KC·CE·ISO 10218/15066 등 관련 인증 요구사항 설계 반영\n  - 인증기관 대응 및 시험성적서 관리\n\n## 지원자격\n- 기계공학, 로봇공학 분야에서 학사 이상의 학위를 보유하신 분\n- 3년 이상의 로봇 관련 양산개발 업무 경험을 보유하신 분\n- 로봇 선행개발부터 양산화까지 전과정 업무 경험을 보유하신 분\n- 다관절 매니퓰레이터 개발 경험을 보유하신 분\n- 3D CAD 툴 중상급 이상 활용이 가능하신 분\n\n## 우대사항\n- 6년 이상의 로봇 관련 양산개발 업무 경험을 보유하신 분\n- 비즈니스 영어 활용이 가능하신 분\n- 로봇 관절 구동계(액츄에이터, 트랜스미션 메커니즘) 설계 경험을 보유하신 분\n- 협동로봇/서비스로봇의 인증 과정 업무 경험을 보유하신 분\n- 외형 디자인을 고려한 커버 설계 경험을 보유하신 분\n- Solidworks, Solidworks PDM, AutoCAD, Ansys, Recurdyn 활용이 가능하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/f09d46bae7fa7a6f7f64a312.md",
+    "content_version": "8e05ec22c62da792"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_관절로봇_회로_설계",
@@ -5053,7 +5316,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 관절로봇 회로 설계\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 의료용/산업용 착용 로봇 및 관절형 로봇과 관련된 제어 및 설계의 연구개발 업무를 수행합니다.\n\n## 직무상세\n양팔 로봇 전원부(전력 변환, 효율 최적화) 및 모터 드라이버(EtherCAT 통신, 안전 기능) 설계, 안전기판 설계·ISO 인증 대응, EMC 검증 업무를 수행합니다.\n\n### 회로 및 전장 설계\n- 양팔 로봇 전원부 설계\n  - 고출력, 고효율 전력 변환 회로 개발\n  - ISO 13489 PLd 기능안전을 준수하는 아키텍처 수립\n  - EMC/EMI 인증을 위한 전원 노이즈 및 FET 스위칭 노이즈 저감 설계\n- 모터드라이버 설계\n  - ARM cortex 기반 MCU 주변 회로 및 스위칭 레귤레이터 회로 설계\n  - 디지털/아날로그 혼합신호(Mixed-signal) 회로 및 배선 설계\n  - EtherCAT 통신을 위한 100BASE-T 고속 신호 설계\n\n### 임베디드 펌웨어 개발\n- 임베디드 펌웨어 설계 및 개발\n  - 임베디드 펌웨어 아키텍처 구성 및 개발\n  - 이기종 장비간 통신 라이브러리 개발 (CANopen, EtherCAT 등)\n  - 각종 센서 신호 처리 및 제어를 위한 알고리즘 및 펌웨어 개발\n  - SW 기능 검증 및 신뢰성 시험 수행\n\n## 지원자격\n- 전기ㆍ전자공학 관련 분야에서 학사 이상의 학위를 보유하신 분\n- 5년 이상의 회로/펌웨어 개발 경력을 보유하신 분\n- C/C++ , PADS 활용이 가능하신 분\n\n## 우대사항\n- 양산 및 상품화 개발, 인증시험 경험을 보유하신 분\n- SW 인증(정적/동적 분석) 경험을 보유하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/a5412a89aebc0a444cc3aac0.md",
+    "content_version": "176c3e8eab31a4ea"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_로보틱스_기술_및_사업_개발",
@@ -5075,7 +5339,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로보틱스 기술 및 사업 개발\n\n> 26/9 신입채용\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 신입, 연구원\n- **근무지역**: 의왕연구소\n\n## 조직소개\n우리 조직은 내재화된 로보틱스 기술을 바탕으로 다양한 분야의 전문가들이 하나의 팀을 이루어 로봇 제품을 개발하고 있습니다. 사람과 함께 할 수 있는, 자체 개발을 통해 차별화된, 나아가 로봇이 존재하는 공간에서 모든 서비스를 제공할 수 있도록 기술적으로 확장 가능한 로봇을 연구하는 업무를 수행합니다.\n\n## 직무상세\nCPS(Cyber Physical System) 기반의 로봇 서비스 사업 체계 구축을 위하여, 차별화된 HW 및 내재화된 SW 개발, 그리고 고도화된 서비스를 기획하고 실행하는 업무를 수행합니다.\n\n### 로보틱스 HW 개발\n- 다관절 로봇 양산화를 위한 구동기 및 메커니즘 설계\n  - 다관절 로봇 구동부 메커니즘 설계 및 기구 동역학 해석\n  - 양산 성능 개선 및 내구 평가 기구 설계\n- 로봇 양산 설계\n  - 양산 공법 기반 로봇 기구 구조 재설계\n  - BOM·도면·협력사 승인도·검사 기준 관리를 통한 생산 품질 및 수율 확보\n\n### 로보틱스 SW 개발 (직무역량검사 시 코딩테스트 선택 필수)\n- 다관절 로봇 제어 기술 개발\n  - 학습 기반 조작 및 보행 제어 기술 개발\n  - 인지기반/힘기반 양팔 로봇 조작제어 기술 개발\n  - 로봇 시스템 최적화 및 실시간 통신 구현\n  - 로봇 어플리케이션 및 테스크 매니저 개발\n- 로봇 SW 검증 및 매니퓰레이터 제어/SW 개발\n  - 로봇 양산 SW를 최적화하고 로봇 시스템의 성능, 신뢰성, 통합 기능 및 안전성 검증을 통한 안정적인 양산 적용 지원\n  - 매니퓰레이터 제어 및 로봇 SW 아키텍쳐 개발\n- 모바일 로봇 SW 개발\n  - 기능안전 기반 로봇 제어 시스템 설계 및 개발 (통신/전력 관리 포함)\n  - 로봇 자율주행 SW 개발/양산 적용 및 주행 데이터 관리 체계 구축\n- Physical AI 및 로봇 지능 기술 개발\n  - IL/VLA 기반 로봇 조작 모델 개발, 모델 불확실성 및 예외 상황을 감지하여 안전하게 대응하는 Fail Safe 기술 개발\n  - 로봇 행동 시계열 데이터 품질 검증, 학습·평가용 고품질 데이터셋 구축 및 데이터 큐레이션 체계 개발\n  - NVIDIA Isaac Sim 기반의 로봇 Digital Twin 환경 구축, 합성 데이터와 실환경 데이터를 연계하는 데이터 파이프라인 개발\n  - Spatial Context 기반 적재 위치 인식 및 물체 특성을 고려한 Grasp Pose 예측 알고리즘을 개발하여 물류 시나리오 대응 AI 기술 고도화\n- On-Device AI 기술 개발\n  - VLM, VLA 모델 경량화(Pruning, Quantization, Distillation) 연구 개발 및 추론 엔진 최적화\n\n### 로보틱스 사업 개발\n- 로보틱스 현장 기술지원\n  - 고객사 및 파트너사 기술 교육 지원\n  - 제품 현장 사용성 평가 및 운영 데이터 수집/분석\n- 로봇 부품/완성로봇 품질 관리\n  - 로봇 부품의 품질 검증 및 완성 로봇의 성능 평가\n  - 양산 품질 관리 및 개선\n\n### 로보틱스 제품 디자인/UX 디자인 개발\n- 로봇 제품 디자인 개발 및 프로토타입 설계·제작·검증\n  - 로보틱스 제품 관련 프로토타입 및 양산 디자인 제작\n  - 사용자 중심의 로봇 디자인 검증 및 연구\n- 로봇 제품, 서비스 전반의 UX/UI 및 HRI(Human-Robot Interaction) 설계·검증\n  - UI 설계, 컨셉 프로토타이핑 제작 및 사용성 평가\n  - 로봇 서비스 기획/디자인/HRI(Human Robot Interaction) 연구\n\n## 지원자격\n- 학사/석사 학위를 기 취득하셨거나 학사/석사 '27년 2월 내 졸업 예정이신 분\n- OPIc IM2 or TOEIC Speaking IM3 이상 영어회화 성적을 보유하신 분\n  - ('24.12.31 ~ '26.09.14 내 취득 점수 기준 / 영어권 해외대학 제외)\n\n## 우대사항\n\n### 로보틱스 HW 개발\n- 관련 분야 석사 학위를 보유하신 분\n- 기계공학/로봇공학을 전공하신 분\n- 3D CAD 및 동역학 해석 툴 활용 능력을 보유하신 분\n- 기구 구조해석 툴 활용 능력을 보유하신 분\n\n### 로보틱스 SW 개발\n- 관련 분야 석사 학위를 보유하신 분\n- 제어, 컴퓨터, 로봇공학 등 로보틱스 분야를 전공하신 분\n- 관련 분야 Open Source Contributor 이력을 보유하신 분\n- 관련 분야 학회에서 논문 1편 이상 발표하신 분\n- 로봇 센서(Camera, Depth Camera, LiDAR 등) 데이터 처리 및 시스템 개발 경험을 보유하신 분\n- Real-Time 기반 로봇 제어, 강화/모방 학습 기반 실 로봇 제어 경험을 보유하신 분\n- MuJoCo, Isaac Sim/Lab, Gazebo 등의 Simulation Tool 및 Python, C/C++ 활용 능력을 보유하신 분\n\n### 로보틱스 사업 개발\n- 기계공학/전자공학/전기공학을 전공하신 분\n- 로봇 현장 운영 관련 경험을 보유하신 분\n\n### 로보틱스 제품 디자인/UX 디자인 개발\n- 디자인 혹은 산업공학, 인간공학, HCI 등 UX 전공자 또는 이에 상응하는 전공 지식을 보유하신 분\n- 양산/선행 디자인 인턴/실무 경험을 보유하신 분\n- 멀티모달 UX(음성, 제스처, 터치 복합 인터페이스) 설계 경험을 보유하신 분\n- 디자인 3D 툴(Nurbs/Solid 기반 Modeling) 숙련도를 보유하신 분\n- 제품 및 영상 렌더링 툴(Keyshot/Blender/Unreal/Twinmotion 등) 활용 역량을 보유하신 분\n- Figma 등 UX/디자인 툴과 Claude, Midjourney 등 AI 서비스 활용 능력을 보유하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 인적성/직무역량검사\n4. 직무면접\n5. 종합면접\n6. 채용검진\n7. 최종합격\n\n## 기타\n\n### 중복지원 제한\n- 동일 기간동안 진행 중인 신입/인턴 채용 공고에 중복으로 지원할 수 없습니다.\n- 접수 기간이 종료되지 않은 공고에 지원 중인 경우, 지원서 제출을 취소하시면 다른 공고에 지원 가능합니다.\n- 진행 중인 전형 단계에서 불합격하신 경우, 다른 공고에 지원하실 수 있습니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 해외여행에 결격 사유가 있는 분(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 회사 내규상 정상근무가 불가능할 경우\n  - 지원자격 미충족이 확인되는 경우\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의 바라며, 이를 위반하는 경우 전형상의 불이익을 받을 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있는 점 유의 바랍니다.\n- 본 공고에 지원하는 이공계열 전공자는 인적성검사 종료 후 반드시 '직무역량검사'를 응시해야 합니다. 지원서 작성 시 응시과목을 선택하여 주시기 바랍니다. (기계공학, 전기/전자공학, 재료/화학공학, 코딩테스트 중 택일) 단, 이공계열 외 전공자는 '해당없음'으로 선택 가능합니다.\n- [로보틱스 SW 개발] 직무에 관심이 있는 지원자는 응시과목으로 '코딩테스트'를 선택하여 주시기 바랍니다.\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수 마감일에는 지원자가 대거 몰려 입사지원이 어려울 수 있으니, 여유있게 미리 제출하시기를 권장합니다.\n- 박사학위 보유자는 경력직 공고에 지원바랍니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용바랍니다."
+    "content_path": "content/3bac9999b947f47c261533e0.md",
+    "content_version": "95adc983be758208"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_모바일로봇_위치_추정_및_주행_제어",
@@ -5095,7 +5360,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모바일로봇 위치 추정 및 주행 제어\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 내재화된 로보틱스 기술을 바탕으로 의료/서비스/산업용 관절형 로봇 제어 및 시스템 SW의 연구개발 업무를 수행합니다.\n\n## 직무상세\n다중 로봇의 협동 작업 수행을 위한 LiDAR / RGB-D 기반의 SLAM & Navigation 기술을 개발하고, 실시간 경로계획 생성 알고리즘을 개발하는 업무를 수행합니다.\n\n### LiDAR기반 SLAM 기술 개발\n- LiDAR를 비롯한 다양한 센서를 활용한 위치 추정 알고리즘 개발\n- 로봇 자율 주행을 위한 지도 생성 및 유지 보수 자동화 알고리즘 개발\n\n### 경로생성 및 주행 기술 개발\n- 모바일 로봇의 실시간 경로생성 및 주행 모션 제어 알고리즘 개발\n- 다중 로봇 시스템의 경로 계획 및 충돌 회피를 포함한 실시간 군집 주행 알고리즘 개발\n\n## 지원자격\n- 기계공학, 전기·전자공학, 컴퓨터공학, 로봇공학 관련 분야에서 석사 이상의 학위를 보유하신 분\n- 3년 이상의 로봇 SLAM, 경로생성, 주행제어 업무 경험을 보유하신 분\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n- 실제 모바일 로봇으로 SLAM & Navigation 기술 개발 경험을 보유하신분\n- C, C++, Python 활용이 가능하신 분\n\n## 우대사항\n- 양산 제품의 소프트웨어 배포 경험을 보유하신 분\n- SALM & Navigation 관련 오프소스 기여, Python or C++ 활용 능력이 뛰어나신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/5721792c2b7daef9c355f0bf.md",
+    "content_version": "77221943b2e84ae5"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_모바일로봇_전장_시스템_개발",
@@ -5116,7 +5382,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 모바일로봇 전장 시스템 개발\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 로보틱스 기술의 핵심 분야인 로봇 제어 시스템 개발의 연구 전문성을 바탕으로 제품화를 위한 연구개발 업무를 수행합니다.\n\n## 직무상세\n제어기 및 모터드라이버 기반의 전장 플랫폼 개발과 제어 시스템 개발, 기능안전 아키텍처 설계를 바탕으로 안정적이고 신뢰성 높은 로봇 제어 시스템 및 전장 플랫폼 개발 업무를 수행합니다.\n\n### 모바일로봇 회로 설계\n- 제어기 및 모터드라이버 회로 설계/개발\n  - 제어기 및 모터드라이버 회로 설계, 부품 선정 및 회로 검증 수행\n  - 통신 및 전력 관리 회로 설계\n- 기능안전 HW 아키텍처 설계\n  - 기능안전 요구사항 분석 및 HW 아키텍처 설계\n  - 안전 목표 달성을 위한 회로 구조 검토\n  - 기능안전 관련 기술 문서 작성 및 설계 산출물 관리\n\n### 모바일로봇 모터 제어 시스템 개발\n- 모터 제어기 및 구동 제어 시스템 개발\n  - 모터 구동 방식 및 제어 로직 설계·개발\n  - 모터 상태 진단, 이상 감지 및 보호 기능 개발\n  - CAN 등 차량·로봇 내 통신 기반의 제어기 연동 기능 설계\n\n### 모바일로봇 전장 인터페이스 설계\n- 전장 시스템 및 인터페이스 설계\n  - 전장품 간 인터페이스 정의 및 연결 구조 검토\n  - 전력 전달, 신호 무결성, 설치성 등을 고려한 전장 설계 수행\n\n## 지원자격\n- 전기·전자, 메카트로닉스, 로봇공학, 자동차공학 등 유관 분야에서 학사 이상의 학위를 보유하신 분\n- 5년 이상의 회로 설계 및 임베디드 시스템 개발 경력을 보유하신 분\n- 비즈니스 영어 커뮤니케이션 및 영어 문서 작성 역량을 보유하신 분\n- 회로 설계 및 전장 플랫폼 설계 업무 경험을 보유하신 분\n- PADS, Altium, Allegro 등의 PCB 설계 소프트웨어 활용이 가능하신 분\n\n## 우대사항\n- 로봇 양산 프로젝트 경험이 있으신 분\n- 회로 설계, 임베디드 시스템, 제어 시스템, 기능안전 관련 프로젝트 수행 경험을 보유하신 분\n- 모터 제어, 전력 관리, 통신 인터페이스 관련 개발 경험을 보유하신 분\n- EMC/전기 시험, 하드웨어 검증 또는 시스템 검증 경험을 보유하신 분\n- 회로 설계 툴, 형상관리 도구, 이슈 관리 도구 사용 경험을 보유하신 분\n- C/C++, Python, MATLAB/Simulink 등 개발 및 검증 도구 활용이 가능하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/60c434ee2039897abd3576f2.md",
+    "content_version": "de34ce9a7fa2ea30"
   },
   {
     "id": "현차_로보틱스랩_현차_2609_학습_기반_Bi-manipulation_모델_개발",
@@ -5135,7 +5402,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 학습 기반 Bi-manipulation 모델 개발\n\n## 기본 정보\n- **부문**: 연구개발\n- **분야**: 로보틱스개발\n- **직급**: 연구원, 책임연구원\n- **근무지역**: 의왕\n\n## 조직소개\n우리 조직은 로봇이 복잡한 양팔 조작 태스크를 안전하게 수행하기 위한 End-to-End 매니퓰레이션 모델 개발과 실시간 Fail Safe 기술을 개발하는 업무를 수행합니다.\n\n## 직무상세\nAI 모델이 로봇 제어 Action을 직접 예측하는 E2E 매니퓰레이션 기술을 연구·개선하고, 모델의 오판·불확실성과 수행 중 예외 상황을 실시간 감지하여 동작 제한·중지·재시도·안전 복귀를 수행하는 Fail Safe 기술을 개발함으로써 복잡한 양팔 조작 테스크의 안정적 로봇 구동을 보장하는 업무를 수행합니다.\n\n### E2E Manipulation\n- Bimanual Manipulation 기술 개발\n  - Imitation Learning 모델 개발\n  - Vision Language Action 모델 개발\n  - 강화학습을 이용한 VLA 모델 성능 개선\n\n### Manipulation Fail-Safe\n- Bimanual Manipulation 안전성 보장 기술 개발\n  - AI 모델 신뢰도 기반 안전 제어\n  - 강화학습 기반 Fail Safe 성능 개선\n  - 로봇 조작 Fail Safe 설계 경험\n\n## 지원자격\n- 전기ㆍ전자공학, AI, 컴퓨터사이언스 분야에서 석사 이상의 학위를 보유하신 분\n- 3년 이상의 IL,RL,VLA를 이용한 로봇 매니퓰레이션 업무 경력을 보유하신 분\n- 학습 기반 매니퓰레이션 기술의 양팔 로봇 적용 및 PoC 경험을 보유허신 분\n- C/C++, git, Python, Pytorch 활용이 가능하신 분\n\n## 우대사항\n- E2E 모델을 로봇 매니퓰레이션에 적용하여 서비스화를 수행한 경험을 보유하신 분\n- 강화학습을 이용하여 VLA 모델 성능 개선 경험을 보유하신 분\n- 안전한 매니퓰레이션을 위한 Fail Safe 기술 개발 경험을 보유하신 분\n\n## 전형단계\n1. 지원서 접수\n2. 서류전형\n3. 면접전형 (인성검사)\n4. 채용검진\n5. 최종합격\n\n## 기타\n\n### 지원자 참고사항\n- 취업보호대상자(장애,보훈 등)는 관계 법령에 의거하여 우대합니다.\n- 지원서 접수는 현대자동차 채용 홈페이지를 통해 접수하며, 그 외의 개별 접수는 받지 않습니다.\n- 지원 접수 시점별로 전형 일정이 상이할 수 있으며, 채용 완료 시 채용 공고가 조기 종료될 수 있습니다.\n- 필요 시 전형단계에서 과제가 진행 될 수 있습니다.\n- 채용 전형 진행에 따라 일정이 조정될 수 있습니다.\n- 채용공고 내 직급은 변동 가능성이 있으며, 개인별 경력 및 평가를 고려하여 처우협의 과정을 통하여 최종 확정됩니다.\n- 채용 관련 문의는 채용 홈페이지 內 [FAQs] 메뉴를 확인하시거나 '1:1 문의하기'를 이용 바랍니다.\n\n### 기타 유의사항\n- 아래 요건에 해당 시, 합격이 취소되거나 전형상 불이익을 받을 수 있습니다.\n  - 지원서를 포함하여 채용 전형 진행 중 모든 과정에서 제출한 내용이 사실과 다르거나 문서로 증빙이 불가할 경우\n  - 회사 내규 상 정상근무가 불가능할 경우\n  - 해외여행에 결격 사유가 있는 경우(남성의 경우, 회사가 지정한 입사일까지 병역 미필 또는 병역 면제되지 않은 분 포함)\n  - 최종 합격 후, 회사가 지정하는 입사일에 입사 불가할 경우\n- 당사는 제3자의 영업비밀을 존중하고, 부정경쟁방지 및 영업비밀 보호에 관한 법률 등 관련 법령을 준수하기 위해 노력하고 있습니다. 채용 전형 과정에서 전/현직장의 영업비밀을 침해하거나 전/현직장에 대한 비밀유지의무를 위반하지 않도록 각별히 유의하시기 바랍니다."
+    "content_path": "content/4a4c29a2321ec9e28aaddc8d.md",
+    "content_version": "457117169dcc95ea"
   },
   {
     "id": "홀리데이로보틱스__홀리데이로보틱스_소개",
@@ -5151,7 +5419,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 소개\n\n## 홀리데이로보틱스 소개\n피지컬 AI 기반 휴머노이드 로봇 개발 스타트업입니다.\n(근무지: 본사 - 서울 강남구 역삼동 / 제조·공장 라인 - 서울 성동구 성수동)\n\n## 주요 개발 분야\n- 부품 조립 등 제조 현장 투입을 위한 상체 및 섬세한 손가락 움직임 모사 휴머노이드 로봇\n- 피지컬 AI 솔루션 및 제어 소프트웨어 개발\n\n## 채용 프로세스\n서류전형 -> 1차 실무면접(기술 및 프로젝트 검증) -> 인성검사 -> 2차 임원면접\n(※ 직무에 따라 2차 전형이 CEO 인터뷰로 진행되거나 인성검사 단계가 통합/생략되기도 함)\n\n## 참고\n- 수아랩(미국 코그넥스에 2,300억 원 매각) 창업자인 송기영 대표가 설립\n- SKT 및 주요 대기업들과 피지컬 AI 생태계 협력 활발히 진행 중"
+    "content_path": "content/ba61142808b15ea699d1c56d.md",
+    "content_version": "354feeb1b2848e09"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_Forward_Deployed_Robotics_Engineer",
@@ -5170,7 +5439,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Forward Deployed Robotics Engineer\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n\n[포지션 소개]\n홀리데이로보틱스는 사람의 육체노동을 대체할 범용 휴머노이드 로봇을 누구보다 빠르게 상용화합니다. 우리의 기준은 연구실 데모가 아닙니다. 실제 현장에서 신뢰받는 경제적 가치를 만드는 것입니다.\n\nForward Deployed Robotics Engineer는\n• 휴머노이드 로봇을 실제 산업 환경에서 작동하게 만드는 사람입니다.\n• 초기 PoC부터 상용 운영까지, 현장에서 발생하는 문제를 정의하고 해결하며 시스템을 안정화합니다.\n• 고객의 접점 파트너로서 현장에서 얻은 인사이트를 엔지니어링 팀과 연결하고 제품 개선에 기여합니다.\n## 주요업무\n• 고객사 환경에 휴머노이드 시스템 설치 및 초기 셋업\n• 고객 및 파트너사와 기술 요구사항 정의 및 조율\n• 현장 환경에 맞춘 시스템 안정화 및 최적화\n• 로그, 텔레메트리, 센서 데이터를 기반으로 문제 상황 분석 및 해결\n• 현장 요구사항, 점검 결과 문서화 및 엔지니어링 팀과 연계\n## 자격요건\n• 로봇 / 비전 / AI 시스템을 현장에서 설치·운영 및 문제 해결해 본 경험\n• Linux, Python 기반 시스템 운영 및 디버깅 경험\n• ROS / ROS2, Docker, gRPC 등 로봇 개발 환경에 대한 이해 (ROS2 로봇 개발 경험 필수)\n• 전기·전자, 네트워크 및 하드웨어 시스템에 대한 기본적인 이해\n• 운전면허 소지 및 출장 가능자\n## 우대사항\n• 로봇 현장 배포 경험\n• SW 개발 및 배포 업무 경험 (Python, C/C++)\n• 네트워크 및 센서 시스템의 문제 진단 및 디버깅 경험\n• 로보틱스, 메카트로닉스, 전기·전자 관련 학위 또는 동등 경력 보유\n• 영어/일본어 커뮤니케이션 능력\n## 혜택 및 복지\n• 근로관계: 정규직\n• 근무지: 서울특별시 강남구 논현로 85길 70 4층\n• 보상: 회사 내규 및 경력에 따라 협의\n채용 전형\nㆍ서류 전형 ＞ 1차 실무 인터뷰 ＞ 2차 CEO 인터뷰 ＞ 보상 합의 ＞ 입사 합의\nㆍ제출 서류: 이력서 및 포트폴리오 (경력과 수행 업무 중심으로 기술)\nㆍ근로관계 : 정규직 (수습기간 3개월)"
+    "content_path": "content/2c55aee0189c594d08fa7a66.md",
+    "content_version": "3235d5bc076d9c57"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_HW_Quality_Evaluation_엔지니어__신뢰성_담당_",
@@ -5190,7 +5460,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# HW Quality Evaluation 엔지니어 (신뢰성 담당)\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n\n[포지션 소개]\nHW Quality Evaluation 엔지니어\n\n홀리데이 로보틱스는 산업용 휴머노이드 `FRIDAY`의 시대를 열어가고 있습니다. 우리는 연구실의 시연을 넘어, 2026년 실제 산업 현장에 투입될 최초의 휴머노홀이드 양산을 위한 `1호 Factory`를 구축하고 있습니다.\n\n홀리데이로보틱스 'FRIDAY' 휴머노이드의 하드웨어 신뢰성을 책임지는 포지션입니다.\n제품 개발 초기부터 양산까지 전 단계에 걸쳐 HW 신뢰성 평가 계획을 수립하고, 다양한 환경 시험·수명 시험을 통해 제품 품질 기준을 정의하며, 불량 원인 분석과 개선 활동으로 신뢰성 목표를 달성합니다.\n## 주요업무\n• HW 신뢰성 평가 계획(DVP, Reliability Test Plan) 수립 및 실행\n• 전장 신뢰성 검사용 EOL 및 단품 검사기 설계 및 제작 운여\n• 환경 신뢰성 시험(온도, 습도, 진동, 충격, IP 등급 등) 설계 및 수행\n• 제품 수명 예측(MTBF, FMEA, FTA) 및 신뢰성 목표 수립\n• 양산 전 샘플(EVT/DVT/PVT) 신뢰성 검증 및 결과 보고\n• 현장 불량(필드 클레임) 분석 및 8D 리포트 작성·관리\n• 신뢰성 시험 결과 기반 설계 개선 방향 도출 및 유관 부서 피드백\n• 외부 인증 시험소 업무 협력 및 인증(CE, KC, UL 등) 대응\n## 자격요건\n• 전기·전자·기계공학, 산업공학 전공자 (학사 이상)\n• HW 신뢰성 평가 또는 제품인증 관련 실무 경력 5 년 ~15 미만\n• FMEA, FTA, DVP 등 신뢰성 분석 도구 활용 경험\n• 환경 시험(온습도, 진동, 충격 등) 계획 수립 및 실행 경험\n• 8D, 5-Why 등 품질 문제 해결 방법론 적용 가능자\n## 우대사항\n• 로봇·자동차·가전·의료기기 등 복합 시스템 HW 신뢰성 검증 경력 5 년 이상\n• 제품, 부품 환경 신뢰성 규격 이해 보유자\n• 제품 안전 인증(CE, UL, KC 등) 취득 경험자\n• DFMEA/PFMEA 주도 경험자 및 APQP 프로세스 이해자\n• 품질경영시스템(ISO 9001, IATF 16949) 내부 심사원 자격 보유자\n• LabVIEW, MATLAB 등 시험 데이터 분석 툴 활용 가능자\n## 혜택 및 복지\n• 근로관계: 정규직\n• 근무지: 서울 성동구 뚝섬로 15길 23-6 또는 경기도\n• 보상: 회사 내규 및 경력에 따라 협의\n채용 전형\nㆍ서류 전형 ＞ 1차 실무 인터뷰 ＞ 2차 CEO 인터뷰 ＞ 보상 합의 ＞ 입사 합의\nㆍ제출 서류: 이력서 및 경력기술서 (경력과 수행 업무 중심으로 기술)\nㆍ근로관계 : 정규직 (수습기간 3개월)"
+    "content_path": "content/b723e04699478e5e6653563d.md",
+    "content_version": "987392d18ba1dd07"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_Software_Engineer__테스트_제조_생_시스템_",
@@ -5211,7 +5482,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# Software Engineer (테스트,제조,생 시스템)\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n\n[포지션 소개]\n생산 라인을 통과하는 모든 로봇은 실제 현장에서 안정적으로 동작해야 합니다.\nSoftware Engineer (Test & Manufacturing Systems)는 그것을 증명하는 소프트웨어와 테스트 인프라를 구축하는 역할을 담당합니다.\n\n생산 공정의 각 단계에서 실행되는 테스트 스크립트를 작성하고, 단계마다 기록되어야 하는 정보를 저장하고 조회할 수 있는 시스템을 개발하여 모든 로봇의 제조 이력을 처음부터 끝까지 추적할 수 있도록 합니다.\n\n또한 연구소와 공장에서 QA·QE를 진행할 때 사용하는 테스트 도구를 개발합니다. 반복 검증이 가능한 테스트 스크립트부터, 코드 수정 없이 테스트를 실행하고 결과를 확인할 수 있는 GUI 기반 툴을 개발합니다.\n\n연구소에서는 HIL(Hardware-in-the-Loop) 검증을 담당합니다. 새로운 기능이 개발되거나 코드가 병합될 때마다 실제 하드웨어 기반 검증을 수행하여 기존 기능이 정상적으로 동작하는지 확인하고, 새로운 기능이 실제 하드웨어에서 정상 작동되는지 검증합니다.\n\n이 포지션은 소프트웨어 엔지니어링과 제조를 연결하는 역할입니다. 여기서 만드는 시스템이 결함을 얼마나 빠르게 발견할 수 있는지, 그리고 얼마나 높은 신뢰도로 제품을 출하할 수 있는지를 결정합니다.\n## 주요업무\n• 생산 공정 단계별 자동화 테스트 스크립트 개발\n• 제조 과정에서 생성되는 테스트 데이터 및 생산 이력(Traceability) 관리 시스템 개발\n• QA/QE 팀을 위한 테스트 자동화 도구 및 내부 툴 개발\n• 테스트 실행 및 결과 확인을 위한 GUI 애플리케이션 개발\n• Hardware-in-the-Loop(HIL) 기반 검증 환경 구축 및 운영\n• 신규 기능 및 기존 기능에 대한 회귀 테스트(Regression Test) 설계 및 수행\n• CI Pipeline과 연계된 자동 검증 환경 구축\n• 생산성과 품질 향상을 위한 테스트 인프라 및 제조 시스템 지속 개선\n## 자격요건\n• 소프트웨어 개발 경력 3년 이상의 Python 개발 역량\n• 테스트를 코드로 작성하고, CI 파이프라인에 연결해 본 경험\n• 문서를 읽고 하드웨어를 이용하는 소프트웨어를 작성 및 디버깅할 수 있는 능력\n• 데이터 스키마 설계와 REST·gRPC 등의 서비스 API를 개발해 본 경험\n• React·TypeScript와 같은 모던 웹 스택으로, 웹 서비스를 만들어 본 경험\n• Linux와 Git 기반 버전 관리에 대한 실무 이해\n## 우대사항\n• QA·QE 조직 경험 - 테스트 계획 수립, 결함 관리, 검증 프로세스 운영 등\n• HIL(Hardware-in-the-Loop) 벤치 또는 자동 테스트 장비(ATE) 구축·운영 경험\n• MES, 이력 추적(traceability), 생산 데이터 파이프라인 등 제조 시스템 경험\n• ROS/ROS2 경험, 로봇 또는 임베디드 시스템의 브링업·진단 경험\n• Docker로 도구를 패키징해 연구소나 공장 장비에서 운영해 본 경험\n• 현장에서 오퍼레이터·테크니션과 함께 일하며 도구를 개선해 본 경험\n## 혜택 및 복지\n• 근로관계: 정규직\n• 근무지: 서울특별시 강남구 논현로 85길 70\n• 보상: 회사 내규 및 경력에 따라 협의\n채용 전형\nㆍ서류 전형 ＞ 1차 실무 인터뷰 ＞ 2차 CEO 인터뷰 ＞ 보상 합의 ＞ 입사 합의\nㆍ제출 서류: 이력서 및 포트폴리오 (경력과 수행 업무 중심으로 기술)\nㆍ근로관계 : 정규직 (수습기간 3개월)"
+    "content_path": "content/930461b2843fa2e31430d325.md",
+    "content_version": "de308859a3b76f5c"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_SW_Quality_Evaluation_엔지니어",
@@ -5231,7 +5503,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# SW Quality Evaluation 엔지니어\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n\n[포지션 소개]\nSW Quality Evaluation 엔지니어\n\n홀리데이 로보틱스는 산업용 휴머노이드 `FRIDAY`의 시대를 열어가고 있습니다. 우리는 연구실의 시연을 넘어, 2026년 실제 산업 현장에 투입될 최초의 휴머노홀이드 양산을 위한 `1호 Factory`를 구축하고 있습니다.\n\n홀리데이로보틱스 'FRIDAY' 휴머노이드의 소프트웨어 품질을 책임지는 포지션입니다.\n로봇 제어 소프트웨어·펌웨어·인터페이스 전반의 테스트 전략을 수립하고, 자동화 테스트 환경 구축 및 소프트웨어 신뢰성 지표를 관리합니다. 개발 초기부터 양산 이후까지 SW 품질 게이트를 운영하여 안정적인 제품 출시를 지원합니다.\n## 주요업무\n• 로봇 제어 SW·펌웨어에 대한 테스트 전략 및 테스트 계획수립\n• S/W Test spec 기반 Test case 작성\n• 기능 시험, 통합 시험, 시스템 시험, 회귀 시험 설계 및 실행\n• 파이프라인 내 자동화 테스트 환경 구축 및 운영\n• 소프트웨어 결함 관리(JIRA 등) 및 결함 추이 분석·보고\n• SW 품질 지표(불량률, 코드 커버리지, 결함 밀도 등) 정의 및 모니터링\n• 안전 기능(Safety Function) 관련 SW 검증 및 안전 규격 대응\n• 필드 이슈 원인 분석 및 재발 방지 프로세스 수립\n• 개발팀·QA 팀 간 품질 게이트 기준 정의 및 릴리즈 판정 지원\n## 자격요건\n• 컴퓨터공학·소프트웨어공학·전기전자공학 전공자 (학사 이상)\n• SW 테스트 또는 QE 실무 경력 3 년~15 년 미만\n• Python, C/C++ 중 1 개 이상 활용하여 테스트 스크립트 작성 가능자\n• 테스트 자동화 프레임워크(pytest, gtest, Robot Framework 등) 경험자\n• 결함 관리 도구(JIRA, Bugzilla 등) 활용 및 품질 지표 관리 경험자\n## 우대사항\n• 로봇·자동차·임베디드·모빌리티 도메인 SW QA 경력 5 년 이상\n• ROS / ROS2 기반 로봇 소프트웨어 테스트 경험자\n• CI/CD 파이프라인(Jenkins, GitHub Actions 등) 구축·운영 경험자\n• 기능 안전 규격(IEC 61508, ISO 26262, ISO 25119 등) 이해 및 적용 경험자\n• ISTQB / CSTE 등 SW 테스트 자격증 보유자\n• HIL(Hardware-in-the-Loop) 또는 SIL(Software-in-the-Loop) 테스트 경험자\n• 코드 정적 분석 툴(SonarQube, Coverity 등) 운영 경험자\n## 혜택 및 복지\n• 근로관계: 정규직\n• 근무지: 서울 성동구 뚝섬로 15길 23-6 또는 경기도\n• 보상: 회사 내규 및 경력에 따라 협의\n채용 전형\nㆍ서류 전형 ＞ 1차 실무 인터뷰 ＞ 2차 CEO 인터뷰 ＞ 보상 합의 ＞ 입사 합의\nㆍ제출 서류: 이력서 및 경력기술서 (경력과 수행 업무 중심으로 기술)\nㆍ근로관계 : 정규직 (수습기간 3개월)"
+    "content_path": "content/9f7b4a40559c46f45703ec7f.md",
+    "content_version": "514bc4e03b34c9b4"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_로봇_조립_오퍼레이터",
@@ -5251,7 +5524,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 로봇 조립 오퍼레이터\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n## 주요업무\n• 로봇의 기계 부품(Body, Joint, Frame) 조립 및 생산\n• 전선 및 보드 납땜\n• 구동계(모터, 감속기, 액추에이터) 조립 및 정렬 Alignment\n• 센서, 배선, 하네스(전장) 설치 및 연결\n• 연구팀(기구/전장/소프트웨어)과의 피드백 협업\n## 자격요건\n• 제조/조립/생산 분야 경력 10년 미만 또는 그에 준하는 경험 (산업 분야 무관)\n• 전자 및 기계 부품 조립 경험\n• 도면(기계 조립도, 전장 배선도) 해석 또는 기초 이해\n## 우대사항\n• 전문대학 공학 계열 (기계, 전자, 통신 전공 우대) 전공자\n• 로봇·항공·자동차·드론·정밀기계 등 유관 조립 경험이 있으신 분\n• R&D와 직접 협업해본 시제품 조립 경험\n• 서보모터, BLDC, 감속기, 로봇 관절, 전장품 조립 및 테스트 경험\n• IPC, 공구 체결, 정밀 조립 관련 자격증 보유\n## 혜택 및 복지\n• 근로관계: 정규직\n• 근무지: 서울특별시 성동구 뚝섬로15길 23-6 (성수동2가) / 사전 교육: 강남구 역삼동\n• 근무시간: 09:00 ~ 18:00\n• 보상: 회사 내규 및 경력에 따라 협의\n채용 전형\nㆍ서류 전형 ＞ 1차 실무 인터뷰 ＞ 2차 CEO 인터뷰 ＞ 보상 협의 ＞ 입사 협의\nㆍ제출 서류: 이력서 또는 경력기술서 (경력과 수행 업무 중심으로 기술)\nㆍ근로관계 : 정규직 (수습기간 3개월)"
+    "content_path": "content/07c25b23e02d6dc4d603cde4.md",
+    "content_version": "e5e8ac659f23640d"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_양산_개발_CAD_설계_엔지니어",
@@ -5270,7 +5544,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 양산 개발 CAD,설계 엔지니어\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n\n[포지션 소개]\n• 양산개발 CAD/설계 엔지니어\n\n홀리데이로보틱스는 산업용 휴머노이드 “FRIDAY”의 시대를 열어가고 있습니다. 우리는 연구실의 시연을 넘어, 2026년 실제 산업 현장에 투입될 최초의 휴머노이드 양산을 위한 '1호 Factory'를 구축하고 있습니다.\n\n양산개발 CAD Engineer 는 휴머노이드 로봇 제품의 R&D 3D CAD 산출물을 KS규격에 맞는 기계제도법을 활용해 2D 부품도면으로 전환 개발하고, 설계 의도를 도면에 효율적으로 반영하여 가공 낭비와 정확도를 개선하여 부품단가 합리화를 추진합니다.\n## 주요업무\n• 휴머노이드 로봇 양산을 위한 기계 부품 및 어셈블리 도면 작성 및 관리\n• SolidWorks 및 Onshape를 활용한 2D/3D CAD 모델링 및 도면화\n• KS 규격 기반의 치수, 공차, 표제란 등 기계제도 표준 관리\n• 기어, 베어링, 감속기, 링크 구조, 용접·절곡·가공 부품 도면 작성\n• 제조 및 협력사와 협업하여 양산 적용 가능한 도면 검토 및 개선\n• 부품 표준화, 공용화 및 원가 절감을 위한 설계 데이터 관리\n• 시제품 및 양산 과정에서 발생하는 설계 이슈 분석 및 도면 반영\n## 자격요건\n• 기계 및 기계설계, 전산응용기계제도 등 관련 전공하신 분\n• 요소설계, 기계공작법, 기계가공에 대한 이해를 기반으로 제조 현장에서 활용 가능한 수준의 양산 도면 작성 및 관리 경험을 보유하신 분\n• SolidWorks 및 Onshape 활용이 능숙하신 분\n• KS 규격 기반의 기계제도 작성 역량을 보유하신 분\n- 기하공차, 베어링, 기어가공, 용접, 절곡, 조립도, 분해도, 후가공, 부품가공도 2D/3D CAD 등 기계도면 작성에 능숙한 분\n## 우대사항\n• 자동차, 로봇, 모빌리티, 항공, 드론, 의료기기, 가전 등 복합 기계 제품 설계 경험이 있으신 분\n• 다양한 공법의 부품개발 경험 및 전산응용기계제도 경력이 있으신 분 (6~15년)\n• 전산응용기계제도 기능사(기능장급)·산업기사, 기능경기대회 입상자\n• 양산 부품 개발 경험 보유하신 분 (모터, 감속기, 기어, 다이캐스팅, 프레스, 사출, 주조 등)\n## 혜택 및 복지\n• 근로관계: 정규직 (수습 3개월)\n• 근무지: 서울특별시 성동구 뚝섬로15길 23-6\n- 향후 생산시설 확장에 따라 경기수도권 내 사업장으로 변경될 수 있습니다)\n• 근무시간: 09:00-18:00시\n• 보상: 회사 내규 및 경력에 따라 협의\n채용 전형\n• 채용 절차 : 서류 심사 ＞ 1차 인터뷰 ＞ 입사 협의\n• 제출 서류 : 이력서 (경력과 수행 업무 중심으로 기술)\n• 지원 기간 : 서류 제출 순서에 따라 전형을 진행하며, 채용 확정 시 공고 마감합니다."
+    "content_path": "content/8e94e9dcccfcd533fdbbc86f.md",
+    "content_version": "006da1869a6fd7ee"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_전장_회로_양산개발_엔지니어",
@@ -5289,7 +5564,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 전장,회로 양산개발 엔지니어\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n\n[포지션 소개]\n전장/회로 양산개발 엔지니어\n\n홀리데이 로보틱스는 산업용 휴머노이드 `FRIDAY`의 시대를 열어가고 있습니다. 우리는 연구실의 시연을 넘어, 2026년 실제 산업 현장에 투입될 최초의 휴머노홀이드 양산을 위한 `1호 Factory`를 구축하고 있습니다.\n\n전장/회로 양산개발 엔지니어는 R&D 산출물인 회로도를 기반으로 양산 최적화 PCB B/D 를 개발하며, 품질 향상·생산성 향상·불량 개선·부품 단가 합리화를 주도합니다. Pads 또는 Altium 을 활용해 전장 회로 및 양산 품질을 확보하는 전장 부품 개발 전반을 담당합니다.\n## 주요업무\n• R&D 회로도 기반 양산 최적화 PCB 레이아웃 설계 (Altium Designer / Pads)\n• 양산 BOM 구성 및 아트웍 가능자\n• 전장검사용 EOL 및 단품 검사기 설계 및 제작 f/up\n• 전장 부품 선정 및 대체 부품 발굴을 통한 BOM 원가 절감\n• 양산 이행 시 EMC 디버깅 및 전기적 성능 검증\n• PCB 제조사·협력업체와의 DFM(Design for Manufacturability) 리뷰 진행\n• 생산 불량 원인 분석 및 ECO(Engineering Change Order) 관리\n• 전장 관련 규격(KS, IEC, UL 등) 대응 및 인증 시험 지원\n• 양산 초기 공정 트러블슈팅 및 지속적 품질 개선 활동\n## 자격요건\n• 전기·전자공학 전공자 (학사 이상)\n• 전장 회로 설계 경력 3 년 이상 (Altium Designer 또는 Pads 실무 활용 가능자)\n• EMC 디버깅 및 전기적 규격(KS, IEC 등) 이해 및 적용 가능자\n• PCB 제조 공정(SMT, DIP, 검사 공정) 이해 보유자\n• BOM 관리 및 부품 단가 협상 경험자\n## 우대사항\n• 자동차·로봇·모빌리티·가전·의료기기·드론 등 복잡 전자 제품 양산 설계 경력 6~15 년\n• DFMEA, DVP 등 신뢰성 설계 프로세스 경험자\n• 전장 관련 인증(CE, FCC, KC 등) 획득 경험자\n• ERP/PLM 시스템(SAP, Windchill 등) 활용 경험자\n## 혜택 및 복지\n• 근로관계: 정규직\n• 근무지: 서울 성동구 뚝섬로 15길 23-6 또는 경기도\n• 보상: 회사 내규 및 경력에 따라 협의\n채용 전형\nㆍ서류 전형 ＞ 1차 실무 인터뷰 ＞ 2차 CEO 인터뷰 ＞ 보상 합의 ＞ 입사 합의\nㆍ제출 서류: 이력서 및 경력기술서 (경력과 수행 업무 중심으로 기술)\nㆍ근로관계 : 정규직 (수습기간 3개월)"
+    "content_path": "content/e46f2f0ad979ea38af5faaa8.md",
+    "content_version": "d0f55b877dfeb942"
   },
   {
     "id": "홀리데이로보틱스_홀리데이로보틱스_2608_휴머노이드로봇_Field_Service_Manager",
@@ -5308,7 +5584,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 휴머노이드로봇 Field Service Manager\n\n## 포지션 상세\n회사 소개\nWe Make Holidays.\nWe Create Humanoids.\nWe Value Humans.\n\n홀리데이로보틱스는 실제 산업 현장의 일을 수행하는 정교한 산업용 휴머노이드를 개발합니다. 프라이데이(FRIDAY)는 반복적이고 물리적으로 부담이 큰 작업을 수행하도록 설계된 홀리데이로보틱스의 첫 산업용 휴머노이드로, 실제 고객 현장에서 경제적 가치를 만드는 것을 목표로 합니다.\n\n[포지션 소개]\n휴머노이드로봇 Field Service Manager\n\n홀리데이 로보틱스는 산업용 휴머노이드 `FRIDAY`의 시대를 열어가고 있습니다. 우리는 연구실의 시연을 넘어, 2026년 실제 산업 현장에 투입될 최초의 휴머노이드 양산을 위한 `1호 Factory`를 구축하고 있습니다.\n\nField Service Manager는 FRIDAY 사후 관리를 0에서부터 기획하고, 첫 제품의 출고 후부터 고객사 손실을 최소화하고 신속 정확하게 고장을 진단하고 가장 효과적인 방법으로 고객 불편을 최소화하고 당사의 초도 제품의 Field 품질 안정화와 개선점에 대해 End-to-End 오너십을 갖고 운영합니다. R&D의 설계 속도와 고객사의 고장 시간을 관리하며, 제품출하부터 최종 수명이 다하는 순간까지의 모든 사후관리를 담당하며 책임질 핵심 매니저를 찾습니다.\n## 주요업무\n이 역할은 홀리데이의 출하 이후 신속한 서비스를 통해 고객의 감동을 유도하여 지속적인 판매 연계를 실행하는 핵심 담당자로서, 신속 Repairing 대응과 SCM과 연계한 신속한 Service parts공급, 사후 관리 및 개발단에 문제점을 파악하여 제품 내구성 강화를 유도 및 추진하는 포지션입니다.\n\n1. A/S 전략 수립 및 서비스 파트 공급망 설계 (0 to 1)\n• FRIDAY 제품 기반 H/W , S/W, 기구 제품구조 이해 및 서비스 대응 프로세스 맵핑\n• SCM과 연계한 핵심 서비스 파트에 대한 적기 조달 및 제공\n• Pilot 공정개발 단계부터 제조 프로세스 셋업에 동참하고 조립, 테스트 공정에 대한 충분한 Reference를 확보 후 서비스 매뉴얼화 및 ERP 활용한 제품 라이프 사이클 관리\n\n2. 신속한 A/S 운영으로 고객 감동 실현과 안정화\n• 고객 불편 사항 접수 즉시 제품의 고장을 진단 후 신속 정확한 서비스 제공 및 실행\n• 연구소 유관부서에 장애 로그 분석 및 Error Code전달을 통해 지속적 개선 유도\n• 언제 어떠한 상황에서도 고객의 필요 시 즉시 응대하고 서비스 품질을 높이는 마인드\n\n3. 고객사 관리\n• 현장 설치 및 유지보수 지원\n• 제품의 고객 인도 이후 A/S 프로세스 셋업( Call center , spare parts , 수리 매뉴얼) 및 A/S 대응 체계 구축\n• A/S 기간에 대한 시장 Trend를 파악하고 유,무상 비용 처리에 대한 프로세스 구축\n\n• 3rd party(협력사) service 인력 교육 및 KPI 개발\n## 자격요건\n• 전자공학,전기공학 : 회로 및 전장 시스템 기본 이해, 계측장비 사용 가능(멀티미터, 오실로스코프 등)\n• 기본적인 임베디드 시스템과 액추에이터 및 모터 시스템 이해\n• 센스, 모터 드라이버, PCB , 배터리 및 전원관리 시스템 문제 진단과 F/W 다운로드 경험\n• 통신(Ethernet Mac Address 관리) 및 전원 시스템 점검 & 펌웨어 업데이트\n• 기계공학, 메카트로닉스 관련 전공 : 기구 설계 및 구조 이해(링크 구조, 기어, 베어링 등) 및 기본적인 공구 사용 및 조립/분해 능력\nㆍCAD 사용 경험( SolidWorks)\nㆍ문제 해결 및 현장 대응 능력\nㆍ출장 가능자\n• Linux, Python 기반 시스템 운영 및 디버깅 경험\n• ROS / ROS2, Docker, gRPC 등 로봇 개발 환경에 대한 이해\n• 전기·전자, 네트워크 및 하드웨어 시스템에 대한 기본적인 이해\n• 운전면허 소지 및 출장 가능자"
+    "content_path": "content/3a74f3aa222259bcab1b12f7.md",
+    "content_version": "40164eceea6d8234"
   },
   {
     "id": "학습_가이드_꿀팁_서류_포트폴리오",
@@ -5324,7 +5601,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "서류/포트폴리오",
-    "raw_content": "# [서류팁] 직무 역량이 돋보이는 자기소개서 및 포트폴리오 작성법\n\n---\n\n## 1. 서류 작성 핵심 원칙: \"엔지니어링 성과의 정량화\"\n\n* **결과를 숫자로 증명하기**: 단순한 노력 강조보다 구체적인 숫자(처리 속도 15% 단축, 위치 오차 10% 감소, 모델 정확도 30% 향상 등)를 제시해야 바쁜 실무 검토자의 눈에 바로 들어옴.\n* **문제 해결 과정 중심 기술**: \"이런 기능을 개발해 봄\" 식의 단순 기능 나열은 경쟁력이 없음. 프로젝트 중 겪은 기술적 병목(특이점 영역 진입, GPS 수신 불량, 통신 딜레이 등)과 이를 풀기 위해 직접 시도한 엔지니어링 접근 방식에 집중할 것.\n* **피터 드러커식 기여 관점**: 내 코드가 단순히 돌아가는 것을 넘어 전체 시스템 안정성, 메모리 효율, 로봇 작업 시간 단축 등 팀과 프로덕트에 어떤 기여를 했는지 서술할 것.\n\n---\n\n## 2. 경험 분해(4P) 기반 자소서 작성 예시\n\n과거 경험은 **목적(Purpose) - 문제(Problem) - 해결 과정(Process) - 성과(Performance) + 적용점(Insight)** 구조로 정리할 때 가장 논리적이고 실무자 설득력이 높음.\n\n### [예시 1] DLS 알고리즘 기반 로봇 특이점 회피 시뮬레이터 개발\n\n* **핵심 헤드라인**: [DLS 알고리즘 도입으로 관절 정지율 0% 달성한 다관절 로봇 시뮬레이터 개발]\n* **Purpose (배경 및 목표)**: 인턴십 중 다관절 로봇의 모션 검증을 위한 자체 시뮬레이션 툴 개발을 담당함.\n* **Problem (문제 상황)**: 초기 시뮬레이션 환경 구축 시 로봇이 특이점(Singularity) 영역에 진입하면 역기구학 행렬식이 0에 수렴해 제어가 불가능해지는 현상이 발생함.\n* **Process (해결 과정)**: 이를 해결하기 위해 학술 논문을 분석해 Damped Least Squares(DLS) 알고리즘을 도입함. Python 환경에서 수백 회의 가상 모션 테스트를 통해 감쇠 계수를 최적화하고, 팀원들이 쉽게 검증할 수 있도록 PyQt 기반 GUI를 직접 제작함.\n* **Performance (최종 성과)**: 특이점 진입 시 관절 속도가 비정상적으로 치솟는 발산 현상을 100% 억제하고, 오차 범위 2mm 이내에서 안정적인 궤적 추종을 유지함.\n* **Insight (적용점)**: 복잡한 로봇 수학 이론을 실제 동작 코드로 구현해 팀 내 검증 자산으로 기여함. 입사 후에도 제어 알고리즘 오류 발생 시 수식 분석부터 단계별로 파고들어 해결할 것임.\n\n---\n\n### [예시 2] EKF 기반 센서 융합을 통한 실외 로봇 위치 추정 정밀도 향상\n\n* **핵심 헤드라인**: [센서 퓨전 최적화로 실외 주행 로봇의 위치 오차 70% 감소]\n* **Purpose (배경 및 목표)**: 실외 자율주행 로봇의 정밀 주행을 위한 위치 추정(Localization) 알고리즘 최적화 프로젝트를 수행함.\n* **Problem (문제 상황)**: 초기 야외 주행 테스트 중 단일 GPS 신호만 사용했을 때 고층 건물 주변에서 전파 간섭으로 위치 오차가 최대 1.2m까지 튀며 경로 이탈이 발생함.\n* **Process (해결 과정)**: 확장 칼만 필터(EKF)를 적용해 GPS 데이터와 고주기 IMU 센서 데이터를 융합하는 구조를 설계함. 센서 노이즈 공분산 행렬(Q, R)을 실측 기반으로 튜닝하고, GPS 음영 구간 발생 시 IMU 기반 데드 레커닝으로 오차를 보정하는 실시간 파이프라인을 구축함.\n* **Performance (최종 성과)**: 기존 최대 1.2m에 달하던 위치 오차를 30cm 이내로 75% 감소시키고, 센서 데이터 처리 지연 시간을 35ms에서 22ms로 단축함.\n* **Insight (적용점)**: 센서 특성을 파악하고 결합해 환경 제약을 극복하는 하드웨어-소프트웨어 통합 문제 해결력을 검증함. 열악한 현장 환경에서도 신뢰성 높은 제어 파이프라인을 만드는 데 기여하겠음.\n\n---\n\n## 3. 로봇/AI 직무 포트폴리오(Portfolio) 작성 가이드\n\n### (1) 권장 포트폴리오 구성 요소 (전체 10~15 슬라이드 내외)\n\n1. **표지 및 핵심 요약 (1 Slide)**\n\n* 이름, 지원 세부 직무(제어, 로봇 인지, 엣지 AI 등), 핵심 기술 스택(C++, Python, ROS 2, PyTorch 등).\n* 주요 대표 프로젝트 3~4개의 핵심 수치 성과를 담은 한 줄 요약 배치.\n\n2. **대표 프로젝트 상세 페이지 (프로젝트당 2~3 Slides)**\n\n* **개요 및 역할**: 개발 기간, 참여 인원, 본인 기여도(%), 사용 툴 및 프레임워크.\n* **시스템 구조 시각화**: H/W 블록 다이어그램, S/W 구조도, ROS 2 Node 토픽 흐름도.\n* **핵심 트러블슈팅**: 발생한 기술적 문제 -> 공학적 접근(비교 실험/수식/코드) -> 정량적 개선 결과.\n* **시각 자료**: 시뮬레이션(Isaac Sim, Gazebo) 화면, 실제 하드웨어 구동 사진, 데모 영상 링크/QR 코드 첨부.\n\n3. **기술 블로그 및 저장소 (1 Slide)**\n\n* 꾸준한 코드 관리 역량과 학습 과정을 확인할 수 있는 GitHub, 기술 블로그 링크 정리.\n\n---\n\n### (2) 실무 면접관의 눈길을 끄는 포트폴리오 작성 팁 5가지\n\n1. **시각적 구조화: 도식과 구동 영상 적극 활용**\n\n* 긴 줄글 설명보다 S/W 모듈 구조도, 파이프라인 흐름도 같은 그림을 배치할 것. 실제 로봇이 움직이는 데모 영상(유튜브 링크 또는 QR 코드)은 기술 신뢰성을 입증하는 가장 확실한 수단임.\n\n2. **내 몫(기여도)을 명확하게 분리**\n\n* 팀 프로젝트일수록 '전체 프로젝트의 성공' 뒤에 숨지 말고, 내가 직접 짠 코드와 모듈(예: 모터 드라이버 통신 제어, EKF 노드 구현 등)을 정확히 명시해야 실무 면접의 꼬리 질문을 방어할 수 있음.\n\n3. **결과는 무조건 숫자로 증명**\n\n* \"성공적으로 동작을 구현함\" 같은 모호한 표현 대신 \"위치 오차 1.2m -> 0.3m 보정\", \"제어 주기 10ms -> 2ms 단축\", \"추론 속도 18 FPS -> 32 FPS 향상\"처럼 전후 비교 숫자로 명확히 제시할 것.\n\n4. **트러블슈팅의 깊이 보여주기**\n\n* 실무진은 지원자가 '어떤 오류를 만났고 왜 그 알고리즘을 골라 풀었는지'를 집중적으로 검토함. 문제 원인 분석, 여러 대안 비교, 최종 기술 채택 이유를 엔지니어 관점에서 명확히 기술할 것.\n\n5. **제출 파일 최적화**\n\n* 포트폴리오는 열람 환경에 구애받지 않도록 반드시 PDF로 변환하고, 고화질 캡처 이미지를 압축하여 파일 용량을 20MB 이내로 가볍게 맞춰 제출할 것.\n\n---"
+    "content_path": "content/885c53468307eba030126c94.md",
+    "content_version": "6045aa1a5898ae6f"
   },
   {
     "id": "학습_가이드_꿀팁_실무면접",
@@ -5340,7 +5618,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "실무면접",
-    "raw_content": "# [실무면접] 로봇/AI 기술 및 실무 면접 합격 가이드\n\n> *\"측정할 수 없으면 관리할 수 없고, 관리할 수 없으면 개선할 수 없음.\"* — 피터 드러커\n> *\"면접은 시험이 아니라 실무자와 일하는 방식을 맞춰보는 미팅임.\"* — 면접왕 이형\n\n---\n\n## 1. 1차 실무 면접 개요 및 핵심 평가 요소\n\n* **면접관**: 파트장, 테크 리드, 책임급 엔지니어 (합격 후 바로 옆자리에서 함께 일하고 야근할 현업 동료임)\n* **면접 목적**: 화려한 스펙 검증이 아닌, 실제 개발 투입 시 겪을 문제 해결 역량과 기본기 확인\n\n### 실무 면접관의 핵심 평가 시각 (리스크 줄이기)\n\n실무진은 당장 프로젝트에 들어와 내 일손을 덜어줄 사람을 원함. 잘못 뽑았을 때 발생하는 재작업과 사수 부담을 피하고 싶어 하므로, **비슷한 직무 경험**과 직접 버그를 잡은 경험(트러블슈팅)이 있는 지원자를 우선 채용함.\n\n### 실무 면접관이 집중해서 보는 3가지 포인트\n\n1. **문제 해결 흐름 (Troubleshooting)**\n* 에러나 버그를 만났을 때 감으로 찍지 않고, 어떤 논리적 순서로 원인을 좁혀 들어갔는가?\n\n\n2. **시스템 전체를 보는 시각 (Cross-functional Thinking)**\n* 코딩만 보지 않고 로봇 하드웨어(모터, 센서 노이즈, 기구 유격)와 소프트웨어(제어기, AI 추론)의 상호작용을 이해하며 타 직군과 소통할 준비가 되었는가?\n\n\n3. **기초 공학 지식의 탄탄함**\n* 라이브러리 함수 호출에 그치지 않고, 그 바닥에 깔린 수학적·공학적 원리를 명확한 용어로 설명할 수 있는가?\n\n\n\n---\n\n## 2. 전공 및 실무 테스트 유형별 대응 전략\n\n### (1) 전공 / 직무 PT (Presentation) 면접\n\n* 알고리즘이나 제어 시스템 설계 과제를 풀고 설명하는 방식.\n* **핵심 전략**: 정답 도출도 중요하지만, 수많은 대안 중 왜 이 알고리즘을 골랐는지에 대한 이유(Why)와 설계 과정의 논리를 납득시키는 것이 핵심임.\n\n### (2) 포트폴리오 발표 면접\n\n* **핵심 전략**: 프로젝트 배경 설명은 30초 내로 줄이고, 내가 직접 짠 모듈(내 몫)과 **그 과정에서 겪은 가장 치명적인 문제 및 해결 과정** 위주로 압축 발표할 것.\n\n### (3) 코딩 테스트 및 화이트보드 코딩\n\n* **핵심 전략**: 키보드에 손부터 올리지 말고 예외 조건(Edge Case)을 면접관에게 먼저 질문할 것. 시간 복잡도와 공간 복잡도를 입 밖으로 소리 내어 설명하며 코드를 전개해야 함.\n\n---\n\n## 3. 모르는 기술 질문을 받았을 때 3단계 대처법\n\n면접관은 지원자를 떨어뜨리려는 목적뿐만 아니라 한계 상황에서의 사고력을 보려고 일부러 모를 만한 질문을 던짐. 당황하지 말고 아래 순서로 풀어나갈 것.\n\n1. **아는 것과 모르는 것을 명확히 분리하기 (정직함)**\n* *\"해당 알고리즘의 기본 개념은 알고 있으나, 실제 로봇에 직접 얹어 제어해 본 경험은 없음.\"*\n\n\n2. **알고 있는 기본기로 논리적 추론 연결하기 (엔지니어 사고력)**\n* *\"다만 유사한 A 제어기를 튜닝해 본 경험에 비추어 보면, 질문 주신 B 방식은 반응 속도를 올리는 과정에서 생기는 오버슈트를 줄이기 위해 특정 파라미터를 보정하는 형태일 것으로 생각됨.\"*\n\n\n3. **정확한 확인 의지 보이기 (실행력)**\n* *\"추론한 내용이 맞는지 면접 종료 후 관련 기술 문서와 논문을 찾아 명확히 채워 두겠음.\"*\n\n\n\n---\n\n## 4. 로봇/AI 프로젝트 경험 어필 핵심 포인트\n\n* **가상과 현실의 오차(Sim-to-Real Gap) 극복 경험 어필**\n* Isaac Sim, Gazebo 등 가상 환경에서는 잘 돌던 모델이 실물 로봇에 올렸을 때 센서 떨림, 바퀴 미끄러짐, 통신 지연 등으로 뻗었던 실패 경험을 꺼낼 것. 이를 **어떤 보정 기법과 튜닝으로 극복해 현실에서 굴렸는지** 말할 때 합격 확률이 가장 크게 올라감.\n\n\n* **성과는 반드시 숫자로 말하기**\n* *(별로인 답변)* \"제어 성능을 많이 끌어올렸음.\"\n* *(좋은 답변)* \"통신 패킷 구조를 최적화해 제어 주기를 10ms에서 2ms로 줄여 통신 딜레이를 해결했음.\"\n* *(좋은 답변)* \"캘리브레이션 알고리즘을 개선해 관절 위치 오차를 2mm에서 0.5mm 이내로 줄였음.\"\n\n\n\n---"
+    "content_path": "content/5c6c300859720d1f53d52362.md",
+    "content_version": "59086244c8d7bd97"
   },
   {
     "id": "학습_가이드_꿀팁_인성검사",
@@ -5356,7 +5635,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "인성검사",
-    "raw_content": "# [인성검사] 대기업/중견기업 인성검사 실전 대응 가이드\n\n> *\"자신이 어떤 사람인지 솔직하게 아는 것이 강점을 발휘하는 첫걸음임.\"* — 피터 드러커\n> *\"인성검사는 인격 테스트가 아님. 일관성과 솔직함을 검증하는 필터링 과정임.\"* — 면접왕 이형\n\n---\n\n## 1. 인성검사의 본질: 100점이 아닌 '적합/부적합 판정'\n\n인성검사는 고득점을 노리는 경쟁 시험이 아님. 기업 문화와 팀 협업에 부적합한 성향, 그리고 거짓말(가면 쓰기)을 걸러내기 위한 **적합/부적합(Pass/Fail) 스크리닝 도구**임. 무결점의 완벽한 사람처럼 보이려고 과장하는 순간 탈락 위험이 가장 커짐.\n\n---\n\n## 2. 인성검사 통과를 위한 5대 원칙\n\n### (1) 거짓말 탐지(Lie Scale) 문항 주의: 솔직함이 최선임\n\n* **위험한 접근**: \"나는 살면서 단 한 번도 거짓말을 한 적이 없다\", \"남을 질투하거나 미워한 적이 전혀 없다\" 같은 극단적인 문항에 '매우 그렇다'를 고르는 행동.\n* **실전 대응**: 이런 문항은 도덕성을 보려는 게 아니라 거짓 응답을 잡기 위한 덫임. 누구나 겪는 사소한 인간적 결점은 솔직하게 인정해야 신뢰도 미달(무효 처리)을 피할 수 있음. 단, 규정 위반이나 극단적인 개인주의 성향까지 괜찮다는 뜻은 아님.\n\n### (2) 일관성 지키기: 계산하지 말고 직관으로 풀 것\n\n* **위험한 접근**: '완벽한 외향형 리더'나 '적극적인 인재상' 같은 캐릭터를 억지로 만들어 연기하는 행동.\n* **실전 대응**: 수백 개 문항 속에는 같은 질문을 말만 살짝 바꿔 다시 묻는 교차 검증 문항이 수두룩함. 머리로 계산해서 풀면 뒤로 갈수록 앞뒤 답변이 어긋나 일관성 점수가 깎임. 가공된 자아가 아니라 평소 내 모습 기준으로 빠르게 찍고 넘어갈 것.\n\n### (3) 시간 관리: 한 문제에 3~4초 이상 고민 금지\n\n* **위험한 접근**: 질문 하나를 깊게 분석하며 시간을 끌다가 뒤쪽 문제를 다 못 풀고 제출하는 행동.\n* **실전 대응**: 마킹을 다 끝내지 못하면 성실도 부족이나 거짓 응답 의심으로 불합격 처리될 수 있음. 질문을 읽자마자 첫 느낌대로 바로 체크하며 리듬을 타야 함.\n\n### (4) 모의 검사로 본인 성향 미리 체크\n\n* **위험한 접근**: 본인의 응답 습관이나 무의식적인 편향을 전혀 모른 채 시험장에 바로 들어가는 행동.\n* **실전 대응**: 지원 기업 유형과 비슷한 모의 인성검사를 최소 1~2회 직접 풀어볼 것. 결과표에서 '응답 신뢰도 부족'이나 '극단적 점수'가 나오지 않는지 점검하는 것만으로도 실전 탈락률을 크게 낮출 수 있음.\n\n### (5) 시험 전 컨디션 관리: 부정적 감정 피하기\n\n* **위험한 접근**: 늦은 밤 피곤한 상태나 서류 탈락으로 스트레스가 극에 달했을 때 온라인 검사를 치르는 행동.\n* **실전 대응**: 뇌가 지쳐 있으면 무의식중에 비관적이거나 충동적인 선택지에 손이 감. 충분히 자고 기분이 안정된 상태에서 검사를 시작할 것.\n\n---"
+    "content_path": "content/ab664add5e16878720479163.md",
+    "content_version": "793698bc5fda8632"
   },
   {
     "id": "학습_가이드_꿀팁_인성면접",
@@ -5372,7 +5652,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "인성면접",
-    "raw_content": "# [인성면접] 로봇/AI 직무 임원 및 컬처핏 면접 실전 가이드\n\n---\n\n## 1. 2차 임원 / 컬처핏 면접의 본질\n\n- **면접관**: C-Level 임원, 사업부장, 랩장/센터장, 인사 책임자 (1차 실무 면접관인 파트장/그룹장/책임급과 달리 2차는 상위 임원진 및 인사팀이 참석함)\n- **면접 목적**: 1차 면접에서 기술적 검증을 마친 지원자를 대상으로, 조직 문화 부합성(컬처핏)과 장기적 성장 가능성을 종합적으로 판단함.\n- **핵심 전략**: 단순 기술력 자랑을 넘어, 기술적 역량을 바탕으로 조직 내에서 어떻게 협업하고 소통할 것인지를 보여주어야 합니다.\n\n---\n\n## 2. 1분 자기소개 구조화 공식 (40~50초 완성)\n\n추상적인 성격 장점(성실함, 열정 등)이나 성장 배경 나열은 지양하고, 직무 중심으로 아래 3단계에 맞춰 담백하게 전달함.\n\n1. **핵심 역량 두괄식 제시 (약 10초)**\n   - 지원 직무에서 자신이 가진 가장 명확한 기술 강점을 한 문장으로 정의함.\n   - *\"안녕하십니까, 하드웨어 제약 조건을 고려한 모션 제어 알고리즘 최적화에 강점을 지닌 지원자 OOO입니다.\"*\n\n2. **대표 성과 및 정량적 근거 (약 30초)**\n   - 본인의 역량을 증명할 수 있는 핵심 프로젝트 1개와 정량적 성과를 기술함.\n   - *\"학부 연구생 시절, 6자유도 협동로봇의 역기구학 연산 속도를 35% 향상시켜 실시간 경로 추종 오차를 1mm 미만으로 줄인 경험이 있습니다.\"*\n\n3. **입사 후 포부 (약 10초)**\n   - 해당 기업의 제품군이나 핵심 목표와 연계하여 기여할 바를 명확히 밝힙니다.\n   - *\"이러한 최적화 경험을 바탕으로, 입사 후 OO사의 차세대 물류 로봇 프레임워크 고도화에 빠르게 기여하겠음.\"*\n\n---\n\n## 3. 경험 기반 질문(Behavioral Question) 대응: STAR 기법\n\n\"팀원과 갈등을 겪었던 경험\", \"가장 힘들었던 프로젝트\" 등 과거의 행동 패턴을 묻는 질문에는 STAR 구조로 논리 정연하게 답변해야 합니다.\n\n- **S (Situation - 상황)**: 프로젝트의 목적과 당시 직면한 한계 상황 (1~2줄로 짧게)\n- **T (Task - 과제)**: 해결해야 했던 핵심 목표\n- **A (Action - 행동, 비중 60%)**: 팀 전체가 한 일이 아니라, 문제를 해결하기 위해 **내가 주도적으로 실행한 구체적 역할**을 설명할 것. (예: \"제가 관련 논문과 오픈소스를 분석하여 팀원들을 설득하고~\")\n- **R (Result - 결과 및 배운 점)**: 구체적인 성과 수치와 이 경험을 통해 얻은 엔지니어로서의 인사이트\n\n---\n\n## 4. 객관화된 컬처핏 답변 노하우\n\n- **질문 예시**: *\"주변 동료들은 본인을 어떤 사람이라고 평가하는가?\"*\n- **위험한 답변**: \"활발하고 리더십이 뛰어난 사람이라고 합니다.\" (주관적이고 추상적인 자화자찬)\n- **실전 팁**: 실제 프로젝트나 협업 과정에서 동료들에게 받았던 피드백을 구체적인 에피소드와 함께 인용하여 신뢰도를 높이세요.\n  - *\"팀원들로부터 '막히는 버그가 있을 때 가장 먼저 코드를 들고 찾아가 논의하고 싶은 동료'라는 피드백을 자주 받습니다. 실제로 OOO 프로젝트 당시 원인을 알 수 없는 통신 지연 문제가 발생했을 때, 끝까지 공식 문서를 분석해 로직 오류를 찾아낸 적이 있기 때문임.\"*\n\n---\n\n## 5. 면접 마지막 역질문 (Reverse Question) 전략\n\n면접관이 \"마지막으로 궁금한 점이나 하고 싶은 말이 있는가?\"라고 물었을 때, 회사에 대한 진정성 있는 관심과 능동적인 태도를 보여줄 수 있는 기회임.\n\n### 피해야 할 질문 (Avoid)\n- 연봉, 복지, 워라밸, 야근 빈도 등 개인적인 처우에 관한 질문 (합격 후 인사팀에 문의해도 됩니다)\n- 인터넷 검색으로 바로 나오는 단순 사실에 관한 질문\n\n### 추천하는 질문 (Recommended)\n- *\"현재 사업부에서 추진 중인 차세대 자율주행 파이프라인에서 실무적으로 가장 중점적으로 해결하고자 하는 기술적 과제는 무엇인지 궁금함.\"*\n- *\"제가 합격하여 입사하기 전까지 부서의 기존 코드베이스에 빠르게 적응하기 위해 미리 공부하거나 다뤄보면 좋을 프레임워크나 툴이 있다면 조언 부탁드림.\"*"
+    "content_path": "content/9016bc7e363a21d90307698f.md",
+    "content_version": "c37c97b7ab60baee"
   },
   {
     "id": "학습_가이드_꿀팁_취업전략",
@@ -5388,15 +5669,16 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "취업전략",
-    "raw_content": "# [취업전략] 로봇/AI 엔지니어 취업 가이드: 강점과 성과 중심\n\n> *\"성과를 내는 사람은 약점을 고치는 사람이 아니라, 자기 강점으로 확실한 결과를 내는 사람임.\"* — 피터 드러커\n> *\"채용은 스펙 자랑이 아님. 실무자의 일을 덜어줄 '검증된 필살기'를 보여주는 과정임.\"* — 면접왕 이형\n\n---\n\n## 1. 수시 채용 트렌드: \"바로 일에 투입할 수 있는 사람 찾기\"\n\n* **공채 감소와 직무별 수시 채용 중심 변화**\n* 대규모 공채가 크게 줄고, 팀에 빈자리가 나거나 새 프로젝트가 생길 때 뽑는 수시 채용이 기본이 됨.\n* 회사는 처음부터 가르칠 사람보다, **입사하자마자 팀의 막힌 문제를 풀고 도움을 줄 수 있는 인재**를 찾음.\n* 채용을 실질적으로 결정하는 사람은 인사팀이 아니라, 1차 면접에 들어오는 현업 실무진(팀장, 선임 엔지니어)임.\n\n\n\n### 실무자가 함께 일하고 싶어 하는 지원자 2가지 (필살기)\n\n1. **직무와 비슷한 경험 (Relevance)**\n* 단순히 C++, Python, ROS를 다뤄본 수준을 넘어, 지원하는 팀이 실제로 부딪히는 환경(예: 어두운 곳에서의 위치 추정, 저사양 보드에서의 AI 모델 가동 등)을 직접 겪어본 사람을 선호함.\n\n\n2. **검증된 성공 경험 (Proven Track Record)**\n* **실무자의 부담 줄이기**: 지원자를 잘못 뽑아서 일을 못 하면 그 부담과 야근은 고스란히 기존 팀원 몫이 됨. 그래서 조금이라도 검증된 사람을 뽑고 싶어 함.\n* **성공 경험의 기준**: 거창한 국가 프로젝트일 필요 없음. **작업 속도(FPS) 20% 단축, 메모리 사용량 절감, 센서 오차 축소, 로봇 떨림 줄이기**처럼 '직접 고민하고 시도해서 만든 구체적인 개선 수치'면 충분함.\n\n\n\n---\n\n## 2. 목표 정하기: 잘하는 것에 집중하기\n\n* **아무 데나 다 넣는 묻지마 지원 금지**\n* 불안하다고 제어, 비전 AI, 임베디드, 기구 설계를 가리지 않고 마구 넣는 건 시간 낭비임.\n* 서류가 붙어도 실무 면접에서 깊이 파고드는 질문을 버틸 수 없음.\n* 피터 드러커의 말처럼, **부족한 걸 억지로 채우려 하지 말고 내가 가장 잘할 수 있는 좁은 분야에 집중**해야 함.\n\n\n\n### 3단계 목표 설정 순서\n\n1. **직무 (1~2개 집중)**: 제어, 로봇 인지(Perception), AI 모델링 등 내 강점이 가장 뚜렷한 분야부터 확실히 정함.\n2. **산업 (2~3개 분야)**: 물류 로봇(AMR), 서빙 로봇, 스마트 팩토리, 자율주행 등 해당 기술이 쓰이는 시장을 고름.\n3. **기업 (5~7개 선정)**: 직무와 산업이 맞는 대기업, 실력 있는 유망 스타트업, 탄탄한 중견기업 위주로 추려 집중 분석함.\n\n---\n\n## 3. 경험 정리: 기술 나열 대신 '문제 해결' 보여주기\n\n* **기술 이름 나열보다 '무슨 문제를 풀었는지'가 핵심**\n* \"YOLO 썼음, ROS2 써봄\"처럼 툴 이름만 적는 건 매력이 없음. 툴은 도구일 뿐임.\n* \"어떤 문제를 풀기 위해 그 기술을 골랐고, 결과적으로 어떤 수치적 개선을 냈는가?\"를 보여줘야 함.\n\n\n* **4P 방식으로 프로젝트 정리하기**\n* 모든 프로젝트는 아래 4단계로 쪼개서 정리함.\n* **목적 (Purpose)**: 이 프로젝트를 왜 시작했는가? (기존 방식의 불편함/한계)\n* **문제 (Problem)**: 개발하면서 겪은 가장 큰 기술적 걸림돌이나 병목은 무엇이었는가?\n* **과정 (Process)**: 문제를 풀기 위해 어떤 원인을 찾았고, 어떤 기술 대안들을 비교해서 적용했는가?\n* **성과 (Performance)**: 결과적으로 어떤 구체적인 수치(속도 향상, 오차 감소 등)를 만들어냈는가?\n\n\n\n\n* **스타트업 / 중소기업을 징검다리로 삼는 전략**\n* 원하는 대기업에 바로 가기 어렵다면, 직접 개발을 많이 해볼 수 있는 스타트업에서 1~2년 일하며 '실무 경험 + 숫자 성과'를 쌓는 방법도 매우 실용적임.\n* 이는 중고신입이나 경력직 이직 때 가장 강력한 무기가 됨.\n\n\n\n---\n\n## 4. 서류와 면접: 첫 줄에 숫자 박기\n\n* **서류의 목표: 바쁜 실무자의 눈길 3초 잡기**\n* 실무진은 서류를 한 줄 한 줄 꼼꼼히 읽을 시간이 부족함.\n* 첫 줄과 프로젝트 제목만 봐도 '우리 팀에 바로 도움 되겠네'라는 생각이 들게 만들어야 함.\n* 서류가 100점짜리가 될 때까지 미루지 말고, 지원하면서 계속 다듬어나갈 것.\n\n\n* **제목에 숫자로 결과 쓰기**\n* ❌ *(별로인 예시)* \"ROS2 기반 로봇 경로 주행 최적화 프로젝트를 진행함.\"\n* ⭕ *(좋은 예시)* \"경로 탐색 시간을 42% 줄여 좁은 길 통과 지연을 해결한 ROS2 경로 계획 프로젝트임.\"\n\n\n* **서류 준비가 곧 면접 준비임**\n* 면접 질문은 대부분 본인이 낸 포트폴리오와 깃허브 코드에서 나옴.\n* 그 기술을 쓴 이유(Why), 파라미터 값 조정한 근거, 실패했을 때 해결한 과정을 4P 순서대로 말할 수 있으면 실무진과 편안하게 기술 이야기를 나눌 수 있음.\n\n\n\n---"
+    "content_path": "content/241f7e59c3ef2e78ecaa317c.md",
+    "content_version": "bb531bf234bf1c76"
   },
   {
     "id": "학습_가이드_꿀팁_코딩테스트",
     "company": "학습 가이드",
     "title": "코딩테스트",
     "tags": [],
-    "year": "",
-    "date_val": "00000000",
+    "year": "26",
+    "date_val": "20260000",
     "is_intro": false,
     "is_guide": false,
     "is_lecture": false,
@@ -5404,7 +5686,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "코딩테스트",
-    "raw_content": "# [코딩테스트] 로봇 & AI SW 개발 직무 실전 통과 가이드\n\n---\n\n## 1. 직무별 코딩테스트 언어 선택 기준\n\n### (1) C++ (하드웨어 및 실시간 제어 직무)\n\n* **적용 직무**: 임베디드 SW, 제어 알고리즘, ROS/ROS 2 통신 노드, 실시간(Real-time) 로봇 제어.\n* **평가 기준**: STL(`vector`, `queue`, `priority_queue`, `map`)의 적절한 활용, 스마트 포인터(`std::unique_ptr`, `std::shared_ptr`) 기반 메모리 관리 및 포인터 연산 능력.\n\n### (2) Python (AI 및 데이터 처리 직무)\n\n* **적용 직무**: AI 학습/추론, 컴퓨터 비전, 데이터 파이프라인 구축.\n* **평가 기준**: List Comprehension 및 내장 라이브러리(`collections.deque`, `heapq`) 활용, 간결한 코드 구현 및 연산 시간 최적화 역량.\n\n---\n\n## 2. 로봇/AI 직무 코딩테스트 빈출 5대 알고리즘\n\n공간 좌표와 센서 스트림 데이터를 처리하는 알고리즘 중심 출제.\n\n1. **BFS / DFS (그래프 및 격자 탐색)**\n* 2D/3D 그리드 맵(Grid Map) 상의 로봇 이동 가능 경로 탐색 및 충돌 검사.\n\n\n2. **최단 경로 알고리즘 (Dijkstra / A*)**\n* 자율주행 전역 경로 계획(Global Path Planning) 시 최단 거리 도출 및 휴리스틱(Heuristic) 기반 경로 탐색.\n\n\n3. **우선순위 큐 (Priority Queue / Heap)**\n* 대용량 센서 데이터 패킷의 시계열 정렬 및 이벤트 기반 제어 큐 처리.\n\n\n4. **투 포인터 & 슬라이딩 윈도우 (Sliding Window)**\n* 실시간 센서 스트리밍 데이터의 이동 평균(Moving Average) 계산 및 실시간 노이즈 필터링.\n\n\n5. **행렬 연산 및 기하학 (Math / Geometry)**\n* 좌표 변환(Kinematics), 회전 행렬(Rotation Matrix) 및 쿼터니언(Quaternion) 연산.\n\n\n\n---\n\n## 3. 실전 통과를 위한 3대 원칙\n\n### (1) 시간 복잡도(Big-O) 역산 설계\n\n코드 작성 전 입력 크기 $N$에 따른 목표 시간 복잡도 설정 필수.\n\n* $N \\le 100$: $O(N^3)$ (3중 루프 가능)\n* $N \\le 1,000$: $O(N^2)$ (2중 루프 가능)\n* $N \\le 100,000$: $O(N \\log N)$ (정렬, 이진 탐색, 힙 필수)\n* $N \\le 1,000,000$: $O(N)$ 또는 $O(\\log N)$ (단일 루프, 해시, 투 포인터 필수)\n\n### (2) 코드 가독성 확보\n\n실무 엔지니어의 코드 리뷰 기준 충족 필요. 변수명을 `a`, `b`, `ans` 등으로 쓰지 않고 `robot_vx`, `target_pose`, `min_dist`처럼 역할을 명시하여 작명할 것.\n\n### (3) 예외 상황(Edge Case) 사전 검증\n\n숨겨진 테스트 케이스(Hidden Test Case) 대응을 위해 제출 전 아래 항목 확인 필수.\n\n* 배열 인덱스 초과 (Out of Bounds)\n* 빈 배열 또는 단일 원소 입력 처리\n* 음수 좌표 진입 및 제자리 상태 처리\n* 0으로 나누는 연산 (Divide by Zero)\n\n---\n\n## 4. 추천 연습 플랫폼 및 맞춤 활용 팁\n\n### (1) 백준 (Baekjoon Online Judge): 시뮬레이션 및 구현 능력 훈련\n\n* **추천 유형**: **'삼성 SW 역량 테스트 기출 문제'** 태그 풀이.\n* **활용 목적**: 2D 격자 맵 이동, 조건별 상태 변화, 배열 회전 등을 다루어 로봇 주행 및 제어 시뮬레이션 구현 능력 검증에 적합함.\n\n### (2) 프로그래머스 (Programmers): 실전 시험 환경 적응\n\n* **추천 유형**: **코딩테스트 고득점 Kit (Level 2~3)** 및 **카카오 기출 문제**.\n* **활용 목적**: 국내 기업 대다수가 채택하는 웹 IDE 환경과 함수 반환(`solution`) 구조 적응. 문자열 파싱, 해시, 큐 처리 등 데이터 파이프라인 직무 대비에 적합함.\n\n### (3) 릿코드 (LeetCode): 복잡도 최적화 및 기하 알고리즘 훈련\n\n* **추천 유형**: **Math** 및 **Geometry** 태그의 Medium 난이도 문제.\n* **활용 목적**: 메모리 절약과 런타임 최적화 기법 확인. Discuss 탭을 통한 상위 코드 비교 분석에 적합함."
+    "content_path": "content/e14b70b6bf4885c90f9eaa94.md",
+    "content_version": "6b31c8375fa11a94"
   },
   {
     "id": "학습_가이드_직무별_실무_프로젝트_강의",
@@ -5420,7 +5703,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "## 온라인 강의 (인프런)\n\n### [제어SW 직무] 현직자가 알려주는 로봇 제어: 시뮬부터 실로봇(SO-ARM101) 제어까지\n* **수강 신청**: [바로가기 링크](https://inf.run/WzgEe)\n* **주요 내용**: 시뮬레이션 환경 구축부터 실제 매니퓰레이터 제어까지 실무 핵심 파이프라인 완벽 이해\n\n### [임베디드SW 직무] 현직자가 알려주는 MCU 임베디드 SW 기초 개념 이해\n* **수강 신청**: [바로가기 링크](https://inf.run/t2SpR)\n* **주요 내용**: 실무 EV보드로 로봇 임베디드 MCU SW 개념 이해\n\n### [자율주행SW 직무]\n* **상태**: 개설 예정 (Coming Soon)\n* **주요 내용**: EV보드와 미니PC로 실제 자율주행 모바일 로봇 제작\n\n### [공통 직무] 현직 개발자가 알려주는 로봇 실무 개발 프로세스 : 로봇 양산 사이클\n* **수강 신청**: [바로가기 링크](https://inf.run/CWCTn)\n* **주요 내용**: 로봇 기업 취업 희망자, 전체 개발/양산 프로세스의 흐름을 파악하고 싶은 예비 개발자를 위한 개념 강의\n\n### [공통 직무] 로보틱스 시스템 완전 해부 : 부품부터 통신까지\n* **수강 신청**: [바로가기 링크](https://inf.run/Byh4k)\n* **주요 내용**: 액추에이터, 센서, 주요 통신 프로토콜(CAN, EtherCAT 등) 로봇 시스템의 모든 구성 요소 해부\n\n---\n\n## 실시간 라이브 멘토링 (코멘토)\n\n### 대기업 로봇 개발자와 함께하는 SW 개발 실무 성과 만들기 (직무부트캠프)\n* **수강 신청**: [바로가기 링크](https://comento.kr/edu/learn/camp/detail-G1707)\n* **주요 내용**: 5주간 현직 멘토와 실제 기업 과제 기반 프로젝트 수행 및 실무 성과형 포트폴리오 만들기"
+    "content_path": "content/8d5f79982b6f3d529328b26b.md",
+    "content_version": "a884f77f2c03be3f"
   },
   {
     "id": "학습_가이드_직무별_전공강의_수강_가이드",
@@ -5436,7 +5720,8 @@ const JOBS_DATA = [
     "is_news": false,
     "news_date": "",
     "tip_category": "",
-    "raw_content": "# 직무별 전공강의 수강 가이드\n\n> **목적**: 로봇 산업의 세부 직무별 필수 학부 전공 과목과 핵심 기술 역량을 정리하여, 대학 재학생 및 취업 준비생이 로드맵에 맞춰 효율적으로 대비할 수 있도록 가이드를 제공함.\n\n---\n\n## 1. 직무별 추천 전공 과목 및 핵심 역량\n\n### [ 하드웨어 분야 (Hardware) ]\n\n#### 1. 기구설계\n* **추천 수강 과목 (학부)**: 정역학, 동역학, 고체(재료)역학, 기구학, 기계요소설계, CAD / 3D 모델링\n* **채용공고(JD) 핵심 키워드**:\n  * 로봇 매커니즘 및 관절 구조 설계\n  * 감속기 / 액추에이터 선정 및 배치\n  * 강성 및 경량화 구조 설계\n\n#### 2. 검증 및 해석\n* **추천 수강 과목 (학부)**: 유한요소법 (FEM/FEA), 진동공학, 신뢰성공학, 열역학\n* **채용공고(JD) 핵심 키워드**:\n  * 구조 응력 및 열 변형 해석\n  * 진동 감쇄 및 가혹 조건 내구성 평가\n  * 부품 수명 및 신뢰성 검증\n\n#### 3. 회로설계\n* **추천 수강 과목 (학부)**: 회로이론, 전자회로, 디지털 논리회로, 전력전자공학, 신호 및 시스템\n* **채용공고(JD) 핵심 키워드**:\n  * 모터 드라이버 및 전원 분배 장치(PDU) 설계\n  * PCB 아트워크 및 노이즈(EMI/EMC) 대응\n  * 센서 인터페이스 회로 설계\n\n---\n\n### [ 소프트웨어 분야 (Software) ]\n\n#### 4. 임베디드 (Firmware)\n* **추천 수강 과목 (학부)**: 마이크로프로세서 응용, 임베디드 시스템, 컴퓨터 구조, 운영체제 (OS / RTOS)\n* **채용공고(JD) 핵심 키워드**:\n  * MCU 펌웨어(Firmware) 개발 및 C/C++ 연산\n  * 모터 제어(FOC) 및 통신 프로토콜 (CAN, EtherCAT)\n  * 디바이스 드라이버 및 하드웨어 연동\n\n#### 5. 제어 (Control)\n* **추천 수강 과목 (학부)**: 자동제어 (고전/현대), 로봇공학, 선형대수학, 최적 제어 이론\n* **채용공고(JD) 핵심 키워드**:\n  * 정/역기구학 및 동역학 제어\n  * 전신 제어 (WBC) 및 힘/임피던스 제어\n  * 궤적 생성 및 모션 플래닝\n\n#### 6. 자율주행 (SLAM / Navigation)\n* **추천 수강 과목 (학부)**: 컴퓨터 비전 / 영상처리, 확률 및 통계, 선형대수학, 데이터 구조\n* **채용공고(JD) 핵심 키워드**:\n  * 2D/3D Lidar & Visual SLAM\n  * 위치 추정 (Localization) 및 맵핑 (Costmap)\n  * 경로 계획 (Global/Local Path Planning) 및 회피\n\n#### 7. AI 및 로봇 학습 (Physical AI)\n* **추천 수강 과목 (학부)**: 머신러닝 / 딥러닝, 강화학습 (RL), 최적화 기법, 로봇 학습\n* **채용공고(JD) 핵심 키워드**:\n  * Sim-to-Real 모방학습 및 강화학습\n  * 로봇 파운데이션 모델 (VLA / RFM)\n  * 비전 기반 양팔 조작 (Manipulation) AI\n\n#### 8. 로봇 SW 및 DevOps\n* **추천 수강 과목 (학부)**: 소프트웨어 공학, 분산 시스템, 데이터베이스, 시스템 아키텍처\n* **채용공고(JD) 핵심 키워드**:\n  * ROS / ROS2 로봇 애플리케이션 개발\n  * 로봇 관제 및 프레임워크 CI/CD 구축\n  * Linux 기반 로봇 미들웨어 개발\n\n---\n\n### [ 생산 · 품질 · 기획 분야 (Operations & Business) ]\n\n#### 9. 생산기술 및 품질\n* **추천 수강 과목 (학부)**: 품질공학, 제조공정학, 자동화 시스템, 생산관리\n* **채용공고(JD) 핵심 키워드**:\n  * 로봇 조립 및 양산 공정 설계\n  * 공정 자동화 설비 검증 및 품질 관리\n  * 부품 수급 및 품질 표준화\n\n#### 10. 기술영업 및 솔루션\n* **추천 수강 과목 (학부)**: 로봇공학개론, 프로젝트 관리 (PM), 기술 경영\n* **채용공고(JD) 핵심 키워드**:\n  * 고객 맞춤형 로봇 솔루션 제안 및 검증\n  * 필드 서비스 지원 및 기술 문서화\n\n---\n\n## 2. 로봇 개발자 공통 필수 기본기\n\n로봇 분야는 기계, 전자, 소프트웨어가 결합된 융합 영역이므로, 직무에 관계없이 아래 기초 역량을 탄탄히 다지는 것이 권장됨.\n\n### (1) 수학적 기초\n* **선형대수학 (Linear Algebra)**\n  * 로봇 기구학(Kinematics), 3D 공간 변환, 자율주행(SLAM), AI 및 제어 알고리즘의 필수 바탕임.\n* **확률과 통계 (Probability & Statistics)**\n  * 센서 데이터 노이즈 처리(Kalman Filter, Particle Filter) 및 딥러닝 모델 학습 데이터 해석의 핵심 기본기임.\n\n### (2) 프로그래밍 역량\n* **`C / C++`**\n  * 임베디드, 실시간 제어(RTOS), 자율주행(SLAM) 직무에서 실시간 처리 성능 확보를 위한 필수 언어임.\n* **`Python`**\n  * AI/학습 모델 구현, 자율주행 알고리즘 검증 및 데이터 처리 파이프라인 개발의 주력 언어임.\n\n---\n\n## 3. 실무 프로젝트 및 대외 활동 권장 가이드\n\n* **ROS / ROS2 프레임워크 경험**\n  * 로봇 SW, 제어, 자율주행 직무 준비 시 ROS/ROS2 통신 매커니즘과 노드 설계 경험은 채용 평가의 핵심임.\n* **시뮬레이터 활용 능력**\n  * Isaac Sim, Gazebo, Mujoco 등의 로봇 시뮬레이터를 활용해 물리 엔진 기반의 모션을 사전에 검증해본 경험을 쌓는 것을 추천함.\n* **캡스톤 디자인 및 대외 경진대회**\n  * 이론 수업에만 그치지 않고, 모터/센서/제어기가 탑재된 실제 로봇에 본인의 알고리즘을 이식해보는 하드웨어-소프트웨어 통합 경험이 서류 및 면접 합격률을 대폭 높임."
+    "content_path": "content/52050b50f9ec0da9cc0a7abe.md",
+    "content_version": "e2694a599ae941bc"
   },
   {
     "id": "학습_가이드_260402_뉴스_Robotzine_해성옵틱스_엔코더_감속기",
@@ -5452,7 +5737,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 04월 02일",
     "tip_category": "",
-    "raw_content": "# [로봇 부품 뉴스] 월간로봇기술 | 국내 부품사, 로봇용 초정밀 하모닉 감속기 및 17비트 엔코더 국산화\n\n> **[산업 동향 | 발행일자: 2026년 04월 02일 | 출처: [월간로봇기술 (Robotzine)](https://search.naver.com/search.naver?where=news&query=월간로봇기술+하모닉+감속기+국산화)]** 월간로봇기술 보도에 따르면 국내 부품 생태계가 협동로봇용 초정밀 사이클로이드/하모닉 감속기 및 17비트 엔코더 국산화 양산에 성공했음.\n\n---\n\n## 1. 주요 소식 개요\n- 국내 관절 부품 기업들이 백래시(Backlash) 1분 이내의 초정밀 하모닉 감속기와 절대형 17비트 멀티턴 엔코더 국산화 양산에 성공했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **제로 백래시 메커니즘 & 자기식 엔코더**: 일체형 중공축 구조로 외부 충격에 강하고 모터 관절의 정밀 위치 제어를 보장함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **로봇 관절 메커니즘 이해**: 감속기 전달 효율, 백래시 공차 분석 및 엔코더 분해능 제어에 대한 기초 메커니즘 지식을 다질 것.\n\n---\n\n- **관련 기사 원문 검색**: [월간로봇기술 (Robotzine) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=월간로봇기술+하모닉+감속기+국산화)"
+    "content_path": "content/440b017030ff21024df62b33.md",
+    "content_version": "b05e9bbd17953d21"
   },
   {
     "id": "학습_가이드_260407_뉴스_VentureBeat_Microsoft_AutoGen_에이전트",
@@ -5468,7 +5754,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 04월 07일",
     "tip_category": "",
-    "raw_content": "# [AI 뉴스] VentureBeat | 마이크로소프트, 멀티에이전트 제어 프레임워크 'AutoGen 2.0' 공개\n\n> **[산업 동향 | 발행일자: 2026년 04월 07일 | 출처: [VentureBeat](https://search.naver.com/search.naver?where=news&query=VentureBeat+Microsoft+AutoGen)]** VentureBeat 보도에 따르면 마이크로소프트가 복수의 AI 에이전트가 협업해 시스템 작업을 수행하는 오픈소스 AutoGen 2.0을 출시했음.\n\n---\n\n## 1. 주요 소식 개요\n- 마이크로소프트(MS)는 개발 에이전트, 검증 에이전트, 서치 에이전트가 서로 대화하며 시스템 코드를 완성하는 **'AutoGen 2.0'** 오케스트레이션 프레임워크를 공개했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Multi-Agent Orchestration**: 로봇 SW 제어기 작성 시 역할이 분담된 복수의 에이전트가 코드를 교차 검증함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **멀티에이전트 오케스트레이션 구상**: 멀티 에이전트를 활용해 로봇 단위 테스트 및 시뮤뮬레이션 자동화 환경을 구축해 볼 것.\n\n---\n\n- **관련 기사 원문 검색**: [VentureBeat 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=VentureBeat+Microsoft+AutoGen)"
+    "content_path": "content/ea7eda4447698a665e5e09a0.md",
+    "content_version": "b5d91fca0e147798"
   },
   {
     "id": "학습_가이드_260409_뉴스_RoboAI_AI인공지능_로봇손_촉각센서",
@@ -5484,7 +5771,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 04월 09일",
     "tip_category": "",
-    "raw_content": "# [AI 로봇 뉴스] 로보아이 | 딥러닝 기반 아날로그 촉각 센서 융합 로봇 손 개발\n\n> **[산업 동향 | 발행일자: 2026년 04월 09일 | 출처: [로보아이 (RoboAI)](https://search.naver.com/search.naver?where=news&query=로보아이+로봇손+촉각센서)]** 로보아이 보도에 따르면 지능형 로봇 연구진이 전면 딥러닝 촉각 센서를 탑재하여 미세 가압력을 센싱하는 5지 로봇 손을 개발했음.\n\n---\n\n## 1. 주요 소식 개요\n- 국내 로봇 연구진은 로봇 손가락 전체 마디에 수천 개의 아날로그 촉각 어레이를 배열하고 AI 신호처리를 융합한 로봇 손을 공개했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Haptic Neural Processing**: 미세한 미끄러짐 신호를 1ms 내 감지해 그립 토크를 자율 조절함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **촉각 센서 신호처리**: 로봇 손 매니퓰레이션 개발 시 촉각 햅틱 데이터 신호처리 경험을 갖출 것.\n\n---\n\n- **관련 기사 원문 검색**: [로보아이 (RoboAI) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로보아이+로봇손+촉각센서)"
+    "content_path": "content/1d446e9650d1962e130d0c26.md",
+    "content_version": "e5450f212140d699"
   },
   {
     "id": "학습_가이드_260411_뉴스_Robotics247_AutoStore_큐브_스토리지",
@@ -5500,7 +5788,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 04월 11일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] Robotics 24/7 | 오토스토어(AutoStore), 초고밀도 큐브형 출고 로봇 시스템 공급\n\n> **[산업 동향 | 발행일자: 2026년 04월 11일 | 출처: [Robotics 24/7](https://search.naver.com/search.naver?where=news&query=Robotics+247+AutoStore+Cube+Storage)]** Robotics 24/7 보도에 따르면 오토스토어가 공간 활용도를 4배 늘린 큐브형 자동 보관 및 고속 상단 주행 로봇을 유통업계에 공급했음.\n\n---\n\n## 1. 주요 소식 개요\n- 노르웨이 오토스토어(AutoStore)는 3D 그리드 상단을 오가며 내부 빈(Bin)을 수직 인상하여 출고 포트로 전달하는 모듈형 로봇 시스템을 구축했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **초저전력 에너지 회수 시스템**: 로봇 감속 시 발생하는 에너지 회수 회로와 상단 그리드 레일 내비게이션으로 공간 및 전력 효율을 극대화함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **고밀도 기구 레이아웃 & 저전력 제어**: 물류 랙 공간 제약을 극복하는 기구 설계 및 회로 전력 효율화 설계 지식이 요구됨.\n\n---\n\n- **관련 기사 원문 검색**: [Robotics 24/7 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=Robotics+247+AutoStore+Cube+Storage)"
+    "content_path": "content/f1d99943d87802fa31b81598.md",
+    "content_version": "984e35e334316ab8"
   },
   {
     "id": "학습_가이드_260415_뉴스_IEEESpectrum_ETH_Zurich_Legged_Robot",
@@ -5516,7 +5805,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 04월 15일",
     "tip_category": "",
-    "raw_content": "# [로봇 학술 뉴스] IEEE Spectrum | ETH 취리히, 다리-바퀴 하이브리드 로봇 고난도 장애물 제어 성공\n\n> **[산업 동향 | 발행일자: 2026년 04월 15일 | 출처: [IEEE Spectrum](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+ETH+Zurich+Legged+Wheel)]** IEEE Spectrum 보도에 따르면 ETH 취리히 연구팀이 바퀴로 고속 평지 주행을 하고 다리로 수직 계단을 오르는 하이브리드 제어기를 개발했음.\n\n---\n\n## 1. 주요 소식 개요\n- 스위스 ETH 취리히 로보틱스 연구소는 4개의 다리 끝에 구동 바퀴를 달아 평지에서는 20km/h 주행, 계단에서는 점프 보행을 변환하는 제어 시스템을 입증했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Model Predictive Control (MPC) & RL 융합**: 모델 예측 제어로 실시간 궤적을 제어하고 강화학습으로 착지 충격을 분산시킴.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **MPC 제어 & 하이브리드 기구학**: 평지 수직 제어기 모델링과 동역학 궤적 생성 알고리즘 수식을 파악할 것.\n\n---\n\n- **관련 기사 원문 검색**: [IEEE Spectrum 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+ETH+Zurich+Legged+Wheel)"
+    "content_path": "content/912cc9b501ea9cb3179cf1d9.md",
+    "content_version": "376cc90c5a328e96"
   },
   {
     "id": "학습_가이드_260420_뉴스_TheRobotReport_BostonDynamics_Electric_Atlas",
@@ -5532,7 +5822,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 04월 20일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] The Robot Report | 보스턴 다이나믹스(Boston Dynamics) 차세대 전동식 Atlas 실물 공개\n\n> **[산업 동향 | 발행일자: 2026년 04월 20일 | 출처: [The Robot Report & 조선일보](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Boston+Dynamics+Electric+Atlas)]** The Robot Report 보도에 따르면 보스턴 다이나믹스가 유압식을 완전히 폐기하고 100% 전기 구동식 차세대 Atlas 휴머노이드를 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 보스턴 다이나믹스는 기존 유압 시스템 대신 고토크 서보 모터 기반의 **100% 전동식(Electric) 'Atlas'**를 선보이고 현대차 글로벌 메타플랜트 공장 투입 계획을 공식화했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **56자유도 관절 무제한 회전**: 관절이 360도 무제한 회전하는 특수 액추에이터 구조로 인간 동작 범위를 뛰어넘는 모션을 구현함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **고성능 전기 액추에이터 제어**: 유압에서 전동식 메커니즘으로의 유행 변화에 따라 초고밀도 모터 제어기 설계 지식이 필수적임.\n\n---\n\n- **관련 기사 원문 검색**: [The Robot Report & 조선일보 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Boston+Dynamics+Electric+Atlas)"
+    "content_path": "content/a14cec076ae56a1e2d6fb083.md",
+    "content_version": "e26e1a2cf1826be3"
   },
   {
     "id": "학습_가이드_260512_뉴스_Robotzine_시스콘_스마트팩토리_AGV",
@@ -5548,7 +5839,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 05월 12일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 월간로봇기술 | 시스콘, 스마트 팩토리 무인 이송 AGV 관제 시스템 구축\n\n> **[산업 동향 | 발행일자: 2026년 05월 12일 | 출처: [월간로봇기술 (Robotzine)](https://search.naver.com/search.naver?where=news&query=월간로봇기술+시스콘+AGV)]** 월간로봇기술 보도에 따르면 시스콘이 대기업 물류 현장에 5G 기반 무인 자율주행 AGV 관제 서버(ACS)를 성공적으로 이식했음.\n\n---\n\n## 1. 주요 소식 개요\n- 자율주행 물류 솔루션 기업 시스콘은 제조 라인 간 자재 교차 이송을 전담하는 무인 **AGV/AMR 관제 시스템(ACS)**을 구축 완료했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **ACS 관제 서버 & 최단 경로 알고리즘**: 교차로 교착 상태(Deadlock)를 방지하는 실시간 교통 제어 알고리즘을 적용함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **ACS/FMS 경로 검색 알고리즘**: Dijkstra, A* 기반 멀티 로봇 교착 상태 회피 알고리즘을 구현해 본 경험이 우대받음.\n\n---\n\n- **관련 기사 원문 검색**: [월간로봇기술 (Robotzine) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=월간로봇기술+시스콘+AGV)"
+    "content_path": "content/70eae1e9a116050361665f5d.md",
+    "content_version": "d48d8e01ffcccaf0"
   },
   {
     "id": "학습_가이드_260514_뉴스_TheRobotReport_SanctuaryAI_Phoenix_매니퓰레이션",
@@ -5564,7 +5856,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 05월 14일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] The Robot Report | 샌크추어리 AI(Sanctuary AI) 'Phoenix' 햅틱 촉각 수동 조작 입증\n\n> **[산업 동향 | 발행일자: 2026년 05월 14일 | 출처: [The Robot Report & 조선일보](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Sanctuary+Phoenix)]** The Robot Report 보도에 따르면 샌크추어리 AI의 6세대 휴머노이드 Phoenix가 정밀 햅틱 센서로 사람 수준의 미세 손가락 조작을 구현했음.\n\n---\n\n## 1. 주요 소식 개요\n- 캐나다 샌크추어리 AI의 휴머노이드 **'Phoenix'**가 유압식 정밀 손 관절과 햅틱 피드백을 결합해 정밀 스크류 조이기와 케이블 결합 작업을 시연했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Carbon AI 제어 시스템**: 인간 정밀 작업 데이터를 원격 제어(Teleoperation)로 수집하고 시뮬레이션 파인튜닝으로 자율화함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **원격 조작 데이터 수집 & 텔레오퍼레이션**: 모션 캡처 및 햅틱 장비를 활용한 파운데이션 학습 데이터 수집 기술에 대한 관심이 고조됨.\n\n---\n\n- **관련 기사 원문 검색**: [The Robot Report & 조선일보 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Sanctuary+Phoenix)"
+    "content_path": "content/c111e294cc47663caa29fd49.md",
+    "content_version": "deb84e39f408f458"
   },
   {
     "id": "학습_가이드_260516_뉴스_TechCrunch_KScale_오픈소스_휴머노이드",
@@ -5580,7 +5873,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 05월 16일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] TechCrunch | 케이스케일 랩스(K-Scale Labs), 오픈소스 경량 휴머노이드 프레임 공개\n\n> **[산업 동향 | 발행일자: 2026년 05월 16일 | 출처: [TechCrunch](https://search.naver.com/search.naver?where=news&query=TechCrunch+KScale+Labs+Humanoid)]** TechCrunch 보도에 따르면 K-Scale Labs가 3D 프린팅 가능한 소형 경량 오픈소스 휴머노이드 로봇 하드웨어 설계도를 전면 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 실리콘밸리 스타트업 K-Scale Labs는 누구나 3D 프린터와 서보 모터로 집에서 직접 조립할 수 있는 오픈소스 휴머노이드 **'K-Bot'** CAD 데이터를 배포했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Open-Hardware CAD & PyBullet SLAM**: 기구 설계도부터 Python 걷기 알고리즘까지 100% 깃허브 공개함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **오픈소스 로봇 HW/SW 커스텀**: 오픈소스 로봇 CAD 및 코드 프로젝트를 직접 조립 및 수정해 본 실습 경험을 어필할 것.\n\n---\n\n- **관련 기사 원문 검색**: [TechCrunch 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=TechCrunch+KScale+Labs+Humanoid)"
+    "content_path": "content/6c22241e0cacc91eb83e20be.md",
+    "content_version": "a95d64725cc0c5b4"
   },
   {
     "id": "학습_가이드_260518_뉴스_RoboAI_퓨리오사AI_Warboy_스마트관제",
@@ -5596,7 +5890,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 05월 18일",
     "tip_category": "",
-    "raw_content": "# [AI 로봇 뉴스] 로보아이 | 퓨리오사AI 'Warboy', 스마트 팩토리 AMR 군집 관제 서버 연동\n\n> **[산업 동향 | 발행일자: 2026년 05월 18일 | 출처: [로보아이 (RoboAI)](https://search.naver.com/search.naver?where=news&query=로보아이+퓨리오사AI+Warboy)]** 로보아이 보도에 따르면 퓨리오사AI의 1세대 NPU Warboy가 수십 대 AMR의 카메라 스트리밍을 동시 파싱하는 관제 서버에 탑재되었음.\n\n---\n\n## 1. 주요 소식 개요\n- 퓨리오사AI(FuriosaAI)는 스마트 팩토리 관제 서버에서 수십 대 AMR 로봇의 CCTV 비전 영상 스트림을 실시간 병열 분석하는 인프라를 상용화했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Multi-Stream Vision Parsing**: 대용량 비전 스트림을 병목 없이 수신하고 인프라 위험 요소를 실시간 검출함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **비전 스트리밍 서버 연동**: RTSP/WebRTC 비전 스트리밍과 AI 관제 서버 연동 시스템 구축 지식을 다질 것.\n\n---\n\n- **관련 기사 원문 검색**: [로보아이 (RoboAI) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로보아이+퓨리오사AI+Warboy)"
+    "content_path": "content/864f93ce890dc67fa802cb75.md",
+    "content_version": "ec48524b81ff2d17"
   },
   {
     "id": "학습_가이드_260520_뉴스_Robotics247_GeekPlus_고밀도_보관로봇",
@@ -5612,7 +5907,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 05월 20일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] Robotics 24/7 | 긱플러스(Geek+), 고밀도 보관용 P800 파렛트 자율 이송 로봇 발표\n\n> **[산업 동향 | 발행일자: 2026년 05월 20일 | 출처: [Robotics 24/7](https://search.naver.com/search.naver?where=news&query=Robotics+247+Geek+Plus+AMR)]** Robotics 24/7 보도에 따르면 긱플러스가 1,000kg 하중 랙을 리프팅하여 자율 운반하는 고밀도 보관 로봇 P800을 글로벌 출시했음.\n\n---\n\n## 1. 주요 소식 개요\n- 긱플러스(Geek+)는 1톤 무게의 파렛트 랙 하부로 들어 들어가 유압 리프팅 후 목적지로 자율 주행하는 **'P800 AMR'**을 글로벌 시장에 선보였음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **QR코드 & 2D 라이다 하이브리드 내비게이션**: 천장 바코드 인식과 바닥 라이다 SLAM을 조합하여 2mm 이내 적재 정밀도를 달성함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **하이브리드 내비게이션 센서 퓨전**: 비전 마크 인식과 라이다 SLAM 센서 데이터를 융합하는 포지셔닝 기술을 갖출 것.\n\n---\n\n- **관련 기사 원문 검색**: [Robotics 24/7 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=Robotics+247+Geek+Plus+AMR)"
+    "content_path": "content/c49c11f86b75f3987ed21a5d.md",
+    "content_version": "fdcb66612187c9ee"
   },
   {
     "id": "학습_가이드_260521_뉴스_VentureBeat_Google_Robotics_RT_X",
@@ -5628,7 +5924,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 05월 21일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] VentureBeat | 구글 딥마인드, 범용 로봇 제어 파운데이션 'RT-X 2세대' 공개\n\n> **[산업 동향 | 발행일자: 2026년 05월 21일 | 출처: [VentureBeat](https://search.naver.com/search.naver?where=news&query=VentureBeat+Google+DeepMind+RT+X)]** VentureBeat 보도에 따르면 구글 딥마인드가 세계 20개 로봇 연구소의 데이터를 결합한 범용 제어 파운데이션 RT-X 2세대를 출시했음.\n\n---\n\n## 1. 주요 소식 개요\n- 구글 딥마인드는 이종 로봇 하드웨어의 모션 데이터를 통합 학습한 로봇 범용 트랜스포머 모델 **'RT-X 2세대'**를 배포했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Cross-Robot Transfer Learning**: 로봇 팔 A에서 학습한 컵 집기 모션을 형태가 다른 로봇 팔 B에 제로샷 이식함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **이종 로봇 전이 학습 (Transfer Learning)**: 단일 로봇에 귀속되지 않는 범용 로봇 모션 파운데이션 모델 활용 역량을 키울 것.\n\n---\n\n- **관련 기사 원문 검색**: [VentureBeat 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=VentureBeat+Google+DeepMind+RT+X)"
+    "content_path": "content/44bbcb31f13dcd677b0215f8.md",
+    "content_version": "7a8a5a3e8682c4ae"
   },
   {
     "id": "학습_가이드_260529_뉴스_IEEESpectrum_CMU_3D_LiDAR_SLAM",
@@ -5644,7 +5941,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 05월 29일",
     "tip_category": "",
-    "raw_content": "# [로봇 학술 뉴스] IEEE Spectrum | CMU, 도심/산악 동적 환경 전용 3D LiDAR-Inertial SLAM 발표\n\n> **[산업 동향 | 발행일자: 2026년 05월 29일 | 출처: [IEEE Spectrum](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+CMU+LiDAR+SLAM)]** IEEE Spectrum 보도에 따르면 카네기멜론대(CMU)가 동적 장애물과 안개 속에서도 센티미터 정밀도를 유지하는 3D LIO SLAM 프레임워크를 발표했음.\n\n---\n\n## 1. 주요 소식 개요\n- CMU 자율주행 연구진은 3D 라이다 포인트 클라우드와 고성능 IMU 데이터를 강건 결합한 오픈소스 **'Direct-LIO 2.0'** 알고리즘을 제안했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Point-to-Plane 매칭 & 칼만 필터**: 동적으로 움직이는 보행자나 차량 데이터를 런타임 필터링하여 루프 클로저 오차를 획기적으로 낮춤.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **3D LIO SLAM & Point Cloud 처리**: Cartographer, FAST-LIO 등 최신 라이다 SLAM 알고리즘 파라미터 튜닝 능력을 기를 것.\n\n---\n\n- **관련 기사 원문 검색**: [IEEE Spectrum 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+CMU+LiDAR+SLAM)"
+    "content_path": "content/cae07adabfe49459e0128a4c.md",
+    "content_version": "5f469cdf052e85ca"
   },
   {
     "id": "학습_가이드_260603_뉴스_TechCrunch_Covariant_RFM1_물류",
@@ -5660,7 +5958,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 03일",
     "tip_category": "",
-    "raw_content": "# [로봇 AI 뉴스] TechCrunch | 코베리언트(Covariant), 물류 범용 로봇 파운데이션 'RFM-1' 출시\n\n> **[산업 동향 | 발행일자: 2026년 06월 03일 | 출처: [TechCrunch](https://search.naver.com/search.naver?where=news&query=TechCrunch+Covariant+RFM1)]** TechCrunch 보도에 따르면 코베리언트가 물류 창고 데이터를 학습하여 사람 수준 추론을 수행하는 멀티모달 로봇 모델 RFM-1을 선보였음.\n\n---\n\n## 1. 주요 소식 개요\n- 인공지능 로봇 스타트업 코베리언트는 텍스트 명령어와 비전을 인식하여 물류센터 비정형 피킹을 자율 수행하는 **'RFM-1'**을 구축했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **언어-비전-물리 액션 통합**: \"이 물체는 깨지기 쉬우니 살살 잡아\"라는 텍스트를 인식하여 그리퍼 가압력을 실시간 조율함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **LLM-그리퍼 물리 제어 연동**: 파운데이션 모델의 텍스트 추론 결과를 하드웨어 그리퍼 힘 제어에 매핑하는 역량을 기를 것.\n\n---\n\n- **관련 기사 원문 검색**: [TechCrunch 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=TechCrunch+Covariant+RFM1)"
+    "content_path": "content/5a30903e407523a05bd7712a.md",
+    "content_version": "e370ba95af63e126"
   },
   {
     "id": "학습_가이드_260608_뉴스_Robotzine_뉴로메카_인디_협동로봇",
@@ -5676,7 +5975,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 08일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 월간로봇기술 | 뉴로메카, 차세대 협동로봇 'Indy' 및 스마트 모션 제어기 공개\n\n> **[산업 동향 | 발행일자: 2026년 06월 08일 | 출처: [월간로봇기술 (Robotzine)](https://search.naver.com/search.naver?where=news&query=월간로봇기술+뉴로메카+협동로봇)]** 월간로봇기술 보도에 따르면 뉴로메카가 실시간 Linux 기반 스마트 제어기 'STEP'과 차세대 Indy 협동로봇 라인업을 보급했음.\n\n---\n\n## 1. 주요 소식 개요\n- 뉴로메카는 실시간 리눅스 EtherCAT 통신 기반의 로봇 제어기 **'STEP'**과 용접/조립 전용 협동로봇 **'Indy7/12'** 솔루션을 공정에 적용했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **EtherCAT 1kHz 실시간 제어**: 마이크로초 단위의 충돌 감지 및 파이썬 오픈 API 지원으로 직관적인 교시 작업을 보장함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **EtherCAT 기반 실시간 제어기**: 산업용 로봇 제어 시스템에서 광범위하게 쓰이는 EtherCAT 필드버스 통신 제어 경험을 쌓을 것.\n\n---\n\n- **관련 기사 원문 검색**: [월간로봇기술 (Robotzine) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=월간로봇기술+뉴로메카+협동로봇)"
+    "content_path": "content/fe058028664693655c9bef5b.md",
+    "content_version": "62a05d3363a99fcf"
   },
   {
     "id": "학습_가이드_260610_뉴스_로봇신문_두산로보틱스_DartSuite_비전",
@@ -5692,7 +5992,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 10일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 로봇신문 | 두산로보틱스, 엔비디아 아이작 기반 AI 3D 비전 Dart-Suite 협동로봇 솔루션\n\n> **[산업 동향 | 발행일자: 2026년 06월 10일 | 출처: [로봇신문](https://search.naver.com/search.naver?where=news&query=로봇신문+두산로보틱스+AI+협동로봇)]** 로봇신문 보도에 따르면 두산로보틱스가 협동로봇 소프트웨어 Dart-Suite에 엔비디아 아이작 3D 비전 AI 모델을 결합했음.\n\n---\n\n## 1. 주요 소식 개요\n- 두산로보틱스는 무작위 피킹 및 고하중 팔레타이징 공정에 3D 비전 AI 플랫폼 **'Dart-Suite'**를 결합하여 수출 비중을 60% 이상 확충했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **중공축 정밀 토크 센서**: 관절 내장 토크 센서로 0.2N 미만 미세 충격 시 즉각 정지하는 최고 안전 등급(PL d)을 달성함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **정밀 힘/토크 제어 & 비전 융합**: 3D Point Cloud 카메라 데이터 기반 Object Pose Estimation 제어 역량을 어필할 것.\n\n---\n\n- **관련 기사 원문 검색**: [로봇신문 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로봇신문+두산로보틱스+AI+협동로봇)"
+    "content_path": "content/bcaa07a79a8adab27952272c.md",
+    "content_version": "3944d5011965bc20"
   },
   {
     "id": "학습_가이드_260612_뉴스_VentureBeat_Meta_SegmentAnything3D",
@@ -5708,7 +6009,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 12일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] VentureBeat | 메타(Meta), 공간 3D 객체 인식을 위한 'SAM-3D' 파운데이션 발표\n\n> **[산업 동향 | 발행일자: 2026년 06월 12일 | 출처: [VentureBeat](https://search.naver.com/search.naver?where=news&query=VentureBeat+Meta+SAM+3D)]** VentureBeat 보도에 따르면 메타(Meta)가 로봇 공간 인식과 3D 바운딩 박스 분할을 전담하는 SAM-3D 오픈소스 모델을 출시했음.\n\n---\n\n## 1. 주요 소식 개요\n- 메타는 단안 실사 영상 및 RGB-D 데이터로부터 3차원 공간 속 물체의 3D 메시(Mesh)를 수 밀리초 내 분할하는 **'SAM-3D'**를 전면 공개했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Zero-Shot 3D Mesh Segmentation**: 사전 학습 없이도 낯선 3D 물체의 바운딩 박스와 파스(Part) 경계를 마스킹함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **3D 비전 객체 인식 (SAM-3D)**: 로봇 그리퍼 피킹 시 3D Point Cloud 및 SAM-3D 기반 객체 세그멘테이션 파이프라인 활용 능력이 부각됨.\n\n---\n\n- **관련 기사 원문 검색**: [VentureBeat 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=VentureBeat+Meta+SAM+3D)"
+    "content_path": "content/747dbc22639b6193266cf206.md",
+    "content_version": "3d350a18e31697b0"
   },
   {
     "id": "학습_가이드_260615_뉴스_Robotics247_LocusRobotics_AMR_군집제어",
@@ -5724,7 +6026,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 15일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] Robotics 24/7 | 로커스 로보틱스(Locus Robotics), AMR 100대 동시 관제 FMS 구축\n\n> **[산업 동향 | 발행일자: 2026년 06월 15일 | 출처: [Robotics 24/7](https://search.naver.com/search.naver?where=news&query=Robotics+247+Locus+Robotics+AMR)]** Robotics 24/7 보도에 따르면 로커스 로보틱스가 대형 창고에서 100대 이상의 협업 AMR을 중앙 서버로 실시간 관제하는 FMS를 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 로커스 로보틱스는 물류 피킹 효율성을 3배 이상 높여주는 모바일 AMR 플랫폼 **'LocusOrigin'** 100대 동시 연동 Fleet Management를 실증했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **VDA 5050 표준 규격 수용**: 이종 로봇 간 인터페이스 표준 규격을 준수하여 서로 다른 제조사 AMR과의 통합 관제를 지원함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **VDA 5050 로봇 관제 프로토콜**: 물류 자동화 업계에서 필수 표준으로 자리 잡은 VDA 5050 프로토콜 이해도를 높일 것.\n\n---\n\n- **관련 기사 원문 검색**: [Robotics 24/7 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=Robotics+247+Locus+Robotics+AMR)"
+    "content_path": "content/d003f7566403f43030f1fae2.md",
+    "content_version": "b1df5c60a7659699"
   },
   {
     "id": "학습_가이드_260618_뉴스_TheRobotReport_Apptronik_Apollo_제조도입",
@@ -5740,7 +6043,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 18일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] The Robot Report | 앱트로닉(Apptronik) 범용 휴머노이드 'Apollo' 메르세데스 벤츠 라인 공급\n\n> **[산업 동향 | 발행일자: 2026년 06월 18일 | 출처: [The Robot Report & 조선일보](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Apptronik+Apollo)]** The Robot Report 보도에 따르면 앱트로닉의 휴머노이드 Apollo가 메르세데스 벤츠 자동차 조립 공정에 공급되어 부품 공급 검사를 전담함.\n\n---\n\n## 1. 주요 소식 개요\n- 미국 앱트로닉(Apptronik)은 범용 휴머노이드 **'Apollo'**를 벤츠 완성차 공장에 공급하여 작업자의 중량 부품 운반과 부품 키팅(Kitting) 작업을 보조하도록 조율했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **모듈형 액추에이터 & 교체형 배터리**: 연속 4시간 작동 및 배터리 오토 스왑 방식으로 공장 라인의 멈춤 없는 운영을 지원함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **휴머노이드 모듈화 및 정비성**: 공장 연속 가동을 위한 관절 모듈화 설계와 전력 효율화 설계 지식이 우대받음.\n\n---\n\n- **관련 기사 원문 검색**: [The Robot Report & 조선일보 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Apptronik+Apollo)"
+    "content_path": "content/dbcd731a8acc9dd8b0c1f076.md",
+    "content_version": "5761efa75997679e"
   },
   {
     "id": "학습_가이드_260620_뉴스_로봇신문_현대차_달이_딜리버리_상용화",
@@ -5756,7 +6060,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 20일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 로봇신문 | 현대자동차·기아 로보틱스랩 '달이 딜리버리' 자율주행 상용화\n\n> **[산업 동향 | 발행일자: 2026년 06월 20일 | 출처: [로봇신문](https://search.naver.com/search.naver?where=news&query=로봇신문+현대차+달이+딜리버리)]** 로봇신문 보도에 따르면 현대차·기아 로보틱스랩이 4개 PnD 모듈과 AI 안면인식을 탑재한 실내 자율주행 배송 로봇 '달이 딜리버리'를 팩토리얼 성수에서 상용화했음.\n\n---\n\n## 1. 주요 소식 개요\n- 현대차·기아 로보틱스랩은 층간 자동 배송 로봇 **'달이 딜리버리'**를 팩토리얼 성수 빌딩에서 본격 서비스 상용화했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **PnD 전방향 모듈 & 온디바이스 AI**: 99.9% AI 안면인식 기술과 딥엑스 온디바이스 NPU 제어기로 수령 대상자 감지 및 문 개폐를 자율 수행함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **관제 시스템 연동 경험**: 로봇 자율주행 및 건물 엘리베이터 인프라 통신 관제(WCS/FMS) 연동 경험이 중요함.\n\n---\n\n- **관련 기사 원문 검색**: [로봇신문 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로봇신문+현대차+달이+딜리버리)"
+    "content_path": "content/ae4296468e61daaa6fdf3a7c.md",
+    "content_version": "7c7f177c5441a3c6"
   },
   {
     "id": "학습_가이드_260625_뉴스_IEEESpectrum_Stanford_VLA_로봇제어",
@@ -5772,7 +6077,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 25일",
     "tip_category": "",
-    "raw_content": "# [로봇 학술 뉴스] IEEE Spectrum | 스탠포드대, 이동형 양팔 로봇을 위한 Open-VLA 모델 제안\n\n> **[산업 동향 | 발행일자: 2026년 06월 25일 | 출처: [IEEE Spectrum](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+Stanford+Open+VLA)]** IEEE Spectrum 보도에 따르면 스탠포드대 연구팀이 언어 지령만으로 실내 조작을 수행하는 오픈소스 VLA 파운데이션 모델을 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 스탠포드 로보틱스 랩은 자연어 지령('냉장고에서 캔을 꺼내 컵 옆에 놓아줘')을 입력받아 7자유도 양팔 관절 궤적으로 변환하는 **'Open-VLA'**를 배포했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **End-to-End 비전-언어-행동 튜닝**: 7B 규모의 비전언어모델을 기반으로 3D 카메라 영상과 관절 각도를 다중 레이어로 동시 파싱함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **VLA(Vision-Language-Action) 기술 추세**: 최신 로봇 AI 분야에서는 대형 비전-언어 모델을 관절 모션에 이식하는 연구 경험이 핵심 강점임.\n\n---\n\n- **관련 기사 원문 검색**: [IEEE Spectrum 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+Stanford+Open+VLA)"
+    "content_path": "content/81e9abe5e61a3385bd32c413.md",
+    "content_version": "903d291889573187"
   },
   {
     "id": "학습_가이드_260630_뉴스_RoboAI_리벨리온_아톰_로봇_파운데이션",
@@ -5788,7 +6094,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 06월 30일",
     "tip_category": "",
-    "raw_content": "# [AI 로봇 뉴스] 로보아이 | 리벨리온 NPU 기반 로봇 파운데이션 모델 런타임 연산 실증\n\n> **[산업 동향 | 발행일자: 2026년 06월 30일 | 출처: [로보아이 (RoboAI)](https://search.naver.com/search.naver?where=news&query=로보아이+리벨리온+NPU+로봇)]** 로보아이 보도에 따르면 리벨리온의 NPU 'ATOM'이 로봇 뇌 파운데이션 모델 연산 가속 칩으로 로봇 서버에 공급되었음.\n\n---\n\n## 1. 주요 소식 개요\n- 리벨리온은 자사 데이터센터용 NPU **'ATOM'**을 활용해 로봇의 VLM 비전언어모델 런타임 연산을 3배 이상 가속했다고 발표했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Transformer 모델 하드웨어 가속**: 로봇 뇌 모델의 텐서 연산을 고효율 전력으로 처리함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **NPU 서버 파이프라인 구조**: 클라우드 로봇 관제 서버용 NPU 파이프라인 이식 경험을 확보할 것.\n\n---\n\n- **관련 기사 원문 검색**: [로보아이 (RoboAI) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로보아이+리벨리온+NPU+로봇)"
+    "content_path": "content/72ed31292437455b7bbe56e9.md",
+    "content_version": "1e5572d9aeb40433"
   },
   {
     "id": "학습_가이드_260707_뉴스_TechCrunch_PhysicalIntelligence_pi0",
@@ -5804,7 +6111,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 07일",
     "tip_category": "",
-    "raw_content": "# [로봇 AI 뉴스] TechCrunch | 피지컬 인텔리전스(Physical Intelligence), 범용 로봇 모델 'pi0' 공개\n\n> **[산업 동향 | 발행일자: 2026년 07월 07일 | 출처: [TechCrunch](https://search.naver.com/search.naver?where=news&query=TechCrunch+Physical+Intelligence+pi0)]** TechCrunch 보도에 따르면 OpenAI 및 제프 베이조스가 투자한 피지컬 인텔리전스가 멀티 로봇 조작 전용 파운데이션 모델 'pi0'을 발표했음.\n\n---\n\n## 1. 주요 소식 개요\n- 물리적 세계 조작을 전담하는 피지컬 인텔리전스(Pi)는 빨래 접기, 박스 접기, 에스프레소 머신 조작을 수행하는 로봇 파운데이션 **'pi0'**를 공개했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Flow Matching 기반 모션 생성**: 고밀도 이미지와 촉각 데이터를 조합해 50Hz 고속 모션 지령을 연속 합성함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **고속 모션 합성 알고리즘**: 50Hz 이상의 실시간 모션 지령을 제어기에 주입하는 제어 파이프라인 경험이 강조됨.\n\n---\n\n- **관련 기사 원문 검색**: [TechCrunch 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=TechCrunch+Physical+Intelligence+pi0)"
+    "content_path": "content/eb417b77be87368d436dd7fd.md",
+    "content_version": "76279448e1a6959e"
   },
   {
     "id": "학습_가이드_260710_뉴스_Robotzine_유진로봇_고정밀_SLAM_모듈",
@@ -5820,7 +6128,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 10일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 월간로봇기술 | 유진로봇, 3D 라이다 기반 고정밀 독자 SLAM 툴킷 상용화\n\n> **[산업 동향 | 발행일자: 2026년 07월 10일 | 출처: [월간로봇기술 (Robotzine)](https://search.naver.com/search.naver?where=news&query=월간로봇기술+유진로봇+SLAM)]** 월간로봇기술 보도에 따르면 유진로봇이 자체 개발한 3D 라이다 및 독자 SLAM 내비게이션 보드 'SLAMNAV'를 로봇 제조사에 공급함.\n\n---\n\n## 1. 주요 소식 개요\n- 유진로봇은 자율주행 로봇 개발 기간을 6개월 이상 단축시켜 주는 통합 내비게이션 HW/SW 모듈 **'SLAMNAV 3D'**를 국내외 수십 개 로봇사에 보급했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **3D LiDAR Scan Matching**: 비정형 환경에서도 특징점을 고밀도로 추출해 정밀도 5mm 이내의 지도(Map)를 실시간 생성함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **자율주행 임베디드 모듈 개발**: 내비게이션 알고리즘을 임베디드 보드에 경량화 이식하는 FIRMWARE 개발 능력을 키울 것.\n\n---\n\n- **관련 기사 원문 검색**: [월간로봇기술 (Robotzine) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=월간로봇기술+유진로봇+SLAM)"
+    "content_path": "content/1f16cbf2f0b27a9b3d0fe462.md",
+    "content_version": "b9242f8c669d1893"
   },
   {
     "id": "학습_가이드_260714_뉴스_RoboAI_모빌린트_에지_AI_비전제어",
@@ -5836,7 +6145,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 14일",
     "tip_category": "",
-    "raw_content": "# [AI 로봇 뉴스] 로보아이 | 모빌린트, 에지 AI 가속기 기반 실시간 로봇 비전 제어 보드 공개\n\n> **[산업 동향 | 발행일자: 2026년 07월 14일 | 출처: [로보아이 (RoboAI)](https://search.naver.com/search.naver?where=news&query=로보아이+모빌린트+에지+AI)]** 로보아이 보도에 따르면 모빌린트가 로봇 관절 보드에 직접 탑재하는 에지 AI 가속기 'ARIES' 보드를 선보였음.\n\n---\n\n## 1. 주요 소식 개요\n- 모빌린트는 좁은 로봇 내부 상반신 보드에 콤팩트 이식되는 에지 AI 모듈을 통해 초저지연 모션 지령 생성을 실증했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **C++ TensorRT/NPU 포팅**: 비전 센서 입력을 수 밀리초 내에 관절 궤적 지령으로 변환하는 가속 파이프라인을 지원함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **엣지 파이프라인 가속화**: OpenCV, TensorRT 등을 활용해 로봇 카메라 영상을 실시간 가속 처리하는 기술을 익힐 것.\n\n---\n\n- **관련 기사 원문 검색**: [로보아이 (RoboAI) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로보아이+모빌린트+에지+AI)"
+    "content_path": "content/1521f5270bceb245c1772642.md",
+    "content_version": "2d6ba5b46c3e8260"
   },
   {
     "id": "학습_가이드_260715_뉴스_로봇신문_삼성전자_RX사업추진실_신설",
@@ -5852,7 +6162,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 15일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 로봇신문 | 삼성전자, 로봇 통합 조직 'RX사업추진실' 신설 및 휴머노이드 채용\n\n> **[산업 동향 | 발행일자: 2026년 07월 15일 | 출처: [로봇신문](https://search.naver.com/search.naver?where=news&query=로봇신문+삼성전자+RX사업추진실)]** 로봇신문 보도에 따르면 삼성전자가 로봇 사업 조직을 통합한 'RX사업추진실'을 신설하고 휴머노이드 핵심 인력을 대규모 채용함.\n\n---\n\n## 1. 주요 소식 개요\n- 삼성전자는 컨트롤타워 **'RX사업추진실'**을 신설하여 전신 보행 제어, 매니퓰레이션, 로봇 파운데이션 모델(RFM) 전문 연구원을 공채 중임.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **로봇 파운데이션 모델 (RFM)**: 시뮬레이션 인공지능 강화학습을 적용해 정밀 실내 보행 및 상반신 조작 제어를 고도화함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **대기업 휴머노이드 제어 역량**: 2D/3D 시뮬레이션(Isaac Sim, MuJoCo) 및 C++/Python 전신 제어 개발자 수요가 대폭 증가했음.\n\n---\n\n- **관련 기사 원문 검색**: [로봇신문 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로봇신문+삼성전자+RX사업추진실)"
+    "content_path": "content/56a5199fb8939970d7a3a4e0.md",
+    "content_version": "b84248b73b3a24c2"
   },
   {
     "id": "학습_가이드_260719_뉴스_IEEESpectrum_MIT_강화학습_사족보행",
@@ -5868,7 +6179,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 19일",
     "tip_category": "",
-    "raw_content": "# [로봇 학술 뉴스] IEEE Spectrum | MIT, 고속 험지 주행용 딥 강화학습 사족보행 알고리즘 공개\n\n> **[산업 동향 | 발행일자: 2026년 07월 19일 | 출처: [IEEE Spectrum](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+MIT+Legged+Robotics)]** IEEE Spectrum 보도에 따르면 MIT 임베디드 로보틱스 연구진이 자갈길과 미끄러운 험지에서 초당 3.5m로 보행하는 강화학습 제어기를 제안했음.\n\n---\n\n## 1. 주요 소식 개요\n- MIT 연구진은 고성능 IMU 센서와 발끝 마찰력 추정 신경망을 결합한 4족 로봇 용 **'Proprioceptive RL Controller'** 논문을 게재했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **내재 감각(Proprioception) 보행 파이프라인**: 비전 카메라 없이 모터 전류와 관성 센서만으로 미끄러짐을 0.01초 내 감지해 발을 재배치함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **센서 퓨전 & 동역학 보행**: 관성 센서 기반 고속 마찰력 추정 및 실시간 관절 토크 계산 알고리즘 이해가 중요함.\n\n---\n\n- **관련 기사 원문 검색**: [IEEE Spectrum 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+MIT+Legged+Robotics)"
+    "content_path": "content/fb36e41e9c9df9cf8fecba19.md",
+    "content_version": "d9485e83b326c2d3"
   },
   {
     "id": "학습_가이드_260722_뉴스_TheRobotReport_Agility_Digit_물류배치",
@@ -5884,7 +6196,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 22일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] The Robot Report | 애질리티 로보틱스(Agility Robotics) 휴머노이드 'Digit' 물류 센터 투입\n\n> **[산업 동향 | 발행일자: 2026년 07월 22일 | 출처: [The Robot Report & 조선일보](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Agility+Digit)]** The Robot Report 보도에 따르면 애질리티 로보틱스의 휴머노이드 로봇 Digit이 아마존 물류 센터에서 박스 이송 및 토트 파렛타이징 상용화에 성공했음.\n\n---\n\n## 1. 주요 소식 개요\n- 애질리티 로보틱스의 2족 보행 휴머노이드 **'Digit'**이 글로벌 물류 풀필먼트 센터에 대량 공급되어 빈 토트 상자 이송 작업을 24시간 자율 수행함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **역무릎 수직 보행 메커니즘**: 좁은 물류 랙 통로에서 180도 제자리 회전하며 16kg 하중 박스를 반복 적재함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **물류 자동화 보행 및 상반신 조작**: 상업 물류 현장의 작업 환경에 최적화된 메커니즘 및 2족 보행 안정성 확보 역량이 강조됨.\n\n---\n\n- **관련 기사 원문 검색**: [The Robot Report & 조선일보 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Agility+Digit)"
+    "content_path": "content/545071120bbbfecd362e6e94.md",
+    "content_version": "d7082044141dfc67"
   },
   {
     "id": "학습_가이드_260724_뉴스_VentureBeat_OpenAI_o3_생각체인",
@@ -5900,7 +6213,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 24일",
     "tip_category": "",
-    "raw_content": "# [AI 뉴스] VentureBeat | 오픈AI, 생각 체인 추론 파운데이션 'o3' 및 엔지니어링 에이전트 발표\n\n> **[산업 동향 | 발행일자: 2026년 07월 24일 | 출처: [VentureBeat](https://search.naver.com/search.naver?where=news&query=VentureBeat+OpenAI+o3+reasoning)]** VentureBeat 보도에 따르면 오픈AI가 복잡한 수학 코딩 및 과학 추론을 단계별로 검증하는 o3 파운데이션 모델을 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 오픈AI는 런타임 생각 시간(Thinking Time)을 늘려 고난도 알고리즘 코딩 및 복잡한 정밀 계산을 스스로 검증하는 **'o3'** 모델을 발표했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Deliberative Reasoning & Self-Correction**: 코드 실행 오류 시 AI가 자체 에러 로그를 분석하여 수정 코드를 자동 재작성함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **추론형 AI 기반 자동 코드 검증**: AI가 생성한 로봇 소프트웨어 에러 로그 파싱 및 자율 수정 알고리즘 파이프라인에 주목할 것.\n\n---\n\n- **관련 기사 원문 검색**: [VentureBeat 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=VentureBeat+OpenAI+o3+reasoning)"
+    "content_path": "content/09076859b89d93ccc796564f.md",
+    "content_version": "87da832d4af7c94a"
   },
   {
     "id": "학습_가이드_260728_뉴스_Robotics247_Symbotic_스마트물류_자율주행",
@@ -5916,7 +6230,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 07월 28일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] Robotics 24/7 | 심보틱(Symbotic), 월마트 풀필먼트 센터 고속 3D 자율주행 AGV 구축\n\n> **[산업 동향 | 발행일자: 2026년 07월 28일 | 출처: [Robotics 24/7](https://search.naver.com/search.naver?where=news&query=Robotics+247+Symbotic+Walmart)]** Robotics 24/7 보도에 따르면 심보틱이 미국 수십 개 물류 거점에 초고속 3D 그리드 상하좌우 자율주행 로봇 시스템을 공급 완료했음.\n\n---\n\n## 1. 주요 소식 개요\n- 미국 심보틱(Symbotic)은 월마트 전용 초대형 스마트 물류센터에 초당 4m로 3차원 그리드 랙 사이를 이송하는 파렛트 로봇 시스템을 구축했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **무선 메시 네트워크 군집 관제**: 수백 대의 고속 주행 로봇이 충돌 없이 동시 작동하도록 밀리초 단위 스케줄링을 연산함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **대규모 군집 로봇 통신 오케스트레이션**: 다중 로봇 통신 수신 오버헤드를 제어하는 무선 네트워크 및 엣지 서버 구축 지식이 중시됨.\n\n---\n\n- **관련 기사 원문 검색**: [Robotics 24/7 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=Robotics+247+Symbotic+Walmart)"
+    "content_path": "content/bf4d5ff6ac7bdf386feadf8e.md",
+    "content_version": "fd745fc3eb8b0397"
   },
   {
     "id": "학습_가이드_260805_뉴스_IEEESpectrum_Unitree_G1_휴머노이드",
@@ -5932,7 +6247,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 08월 05일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] IEEE Spectrum | 유니트리(Unitree), 양산형 휴머노이드 'G1' 글로벌 공급 본격화\n\n> **[산업 동향 | 발행일자: 2026년 08월 05일 | 출처: [IEEE Spectrum](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+Unitree+G1+humanoid)]** IEEE Spectrum 보도에 따르면 유니트리가 13,500달러 가격대의 양산형 휴머노이드 G1을 보급하며 글로벌 로봇 상용화를 주도함.\n\n---\n\n## 1. 주요 소식 개요\n- 중국 유니트리(Unitree)는 13,500달러(한화 약 1,800만 원) 수준의 초저가 양산형 휴머노이드 **'G1'**을 글로벌 시장에 대량 공급하기 시작했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **3D 라이다 & 시뮬레이션 보행 라이브러리**: 초소형 관절 모듈과 가상 환경 강화학습으로 2.2m/s 주행 및 경사로 점프를 안정 구현함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **양산형 로봇 강화학습 보행**: 가상 시뮬레이터(Isaac Gym, PyBullet) 기반 강화학습(Sim-to-Real) 도메인 적응 기술을 익힐 것.\n\n---\n\n- **관련 기사 원문 검색**: [IEEE Spectrum 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+Unitree+G1+humanoid)"
+    "content_path": "content/92151b3e5185a7e87e03ceb3.md",
+    "content_version": "0e68d727a79408b0"
   },
   {
     "id": "학습_가이드_260810_뉴스_TheRobotReport_Figure02_BMW_공장",
@@ -5948,7 +6264,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 08월 10일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] The Robot Report | 피규어 AI(Figure AI) 휴머노이드 '피규어 02', BMW 공장 실증 완수\n\n> **[산업 동향 | 발행일자: 2026년 08월 10일 | 출처: [The Robot Report & 조선일보](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Figure+AI+BMW)]** The Robot Report 보도에 따르면 피규어 AI의 2세대 휴머노이드 Figure 02가 BMW 공장에서 주 5일 10시간 근무로 차량 3만 대 생산 실증을 완료했음.\n\n---\n\n## 1. 주요 소식 개요\n- Figure AI의 휴머노이드 로봇 **'Figure 02'**가 BMW 스파턴버그 공장에서 1,250시간 연속 투입되어 판금 픽앤플레이스로 X3 차량 3만 대 생산에 기여했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **OpenAI VLA 신경망 연동**: 상반신 관절 손과 비전 카메라가 통합되어 부품 배치 위치 오차를 실시간 보정함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **산업용 휴머노이드 현장 실증**: 휴머노이드 로봇이 연구실을 넘어 실제 자동차 제조 현장의 인프라로 빠르게 대량 도입되고 있음.\n\n---\n\n- **관련 기사 원문 검색**: [The Robot Report & 조선일보 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=The+Robot+Report+Figure+AI+BMW)"
+    "content_path": "content/a9da51f07870fa40c85ec126.md",
+    "content_version": "469c6cd3459051f3"
   },
   {
     "id": "학습_가이드_260812_뉴스_Robotics247_LG_CLOi_CarryBot_북미",
@@ -5964,7 +6281,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 08월 12일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] Robotics 24/7 | LG전자 자율주행 물류 로봇 '클로이 캐리봇' 북미 대형 센터 공급\n\n> **[산업 동향 | 발행일자: 2026년 08월 12일 | 출처: [Robotics 24/7](https://search.naver.com/search.naver?where=news&query=Robotics+247+LG+CLOi+CarryBot)]** Robotics 24/7 보도에 따르면 LG전자가 미국 물류 거점에 AMR 캐리봇 수십 대와 스마트 팩토리 통합 관제 시스템을 공급했음.\n\n---\n\n## 1. 주요 소식 개요\n- LG전자는 북미 물류 전시회 MODEX 이후 미국 대형 물류센터에 자율주행 이동로봇 **'LG CLOi CarryBot'** 라인업과 WMS 통합 플랫폼 계약을 체결했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Fast-X 주행 알고리즘 & 3D ToF 센서 퓨전**: 라이다와 ToF 카메라를 결합하여 좁은 통로에서도 1cm 이내 정밀도로 스스로 정차함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **AMR 소프트웨어 & ROS2 개발 역량**: 자율주행 이동로봇(AMR) 개발용 ROS2(Cartographer, Nav2) 경험자를 우선 선발함.\n\n---\n\n- **관련 기사 원문 검색**: [Robotics 24/7 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=Robotics+247+LG+CLOi+CarryBot)"
+    "content_path": "content/743912bd57846ae1d69a82a6.md",
+    "content_version": "20e95cf053ef5f40"
   },
   {
     "id": "학습_가이드_260814_뉴스_TechCrunch_SkildAI_범용_로봇_뇌",
@@ -5980,7 +6298,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 08월 14일",
     "tip_category": "",
-    "raw_content": "# [로봇 AI 뉴스] TechCrunch | 스킬드 AI(Skild AI), 3억 달러 유치 및 범용 로봇 뇌 모델 공개\n\n> **[산업 동향 | 발행일자: 2026년 08월 14일 | 출처: [TechCrunch](https://search.naver.com/search.naver?where=news&query=TechCrunch+Skild+AI+Robotics)]** TechCrunch 보도에 따르면 무장 로봇 및 다족/2족 로봇 모두에 공통 이식되는 범용 로봇 뇌 파운데이션 스타트업 Skild AI가 초대형 투자를 유치했음.\n\n---\n\n## 1. 주요 소식 개요\n- 카네기멜론대 교수진이 창업한 스킬드 AI(Skild AI)는 로봇 형태(하드웨어)에 상관없이 공통 이식되는 범용 로봇 인공지능 뇌 **'Skild Brain'**을 선보였음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Shared Robot Representation**: 보행 로봇, 바퀴 로봇, 로봇 팔 등 다양한 기구학 모델을 하나의 지능 모델로 통합 제어함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **하드웨어 독립적 로봇 AI 뇌**: 로봇 폼팩터와 독립된 범용 AI 제어 알고리즘 파이프라인 개발에 주목할 것.\n\n---\n\n- **관련 기사 원문 검색**: [TechCrunch 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=TechCrunch+Skild+AI+Robotics)"
+    "content_path": "content/1df4b406a037915a2e07eeac.md",
+    "content_version": "53471ade297163be"
   },
   {
     "id": "학습_가이드_260818_뉴스_Robotzine_티라로보틱스_고하중_AMR",
@@ -5996,7 +6315,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 08월 18일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 월간로봇기술 | 티라로보틱스, 1톤 고하중 자율주행 AMR 스마트 팩토리 대량 배치\n\n> **[산업 동향 | 발행일자: 2026년 08월 18일 | 출처: [월간로봇기술 (Robotzine)](https://search.naver.com/search.naver?where=news&query=월간로봇기술+티라로보틱스+AMR)]** 월간로봇기술 보도에 따르면 티라로보틱스가 경사로와 엘리베이터를 단독 승차하는 1톤 자율주행 AMR '티라봇'을 제조 공장에 투입했음.\n\n---\n\n## 1. 주요 소식 개요\n- 국내 자율주행 로봇 전문기업 티라로보틱스는 거친 공장 지면과 10도 경사로를 1톤 하중을 실은 채 안정 주행하는 자율주행 AMR **'티라봇 1000'**을 납품했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **독자 메커니즘 휠 서스펜션**: 凹凸 지면에서도 4바퀴 접지력을 100% 유지하는 독립 서스펜션 구조로 미끄러짐을 방지함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **AMR 하드웨어 서스펜션 & 제어**: 험지 및 고하중 이송 시 기구 서스펜션 설계와 휠 엔코더 슬립 보정 제어가 핵심 기술임.\n\n---\n\n- **관련 기사 원문 검색**: [월간로봇기술 (Robotzine) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=월간로봇기술+티라로보틱스+AMR)"
+    "content_path": "content/23a0215b2de0013aa7392ac3.md",
+    "content_version": "2a26250db59fdcec"
   },
   {
     "id": "학습_가이드_260822_뉴스_RoboAI_딥엑스_NPU_로봇_온디바이스",
@@ -6012,7 +6332,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 08월 22일",
     "tip_category": "",
-    "raw_content": "# [AI 로봇 뉴스] 로보아이 | 딥엑스, 초저전력 NPU 칩 로봇 온디바이스 AI 탑재 확대\n\n> **[산업 동향 | 발행일자: 2026년 08월 22일 | 출처: [로보아이 (RoboAI)](https://search.naver.com/search.naver?where=news&query=로보아이+딥엑스+NPU+온디바이스)]** 로보아이 보도에 따르면 국산 AI 반도체 딥엑스(DEEPX) NPU 칩이 실내 배송 로봇 및 모바일 AMR 온디바이스 AI 비전 제어기로 탑재 확대되었음.\n\n---\n\n## 1. 주요 소식 개요\n- AI 반도체 기업 딥엑스의 초저전력 NPU **'DX-M1'**이 서비스 로봇 및 AMR의 실시간 3D 객체 인식 및 안면인식 전용 온디바이스 칩셋으로 양산 이식되었음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **5W 저전력 런타임 추론**: GPU 대비 전력 소모를 10분의 1로 줄이면서 30fps 이상의 4K 객체 인식을 엣지 단에서 연산함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **온디바이스 NPU 최적화 (Quantization)**: 딥러닝 모델의 INT8 양자화 및 NPU 컴파일러 임베딩 능력이 로봇 SW 분야에서 부각됨.\n\n---\n\n- **관련 기사 원문 검색**: [로보아이 (RoboAI) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로보아이+딥엑스+NPU+온디바이스)"
+    "content_path": "content/5119322a6d464d53d18c4f3c.md",
+    "content_version": "10a4a23807755389"
   },
   {
     "id": "학습_가이드_260828_뉴스_VentureBeat_NVIDIA_Cosmos_월드모델",
@@ -6028,7 +6349,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 08월 28일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] VentureBeat | 엔비디아(NVIDIA), 피지컬 AI 핵심 '코스모스(Cosmos)' 월드 모델 공개\n\n> **[산업 동향 | 발행일자: 2026년 08월 28일 | 출처: [VentureBeat & 로보아이](https://search.naver.com/search.naver?where=news&query=VentureBeat+NVIDIA+Cosmos+Physical+AI)]** VentureBeat 보도에 따르면 엔비디아가 로봇이 물리적 세계의 가시 법칙을 예측하여 시뮬레이션 합성할 수 있도록 돕는 파운데이션 모델 Cosmos를 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 엔비디아(NVIDIA)는 로봇과 자율주행차가 실제 물리 세계의 중력, 마찰력, 반발력을 시뮬레이션하도록 돕는 월드 파운데이션 모델 **'NVIDIA Cosmos'** 및 Isaac Sim 5.0을 발표했음.\n- 보스턴 다이나믹스, 1X, 유니트리 등 세계 주요 로봇 기업들이 Cosmos 모델을 활용하여 로봇 모션 훈련 속도를 20배 가속하고 있음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **물리 기반 비디오 시뮬레이션 & Jetson Thor**: 블랙웰 온디바이스 모듈이 런타임 비전-제어를 초당 1,200조 회 연산함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **NVIDIA Isaac 생태계 필수 습득**: 글로벌 기업들의 로봇 개발 표준이 Isaac Sim/Gym 프레임워크로 일원화되고 있음.\n\n---\n\n- **관련 기사 원문 검색**: [VentureBeat & 로보아이 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=VentureBeat+NVIDIA+Cosmos+Physical+AI)"
+    "content_path": "content/7cdb55bf96032e7ae339236b.md",
+    "content_version": "a8f833e549425c05"
   },
   {
     "id": "학습_가이드_260903_뉴스_AITIMES_구글_LLM_환각원인_기억인출",
@@ -6044,7 +6366,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 03일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] AI타임스 | 구글 \"LLM 환각 원인은 지식 부족 아닌 '기억 인출' 실패\"\n\n> **[산업 동향 | 발행일자: 2026년 09월 03일 | 출처: [AI타임스 (AI TIMES)](https://search.naver.com/search.naver?where=news&query=AI타임스+구글+LLM+환각+원인+기억인출)]** AI타임스 보도에 따르면 구글 연구진이 거대언어모델(LLM)의 환각 현상이 지식 부재가 아닌 맥락 기억 인출(Memory Retrieval) 오류 때문임을 규명했음.\n\n---\n\n## 1. 주요 소식 개요\n- 구글 인공지능 연구팀은 거대언어모델(LLM)이 잘못된 답변을 생성하는 환각(Hallucination) 현상의 근본 원인을 분석한 연구 결과를 공개했음.\n- 모델이 해당 지식을 몰라서가 아니라 가중치 파라미터 속에서 정보를 인출하는 과정의 간섭 오류임이 입증되었음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **RAG & 런타임 팩트 검증**: 로봇 제어 지령 생성 시 로컬 벡터 DB와 결합하여 환각 오작동 위험을 99% 이상 감소시킴.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **안전한 로봇 AI 제어 파이프라인**: 팩트 검증 및 신호 튜닝을 거치는 안전 제어 파이프라인 설계가 필수적임.\n\n---\n\n- **관련 기사 원문 검색**: [AI타임스 (AI TIMES) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=AI타임스+구글+LLM+환각+원인+기억인출)"
+    "content_path": "content/58d124a9c8714ac8c0abbcb3.md",
+    "content_version": "2caf16255f9a9503"
   },
   {
     "id": "학습_가이드_260903_뉴스_AITIMES_오픈AI_GPT6_아스트라_공개",
@@ -6060,7 +6383,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 03일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] AI타임스 | 오픈AI, 압도적 성능 'GPT-6 아스트라' 공개…AGI 시대 진입 선언\n\n> **[산업 동향 | 발행일자: 2026년 09월 03일 | 출처: [AI타임스 (AI TIMES)](https://search.naver.com/search.naver?where=news&query=AI타임스+오픈AI+GPT-6+아스트라)]** AI타임스 보도에 따르면 오픈AI가 세계 최고 수준의 추론 및 소프트웨어 엔지니어링 능력을 갖춘 차세대 파운데이션 AI 모델 'GPT-6 아스트라(Astra)'를 공식 발표했음.\n\n---\n\n## 1. 주요 소식 개요\n- 오픈AI(OpenAI)는 2026년 9월 3일(현지시간) 차세대 파운데이션 AI 모델 **'GPT-6 아스트라(Astra)'**를 공식 출시했음.\n- 수학 난제 평가인 FrontierMath Tier 4(98%), 추론 능력 평가 ARC-AGI-3(99.9%) 등 주요 벤치마크에서 최고 기록을 달성하며 세계에서 가장 지능적인 모델임을 입증했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n\n### (1) 자율 컴퓨터 활용 및 멀티에이전트 오토 코딩\n- 복잡한 소프트웨어 구조 파악, 코드 리팩토링, 회로 라우팅 자동화 및 웹 브라우저 자율 조작을 수초 내에 처리함.\n\n### (2) Preparedness Framework 안전성 인증\n- 오픈AI의 대비 프레임워크에서 처음으로 크리티컬 등급을 받아 뛰어난 보안 진단 및 제어 성능을 보였음.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **ROS2 연동 AGI 파운데이션 활용**: 로봇 제어 시스템 개발 시 AGI급 AI 에이전트를 모듈 단위로 연동하는 종합 시스템 구축 능력이 중시됨.\n\n---\n\n- **관련 기사 원문 검색**: [AI타임스 (AI TIMES) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=AI타임스+오픈AI+GPT-6+아스트라)"
+    "content_path": "content/97489c0edc3e7af69ef6593b.md",
+    "content_version": "e22ec6b3dfcea0aa"
   },
   {
     "id": "학습_가이드_260904_뉴스_로봇신문_레인보우로보틱스_양팔로봇_RB_Y2",
@@ -6076,7 +6400,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 04일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 로봇신문 | 레인보우로보틱스, AI 이동형 양팔로봇(RB-Y2) 및 사족보행 로봇 공개\n\n> **[산업 동향 | 발행일자: 2026년 09월 04일 | 출처: [로봇신문](https://search.naver.com/search.naver?where=news&query=로봇신문+레인보우로보틱스+양팔로봇+RB-Y2)]** 로봇신문 보도에 따르면 레인보우로보틱스가 이동형 양팔로봇 RB-Y2와 험지 자율주행 사족보행 로봇 RBQ 라인업을 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 레인보우로보틱스는 정밀 양손 작업을 지원하는 차세대 이동형 양팔로봇 **'RB-Y2'**와 다리-바퀴 결합 사족보행 로봇 **'RBQ-10W'**를 공개했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **7축 관절 양팔 & 3D 라이다 보행**: 오픈 SDK를 제공하여 VLA(Vision-Language-Action) 모델을 직접 적용할 수 있는 연구용/산업용 플랫폼임.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **양팔 매니퓰레이터 제어 경험**: 양팔 협동 제어 및 모바일 매니퓰레이션 경험이 우대받는 핵심 역량임.\n\n---\n\n- **관련 기사 원문 검색**: [로봇신문 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로봇신문+레인보우로보틱스+양팔로봇+RB-Y2)"
+    "content_path": "content/d48a51b4f5f21293e2bb5198.md",
+    "content_version": "8c69f8c5c1913fa2"
   },
   {
     "id": "학습_가이드_260905_뉴스_AITIMES_앤트로픽_클로드맥스_초기화",
@@ -6092,7 +6417,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 05일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] AI타임스 | 앤트로픽, '클로드 맥스' 주간 사용량 초기화…'아스트라' 돌풍에 맞불\n\n> **[산업 동향 | 발행일자: 2026년 09월 05일 | 출처: [AI타임스 (AI TIMES)](https://search.naver.com/search.naver?where=news&query=AI타임스+앤트로픽+클로드+맥스+아스트라)]** AI타임스 보도에 따르면 앤트로픽이 GPT-6 아스트라 출시 대응으로 최고 등급 '클로드 맥스' 이용자의 주간 한도를 기습 일괄 초기화했음.\n\n---\n\n## 1. 주요 소식 개요\n- 앤트로픽(Anthropic)은 최고 유료 요금제인 '클로드 맥스(Claude Max)' 이용자들을 대상으로 주간 사용량 제한을 기습 일괄 리셋했음.\n- 신규 모델 'Fable 5.1'과 CLI 도구 '클로드 코드(Claude Code)' 사용자 이탈을 방지하기 위한 대응책임.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Claude Code CLI 통합**: 터미널 내 자율 에이전트 모드를 탑재하여 로봇 C++/Python 멀티파일 프로젝트를 파격 지원함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **AI 코딩 에이전트 생산성**: 터미널 기반 AI 코딩 도구를 도입하여 대규모 로봇 프로젝트 빌드 시간을 단축할 것.\n\n---\n\n- **관련 기사 원문 검색**: [AI타임스 (AI TIMES) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=AI타임스+앤트로픽+클로드+맥스+아스트라)"
+    "content_path": "content/ee394367fad52e50fa5ad586.md",
+    "content_version": "f31d8f65c4c6014c"
   },
   {
     "id": "학습_가이드_260905_뉴스_TechCrunch_1X_Technologies_NEO_양산",
@@ -6108,7 +6434,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 05일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] TechCrunch | 1X Technologies 가정용 휴머노이드 '네오(NEO)' 전용 공장 가동 및 양산\n\n> **[산업 동향 | 발행일자: 2026년 09월 05일 | 출처: [TechCrunch](https://search.naver.com/search.naver?where=news&query=TechCrunch+1X+Technologies+NEO)]** TechCrunch 보도에 따르면 오픈AI의 투자를 받은 1X 테크놀로지스가 캘리포니아 전용 공장을 가동하여 30kg 경량 가정용 휴머노이드 'NEO' 양산에 진입했음.\n\n---\n\n## 1. 주요 소식 개요\n- 1X 테크놀로지스(1X Technologies)는 미국 캘리포니아 헤이워드에 '네오 팩토리'를 전면 가동하고 가정용 범용 휴머노이드 **'NEO(네오)'** 양산과 미국 내 상용 공급을 시작했음.\n- 키 167cm, 무게 30kg의 초경량 구조에 소음 수준을 22dB 이하로 낮추어, 집안일(정리, 세탁, 이송)을 안전하고 조용하게 수행하는 실생활 AI 로봇 플랫폼임.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **25자유도 텐던 구동 손 & 1X World Model**: 촉각 센서 및 모션 캡처 학습으로 미지의 실내 환경 모션을 자율 계획함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **경량화 메커니즘 & 인간 상호작용 안전성**: 초저소음 관절 모듈 및 경량화 기구 설계 지식이 중요해짐.\n\n---\n\n- **관련 기사 원문 검색**: [TechCrunch 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=TechCrunch+1X+Technologies+NEO)"
+    "content_path": "content/c00031a0031f90dfcdbd64ca.md",
+    "content_version": "4b3f1f06b2816e64"
   },
   {
     "id": "학습_가이드_260906_뉴스_AITIMES_앤트로픽_페이블5_1_출시",
@@ -6124,7 +6451,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 06일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] AI타임스 | 앤트로픽, 최고 성능 '페이블 5.1' 출시...캐시 읽기 75% 파격 할인\n\n> **[산업 동향 | 발행일자: 2026년 09월 06일 | 출처: [AI타임스 (AI TIMES)](https://search.naver.com/search.naver?where=news&query=AI타임스+앤트로픽+페이블+5.1+캐시)]** AI타임스 보도에 따르면 앤트로픽이 코딩 및 에이전트 성능을 극대화한 '페이블 5.1'을 출시하고 프롬프트 캐싱 비용 75% 할인을 발표했음.\n\n---\n\n## 1. 주요 소식 개요\n- 앤트로픽은 차세대 모델 **'페이블 5.1(Fable 5.1)'**을 출시하고 프롬프트 캐싱 비용을 75% 할인 제공하여 대규모 코드 유지비를 절감했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **대용량 Prompt Caching**: 반복되는 C++/Python 로봇 라이브러리 코드를 캐싱하여 처리 속도를 4배 이상 향상시킴.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **대규모 로봇 프로젝트 파싱**: 프롬프트 캐싱을 적극 활용하여 로봇 코드베이스 분석 속도를 높일 것.\n\n---\n\n- **관련 기사 원문 검색**: [AI타임스 (AI TIMES) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=AI타임스+앤트로픽+페이블+5.1+캐시)"
+    "content_path": "content/643fd4aa4667fc7df84a0035.md",
+    "content_version": "b0421ecd71405418"
   },
   {
     "id": "학습_가이드_260906_뉴스_로봇신문_현대위아_자율주행_주차로봇",
@@ -6140,7 +6468,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 06일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업 뉴스] 로봇신문 | 현대위아, 무인 자율주행 주차로봇(AGV) 상용화 및 주거단지 확대\n\n> **[산업 동향 | 발행일자: 2026년 09월 06일 | 출처: [로봇신문](https://search.naver.com/search.naver?where=news&query=로봇신문+현대위아+자율주행+주차로봇)]** 로봇신문 보도에 따르면 현대위아가 바퀴형 AGV 기반 자율주행 주차로봇 기술을 상용화하고 주거 단지 및 스마트 팩토리로 확충했음.\n\n---\n\n## 1. 주요 소식 개요\n- 현대위아는 초슬림 무인운반차(AGV) 한 쌍이 차량 바퀴를 직접 들고 주차 구역에 자율 이동 배치하는 **'주차로봇 System'**을 상용화했음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **110mm 이하 초슬림 듀얼 AGV**: 5G 무선 통신 기반 밀리미터 단위 동기화 모션으로 주차 공간 효율을 30% 높였음.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **멀티 로봇 군집 동기화 제어**: 단일 로봇 주행을 넘어 다중 AMR/AGV 군집 제어 관제 서버 구축 경험이 필수적임.\n\n---\n\n- **관련 기사 원문 검색**: [로봇신문 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로봇신문+현대위아+자율주행+주차로봇)"
+    "content_path": "content/6a54b998bb7f820388fa4ba4.md",
+    "content_version": "fac39455007f686f"
   },
   {
     "id": "학습_가이드_260907_뉴스_AITIMES_UAE_오픈소스_K2_호라이즌",
@@ -6156,7 +6485,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 07일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] AI타임스 | UAE, 세계 최대 규모 완전 오픈소스 AI 'K2 호라이즌' 공개\n\n> **[산업 동향 | 발행일자: 2026년 09월 07일 | 출처: [AI타임스 (AI TIMES)](https://search.naver.com/search.naver?where=news&query=AI타임스+UAE+오픈소스+K2+호라이즌)]** AI타임스 보도에 따르면 UAE 기술혁신연구소가 가중치와 코드를 100% 공개하는 초대형 오픈소스 LLM 'K2 호라이즌'을 무료 출시했음.\n\n---\n\n## 1. 주요 소식 개요\n- UAE TII는 1조 파라미터급 초대형 오픈소스 인공지능 모델 **'K2 호라이즌'**을 무료 공개하여 온프레미스 사적 이식을 지원함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Apache 2.0 라이선스**: 데이터 유출 걱정 없이 보안이 철저한 로봇 공장 로컬 서버에 직접 파인튜닝이 가능함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **오픈소스 AI 로컬 파인튜닝**: 사설 엣지 컴퓨팅망에 오픈소스 AI를 구축하고 로봇 제어 데이터로 튜닝해 본 경험을 어필할 것.\n\n---\n\n- **관련 기사 원문 검색**: [AI타임스 (AI TIMES) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=AI타임스+UAE+오픈소스+K2+호라이즌)"
+    "content_path": "content/728c87bcf014dbc488f2a734.md",
+    "content_version": "3b0b49fde31018a5"
   },
   {
     "id": "학습_가이드_260908_뉴스_IEEESpectrum_MIT_LiquidAI_경량화로봇",
@@ -6172,7 +6502,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 08일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] IEEE Spectrum | MIT-Liquid AI, 엣지용 액체 신경망(LNN) 기반 초경량 드론-로봇 자율비행 성공\n\n> **[산업 동향 | 발행일자: 2026년 09월 08일 | 출처: [IEEE Spectrum](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+MIT+Liquid+AI+드론)]** MIT CSAIL 연구진과 Liquid AI가 시분할 동적 신경망인 액체 신경망(Liquid Neural Network, LNN)을 적용해 1W 미만 전력으로 미지의 밀림과 소음 환경을 자율 비행·탐색하는 드론 로봇을 구현했다고 보도함.\n\n---\n\n## 1. 주요 소식 개요\n- MIT 연구진은 수만 개의 매개변수만으로 수십억 규모 LLM급 적응 능력을 발휘하는 **Liquid Neural Network(LNN)** 제어기를 로봇 엣지 칩에 탑재함.\n- 강풍이나 센서 노이즈가 심한 지하 관로 환경에서도 경로 이탈 없이 완전 자율 수색 임무를 완성함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **시분할 적응형 미분방정식 신경망**: 연속적 시간 흐름에 따라 매개변수가 실시간 적응 변형하여 컴퓨팅 리소스 소비를 90% 이상 절감함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **초경량 엣지 AI 알고리즘 이력 우수성**: MCU 및 엣지 임베디드 장치에 탑재 가능한 차세대 경량 AI 알고리즘(LNN, Quantization) 연구 사례를 접해볼 것.\n\n---\n\n- **관련 기사 원문 검색**: [IEEE Spectrum 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=IEEE+Spectrum+MIT+Liquid+AI+드론)"
+    "content_path": "content/4652a3d0003a194f35405499.md",
+    "content_version": "2065c628de29c784"
   },
   {
     "id": "학습_가이드_260908_뉴스_로봇신문_레인보우로보틱스_협동로봇_AI비전",
@@ -6188,7 +6519,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 08일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] 로봇신문 | 레인보우로보틱스, AI 3D 비전 결합 차세대 자율 제조 로봇 'RB-AI' 라인업 확대\n\n> **[산업 동향 | 발행일자: 2026년 09월 08일 | 출처: [로봇신문](https://search.naver.com/search.naver?where=news&query=로봇신문+레인보우로보틱스+RB-AI+협동로봇)]** 레인보우로보틱스가 자체 개발한 3D AI 비전 알고리즘과 6축 협동로봇을 수직통합한 모듈형 스마트 팩토리 수직 제조 솔루션 'RB-AI' 라인업을 확대 출시했다고 발표함.\n\n---\n\n## 1. 주요 소식 개요\n- 레인보우로보틱스는 무작위로 적재된 비정형 부품을 3D AI 비전으로 정밀 인식해 기계 가공 설비에 투입하는 **RB-AI** 플랫폼을 선보임.\n- 핵심 감속기, 제어기, 서보 모터 및 비전 소프트웨어까지 100% 국산화하여 유지보수 비용을 기존 대비 40% 절감함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **비정형 부품 3D 딥러닝 빈픽킹(Bin-Picking)**: 가림 현상이 심한 고난도 금속 부품도 0.3초 내 조명 및 난반사에 영향받지 않고 파악함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **협동로봇 및 3D 비전 통합 역량**: ROS2 기반 비전-매니퓰레이션 결합 제어 및 사물 인식 딥러닝파이프라인 구축 능력을 기를 것.\n\n---\n\n- **관련 기사 원문 검색**: [로봇신문 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로봇신문+레인보우로보틱스+RB-AI+협동로봇)"
+    "content_path": "content/f848f943c1d399b407acd97a.md",
+    "content_version": "b57d336c5ac9c65a"
   },
   {
     "id": "학습_가이드_260909_뉴스_VentureBeat_NVIDIA_GR00T_2_휴머노이드",
@@ -6204,7 +6536,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 09일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] VentureBeat | 엔비디아, 범용 휴머노이드 파운데이션 모델 'Project GR00T 2.0' 발표\n\n> **[산업 동향 | 발행일자: 2026년 09월 09일 | 출처: [VentureBeat](https://search.naver.com/search.naver?where=news&query=VentureBeat+엔비디아+GR00T+2.0)]** 엔비디아가 자율주행 및 물리 시뮬레이션 플랫폼 Isaac Sim 4.5 기반의 차세대 범용 휴머노이드 AI 파운데이션 모델 'Project GR00T 2.0' 플랫폼을 글로벌 로보틱스 생태계에 출시했다고 보도함.\n\n---\n\n## 1. 주요 소식 개요\n- 엔비디아는 가상 시뮬레이션 물리 환경에서 수백만 번의 반복 강습을 거친 **Project GR00T 2.0** 소프트웨어를 공개함.\n- 시뮬레이션 환경에서 학습한 보행 및 물체 조작 능력을 실물 휴머노이드 로봇으로 이전하는 Sim2Real 가속을 100배 이상 단축함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Isaac Lab & Omniverse 물리 렌더링**: 합성 데이터 기반 다중 에이전트 훈련을 통해 예기치 못한 충돌 및 미끄러짐 상황에서의 즉각 복구 동작을 지원함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **NVIDIA Isaac Sim 및 Sim2Real 트렌드 분석**: 물리 엔진 기반 시뮬레이터(Isaac Sim, MuJoCo) 활용 경험과 로봇 강화학습 역량을 포트폴리오에 강조할 것.\n\n---\n\n- **관련 기사 원문 검색**: [VentureBeat 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=VentureBeat+엔비디아+GR00T+2.0)"
+    "content_path": "content/8cf989ac170242dbcb14d950.md",
+    "content_version": "64fafd421a054992"
   },
   {
     "id": "학습_가이드_260910_뉴스_AITIMES_오픈AI_아스트라_나비에스토크스_수학난제_표절논란",
@@ -6220,7 +6553,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 10일",
     "tip_category": "",
-    "raw_content": "# [AI 기술] AI타임스 | 오픈AI, AI 에이전트 '아스트라'로 나비에-스토크스 방정식 및 수학 난제 해법 도출 발표… 학계 논란과 캘텍 후원 철회\n\n> **[기술 동향 | 발행일자: 2026년 09월 10일 | 출처: [AI타임스](https://www.aitimes.com)]** AI타임스 보도에 따르면 오픈AI가 차세대 AI 에이전트 '아스트라(Astra)' 내부 버전을 활용해 밀레니엄 미해결 난제인 '나비에-스토크스(Navier-Stokes) 방정식'을 포함한 수학 난제 10개의 해법을 도출했다고 발표했으나, 수학계의 저품질 '슬롭 수학' 비판 및 비공개 연구 유출/표절 공방이 불거지며 캘텍 매스어톤 후원을 철회했음.\n\n---\n\n## 1. 주요 소식 개요\n- 오픈AI 연구 총괄 댄 로버츠(Dan Roberts)는 2026년 9월 10일(현지시간) 테렌스 타오 UCLA 교수를 포함한 저명 수학자 100여 명의 서명 공개 서한과 학계 우려를 고려해 '캘텍 매스어톤(Caltech Mathathon)' 행사의 후원을 전격 철회한다고 발표함.\n- 오픈AI는 AI 에이전트 모델 '아스트라'를 통해 90년 된 밀레니엄 난제인 나비에-스토크스 방정식 해법을 도출하고 10개의 장기 미해결 문제를 해결했다고 공언함.\n- 이에 대해 뉴욕대학교 트리스탄 버크마스터 교수와 앤트로픽 연구진의 비공개 연구 초안 유출 및 표절 의혹 논란과 함께 미검증 계산 결과인 '슬롭 수학(Slop Mathematics)'의 남발 위험성에 대한 수학계의 거센 반발이 일어남.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **나비에-스토크스 방정식 및 미해결 난제 솔버**: 아스트라 AI 에이전트의 대량 토큰 연산 기반 고차원 미분방정식 해법 도출.\n- **수학 연구 벤치마크 및 검증 이슈**: 비식별 데이터 및 유출 초안 학습 의혹, 검증 부담의 연구자 전가 문제 발생.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **유체역학 및 딥러닝 기반 물리 시스템(PINN)**: 로봇 기구학 및 유체 제어 계산 시 AI 물리 모델의 정확성 검증과 팩트 체크 파이프라인의 중요성 부각.\n\n---\n\n- **관련 기사 원문 링크**: [AI타임스 홈페이지 기사 보기](https://www.aitimes.com)"
+    "content_path": "content/9524ce6348ba97bd9a2a7c20.md",
+    "content_version": "dfb29be9a0542f37"
   },
   {
     "id": "학습_가이드_260910_뉴스_TheRobotReport_BostonDynamics_Atlas_Electric_BMW",
@@ -6236,7 +6570,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 10일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] TheRobotReport | 보스턴다이나믹스, 차세대 전동식 아틀라스(Atlas) BMW 공장 부품운반 테스트 성공\n\n> **[산업 동향 | 발행일자: 2026년 09월 10일 | 출처: [TheRobotReport](https://search.naver.com/search.naver?where=news&query=TheRobotReport+보스턴다이나믹스+아틀라스+BMW)]** 보스턴다이나믹스의 전동식 아틀라스(Electric Atlas)가 BMW 라이프치히 자동차 생산 공장에서 고중량 배선 작업 및 엔진 조립 부품 정밀 운반 시범 테스트를 99.8%의 성공률로 마쳤다고 보도함.\n\n---\n\n## 1. 주요 소식 개요\n- 유압식을 탈피하고 완전 전동식 조인트를 적용한 보스턴다이나믹스의 **Electric Atlas**가 실제 완성차 생산 라인에서 자동차 실린더 헤드 픽업 및 컨베이어 배치를 자율 수행함.\n- 인간 작업자와의 안전한 공동 작업을 위해 LiDAR 및 3D depth 카메라 기반 충돌 방지 0.05초 긴급 제동 시스템을 검증함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **전동식 가변 토크 제어**: 관절마다 탑재된 고출력 모터와 커스텀 감속기를 통해 40kg 고중량물을 흔들림 없이 수평 유지 제어함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **완성차 제조 현장 자율화 기술 이해**: 보스턴다이나믹스와 완성차 업체 간의 자율 제조 로봇 실증 사례와 제어 안전(Functional Safety) 규격을 체크할 것.\n\n---\n\n- **관련 기사 원문 검색**: [TheRobotReport 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=TheRobotReport+보스턴다이나믹스+아틀라스+BMW)"
+    "content_path": "content/df9914133806bc3dd47abc6f.md",
+    "content_version": "87b2853dd45ec2ab"
   },
   {
     "id": "학습_가이드_260910_뉴스_구글_툴그래드_ToolGrad_AI에이전트_학습",
@@ -6252,7 +6587,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 10일",
     "tip_category": "",
-    "raw_content": "# [AI 기술] AI타임스 | 구글 연구진, 소규모 데이터로 AI 에이전트 도구 활용력 극대화하는 '툴그래드(ToolGrad)' 공개\n\n> **[기술 동향 | 발행일자: 2026년 09월 10일 | 출처: [AI타임스](https://www.aitimes.com)]** AI타임스 보도에 따르면 구글 연구팀이 검증된 도구 실행 경로를 먼저 생성한 후 사용자 질의를 후생성하는 '답변 우선' AI 학습 데이터 생성 프레임워크 '툴그래드(ToolGrad)'를 공개했음.\n\n---\n\n## 1. 주요 소식 개요\n- 구글은 기존 '질의 우선' 방식의 깊이 우선 탐색(DFS)으로 인한 데이터 생성 실패와 연산 자원 낭비를 극복하기 위해 툴그래드 시스템을 제시함.\n- 검증된 도구 호출 경로를 바탕으로 지시문을 역생성하여 학습 데이터 생성 성공률을 기존 63.8%에서 99.8%로 향상시킴.\n- 단 500개의 정제된 툴그래드 데이터셋만으로 파인튜닝된 젬마-3(Gemma-3 12B) 모델이 버클리 함수 호출 리더보드(BFCL)에서 83.1점을 기록함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **텍스처 그래디언트 (Textual Gradient)**: API 제안자, 실행기, 선택자, LLM 업데이트 모듈 간 피드백 루프 적용.\n- **One-shot 일괄 도구 호출**: ReAct 방식의 반복 탐색 지연시간을 줄이고 전체 도구 호출 경로를 한 번에 연산.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **로봇 파운데이션 모델 도구 활용 능력**: VLA / LLM 에이전트가 로봇 제어 API, 이동 서비스, 센서 인터페이스를 빠르고 정확하게 호출하는 경량화 파인튜닝 원리를 이해할 수 있음.\n\n---\n\n- **관련 기사 원문 링크**: [AI타임스 홈페이지 기사 보기](https://www.aitimes.com)"
+    "content_path": "content/d590c574d0cafa6d23951cd3.md",
+    "content_version": "3540244500b51235"
   },
   {
     "id": "학습_가이드_260910_뉴스_로봇신문_삼성전자_휴머노이드_볼리_산업용",
@@ -6268,7 +6604,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 10일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] 로봇신문 | 삼성전자, 온디바이스 AI 기반 산업용 보조 로봇 'RB-X1' 파운드리 현장 적용\n\n> **[산업 동향 | 발행일자: 2026년 09월 10일 | 출처: [로봇신문](https://search.naver.com/search.naver?where=news&query=로봇신문+삼성전자+산업용+보조로봇+RB-X1)]** 삼성전자 DX부문과 로봇사업팀이 자체 개발한 온디바이스 NPU 및 초저전력 방진·방수 작업보조 로봇 'RB-X1'을 평택 반도체 팹(FAB) 클린룸 현장에 시범 투입했다고 발표함.\n\n---\n\n## 1. 주요 소식 개요\n- 삼성전자는 웨이퍼 이송 박스(FOUP) 관리 및 정밀 케미컬 관로 점검용 온디바이스 AI 자율주행 로봇 **RB-X1** 솔루션을 공개함.\n- 클라우드 접속 없이 자체 NPU 칩셋만으로 실시간 이상 진단 및 3D 그래픽 비전검사를 0.01초 내 처리할 수 있음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **온디바이스 NPU 파이프라인**: 반도체 클린룸 내부의 강한 기류 및 빛 반사 환경에서도 방진·방수 규격을 충족하며 이상 진단을 자율 수행함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **국내 대기업 로봇 사업 현황**: 삼성전자, LG전자, 현대차그룹 등 국내 주요 기업의 로봇사업팀 연구 분야(비전NPU, 하드웨어설계)를 대비할 것.\n\n---\n\n- **관련 기사 원문 검색**: [로봇신문 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=로봇신문+삼성전자+산업용+보조로봇+RB-X1)"
+    "content_path": "content/672ff9948ecf3edc48066cdd.md",
+    "content_version": "8b154d2fb1284868"
   },
   {
     "id": "학습_가이드_260910_뉴스_앤트로픽_클로드코드_플러그인평가_PluginEvals",
@@ -6284,7 +6621,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 10일",
     "tip_category": "",
-    "raw_content": "# [AI 기술] AI타임스 | 앤트로픽, 코딩 에이전트 성능 자동 검증하는 '플러그인 평가(Plugin Evals)' 기능 출시\n\n> **[기술 동향 | 발행일자: 2026년 09월 10일 | 출처: [AI타임스](https://www.aitimes.com)]** AI타임스 보도에 따르면 앤트로픽이 개발자용 코딩 에이전트 '클로드 코드(Claude Code v2.1.269)'에 플러그인의 실제 동작 여부와 기여도를 자동으로 정밀 측정하는 '플러그인 평가(Plugin Evals)' 기능을 새롭게 도입했음.\n\n---\n\n## 1. 주요 소식 개요\n- 앤트로픽은 기존 매니페스트 문법 검사에 그치던 유효성 확인을 넘어, 실제 프롬프트에서 해당 플러그인 스킬이 호출되는지와 기본 모델 대비 향상된 성능(Δ, 델타)을 산출하는 평가 프레임워크를 공개함.\n- `claude plugin eval` 명령어를 통해 플러그인 미적용(W/OUT) 대비 적용(WITH) 시의 점수 차이를 정량화함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Δ(델타) 벤치마크 평가**: 단순 성공 여부가 아니라 플러그인이 성능 향상에 기여한 순수 오프셋 지표 측정.\n- **CI/CD 게이트 통합**: `--threshold` 및 `--max-cost-usd` 파라미터를 제공하여 빌드 파이프라인에서 자동 품질 통제 수행.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **AI 에이전트 플러그인 및 도구 개발 레벨업**: LLM/VLA 기반 로봇 에이전트 구축 시 도구 호출(Tool Calling) 정확도와 델타 검증 자동화 방법론 학습이 도움이 됨.\n\n---\n\n- **관련 기사 원문 링크**: [AI타임스 홈페이지 기사 보기](https://www.aitimes.com)"
+    "content_path": "content/87300b4c4f628f570dd3427e.md",
+    "content_version": "e7fbec3594c1b87d"
   },
   {
     "id": "학습_가이드_260911_뉴스_AITIMES_Google_DeepMind_Gemini_Robotics_V2",
@@ -6300,7 +6638,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 11일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] AI타임스 | 구글 딥마인드, 실시간 멀티모달 제어 '제미나이 로보틱스 V2' 전격 공개\n\n> **[산업 동향 | 발행일자: 2026년 09월 11일 | 출처: [AI타임스 (AI TIMES)](https://search.naver.com/search.naver?where=news&query=AI타임스+구글+딥마인드+제미나이+로보틱스+V2)]** 구글 딥마인드가 비전-언어-행동(VLA) 파운데이션 모델 '제미나이 로보틱스 V2(Gemini Robotics V2)'를 공개하고, 20ms 이하의 초저지연 시각 피드백 로봇 멀티모달 제어를 달성했다고 발표함.\n\n---\n\n## 1. 주요 소식 개요\n- 구글 딥마인드는 복잡한 동적 물리 환경에서 실시간 50Hz 피드백 루프를 처리할 수 있는 차세대 시각-행동 파운데이션 모델 **Gemini Robotics V2**를 오픈 소스로 확장함.\n- 미지의 물체를 처음 접했을 때 3D 가우시안 스플래팅 시각 추론으로 즉각 픽앤플레이스 전략을 수립하는 미세조작 능력을 증명함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **RT-3 기반 VLA 통합 아키텍처**: 비전 트랜스포머와 로봇 궤적 변환기를 통합하여 자연어 지시(\"테이블 위의 컵을 떨어뜨리지 않고 상자에 담아줘\")에 99.4% 성공률로 대응함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **VLA 파운데이션 모델 최신 동향 파악**: PyTorch 기반 로보틱스 VLA 모델 가중치를 다운로드하여 오픈소스 로봇(ROS2)과 연동하는 실습 프로젝트를 준비할 것.\n\n---\n\n- **관련 기사 원문 검색**: [AI타임스 (AI TIMES) 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=AI타임스+구글+딥마인드+제미나이+로보틱스+V2)"
+    "content_path": "content/d1e9a707e97d222082aa9fb4.md",
+    "content_version": "824f6f8257837483"
   },
   {
     "id": "학습_가이드_260911_뉴스_DGIST_KAIST_소형_AI_경로계획_DPT",
@@ -6316,7 +6655,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 11일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 기술] 로봇신문 | DGIST·KAIST 연구팀, 주변 움직임 예측 및 자율주행 경로계획용 소형 AI 모델 개발\n\n> **[기술 동향 | 발행일자: 2026년 09월 11일 | 출처: [로봇신문](https://www.irobotnews.com/news/articleView.html?idxno=48451)]** 로봇신문 보도에 따르면 DGIST 박대희 교수 연구팀과 KAIST 연구팀이 주변 사람들의 움직임 예측과 로봇의 안전한 이동 경로 계획을 하나의 소형 AI 모델에서 동시에 수행하는 '분리형 파라미터 학습(DPT)' 및 희소 병합 기술을 개발했음.\n\n---\n\n## 1. 주요 소식 개요\n- DGIST 전기전자컴퓨터공학과 박대희 교수 연구팀과 KAIST 공동 연구진은 군중이 밀집한 환경에서 주변 사람들의 이동 궤적을 예측하는 기능과 로봇 충돌을 회피하는 경로 계획 기능을 하나의 소형 AI 모델로 통합하는 기술을 개발했음.\n- 멀티태스크 학습 시 발생하는 '스킬 충돌(Skill Conflict)' 현상을 차단하기 위해 파라미터를 분리하여 학습시킨 후 최적의 성분만 병합하는 방식을 적용함.\n- 본 연구 성과는 컴퓨터 비전 분야 대표 학회인 'ECCV 2026'에 최종 채택되어 스웨덴 말뫼 학회 현장에서 발표됨.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **DPT (Conflict-Aware Disjoint Parameter Training)**: 복수 기능 간 파라미터 간섭 현상을 방지하는 독립 파라미터 할당 및 희소 병합 기법.\n- **JRDB / JTA 로봇 데이터셋 검증**: 벤치마크 실험 결과 기존 대비 이동 경로 오차 및 충돌 확률을 획기적으로 낮춤.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **온디바이스 Edge AI 임베딩 역량**: 센서 데이터 기반 실시간 예측 및 플래닝 모델을 리소스가 제한된 임베디드 단말에 경량화하여 탑재하는 기술 이해도가 강조됨.\n\n---\n\n- **관련 기사 원문 링크**: [로봇신문 기사 보기](https://www.irobotnews.com/news/articleView.html?idxno=48451)"
+    "content_path": "content/d9759950de0362f6b264170e.md",
+    "content_version": "641d9fc73aaf821d"
   },
   {
     "id": "학습_가이드_260911_뉴스_베크나로보틱스_3100만달러_투자유치_AMR",
@@ -6332,7 +6672,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 11일",
     "tip_category": "",
-    "raw_content": "# [물류 자동화] 로봇신문 | 미국 베크나 로보틱스, 3100만 달러 투자 유치 및 AMR 생산 확대\n\n> **[산업 동향 | 발행일자: 2026년 09월 11일 | 출처: [로봇신문](https://www.irobotnews.com/news/articleView.html?idxno=48434)]** 로봇신문 보도에 따르면 미국의 물류창고 자동화 기업 베크나 로보틱스(Vecna Robotics)가 '언리스(Unless)' 주도로 3,100만 달러(약 420억 원) 규모의 시리즈 투자 유치에 성공했음.\n\n---\n\n## 1. 주요 소식 개요\n- 물류 자율주행 솔루션 전문 기업 베크나 로보틱스는 케이스 피킹 솔루션 '케이스플로(CaseFlow)', 자율주행 지게차, 코봇 팰릿잭 사업 확장에 3,100만 달러를 투입함.\n- 미 연방통신위원회(FCC)의 커넥티드 로봇 규제에 발맞추어 매사추세츠 본사에서 직접 생산하는 미국산 AMR 인프라 경쟁력을 강조함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **Pivotal 오케스트레이션 SW**: 물류 현장 내 다종 AMR 및 자율 지게차 군집제어 및 동적 자재 이동 최적화 소프트웨어.\n- **인프라 프리(Infra-free) 자율주행**: 별도 마커나 반사판 없이 3D 맵핑 기반으로 실시간 최단 경로를 탐색하는 자율이동 기술.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **스마트 물류 FMS / WCS 구축 경험**: 단일 로봇 제어를 넘어 플릿 매니지먼트 시스템(FMS)과 물류 관제 SW 연동 기술 경험이 중요한 채용 경쟁력이 됨.\n\n---\n\n- **관련 기사 원문 링크**: [로봇신문 기사 보기](https://www.irobotnews.com/news/articleView.html?idxno=48434)"
+    "content_path": "content/6131f3e7affd8e96b01c0a4f.md",
+    "content_version": "ea7dc818feafd7a3"
   },
   {
     "id": "학습_가이드_260911_뉴스_선전우체국_H007_소포분류_휴머노이드",
@@ -6348,7 +6689,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 11일",
     "tip_category": "",
-    "raw_content": "# [로봇 산업] 로봇신문 | 중국 선전 우체국, 택배 분류 작업장에 휴머노이드 로봇 현장 투입\n\n> **[산업 동향 | 발행일자: 2026년 09월 11일 | 출처: [로봇신문](https://www.irobotnews.com/news/articleView.html?idxno=48447)]** 로봇신문 보도에 따르면 중국 선전시 룽화구 우정 물류처리센터 택배 분류 실전 현장에 휴머노이드 로봇이 정식 투입되어 상용 작업을 시작했음.\n\n---\n\n## 1. 주요 소식 개요\n- 선전 우체국 물류 센터에 스타트업 워넝쥐선(我能具身)이 개발한 'H007' 소포 분류 휴머노이드 로봇이 도입됨.\n- 휴머노이드 로봇은 5지형 로봇손을 활용해 소포 파지, 회전, 라인 배치를 자율 수행하며 시간당 최대 1,200개의 소포를 처리함.\n- 실전 작업 분류 정확도는 95% 이상을 기록하며 작업 효율을 크게 향상시켰음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **5지 다지형 그리퍼 & 비전 분류 AI**: 정형/비정형 소포 형상을 실시간 3D 카메라로 파악하고 손가락 압력 제어로 물품 손상 없이 고속 파지함.\n- **물류 자동화 오케스트레이션**: 컨베이어 벨트 속도와 연동된 자율 피킹 및 정렬 동선 제어 알고리즘.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **다지형 다지 핸드 제어 및 로봇 피킹 비전**: 물류 및 공장 자동화 현장에서 휴머노이드 로봇 손의 파지 알고리즘 및 비전 AI 융합 제어가 상용화 트렌드로 부상하고 있음.\n\n---\n\n- **관련 기사 원문 링크**: [로봇신문 기사 보기](https://www.irobotnews.com/news/articleView.html?idxno=48447)"
+    "content_path": "content/d75b725da5ba34972acc7cb9.md",
+    "content_version": "aeac2a71488fd621"
   },
   {
     "id": "학습_가이드_260911_뉴스_제로스_브릿지_100만원대_소형휴머노이드_완판",
@@ -6364,7 +6706,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 11일",
     "tip_category": "",
-    "raw_content": "# [휴머노이드 로봇] 로봇신문 | 중국 제로스, 100만원대 고성능 소형 휴머노이드 '브릿지' 출시 일주일 만에 1000대 완판\n\n> **[산업 동향 | 발행일자: 2026년 09월 11일 | 출처: [로봇신문](https://www.irobotnews.com/news/articleView.html?idxno=48450)]** 로봇신문 보도에 따르면 중국 로봇 스타트업 제로스(Zeroth)가 8,888위안(약 177만원) 가격에 판매를 개시한 소형 휴머노이드 로봇 '브릿지(Bridge)'가 징둥닷컴 등에서 출시 1주일도 안 돼 초도 물량 1,000대 완판을 기록했음.\n\n---\n\n## 1. 주요 소식 개요\n- 제로스는 1만 위안 이하 대중화 가격대를 겨냥한 키 88cm, 무게 13kg의 소형 휴머노이드 '브릿지'를 선보였음.\n- 독일 IFA 2026 혁신상 부문 차세대 기술 최고상을 수상하며, 조깅, 스트리트 댄스, 백플립 등 고난도 전신 모션 성능을 입증함.\n- 판매 첫날 600대 판매로 플랫폼 내 휴머노이드 매출 1위를 기록함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **고성능 다리 관절 모듈 경량화**: 경량화 구동 아키텍처 적용으로 관절 중량을 15% 감축하고 최고 출력 토크 50N·m, 토크 정밀도 오차 3% 이하 달성.\n- **오픈 API & 모션 캡처 SDK**: VR 및 모션 캡처 장비 연동 SDK를 제공하여 연구자/개발자가 AI 강화학습 및 로봇 제어 모델을 손쉽게 실험 가능.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **휴머노이드 관절 액추에이터 및 모션 제어**: 액추에이터 토크 밀도 향상 설계와 보행/동적 모션 알고리즘 개발 역량이 양산형 로봇 기술의 핵심 요소임.\n\n---\n\n- **관련 기사 원문 링크**: [로봇신문 기사 보기](https://www.irobotnews.com/news/articleView.html?idxno=48450)"
+    "content_path": "content/104a32059d5673cb76c6ffe7.md",
+    "content_version": "a89820370650b4bb"
   },
   {
     "id": "학습_가이드_260911_뉴스_프리뉴_한강_자살예방_피지컬AI_드론",
@@ -6380,7 +6723,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 11일",
     "tip_category": "",
-    "raw_content": "# [모빌리티 & 드론] 로봇신문 | 프리뉴, 한강 자살 예방·구조용 '피지컬 AI' 자율주행 드론 구축 착수\n\n> **[산업 동향 | 발행일자: 2026년 09월 11일 | 출처: [로봇신문](https://www.irobotnews.com/news/articleView.html?idxno=48449)]** 로봇신문 보도에 따르면 무인항공기 전문기업 프리뉴가 과기정통부 및 NIPA 주관 '2026년 AI 응용제품 신속 상용화 지원사업'에 선정되어 한강 교각 및 수변 구간 자살자 선제 감지 및 자율 대응 피지컬 AI 드론 시스템 구축에 착수했음.\n\n---\n\n## 1. 주요 소식 개요\n- 프리뉴는 크랜베리, 제이디원 및 서울특별시 미래한강본부, 119특수구조단과 컨소시엄을 구성하여 한강 수난 사고 예방을 위한 피지컬 AI 드론 대응망을 개발함.\n- 24시간 자율 출동, 위험 구역 실시간 비전 감지, 구명 장비 정밀 투하, 자동 충전 드론 스테이션 운용 체계를 통합 실증할 예정임.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **자율주행 드론 & 정밀 투하 보정**: 위험 상황 인식 시 드론 스테이션에서 자동 이착륙하며 5G/국산 AI 기반 위치 보정 정밀 투하 수행.\n- **자동 충전 드론 스테이션 (Drone-in-a-Box)**: 관제 센터 연동 무인 자동 충전 및 상시 대기 제어 알고리즘.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **무인 항공 체계 및 공공 안전 드론 관제**: 특수 목적 드론 자율주행, 영상 기반 위험 판단 AI, 스테이션 제어 SW 융합 기술 역량이 유용함.\n\n---\n\n- **관련 기사 원문 링크**: [로봇신문 기사 보기](https://www.irobotnews.com/news/articleView.html?idxno=48449)"
+    "content_path": "content/1247ab0f2d3707e9aa7c3f78.md",
+    "content_version": "79e07125dc973346"
   },
   {
     "id": "학습_가이드_260912_뉴스_TechCrunch_Tesla_Optimus_Gen3_공장투입",
@@ -6396,7 +6740,8 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 12일",
     "tip_category": "",
-    "raw_content": "# [AI & 로봇 뉴스] TechCrunch | 테슬라, 3세대 옵티머스(Optimus Gen3) 프레몬트 공장 대규모 실전 투입\n\n> **[산업 동향 | 발행일자: 2026년 09월 12일 | 출처: [TechCrunch](https://search.naver.com/search.naver?where=news&query=TechCrunch+테슬라+옵티머스+Gen3)]** 테슬라가 차세대 촉각 센서 핸드와 정밀 신경망 VLA 모델을 탑재한 3세대 옵티머스(Optimus Gen3)를 프레몬트 기가팩토리 부품 조립 라인에 주 168시간 대규모 실전 배치했다고 발표함.\n\n---\n\n## 1. 주요 소식 개요\n- 테슬라는 자유도 22도 고정밀 로봇 손과 온디바이스 신경망 추론 칩을 장착한 **Optimus Gen3** 수백 대를 차량 배선 작업 및 정밀 볼트 체결 공정에 투입함.\n- 수집된 실전 공장 데이터를 FSD(Full Self-Driving) 신경망과 통합 학습시켜 로봇 행동 파운데이션 모델의 정밀도를 극대화하고 있음.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **고밀도 촉각 액추에이터 및 VLA 제어**: 각 손가락 마디마다 고해상도 촉각 센서를 탑재하여 0.1g 수준의 가벼운 부품 조작 및 슬립 방지 피드백 제어를 구현함.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **제조 휴머노이드 실전 데이터 유스케이스 분석**: 공장 자동화 현장에서 휴머노이드가 수행하는 조작(Manipulation) 및 시각-행동(VLA) 신경망 구조를 학습할 것.\n\n---\n\n- **관련 기사 원문 검색**: [TechCrunch 관련 기사 보기](https://search.naver.com/search.naver?where=news&query=TechCrunch+테슬라+옵티머스+Gen3)"
+    "content_path": "content/0440efb566e59bc117e611ca.md",
+    "content_version": "73290f17e3331a63"
   },
   {
     "id": "학습_가이드_260912_뉴스_제주TP_한국로봇산업진흥원_전국장애인체전_로봇체험",
@@ -6412,25 +6757,90 @@ const JOBS_DATA = [
     "is_news": true,
     "news_date": "2026년 09월 12일",
     "tip_category": "",
-    "raw_content": "# [로봇 행사] 로봇신문 | 제주TP·한국로봇산업진흥원, 제46회 전국장애인체전서 최첨단 국내 로봇 시연 부스 운용\n\n> **[행사 동향 | 발행일자: 2026년 09월 12일 | 출처: [로봇신문](https://www.irobotnews.com/news/articleView.html?idxno=48452)]** 로봇신문 보도에 따르면 제주테크노파크(제주TP)와 한국로봇산업진흥원이 제46회 전국장애인체전이 열리는 제주 서귀포 월드컵경기장에서 초상화 드로잉 로봇, 4족보행 로봇, 서비스/양팔 휴머노이드 로봇 기술 체험 부스를 대거 운용함.\n\n---\n\n## 1. 주요 소식 개요\n- 제주 서귀포 월드컵경기장 내 부스에서 '사람+로봇+제주'를 주제로 1분 30초 만에 관람객 얼굴을 펜으로 그려주는 드로잉 협동로봇 3대와 고스트로보틱스 4족 보행 로봇 '비전 60' 시연이 열림.\n- 한국로봇산업진흥원 체험 부스에서는 뉴로메카 서비스 휴머노이드 '에이르(EIR)', 로보티즈 양팔 휴머노이드 'AI 워커(AI Walker)', 로보웍스·만드로·써큘러스 공동개발 'MCR-1A', 로브로스 '이그리스-C', 뉴빌리티 자율주행 배달로봇 '뉴비' 등 국산 첨단 로봇을 대거 공개함.\n\n---\n\n## 2. 핵심 기술 스택 및 특징\n- **양팔 휴머노이드 AI 워커 & 픽앤플레이스**: 물체 비전 인식 후 원하는 위치로 자동 정렬/분류하는 픽앤플레이스 알고리즘.\n- **실내외 배송 로봇 & 4족 보행 제어**: 뉴빌리티 자율주행 플랫폼 및 고스트로보틱스 계단/야외 험지 보행 모션 제어.\n\n---\n\n## 3. 로봇 취업 준비생을 위한 시사점\n- **국산 휴머노이드 & 서비스 로봇 실증 경험**: 협동로봇, 양팔 로봇, 자율주행 AMR의 실제 사용자 대면 서비스 제어 및 시연 경험이 중요해지고 있음.\n\n---\n\n- **관련 기사 원문 링크**: [로봇신문 기사 보기](https://www.irobotnews.com/news/articleView.html?idxno=48452)"
+    "content_path": "content/a496270c65efa300fcb5c98f.md",
+    "content_version": "2d9ca88991bbe4a3"
   }
 ];
 
 const INTERVIEW_DATA = {
-  "공통": "# 공통 면접 빈출 질문 (지원 동기 / 인성 / 경력 및 자소서 기반 질문)\n\n> **관련 대표 채용 포지션**\n> * **모든 로봇/AI 기업 공통**: HD현대로보틱스, 두산로보틱스, 1X Technologies, 레인보우로보틱스, 로보티즈, 삼성전자, LG전자 등 전 포지션 공통 면접 항목\n> \n> \n\n---\n\n## Q1. [회사/직무 이해도] 당사 지원 동기는 무엇인가? [빈출]\n\n* **답변 요약**: 단순한 로봇 산업에 대한 관심 표명을 지양함. 지원 기업 주력 로봇 라인업(협동로봇, AMR, 4족 보행 등)의 제어 방식 및 하드웨어 사양을 분석하고, 본인이 다뤄본 기술 스택(모션 제어, ROS 2 통신, 센서 인터페이스 등)이 해당 제품의 양산 안정화 및 성능 개선에 어떻게 기여할 수 있는지 구체적으로 제시함.\n\n---\n\n## Q2. [회사/직무 이해도] 입사 후 가장 먼저 수행하고 싶은 업무는 무엇인가? [빈출]\n\n* **답변 요약**: 채용공고의 직무 기술서(JD)를 기반으로 단계적 기여 계획을 설정함. 초기에는 팀의 기존 코드베이스 파악과 하드웨어 검증 툴체인 적응에 집중하여 기본 업무 루틴을 소화하고, 중장기적으로는 제어 주기 단축, 통신 지연 개선 등 실질적인 성능 지표 개선 프로젝트를 담당하겠다는 목표를 제시함.\n\n---\n\n## Q3. [인성/자기이해] 본인의 장단점과 단점 보완을 위해 실천 중인 방법은? [빈출]\n\n* **답변 요약**:\n* **장점**: H/W-S/W 통합 테스트 시 발생하는 간헐적 결함의 원인을 끝까지 추적하는 끈기 및 디버깅 집중력.\n* **단점**: 단일 기술 이슈에 과도하게 매몰되어 전체 마일스톤 일정을 놓칠 위험성.\n* **보완책**: 문제 발생 시 최대 분석 허용 시간을 사전에 정하는 타임박싱(Time-boxing) 기법을 적용하고, 일정 관리 툴을 통해 우선순위를 객관화함.\n\n\n\n---\n\n## Q4. [인성/자기이해] 동료들이 평가하는 본인의 모습은 어떠한가? (3인칭 객관화) [빈출]\n\n* **답변 요약**: 주관적인 성격 묘사를 배제하고 실제 프로젝트 피드백 사례를 인용함. \"통신 끊김이나 기구 간섭 등 원인 불명의 오류가 났을 때 끝까지 로그를 대조하며 함께 원인을 찾아주는 팀원\"이라는 평가를 언급하며, 본인 담당 파트 외 시스템 전반의 연계 이슈를 회피하지 않는 태도를 입증함.\n\n---\n\n## Q5. [경력/직무 강점] 로봇 분야 관련 경험 중 본인만의 차별화된 핵심 강점은? [빈출]\n\n* **답변 요약**: 시뮬레이션에만 머무르지 않고 실제 하드웨어 로봇을 직접 배선, 캘리브레이션, 구동하며 겪은 트러블슈팅 경험을 전면에 배치함. 백래시, 센서 노이즈, 통신 패킷 손실 등 물리적 현장에서 발생하는 제약 조건을 소프트웨어 필터와 보상 알고리즘으로 해결해 본 실무 감각을 강조함.\n\n---\n\n## Q6. [팀워크/갈등 극복] 팀 프로젝트 진행 중 조직을 위해 본인이 양보하거나 헌신한 경험은? [빈출]\n\n* **답변 요약**: 일정 지연이 예상되는 상황에서 전체 납기를 지키기 위해 추가 업무를 분담한 사실 관계 위주로 설명함. 팀원의 구현 지연이 발생했을 때 하드웨어 배선 정돈이나 통합 검증용 더미 노드 제작 등 병목이 되는 서브 태스크를 선제적으로 넘겨받아 최종 시연 일정을 맞춘 경험을 기술함.\n\n---\n\n## Q7. [도전/열정] 가장 큰 기술적 한계에 부딪혔던 경험과 배운 점은? [빈출]\n\n* **답변 요약**: 경진대회나 프로젝트 마감 직전 예기치 못한 하드웨어 진동이나 통신 드랍이 발생했던 사례를 제시함. 오실로스코프 신호 측정과 런타임 패킷 덤프를 통해 접지(Ground) 노이즈 및 버퍼 오버플로우 원인을 규명한 과정을 설명하며, 철저한 사전 하드웨어 마진 설계의 중요성을 체득했음을 강조함.\n\n---\n\n## Q8. [역질문/마무리] 마지막으로 면접관에게 묻고 싶은 기술적 질문은? [빈출]\n\n* **답변 요약**: 처우나 복지 등 인사 관련 질문을 배제함. \"현재 양산 중인 모델에서 실외 환경 배포 시 가장 해결하기 까다로운 센서 노이즈나 하드웨어 병목은 무엇인지\", \"기존 코드베이스에 빠르게 적응하기 위해 입사 전 미리 숙지해야 할 통신 미들웨어나 사내 코딩 컨벤션이 있는지\" 등 실무 적응에 초점을 둔 질문을 함.\n\n---\n\n## Q9. [회사/직무 이해도] 당사 제품의 경쟁사 대비 기술적 강점과 시장 내 포지션은? [빈출]\n\n* **답변 요약**: 감성적 호평을 배제하고 페이로드 대비 자체 중량비, 반복 정밀도(Repeatability), 협동로봇 안전 인증(ISO 10218, ISO/TS 15066) 취득 여부, 자체 액추에이터 내재화율 등 기술적·원가적 차별점을 짚고, 이를 바탕으로 타깃 산업군에서의 시장 점유율 확대 가능성을 설명함.\n\n---\n\n## Q10. [인성/자기이해] 프로젝트 중 설계 실패를 겪었던 사례와 재발 방지 대책은? [빈출]\n\n* **답변 요약**: 기구 간섭이나 액추에이터 토크 마진 부족으로 모터가 탈조했던 실제 실패 사례를 솔직히 기술함. 현장에서 임시 브라켓 가공으로 단기 일정을 방어한 후, 이후 설계 단계에서 CAD 간섭 체크(Interference Check) 자동화 및 동역학 해석 기반 안전계수 가이드라인을 표준화한 과정을 설명함.\n\n---\n\n## Q11. [팀워크/갈등 극복] 개발 방식에 대한 팀원 간 의견 충돌 시 중재 방법은? [빈출]\n\n* **답변 요약**: 주관적 논쟁을 멈추고 객관적 검증 지표를 세워 벤치마크 테스트를 진행함. 두 방식의 CPU 점유율, 메모리 사용량, 제어 주기 지연 시간(Latency)을 프로파일링 툴로 실측하여 데이터 기반으로 기술 결정을 내린 경험을 제시함.\n\n---\n\n## Q12. [경력/직무 강점] 전공 과목 중 실무에 가장 직접적인 기반이 된 과목과 이유는? [빈출]\n\n* **답변 요약**: 선형대수학, 로봇공학(Kinematics/Dynamics), 현대제어공학, 자료구조 중 1~2개를 선정함. 해당 과목에서 배운 상태 공간 방정식이나 회전 행렬 수식이 실제 모터 토크 제어기 및 궤적 생성 코드에서 어떻게 변수로 치환되어 구동되는지 연결하여 설명함.\n\n---\n\n## Q13. [도전/열정] 생소한 기술 스택을 단기간에 습득해 문제를 해결한 경험은? [빈출]\n\n* **답변 요약**: 새로운 산업용 통신 프로토콜(EtherCAT, CANopen 등)이나 ROS 2 환경을 처음 접했을 때의 대처 과정을 설명함. 공식 기술 표준 문서와 오픈소스 예제 코드를 분석하고, 최소 단위의 루프백 테스트 노드를 먼저 구현하여 동작성을 검증한 후 본 프로젝트에 통합한 학습 프로세스를 강조함.\n\n---\n\n## Q14. [회사/직무 이해도] 향후 5년간 로봇 산업의 기술 변화와 본인의 성장 목표는? [빈출]\n\n* **답변 요약**: 정형화된 공장 자동화에서 AI 인지 기반의 비정형 물류/서비스 및 피지컬 AI(Physical AI) 영역으로의 확장 흐름을 언급함. 하드웨어의 물리적 한계를 이해하고 소프트웨어 제어 알고리즘으로 이를 보정할 수 있는 시스템 통합 엔지니어로 성장하겠다는 목표를 밝힘.\n\n---\n\n## Q15. [인성/자기이해] 로봇 개발 협업에서 가장 중요하게 생각하는 원칙은? [빈출]\n\n* **답변 요약**: '인터페이스의 명확한 정의'와 '결함의 즉각적인 투명한 공유'를 꼽음. 로봇은 하드웨어 치수 변경, 모터 사양 교체, 통신 패킷 구조 수정이 상위 제어 소프트웨어에 직결되므로, 사소한 변경점도 즉각 팀에 공유되어야 안전사고와 개발 일정 지연을 막을 수 있음을 설명함.\n\n---\n\n## Q16. [개념/이론] 3차원 공간에서 로봇의 위치 및 자세를 완전 제어하기 위한 최소 자유도(DOF)는? [빈출]\n\n* **답변 요약**: 시스템의 위치와 자세를 수학적으로 완전히 결정하기 위해 필요한 독립적인 좌표 변수의 개수를 자유도라고 함. 3차원 유클리드 공간에서 병진 운동 3축($X, Y, Z$)과 회전 운동 3축($Roll, Pitch, Yaw$) 총 6개의 상태를 독립적으로 제어해야 하므로 최소 6자유도(6-DOF)가 필요함. 7자유도 이상은 기구학적 여유 자유도(Redundancy)를 제공하여 장애물 회피나 특이점 회피에 활용됨.",
-  "AI학습": "# AI 학습 직무 면접 빈출 질문 (Machine Learning / Deep Learning / Computer Vision / Robot AI)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **1X Technologies**: AI Researcher - Reinforcement Learning / Vision-Language-Action\n> * **Figure AI**: AI / Computer Vision Engineer - Robot Manipulation & Perception\n> * **HD현대로보틱스**: 로봇 AI & 비전 시맨틱 인지 엔지니어\n> * **두산로보틱스**: AI 기반 로봇 조작(Manipulation) & 6D Pose Estimation 개발자\n> \n> \n\n---\n\n## Q1. [개념/이론] CNN의 동작 원리와 Pooling의 역할에 대해 설명할 것. [빈출]\n\n* **답변 요약**: Convolution 연산(필터)을 통해 이미지의 공간적 특징(Spatial Feature)을 추출함. Pooling은 피처맵 크기를 줄여 파라미터 수와 연산량을 감소시키고, 입력의 미세한 위치 이동에 영향을 덜 받는 평행이동 불변성(Translation Invariance)을 확보함.\n\n---\n\n## Q2. [개념/이론] Object Detection에서 1-stage detector와 2-stage detector의 차이는 무엇인가? [빈출]\n\n* **답변 요약**: 2-stage(Faster R-CNN 등)는 후보 영역 제안(RPN)과 분류/회귀를 순차 처리하여 정확도가 높지만 연산이 느림. 1-stage(YOLO, SSD 등)는 단일 파이프라인에서 위치와 분류를 동시 예측하여 실시간 추론(로봇 실시간 제어)에 유리함.\n\n---\n\n## Q3. [실무/트러블슈팅] Overfitting이 발생했을 때 이를 해결하기 위한 엔지니어링 접근법은? [빈출]\n\n* **답변 요약**: 데이터 측면에서는 Augmentation(회전, 노이즈 추가, CutMix 등)을 적용함. 모델 측면에서는 L1/L2 Weight Decay, Dropout, Batch Normalization을 추가하거나 모델 복잡도를 줄임. 학습 제어 측면에서는 Early Stopping을 적용함.\n\n---\n\n## Q4. [개념/이론] 활성화 함수로 Sigmoid 대신 ReLU 계열을 주로 사용하는 이유는 무엇인가? [빈출]\n\n* **답변 요약**: Sigmoid는 입력 절댓값이 클 때 미분값이 0에 수렴하여 역전파 시 기울기 소실(Vanishing Gradient)이 발생함. ReLU는 양수 영역의 기울기가 1로 유지되어 역전파 시 기울기 소실을 억제하며, 지수 연산이 없어 연산 속도가 빠름.\n\n---\n\n## Q5. [개념/이론] Batch Normalization의 동작 원리와 도입 효과는? [빈출]\n\n* **답변 요약**: 미니배치 단위로 평균과 분산을 구해 입력을 정규화하고, 재스케일링/이동 파라미터($\\gamma, \\beta$)를 학습시킴. 내부 공변량 변화(Internal Covariate Shift)를 완화하여 가중치 초기화 민감도를 낮추고, 더 큰 학습률을 적용할 수 있게 하여 수렴 속도를 높임.\n\n---\n\n## Q6. [개념/이론] Vision Transformer(ViT)의 특징과 기존 CNN과의 차이점은? [빈출]\n\n* **답변 요약**: CNN은 귀납적 편향(Inductive Bias, 국소성 및 평행이동 불변성)이 강해 적은 데이터에서도 안정적으로 국소 특징을 잡음. ViT는 이미지를 패치 단위로 쪼갠 뒤 Self-Attention을 적용하여 전역적 문맥(Global Context)을 초기에 파악하지만, 대규모 데이터셋 사전 학습이 필수적임.\n\n---\n\n## Q7. [실무/트러블슈팅] Sim-to-Real Transfer(시뮬레이션 정책의 실물 로봇 적용) 시 발생하는 Domain Gap 극복 방법은? [빈출]\n\n* **답변 요약**: 시뮬레이션 환경의 물리 파라미터(마찰 계수, 질량, 지연 시간)와 시각 요소(조명, 텍스처, 카메라 위치)를 무작위로 흔드는 Domain Randomization을 적용함. 추가로 실제 로봇에서 수집한 소량의 데이터로 Residual Policy 학습이나 System Identification 기반 파라미터 캘리브레이션을 병행함.\n\n---\n\n## Q8. [개념/이론] 3D Point Cloud 데이터 처리를 위한 PointNet/PointNet++의 핵심 구조는? [빈출]\n\n* **답변 요약**: 점군의 순서 불변성(Permutation Invariance)을 만족시키기 위해 대칭 함수인 Max Pooling을 채택함. PointNet은 전역 특징만 추출하는 한계가 있어, PointNet++는 Hierarchical Feature Learning 구조(Sampling 및 Grouping)를 도입해 국소적(Local) 기하 구조를 단계적으로 학습함.\n\n---\n\n## Q9. [시스템/응용] 6D Pose Estimation의 출력값과 로봇 매니퓰레이션에서의 역할은? [빈출]\n\n* **답변 요약**: 물체의 3차원 위치(X, Y, Z)와 3차원 회전 각도(Roll, Pitch, Yaw 또는 쿼터니언) 총 6개 자유도를 추정함. 로봇 제어기는 이 변환 행렬($SE(3)$)을 기반으로 엔드이펙터의 접근 벡터와 그리퍼 개폐 지점을 계산하여 비정형 환경 물체를 충돌 없이 파지(Grasp)함.\n\n---\n\n## Q10. [시스템/응용] 엣지 보드(NVIDIA Jetson 등) 탑재를 위한 모델 경량화 기법(양자화, 가지치기, 지식 증류)의 차이는? [빈출]\n\n* **답변 요약**:\n* **Quantization(양자화)**: FP32 가중치/활성화를 INT8 등으로 축소하여 메모리 대역폭 절감 및 TensorRT 연산 가속.\n* **Pruning(가지치기)**: 기여도가 낮은 가중치나 채널을 제거하여 연산량(FLOPs) 축소.\n* **Knowledge Distillation(지식 증류)**: 큰 교사 모델(Teacher)의 출력을 작은 학생 모델(Student)이 학습하도록 유도.\n\n\n\n---\n\n## Q11. [실무/트러블슈팅] 로봇 강화학습(RL) 환경 구축 시 Reward Shaping 적용 시 주의할 점은? [빈출]\n\n* **답변 요약**: 불필요한 보상 항이 많아지면 로봇이 의도와 다른 비정상적인 동작(Reward Hacking)을 학습할 위험이 있음. 최종 태스크 달성 여부를 나타내는 Sparse Reward와 진행 방향을 유도하는 Potential-based Reward Shaping을 수학적으로 설계하여 최적 정책의 불변성을 유지해야 함.\n\n---\n\n## Q12. [개념/이론] Segmentation에서 Semantic Segmentation과 Instance Segmentation의 차이는? [빈출]\n\n* **답변 요약**: Semantic Segmentation은 동일한 클래스에 속한 모든 픽셀에 동일한 라벨을 부여함. Instance Segmentation은 동일 클래스 내에서도 개별 물체 인스턴스(객체 1, 객체 2)를 서로 다른 마스크로 분리하여 식별함.\n\n---\n\n## Q13. [개념/이론] 카메라 Calibration의 목적과 내부/외부 파라미터의 물리적 의미는? [빈출]\n\n* **답변 요약**: 3D 실세계 좌표와 2D 이미지 픽셀 좌표 간의 기하학적 변환 관계를 규명하고 렌즈 왜곡을 보정하는 과정임.\n* **내부 파라미터(Intrinsic)**: 초점 거리($f_x, f_y$), 주점($c_x, c_y$), 왜곡 계수(비대칭/방사 왜곡).\n* **외부 파라미터(Extrinsic)**: 월드 좌표계 기준 카메라의 3차원 위치(변위 벡터 $T$)와 자세(회전 행렬 $R$).\n\n\n\n---\n\n## Q14. [시스템/응용] Vision-Language-Action (VLA) 모델과 Diffusion Policy의 로봇 조작 적용 특징은? [빈출]\n\n* **답변 요약**: VLA 모델(RT-2 등)은 사전 학습된 멀티모달 LLM에 로봇 관절 액션 토큰을 결합하여 고수준 언어 명령을 직접 엔드이펙터 동작으로 변환함. Diffusion Policy는 복잡한 다봉(Multimodal) 행동 분포를 노이즈 제거 과정으로 정밀하게 모델링하여 부드럽고 정밀한 궤적 생성을 지원함.\n\n---\n\n## Q15. [실무/트러블슈팅] 클래스 불균형(Class Imbalance) 환경에서 적용할 수 있는 손실 함수 및 데이터 처리 기법은? [빈출]\n\n* **답변 요약**: 데이터 측면에서는 소수 클래스 오버샘플링(SMOTE 등)이나 CutMix를 적용함. 손실 함수 측면에서는 쉬운 샘플의 가중치를 낮추고 오분류 샘플에 집중하는 Focal Loss를 적용하거나, 클래스 빈도수의 역수를 취한 Weighted Cross Entropy Loss를 사용함.\n\n---\n\n## Q16. [시스템/응용] RGB-D 센서 기반 3D Object Detection 알고리즘의 동작 방식은? [빈출]\n\n* **답변 요약**: Frustum PointNet은 2D 이미지 탐지로 영역을 먼저 좁힌 뒤 해당 Frustum 내부의 3D 점군에 PointNet을 적용함. VoteNet은 2D 탐지기를 거치지 않고 깊이(Depth) 포인트 클라우드에서 직접 Deep Hough Voting을 수행해 물체 중심점을 예측하고 3D Bounding Box를 추정함.\n\n---\n\n## Q17. [개념/이론] Self-Supervised Learning(자가지도 학습) 기법이 로봇 비전 데이터 처리에 주는 이점은? [빈출]\n\n* **답변 요약**: 대규모 라벨링 비용 없이 로봇 카메라가 수집한 방대한 비디오 스트림에서 Contrastive Learning(SimCLR)이나 Masked Autoencoding(MAE), Feature Distillation(DINO)을 통해 시각 표현(Representation)을 사전 학습함. 이후 소량의 라벨 데이터만으로 다운스트림 태스크에 빠르게 전이 가능함.\n\n---\n\n## Q18. [실무/트러블슈팅] 광각/어안 렌즈 왜곡(Fisheye Distortion) 보정 및 모델 입력 전처리 파이프라인은? [빈출]\n\n* **답변 요약**: 체커보드 패턴을 이용해 OpenCV Fisheye 카메라 모델의 왜곡 계수($k_1, k_2, k_3, k_4$)를 도출함. `cv2.fisheye.undistortImage` 또는 매핑 테이블(`initUndistortRectifyMap`)을 구성하여 추론 파이프라인 전단에서 실시간 왜곡 보정을 적용한 뒤 DNN 입력 크기로 리사이징함.\n\n---\n\n## Q19. [개념/이론] 로봇 도메인에서 CycleGAN을 활용한 데이터 증강(Augmentation) 사례는? [빈출]\n\n* **답변 요약**: 페어(Pair) 데이터가 없는 조건에서 주간-야간, 맑은 날-악천후, 시뮬레이션-실제 영상 간의 스타일 변환(Style Transfer)을 수행함. 시뮬레이션 합성 데이터의 텍스처를 실제 로봇 공장 환경의 텍스처로 변환하여 실물 데이터 취득 한계를 보완함.\n\n---\n\n## Q20. [시스템/응용] Imitation Learning에서 Behavioral Cloning과 DAgger 알고리즘의 차이와 한계 극복 방식은? [빈출]\n\n* **답변 요약**: Behavioral Cloning은 전문가 궤적을 지도학습으로 단순 모방하므로, 한 번 궤도를 이탈하면 에러가 누적(Covariate Shift)되어 복구가 불가능함. DAgger(Dataset Aggregation)는 학습된 정책으로 로봇을 직접 구동시키면서 방문한 상태에 대해 전문가의 올바른 액션을 추가 라벨링하여 데이터셋을 누적 재학습함으로써 오차 누적 문제를 완화함.",
-  "SW": "# SW 직무 면접 빈출 질문 (Robot Software / C++ / ROS 2 / Linux)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **두산로보틱스**: 로봇 프레임워크 개발자 (Linux), 로봇 응용 소프트웨어(Application/UI) 개발자\n> * **HD현대로보틱스**: 로봇 제어기 소프트웨어 개발자, 로봇 티칭 펜던트 & UI 앱 개발자\n> * **로보티즈**: 로봇 SW 개발자 (ROS 2 / C++), 자율주행 모바일 로봇 SW 및 관제 FMS 개발자\n> * **1X Technologies**: Software Engineer - Operating Systems / Core Infrastructure\n> * **삼성전자 / LG전자**: 미래로봇 SW 시스템 개발자, CLOi 로봇 솔루션 SW 개발자\n> \n> \n\n---\n\n## Q1. [개념/이론] Modern C++에서 스마트 포인터(unique_ptr, shared_ptr, weak_ptr)의 특징과 메모리 관리 원리는? [빈출]\n\n* **답변 요약**: RAII 패턴 기반으로 힙 메모리 해제를 자동화함.\n* `std::unique_ptr`: 독점 소유권을 가지며 복사 불가능하고 이동(`std::move`)만 가능함. 포인터 자체의 오버헤드가 없음.\n* `std::shared_ptr`: 참조 카운팅 제어 블록(Control Block)을 공유하여 자원을 공동 소유하며, 참조 횟수가 0이 될 때 메모리를 해제함.\n* `std::weak_ptr`: 참조 카운트를 증가시키지 않고 `shared_ptr`을 관찰하여 상호 순환 참조(Circular Reference)로 인한 메모리 누수를 차단함. 자원 접근 시 `lock()`으로 유효성을 확인함.\n\n\n\n---\n\n## Q2. [개념/이론] ROS 2와 ROS 1의 구조적 차이점 및 DDS(Data Distribution Service) 도입의 기술적 이점은? [빈출]\n\n* **답변 요약**: ROS 1의 단일 고장점(SPOF)이었던 `roscore` 마스터 노드를 제거하고, OMG 표준인 DDS 기반 완전 분산 피어 투 피어(P2P) 통신 구조로 전환함. DDS의 QoS(Quality of Service) 정책(Reliability, Durability, History, Deadline 등)을 통해 네트워크 손실 환경이나 실시간 센서 스트리밍 요구조건에 맞춰 통신 계층을 제어할 수 있음.\n\n---\n\n## Q3. [실무/트러블슈팅] Linux 멀티스레드 환경에서 교착 상태(Deadlock) 발생 조건 4가지와 예방 기법은? [빈출]\n\n* **답변 요약**:\n* **발생 조건 4가지**: 상호 배제(Mutual Exclusion), 점유 대기(Hold and Wait), 비선점(No Preemption), 순환 대기(Circular Wait).\n* **예방 기법**: 모든 스레드에서 락 획득 순서를 일원화하여 순환 대기를 차단함. C++11 `std::lock` 또는 C++17 `std::scoped_lock`을 사용하여 여러 뮤텍스를 원자적으로 획득하거나, `try_lock_for` 기반 타임아웃을 적용해 무한 대기를 방지함.\n\n\n\n---\n\n## Q4. [시스템/응용] C++ Move Semantics와 우측값 참조(&&)가 로봇 SW 성능 최적화에 미치는 영향은? [빈출]\n\n* **답변 요약**: 라이다 포인트 클라우드, 카메라 고해상도 프레임 등 대용량 데이터 전달 시 깊은 복사(Deep Copy)로 인한 힙 재할당 오버헤드를 제거함. `std::move`를 통해 내부 데이터 포인터의 소유권만 상수 시간 $O(1)$으로 이전하여 제어 루프의 지연 시간(Latency)을 최소화함.\n\n---\n\n## Q5. [개념/이론] ROS 2의 Executor 및 Callback Group(Mutually Exclusive, Reentrant)의 동작 원리는? [빈출]\n\n* **답변 요약**:\n* **Executor**: 큐에 들어온 콜백(타이머, 구독자, 서비스 등)을 스케줄링하여 스레드 풀에 분배함.\n* **Mutually Exclusive**: 그룹 내 등록된 콜백들이 한 번에 하나씩만 순차 실행되도록 뮤텍스를 적용함. 동일 데이터 동시 접근을 방지함.\n* **Reentrant**: 그룹 내 콜백들이 서로 다른 스레드에서 동시에 병렬 실행될 수 있음. 스레드 안전성(Thread-safety) 확보가 필수적임.\n\n\n\n---\n\n## Q6. [시스템/응용] Linux 환경에서 Zero-copy 메모리 전달 및 공유 메모리(Shared Memory) 통신 메커니즘은? [빈출]\n\n* **답변 요약**: 프로세스 간 통신(IPC) 시 커널 공간을 경유하는 데이터 복사(`read`/`write` 시 2회 복사)를 배제함. `shm_open` 및 `mmap`으로 물리 메모리 영역을 두 프로세스의 가상 주소 공간에 직접 매핑함. ROS 2에서는 Iceoryx 미들웨어를 DDS 하부 레이어로 결합해 포인트 클라우드 전달 지연을 마이크로초($\\mu s$) 단위로 단축함.\n\n---\n\n## Q7. [개념/이론] 객체지향 SOLID 원칙이 로봇 모듈형 SW 아키텍처에 적용되는 구체적 방식은? [빈출]\n\n* **답변 요약**:\n* **단일 책임 원칙(SRP)**: 드라이버 I/O 통신 노드와 제어 알고리즘 처리 노드를 명확히 분리함.\n* **개방-폐쇄 원칙(OCP)**: 새로운 센서가 추가되어도 공통 센서 인터페이스 상속을 통해 기존 데이터 파이프라인 수정 없이 확장함.\n* **의존성 역전 원칙(DIP)**: 상위 제어 로직이 특정 모터 제조사 라이브러리에 직접 의존하지 않고 추상화된 액추에이터 인터페이스(HAL)에 의존하도록 설계함.\n\n\n\n---\n\n## Q8. [실무/트러블슈팅] C++ 메모리 단편화(Memory Fragmentation) 억제 및 실시간 제어를 위한 커스텀 메모리 풀(Memory Pool) 설계법은? [빈출]\n\n* **답변 요약**: 실시간 제어 루프 내부에서 `new`/`delete`를 반복 호출하면 힙 단편화가 발생하고 OS 할당 지연으로 실시간성(Determinism)이 깨짐. 초기화 단계에서 고정 크기 블록(Fixed-size Chunk)들을 Free List 구조로 연속된 메모리 공간에 미리 할당하고, 런타임에는 $O(1)$ 시간 복잡도로 블록 포인터만 반환/회수하도록 구현함.\n\n---\n\n## Q9. [시스템/응용] 대규모 C++ 프로젝트에서 모던 CMake의 타겟 기반(Target-based) 빌드 시스템 구성법은? [빈출]\n\n* **답변 요약**: 전역 변수 설정(`include_directories`, `link_libraries`)을 배제하고, `add_library` 및 `add_executable`로 생성된 타겟에 의존성을 직접 부여함. `target_include_directories`와 `target_link_libraries`에 `PUBLIC`(자신 및 외부 노출), `PRIVATE`(내부 전용), `INTERFACE`(헤더 온리) 스코프를 명시하여 모듈 간 캡슐화와 독립성을 유지함.\n\n---\n\n## Q10. [개념/이론] Linux IPC 방식(Socket, Pipe, Shared Memory, Message Queue)의 장단점 및 선택 기준은? [빈출]\n\n* **답변 요약**:\n* **대용량 고속 데이터**: 복사 오버헤드가 없는 **공유 메모리(Shared Memory)** 선택.\n* **분산 환경 및 확장성**: 서로 다른 하드웨어/네트워크 간 통신이 필요한 경우 **TCP/UDP Socket** 또는 **DDS** 선택.\n* **단방향 스트리밍/경량 제어**: 부모-자식 프로세스 간 단순 스트림은 **Named Pipe(FIFO)**, 이벤트성 메시지는 **POSIX Message Queue** 선택.\n\n\n\n---\n\n## Q11. [실무/트러블슈팅] GoogleTest(gtest) 및 gmock을 활용한 로봇 제어 SW 단위 테스트(Unit Test) 구축법은? [빈출]\n\n* **답변 요약**: 실제 로봇 하드웨어가 없는 환경 검증을 위해, 하드웨어 인터페이스 순수 가상 함수를 `MOCK_METHOD` 매크로로 재정의함. `EXPECT_CALL`을 통해 특정 명령값(토크, 각속도) 전달 여부와 반환값을 모사(Mocking)하여, 통신 오류나 비정상 인코더 피드백 수신 시 상위 제어기의 Failsafe 방어 로직을 독립 검증함.\n\n---\n\n## Q12. [개념/이론] ROS 2 Lifecycle Node의 상태 전이(Unconfigured, Inactive, Active, Finalized) 목적은? [빈출]\n\n* **답변 요약**: 노드의 초기화, 파라미터 로딩, 통신 연결, 실행 라이프사이클을 명시적으로 제어하여 시스템 결정성을 보장함. 하드웨어 드라이버가 준비되지 않은 상태에서 모터가 급발진하는 사고를 방지하며, 문제 발생 시 시스템 전체 중단 없이 특정 서브시스템 노드만 `Inactive`로 내려 재설정(`Configuring`)할 수 있음.\n\n---\n\n## Q13. [시스템/응용] 로봇 SW 개발 시 Gitflow 브랜치 전략과 CI/CD 파이프라인 자동화 구성 방식은? [빈출]\n\n* **답변 요약**: `main`(배포), `develop`(통합), `feature`(기능 개발) 브랜치로 분리 운용함. PR(Pull Request) 생성 시 GitHub Actions/Jenkins에서 Docker 컨테이너를 가동하여 정적 분석(cppcheck, clang-tidy), 코딩 표준 검사, 단위 테스트(colcon test), 빌드 통과 여부를 자동 검증한 뒤 병합(Merge)을 승인함.\n\n---\n\n## Q14. [실무/트러블슈팅] 프로파일링 툴(Valgrind, perf, gprof)을 활용한 제어 루프 병목 및 메모리 누수 추적 사례는? [빈출]\n\n* **답변 요약**: Valgrind Memcheck로 스마트 포인터 순환 참조 및 미해제 힙 블록을 탐지함. 주기 제어가 튀는 현상(Jitter) 분석 시 `perf record`로 CPU 클럭 사이클을 샘플링한 후 FlameGraph를 생성함. 이를 통해 내부 루프에서 빈번하게 호출되던 문자열 변환 및 불필요한 벡터 복사 병목을 특정하여 실행 시간을 단축함.\n\n---\n\n## Q15. [개념/이론] 로봇 소프트웨어 아키텍처에 적용되는 디자인 패턴(Singleton, Factory, State, Observer)의 역할은? [빈출]\n\n* **답변 요약**:\n* **Singleton**: 하드웨어 리소스 접근 관리자(CAN 버스 채널 등)의 단일 인스턴스 보장.\n* **Factory**: 센서 타입(2D 라이다, 3D 라이다)에 따른 드라이버 객체 생성 캡슐화.\n* **State**: 로봇의 작동 상태(대기, 수동, 자율주행, 비상정지) 전이 규칙과 진입/이탈 조건 캡슐화.\n* **Observer**: 센서 데이터 갱신 이벤트를 다수의 구독 모듈에 발행하여 결합도(Coupling)를 낮춤.\n\n\n\n---\n\n## Q16. [실무/트러블슈팅] C++20 기능(Concepts, Coroutines, Ranges)의 로봇 소프트웨어 적용 이점은? [빈출]\n\n* **답변 요약**:\n* **Concepts**: 템플릿 메타프로그래밍 시 기하학 타입(좌표계 변환, 행렬)의 인터페이스 제약 조건을 컴파일 타임에 검증하여 가독성 높은 에러 메시지 제공.\n* **Coroutines**: 비동기 I/O 및 로봇 시퀀스 모션(이동 $\\rightarrow$ 파지 $\\rightarrow$ 복귀)을 복잡한 콜백 중첩 없이 동기식 코드 형태의 상태 머신으로 작성.\n* **Ranges**: 센서 필터링 파이프라인(예: 특정 거리 이내 포인트 필터링)을 임시 컨테이너 생성 없이 파이프라인 연산자(`|`)로 지연 평가(Lazy Evaluation) 처리.\n\n\n\n---\n\n## Q17. [시스템/응용] Linux 실시간 스케줄링(SCHED_FIFO, SCHED_RR)과 캐시 미스(Cache Miss) 방지 기법은? [빈출]\n\n* **답변 요약**: 제어 스레드에 RT-PREEMPT 커널 기반 `SCHED_FIFO` 우선순위를 부여하고, CPU Affinity(`pthread_setaffinity_np`)를 통해 제어 전용 코어에 스레드를 격리함. 자료구조 설계 시 Structure of Arrays(SoA) 구조를 채택하거나 64바이트 캐시 라인 크기에 맞춰 `alignas` 정렬을 적용하여 공간 지역성(Spatial Locality)을 확보하고 캐시 미스를 억제함.\n\n---\n\n## Q18. [개념/이론] ROS 2 Component Node(Composable Node)의 구조와 IPC 오버헤드 감소 원리는? [빈출]\n\n* **답변 요약**: 각 노드를 독립 실행 파일(Executable)로 빌드하지 않고 공유 라이브러리(`.so`) 형태의 클래스로 구성함. 단일 컨테이너 프로세스(`rclcpp_components`)에 동적으로 로드함으로써, 프로세스 간 컨텍스트 스위칭 없이 동일 프로세스 주소 공간 내에서 `std::shared_ptr` 포인터 전달만으로 무복사(Zero-copy) 통신을 구현함.\n\n---\n\n## Q19. [실무/트러블슈팅] 멀티스레드 로봇 제어 환경에서 Thread-safe한 비동기 로깅 시스템 구축법은? [빈출]\n\n* **답변 요약**: 1kHz 수준의 실시간 제어 루프 내에서 파일 I/O나 콘솔 출력을 직접 수행하면 디스크 쓰기 지연으로 실시간성이 깨짐. `spdlog`와 같은 비동기 로거를 도입하여 제어 스레드는 고정 크기 비동기 링 버퍼(Lock-free Queue)에 로그 메시지만 밀어 넣고 즉시 복귀하며, 실제 디스크 플러시는 우선순위가 낮은 별도 백그라운드 I/O 스레드가 처리하도록 분리함.\n\n---\n\n## Q20. [시스템/응용] 로봇 SW 아키텍처에서 하드웨어 추상화 계층(HAL - Hardware Abstraction Layer) 구축의 필요성은? [빈출]\n\n* **답변 요약**: 상위 미션/경로 계획 알고리즘과 하위 모터/센서 통신 프로토콜(CAN, EtherCAT 등) 간의 결합도를 완전히 분리함. 하드웨어 드라이버 인터페이스를 순수 가상 클래스(Pure Virtual Class)로 정의함으로써, 모터 드라이버나 액추에이터 하드웨어가 변경되더라도 상위 제어 소프트웨어 코드의 재작성 없이 플러그인 형태로 교체 적용할 수 있음.",
-  "기구설계": "# 기구설계 직무 면접 빈출 질문 (Mechanism / Mechanical Design / Robot Joint)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **두산로보틱스**: 로봇 기구설계 엔지니어 (Robot Mechanical Design)\n> * **HD현대로보틱스**: 로봇 관절 및 감속기 메커니즘 설계자\n> * **레인보우로보틱스**: 다자유도 로봇 관절 모듈 및 프레임 설계자\n> * **1X Technologies**: Mechanical Engineer - Actuators and Drives\n> \n> \n\n---\n\n## Q1. [개념/이론] 응력-변형률 선도(Stress-Strain Curve)의 주요 구간과 기구설계 기준점은? [빈출]\n\n* **답변 요약**:\n* **비례한도/탄성한도**: 응력과 변형률이 선형 비례하며 하중 제거 시 원형 복귀하는 구간.\n* **항복강도(Yield Strength, $\\sigma_y$)**: 소성 변형(영구 변형)이 개시되는 지점.\n* **인장강도(Ultimate Tensile Strength, UTS)**: 재료가 견딜 수 있는 최대 응력 지점.\n* **파단점(Fracture Point)**: 최종 파괴 지점.\n* **설계 기준**: 일반적인 로봇 정밀 부품은 영구 변형을 방지하기 위해 항복강도를 기준으로 안전율(Safety Factor)을 적용하여 허용 응력 범위 내에서 설계함.\n\n\n\n---\n\n## Q2. [개념/이론] 기어 설계 시 백래시(Backlash)의 정의와 로봇 관절에서의 감쇄 기법은? [빈출]\n\n* **답변 요약**:\n* **정의**: 한 쌍의 기어가 맞물릴 때 치면 사이에 존재하는 원주 방향 유격. 윤활 및 열팽창 여유 공간으로 필수적이나, 로봇 관절에서는 위치 제어 정밀도 저하, 히스테리시스 오차, 제어 진동의 원인이 됨.\n* **감쇄 기법**: 백래시 1 arcmin 이하의 정밀 제어용 하모닉 드라이브(스트레인 웨이브 기어)나 사이클로이드 감속기(RV 감속기)를 채택함. 평기어 구조에서는 듀얼 피니언 안티 백래시 기어 또는 프리로드 스프링 구조를 적용함.\n\n\n\n---\n\n## Q3. [개념/이론] 모터의 토크(Torque), 회전수(RPM), 기계적 동력(Power) 간의 관계식은? [빈출]\n\n* **답변 요약**:\n* 기계적 동력 $P = T \\times \\omega$ (단위: $W = N \\cdot m \\times rad/s$).\n* 실무 단위 환산식: $P(W) = T(N \\cdot m) \\times \\frac{2\\pi \\times RPM}{60} \\approx \\frac{T \\times RPM}{9.55}$.\n* 동력 보존 원리에 따라 감속기를 거치면 기어 효율 범위 내에서 회전수는 감속비($1/i$)만큼 줄어들고, 출력 토크는 감속비($i$)에 비례하여 증가함.\n\n\n\n---\n\n## Q4. [개념/이론] 볼 베어링(Ball Bearing)과 롤러 베어링(Roller Bearing)의 접촉 메커니즘 및 선정 기준은? [빈출]\n\n* **답변 요약**:\n* **볼 베어링**: 점 접촉(Point Contact). 마찰 계수가 낮아 고속 회전 및 저토크 구동계에 유리함.\n* **롤러 베어링**: 선 접촉(Line Contact). 접촉 면적이 넓어 강성이 높고 고하중(레이디얼/트러스트)을 지지하는 관절 주축 부위에 적합함. 고속 회전 시 발열이 커짐.\n\n\n\n---\n\n## Q5. [시스템/응용] 하모닉 드라이브(Harmonic Drive) 감속기의 3대 핵심 부품 구조와 장단점은? [빈출]\n\n* **답변 요약**:\n* **3대 부품**: 타원형 캠 구조의 **웨이브 제너레이터(Wave Generator)**, 외치차를 가진 얇은 컵 형상의 탄성 기어인 **플렉스플라인(Flexspline)**, 내치차를 가진 고정 링 구조의 **서큘러 스플라인(Circular Spline)**.\n* **장점**: 단일 스테이지에서 높은 감속비(50:1~160:1) 달성, 백래시 제로(Zero-backlash), 소형·경량화 및 중공축 설계 용이.\n* **단점**: 플렉스플라인의 탄성 변형 원리로 인해 비틀림 강성(Torsional Stiffness)이 상대적으로 낮고, 정격 토크 이상의 충격 하중에 파손 위험이 높음.\n\n\n\n---\n\n## Q6. [개념/이론] 피로 파괴(Fatigue Failure) 메커니즘과 S-N 선도의 공학적 의미는? [빈출]\n\n* **답변 요약**:\n* **메커니즘**: 정적 항복강도보다 낮은 반복 교번 하중이 지속 가해질 때, 미세 균열이 생성·전파되어 급작스럽게 취성 파괴되는 현상.\n* **S-N 선도**: 응력 진폭($S$)과 파단 반복 횟수($N$)의 관계를 나타낸 곡선.\n* **설계 기준**: 철강 계열 재료는 특정 응력 이하에서 파단이 일어나지 않는 피로 한도(Endurance Limit, 통상 $10^7$ 사이클 이상)가 존재하므로, 로봇 관절 프레임의 작동 응력을 피로 한도 이하로 제한하여 무한 수명(Infinite Life)을 확보함. (비철금속인 알루미늄은 명확한 피로 한도가 없으므로 특정 수명 사이클에 대한 피로 강도를 기준으로 설계함.)\n\n\n\n---\n\n## Q7. [실무/트러블슈팅] 끼워맞춤(Fit) 공차 분류(헐거운/중간/억지)와 로봇 관절 조립 부위별 적용 기준은? [빈출]\n\n* **답변 요약**:\n* **헐거운 끼워맞춤(Clearance Fit)**: 축 직경 < 구멍 직경 (항상 틈새 존재). 회전 가동 부위, 분해 조립이 잦은 슬라이드 축(예: g6/H7).\n* **중간 끼워맞춤(Transition Fit)**: 공차 범위에 따라 틈새 또는 죔새 발생. 정밀 위치 결정 핀, 가공 분해가 필요한 베어링 하우징(예: h6/H7, js6/H7).\n* **억지 끼워맞춤(Interference Fit)**: 축 직경 > 구멍 직경 (항상 죔새 존재). 회전 토크 전달용 축-기어 결합, 키리스 체결, 열박음/압입 조립 부위(예: p6/H7, s6/H7).\n\n\n\n---\n\n## Q8. [실무/트러블슈팅] 로봇 관절 실링(O-Ring, Oil Seal) 설계 시 IP 등급 달성을 위한 고려사항은? [빈출]\n\n* **답변 요약**:\n* **O-ring 정적 실링**: 압축률을 단면 직경의 15~25% 수준으로 유지하도록 그루브 폭/깊이 설계. 체결 볼트 간격과 볼트 체결 토크를 균일화하여 하우징 틈새 틈 벌어짐 방지.\n* **오일씰/로터리 씰(동적 실링)**: 상대 샤프트의 표면 거칠기($Ra \\le 0.2\\mu m$) 및 경도(HRC 50 이상 연마 가공) 관리, 원주 속도($v$) 한계 검토.\n* **재질**: 일반 윤활 그리스 및 실온 환경은 NBR, 고온 및 특수 화학 환경은 FKM(Viton) 선정.\n\n\n\n---\n\n## Q9. [개념/이론] 로봇 링크 경량화를 위한 금속(A6061, A7075)과 탄소섬유(CFRP)의 재료적 특성 비교는? [빈출]\n\n* **답변 요약**:\n* **A6061-T6**: 인장강도 약 310MPa, 내식성과 용접성, 가공성이 우수하여 로봇 외부 프레임 및 범용 링크 부품에 널리 사용.\n* **A7075-T6 (초두랄루민)**: 인장강도 약 570MPa 이상으로 고강도-중량비가 뛰어나 하중이 집중되는 베어링 하우징 및 모터 마운트에 적합. 단, 내식성이 낮아 표면 아노다이징 필수.\n* **CFRP (Carbon Fiber Reinforced Plastic)**: 비강도(강도/밀도)와 비탄성률이 알루미늄보다 월등히 높아 초경량 고속 로봇 팔에 최적. 단, 가공 단가가 높고 이방성(Anisotropic) 재료 특성으로 인해 적층 방향 설계 및 금속과의 이종 접합부 체결 강도 관리가 까다로움.\n\n\n\n---\n\n## Q10. [개념/이론] 알루미늄 아노다이징(연질 vs 경질) 표면 처리의 메커니즘과 선택 기준은? [빈출]\n\n* **답변 요약**:\n* **메커니즘**: 알루미늄을 전해액에 담가 양극 산화 반응을 일으켜 표면에 인위적인 다공성 산화알루미늄($Al_2O_3$) 피막을 형성함.\n* **연질 아노다이징**: 피막 두께 5~20$\\mu m$. 주로 착색성 부여 및 기본적 내식성 방청 목적으로 로봇 외관 커버류에 적용.\n* **경질 아노다이징(Hard Anodizing)**: 저온 전해액에서 피막 두께 30~50$\\mu m$ 이상 형성. 표면 경도 HV 400 이상으로 슬라이딩 마찰면, 감속기 체결부, 핀 홀 등 내마모성과 내스크래치성이 요구되는 기능성 기구 부품에 적용. 치수 보정(피막 두께에 따른 치수 증가분) 고려 필수.\n\n\n\n---\n\n## Q11. [개념/이론] 볼스크류(Ball Screw)와 리드스크류(Lead Screw)의 메커니즘 및 로봇 액추에이터 적용 차이는? [빈출]\n\n* **답변 요약**:\n* **볼스크류**: 나사축과 너트 사이에 볼이 구르는 구름 마찰(Rolling Friction). 기계적 효율 90% 이상, 백래시 제거(예압 너트)를 통한 정밀 이송 가능. 역구동(Back-drivability)이 발생하므로 수직 축 적용 시 모터 전자 브레이크 필수.\n* **리드스크류(사각나사, 사다리꼴나사)**: 나사면 간의 미끄럼 마찰(Sliding Friction). 기계적 효율 30~50% 수준으로 낮고 마모가 발생하나, 리드각이 마찰각보다 작을 때 자립 조건(Self-locking)이 성립하여 하중 유지 시 전력 소모 없이 위치 고정 가능.\n\n\n\n---\n\n## Q12. [시스템/응용] FEA 구조 해석에서 폰 미세스 응력(Von Mises Stress)의 물리적 정의와 항복 판정 기준은? [빈출]\n\n* **답변 요약**:\n* **물리적 정의**: 3축 다축 응력 상태(전단 및 인장/압축 복합 하중)를 단축 인장 시험 결과와 직접 비교할 수 있도록 환산한 **전단변형 에너지(Distortion Energy) 기반 등가 응력($\\sigma_v$)**.\n* **항복 판정**: $\\sigma_v \\ge \\sigma_y$(항복강도)일 때 연성 재료(금속)의 소성 항복이 시작된다고 판정함.\n* **안전율 산출**: $SF = \\frac{\\sigma_y}{\\sigma_{v, max}}$가 설계 규격 기준(예: $SF \\ge 1.5 \\sim 2.0$)을 충족하는지 검증함.\n\n\n\n---\n\n## Q13. [실무/트러블슈팅] 판금 가공 설계 시 K-Factor의 정의와 굽힘 전개 길이(Bend Deduction) 계산 필요성은? [빈출]\n\n* **답변 요약**:\n* **K-Factor**: 판재 굽힘 가공 시 인장도 압축도 받지 않는 **중립면(Neutral Axis)의 위치 비율($t/T$)**. (소재 두께 $T$, 내측 표면에서 중립면까지의 거리 $t$, 통상 0.3~0.5).\n* **필요성**: 판재를 절곡하면 외측은 늘어나고 내측은 압축되므로, 정확한 전개 치수(Flat Pattern)를 산출하지 않으면 벤딩 후 전체 외곽 치수와 체결 홀 위치가 어긋나 조립 불량이 발생함.\n\n\n\n---\n\n## Q14. [시스템/응용] 로봇 관절에 작용하는 복합 하중(레이디얼, 액셜, 모멘트 하중) 계산 및 베어링 수명 검증은? [빈출]\n\n* **답변 요약**:\n* 엔드이펙터 페이로드와 링크 자중, 가감속 관성력에 의해 관절 중심점에 작용하는 전단력($F_r$), 축방향력($F_a$), 오버터닝 모멘트($M = F \\times L$)를 정역학 및 동역학 해석으로 분해 산출함.\n* 제조사(예: THK, IKO 등)의 베어링 등가 동하중 공식($P = X \\cdot F_r + Y \\cdot F_a + \\frac{Z \\cdot M}{d_p}$)에 대입하여 등가 하중을 도출함.\n* 기본 동정격하중($C$)을 기준으로 정격 피로 수명 $L_{10} = \\left(\\frac{C}{P}\\right)^p \\times 10^6 \\text{ rev}$를 계산해 요구 수명 시간(예: 20,000시간 이상) 충족 여부를 확인함.\n\n\n\n---\n\n## Q15. [실무/트러블슈팅] DFM(가공 용이성 설계) 및 DFA(조립 용이성 설계)의 핵심 설계 규칙은? [빈출]\n\n* **답변 요약**:\n* **DFM (CNC 가공 관점)**:\n* 엔드밀 가공을 위해 내부 코너에 툴 반경($R$) 여유 부여 (깊이 대 공구 직경 비 $L/D \\le 3 \\sim 4$ 유지).\n* 가공 셋업 횟수(공구 재배치)를 줄이도록 단일 방향 가공면 위주 형상화.\n* 깊고 좁은 포켓, 얇은 벽(Wall Thickness < 1mm) 배제로 가공 떨림(Chatter) 억제.\n\n\n* **DFA (조립 관점)**:\n* 조립 방향을 단일 축(주로 상방 $\\rightarrow$ 하방, Top-down)으로 일원화.\n* 체결 볼트 규격(예: M3, M4)과 렌치 공구 규격을 최소 종류로 통일.\n* 부품 간 조립 시 챔퍼(Chamfer) 가이드 형상을 주어 조립 유격 자동 정렬 유도.\n\n\n\n\n\n---\n\n## Q16. [개념/이론] 스마트 액추에이터 모듈 기구 설계 시 열팽창(Thermal Expansion) 완화 설계법은? [빈출]\n\n* **답변 요약**:\n* 모터 코일 및 감속기 연속 구동 시 80°C 이상 승온됨. 강철 샤프트($\\alpha \\approx 12 \\times 10^{-6}/\\text{K}$)와 알루미늄 하우징($\\alpha \\approx 23 \\times 10^{-6}/\\text{K}$) 간의 열팽창 계수 차이로 축 방향 상대 변위가 발생함.\n* **대응 설계**: 베어링 지지 구조를 한쪽은 고정단(Fixed End), 다른 쪽은 축 방향 유동단(Floating End)으로 분리함. 유동단 외륜 뒤에 웨이브 와셔(Wave Washer)나 디스크 스프링을 배치해 일정 예압을 유지하면서 열팽창 변위를 탄성 흡수하도록 설계하여 베어링 소착(Lock-up)을 차단함.\n\n\n\n---\n\n## Q17. [실무/트러블슈팅] 3D CAD 탑다운(Top-down) 스켈레톤(Skeleton) 모델링 방식의 장점은? [빈출]\n\n* **답변 요약**:\n* 최상위 레벨에 로봇의 링크 길이, 관절 축 좌표계, 작동 각도 범위, 간섭 여유 공간을 정의한 마스터 스케치(Skeleton Part)를 작성함.\n* 하위 개별 부품 파트들이 마스터 스켈레톤의 지오메트리를 참조하도록 설계하므로, 로봇 암의 전장이나 관절 간격 변경 시 스켈레톤 수치 1개만 수정하면 연동된 모든 링크 프레임, 하우징, 커버의 형상이 오차 없이 자동 업데이트됨.\n\n\n\n---\n\n## Q18. [개념/이론] 크로스 롤러 베어링(Cross Roller Bearing)의 내부 궤도 구조와 로봇 관절 적용 이점은? [빈출]\n\n* **답변 요약**:\n* **구조**: $90^\\circ$ V자형 궤도 홈에 원통형 롤러가 상호 직교($90^\\circ$) 방향으로 교대 배열된 구조.\n* **이점**: 통상 2개의 앵귤러 콘택트 볼 베어링이 필요한 공간에 **단 1개의 베어링만으로 레이디얼 하중, 양방향 스러스트(액셜) 하중, 모멘트 하중을 동시에 지지**함. 부품 수 절감, 롤러 선 접촉에 의한 고강성(High Rigidity) 확보, 관절 모듈의 초박형·소형화를 동시에 달성함.\n\n\n\n---\n\n## Q19. [실무/트러블슈팅] 중공축(Hollow Shaft) 로봇 관절 설계 시 축-감속기 간 체결 방식(키, 스플라인, 파워록) 비교는? [빈출]\n\n* **답변 요약**:\n* **평행 키(Key)**: 가공이 단순하나 키 홈 부위에 극심한 응력 집중(Stress Concentration)이 발생하고 미세 유격(백래시)으로 정역회전 반복 시 마모 유발. 고정밀 로봇 관절 축에는 부적합.\n* **인벌류트 스플라인(Spline)**: 다수의 치형으로 고토크를 분산 전달하나 백래시 제어가 어렵고 정밀 가공 단가가 상승함.\n* **마찰 클램프(파워록, Shrink Disc)**: 테이퍼 슬리브의 쐐기 작용을 이용해 마찰력으로 축과 감속기를 결합함. **백래시 완전 제거(Zero Backlash)**, 축 방향 위치 조정 용이, 키 홈 없는 균일 단면으로 응력 집중을 배제하여 고토크 정밀 로봇 관절에 가장 적합함.\n\n\n\n---\n\n## Q20. [시스템/응용] 로봇 엔드이펙터 및 툴 체인저 결합부에서 다우얼 핀(Dowel Pin) 위치 선정 기준은? [빈출]\n\n* **답변 요약**:\n* 볼트는 체결 압력(Clamping Force)만 담당하며, 체결 볼트 홀의 공차 틈새로 인해 위치 정밀도를 보장할 수 없음.\n* **위치 선정 기준**:\n* 최소 2개의 다우얼 핀을 사용하며, 회전 각도 오차($\\Delta \\theta$)를 최소화하기 위해 결합면의 중심선 기준 대각선 가장 먼 거리(최대 직경부)에 배치함.\n* 조립 시 과도 구속(Over-constraint)에 의한 조립 불량을 방지하기 위해 **1개는 원형 핀(Round Pin, $X/Y$ 평면 원점 구속), 다른 1개는 다이아몬드 핀(Diamond Pin, $X$ 또는 $Y$ 방향 1축 회전 구속)** 조합을 적용함.",
-  "기획": "# 기획 직무 면접 빈출 질문 (Product Planning / PRD / Market Analysis / Business Strategy)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **두산로보틱스**: 로봇 상품 기획 및 PRD / 비즈니스 로드맵 담당자\n> * **HD현대로보틱스**: 로봇 어플리케이션 시장 분석 및 목표 원가(BOM) 기획자\n> * **로보티즈**: 서비스 로봇 신사업 기획 및 RaaS 렌탈 비즈니스 담당자\n> \n> \n\n---\n\n## Q1. 로봇 신제품 기획 시 시장 규모(TAM, SAM, SOM) 산정 접근법은? [빈출]\n\n* **답변 요약**:\n* **TAM(Total Addressable Market)**: 전 세계/국내 전체 로봇 시장의 총 규모 산출 (시장 조사 보고서 데이터 기반).\n* **SAM(Serviceable Available Market)**: 자사 로봇 형태(예: 협동로봇, AMR) 및 적용 가능 산업군(물류, 전자, 식음료 등)으로 한정한 유효 시장.\n* **SOM(Serviceable Obtainable Market)**: 자사 생산 능력(CAPA), 영업 채널망, 경쟁사 점유율을 고려해 1~3년 내 실제 확보 가능한 점유율 기반 정량 매출 목표치 도출.\n* Bottom-up(타깃 고객 사업장 수 $\\times$ 공정당 로봇 도입 대수 $\\times$ 평균 판가) 방식으로 산출하여 Top-down 수치와 교차 검증함.\n\n\n\n---\n\n## Q2. 로봇 상품 기획 문서인 PRD(Product Requirement Document)의 필수 구성 요소는? [빈출]\n\n* **답변 요약**:\n* **배경 및 목적**: 해결하고자 하는 고객 페인 포인트 및 시장 기회 정의.\n* **사용자 및 유즈케이스**: 타깃 고객군(SI 파트너, 공장 오퍼레이터)과 주요 작업 시나리오 정의.\n* **핵심 요구 사양**: 페이로드(Payload), 작업 반경(Reach), 반복 정밀도, 축 수, 방수방진 등급(IP), 제어 주기, 전원 규격 등 하드웨어/소프트웨어 기능 요건.\n* **사업적 제약 조건**: 목표 출시일(Target Release), 양산 원가 한도(Target BOM Cost), 목표 판매가(Target Price).\n* **성공 지표**: 출시 후 목표 판매 수량, 시장 점유율, 불량률 목표치 명시.\n\n\n\n---\n\n## Q3. 로봇 제품의 BOM 분석 및 목표 원가(Target Costing) 수립 절차는? [빈출]\n\n* **답변 요약**:\n* **역산 프로세스**: 시장 수용 가능 판매가 설정 $\\rightarrow$ 목표 영업이익률 차감 $\\rightarrow$ 허용 제조원가(Target Cost) 산출.\n* **원가 분배(Allocation)**: 감속기, 모터/드라이브, 제어기/센서, 프레임/외장, 인건비/조립비 등 서브시스템별 허용 상한선을 비율로 배분.\n* **원가 절감 관리**: 설계 단계에서 감속기 국산화 대체 검토, 공용 부품 채택률 증대, 가공 단순화(DFM)를 엔지니어링 팀과 조율하여 양산 전 목표 원가 도달 여부를 단계별 게이트(Design Gate)로 통제함.\n\n\n\n---\n\n## Q4. 경쟁사 제품(UR, KUKA, FANUC, 두산, 레인보우 등) 벤치마킹 및 차별화(USP) 도출 방식은? [빈출]\n\n* **답변 요약**:\n* **비교 분석 매트릭스**: 하드웨어 물리 사양(무게 대비 가반하중 비, 설치 면적) 외에 총소유비용(TCO), 프로그래밍 난이도, 안전 기능 인증(ISO/TS 15066 등), 티칭 펜던트 GUI 편의성을 다각도로 비교.\n* **USP(Unique Selling Proposition) 설정**: 단순 스펙 경쟁을 지양하고 '설치 후 1시간 내 현장 라인 투입 가능한 직관적 소프트웨어 솔루션' 또는 '특정 공정(예: 용접, 팔레타이징) 전용 툴킷 기본 탑재' 등 엔드유저의 운영 편의 관점에서 차별점을 정의함.\n\n\n\n---\n\n## Q5. 공정별 로봇 어플리케이션(팔레타이징, 용접, 머신텐딩 등) 선정 기준은? [빈출]\n\n* **답변 요약**:\n* **시장 매력도**: 현장 인력난 심각도(3D 업종), 자동화 전환율, 연평균 시장 성장률(CAGR).\n* **사업성(ROI)**: 도입 후 고객의 투자금 회수 기간이 1~2년 이내로 떨어지는지 여부.\n* **공정 표준화 가능성**: 고객사마다 커스터마이징 요구가 과도하지 않고 솔루션 패키지화(표준 툴킷화)가 가능한 영역을 우선순위로 선정하여 진입함.\n\n\n\n---\n\n## Q6. 고객 페인 포인트 수집을 위한 VOC 조사 및 유즈케이스 구체화 방법은? [빈출]\n\n* **답변 요약**:\n* **이해관계자 분리 조사**: 최종 구매 결정권자(경영진/공장장 - ROI, 가동률 중시), 현장 오퍼레이터(티칭 난이도, 안전성 중시), SI 엔지니어(배선 편의성, 통신 프로토콜 호환성 중시)로 나누어 심층 인터뷰 진행.\n* **유즈케이스 도출**: 수집된 정성적 불만 사항을 '현업 오퍼레이터가 10분 내 신규 작업 궤적을 수정할 수 있는 다이렉트 티칭 기능' 등 엔지니어링 팀이 개발 가능한 명확한 기능 요구사항(Functional Requirement)으로 전환함.\n\n\n\n---\n\n## Q7. 로봇 제품 수명 주기(PLC) 관리 및 단종(Phase-out) 프로세스는? [빈출]\n\n* **답변 요약**:\n* **단계별 전략**: 도입기(핵심 레퍼런스 확보) $\\rightarrow$ 성장기(유통망 확대 및 공정별 솔루션 패키지화) $\\rightarrow$ 성숙기(원가 절감형 리비전 출시) $\\rightarrow$ 쇠퇴기(차세대 모델 이관).\n* **단종 관리**: 구형 모델 단종 6~12개월 전 EOL(End-of-Life) 공지, 법적/계약적 유지보수 의무 기간(통상 5~10년) 충족을 위한 주요 핵심 부품(감속기, 모터, 제어 보드) 예비 재고 확보 및 신모델 대체 지원 가이드라인 배포.\n\n\n\n---\n\n## Q8. 로봇 SI(System Integration) 생태계 구축 및 파트너십 확장 전략은? [빈출]\n\n* **답변 요약**:\n* 제조사 자체 역량만으로는 모든 산업 현장의 맞춤형 공정을 커버할 수 없으므로, 전문 SI 파트너사 확보가 매출 확장의 핵심 축임.\n* **파트너십 프로그램**: 전용 기술 교육/인증 제도 운영, 데모 로봇 할인 지원, 공정별 레퍼런스 아키텍처 제공, 소프트웨어 SDK 공개를 통해 파트너사의 셋업 기간을 단축시키고 자사 로봇 종속성(Lock-in)을 강화함.\n\n\n\n---\n\n## Q9. 정부 로봇 국책 과제 기획 및 제안서 작성 프로세스는? [빈출]\n\n* **답변 요약**:\n* 정부 부처(산업통상자원부, 한국로봇산업진흥원 등)의 산업 기술 로드맵 및 정책 과제 공고(RFP) 분석.\n* **제안서 작성 핵심**: 기술 개발의 시급성 및 외산 대체 효과, 산학연 컨소시엄 구성(수요기업-공급기업-연구기관 연계), 정량적 핵심 성능 지표(KPI) 설정, 사업화 후 매출 및 고용 창출 예상치를 명확한 근거 데이터로 구성함.\n\n\n\n---\n\n## Q10. 고객 관점의 로봇 도입 투자 대비 수익률(ROI) 산출 모델은? [빈출]\n\n* **답변 요약**:\n* **비용(Cost)**: 로봇 구매비 + 그리퍼/주변장치비 + SI 설치/시운전비 + 연간 유지보수비(TCO).\n* **편익(Benefit)**: 직간접 인건비 절감액 + 주야간 연속 가동(2~3교대)에 따른 생산량 증대분 + 작업자 실수 감소로 인한 불량 폐기 비용 절감액.\n* **회수 기간(Payback Period)**: $\\text{회수 기간} = \\frac{\\text{총 투자 비용}}{\\text{연간 순 편익}}$ 산출식을 통해 1.5년 내외의 정량적 회수 기간을 도출하여 고객 설득 자료로 활용함.\n\n\n\n---\n\n## Q11. 애자일 MVP(최소 기능 제품) 정의 및 시장 검증 수행 방식은? [빈출]\n\n* **답변 요약**:\n* 완성형 외관 디자인이나 복잡한 부가 기능을 제외하고, 핵심 가치(예: 협소 공간에서의 작업 반경 및 반복 정밀도 충족)만 검증 가능한 프로토타입 제작.\n* 전략적 제휴 관계의 핵심 고객사(Friendly Customer) 현장에 1~2대를 선배치하여 가동률, 오동작 발생률, 사용자 조작 로그를 수집하고, 이를 정식 양산 모델의 하드웨어/소프트웨어 사양 확정에 반영함.\n\n\n\n---\n\n## Q12. 서비스 로봇 RaaS(Robot-as-a-Service, 구독형) 비즈니스 모델 설계 시 고려사항은? [빈출]\n\n* **답변 요약**:\n* **재무적 관점**: 초기 대규모 하드웨어 제작비(CAPEX) 발생 대비 월 구독료 회수(OPEX 전환)에 따른 현금 흐름 관리, 제품 내용연수 기반 감가상각 기간 설정, 자산 렌탈 금융 연계.\n* **운영/기술적 관점**: 원격 모니터링(FMS)을 통한 예지보전(Predictive Maintenance), 원격 소프트웨어 업데이트(OTA), 현장 출동 정비 인프라 구축을 통한 가동 정지 시간(Downtime) 최소화.\n\n\n\n---\n\n## Q13. 신규 로봇 사업 진출 시 3C 및 SWOT 분석 적용 방식은? [빈출]\n\n* **답변 요약**:\n* **3C 분석**: 고객(Customer - 공정 자동화 니즈 및 투자 여력), 자사(Company - 제어기 내재화 및 기구 설계 강점), 경쟁사(Competitor - 외산 선도기업의 가격대 및 국내 공급망 취약점) 교차 분석.\n* **SWOT 기반 전략**: 내부 강점(S)과 외부 기회(O)를 결합하여 특정 타깃 공정에 특화된 패키지로 선제 진입하고, 내부 약점(W)인 비전 AI 역량은 전문 솔루션 기업과의 파트너십(WO 전략)으로 보완함.\n\n\n\n---\n\n## Q14. 로봇 산업 전시회 참가 데모 부스 기획 및 리드 발굴 전략은? [빈출]\n\n* **답변 요약**:\n* 단순 무부하 반복 시연을 배제하고, 실제 공장 환경을 모사한 '실제 공정 데모(예: 컨베이어 연동 비전 피킹, 박스 팔레타이징)'를 전면에 배치함.\n* 부스 방문 참관객을 단순 관람객과 실제 도입 의사가 있는 바이어(공장 관리자, SI 업체)로 분류하여 현장 상담 데이터를 수집하고, 전시회 종료 후 1주일 이내 후속 기술 미팅으로 연결하는 세일즈 파이프라인을 구축함.\n\n\n\n---\n\n## Q15. 로봇 산업 최신 기술 트렌드(Physical AI, Humanoid, AMR-Manipulator) 모니터링 및 로드맵 반영 프로세스는? [빈출]\n\n* **답변 요약**:\n* 글로벌 선도 기업(Tesla, Boston Dynamics, Figure 등)의 발표 자료, 주요 로봇 학회(ICRA, IROS 등), 전문 시장조사기관 리포트를 상시 트래킹함.\n* 파악된 신기술을 무조건 도입하는 것이 아니라, 현 시점의 양산성, 원가 현실성, 산업 현장 수요(수익성)를 자체 평가 매트릭스로 검증한 후 자사의 중장기 제품 로드맵(1년/3년/5년)에 단계적으로 반영함.",
-  "데이터": "# 데이터 & DevOps 직무 면접 빈출 질문 (Data Pipeline / MLOps / Telemetry / Edge Infrastructure)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **1X Technologies**: Data & DevOps Engineer - Telemetry & Edge Infrastructure\n> * **두산로보틱스**: 로봇 텔레메트리 데이터 파이프라인 & MLOps 엔지니어\n> * **HD현대로보틱스**: 예지보전(PdM) 데이터 분석 및 로봇 관제 데이터 플랫폼 엔지니어\n> \n> \n\n---\n\n## Q1. [개념/이론] 로봇 텔레메트리(Telemetry) 파이프라인에서 수집되는 시계열 데이터의 특성과 처리 메커니즘은? [빈출]\n\n* **답변 요약**: 관절 각도/토크, 모터 전류, 센서 패킷, ROS 2 토픽 등 고주기(수십 Hz~1kHz)로 발생하는 시계열(Time-series) 데이터임. 센서 간 클럭 불일치를 해결하기 위한 타임스탬프 정렬 및 동기화가 필수적이며, 데이터 적재 전 리샘플링(Resampling)과 다운샘플링을 통해 네트워크 대역폭과 스토리지 비용을 제어함.\n\n---\n\n## Q2. [시스템/응용] 대규모 로봇 플릿(AMR Fleet) 관제를 위한 MQTT 및 Apache Kafka 기반 수집 파이프라인 설계 방식은? [빈출]\n\n* **답변 요약**: 네트워크가 불안정한 무선 환경의 로봇 엣지 디바이스는 경량 프로토콜인 MQTT(QoS 0/1)로 로컬 브로커 또는 엣지 게이트웨이에 텔레메트리를 전송함. 게이트웨이는 Kafka Connect를 통해 메시지를 Apache Kafka 클러스터로 전달하며, 로봇 ID 기반 파티셔닝(Partitioning)을 적용해 대규모 동시 유입 트래픽을 분산 및 순서 보장 처리함.\n\n---\n\n## Q3. [시스템/응용] 로봇 ROSbag(MCAP) 멀티모달 센서 데이터를 클라우드 데이터 레이크에 저장하기 위한 ETL 변환 방식은? [빈출]\n\n* **답변 요약**: 대용량 비정형 로깅 파일(ROSbag/MCAP)을 직접 쿼리하는 비효율을 방지하기 위해 ETL 파이프라인을 구축함. 분산 처리 엔진(Apache Spark 등)으로 파일을 역직렬화하여 이미지/점군 바이너리는 Amazon S3 오브젝트 스토리지에 원본 저장하고, 관절 궤적 및 제어 메트릭 등 정형 시계열은 Parquet 또는 Apache Iceberg 등 컬럼 기반(Columnar) 압축 포맷으로 변환해 적재함으로써 분석 쿼리 속도를 단축함.\n\n---\n\n## Q4. [개념/이론] 로봇 구동계 예지보전(PdM)을 위한 센서 데이터 특성 추출(Feature Engineering) 기법은? [빈출]\n\n* **답변 요약**: 전류 및 진동 가속도계 원시 신호를 시간 도메인과 주파수 도메인으로 분해함. 시간 영역에서는 RMS, 피크 대 피크(Peak-to-Peak), 첨도(Kurtosis, 충격 감지), 왜도(Skewness)를 추출함. 주파수 영역에서는 고속 푸리에 변환(FFT) 및 웨이블릿 변환(Wavelet)을 수행하여 베어링 내외륜 결함 주파수(BPFO, BPFI) 및 기어 맞물림 주파수(GMF) 대역의 에너지 밀도 변화를 추적함.\n\n---\n\n## Q5. [실무/트러블슈팅] 로봇 센서 데이터의 결측치 처리 및 이상치(Outlier) 필터링 파이프라인 구축법은? [빈출]\n\n* **답변 요약**: 하드웨어 통신 단절로 인한 단기 결측은 물리적 가감속 한계를 고려해 선형 또는 3차 스플라인(Spline) 보간을 적용하고, 장기 결측은 마스킹 플래그를 부여해 모델 학습에서 제외함. 노이즈 이상치는 사비츠키-골레이(Savitzky-Golay) 필터나 이동 중앙값(Rolling Median) 필터로 1차 평활화한 후, 3-시그마 규칙 또는 사분위간 범위(IQR) 임계치를 초과하는 이상 신호를 자동 태깅 및 필터링함.\n\n---\n\n## Q6. [개념/이론] 시계열 DB(TimescaleDB, ClickHouse), 관계형 DB(PostgreSQL), NoSQL(MongoDB)의 적재 기준 비교는? [빈출]\n\n* **답변 요약**:\n* **ClickHouse / TimescaleDB**: 초당 수만 건 이상의 고속 쓰기 및 대규모 시계열 메트릭 실시간 집계 쿼리에 최적화. (센서 로그, 텔레메트리 적재)\n* **PostgreSQL**: ACID 트랜잭션이 요구되는 로봇 마스터 정보, 장비 라이프사이클, 부품 이력 메타데이터 관리에 적합.\n* **MongoDB**: 센서 구성(Configuration) 파일, 로봇 작업 레시피, 유동적인 JSON 스키마 관제 로그 관리에 적합.\n\n\n\n---\n\n## Q7. [실무/트러블슈팅] 비지도 학습 기반 로봇 구동부 이상 감지(Anomaly Detection) 모델 구축 방식은? [빈출]\n\n* **답변 요약**: 정상 작동 상태의 모터 회전수, 관절 토크, 드라이브 온도 데이터를 오토인코더(Autoencoder) 또는 LSTM-Autoencoder에 학습시킴. 실시간 구동 데이터 입력 시 출력과의 복원 오차(Reconstruction Error)를 계산하고, 정상 분포 상위 임계치를 지속 초과할 경우 기계적 유격이나 벨트 장력 저하 등 이상 징후로 판정하여 사전 알람을 발생시킴.\n\n---\n\n## Q8. [시스템/응용] Airflow 및 Kubeflow를 활용한 로봇 머신러닝 모델 재학습 및 지속적 배포(CT) 파이프라인 구성은? [빈출]\n\n* **답변 요약**: Apache Airflow로 필드 로봇 데이터 수집 및 전처리 정기 배치를 오케스트레이션함. 데이터 드리프트(Data Drift)가 감지되면 Kubeflow 파이프라인을 트리거하여 분산 GPU 환경에서 모델을 재학습함. 학습 완료 후 검증 지표를 통과한 가중치는 ONNX/TensorRT 엔진으로 자동 변환되어 모델 레지스트리(MLflow)에 등록 및 엣지 배포 단계로 연결됨.\n\n---\n\n## Q9. [시스템/응용] 엣지 로봇 환경(K3s, KubeEdge)에서의 컨테이너 배포 및 무중단 업데이트 관리 방안은? [빈출]\n\n* **답변 요약**: 저사양 엣지 보드의 메모리 제약을 극복하기 위해 K3s 또는 KubeEdge 경량 런타임을 배포함. 현장 통신 불안정에 대응하기 위해 오프라인 노드 자율 실행(Edge Autonomy) 설정을 활성화하고, 소프트웨어 업데이트 시 전체 플릿 동시 배포를 지양함. 카나리(Canary) 또는 롤링 업데이트 방식을 적용하여 단계적으로 컨테이너를 교체하며 비정상 종료 시 즉각 롤백하도록 구성함.\n\n---\n\n## Q10. [개념/이론] OpenTelemetry, Prometheus, Grafana를 활용한 로봇 시스템 관측성(Observability) 구축 구조는? [빈출]\n\n* **답변 요약**: 로봇 내부 노드(ROS 2 / C++)에 OpenTelemetry SDK를 통합하여 제어 루프 지연 시간 및 분산 추적(Trace) 데이터를 수집함. 시스템 리소스(CPU, GPU 메모리, 디스크 I/O)는 Node Exporter를 통해 노출하고, 서버단 Prometheus가 주기적으로 메트릭을 스크랩(Pull)하여 저장함. 최종적으로 Grafana 대시보드로 실시간 플릿 가동률을 시각화하고 Alertmanager로 장애 알림을 전송함.\n\n---\n\n## Q11. [실무/트러블슈팅] 대규모 로봇 관제 데이터 웨어하우스(BigQuery, Snowflake) 쿼리 최적화 및 비용 절감법은? [빈출]\n\n* **답변 요약**: 전체 테이블 풀 스캔(Full Scan)을 억제하기 위해 수집 일자(`date`) 기준으로 파티셔닝(Partitioning)을 설정하고, 조회 빈도가 높은 로봇 모델 및 고유 ID 컬럼에 클러스터링(Clustering)을 적용함. 반복 집계가 필요한 메트릭은 머티리얼라이즈드 뷰(Materialized View)를 생성하여 쿼리 연산량과 스캔 비용을 절감함.\n\n---\n\n## Q12. [시스템/응용] Apache Flink를 이용한 실시간 로봇 텔레메트리 스트림 처리 및 관제 알람 아키텍처는? [빈출]\n\n* **답변 요약**: Kafka 토픽으로 인입되는 로봇 GPS 좌표와 상태 데이터를 Apache Flink로 수신함. 텀블링(Tumbling) 또는 슬라이딩(Sliding) 윈도우 연산을 적용해 최근 10초간의 경로 이탈, 통신 단절, 급격한 배터리 전압 강하 이벤트를 실시간 패턴 매칭함. 이상 상태 감지 즉시 저지연 알람 토픽으로 발행하여 관제 FMS 웹 인터페이스에 실시간 반영함.\n\n---\n\n## Q13. [개념/이론] 복수 센서 시계열 동기화를 위한 PTP (Precision Time Protocol, IEEE 1588) 구축의 필요성은? [빈출]\n\n* **답변 요약**: NTP(Network Time Protocol)의 밀리초($ms$) 단위 오차로는 고속 주행 로봇의 센서 퓨전(LiDAR-카메라-IMU) 정밀도를 확보할 수 없음. 하드웨어 타임스탬핑을 지원하는 PTP(IEEE 1588) 마스터 클럭을 로컬 이더넷 스위치망에 연동하여 마이크로초($\\mu s$) 이하 오차로 시스템 시간을 동기화함으로써 캘리브레이션 왜곡과 위치 추정 슬립을 방지함.\n\n---\n\n## Q14. [실무/트러블슈팅] 로봇 카메라 영상 수집 시 개인정보보호(GDPR/개인정보보호법) 규제 준수를 위한 엣지 비식별화 파이프라인은? [빈출]\n\n* **답변 요약**: 로봇이 촬영한 원본 영상을 클라우드로 전송하기 전, Jetson 등 로컬 엣지 디바이스 상에서 경량 객체 탐지 모델을 실행함. 프레임 내 사람 얼굴과 차량 번호판 영역의 바운딩 박스를 실시간 검출하고 가우시안 블러(Blurring)를 적용한 뒤 변환된 프레임만 클라우드 스토리지로 업로드하여 컴플라이언스 리스크를 제거함.\n\n---\n\n## Q15. [시스템/응용] 로봇 엔터프라이즈 데이터 플랫폼 구축 시 데이터 메시(Data Mesh) 아키텍처 적용 방식은? [빈출]\n\n* **답변 요약**: 중앙 집중형 데이터 팀의 병목을 해결하기 위해 도메인 단위로 데이터 오너십을 분리함. 하드웨어/제어 엔지니어링 도메인(모터, 배터리 텔레메트리), 자율주행 도메인(주행 궤적, 지도 메트릭), 비즈니스 관제 도메인(가동률, 배차 로그)이 각각 데이터셋을 표준 API와 카탈로그를 갖춘 '데이터 프로덕트(Data Product)'로 패키징하여 전사 팀에 제공하도록 분산 운영함.",
-  "보안": "# 보안 직무 면접 빈출 질문 (Cybersecurity / SROS2 / OT Security / Firmware Security)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **HD현대로보틱스**: 로봇 AI & 로보틱스 보안 엔지니어 (SROS2 / OT 보안)\n> * **1X Technologies**: Cybersecurity Engineer - Robot Firmware & Cloud Network\n> * **두산로보틱스**: 로봇 제어기 사이버 복원력 및 Secure Boot 펌웨어 보안 담당자\n> \n> \n\n---\n\n## Q1. [개념/이론] SROS2(Secure ROS 2)의 3대 핵심 요소와 DDS Security 표준 구현 메커니즘은? [빈출]\n\n* **답변 요약**:\n* **인증(Authentication)**: X.509 공개키 인프라(PKI) 인증서를 통해 통신에 참여하는 로봇 노드의 신원을 상호 검증함.\n* **접근 제어(Access Control)**: 서명된 권한(Permissions) XML 문서를 기반으로 특정 노드가 발행(Publish) 또는 구독(Subscribe)할 수 있는 ROS 2 토픽/서비스/액션을 제한함.\n* **암호화(Cryptographic)**: AES-GCM 대칭키 암호화를 적용하여 메시지 기밀성(Confidentiality)과 변조 방지 무결성(Integrity)을 하부 DDS 통신 계층에서 보장함.\n\n\n\n---\n\n## Q2. [시스템/응용] 로봇 제어 필드버스(CAN, Industrial Ethernet)의 보안 취약점과 SecOC 적용 방안은? [빈출]\n\n* **답변 요약**:\n* **취약점**: CAN 통신은 브로드캐스트 특성상 인증 및 암호화가 없어 패킷 스니핑, 재전송(Replay) 공격, ID 스푸핑 기반 악의적 모터 토크 주입에 노출됨.\n* **방어 대책**: AUTOSAR 표준의 SecOC(Secure On-Board Communication)를 도입함. 하드웨어 보안 모듈(HSM)을 통해 CAN 페이로드마다 대칭키(AES-128 CMAC) 기반 메시지 인증 코드(MAC)와 신선도 값(Freshness Value)을 결합 전송하여 패킷 위변조 및 재전송 공격을 차단함.\n\n\n\n---\n\n## Q3. [개념/이론] 임베디드 로봇 제어기의 Secure Boot 동작 순서와 Root of Trust(RoT)의 역할은? [빈출]\n\n* **답변 요약**:\n* **신뢰의 기점(RoT)**: SoC 내부 읽기 전용 메모리(Mask ROM)에 변조 불가능한 제조사 공개키 해시를 eFuse 형태로 영구 기록함.\n* **검증 체인**: 전원 인가 시 Mask ROM 코드가 1차 부트로더의 디지털 서명을 검증하고, 이후 단계별로 2차 부트로더 $\\rightarrow$ 리눅스 커널 $\\rightarrow$ 루트 파일시스템의 해시 서명을 순차 검증(Chain of Trust)하여 임의로 변조된 펌웨어 실행을 원천 차단함.\n\n\n\n---\n\n## Q4. [실무/트러블슈팅] 로봇 무선 펌웨어 업데이트(OTA) 파이프라인의 위협 모델과 안전한 배포 설계는? [빈출]\n\n* **답변 요약**:\n* **전송 구간 보호**: TLS 1.3 기반 상호 인증(mTLS) 채널을 통해 OTA 서버에서 바이너리를 수신하여 중간자 공격(MITM)을 방어함.\n* **무결성 및 신뢰성 검증**: 다운로드된 펌웨어 헤더의 비대칭키 전자서명(ECDSA/RSA)을 로컬 RoT 공개키로 검증함.\n* **다운그레이드 방어**: 보안 패치 이전의 취약한 구버전으로 되돌리는 공격을 막기 위해 펌웨어 내부 보안 버전 카운터와 하드웨어 안티 롤백(Anti-rollback) eFuse 값을 대조함. Dual-bank(A/B 파티션) 구조로 업데이트 실패 시 안전 복구를 지원함.\n\n\n\n---\n\n## Q5. [시스템/응용] AMR 및 서비스 로봇의 무선 통신망(Wi-Fi, 5G) 보안 구성 시 WPA3 Enterprise 적용법은? [빈출]\n\n* **답변 요약**:\n* 공유 비밀번호(PSK) 탈취 및 사전 대입 공격을 차단하기 위해 802.1X EAP-TLS 인증 기반 WPA3 Enterprise를 구축함.\n* 로봇 디바이스마다 고유한 기기 인증서와 비공개키를 발급하고 RADIUS 서버를 통해 상호 인증함. 기밀성 보장을 위해 192비트 보안 스위트(GCMP-256)를 적용하고, 관리 프레임 보호(PMF, 802.11w)를 의무화하여 와이파이 연결 해제(Deauthentication) DoS 공격을 차단함.\n\n\n\n---\n\n## Q6. [개념/이론] STRIDE 위협 모델링과 로봇 소프트웨어 침투 테스트(Penetration Testing) 절차는? [빈출]\n\n* **답변 요약**:\n* **STRIDE 분석**: 스푸핑(센서 노드 사칭), 변조(제어 명령 패킷 변경), 부인(작업 로그 누락), 정보 유출(카메라 피드 탈취), 서비스 거부(통신 버퍼 플러딩), 권한 상승(루트 쉘 획득) 6개 범주로 시스템 데이터 흐름도(DFD)를 분석함.\n* **침투 테스트**: Nmap을 통한 개방형 포트 스캔, Wireshark를 이용한 패킷 덤프 분석, ROS 2 토픽 및 API 입력단 대상 퍼징(Fuzzing) 도구를 구동하여 메모리 오염(Buffer Overflow) 및 비인가 접근 취약점을 도출하고 보안 패치를 적용함.\n\n\n\n---\n\n## Q7. [실무/트러블슈팅] Linux 기반 로봇 OS 하드닝(OS Hardening) 및 컨테이너 샌드박싱 기법은? [빈출]\n\n* **답변 요약**:\n* **권한 최소화**: ROS 2 프로세스가 `root` 대신 전용 비특권 계정(`robot-user`)으로 실행되도록 권한을 분리함. SSH 루트 로그인 및 불필요한 데몬 포트를 비활성화함.\n* **강제 접근 제어(MAC)**: AppArmor 또는 SELinux 정책 프로파일을 정의하여 로봇 프로세스가 지정된 장치 드라이버(`/dev/ttyUSB*`, `/dev/can*`) 및 설정 디렉토리에만 접근하도록 격리함.\n* **커널 파라미터 튜닝**: `sysctl`을 통해 IP 포워딩 제한, SYN 쿠키 활성화, ASLR(Address Space Layout Randomization) 강제 적용을 수행함.\n\n\n\n---\n\n## Q8. [시스템/응용] 로봇 제어기 내 하드웨어 보안 모듈(TPM 2.0, HSM) 및 ARM TrustZone의 역할은? [빈출]\n\n* **답변 요약**:\n* **TPM 2.0 / HSM**: 하드웨어 난수 생성기(TRNG)를 내장하여 암호화 마스터키, TLS 개인키, 디바이스 신원 증명서를 외부 덤프가 불가능한 물리적 보안 영역에 보관하고 내부에서 암복호화 연산을 직접 처리함.\n* **ARM TrustZone**: 프로세서 코어를 논리적으로 '일반 영역(Normal World, 리눅스 OS)'과 '보안 영역(Secure World, OP-TEE)'으로 격리함. 모터 비상 정지 로직, 안전 임계값 제어, 키 관리 등 필수 안전 코드를 일반 OS가 손상되더라도 안전하게 보호함.\n\n\n\n---\n\n## Q9. [실무/트러블슈팅] 로봇 관제 웹 대시보드(FMS) 대상 OWASP Top 10 취약점 방어 설계는? [빈출]\n\n* **답변 요약**:\n* **SQL Injection**: 동적 쿼리 조립을 배제하고 ORM 프레임워크 또는 파라미터화된 쿼리(Prepared Statement)를 강제함.\n* **XSS**: 입력값 검증과 출력 데이터 HTML 인코딩을 적용하고, Content Security Policy(CSP) 헤더를 선언하여 인라인 스크립트 실행을 제한함.\n* **CSRF**: 모든 상태 변경 API 요청에 유효성 검증용 CSRF 토큰을 발급하거나 세션 쿠키에 `SameSite=Strict` 및 `Secure`, `HttpOnly` 속성을 설정함.\n* **인증 관리**: 관제 대시보드 접근 시 다중 요소 인증(MFA) 및 JWT 토큰 만료 주기 단축을 적용함.\n\n\n\n---\n\n## Q10. [실무/트러블슈팅] ROS 2 토픽 플러딩(Topic Flooding) 및 DoS 공격 발생 시 트래픽 완화 대책은? [빈출]\n\n* **답변 요약**:\n* **미들웨어 레벨(QoS)**: 토픽 대기열 히스토리 심도(`Depth`)를 제한하고, `Deadline` 및 `Lifespan` QoS 프로파일을 구성하여 지연된 악의적 대량 패킷을 즉시 폐기함.\n* **OS/네트워크 레벨**: Linux 커널의 eBPF(XDP) 프로그램을 적용하여 인입 패킷을 소켓 버퍼 할당 전 드라이버 계층에서 인터셉트하고, 사전 정의된 대역폭(Rate Limit)을 초과하는 공격 IP/노드의 패킷을 CPU 오버헤드 없이 드롭(Drop)함.\n\n\n\n---\n\n## Q11. [개념/이론] EU 사이버 복원력 법안(CRA)의 주요 골자와 로봇 완제품 출하 시 필수 요건은? [빈출]\n\n* **답변 요약**:\n* **핵심 목적**: 유럽 시장에 유통되는 하드웨어 및 소프트웨어 결합 제품 전반에 대해 설계 단계부터의 보안(Security by Design)을 법적으로 의무화함.\n* **제조사 필수 요건**:\n* 제품 수명 주기 전반(최소 5년 또는 기대 수명)에 걸친 정기 취약점 패치 및 무료 보안 업데이트 제공 의무.\n* 확인된 보안 취약점 및 침해 사고 발생 시 24시간 이내 유럽 네트워크정보보호기구(ENISA) 보고 체계 구축.\n* 기계 지침(Machinery Directive) 및 CE 인증 심사 시 소프트웨어 자재 명세서(SBOM) 및 위험성 평가 보고서 제출 의무.\n\n\n\n\n\n---\n\n## Q12. [시스템/응용] 로봇 SW 공급망 보안을 위한 SBOM(SPDX/CycloneDX) 생성 및 CVE 자동 탐지 파이프라인은? [빈출]\n\n* **답변 요약**:\n* CI/CD 파이프라인(GitHub Actions/GitLab CI) 빌드 단계에서 Syft나 Trivy 도구를 구동하여 로봇 소스코드, 오픈소스 의존성, 리눅스 패키지 메타데이터를 추출하고 CycloneDX/SPDX 표준 규격의 SBOM 파일을 자동 생성함.\n* 생성된 SBOM을 Grype 또는 Snyk 엔진과 연동해 미국 NVD(National Vulnerability Database)의 최신 CVE 데이터베이스와 지속 대조함. CVSS 위험도 임계치(예: Score 7.0 이상 고위험군) 초과 취약점 발견 시 빌드를 실패 처리하고 즉각적인 라이브러리 패치를 요구함.\n\n\n\n---\n\n## Q13. [시스템/응용] 스마트 팩토리 환경에서 로봇 OT 망분리(Purdue Model) 및 제로 트러스트(Zero Trust) 구축은? [빈출]\n\n* **답변 요약**:\n* **Purdue Model 기반 분리**: 레벨 1~2(로봇 제어기, 센서, PLC) 영역과 레벨 4~5(전사 IT, ERP) 영역 사이에 산업용 차세대 방화벽(NGFW) 및 비무장지대(DMZ)를 구성함.\n* **제로 트러스트 적용**: \"내부 네트워크는 안전하다\"는 가정을 배제함. 외부 관제 서버와 로봇 간 통신 시에도 데이터 다이오드(Data Diode) 또는 단방향 게이트웨이를 적용하여 직접 접근을 차단하고, 모든 세션에 대해 개별 인증서 기반 상호 검증 및 최소 권한 접근(Least Privilege)을 강제함.\n\n\n\n---\n\n## Q14. [실무/트러블슈팅] 로봇 운영 로그의 무결성 보장을 위한 암호학적 기법 및 중앙 SIEM 연동 체계는? [빈출]\n\n* **답변 요약**:\n* **로컬 로그 변조 방지**: 로그 레코드 생성 시 이전 로그의 해시값을 포함하는 해시 체인(Hash-chain) 구조를 적용하거나, Write-Once-Read-Many(WORM) 저장소를 설정하여 공격자의 흔적 삭제 및 덮어쓰기 시도를 감지함.\n* **중앙 관제 전송**: Fluentbit/Logstash 경량 에이전트를 통해 mTLS 암호화 터널로 중앙 SIEM(Elasticsearch/Splunk)에 준실시간 포워딩함. 로그 전송 단절이나 비정상적인 삭제 요청 발생 시 보안 운영 센터(SOC)로 즉각 알람을 트리거함.\n\n\n\n---\n\n## Q15. [시스템/응용] 하드웨어 레벨의 물리적 해킹 공격(JTAG/UART, Side-channel) 차단 대책은? [빈출]\n\n* **답변 요약**:\n* **디버깅 포트 비활성화**: 양산 단계에서 온칩 eFuse를 물리적으로 절단(Blow)하여 JTAG 및 직렬 UART 디버그 포트 인터페이스를 영구 비활성화함으로써 비인가 메모리 덤프를 차단함.\n* **물리적 개봉 감지**: 제어기 케이스에 탬퍼 스위치(Tamper Switch)를 배치하여 외피 개방 시 HSM 내부의 암호화 키 메모리를 즉각 소거(Zeroization)하도록 회로를 구성함.\n* **부채널 공격 방어**: 전력 분석(DPA) 방지를 위해 하드웨어 암호화 가속기 내부의 연산 시간에 마스킹(Masking) 및 랜덤 지연 노이즈를 삽입함.",
-  "생산기술": "# 생산기술 직무 면접 빈출 질문 (Manufacturing Engineering / Mass Production / Process Automation)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **HD현대로보틱스**: 로봇 양산 공정 설계 및 조립 자동화 라인 생산기술자\n> * **두산로보틱스**: 로봇 관절 모듈 양산 기술 및 공정 정밀 지그 설계자\n> * **레인보우로보틱스**: 로봇 제조 공정 최적화 및 EOL 검사 설비 엔지니어\n> \n> \n\n---\n\n## Q1. 로봇 관절 모듈 양산 공정 구축 시 공정능력지수($C_p, C_{pk}$) 산출 및 관리 기준은? [빈출]\n\n* **답변 요약**:\n* **개념**: 공정이 요구 규격(USL-LSL) 내에서 부품을 균일하게 생산하는지 평가하는 척도. $C_p$는 공정 산포 대비 규격 폭을, $C_{pk}$는 평균치의 치우침(편차)을 반영함.\n* **수식**: $C_{pk} = \\min\\left(\\frac{\\text{USL} - \\mu}{3\\sigma}, \\frac{\\mu - \\text{LSL}}{3\\sigma}\\right)$.\n* **목표치**: 양산 안정화 단계에서는 $C_{pk} \\ge 1.33$(4시그마 수준, 불량률 63ppm 이하)을 표준으로 관리하며, 안전/핵심 공정(관절 베어링 압입, 감속기 백래시 등)은 $C_{pk} \\ge 1.67$(5시그마 수준) 이상을 목표로 관리함.\n\n\n\n---\n\n## Q2. 조립 사이클 타임(Cycle Time) 단축 및 택트 타임(Takt Time) 연동 라인 밸런싱(Line Balancing) 기법은? [빈출]\n\n* **답변 요약**:\n* **택트 타임(Takt Time)**: 일일 가동 시간 대비 고객 수요량을 맞추기 위한 목표 생산 피치($\\text{가동 시간} / \\text{요구 수량}$).\n* **개선 프로세스**: 각 조립 공정의 사이클 타임을 비디오 동작 분석(MODAPTS 등)으로 분해하여 낭비 동작과 병목(Bottleneck) 공정을 특정함.\n* **라인 밸런싱 효율 증대**: 병목 공정에 전용 조립 지그 도입, 체결 공구 자동화(전동 너트러너), 부품 사전 키팅(Kitting)을 적용해 공정 간 편차를 최소화하고 라인 밸런싱 효율($\\text{LOB} = \\frac{\\sum \\text{공정시간}}{n \\times \\text{병목시간}} \\times 100$)을 85% 이상으로 끌어올림.\n\n\n\n---\n\n## Q3. 로봇 와이어링 하네스(Wiring Harness) 조립 불량 억제 및 작업성 표준화 방안은? [빈출]\n\n* **답변 요약**:\n* **포카요케(Poka-yoke) 설계**: 핀 배열이나 커넥터 규격이 유사한 배선은 하우징 색상 구분 및 전용 키(Key) 핀을 적용해 오결선 및 역삽입을 물리적으로 차단함.\n* **단선/피복 손상 방지**: 로봇 관절 반복 회전 반경 내에서 전선 꼬임과 피로 파단을 막기 위해 곡률 반경(R) 가이드 클램프를 설치하고, 체결 지점마다 케이블 타이 체결 압력(텐션 게이지) 표준화 지침을 수립함.\n\n\n\n---\n\n## Q4. 감속기-모터 관절 조립 시 심(Shim) 링 선별 조합을 통한 축 방향 유격(End-play) 제어 공정은? [빈출]\n\n* **답변 요약**:\n* 부품 가공 공차 누적으로 인해 발생하는 관절 베어링의 축 방향 유격을 정밀 관리하는 필수 공정임.\n* 조립 지그 상에서 공압 실린더로 규정 하중을 인가한 상태에서 LVDT 센서 또는 다이얼 게이지로 축 변위(Gap)를 실측함.\n* 측정된 단차 데이터에 맞춰 $10\\mu m \\sim 50\\mu m$ 단위로 정밀 가공된 심 링을 선별 조합(Selective Assembly)하여 조립함으로써 목표 예압(Preload) 및 백래시 허용 공차를 안정적으로 확보함.\n\n\n\n---\n\n## Q5. 로봇 관절 완제품 EOL(End of Line) 전수 자동 검사 설비의 필수 테스트 항목은? [빈출]\n\n* **답변 요약**:\n* **전기적 안전 검사**: 절연 저항 검사(DC 500V 기준 $100\\text{M}\\Omega$ 이상), 내전압(Hipot) 검사, 접지 연속성 검사.\n* **통신 및 신호 무결성**: EtherCAT/CANopen 통신 패킷 전송 검사, 절대치 엔코더 1회전 영점 캘리브레이션 및 다회전 카운트 검증.\n* **동적 특성 및 NVH**: 정격 토크 부하 인가 시 속도 변동률, 모터 상전류 리플(Current Ripple), 가속도계 기반 회전 진동 및 소음(dB) 스펙트럼 분석을 통한 조립 불량 전수 필터링.\n\n\n\n---\n\n## Q6. 볼트 풀림, 커넥터 접촉 불량, 오링 씹힘 등 핵심 조립 결함 방지 대책은? [빈출]\n\n* **답변 요약**:\n* **볼트 풀림**: 디지털 너트러너를 도입하여 체결 토크-체결 각도(Torque-Angle) 데이터를 실시간 모니터링하고, 누락 및 미달 시 라인 인터락(Interlock)을 동작시킴. 나사 고정제(Loctite) 자동 정량 디스펜서를 구축함.\n* **커넥터 이탈**: 체결 시 딸깍 소리가 나는 CPA(Connector Position Assurance) 타입 채택 및 조립 후 비전 카메라 검사 연동.\n* **오링 씹힘**: 전용 조립 챔퍼 가이드 핀 지그 적용, 조립 윤활유(Grease) 도포 공정 표준화, 체결 완료 후 에어 리크(Air Leak) 테스트로 기밀성을 전수 확인함.\n\n\n\n---\n\n## Q7. 자동차/로봇 부품 양산 승인 절차(PPAP)의 핵심 제출 산출물과 검증 목적은? [빈출]\n\n* **답변 요약**:\n* **목적**: 협력업체 및 내부 양산 라인이 설계 도면 및 요구 스펙을 충족하며 실제 대량 생산 조건에서 안정적으로 생산할 수 있는 능력을 검증·승인하는 절차.\n* **핵심 제출물**: 공정 흐름도(Process Flow Chart), 공정 FMEA(PFMEA), 관리계획서(Control Plan), 측정시스템 분석(MSA/Gage R&R), 초기 공정 능력 연구 보고서($C_{pk} \\ge 1.67$), 전수 치수 측정 결과(Dimensional Results), 부품제출보증서(PSW).\n\n\n\n---\n\n## Q8. 공정 위험 분석(PFMEA) 평가 척도(SOD)와 RPN(위험우선순위) 개선 전개 방식은? [빈출]\n\n* **답변 요약**:\n* **평가 척도**: 심각도(Severity, 결함이 고객/품질에 미치는 치명도), 발생도(Occurrence, 공정 중 결함 발생 빈도), 검출도(Detection, 결함이 다음 공정으로 넘어가기 전 감지될 확률)를 1~10점으로 평가함.\n* **관리 및 개선**: 과거에는 $\\text{RPN} = S \\times O \\times D$ 수치로 관리했으나, 최근에는 AIAG-VDA 통합 기준의 **조치 우선순위(Action Priority, AP: High/Medium/Low)** 체계를 따름. 심각도($S$)가 9~10점인 안전/기능 관련 항목은 발생도와 검출도가 낮더라도 강제적 기구 인터락이나 자동 비전 전수 검사를 적용해 최우선 조치함.\n\n\n\n---\n\n## Q9. 로봇 관절 감속기 그리스(Grease) 정량 주입 공정 산출 및 기포 제어 기술은? [빈출]\n\n* **답변 요약**:\n* **토출량 산출**: 감속기 치면 및 케이싱 내부 자유 체적을 CAD 모델로 산출한 뒤, 제조사 권장 충진율(통상 자유 공간의 60~75%)에 맞춘 목표 주입 중량($g$)을 정량화함. 과충진 시 발열/압력 상승으로 인한 실링 파손을 방지하고, 저충진 시 마모를 방지함.\n* **기포 및 오차 제어**: 정용적 피스톤 디스펜서(Positive Displacement Pump)를 적용하고, 원액 드럼 단계에서 감압 탈포 진공 챔버를 거치도록 구축함. 주입 후 중량 센서(로드셀)로 중량 편차를 $\\pm 1\\%$ 이내로 전수 판정함.\n\n\n\n---\n\n## Q10. 다품종 소량 생산 로봇 모델 조립을 위한 셀(Cell) 생산 방식과 U자형 라인 구성의 이점은? [빈출]\n\n* **답변 요약**:\n* **도입 기준**: 수요 변동 폭이 크고 로봇 모델별(가반하중, 리치별) 옵션 사양이 다양한 경우 컨베이어 라인 대신 다기능공 중심의 셀 방식을 도입함.\n* **U자형 라인의 이점**: 공정의 시작점(투입)과 종료점(완성품 배출)이 인접하여 단일 작업자가 복수 공정을 담당(다공정 담당제)하기 용이함. 생산량 변동 시 투입 작업자 수(1인$\\rightarrow$3인)를 유연하게 조절할 수 있으며, 자재 공급과 완성품 회수 동선이 일원화되어 물류 낭비를 줄임.\n\n\n\n---\n\n## Q11. 린(Lean) 제조 및 디지털 캔반(e-Kanban)을 활용한 공정 재고/결품 억제 시스템은? [빈출]\n\n* **답변 요약**:\n* 조립 라인 작업대에 자재 적치 공간을 최소화하고, 바코드/RFID 리더기와 픽투라이트(Pick-to-Light) 시스템을 결합한 디지털 캔반을 구축함.\n* 작업자가 키팅 박스의 부품을 모두 소비하고 바코드를 스캔하면, MES/ERP와 연동되어 중앙 자재 창고의 무인 운반차(AGV/AMR)로 자동 출고 요청이 트리거됨. 공정 내 재공품(WIP)을 최소화하고 결품으로 인한 라인 스톱을 방지함.\n\n\n\n---\n\n## Q12. 설비종합효율(OEE) 3대 구성 지표와 라인 가동률 개선 프로세스는? [빈출]\n\n* **답변 요약**:\n* **수식**: $\\text{OEE} = \\text{시간 가동률(Availability)} \\times \\text{성능 가동률(Performance)} \\times \\text{양품률(Quality)}$.\n* **원인 분석 및 개선**:\n* **시간 손실**: 설비 고장, 모델 전환(Changeover) 셋업 지연 $\\rightarrow$ SMED(Single-Minute Exchange of Die) 기법으로 준비 시간 단축.\n* **성능 손실**: 설비 순간 정지(Chokotei), 속도 저하 $\\rightarrow$ 피더 슈트 끼임 센서 개선 및 서보 가감속 프로파일 튜닝.\n* **품질 손실**: 초기 셋업 스크랩, 가공 불량 $\\rightarrow$ 치공구 주기 점검 및 예방 보전(PM) 연동.\n\n\n\n\n\n---\n\n## Q13. 로봇 구조 프레임 입고품(주조/가공품) 품질 검증을 위한 지그 및 CMM(3차원 측정기) 공정 운용은? [빈출]\n\n* **답변 요약**:\n* 대형 알루미늄 링크 및 하우징 부품의 베어링 압입부 동심도, 관절 체결면 평면도, 홀 간 직각도 등 기하공차(GD&T)를 검증함.\n* 전용 마스터 픽스처 지그를 제작해 부품을 3-2-1 위치 결정 원칙으로 클램핑한 후, 접촉식 프로브/레이저 스캐너 기반 CMM 매크로 프로그램을 실행함.\n* 측정 데이터는 통계적 공정 관리(SPC) 소프트웨어로 자동 전송되어 공구 마모 트렌드를 예측하고 협력사 가공 파라미터 보정에 피드백함.\n\n\n\n---\n\n## Q14. 로봇 신뢰성 확보를 위한 에이징(Aging) 및 번인(Burn-in) 검사 라인 설계 기준은? [빈출]\n\n* **답변 요약**:\n* **목적**: 초기 작동 결함(Infant Mortality Period, 욕조 곡선의 초기 고장) 부품을 출하 전 100% 걸러내기 위함.\n* **환경 및 부하 설계**: $40^\\circ\\text{C} \\sim 50^\\circ\\text{C}$ 고온 챔버 내부에서 정격 페이로드의 100% 더미 웨이트를 장착함.\n* **테스트 패턴**: 48~72시간 동안 최대 가속도 연속 왕복 모션, 최대 토크 유지 자세, 비상 정지(E-Stop) 충격 부하시험을 교대 수행하며 모터 드라이브 온도 포화 상태, 인코더 통신 패킷 손실, 감속기 이상 소음 발생 여부를 데이터 로거로 상시 감시함.\n\n\n\n---\n\n## Q15. 글로벌 생산 공장 현지화(Overseas Plant Setup) 시 제조 공정 및 품질 가이드 이관 절차는? [빈출]\n\n* **답변 요약**:\n* **문서화 및 표준화**: 현지 언어를 반영한 시각적 단일 작업 표준서(SOP), 공정 관리계획서(Control Plan), 지그 유지보수 지침서 배포.\n* **설비 검수 프로세스**: 국내 공장에서 공장 수락 테스트(FAT, Factory Acceptance Test)로 양품 생산 능력을 검증한 뒤 설비를 선적하고, 현지 설치 후 사이트 수락 테스트(SAT, Site Acceptance Test)를 통해 Cpk 및 Gage R&R을 재검증함.\n* **작업자 인증제**: 주요 체결, 배선, 캘리브레이션 공정에 대해 3단계 기술 인증(Level 1~3) 제도를 운영하여 인증 인력만 라인에 투입되도록 관리 체계를 수립함.",
-  "시험평가": "# 시험평가 직무 면접 빈출 질문 (Robot Reliability / Performance Evaluation / Qualification)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **1X Technologies**: Test & Validation Engineer - Motors and Actuators\n> * **HD현대로보틱스**: 로봇 성능 시험 및 신뢰성 평가 엔지니어 (ISO 9283)\n> * **두산로보틱스**: 로봇 내구성 수명 시험 및 온습도 환경 신뢰성 검증 엔지니어\n> \n> \n\n---\n\n## Q1. [규격/표준] ISO 9283 규격 기반 산업용 로봇 성능 평가 핵심 항목과 산출 방식은? [빈출]\n\n* **답변 요약**:\n* **위치 반복 정밀도($RP_l$ - Pose Repeatability)**: 동일한 명령 위치로 $n$회(통상 30회) 반복 이동했을 때 도출되는 위치 산포의 반경($RP_l = \\bar{l} + 3S_l$).\n* **위치 정확도($AP$ - Pose Accuracy)**: 지령 위치와 실제 도달 위치 간의 벡터 거리 편차.\n* **궤적 반복 정밀도($RT$ - Path Repeatability)**: 지정된 직선/곡선 경로를 반복 추종할 때 궤적 간의 최대 편차 폭.\n* **측정 기준**: 최대 가반하중(Payload) 및 100% 동작 속도 조건에서 큐브 형태의 표준 측정 경로를 설정하여 측정함.\n\n\n\n---\n\n## Q2. [장비/측정] 레이저 트래커(Laser Tracker) 및 광학식 CMM을 활용한 로봇 6자유도 정밀 측정 메커니즘은? [빈출]\n\n* **답변 요약**: 로봇 엔드이펙터에 구면 프리즘 타겟(SMR, Spherically Mounted Retroreflector) 또는 액티브 광학 마커를 부착함. 레이저 간섭계(IFM)와 정밀 각도 엔코더를 통해 타겟의 3차원 위치($X, Y, Z$)를 수 마이크로미터($\\mu m$) 분해능으로 실시간 추적함. 복수 타겟 배치를 통해 롤/피치/요($Roll, Pitch, Yaw$) 각도 변화를 동시 연산하여 동적 궤적 오차를 고속 샘플링($\\ge 1\\text{kHz}$)으로 획득·분석함.\n\n---\n\n## Q3. [이론/모델링] 가속 수명 시험(ALT)의 설계 원리와 아레니우스(Arrhenius) 및 아이링(Eyring) 모델 적용은? [빈출]\n\n* **답변 요약**:\n* **원리**: 작동 한계 내에서 온도, 습도, 전압, 진동 등 스트레스 수준을 인위적으로 높여 고장 메커니즘을 변경하지 않고 고장 발생 시점만 단축시키는 기법.\n* **아레니우스 모델**: 열적 스트레스에 의한 절연 파괴, 그리스 열화 평가에 적용. 가속 계수 $AF = \\exp\\left[\\frac{E_a}{k}\\left(\\frac{1}{T_{\\text{use}}} - \\frac{1}{T_{\\text{stress}}}\\right)\\right]$ ($E_a$: 활성화 에너지, $k$: 볼츠만 상수).\n* **아이링 / Coffin-Manson 모델**: 온도와 습도 복합 외란 또는 열주기(Thermal Cycling)에 의한 솔더링 크랙 및 기구 피로 수명 예측에 적용함.\n\n\n\n---\n\n## Q4. [환경/신뢰성] 온습도 환경 챔버 시험 시 로봇 구동계에서 발생하는 주요 결함과 검증 포인트는? [빈출]\n\n* **답변 요약**:\n* **저온($-20^\\circ\\text{C} \\sim -40^\\circ\\text{C}$)**: 그리스 점도 급증으로 인한 시동 기동 토크 부족, 모터 과전류 알람, 고무 실링 경화에 따른 기밀성 파괴.\n* **고온($50^\\circ\\text{C} \\sim 70^\\circ\\text{C}$)**: 모터 권선 과열, 감속기 오일 누유, 인코더 광학/자기 소자 열화.\n* **열충격(Thermal Shock) 및 습도**: 이종 금속(알루미늄 프레임-강철 샤프트) 간 열팽창 계수 차로 인한 베어링 록(Lock-up), 상대 습도 95% 이상 환경에서의 결로로 인한 제어 PCB 패턴 쇼트 및 부식 발생 여부를 집중 검증함.\n\n\n\n---\n\n## Q5. [동역학/신뢰성] 진동/충격 규격(MIL-STD-810H, IEC 60068-2) 기반 공진점 탐색 및 피로 내구 평가 절차는? [빈출]\n\n* **답변 요약**:\n* **공진 탐색(Resonance Search)**: 전기식 진동시험기 상에 로봇을 체결하고 가속도계를 주요 링크 및 관절부에 부착한 뒤, 저가속도 사인 스윕(Sine Sweep, 5~500Hz)을 가해 공달율($Q \\ge 2$)이 급증하는 1차/2차 공진 주파수를 특정함.\n* **내구 시험**: 특정된 공진 주파수 대역에서 정현파 진동을 규정 시간 동안 지속 인가하는 공진 체류(Resonance Dwell) 시험 및 수송 진동 프로파일(Random Vibration, PSD) 시험을 수행하여 볼트 풀림, 커넥터 크랙, 링크 프레임 크랙 여부를 확인함.\n\n\n\n---\n\n## Q6. [구동계/마모] 하모닉 드라이브 감속기 내구 시험 프로파일 및 마모 한계 판정 기준은? [빈출]\n\n* **답변 요약**:\n* **시험 조건**: 정격 토크 및 가감속 반복 토크를 인가한 상태에서 정역회전 모션 사이클을 목표 수명(예: 10,000시간 상당 가속 조건) 동안 연속 수행함.\n* **판정 기준**:\n* 시험 전후 백래시(Lost Motion/Hysteresis Loss) 측정값이 허용 규격(예: 1 arcmin 이내)을 초과하는지 확인.\n* 정격 회전 시 소음(dB) 및 관절 진동 가속도 RMS 증가 추이 분석.\n* 감속기 윤활 그리스를 채취하여 철(Fe) 마모 분말 농도(SOAP 분석) 및 산가(Acid Number) 변화율을 측정해 치면 마모도를 정량 평가함.\n\n\n\n\n\n---\n\n## Q7. [보호등급] IP65 / IP67 방수방진 시험 조건과 챔버 내 검증 프로세스는? [빈출]\n\n* **답변 요약**:\n* **방진(IP6X)**: 활석 분진(Talcum Powder) 챔버 내부에서 하우징 내부 압력을 감압(최대 2kPa)한 상태로 8시간 방치 후, 내부에 먼지가 전혀 침투하지 않아야 합격.\n* **방수(IPX5 - 분사수)**: 모든 방향에서 노즐 직경 6.3mm, 유량 12.5L/min, 거리 2.5~3m로 3분간 고압 살수 후 내부 침수 확인.\n* **방수(IPX7 - 침수)**: 1m 수심 수조에 30분간 로봇을 침강시킨 후 꺼내어 내부 모터 하우징 및 제어반 기밀 유지 여부를 확인. 조립 공차 유격과 O-ring 압축률 불량에 따른 틈새 누수를 검증함.\n\n\n\n---\n\n## Q8. [전기안전] 환경 시험 후 절연 저항(Insulation Resistance) 및 내전압(Hi-pot) 시험 조건과 합격 기준은? [빈출]\n\n* **답변 요약**:\n* **절연 저항**: 주 전원 회로 단자와 접지(PE) 프레임 단자 사이에 절연저항계로 DC 500V 또는 1000V를 인가함. 환경 시험 후에도 절연 저항값이 규격 기준($100\\text{M}\\Omega$ 이상)을 유지하는지 확인.\n* **내전압 시험**: 동일 단자 간에 상용 주파수(50/60Hz) AC 1500V 또는 2000V를 1분간 인가하여 절연 파괴(Flashover/Spark)가 발생하지 않고, 누설 전류(Leakage Current)가 차단 기준치(통상 10mA 또는 5mA 이하) 이내로 통제되는지 검증함.\n\n\n\n---\n\n## Q9. [협동로봇] ISO/TS 15066 규격 기반 협동로봇 안전 충돌 시험 및 측정 기법은? [빈출]\n\n* **답변 요약**:\n* **원리**: 작업자와 로봇 간 충돌 시 신체 손상을 방지하기 위해 규정된 한계 충돌력($N$) 및 압력($N/\\text{cm}^2$) 준수 여부를 검증함.\n* **측정 방식**: 인체 부위별(두부, 흉부, 손 등) 피부 경도(Shore 경도) 및 근육 탄성 계수를 모사한 기계식 스프링-고무 완충 패드가 부착된 전용 충돌력 측정기(Kollmorgen/GTE 등)를 타깃 위치에 배치함.\n* **평가**: 과도 접촉(Transient/Free Impact)과 준정적 접촉(Quasi-static/挟み込み) 상황을 각각 재현하여 최대 피크 충돌력 및 지속 압착력이 규격 허용 기준치 이하인지 판정함.\n\n\n\n---\n\n## Q10. [전원품질] 로봇 제어기 전원 외란 시험(전압 강하, 순간 정전, 서지 노이즈) 검증 항목은? [빈출]\n\n* **답변 요약**:\n* **전압 변동/강하(Voltage Sag)**: 정격 전압의 $\\pm 15\\%$ 변동 및 $70\\%$ 수준 전압 강하 인가 시 모터 구동 드라이버의 저전압 차단(UVLO) 발생 여부 확인.\n* **순간 정전(Interruption)**: IEC 61000-4-11 규격에 따라 10ms~20ms(1/2~1 사이클) 전원 차단 시 제어 보드의 커패시터 버퍼링을 통해 시스템 비정상 리셋 없이 연속 동작하거나 안전 감속 정지하는지 확인.\n* **서지/임펄스(Surge/EFT)**: AC 라인에 인가되는 고전압 노이즈에 대해 SMPS 보호 회로(MOV, TVS)가 정상 차단하는지 검증함.\n\n\n\n---\n\n## Q11. [가속시험] HALT(고가속 수명 시험)와 HASS(고가속 스트레스 스크리닝)의 목적 및 차이는? [빈출]\n\n* **답변 요약**:\n* **HALT(High Accelerated Life Test)**: **개발/설계 검증 단계**에서 제품이 파괴될 때까지 계단식(Step-stress)으로 온습도 급변과 6자유도 반복 충격 진동을 가함. 제품의 작동 한계(Operating Limit)와 파괴 한계(Destruct Limit)를 파악해 설계 취약점을 사전에 찾아내고 마진을 확장하는 시험.\n* **HASS(High Accelerated Stress Screen)**: **양산 단계**에서 공정 결함 및 조기 고장(Infant Mortality) 부품을 출하 전 걸러내기 위한 검사. HALT에서 확인된 파괴 한계 이하의 제어된 스트레스를 인가하여 제품 수명을 소모시키지 않는 선에서 잠재 불량을 검출함.\n\n\n\n---\n\n## Q12. [통계/신뢰성] 와이블(Weibull) 분포를 이용한 수명 데이터 분석 및 고장 형태 판정법은? [빈출]\n\n* **답변 요약**:\n* 와이블 누적 고장 확률 함수 $F(t) = 1 - \\exp\\left[-\\left(\\frac{t}{\\eta}\\right)^\\beta\\right]$에서 형상 모수($\\beta$, Shape Parameter)와 척도 모수($\\eta$, Scale Parameter/특성 수명)를 산출함.\n* **고장 형태 판정**:\n* $\\beta < 1$: 초기 고장형(DFR - Decreasing Failure Rate). 제조 불량, 부품 결함 의심.\n* $\\beta = 1$: 우발 고장형(CFR - Constant Failure Rate). 지수 분포와 동일, 외부 외란 요인.\n* $\\beta > 1$: 마모 고장형(IFR - Increasing Failure Rate). 피로 파괴, 베어링/기어 수명 한계 도달.\n\n\n* 도출된 모수를 기반으로 $B_{10}$ 수명(모집단의 10%가 고장 나는 시점)을 산출하여 제품 보증 기간을 설정함.\n\n\n\n---\n\n## Q13. [자율주행/AMR] 모바일 로봇(AMR/AGV) 주행 안정성 시험(등판각, 둔턱 극복, 제동 거리) 항목은? [빈출]\n\n* **답변 요약**:\n* **등판 및 정지 능력**: 규정 경사도(예: 5도~10도) 경사면에서 최대 적재 상태로 정지 후 미끄러짐(Slip) 없는 재기동 및 파킹 브레이크 유지력 검증.\n* **단차 및 갭 주행**: 직각 둔턱(10mm~20mm) 통과 시 서스펜션 충격 완화, 라이다 틸팅에 의한 위치 유실(Localization Lost) 발생 여부 확인.\n* **비상 제동 거리**: 최대 속도 및 최대 하중 주행 중 비상정지(E-Stop) 신호 인가 시 주행 궤적 이탈량(Straightness)과 정지 거리 측정값이 안전 가이드라인 범위를 충족하는지 검증함.\n\n\n\n---\n\n## Q14. [소프트웨어 신뢰성] 로봇 임베디드 OS 및 제어 SW 무중단 장기 내구 시험(Aging Test) 메커니즘은? [빈출]\n\n* **답변 요약**:\n* 로봇 하드웨어에 실제 작업 시나리오 모션을 부여한 상태에서 최소 168시간(7일)에서 500시간 연속 구동을 유지함.\n* **모니터링 항목**: 실시간 로그 수집 에이전트를 통해 프로세스별 VmRSS 메모리 증가 추이(메모리 누수 감지), CPU 코어별 스케줄링 지연 시간(Jitter), 파일 디스크립터(FD) 누수, 스레드 간 락 경합 및 IPC 소켓 버퍼 오버플로우 발생 여부를 시계열 메트릭으로 추적함.\n\n\n\n---\n\n## Q15. [필드 결함 재현] 필드에서 간헐적으로 발생한 로봇 장애를 챔버 내에서 재현(Reproduction)하는 접근법은? [빈출]\n\n* **답변 요약**:\n* **필드 데이터 추출**: 오류 발생 직전의 블랙박스 로그(CAN 패킷 덤프, 모터 인버터 전압/전류 리플, 환경 센서 로그)를 시간대별로 역추적함.\n* **스트레스 스택 합성**: 챔버 내에서 필드 최고 온도 조건 형성 $\\rightarrow$ 실제 현장 바닥 노면의 충격 진동 PSD 프로파일 인가 $\\rightarrow$ 제어기에 모터 가감속 급변 부하 모션을 동시 중첩(Multi-stress)시킴.\n* 특정 하드웨어 부품의 열팽창 유격과 진동 외란이 중첩되는 임계 조건(Edge Condition)을 좁혀가며 간헐적 결함의 재현율을 확보하고 근본 원인(Root Cause)을 도출함.\n\n\n정확한 지적임. 로봇 시험평가 및 신뢰성 검증 현장에서 실제로 가장 높은 빈도로 활용되는 핵심 계측 장비 3가지임.\n\n실무 면접에서도 단순히 \"정밀도를 측정해 보았다\" 수준이 아니라, \"각 장비의 측정 원리, 한계점, 데이터 취득 방식(샘플링 속도 및 동기화), 그리고 이를 로봇의 기구학/동역학 해석과 어떻게 연결했는가\"를 집요하게 질문함.\n\n앞서 작성한 [시험평가 직무 가이드]에 이 3대 핵심 계측 장비(레이저 트래커, 모션 캡처, 진동 가속도계)를 집중적으로 다루는 실무 기출 질문 3개를 추가하여 보완함.\n\n---\n\n### [Q16] 레이저 트래커(Laser Tracker)와 광학식 모션 캡처(Motion Capture) 시스템의 측정 방식 차이 및 시험 목적별 선택 기준은? [빈출]\n\n* **답변 요약**:\n* **레이저 트래커(예: Leica, Faro)**:\n* **원리**: 단일 빔 간섭계(IFM)와 정밀 각도 엔코더를 기반으로 로봇 끝단에 부착된 구면 반사경(SMR)의 3차원 위치를 추적함.\n* **특징**: 수 미터 작업 반경 내에서 **수십 마이크로미터($\\mu m$) 수준의 초정밀 절대 위치 좌표**를 보장함.\n* **적용**: ISO 9283 기반 로봇 정적 위치 정확도(AP), 정밀 반복 정밀도(RP) 측정, 로봇 링크 기구학 파라미터 캘리브레이션(Kinematic Calibration)에 주로 사용함.\n\n\n* **광학식 모션 캡처(예: Vicon, Qualisys, OptiTrack)**:\n* **원리**: 복수의 적외선(IR) 카메라를 공간에 배치하여 로봇 여러 관절과 엔드이펙터에 부착된 수동 마커(Passive Marker) 군집의 반사광을 삼각측량(Triangulation)함.\n* **특징**: 절대 정밀도는 서브 밀리미터(0.1~0.5mm 수준)로 트래커보다 낮으나, **넓은 작업 공간에서 복수 관절의 6자유도 자세(Rigid Body Pose)를 수백 Hz~1kHz 이상의 고주기로 동시 추적** 가능함.\n* **적용**: 로봇 암 고속 동작 시의 궤적 추종(Path Trajectory) 동적 오차 측정, 모바일 로봇(AMR) 및 4족 보행 로봇의 전역 위치(Ground Truth) 실시간 검증, 멀티 에이전트 군집 주행 평가에 적합함.\n\n\n\n\n\n---\n\n### [Q17] 진동 가속도계(Accelerometer) 선정 기준(IEPE/ICP vs MEMS) 및 관절/링크 부착 시 주의점은? [빈출]\n\n* **답변 요약**:\n* **센서 타입 선정**:\n* **압전형(IEPE / ICP)**: 주파수 대역이 수 kHz 이상으로 넓고 감도가 높아 모터 베어링 결함, 감속기 치면 맞물림 주파수(GMF) 분석, 정밀 공진 탐색(Resonance Search) 등 고주파 진동 시험에 표준으로 사용함. (단, DC 성분 측정 불가)\n* **정전용량형 MEMS**: 저주파 및 정적 중력 가속도(0Hz, DC 성분) 측정이 가능하여 AMR 주행 시 발생하는 차체 롤/피치 동적 거동 분석이나 저주파 충격 측정에 적용함.\n\n\n* **부착 및 셋업 주의점**:\n* **매스 로딩(Mass Loading) 효과**: 소형 링크나 경량 부품에 무거운 센서를 부착하면 부가 질량으로 인해 구조물의 실제 고유 진동수(Natural Frequency)가 낮아져 측정 왜곡이 발생하므로 센서 무게를 대상물 질량의 10% 이하로 통제함.\n* **체결 방식**: 자석 마운트나 왁스 고정은 고주파(수 kHz 이상) 대역에서 감쇠가 발생하므로, 정밀 모달 해석 시에는 스터드(Stud) 볼트 체결 또는 고강성 순간접착제를 사용해 접촉 강성을 극대화함.\n\n\n\n\n\n---\n\n### [Q18] FFT(고속 푸리에 변환) 기반 주파수 분석 시 로봇 기계적 공진(Mechanical Resonance)과 제어 발산(Chatter)을 구별하는 방법은? [빈출]\n\n* **답변 요약**:\n* **데이터 분석 기법**: 가속도계로 취득한 시간 영역(Time-domain) 진동 파형을 FFT 변환하여 파워 스펙트럼 밀도(PSD) 피크를 확인함.\n* **기계적 구조 공진(Resonance)**:\n* 로봇의 관절 각도(자세)가 변하면 관성 텐서(Inertia Matrix)가 달라져 공진 주파수 피크 위치가 함께 이동(Shifting)함.\n* 모터 제어 이득(Gain)을 낮춰도 외란에 의해 동일한 특정 물리 주파수에서 진동 피크가 지속 검출됨.\n\n\n* **제어 루프 발산(Control Instability / Limit Cycle)**:\n* 제어 루프 주기(예: 1kHz 제어 루프의 나이퀴스트 한계인 500Hz 인근)나 특정 서보 대역폭 경계에서 날카로운 피크가 관찰됨.\n* 제어기의 비례 이득($K_p$)이나 미분 이득($K_d$)을 낮췄을 때 해당 진동 피크가 즉시 사라지거나 감쇠됨.\n\n\n* **대응 조치**: 기계적 공진은 링크 리브(Rib) 보강으로 강성을 올려 고유 진동수를 제어 대역폭 밖으로 밀어내거나 제어기 내 노치 필터(Notch Filter)를 삽입해 특정 주파수를 깎아내며, 제어 불안정은 이득 튜닝 및 저주파 통과 필터(LPF)로 루프 마진을 확보함.",
-  "안전": "# 안전 직무 면접 빈출 질문 (Robot Safety Standards / Risk Assessment / Functional Safety)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **두산로보틱스**: 로봇 안전 및 규격(ISO 13849 / ISO/TS 15066) 엔지니어\n> * **HD현대로보틱스**: 로봇 기능 안전(Functional Safety) 및 위험성 평가 엔지니어\n> * **1X Technologies**: Safety Systems Engineer - Robot Hardware & Controls\n> \n> \n\n---\n\n## Q1. [표준/규격] 산업용 로봇 기본 안전 규격(ISO 10218-1/2)과 협동로봇 기술 사양서(ISO/TS 15066)의 관계는? [빈출]\n\n* **답변 요약**:\n* **ISO 10218-1/2**: 전통적인 산업용 로봇 매니퓰레이터(제조사 관점) 및 로봇 시스템 통합/셀(통합자 관점)의 안전 요구사항. 방호 펜스, 안전 센서, 연동 도어 등 물리적 격리 방호를 기본 전제로 함.\n* **ISO/TS 15066**: 방호 울타리 없이 인간과 로봇이 동일한 작업 공간을 공유하는 협동 운전(Collaborative Operation)의 세부 안전 기준을 명시함. 4가지 협동 모드와 인체 접촉 시 부위별 최대 허용 충돌력 및 압력 한계치(Pain Threshold)를 정의함.\n\n\n\n---\n\n## Q2. [기능안전] ISO 13849-1 규격 기반 제어 시스템의 안전 무결성 수준(Performance Level, PL) 산정 절차는? [빈출]\n\n* **답변 요약**:\n* **요구 성능 수준($PL_r$) 결정**: 위험성 평가 리스크 그래프를 통해 위험의 심각도($S_1/S_2$), 노출 빈도/시간($F_1/F_2$), 회피 가능성($P_1/P_2$) 3가지 인자로 $PL_r$ (a~e)을 산출함.\n* **달성 성능 수준($PL$) 산출 및 검증**:\n* 시스템 구조(Structure / Category: B, 1, 2, 3, 4).\n* 위험 측 고장까지의 평균 시간($MTTF_d$: Low, Medium, High).\n* 진단 범위($DC_{\\text{avg}}$: None, Low, Medium, High).\n* 공통 원인 고장 방지($CCF \\ge 65\\text{점}$).\n\n\n* 위 4가지 정량 지표를 결합(SISTEMA 소프트웨어 등 활용)하여 최종 산출된 $PL$이 요구 수준 $PL_r$ 이상인지 검증함.\n\n\n\n---\n\n## Q3. [협동로봇] ISO/TS 15066 규정에 명시된 4대 협동 운전(Collaborative Operations) 모드는? [빈출]\n\n* **답변 요약**:\n1. **안전 등급 감시 정지(Safety-rated Monitored Stop, SMS)**: 작업자가 협동 구역 진입 시 로봇이 정격 정지 상태를 유지하며, 모터 전원을 차단하지 않고 위치 제어로 대기함. 작업자 이탈 시 즉시 자동 재개.\n2. **핸드 가이딩(Hand Guiding, HG)**: 작업자가 로봇 엔드이펙터에 장착된 모션 제어 핸들 및 3위치 인에이블링 스위치를 파지한 상태에서만 직접 수동으로 교시/이동시킴.\n3. **속도 및 분리 거리 감시(Speed and Separation Monitoring, SSM)**: 안전 라이다나 비전으로 작업자와의 거리를 실시간 추적하여 거리가 좁혀지면 감속하고, 최소 보호 이격 거리 이내 진입 시 정지함.\n4. **동력 및 힘 제한(Power and Force Limiting, PFL)**: 관절 토크 센서 또는 전류 모니터링을 통해 접촉을 감지하고, 의도치 않은 신체 충돌 시에도 압력/충돌력이 규정 허용치 이하로 제한되도록 로봇 동역학을 제어함.\n\n\n\n---\n\n## Q4. [위험성평가] ISO 12100 규격의 3단계 위험 감소 프로세스(Three-step Method) 적용 순서는? [빈출]\n\n* **답변 요약**:\n* **1단계: 본질적 안전 설계(Inherently Safe Design Measures)**: 설계 자체에서 위험원을 제거함. 로봇 가동부의 모서리 라운딩 처리(곡률 반경 $R$ 확대), 관절 틈새 협착 방지 간격 확보, 모터 출력 및 질량 경량화.\n* **2단계: 기술적 방호 및 부가적 보호 대책(Safeguarding and Complementary Protective Measures)**: 제거되지 않은 잔여 위험에 대해 방호 울타리, 안전 인터락 도어 스위치, 안전 라이트 커튼, 레이저 스캐너를 설치함.\n* **3단계: 사용 정보 제공(Information for Use)**: 잔류 위험에 대한 경고 라벨 부착, 시각/청각 신호 장치(타워 램프, 부저), 안전 작업 절차서(SOP) 및 사용자 취급 설명서 명시.\n\n\n\n---\n\n## Q5. [아키텍처] 기능 안전 하드웨어 범주 Category 3와 Category 4(듀얼 채널 구조)의 차이는? [빈출]\n\n* **답변 요약**:\n* **공통점**: 단일 부품의 단독 고장(Single Fault)으로 인해 시스템 안전 기능이 상실되지 않는 듀얼 채널(Redundant Channel) 구조임.\n* **차이점**:\n* **Category 3**: 단일 고장이 발생해도 안전 기능은 유지되나, 고장이 감지되지 않은 상태에서 다음 고장이 누적(Accumulation of Faults)되면 안전 기능이 상실될 수 있음. ($DC_{\\text{avg}}$ 보통 수준)\n* **Category 4**: 단일 고장이 발생하거나 위험 발생 이전/동시에 즉시 결함이 검출됨. 고장이 다중으로 누적되더라도 안전 기능이 상실되지 않도록 100%에 근접한 진단 범위($DC_{\\text{avg}} \\ge 99\\%$)와 교차 모니터링(Cross-monitoring) 회로를 강제함.\n\n\n\n\n\n---\n\n## Q6. [충돌감지] 협동로봇의 외력 감지 알고리즘 구조와 충돌 후 안전 상태(Safe State) 전이 로직은? [빈출]\n\n* **답변 요약**:\n* **감지 알고리즘**: 로봇의 강체 동역학 모델(Inertia, Coriolis, Gravity, Friction)을 기반으로 현재 관절 각도/각속도/각가속도에서 요구되는 이론적 모터 토크($\\tau_{\\text{model}}$)를 실시간 연산함. 실제 측정된 모터 전류 또는 관절 토크 센서 값($\\tau_{\\text{meas}}$)과의 차이인 외란 관측기(Disturbance Observer, DOB) 잔여 토크($\\tau_{\\text{ext}} = \\tau_{\\text{meas}} - \\tau_{\\text{model}}$)가 안전 임계치를 초과할 때 충돌로 판정함.\n* **반응 제어**: 충돌 감지 즉시 모터의 회전을 접촉 반대 방향으로 밀어내는 리트랙트(Retract) 동작을 밀리초($ms$) 단위로 수행하여 인체 압착을 해제하고, 정격 안전 정지(Safe Stop) 상태로 전이함.\n\n\n\n---\n\n## Q7. [비상정지] IEC 60204-1 규격 정지 범주(Stop Category 0, 1, 2)의 동작 메커니즘과 회로 구성 차이는? [빈출]\n\n* **답변 요약**:\n* **Category 0 (비제어 정지)**: 모터 액추에이터의 구동 전원을 즉시 기계적/전기적으로 차단(Power Cut-off)하고 전자 기계식 마찰 브레이크를 체결함. (STO 기능 직결)\n* **Category 1 (제어 정지 후 차단)**: 구동 전원을 유지한 상태에서 제어기가 감속 프로파일에 따라 로봇을 정지 궤적에 맞춰 감속 정지시킨 후, 정지가 완료되면 모터 전원을 차단함. (SS1 기능 연동)\n* **Category 2 (전원 유지 제어 정지)**: 구동 전원을 차단하지 않고 모터 위치 제어 루프를 유지한 상태로 정지 상태를 감시함. (SOS 기능 연동)\n* **비상정지 스위치 요건**: 버섯형 적색 버튼, 황색 베이스, 래칭(Latching) 구조, 접점이 강제로 분리되는 직접 개로(Positive Opening Operation, IEC 60947-5-1 Annex K) 접점 블록 필수.\n\n\n\n---\n\n## Q8. [거리산정] ISO 13855 표준 기반 광전자 안전 장치(안전 라이다, 라이트 커튼)의 최소 이격 거리($S$) 계산식은? [빈출]\n\n* **답변 요약**:\n* **기본 공식**: $S = (K \\times T) + C$.\n* **인자 분석**:\n* $K$: 인체 접근 속도 상수 (통상 전신 접근 시 $1600\\text{mm/s}$, 손/팔 접근 시 $2000\\text{mm/s}$).\n* $T$: 시스템 총 정지 시간($t_1 + t_2$, $t_1$: 센서 반응 시간, $t_2$: 로봇 시스템의 최대 제동 시간).\n* $C$: 추가 침투 거리 (센서의 빔 간격 분해능 및 스캐너 측정 오차 마진).\n\n\n* 로봇의 페이로드 적재 시 관성에 따른 제동 지연을 고려하여 최악 조건(Worst-case)의 $T$ 값을 적용해 보호 영역(Protection Field) 반경을 설정함.\n\n\n\n---\n\n## Q9. [드라이브안전] IEC 61800-5-2 규격의 핵심 드라이브 내장 안전 기능(STO, SS1, SLS, SBC)의 비교는? [빈출]\n\n* **답변 요약**:\n* **STO (Safe Torque Off)**: 인버터 파워 스위칭 소자(IGBT/MOSFET)의 게이트 신호를 하드웨어적으로 차단해 모터가 토크를 생성하지 못하게 하는 최하위 기본 기능.\n* **SS1 (Safe Stop 1)**: 안전 감속 램프를 모니터링하며 로봇을 제동한 후 최종적으로 STO를 트리거하는 기능.\n* **SLS (Safely-Limited Speed)**: 펜스 개방 시나 수동 교시(T1) 모드에서 로봇 끝단 또는 특정 관절의 속도가 규정된 한계값(예: 250mm/s)을 초과하지 않는지 안전 제어기가 실시간 감시하는 기능. 초과 시 즉시 STO 전환.\n* **SBC (Safe Brake Control)**: 모터 전원 차단과 동시에 중력 방향 낙하를 방지하기 위해 기계식 유지 브레이크 전원을 듀얼 채널로 안전 차단/제어하는 기능.\n\n\n\n---\n\n## Q10. [국내규제] 산업안전보건기준에 관한 규칙(제223조 등) 및 KCs 자율안전확인/안전인증 기준은? [빈출]\n\n* **답변 요약**:\n* **산업용 로봇 방호 원칙**: 높이 1.8m 이상의 방호 울타리 설치가 원칙이며, 울타리 출입문에는 열림 시 로봇이 즉각 정지하는 연동 장치(Safety Interlock)를 구비해야 함.\n* **협동로봇 특례 적용**: 방호 울타리를 미설치하는 경우, 한국로봇산업진흥원(KIRIA) 또는 공인 시험 기관으로부터 KS B ISO 10218-2 및 ISO/TS 15066 충돌 안전 기준(인체 부위별 한계 압력/하중 측정) 적합성 인증을 취득하고, 현장 위험성 평가서와 안전 확인증을 비치해야 사업장 사용 승인을 받을 수 있음.\n\n\n\n---\n\n## Q11. [AMR표준] 자율주행 물류로봇 안전 규격 ISO 3691-4의 핵심 기술 요구사항은? [빈출]\n\n* **답변 요약**:\n* **가변 보호 영역(Dynamic Field Switching)**: 주행 방향, 현재 조향각, 주행 속도, 적재 화물 유무에 따라 안전 라이다의 보호 영역(Braking Zone) 크기를 동적으로 전환함.\n* **직접 안전 제동(Safety-related Stopping)**: 안전 PLC 또는 안전 컨트롤러가 주행 브레이크 및 서보 드라이브의 STO/SS1 라인에 직결되어야 하며, 소프트웨어 OS(ROS 2 등)의 다운이나 통신 단절 시에도 하드웨어 안전 제어기가 개입하여 $PL_d$ 수준으로 정지시켜야 함.\n* **밀폐/협소 통로 구역 관리**: 주행 경로 양옆 여유 공간이 0.5m 미만인 협소 구역(Confined Space) 진입 시 운행 속도를 제한하고 시청각 알람을 강제 활성화함.\n\n\n\n---\n\n## Q12. [안전제어기] 일반 산업용 PLC와 안전 PLC(Safety PLC)의 내부 아키텍처 및 펌웨어 검증 차이는? [빈출]\n\n* **답변 요약**:\n* **하드웨어 구조**: 일반 PLC는 단일 마이크로프로세서 구조이나, 안전 PLC는 2개 이상의 상호 독립된 CPU(1oo2D 또는 2oo3 아키텍처)가 동일한 명령을 실행하고 클럭 단위로 출력을 비교 연산하는 하드웨어 워치독(Watchdog) 및 메모리 패리티 검사를 탑재함.\n* **소프트웨어 및 프로그래밍**: 안전 PLC는 TÜV 인증을 받은 안전 전용 소프트웨어 블록(비상정지 블록, 뮤팅 블록 등)만 사용 가능하며, 비인가 수정을 방지하는 세이프티 시그니처(Safety Signature) 체크섬 및 암호화 락(Lock) 기능을 강제함.\n\n\n\n---\n\n## Q13. [엔드이펙터] 로봇 툴 및 툴 체인저 위험성 평가 시 협착 위험점(Pinch Point) 제거 설계는? [빈출]\n\n* **답변 요약**:\n* **물리적 클리어런스 확보**: 핑거 가동부와 로봇 바디 사이의 간격을 인체 골격 한계를 고려해 **손가락 협착 방지는 최소 25mm 이상 확보, 전신 협착 방지는 500mm 이상 확보**하도록 기구 설계를 제한함.\n* **동력 제어 및 감지**: 가동 클램프 부위에 탄성 소프트 패드를 부착하고, 핑거 개폐 시 센싱 라인을 연결하여 파지 동작 중 의도치 않은 외력이 유입되면 즉시 동작을 정지하고 반대 방향으로 개방하는 파지 제어 인터락을 구축함.\n\n\n\n---\n\n## Q14. [교시작업] 티칭 모드(T1/Manual Reduced Speed) 시 250mm/s 속도 제한과 3위치 인에이블 스위치의 동작 원리는? [빈출]\n\n* **답변 요약**:\n* **250mm/s 속도 제한 배경**: 작업자가 방호 구역 내부에서 수동 티칭 시, 오동작 발생 시 인간의 인지-반응 지연 시간(통상 0.5초) 내에 물리적 충돌을 회피하거나 비상정지를 누를 수 있는 생체역학적 한계 속도 기준임.\n* **3위치 인에이블링 장치(3-Position Enabling Device)**:\n* 위치 1(놓음): 오프 상태 (구동 불가).\n* 위치 2(중간 파지): 온 상태 (수동 티칭 구동 승인).\n* 위치 3(공포/감전으로 꽉 쥠): 오프 상태 (비상 정지 동작).\n* 패닉 상태에서 손을 떼거나 꽉 쥐는 두 가지 본능적 반응 모두에서 로봇 구동을 즉시 차단하도록 설계됨.\n\n\n\n\n\n---\n\n## Q15. [인증문서화] 로봇 안전 기술 문서(Safety Technical File)의 필수 보관 항목과 인증 심사 대응은? [빈출]\n\n* **답변 요약**:\n* **필수 구성 산출물**:\n* 시스템 배치도 및 한계 규정서(용도, 사용자, 환경 정의).\n* ISO 12100 기반 전수 위험성 평가서(Risk Assessment Report).\n* 안전 회로도(전기/유공압) 및 안전 부품(Safety Component) 적합성 인증서(CE/UL).\n* SISTEMA 기반 PL 계산 검증 보고서 및 소프트웨어 안전 기능 시험 성적서(Validation Report).\n* 잔류 위험 경고를 포함한 최종 사용자 안전 취급 매뉴얼.\n\n\n* 제3자 인증 기관(TÜV, KTL 등)의 심사 시 설계 계산 근거와 실제 EOL 시험 성적서의 정량 수치 일치 여부를 대조 검증함.",
-  "인증": "# 인증 직무 면접 빈출 질문 (Global Compliance / CE / UL / KCs / Regulatory)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **HD현대로보틱스**: 로봇 글로벌 인증 및 CE / UL / KCs 인허가 담당자\n> * **두산로보틱스**: 해외 수출 규격 적합성 성적서(DoC) 및 기술문서(TCF) 엔지니어\n> * **로보티즈**: 로봇 전자파 적합성(EMC) 및 무선 전파인증 전담자\n> \n> \n\n---\n\n## Q1. [유럽인증] CE 마킹 획득 절차와 로봇 적용 3대 핵심 지침(Directive/Regulation)은? [빈출]\n\n* **답변 요약**:\n* **3대 핵심 규정**:\n* **기계류 규정(Machinery Directive 2006/42/EC 및 개정 Regulation EU 2023/1230)**: 기계적/기능적 안전 요구사항 충족.\n* **EMC 지침(2014/30/EU)**: 전자기파 방사 및 내성 적합성 검증.\n* **저전압 지침(LVD 2014/35/EU) / 무선기기 지침(RED 2014/53/EU)**: AC 50~1000V 전원 안전성, Wi-Fi/LTE 탑재 시 무선 주파수 대역 적합성 검증.\n\n\n* **절차**: 적용 규격(EN ISO 10218, EN 60204-1 등) 도출 $\\rightarrow$ 공인 시험소 시험 및 기술문서(TCF) 편철 $\\rightarrow$ EU 적합성 선언서(DoC) 발행 및 제품 명판 CE 마크 부착.\n\n\n\n---\n\n## Q2. [북미인증] 북미 안전 규격(UL 1740, UL 3100)과 NRTL(국가인정시험소) 승인 구조는? [빈출]\n\n* **답변 요약**:\n* **NRTL(Nationally Recognized Testing Laboratory) 제도**: 미국 OSHA(산업안전보건청)가 지정한 시험 기관(UL Solutions, TÜV Rheinland, Intertek 등)이 안전 시험을 수행하고 마킹을 부여함. 북미 현장 검사관(AHJ - Authority Having Jurisdiction)의 공장 가동 승인을 위해 필수적임.\n* **핵심 적용 규격**:\n* **UL 1740**: 산업용 로봇 및 로봇 시스템 안전 규격.\n* **UL 3100**: 자율주행 물류 로봇(AGV/AMR) 전용 안전 규격.\n* **UL 1973 / UL 2580**: 리튬이온 배터리 팩 안전성(과충전, 단락, 열폭주 전파 방지).\n* **NFPA 79**: 산업용 기계 전기 표준(배선 색상, 단락 차단 용량 SCCR 준수).\n\n\n\n\n\n---\n\n## Q3. [문서화] CE 적합성 검증을 위한 기술문서(TCF - Technical Construction File) 필수 편철 목록은? [빈출]\n\n* **답변 요약**:\n* 로봇 설계 사양서, 일반 배치도, 조립 상세도, 기구 강도 계산서.\n* 전장 회로도(Electrical Schematics), 유공압 회로도, 안전 I/O 블록 다이어그램.\n* ISO 12100 기반 전수 위험성 평가서(Risk Assessment Report).\n* ISO 13849-1 안전 회로 성능 수준 검증서(SISTEMA 계산 결과 파일).\n* 주요 안전 부품(Safety Component)의 인증서 사본(UL Recognized, CE CoC).\n* 공인 시험 성적서(EMC 시험, 전기안전 EN 60204-1, 기능안전 성적서).\n* 사용 설명서(사용자/유지보수 매뉴얼) 및 최종 적합성 선언서(DoC/DoI).\n\n\n\n---\n\n## Q4. [적합성선언] DoC(적합성 선언서)와 DoI(부분완성기계 편입선언서)의 차이 및 발행 기준은? [빈출]\n\n* **답변 요약**:\n* **DoC (Declaration of Conformity)**: 최종 완성 기계(Complete Machine)에 발행. 단독으로 작동 가능하며 의도된 안전 방호가 완비된 상태를 의미함. 제품에 **CE 마크 부착 가능**.\n* **DoI (Declaration of Incorporation)**: 부분완성기계(Partly Completed Machinery)에 발행. 단독으로는 특정 기능을 수행할 수 없어 상위 시스템에 통합되어야 하는 베어(Bare) 로봇 암이나 모듈형 관절 액추에이터가 해당됨. **CE 마크 부착 불가**. 통합 지침서(Assembly Instructions)를 제공해야 하며, 시스템 통합자가 최종 라인 구성 후 완성품에 대해 DoC를 발행해야 함.\n\n\n\n---\n\n## Q5. [EMC/노이즈] 전자파 적합성 시험(EMI vs EMS)의 평가 항목 및 부적합 시 하드웨어 대책은? [빈출]\n\n* **답변 요약**:\n* **EMI (방사/전도 노이즈 방출)**:\n* **항목**: 공간으로 방출되는 방사 노이즈(RE), AC 전원선을 타고 흐르는 전도 노이즈(CE).\n* **대책**: AC 인입단 노이즈 필터(Line Filter) 추가, 모터 인버터 PWM 스위칭 노이즈 차단을 위한 차폐(Shielding) 케이블 적용 및 $360^\\circ$ 접지 글랜드 체결, 페라이트 코어 배치.\n\n\n* **EMS (전자기 내성)**:\n* **항목**: 정전기 방전(ESD, IEC 61000-4-2), 서지 노이즈(Surge, 4-5), 전기적 빠른 과도현상(EFT/Burst, 4-4).\n* **대책**: 금속 섀시 접지 본딩(Bonding) 저항 $0.1\\Omega$ 이하 관리, 통신 라인(CAN, RS485) 및 제어단에 TVS 다이오드 및 서지 보호 소자(MOV) 실장.\n\n\n\n\n\n---\n\n## Q6. [부품선정] 로봇 설계 단계에서 '사전 인증 부품(Certified Component)' 적용이 중요한 이유는? [빈출]\n\n* **답변 요약**:\n* 완제품 인증 시 미인증 전원공급장치(SMPS), 서보 드라이브, 배터리팩을 사용할 경우, 시스템 시험 외에 해당 부품 자체의 절연 거리, 내전압, 내화성(UL 94 V-0), 부품 신뢰성 시험을 전수 재수행해야 하므로 수개월의 인증 일정 지연과 막대한 시험 비용이 발생함.\n* UL Listing/Recognized 마크 및 CE 인증이 완료된 핵심 부품을 사전 채택함으로써, 부품 단위 검증을 서류 평가로 대체하고 시스템 레벨 시험에만 집중하여 프로젝트 리스크를 제거함.\n\n\n\n---\n\n## Q7. [국내규제] 한국 전파등록(KC)과 산업용 로봇 안전인증(KCs)의 심사 절차 차이는? [빈출]\n\n* **답변 요약**:\n* **KC 전파인증 (과학기술정보통신부/국립전파연구원)**:\n* 전자파 적합성(KN 61000 시리즈) 및 무선(RF/Wi-Fi) 규격 시험 통과 후 방송통신기자재등의 적합등록(또는 적합인증) 필증 교부.\n\n\n* **KCs 안전인증/자율안전확인 (고용노동부/한국산업안전보건공단)**:\n* 산업안전보건법 제84조/제89조에 근거함. 로봇 본체의 인터락 방호 장치, 전기 장치(안전 도어 스위치, 비상정지 장치), 제어 신뢰성 서류 및 기술 기준 적합성을 평가받는 안전 검사 제도임.\n\n\n\n\n\n---\n\n## Q8. [배터리운송] 리튬이온 배터리 탑재 로봇의 UN 38.3 시험 규격 8대 시험 항목은? [빈출]\n\n* **답변 요약**:\n* 항공 및 해상 국제 위험물 운송 규정(DGR) 충족을 위한 필수 테스트.\n* **8대 항목**:\n1. 고도 시뮬레이션(저기압, T1).\n2. 열 시험(급격한 온습도 변화, T2).\n3. 진동 시험(수송 진동 모사, T3).\n4. 충격 시험(기계적 충격, T4).\n5. 외부 단락 시험($55^\\circ\\text{C}$ 단락, T5).\n6. 충돌/압착 시험(셀 단위 물리적 손상, T6).\n7. 과충전 시험(정격 전류/전압 초과 충전, T7).\n8. 강제 방전 시험(T8).\n\n\n* 전 항목에서 누액, 파열, 발화, 폭발이 없어야 통과 성적서(Test Summary)를 발급받음.\n\n\n\n---\n\n## Q9. [기능안전] SISTEMA(기능안전 소프트웨어)를 활용한 PL(Performance Level) 검증 메커니즘은? [빈출]\n\n* **답변 요약**:\n* 독일 사회보험조합 산업안전연구원(IFA)의 기능안전 해석 도구.\n* 비상정지, 안전 펜스 인터락, 속도 감시 등 로봇 안전 기능별 서브시스템(입력-논리-출력) 블록을 구성함.\n* 제조사 제공 안전 데이터(부품별 $B_{10d}$, 안전 스위치 접점 수명)를 기반으로 채널별 $MTTF_d$를 산출하고, 시스템 구조(Category 1~4), 진단 범위($DC_{\\text{avg}}$), 공통원인고장(CCF) 점수를 매핑하여 종합 성능 수준(PL a~e) 충족 여부를 수식 리포트로 검증·출력함.\n\n\n\n---\n\n## Q10. [의료로봇] 의료용 수술 로봇 인증(IEC 60601-1)과 일반 산업용 로봇 인증의 핵심 차이는? [빈출]\n\n* **답변 요약**:\n* **적용 규격**: 일반 산업용(ISO 10218, EN 60204-1) 대비 의료기기 공통 전기안전 규격인 **IEC 60601-1(3.2판)** 및 의료용 로봇 개별 규격 **IEC 80601-2-77** 적용.\n* **위험 관리 체계**: ISO 14971 기반의 임상적 유효성 및 환자 위해 분석 의무화.\n* **전기적 요구사항**: 환자 접촉부(Applied Part)의 물리적 절연 및 누설 전류(Leakage Current) 기준이 수십 마이크로암페어($\\mu A$) 수준으로 극도로 엄격함.\n* **소프트웨어 밸리데이션**: IEC 62304 규격에 따라 소프트웨어 생명주기 전 단계(SW 아키텍처, 위험 통제, 형상 관리, 단위/통합 테스트)를 엄격히 문서화 심사함.\n\n\n\n---\n\n## Q11. [프로젝트관리] 글로벌 시험인증기관(TÜV, SGS, UL 등)과의 인증 프로젝트 리드타임 단축 방안은? [빈출]\n\n* **답변 요약**:\n* 프로토타입 설계 완료 직후 공인 기관과 사전 기술 미팅(Preliminary Review)을 진행하여 적용 규격 및 부품 승인성(Component Acceptance) 갭 분석(Gap Analysis)을 조기 완료함.\n* EMC 챔버 및 안전 시험용 시제품 제작 시 테스트 전용 펌웨어(모터 연속 구동 모드, 통신 모니터링 모드)를 사전 포팅하여 현장 디버깅 지연을 차단함.\n* 인증 기관 시험 일정과 사내 개발 마일스톤을 동기화하고, Critical Path인 안전 부품 성적서 취득을 설계 착수와 동시에 진행함.\n\n\n\n---\n\n## Q12. [신규규정] 신규 유럽 기계류 규정(Machinery Regulation EU 2023/1230)의 핵심 변화와 로봇 대응책은? [빈출]\n\n* **답변 요약**:\n* **지침(Directive)에서 규정(Regulation)으로 승격**: 회원국 개별 법제화 없이 EU 전역에 직접적 법적 구속력 발효.\n* **주요 개정 내용**:\n* **디지털 및 AI 안전성**: 머신러닝/AI 알고리즘이 로봇의 안전 기능에 개입할 경우, 자율 학습에 따른 예기치 않은 동작에 대한 위험성 평가 의무화.\n* **사이버 보안 필수화**: 사이버 공격으로 인한 안전 제어 시스템 왜곡 방지 요건 신설 (EU 사이버 복원력 법안 연계).\n* **디지털 문서화 허용**: 사용자 매뉴얼 및 DoC의 디지털(QR 코드, 온라인) 제공 전면 허용 (단, 안전 관련 핵심 정보는 인쇄물 요구).\n\n\n\n\n\n---\n\n## Q13. [인허가대응] 시험 기관으로부터 부적합(Non-conformity) 통보 수령 시 시정 조치 프로세스는? [빈출]\n\n* **답변 요약**:\n* 지적 사항에 대한 규격 조항(Clause)을 면밀히 분석하고, 8D 또는 CAPA(Corrective and Preventive Action) 프레임워크 기반 시정 조치 계획서를 수립함.\n* **근본 원인 분석(RCA)**: 단순 부품 교체가 아닌 설계 마진 부족, 공차 누적, 회로 설계 미흡 등 근본 원인을 도출함.\n* **대책 수립 및 검증**: 회로 수정/기구 보강 후 사내 사전 테스트(Pre-test)로 개선 효과를 정량 검증한 뒤, 공인 기관에 수정 도면, 회로도, 자체 시험 성적서가 포함된 시정 조치 보고서를 제출하고 재시험(Retest) 일정을 확정함.\n\n\n\n---\n\n## Q14. [방폭로봇] 위험 구역(도장, 화학 플랜트)용 방폭 인증(IECEx / ATEX) 등급 분류 및 기구 설계는? [빈출]\n\n* **답변 요약**:\n* **위험 장소 분류**: 가스 폭발 위험성 빈도에 따라 Zone 0(상시), Zone 1(주기적), Zone 2(이상 상태 시 일시적)로 구분.\n* **주요 방폭 메커니즘**:\n* **내압 방폭(Ex d)**: 내부 폭발 시 하우징이 압력을 견디고 화염이 외부로 전파되지 않도록 결합면 틈새(Flameproof Gap)를 정밀 제어함.\n* **양압 방폭(Ex p)**: 로봇 내부 챔버에 불활성 가스 또는 청정 공기를 연속 주입하여 외부 가연성 가스 유입을 물리적으로 차단함. 압력 저하 시 모터 전원을 즉시 차단하는 퍼지/인터락 시스템 필수.\n* **본질 안전(Ex i)**: 제어 회로의 전기적 스파크 에너지를 발화 에너지 이하로 제한.\n\n\n\n\n\n---\n\n## Q15. [기술문서화] 사용 설명서 작성 국제 표준(IEC/IEEE 82079-1) 및 ANSI Z535 기반 위험 경고 체계는? [빈출]\n\n* **답변 요약**:\n* **원칙**: 정보의 명확성, 일관성, 사용자가 즉각 위험을 인지할 수 있는 시각적 계층 구조 설계.\n* **ANSI Z535 위험 등급 표준화**:\n* **DANGER (적색)**: 피하지 않을 경우 사망 또는 중증 상해를 초래하는 급박한 위험 상황. (예: 고전압 충전부 노출, 로봇 고속 구동 반경 협착)\n* **WARNING (오렌지색)**: 피하지 않을 경우 사망 또는 중증 상해를 초래할 수 있는 잠재적 위험.\n* **CAUTION (황색)**: 경미한 상해나 장비 손상을 초래할 수 있는 위험.\n* **NOTICE (청색)**: 인체 상해와 무관한 장비 보호 및 취급 주의 정보.\n\n\n* ISO 7010 표준 안전 픽토그램을 병기하고, 위험의 성격, 발생 결과, 회피 방법을 3단계로 명문화함.",
-  "임베디드": "# 임베디드 직무 면접 기출 및 빈출 질문 (Embedded Software / MCU / RTOS / Motor Control)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **HD현대로보틱스**: 로봇 임베디드 SW 개발자, 관절 모터 드라이버 펌웨어 개발자\n> * **두산로보틱스**: 로봇 관절 모듈 펌웨어 엔지니어 (RTOS / EtherCAT)\n> * **로보티즈**: 스마트 액추에이터 MCU / FreeRTOS 펌웨어 개발자\n> * **1X Technologies**: Embedded Engineer - Motors and Drives / Actuators\n> \n> \n\n---\n\n## Q1. [개념/이론] MCU(Micro Controller Unit)와 MPU(Micro Processor Unit)의 차이점은? [S사 기출]\n\n* **답변 요약**:\n* **MCU**: CPU 코어, 메모리(Flash ROM, SRAM), 클럭 발진기, 입출력 주변장치(GPIO, UART, SPI, ADC, 타이머 등)가 단일 칩(SoC)에 통합됨. 단일 전원 구조로 가격 및 전력 소모가 낮으며, 실시간 제어(센서 취득, 모터 인버터 제어 등)에 최적화됨.\n* **MPU**: 고성능 연산 중심의 대용량 프로세서 코어로, DRAM, eMMC 등 외부 메모리 및 PMIC(전원관리 IC) 연결이 필수적임. MMU를 탑재해 Linux 등 범용 OS 구동 및 고성능 연산 처리에 적합함.\n\n\n\n---\n\n## Q2. [개념/이론] 인터럽트(Interrupt)와 폴링(Polling) 방식의 차이점 및 선정 기준은? [H사 기출]\n\n* **답변 요약**:\n* **폴링(Polling)**: 메인 루프에서 특정 레지스터 플래그를 주기적으로 확인하는 방식. 구현이 직관적이나 이벤트가 없을 때도 CPU 자원을 지속 소모하며, 반응 지연(Latency)이 루프 주기에 종속됨.\n* **인터럽트(Interrupt)**: 외부 핀 입력 또는 하드웨어 주변장치 이벤트 발생 시 CPU가 수행 중인 작업을 일시 중단하고 인터럽트 서비스 루틴(ISR)으로 분기하여 즉각 처리함. CPU 점유율을 줄이고 빠른 응답성을 확보하나, 과도한 인터럽트 발생 시 컨텍스트 스위칭 오버헤드로 시스템 지연이 발생할 수 있음.\n* **선정 기준**: 발생 빈도가 불규칙하거나 긴급한 처리(비상정지 센서 입력, 엔코더 펄스 수신, 통신 패킷 수신 등)는 인터럽트 방식을 적용하고, 단순 주기적 상태 확인은 폴링 방식을 채택함.\n\n\n\n---\n\n## Q3. [개념/이론] 범용 OS와 RTOS(Real-Time OS)의 결정론적(Deterministic) 응답성 차이는? [L사 기출]\n\n* **답변 요약**:\n* 범용 OS(Linux, Windows)는 전체 작업의 평균 처리량(Throughput) 극대화를 목표로 하며 공평 스케줄링(CFS)을 사용하므로, 특정 태스크의 마감 시간(Deadline) 완료를 보장하지 못함.\n* RTOS(FreeRTOS, Zephyr, VxWorks)는 시간 제약 조건의 확실한 충족을 최우선으로 함. 우선순위 기반 선점형(Preemptive) 스케줄링을 통해 고우선순위 태스크 발생 시 마이크로초($\\mu s$) 단위 내에 즉각 CPU를 할당받는 결정론적(Deterministic) 시간 응답성을 보장함.\n\n\n\n---\n\n## Q4. [개념/이론] I2C, SPI, UART 시리얼 통신 방식의 하드웨어 구성 및 특징 비교는? [D사 기출]\n\n* **답변 요약**:\n* **UART**: 비동기(Asynchronous), 전이중(Full-Duplex), 2선(TX, RX), 1:1 통신. 별도 클럭 라인이 없어 전송 속도(Baudrate) 사전 일치 필수.\n* **I2C**: 동기(Synchronous), 반이중(Half-Duplex), 2선(SDA, SCL), 1:N 버스 통신. 오픈 드레인 구조로 풀업 저항 필수. 7/10비트 슬레이브 주소 체계 지원. 속도는 비교적 느림(표준 100kbps~1Mbps).\n* **SPI**: 동기, 전이중, 4선(MOSI, MISO, SCK, CS), 1:N 통신. 슬레이브마다 개별 CS(Chip Select) 라인 필요. 오버헤드가 적어 수십 Mbps 고속 센서/플래시 메모리 통신에 적합함.\n\n\n\n---\n\n## Q5. [시스템/안전] 임베디드 제어기에서 워치독 타이머(Watchdog Timer, WDT)의 동작 원리는? [R사 기출]\n\n* **답변 요약**:\n* 하드웨어 카운터가 지속적으로 다운카운트(또는 업카운트)되며, 메인 펌웨어가 정상 가동 중임을 알리기 위해 카운터가 만료되기 전 주기적으로 값을 리셋(Kick/Refresh)함.\n* 소프트웨어 데드락, 무한 루프, EMI 노이즈로 인한 CPU 락업(Lock-up) 시 워치독 갱신 루틴이 중단되면, 카운터 언더플로우가 발생하여 MCU 하드웨어 리셋 신호(NRST)를 강제 발생시켜 시스템을 안전 상태로 복구함.\n\n\n\n---\n\n## Q6. [개념/이론] C언어에서 `volatile` 키워드의 컴파일러 관점 동작 원리와 적용 대상은? [S사 기출]\n\n* **답변 요약**:\n* **동작 원리**: 컴파일러가 해당 변수에 대한 레지스터 캐싱 및 접근 최적화(코드 제거, 메모리 접근 생략)를 수행하지 못하도록 강제하고, 변수를 읽거나 쓸 때마다 반드시 실제 메모리 주소에 직접 접근하도록 지시함.\n* **적용 대상**: 메모리 맵 입출력(MMIO) 하드웨어 제어/상태 레지스터, 인터럽트 서비스 루틴(ISR)과 메인 루틴 간 공유하는 전역 변수, RTOS 멀티태스크 간 동기화 플래그 변수.\n\n\n\n---\n\n## Q7. [개념/이론] 뮤텍스(Mutex)와 세마포어(Semaphore)의 메커니즘 차이는? [H사 기출]\n\n* **답변 요약**:\n* **뮤텍스(Mutex)**: 상호 배제(Mutual Exclusion)를 위한 잠금(Locking) 메커니즘. 공유 자원에 대해 1개의 태스크만 접근 가능하며, 락을 획득한 태스크만 락을 해제할 수 있는 **소유권(Ownership)** 개념이 존재함. 우선순위 상속(Priority Inheritance) 프로토콜을 지원하여 우선순위 역전을 방지함.\n* **세마포어(Semaphore)**: 가용 자원의 개수를 관리하는 신호(Signaling) 메커니즘. 카운팅 세마포어(N개 자원 관리)와 바이너리 세마포어(동기화 목적)로 구분됨. 소유권이 없어 락을 획득하지 않은 외부 태스크나 ISR에서도 신호(Signal/Post)를 보내 카운트를 증가시킬 수 있음.\n\n\n\n---\n\n## Q8. [시스템/응용] DMA(Direct Memory Access)의 동작 원리와 로봇 제어 시스템에서의 이점은? [L사 기출]\n\n* **답변 요약**:\n* **동작 원리**: CPU 개입 없이 주변장치(UART, SPI, ADC 등)와 시스템 메모리(SRAM) 간, 또는 메모리와 메모리 간에 DMA 컨트롤러가 버스 마스터(Bus Master) 권한을 획득하여 데이터를 고속 블록 전송함.\n* **이점**: 바이트 수신마다 발생하는 CPU 인터럽트 오버헤드를 제거함. 라이다 포인트 클라우드 수신, 모터 상전류 ADC 연속 샘플링, 고속 엔코더 패킷 취득 중에도 CPU는 모터 궤적 연산 및 제어 알고리즘 연산에만 전념할 수 있어 실시간 연산 성능이 유지됨.\n\n\n\n---\n\n## Q9. [개념/이론] CAN(Controller Area Network) 통신의 물리 계층 특성과 중재(Arbitration) 방식은? [D사 기출]\n\n* **답변 요약**:\n* **물리 계층**: CAN_H와 CAN_L 2선 차동 신호(Differential Signaling)를 사용하여 외부 전자기 외란(Common-mode Noise)에 강건함. 양 종단에 120$\\Omega$ 종단 저항 배치 필수.\n* **중재 방식**: 비트 단위 비파괴 중재(CSMA/CD + NBA) 메커니즘 적용. 도미넌트(Dominant, 논리 0)가 리세시브(Recessive, 논리 1)를 이기는 유선 논리 AND 구조임. 두 노드가 동시 송신할 때 메시지 ID 비트 값이 작은(우선순위가 높은, 0이 많은) 프레임이 중재에서 승리하여 통신 지연 없이 전송됨.\n\n\n\n---\n\n## Q10. [시스템/응용] EtherCAT과 CANopen 통신의 프레임 전송 메커니즘 차이 및 로봇 적용은? [R사 기출]\n\n* **답변 요약**:\n* **CANopen**: 전통적인 CAN(최대 1Mbps) 기반 상위 프로토콜. 11비트/29비트 식별자와 SDO/PDO 객체 딕셔너리 구조를 가짐. 대역폭 한계로 다관절 로봇의 고속 제어 주기(1kHz 이상) 동기화에는 제약이 있음.\n* **EtherCAT**: 표준 100BASE-TX 이더넷 기반. 마스터가 보낸 단일 이더넷 프레임을 슬레이브 칩(ESC)이 통과시키면서 하드웨어 레벨에서 데이터를 실시간 읽고 쓰는 온더플라이(On-the-fly) 방식을 적용함. 분산 클럭(Distributed Clocks, DC) 기술로 수십 개 관절 액추에이터를 1$\\mu s$ 이하의 지터(Jitter)로 1kHz~10kHz 제어 주기에 완전 동기화함.\n\n\n\n---\n\n## Q11. [실무/트러블슈팅] RTOS 우선순위 역전(Priority Inversion) 현상의 발생 원인과 해결책은? [S사 기출]\n\n* **답변 요약**:\n* **발생 원인**: 저우선순위 태스크(L)가 공유 자원 뮤텍스를 선점한 상태에서 중간 우선순위 태스크(M)가 실행되어 L의 CPU 점유를 선점(Preemption)함. 이로 인해 뮤텍스를 기다리는 고우선순위 태스크(H)가 M보다 늦게 실행되는 블로킹 현상이 발생함.\n* **해결책**:\n* **우선순위 상속(Priority Inheritance)**: L이 보유한 자원을 H가 요청하는 즉시 L의 우선순위를 H 수준으로 일시 승격시켜 빠르게 작업을 마치고 자원을 반환하도록 유도함.\n* **우선순위 천장(Priority Ceiling)**: 뮤텍스에 접근 가능한 가장 높은 태스크의 우선순위를 사전에 임계값으로 할당하여 역전 자체를 예방함.\n\n\n\n\n\n---\n\n## Q12. [시스템/응용] 모터 인버터 구동을 위한 상보형(Complementary) PWM과 데드 타임(Dead Time) 설정은? [H사 기출]\n\n* **답변 요약**:\n* 3상 인버터 구동 시 단일 레그(Leg)의 상측 FET(High-side)와 하측 FET(Low-side)를 교대로 켜고 끄는 상보형 PWM 출력을 생성함.\n* FET의 턴온(Turn-on) 시간보다 턴오프(Turn-off) 지연 시간이 길어 두 스위치가 동시에 켜질 경우 전원과 접지가 단락되는 슛스루(Shoot-through) 화재가 발생함. 이를 방지하기 위해 상측 소자가 꺼진 후 하측 소자가 켜지기 전(및 그 반대) 양쪽 스위치를 모두 꺼두는 지연 시간인 데드 타임(Dead Time)을 타이머 레지스터에 반드시 설정해야 함.\n\n\n\n---\n\n## Q13. [개념/이론] 인크리멘탈 엔코더(Incremental)와 앱솔루트 엔코더(Absolute)의 동작 원리 및 차이는? [L사 기출]\n\n* **답변 요약**:\n* **인크리멘탈(Incremental)**: A상/B상 위상차($90^\\circ$) 펄스와 Z상(1회전 1회 펄스)을 출력함. 상대적인 변위량과 회전 방향만 측정 가능하므로, 전원 재인가 시 원점 복귀(Homing) 동작을 통해 기준 위치를 재설정해야 함.\n* **앱솔루트(Absolute)**: 디스크에 고유한 그레이 코드(Gray Code) 패턴이 각인되어 있어, 전원 차단 여부와 무관하게 현재 회전축의 절대 각도 위치를 즉시 디지털 데이터(SSI, BiSS-C 등)로 출력함. 배터리 백업을 결합한 다회전(Multi-turn) 앱솔루트 엔코더는 전원이 꺼진 상태에서 발생한 외부 회전 변위까지 보존함.\n\n\n\n---\n\n## Q14. [실무/트러블슈팅] 저전력 임베디드 시스템 설계를 위한 펌웨어 최적화 기법은? [D사 기출]\n\n* **답변 요약**:\n* **슬립 모드 활용**: 작업이 없는 유휴(Idle) 상태에서 CPU를 Sleep, Stop, Standby 모드로 전환하고, SysTick 타이머를 멈추는 틱리스 아이들(Tickless Idle) 모드를 적용함.\n* **클럭 및 전원 제어**: 불필요한 주변장치(ADC, SPI 등)의 클럭 게이팅(Clock Gating)을 차단하고, 연산 요구량에 따라 MCU 동작 주파수를 동적으로 낮추는 DVFS 기법을 적용함.\n* **인터럽트 중심 구조**: 비효율적인 폴링 루프를 제거하고 외부 인터럽트 및 DMA 완료 인터럽트 기반 이벤트 구동(Event-driven) 방식으로 전환하여 액티브(Active) 런타임을 최소화함.\n\n\n\n---\n\n## Q15. [시스템/응용] 펌웨어 OTA(Over-The-Air) 무선 업데이트 시 안전성 및 롤백(Rollback) 설계는? [R사 기출]\n\n* **답변 요약**:\n* Flash 메모리를 부트로더 영역, 활성 뱅크(Bank A), 업데이트 뱅크(Bank B), 설정 영역으로 분할하는 듀얼 뱅크(Dual-bank) 구조를 채택함.\n* 신규 펌웨어 다운로드 완료 후 무결성 검증(CRC32 또는 SHA-256) 및 전자서명 검증을 수행함.\n* 부트 플래그를 변경해 신규 이미지로 1회 부팅(Trial Boot)을 시도하며, 워치독 타이머 만료나 자가 진단 실패로 일정 시간 내 확인 신호(Handshake)가 없으면 부트로더가 기존의 검증된 펌웨어 뱅크로 자동 롤백(Rollback)하도록 구현함.\n\n\n\n---\n\n## Q16. [개념/이론] 하드웨어 FPU(Floating Point Unit) 유무가 모터 제어 성능에 미치는 영향은? [S사 기출]\n\n* **답변 요약**:\n* 모터 FOC(자속 기준 제어) 및 관절 동역학 연산에는 삼각함수, 파크/클라크 역변환, 칼만 필터 등 대량의 부동소수점 연산이 수반됨.\n* FPU가 없는 코어(Cortex-M0/M3 등)는 소프트웨어 라이브러리로 수십~수백 클럭을 소모하며 에뮬레이션하므로 제어 주기가 길어짐. FPU가 탑재된 코어(Cortex-M4F/M7 등)는 단일 사이클 하드웨어 부동소수점 명령어를 실행하여 10kHz~20kHz 이상의 고속 FOC 전류 제어 루프를 지연 없이 수행할 수 있음.\n\n\n\n---\n\n## Q17. [실무/트러블슈팅] C언어 비트 연산자를 활용한 레지스터 조작(Read-Modify-Write) 원리는? [H사 기출]\n\n* **답변 요약**:\n* 특정 비트 설정(Set to 1): `REG |= (1U << PIN);` (OR 연산)\n* 특정 비트 해제(Clear to 0): `REG &= ~(1U << PIN);` (AND-NOT 연산)\n* 특정 비트 반전(Toggle): `REG ^= (1U << PIN);` (XOR 연산)\n* 특정 비트 상태 읽기: `if (REG & (1U << PIN))`\n* 기존 다른 제어 비트의 설정값을 덮어쓰지 않고 타깃 비트만 원자적으로 수정하기 위해 Read-Modify-Write 패턴을 준수하거나, ARM Cortex-M의 경우 비트 밴딩(Bit-banding) 또는 전용 Set/Reset 레지스터(예: STM32의 `BSRR`)를 사용하여 조작함.\n\n\n\n---\n\n## Q18. [시스템/응용] Flash 메모리의 지우기 단위 한계와 런타임 데이터 보존(Wear-leveling) 설계는? [L사 기출]\n\n* **답변 요약**:\n* NOR Flash 메모리는 읽기/쓰기는 바이트 단위로 가능하나, 지우기(Erase)는 섹터/페이지 단위로만 가능하며 지우기 동작 시 수 밀리초($ms$) 단위의 지연이 발생함.\n* 런타임 중 실시간 쓰기 지연을 방지하기 위해 SRAM 링 버퍼에 데이터를 보관하고 전원 차단 감지(PVD) 인터럽트 발생 시 일괄 기록함.\n* 특정 섹터에 쓰기 횟수가 편중되어 수명이 다하는 것을 막기 위해 가상 EEPROM 에뮬레이션 소프트웨어를 구현하거나 마모도 균등화(Wear-leveling) 알고리즘을 적용함.\n\n\n\n---\n\n## Q19. [개념/이론] 엔디안(Big Endian vs Little Endian)과 통신 패킷 바이트 스왑(Byte Swap) 처리는? [D사 기출]\n\n* **답변 요약**:\n* **Little Endian**: 최하위 바이트(LSB)를 가장 낮은 메모리 주소에 저장. (ARM Cortex, x86 아키텍처)\n* **Big Endian**: 최상위 바이트(MSB)를 가장 낮은 메모리 주소에 저장. (네트워크 표준 프로토콜 순서)\n* ARM MCU에서 표준 네트워크(Ethernet, CANopen) 멀티바이트(16/32비트) 데이터 수신 시 바이트 정렬 순서가 뒤집히므로, 수신 직후 `ntohs`/`ntohl` 함수나 내장 어셈블리 명령어(`REV`, `REV16`)를 사용해 바이트 스왑 처리를 거쳐야 연산 왜곡을 방지할 수 있음.\n\n\n\n---\n\n## Q20. [실무/트러블슈팅] 인버터 모터 노이즈로 인한 MCU 리셋 및 통신 튕김 현상 하드웨어/소프트웨어 대책은? [R사 기출]\n\n* **답변 요약**:\n* **하드웨어 대책**: 모터 구동 전원(High Voltage)과 MCU 로직 전원(Low Voltage)의 접지(Ground) 분리 및 단일 지점 접지(Star Ground) 적용. NRST 핀 부근 100nF 디커플링 커패시터 및 10k$\\Omega$ 풀업 저항 실장. 신호선에 페라이트 비드 및 TVS 다이오드 추가.\n* **소프트웨어 대책**: 부팅 단계에서 리셋 발생 원인 레지스터(RCC_CSR 등)를 확인하여 소프트웨어적 리셋인지 노이즈성 하드웨어 리셋(Pin Reset)인지 판별. 중요한 제어 레지스터는 주기적으로 무결성을 검사하고 섀도 레지스터(Shadow Register)를 두어 재설정함.\n\n\n\n---\n\n## Q21. [개념/이론] 임베디드 C에서 포인터를 이용한 하드웨어 레지스터(MMIO) 접근 매크로 정의 방식은? [빈출]\n\n* **답변 요약**:\n* 메모리 맵 I/O(MMIO) 구조에서 특정 물리 주소를 포인터로 형변환(Casting)하여 하드웨어 제어 레지스터에 접근함.\n* 컴파일러 최적화를 방지하기 위해 `volatile` 키워드를 필수 선언함.\n* 매크로 구현: `#define GPIOA_ODR (*((volatile uint32_t *)0x40020014U))` 형태로 선언하여 메모리 주소 역참조를 통해 하드웨어 핀 출력값을 직접 읽고 씀.\n\n\n\n---\n\n## Q22. [개념/이론] 명령어 세트 아키텍처(ISA)의 개념과 CISC vs RISC 특성 비교는? [빈출]\n\n* **답변 요약**:\n* **개념**: 프로세서가 인식하고 실행할 수 있는 기계어 명령어, 레지스터 구조, 메모리 모델, 인터럽트 체계를 정의한 하드웨어-소프트웨어 간 인터페이스 규격.\n* **CISC(x86 등)**: 복합 명령어 구조. 명령어 길이가 가변적이며 단일 명령어로 복잡한 연산 수행 가능. 디코더 구조가 복잡하고 전력 소모가 큼.\n* **RISC(ARM, RISC-V 등)**: 축소 명령어 구조. 고정 길이 명령어와 로드-스토어(Load-Store) 아키텍처를 채택함. 파이프라이닝 최적화가 용이하여 고효율 저전력 임베디드 제어 시스템에 적합함.\n\n\n\n---\n\n## Q23. [개념/이론] C 소스 코드가 실행 바이너리로 생성되는 4단계 빌드 프로세스는? [빈출]\n\n* **답변 요약**:\n1. **전처리(Preprocessing)**: 매크로 치환(`#define`), 조건부 컴파일(`#ifdef`), 헤더 파일 삽입(`#include`), 주석 제거 수행 $\\rightarrow$ `.i` 파일 생성.\n2. **컴파일(Compilation)**: 전처리된 소스 코드를 구문 분석 및 최적화하여 타깃 아키텍처 어셈블리 코드로 변환 $\\rightarrow$ `.s` 파일 생성.\n3. **어셈블(Assembly)**: 어셈블리 코드를 실제 기계어 오브젝트 코드로 변환 $\\rightarrow$ `.o` / `.obj` 파일 생성.\n4. **링킹(Linking)**: 여러 오브젝트 파일과 표준/외부 라이브러리를 결합하고, 링커 스크립트(Linker Script)에 정의된 메모리 맵에 따라 심볼의 물리 주소를 확정하여 최종 실행 바이너리(`.elf`, `.bin`, `.hex`) 생성.\n\n\n\n---\n\n## Q24. [개념/이론] 크로스 컴파일(Cross-compile)의 개념과 툴체인(Toolchain) 구성 요소는? [빈출]\n\n* **답변 요약**:\n* **개념**: 컴파일러가 실행되는 환경(Host PC, 보통 x86_64 리눅스)과 생성된 실행 코드가 최종 구동되는 환경(Target Board, ARM MCU 등)의 CPU 아키텍처가 다를 때 사용하는 컴파일 기법.\n* **툴체인 구성 요소**: 크로스 컴파일러(arm-none-eabi-gcc), 크로스 어셈블러(as), 링커(ld), C 표준 런타임 라이브러리(Newlib), 바이너리 조작 유틸리티(objcopy, readelf), 디버거(gdb).\n\n\n\n---\n\n## Q25. [개념/이론] MMU(Memory Management Unit)와 MPU(Memory Protection Unit)의 기능 차이는? [빈출]\n\n* **답변 요약**:\n* **MMU**: 가상 메모리(Virtual Memory) 주소를 물리 메모리(Physical Memory) 주소로 변환(Paging, TLB)하고 페이지 단위로 프로세스 간 독립 메모리 공간을 완벽 격리함. (Linux 등 고성능 OS 구동에 필수)\n* **MPU**: 가상 메모리 변환 기능 없이, 물리 주소 공간의 특정 영역(Region)에 대해 읽기/쓰기/실행(XN) 권한 및 접근 레벨(Privileged/Unprivileged)만을 제한함. Cortex-M MCU 등 RTOS 환경에서 태스크 간 스택 오버플로우나 커널 메모리 오염을 감지·차단하는 용도로 사용됨.\n\n\n\n---\n\n## Q26. [개념/이론] RTOS 환경에서 태스크(Task)의 내부 구성과 프로세스(Process)와의 차이는? [빈출]\n\n* **답변 요약**:\n* RTOS 태스크는 단일 물리 메모리 주소 공간을 전역적으로 공유하는 일반 범용 OS의 스레드(Thread)와 유사함.\n* 개별 태스크는 독립된 태스크 제어 블록(TCB, Task Control Block), 고유 우선순위, 독립적인 전용 스택(Stack) 영역을 할당받아 운용됨. 프로세스처럼 가상 메모리 기반 주소 격리가 없어 태스크 간 전환(Context Switch) 오버헤드가 수 마이크로초 수준으로 가볍지만, 한 태스크의 잘못된 포인터 접근이 시스템 전체 메모리를 오염시킬 위험이 있음.\n\n\n\n---\n\n## Q27. [개념/이론] 베어메탈(Bare-metal) 환경에서 링커 스크립트(Linker Script, `.ld`)의 역할은? [빈출]\n\n* **답변 요약**:\n* 타깃 MCU의 물리 메모리 맵(Flash ROM 시작 주소/크기, SRAM 시작 주소/크기)을 명시함.\n* 컴파일된 코드의 각 섹션을 실제 물리 주소에 배치함:\n* `.text`: 실행 기계어 코드 및 벡터 테이블 (Flash 적재).\n* `.rodata`: `const` 상수 데이터 (Flash 적재).\n* `.data`: 초기화된 전역/정적 변수 (Flash에 초기값 저장 후 부팅 시 SRAM으로 복사).\n* `.bss`: 초기화되지 않은 전역/정적 변수 (부팅 시 SRAM 영역을 0으로 클리어).\n* 스택(Stack)의 최상단 시작 주소 및 힙(Heap)의 시작/끝 경계 설정.\n\n\n\n\n\n---\n\n## Q28. [개념/이론] C언어 `static` 키워드의 선언 위치별 메모리 수명(Lifetime) 및 접근 범위(Scope)는? [빈출]\n\n* **답변 요약**:\n* **공통 수명**: 프로그램 시작 시 메모리(Data 또는 BSS 세그먼트)에 할당되며, 프로그램 종료 시까지 메모리 주소가 영구 유지됨.\n* **함수 내부 `static` 지역 변수**: Scope는 해당 함수 내부로 제한되나, 함수 반환 후에도 값이 초기화되지 않고 직전 상태를 유지함. (재진입 없는 상태 저장에 활용)\n* **파일 단위 `static` 전역 변수 / 함수**: Scope가 해당 C 소스 파일 내부로 제한(Internal Linkage)되어 다른 파일에서 `extern`으로 참조할 수 없음. 네임스페이스 오염 방지 및 모듈 캡슐화에 활용됨.\n\n\n\n---\n\n## Q29. [실무/트러블슈팅] 함수 포인터(Function Pointer)를 이용한 하드웨어 추상화(HAL) 및 콜백(Callback) 구현은? [빈출]\n\n* **답변 요약**:\n* 구조체 내부에 함수 포인터 멤버를 정의하여 모터 드라이버나 센서 드라이버 인터페이스를 규격화함.\n* 통신 수신 완료, 타이머 만료 등 비동기 하드웨어 이벤트 발생 시 사전에 등록된 상위 계층의 콜백 함수 포인터를 ISR 또는 이벤트 루프에서 호출함.\n* 하위 하드웨어 제어 로직과 상위 알고리즘 로직이 상호 의존하지 않도록 의존성을 분리(Decoupling)하여 다른 MCU 플랫폼으로의 코드 이식성을 확보함.\n\n\n\n---\n\n## Q30. [개념/이론] 임베디드 메모리 구조(SRAM vs DRAM, NOR vs NAND Flash)의 특성 비교는? [빈출]\n\n* **답변 요약**:\n* **SRAM**: 6개 트랜지스터 셀 구조. 리프레시 불필요, 고속 동작, 저집적도/고비용. MCU 내부 캐시 및 런타임 작업 메모리로 사용.\n* **DRAM**: 1개 트랜지스터 + 1개 커패시터 셀. 주기적 전하 리프레시 필수, 대용량 저비용. MPU 외부 주기억장치로 사용.\n* **NOR Flash**: 셀 병렬 연결. 바이트 단위 무작위 읽기(Random Access) 가능, XIP(eXecute-In-Place) 지원. 펌웨어 실행 코드 저장용으로 MCU 내부에 탑재.\n* **NAND Flash**: 셀 직렬 연결. 페이지/블록 단위 접근, 고집적 대용량. 파일 시스템, OS 이미지 저장용(eMMC, SD카드)으로 사용.\n\n\n\n---\n\n## Q31. [개념/이론] 네이티브 컴파일러(Native Compiler)와 크로스 컴파일러의 환경적 차이는? [빈출]\n\n* **답변 요약**:\n* **네이티브 컴파일러(Native)**: 컴파일러가 동작하는 시스템 아키텍처와 생성되는 실행 파일의 타깃 아키텍처가 일치함. (예: Raspberry Pi 또는 Jetson 보드 자체 Linux 환경에서 `gcc`를 실행해 ARM 바이너리를 생성하는 방식)\n* **크로스 컴파일러(Cross)**: 컴파일러가 동작하는 Host(x86 PC)와 타깃 시스템(Cortex-M 보드)의 아키텍처가 상이함. 자원이 극도로 제한된 저사양 MCU 환경에서는 보드 자체 컴파일이 불가능하므로 고성능 Host PC에서 빌드 후 바이너리를 다운로드하는 크로스 컴파일 환경이 필수적임.\n\n\n\n---\n\n## Q32. [시스템/응용] 인터럽트 서비스 루틴(ISR) 작성 시 금기 사항과 최적화 원칙은? [빈출]\n\n* **답변 요약**:\n* **최소화 원칙**: ISR은 하드웨어 플래그를 클리어하고, DMA/FIFO 버퍼 포인터를 갱신하거나 RTOS 세마포어/이벤트 플래그를 송신(Signal)한 뒤 즉시 반환해야 함. 복잡한 계산은 일반 태스크로 위임하는 지연 처리(Deferred Processing)를 적용함.\n* **금기 사항**:\n* `printf` 등 블로킹 I/O 함수 및 지연(`delay`) 함수 호출 금지.\n* 힙 메모리 동적 할당(`malloc`, `free`) 및 해제 금지 (재진입 불가 및 비결정론적 시간 소요).\n* 컨텍스트 스위칭을 유발하는 블로킹 OS API(대기 시간이 있는 `xSemaphoreTake` 등) 호출 금지 (FromISR 전용 비블로킹 API 사용 필수).\n\n\n\n\n\n---\n\n## Q33. [개념/이론] 플래시 메모리의 'Erase-before-Write' 제약과 블록 지우기 단위 메커니즘은? [빈출]\n\n* **답변 요약**:\n* 플래시 메모리는 물리적 특성상 지우기(Erase)를 통해 모든 비트를 '1'로 설정한 후에만 쓰기(Program) 동작을 통해 선택적으로 비트를 '0'으로 변경할 수 있음. ('0' 상태에서 '1'로 변경하는 개별 덮어쓰기 불가)\n* 쓰기는 바이트/워드 단위(NOR) 또는 페이지 단위(NAND)로 가능하지만, 지우기는 내부 고전압 인가 회로 구조상 수십 KB~수 MB 크기의 **섹터(Sector) 또는 블록(Block)** 단위로만 일괄 처리 가능함.\n* 데이터의 일부 바이트만 수정하려면 해당 섹터 전체를 RAM으로 읽어온 뒤 수정하고, 섹터를 지운 후 전체를 재기록하는 과정이 요구됨.\n\n\n\n---\n\n## Q34. [실무/트러블슈팅] 컴파일러 최적화로 인한 딜레이 루프(Busy-wait Loop) 삭제 방지 대책은? [빈출]\n\n* **답변 요약**:\n* `for(int i=0; i<10000; i++);`와 같은 빈 루프는 고수준 최적화 옵션(`-O2`, `-O3`) 적용 시 컴파일러가 부수 효과(Side-effect)가 없는 무의미한 코드로 판단하여 기계어 생성 단계에서 완전히 삭제(Elimination)함.\n* **방지 대책**: 루프 인덱스 변수를 `volatile int i;`로 선언하여 컴파일러가 매 반복마다 메모리 변수를 강제로 읽고 쓰도록 유도함. 실무적으로는 소프트웨어 딜레이 루프 대신 하드웨어 타이머 카운터 기반 딜레이 또는 DWT(Data Watchpoint and Trace) 사이클 카운터를 활용하여 정밀 지연을 구현함.",
-  "자율주행": "# 자율주행 직무 면접 빈출 질문 (Autonomous Driving / SLAM / Path Planning / Sensor Fusion)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **로보티즈**: 자율주행 SLAM 및 경로 계획(Path Planning) 엔지니어\n> * **1X Technologies / Figure AI**: Autonomous Navigation & 3D LiDAR SLAM Engineer\n> * **HD현대로보틱스**: AMR 자율주행 제어 및 Nav2 센서 퓨전 개발자\n> * **삼성전자**: 자율주행 모바일 로봇(AMR) 로컬/글로벌 플래너 개발자\n> \n> \n\n---\n\n## Q1. [개념/이론] SLAM의 기본 원리와 '닭과 달걀의 문제(Chicken-and-Egg Problem)'의 수학적 정의는? [S사 기출]\n\n* **답변 요약**:\n* **원리**: 사전 정보가 없는 미지의 환경에서 로봇의 위치 추정(Localization)과 주변 환경 지도 작성(Mapping)을 동시에 수행하는 확률론적 상태 추정 문제.\n* **상호 의존성**: 지도를 작성하려면 센서 측정값을 일관된 전역 좌표계에 누적하기 위해 로봇의 정확한 위치($x_{1:t}$)가 필요하고, 로봇 위치를 추정하려면 센서 관측값($z_{1:t}$)을 대조할 지도($m$)가 사전에 정의되어 있어야 함. 결합 사후 확률 분포 $P(x_{1:t}, m \\mid z_{1:t}, u_{1:t})$를 반복 추정(EM 알고리즘 또는 그래프 최적화)으로 동시에 수렴시켜야 하는 닭과 달걀의 순환 모순 구조를 가짐.\n\n\n\n---\n\n## Q2. [개념/이론] 다익스트라(Dijkstra)와 A* 알고리즘의 탐색 메커니즘 차이는? [H사 기출]\n\n* **답변 요약**:\n* **Dijkstra**: 시작 노드로부터의 실제 이동 비용 $g(n)$만을 평가 함수 $f(n) = g(n)$로 사용하여 모든 방향으로 균일하게 원형 탐색을 확장함. 최단 경로를 보장하나 불필요한 노드 방문이 많아 연산량이 큼.\n* **A***: 평가 함수에 목표 노드까지의 추정 비용인 휴리스틱 함수 $h(n)$을 추가함($f(n) = g(n) + h(n)$). 목적지 방향의 노드를 우선적으로 탐색하여 탐색 공간을 타깃 방향으로 집중시킴. 휴리스틱 함수가 실제 남은 비용보다 항상 작거나 같을 때(Admissible condition: $h(n) \\le h^*(n)$) 최적해를 보장하면서 연산 속도를 단축함.\n\n\n\n---\n\n## Q3. [하드웨어/센서] 자율주행용 LiDAR와 Radar 센서의 물리적 특성 및 장단점 비교는? [L사 기출]\n\n* **답변 요약**:\n* **LiDAR(광학 레이저, 905nm/1550nm)**:\n* **장점**: 수밀리미터~수센티미터 단위의 정밀한 3차원 포인트 클라우드 획득 가능. 물체의 기하학적 형상 인식 및 주행 가능 영역 검출에 탁월함.\n* **단점**: 비, 안개, 눈, 먼지 등 입자성 매질에서 빛 산란으로 인한 노이즈 발생. 고가이며 수광부 오염에 취약함.\n\n\n* **Radar(밀리미터파 전파, 77GHz/79GHz)**:\n* **장점**: 장파장 특성으로 기상 악화(폭우, 안개, 야간) 환경 투과성이 뛰어남. 도플러 효과(Doppler Effect)를 이용해 타깃 물체의 상대 속도를 단일 프레임에서 즉각 정밀 측정 가능.\n* **단점**: 각도 분해능(Angular Resolution)이 낮아 물체의 구체적인 형상 구분이 어렵고, 금속 구조물 반사로 인한 고스트(Ghost) 타깃 노이즈가 빈번함.\n\n\n\n\n\n---\n\n## Q4. [상태추정] 파티클 필터(Particle Filter/MCL)와 확장 칼만 필터(EKF)의 수학적 차이 및 적용 환경은? [D사 기출]\n\n* **답변 요약**:\n* **EKF(Extended Kalman Filter)**:\n* **가정 및 연산**: 시스템 노이즈를 가우시안(Gaussian) 분포로 가정하고 1차 테일러 전개(Taylor Expansion)로 야코비안(Jacobian) 행렬을 계산해 비선형성을 국소 선형화함.\n* **특징 및 한계**: 연산량이 적어 고속 제어 주기($\\ge 100\\text{Hz}$)에 적합하나, 다봉(Multimodal) 분포를 표현할 수 없어 초기 위치가 완전히 유실된 '납치된 로봇 문제(Kidnapped Robot Problem)' 해결이 불가능함.\n\n\n* **Particle Filter (Monte Carlo Localization, MCL)**:\n* **원리**: 수백~수천 개의 무작위 샘플(Particle) 집합으로 비선형/비가우시안 임의 확률 분포를 비모수적(Non-parametric)으로 근사함.\n* **적용**: 전역 위치 추정(Global Localization) 및 대칭 복도 환경처럼 위치 가설이 여러 개 존재하는 환경에서 2D LiDAR 기반 AMR 위치 추정에 표준으로 적용됨.\n\n\n\n\n\n---\n\n## Q5. [포인트클라우드] ICP(Iterative Closest Point) 알고리즘의 동작 단계와 국소 최적해(Local Minima) 탈출 기법은? [R사 기출]\n\n* **답변 요약**:\n* **동작 4단계**: 최근접 점 대응점 탐색(Matching) $\\rightarrow$ 이상치 및 거리 임계값 초과 쌍 제거(Rejecting) $\\rightarrow$ 최소제곱 오차 목적함수 $E(R, T) = \\sum \\Vert{} p_i - (R q_i + T) \\Vert{}^2$를 만족하는 변환 행렬($R, T$) 산출(SVD 분해) $\\rightarrow$ 점군 변환 및 수렴 조건 도달 시까지 반복(Updating).\n* **한계 및 보완**: 초기 자세(Initial Guess) 편차가 크면 잘못된 대응점 매칭으로 인해 국소 최적해에 수렴함. 이를 극복하기 위해 휠 오도메트리/IMU 융합 데이터로 초기 자세를 선제 보정하거나, 전역 특징점 기반 Coarse Matching(FPFH 추출 후 RANSAC 정합)을 선행한 뒤 정밀 ICP를 수행함.\n\n\n\n---\n\n## Q6. [경로탐색] RRT와 RRT* 알고리즘의 핵심 차이점과 점근적 최적성(Asymptotic Optimality) 증명 메커니즘은? [S사 기출]\n\n* **답변 요약**:\n* **RRT(Rapidly-exploring Random Tree)**: 공간 상에 무작위 점($q_{\\text{rand}}$)을 샘플링하고 기존 트리에서 가장 가까운 노드($q_{\\text{near}}$)를 찾아 일정 거리만큼 신규 노드($q_{\\text{new}}$)를 뻗어나감. 장애물 충돌이 없으면 트리에 즉시 연결함. 탐색 속도는 빠르나 경로 길이가 불필요하게 꺾이며 최적 경로로 수렴하지 않음.\n* **RRT***: 신규 노드 주변 반경($r$) 내의 근접 노드 집합을 탐색하여 두 가지 과정을 추가함:\n1. **최소 비용 부모 선택(Choose Parent)**: 출발점부터 신규 노드까지의 누적 비용($\\text{Cost}$)이 최소가 되는 노드를 부모 노드로 재지정함.\n2. **트리 재연결(Rewiring)**: 신규 노드를 경유했을 때 기존 인근 노드들의 누적 비용이 더 낮아진다면, 해당 노드들의 부모 링크를 끊고 신규 노드로 재연결함.\n\n\n* 샘플링 횟수가 무한대로 갈수록 최적 경로 비용에 수렴하는 **점근적 최적성**을 수학적으로 보장함.\n\n\n\n---\n\n## Q7. [SLAM시스템] 2D 그리드 SLAM(Gmapping/Cartographer)과 3D Lidar SLAM(LIO-SAM/FAST-LIO)의 시스템 아키텍처 차이는? [H사 기출]\n\n* **답변 요약**:\n* **2D Grid SLAM**: 평면 3자유도($x, y, \\theta$) 상태를 다룸. 단일 레이어 레이저 스캔 데이터를 Occupancy Grid Map(확률 격자 지도)에 누적함. 지면이 평탄한 실내 물류 환경에 적합하나 요철/경사로 주행 시 센서 틸팅에 의해 매핑이 왜곡됨.\n* **3D Lidar SLAM**: 공간 6자유도($x, y, z, \\text{Roll}, \\text{Pitch}, \\text{Yaw}$) 자세와 센서 바이어스/속도를 추정함. 고주기 9축 IMU와 고속 LiDAR 데이터를 긴밀 결합(Tightly-coupled)함:\n* **LIO-SAM**: 관성 데이터를 이용해 스캔 간 연속 회전 왜곡(Motion Distortion)을 디스큐잉(Deskewing)하고, GTSAM 요인 그래프(Factor Graph)에 IMU Pre-integration, LiDAR 오도메트리, GPS 요인을 통합 최적화함.\n* **FAST-LIO**: 반복 확장 칼만 필터(IESKF)와 증분형 k-d 트리(ikd-Tree) 자료구조를 도입하여 포인트 클라우드 동적 추가/삭제 시 $O(\\log N)$ 연산으로 10~50Hz 이상의 고주기 3D 오도메트리를 실시간 연산함.\n\n\n\n\n\n---\n\n## Q8. [네비게이션] 전역 경로 계획(Global Planning)과 지역 경로 계획(Local Planning)의 분리 운영 필요성은? [L사 기출]\n\n* **답변 요약**:\n* **전역 플래너(Global Planner)**: 사전에 작성된 정적 지도 전체를 기반으로 시작점에서 목적지까지의 기하학적 최단/최소 비용 경로를 저주기(1~5Hz)로 생성함. (A*, Dijkstra, NavFn 등) 정적 환경 기준이므로 주행 중 갑자기 나타난 장애물이나 사람을 즉시 반영하지 못함.\n* **지역 플래너/컨트롤러(Local Planner)**: 로봇 주변 로컬 코스트맵(반경 2~5m)과 실시간 센서 스트림(LiDAR, Depth Camera)을 기반으로 고주기(20~50Hz)로 작동함. 로봇의 가감속 한계, 조향 곡률 반경(Kinodynamic Constraints)을 준수하면서 동적 장애물을 실시간 회피하고 전역 경로를 안정적으로 추종하는 모터 제어 지령($v, \\omega$)을 출력함.\n\n\n\n---\n\n## Q9. [로컬플래너] DWA(Dynamic Window Approach)와 TEB(Timed Elastic Band) 로컬 플래너의 수학적 접근 차이는? [D사 기출]\n\n* **답변 요약**:\n* **DWA (Dynamic Window Approach)**:\n* **원리**: 현재 속도와 모터의 최대 가속도 제약으로 다음 제어 주기 내에 도달 가능한 속도 공간($V_d = [v_{\\min}, v_{\\max}] \\times [\\omega_{\\min}, \\omega_{\\max}]$)을 계산함.\n* **평가**: 해당 윈도우 내 속도 쌍($v, \\omega$)으로 일정 시간 주행했을 때의 궤적을 샘플링하여 목적지 방향 각도, 장애물 이격 거리, 전진 속도를 가중치 합산한 목적함수를 최대화하는 $(v, \\omega)$를 선택함. 연산이 가벼우나 좁은 공간에서 후진 제어나 차체 방향 전환이 비효율적임.\n\n\n* **TEB (Timed Elastic Band)**:\n* **원리**: 경로 상의 경유점(Pose)들과 각 구간 사이의 이동 시간($\\Delta T_i$)을 연속 변수로 모델링한 탄성 밴드를 형성함.\n* **최적화**: g2o 기반 희소 시스템 최적화(Sparse System Optimization)를 적용하여 경로 길이, 시간 최소화, 장애물 안전 거리, 비홀로노믹(Non-holonomic) 기구학 제약, 최대 가속도/가저크(Jerk) 한계를 동시에 다목적 비선형 최적화함. 후진 주행, 차체 회전 기동이 정교하나 CPU 연산 부하가 상대적으로 큼.\n\n\n\n\n\n---\n\n## Q10. [SLAM최적화] SLAM 시스템에서 루프 클로저(Loop Closure)의 검출 메커니즘과 포즈 그래프 최적화(PGO)는? [R사 기출]\n\n* **답변 요약**:\n* **누적 오차(Drift)**: 센서 노이즈와 미끄러짐으로 인해 장거리 주행 시 데드 레커닝 오차가 시간에 비례해 누적되어 시작점 복귀 시 지도가 찢어지거나 어긋남.\n* **루프 검출(Loop Detection)**: 장소 인식(Place Recognition) 기법을 사용함. 2D/3D 포인트 클라우드에서는 Scan Context나 Scan-to-Submap 매칭을, 비전에서는 DBoW(Bag of Visual Words) 기반 이미지 유사도를 대조하여 이전에 방문한 위치임을 인식함.\n* **포즈 그래프 최적화(PGO)**: 검출된 과거 노드와 현재 노드 사이에 루프 닫힘 상대 변환 제약(Constraint Edge)을 추가함. g2o 또는 Ceres-Solver를 사용해 그래프 전체 엣지의 오차 함수 잔차 제곱합 $\\sum e_{ij}^T \\Omega_{ij} e_{ij}$를 최소화하도록 과거 모든 궤적 노드들의 위치를 전역 재배치하여 맵의 기하학적 일관성을 강제 보정함.\n\n\n\n---\n\n## Q11. [센서퓨전] 센서 융합에서 Early Fusion과 Late Fusion의 기술적 장단점 및 로봇 자율주행 적용 기준은? [빈출]\n\n* **답변 요약**:\n* **Early Fusion (저수준/특징 수준 결합)**:\n* **방식**: 원시 센서 데이터 단계에서 병합함. (예: 2D 카메라 픽셀 RGB 채널에 3D LiDAR 깊이/반사도 데이터를 공간 투영하여 4~5채널 텐서로 결합한 후 단일 신경망 모델 입력으로 전달)\n* **장단점**: 센서 간 상관관계 손실이 없어 탐지 정확도가 극대화되나, 센서 간 정밀한 시간/공간 하드웨어 캘리브레이션이 필수적이며 단일 센서 장애 시 시스템 전체가 영향을 받음.\n\n\n* **Late Fusion (의사결정/객체 수준 결합)**:\n* **방식**: 카메라 독립 검출 모델과 LiDAR 3D Bounding Box 검출 모델을 개별 구동한 후, 출력된 3차원 바운딩 박스 추정치들을 EKF/바이트랙(ByteTrack) 알고리즘으로 헝가리안 매칭 및 상태 업데이트함.\n* **장단점**: 센서 결합 모듈이 모듈화되어 특정 센서 고장 시 페일세이프(Failsafe) 처리가 용이하나, 단일 센서 단계에서 검출에 실패한 잠재 객체는 최종 복원이 불가능함.\n\n\n\n\n\n---\n\n## Q12. [Visual SLAM] 특징점 기반(Feature-based) 방식과 직접 방식(Direct Method)의 작동 원리 및 환경 민감도 비교는? [빈출]\n\n* **답변 요약**:\n* **특징점 기반 (Feature-based, 예: ORB-SLAM3)**:\n* **원리**: 프레임에서 코너/에지 특징점(ORB, FAST 등)을 추출하고 디스크립터를 매칭하여 에피폴라 기하학(Essential/Fundamental Matrix) 또는 PnP(Perspective-n-Point) 알고리즘으로 카메라 자세를 계산함.\n* **특성**: 조명 변화와 프레임 간 빠른 회전 외란에 강건하나, 특징점이 부족한 단색 벽면, 텍스처리스(Texture-less) 복도 환경에서 트래킹이 유실됨.\n\n\n* **직접 방식 (Direct Method, 예: DSO, LSD-SLAM)**:\n* **원리**: 특징점 추출 없이 이미지의 광도 불변성(Photometric Consistency) 가정을 기반으로 모든 유효 픽셀의 밝기 잔차(Photometric Error)를 최소화하여 카메라 모션을 직접 최적화함.\n* **특성**: 텍스처가 부족한 에지나 평면에서도 밀도 높은 환경 재구성이 가능하나, 급격한 노출/조명 변화에 취약하고 롤링 셔터 왜곡이나 빠른 회전 시 비선형 최적화가 쉽게 발산함.\n\n\n\n\n\n---\n\n## Q13. [오도메트리] 휠 엔코더 오도메트리의 오차 누적 메커니즘과 IMU 결합 확장 칼만 필터(EKF) 설계법은? [빈출]\n\n* **답변 요약**:\n* **오차 원인**:\n* **체계적 오차(Systematic)**: 좌우 바퀴 직경 불일치, 바퀴 간 윤거(Track Width) 측정 오차.\n* **비체계적 오차(Non-systematic)**: 바퀴 헛돎(Wheel Slip), 지면 요철, 카펫 마찰력 변화. 적분 과정에서 시간에 따라 오차가 누적 발산함.\n\n\n* **보정 필터 설계 (robot_localization 패키지 구조)**:\n* 상태 벡터 $x = [p_x, p_y, p_z, \\text{roll}, \\text{pitch}, \\text{yaw}, v_x, v_y, v_z, \\omega_x, \\omega_y, \\omega_z]^T$ 정의.\n* 고주기(100~200Hz) 6축 IMU의 각속도($\\omega$)와 선가속도($a$)를 상태 예측(Prediction) 단계 입력으로 사용하여 자세 쿼터니언을 적분함.\n* 휠 엔코더의 선속도($v_x$)와 조향각을 관측(Correction) 단계로 입력하여 IMU 가속도 적분 시 발생하는 표류 오차(Drift)를 구속함. 바퀴 미끄러짐 발생 시 휠 오도메트리 측정 공분산 행렬($R$) 값을 동적으로 증가시켜 IMU 및 LiDAR 오도메트리 가중치를 자동 상향하도록 설계함.\n\n\n\n\n\n---\n\n## Q14. [Nav2] ROS 2 Navigation2 프레임워크에서 Behavior Tree(BT)의 도입 배경과 복구(Recovery) 파이프라인 제어는? [빈출]\n\n* **답변 요약**:\n* **도입 배경**: 기존 ROS 1 move_base의 유한 상태 머신(FSM)은 새로운 주행 상태나 예외 처리가 추가될 때마다 상태 전이 조건 수가 기하급수적으로 복잡해지는 단점이 있음. Behavior Tree는 계층적 트리 구조(Control Node, Action Node, Condition Node)로 모듈화되어 유지보수와 재사용성이 뛰어남.\n* **복구 제어 시나리오**: 로봇이 협소 공간이나 동적 장애물에 갇혀 경로 생성이 불가능할 때, Sequence와 Fallback 노드로 구성된 복구 서브트리를 트리거함:\n1. 코스트맵 클리어링(Clear Costmap)으로 일시적 잔상 노이즈 제거.\n2. 제자리 360도 회전(Spin)으로 전방위 센서 데이터 재취득.\n3. 지정 거리 후진(Back-up) 기동으로 탈출 공간 확보.\n4. 전역 경로 재탐색(Re-planning) 시도 순으로 상태 흐름을 제어함.\n\n\n\n\n\n---\n\n## Q15. [HD지도] 자율주행용 HD Map(고정밀 지도)의 계층 구조와 Vector Map 데이터 포맷(Lanelet2)은? [빈출]\n\n* **답변 요약**:\n* **계층 구조**: 포인트 클라우드 기반 기하학적 배경 레이어(Point Cloud Map) $\\rightarrow$ 차선, 정지선, 횡단보도 등이 정의된 벡터 의미론 레이어(Vector Semantic Layer) $\\rightarrow$ 실시간 신호등 상태, 통제 구역이 연동되는 동적 레이어(Dynamic Layer).\n* **Lanelet2 데이터 포맷 구조**:\n* **Points**: 3차원 좌표($X, Y, Z$) 및 고유 ID.\n* **LineStrings**: 정렬된 Points의 연결선으로 차선(Left/Right Bound), 정지선 등을 표현.\n* **Lanelets**: 좌측 경계선과 우측 경계선으로 정의된 주행 가능 도로 영역 단위. 주행 우선순위, 제한 속도, 차선 변경 가능 여부 등의 규제 요소(Regulatory Element)를 메타데이터로 바인딩하여 전역 플래너가 차선 단위 최적 경로를 그래프 탐색하도록 지원함.\n\n\n\n\n\n---\n\n## Q16. [포인트클라우드] Voxel Grid Downsampling 필터의 동작 원리와 적정 Voxel Size 선정 기준은? [빈출]\n\n* **답변 요약**:\n* **동작 원리**: 3차원 유클리드 공간을 지정된 변의 길이(Leaf Size, $r$)를 갖는 정육면체 복셀(Voxel) 격자로 분할함. 복셀 내부에 속한 $N$개의 포인트들을 단일 대표 포인트(무게중심 좌표 $\\frac{1}{N}\\sum p_i$)로 치환하여 데이터 수를 균일화하고 축소함.\n* **Voxel Size 선정 기준**:\n* **크기 결정 트레이드오프**: 복셀 크기가 너무 작으면 연산량 절감 효과가 미미하고, 너무 크면 연석, 얇은 기둥, 벽면 등 핵심 기하학적 형상이 뭉개져 스캔 매칭 정합 정밀도가 급격히 저하됨.\n* **실무 선정 가이드**:\n* 3D LiDAR 실외 고속 주행용 SLAM 오도메트리: $0.2\\text{m} \\sim 0.4\\text{m}$.\n* 실내 정밀 AMR 매핑 및 관절 캘리브레이션: $0.05\\text{m} \\sim 0.1\\text{m}$.\n* 로봇 팔 근접 3D 객체 인식/파지: $0.005\\text{m} \\sim 0.01\\text{m}$ (5~10mm 단위).\n\n\n\n\n\n\n\n---\n\n## Q17. [경로추종] 횡방향 제어기 Pure Pursuit과 Stanley Controller의 수학적 오차 정의 및 적용 한계는? [빈출]\n\n* **답변 요약**:\n* **Pure Pursuit**:\n* **수학적 모델**: 후륜 중심축 기준으로 목표 경로 전방의 전방 주시 거리($L_d$)에 위치한 목표점을 바라보는 원호(Arc) 곡률을 기하학적으로 유도함 ($\\delta = \\arctan\\left(\\frac{2L \\sin \\alpha}{L_d}\\right)$).\n* **특성**: 튜닝이 직관적이고 안정적이나, 주시 거리($L_d$) 설정에 따라 언더스티어/진동이 발생하며 횡방향 궤적 오차가 누적되는 한계가 있음. (저속 물류 AMR에 적합)\n\n\n* **Stanley Controller**:\n* **수학적 모델**: 전륜 차축 중심점을 기준으로 경로와의 횡방향 횡변위 오차($e$)와 헤딩 각도 오차($\\theta_e$)를 동시에 제어 입력에 반영함 ($\\delta(t) = \\theta_e(t) + \\arctan\\left(\\frac{k \\cdot e(t)}{v(t)}\\right)$).\n* **특성**: 전륜 오차를 비선형 제어로 직접 수렴시키므로 고속 주행 시 경로 추종 정밀도가 높으나, 저속($v \\to 0$) 영역에서 분모가 작아져 제어 조향각이 급격히 발산하는 특이점이 발생하므로 속도 하한 클램핑 파라미터($k_s$) 추가 보정이 필수적임.\n\n\n\n\n\n---\n\n## Q18. [센서캘리브레이션] LiDAR-카메라 간 외부 파라미터(Extrinsic Calibration) 오차 판정 및 재투영 오차 최소화 절차는? [빈출]\n\n* **답변 요약**:\n* **오차 판정**: 3D LiDAR 포인트 클라우드를 카메라 내부 파라미터($K$)와 외부 변환 행렬($[R \\mid T]$)을 사용해 2D 이미지 평면으로 투영($p_{\\text{img}} = K [R \\mid T] P_{\\text{lidar}}$)했을 때, 체커보드 모서리나 표지판 에지 라인이 카메라 영상 내 물리적 경계선과 수평/수직 방향으로 이격되어 나타나는 현상 확인.\n* **최적화 절차**:\n1. 평면 체커보드 또는 원형 타깃(Target Board)을 다양한 거리(2~10m) 및 각도에서 동시 측정함.\n2. 영상 내 타깃 모서리/중심점과 LiDAR 포인트 클라우드에서 타깃 평면 RANSAC 피팅으로 추출한 3D 중심점을 1:1 매칭 쌍으로 구성함.\n3. 비선형 최적화(Levenberg-Marquardt)를 적용하여 모든 타깃 점들의 2D 재투영 오차(Reprojection Error) 합 $\\sum \\Vert{} u_i - \\pi(K, R, T, P_i) \\Vert{}^2$를 최소화하도록 회전 행렬 $R \\in SO(3)$과 병진 벡터 $T \\in \\mathbb{R}^3$를 수치 최적화함.\n\n\n\n\n\n---\n\n## Q19. [내비게이션] 2D Costmap의 다중 레이어 구조(Static, Obstacle, Inflation)와 비용 함수 감쇠 수식은? [빈출]\n\n* **답변 요약**:\n* **Static Layer**: 사전 작성된 SLAM 점유 격자 지도(Occupancy Map)에서 벽면, 고정 구조물을 불변 장애물(Cost: 254/LETHAL)로 로드함.\n* **Obstacle / Voxel Layer**: 실시간 2D LiDAR, 3D 깊이 센서에서 수집된 동적 장애물 점군을 실시간 마킹(Marking)하고, 광선 투사(Ray-tracing) 기법으로 장애물이 사라진 공간을 자유 공간(Free Space: 0)으로 클리어링(Clearing)함.\n* **Inflation Layer**: 충돌 위험 반경을 사전에 확보하기 위해 장애물 셀 주변으로 비용을 방사형으로 부풀림:\n* **내부 반경(Inscribed Radius)**: 로봇 차체 외접원 반경 이내 구역은 절대 주행 불가(Cost: 253/INSCRIBED).\n* **지수 감쇠(Exponential Decay)**: 인플레이션 반경 이내 공간에 대해 비용 공식 $\\text{cost} = \\exp\\left(-\\alpha \\cdot (\\text{dist} - r_{\\text{inscribed}})\\right) \\times 253$을 적용해 장애물과 멀어질수록 비용이 점진적으로 낮아지게 하여, 플래너가 장애물 중심선에서 최대한 멀리 떨어진 궤적을 선택하도록 유도함.\n\n\n\n\n\n---\n\n## Q20. [위치추정] 지하 및 대형 물류창고(GPS 음영 구역)에서의 다중 센서 융합 위치 추정(Graph SLAM 기반) 구조는? [빈출]\n\n* **답변 요약**:\n* **프론트엔드 (고주기 Odometry 산출)**:\n* 휠 엔코더 선속도와 6축 IMU 각속도를 EKF로 결합하여 100Hz 수준의 로컬 추측 항법(Dead Reckoning)을 계산함.\n* 3D LiDAR 포인트 클라우드를 NDT(Normal Distributions Transform) 또는 Fast-GICP 알고리즘으로 서브맵과 스캔 매칭하여 10~20Hz 단위의 6자유도 자세 변화량(Relative Pose Constraint)을 도출함.\n\n\n* **백엔드 (포즈 그래프 최적화 및 랜드마크 통합)**:\n* 천장 반사판 마커, UWB(Ultra-Wideband) 앵커 신호 수신 거리 측정값, AprilTag 비전 랜드마크 인식 정보를 전역 절대 위치 요인(Global Prior Factor)으로 그래프에 삽입함.\n* 장거리 주행 시 LiDAR 스캔 매칭의 회전 누적 오차를 IMU 롤/피치 중력 벡터 요인과 천장 랜드마크 요인이 억제하고, Ceres/GTSAM 백엔드 솔버가 윈도우 스무딩(Smoothing)을 수행하여 장시간 무인 가동 시에도 위치 발산(Position Divergence)을 차단함.",
-  "제어": "# 제어 직무 면접 빈출 질문 (Robot Control / PID / Dynamics / Motion Control)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **두산로보틱스**: 로봇 제어 엔지니어 (Robot Control / Motion Control)\n> * **HD현대로보틱스**: 로봇 모션 제어기 및 동역학 보상 알고리즘 개발자\n> * **레인보우로보틱스**: 이족/다족 보행 로봇 제어 엔지니어\n> * **Boston Dynamics**: Controls Engineer - Dynamics & Whole-body Control\n> \n> \n\n---\n\n## Q1. [개념/이론] PID 제어기 각 게인($K_p, K_i, K_d$)의 물리적 역할과 폐루프 응답 특성에 미치는 영향은? [S사 기출]\n\n* **답변 요약**:\n* **비례 제어($K_p$)**: 현재 오차($e(t)$) 크기에 비례하여 제어 입력을 생성함. 상승 시간(Rise Time)을 단축시키나 과도하면 오버슈트(Overshoot) 및 발산을 유발함.\n* **적분 제어($K_i$)**: 정상 상태 편차(Steady-state Error)를 0으로 수렴시킴. 과거 오차의 누적으로 인해 시스템 위상 여유(Phase Margin)를 감소시키고 오버슈트 및 발진을 초래할 수 있음.\n* **미분 제어($K_d$)**: 오차의 변화율($\\frac{de(t)}{dt}$)에 비례해 감쇠(Damping)력을 부여함. 오버슈트를 억제하고 과도 응답 안정성을 향상시키나, 고주파 센서 노이즈가 유입될 경우 제어 입력이 심하게 튀는 증폭 현상이 발생하므로 저역 통과 필터(LPF) 결합이 필수적임.\n\n\n\n---\n\n## Q2. [실무/트러블슈팅] 적분기 와인드업(Integral Windup)의 발생 메커니즘과 안티 와인드업(Anti-windup) 구현 방식은? [H사 기출]\n\n* **답변 요약**:\n* **발생 메커니즘**: 액추에이터의 물리적 출력 한계(모터 정격 전압, 드라이브 최대 토크)로 제어 입력이 포화(Saturation)되었음에도 오차가 해소되지 않고 적분항에 누적되는 현상. 목표치 도달 후에도 누적된 적분값 방출에 시간이 걸려 과도한 오버슈트와 정착 시간(Settling Time) 지연이 발생함.\n* **방지 대책**:\n* **클램핑(Clamping / Conditional Integration)**: 액추에이터가 포화 상태이고 오차와 제어 입력의 부호가 동일할 때 적분 누적을 강제로 중단함.\n* **역계산(Back-calculation)**: 포화 전 제어 출력($u$)과 실제 포화된 출력($u_{\\text{sat}}$)의 편차를 추적 시상수($T_t$)를 통해 적분 입력단으로 피드백하여 적분값을 선제적으로 감쇄시킴.\n\n\n\n\n\n---\n\n## Q3. [개념/이론] 로봇 매니퓰레이터의 정기구학(Forward Kinematics)과 역기구학(Inverse Kinematics) 해석 차이는? [L사 기출]\n\n* **답변 요약**:\n* **정기구학(FK)**: 각 관절 변수($q \\in \\mathbb{R}^n$)가 주어졌을 때 엔드이펙터의 작업 공간 위치 및 자세($X \\in SE(3)$)를 도출함. DH(Denavit-Hartenberg) 파라미터나 지수 곱(Product of Exponentials, PoE) 공식을 통해 유일한 닫힌 형태(Closed-form)의 해를 가짐.\n* **역기구학(IK)**: 목표 작업 공간 자세($X$)가 주어졌을 때 이를 만족하는 관절 각도($q$)를 역산함. 비선형 초월함수 방정식 구조로 인해 해가 존재하지 않거나(작업 영역 외), 다수의 복수 해(유효 자세 다중성)를 가짐. 기하학적 해석법(Analytic) 또는 자코비안 기반 수치 최적화(Numerical IK: Damped Least Squares, Newton-Raphson)로 해를 도출함.\n\n\n\n---\n\n## Q4. [개념/이론] 기구학적 자코비안(Geometric Jacobian)의 물리적 정의와 정역학적 토크 변환 관계는? [D사 기출]\n\n* **답변 요약**:\n* **속도 매핑**: 관절 공간의 속도 벡터($\\dot{q}$)를 엔드이펙터의 6자유도 작업 공간 선속도 및 각속도 벡터($\\nu = [v, \\omega]^T$)로 선형 사상하는 미분 기구학 행렬 ($\\nu = J(q)\\dot{q}$).\n* **가상일의 원리(Principle of Virtual Work) 기반 힘/토크 사상**: 무손실 시스템 가정 하에 $\\tau^T \\dot{q} = F^T \\nu = F^T J(q)\\dot{q}$가 성립함. 따라서 엔드이펙터 끝단에서 가해지는 렌치(힘/모멘트, $F$)와 이를 지탱하는 데 필요한 관절 토크($\\tau$) 사이에는 전치 자코비안 관계식 $\\tau = J(q)^T F$가 성립함.\n\n\n\n---\n\n## Q5. [시스템/응용] 피드포워드(Feedforward) 제어와 피드백(Feedback) 제어의 결합 운영 메커니즘은? [R사 기출]\n\n* **답변 요약**:\n* **피드백 제어**: 실제 센서 피드백 오차가 발생한 이후에 오차를 줄이기 위해 동작하므로 시간 지연(Phase Lag)이 불가피함.\n* **피드포워드 제어**: 목표 궤적($q_d, \\dot{q}_d, \\ddot{q}_d$)과 사전에 규명된 동역학 모델(질량 관성 모멘트, 중력, 마찰력 등)을 기반으로 필요한 제어 입력을 선제적으로 주입(Prediction)하여 오차 발생 자체를 억제함.\n* **병행 이유**: 모델 기반 피드포워드로 필요 토크의 90% 이상을 선반영하여 위상 지연을 제거하고, 모델링 불확실성 및 외부 예측 불가 외란은 PID 피드백 루프가 보정함으로써 빠른 추종 성능과 외란 제거 성능을 동시에 달성함.\n\n\n\n---\n\n## Q6. [개념/이론] 로봇 기구학적 특이점(Kinematic Singularity)의 상태 판정 기준과 제어상 위험성은? [S사 기출]\n\n* **답변 요약**:\n* **판정 기준**: 자코비안 행렬 $J(q)$의 랭크가 감소하는 상태 ($\\text{rank}(J) < m$ 또는 $\\det(J(q)) = 0$). 조작성 타원체(Manipulability Ellipsoid)의 특정 축 반경이 0이 되어 특정 방향으로의 순간 이동 자유도를 상실함.\n* **제어상 위험성**: 작업 공간 속도 지령($\\nu$)에 대해 역기구학 속도 $\\dot{q} = J^{-1}\\nu$ 연산 시, 자코비안 역행렬의 고유값이 0으로 수렴하면서 미세한 팁 속도 요구에도 관절에 물리적으로 불가능한 무한대 각속도 및 토크 지령이 발생하여 서보 모터 탈조 및 제어기 포화 파손을 초래함. DLS(감쇠 최소제곱법) 등을 적용해 특이점 인근에서 오차를 일정 부분 수용하며 관절 속도를 제한해야 함.\n\n\n\n---\n\n## Q7. [전동기제어] 모터 FOC(자속 기준 제어)의 클라크(Clarke) 및 파크(Park) 좌표 변환 원리는? [H사 기출]\n\n* **답변 요약**:\n* **클라크 변환($abc \\to \\alpha\\beta$)**: $120^\\circ$ 위상차를 갖는 3상 교류 전류($i_a, i_b, i_c$)를 정지 2축 직교 좌표계 전류($i_\\alpha, i_\\beta$)로 변환함.\n* **파크 변환($\\alpha\\beta \\to dq$)**: 로터 회전각($\\theta_e$)을 기준으로 회전하는 좌표계로 투영하여 교류 신호를 직류(DC) 형태 성분으로 변환함:\n* **$d$축 전류($i_d$)**: 로터 영구자석 자속 방향 성분. 표면부착형 영구자석 모터(SPMSM)에서는 자속 낭비를 줄이기 위해 통상 $i_d = 0$으로 제어함 (약계자 운전 시 음수 제어).\n* **$q$축 전류($i_q$)**: 자속과 $90^\\circ$ 직교하는 토크 생성 성분 ($T_e \\propto i_q$).\n\n\n* 3상 교류 모터를 타여자 DC 모터처럼 독립 선형 토크 제어가 가능하도록 만들어 고속 동적 토크 응답성을 확보함.\n\n\n\n---\n\n## Q8. [협동로봇] 임피던스 제어(Impedance Control)와 어드미턴스 제어(Admittance Control)의 수식적 차이는? [L사 기출]\n\n* **답변 요약**:\n* **가상 목표 동역학**: $M_d(\\ddot{x} - \\ddot{x}_d) + D_d(\\dot{x} - \\dot{x}_d) + K_d(x - x_d) = F_{\\text{ext}}$ (질량-감쇠-강성 거동 규정).\n* **임피던스 제어 (Impedance - 모션 입력 $\\to$ 힘 출력)**:\n* 위치 센서로 측정된 위치/속도 오차를 기반으로 관절 토크(또는 끝단 렌치 $F$)를 직접 생성하여 출력함.\n* 백드라이버빌리티(Back-drivability)가 우수하고 토크 제어가 정밀한 다이렉트 드라이브나 로봇 관절 토크 센서(F/T 센서) 탑재 매니퓰레이터에 적합함.\n\n\n* **어드미턴스 제어 (Admittance - 힘 입력 $\\to$ 모션 출력)**:\n* 엔드이펙터에 장착된 6축 F/T 센서로 외력($F_{\\text{ext}}$)을 측정한 후, 가상 동역학 방정식을 역적분하여 변위 지령($x_c, \\dot{x}_c$)을 산출한 뒤 이를 고강성 내부 위치 제어 루프로 추종시킴.\n* 백드라이브가 불가능한 고감속비(하모닉 드라이브, 감속기 마찰이 큰) 산업용 로봇의 힘 제어에 표준으로 사용됨.\n\n\n\n\n\n---\n\n## Q9. [궤적생성] 사다리꼴(Trapezoidal) 속도 프로필과 S-curve 속도 프로필의 차이 및 저크(Jerk) 제한의 공학적 이점은? [D사 기출]\n\n* **답변 요약**:\n* **사다리꼴 프로필**: 가속도가 계단식(Step)으로 급변함. 수학적으로 가속도의 미분값인 저크(Jerk, 가가속도)가 이론상 무한대($\\infty$)가 되어 모터 구동계 충격, 감속기 백래시 타격음, 기구부 잔류 진동(Vibration)을 유발함.\n* **S-curve 프로필**: 7구간(가속도 증가 $\\to$ 등가속 $\\to$ 가속도 감소 $\\to$ 등속 $\\to$ 감속도 증가 $\\to$ 등감속 $\\to$ 감속도 감소)으로 나누어 **저크를 유한한 상한선 이내로 제한**함. 가속도가 매끄러운 연속 곡선 형태를 띰.\n* **공학적 이점**: 고속 이동 후 목표 위치 정지 시 잔류 발진 시간을 대폭 단축하여 정밀 조립 및 반도체/디스플레이 이송 공정의 사이클 타임을 안정화함.\n\n\n\n---\n\n## Q10. [최적제어] LQR(Linear Quadratic Regulator) 제어기에서 $Q$ 행렬과 $R$ 행렬의 역할 및 튜닝 전략은? [R사 기출]\n\n* **답변 요약**:\n* **목적함수**: $J = \\int_0^\\infty \\left( x(t)^T Q x(t) + u(t)^T R u(t) \\right) dt$를 최소화하는 상태 피드백 제어 이득 $K$($u = -Kx$)를 대수 리카티 방정식(ARE)으로 도출함.\n* **물리적 의미**:\n* $Q \\ge 0$ (상태 오차 가중치 행렬): 특정 상태 변수의 수렴 속도 및 오차 허용 폭을 통제함.\n* $R > 0$ (제어 에너지 가중치 행렬): 액추에이터 토크 및 전압 사용량에 대한 페널티를 부과함.\n\n\n* **튜닝 전략**: 브라이슨 규칙(Bryson's Rule)에 따라 각 상태 변수의 최대 허용 오차 제곱 역수($Q_{ii} = \\frac{1}{x_{i, \\max}^2}$)와 최대 허용 입력 제곱 역수($R_{jj} = \\frac{1}{u_{j, \\max}^2}$)로 초기값을 설정함. $Q$를 키우면 제어 응답 속도가 빨라지나 액추에이터 포화 및 고주파 진동이 발생하며, $R$을 키우면 제어 입력이 억제되어 부드럽게 움직이나 정착 시간이 늘어남.\n\n\n\n---\n\n## Q11. [비선형보상] 로봇 관절 마찰 모델(Coulomb, Viscous, Stribeck)의 구성과 마찰 토크 피드포워드 보상법은? [빈출]\n\n* **답변 요약**:\n* **마찰 모델 수식**: $\\tau_{\\text{friction}}(\\dot{q}) = \\sigma_v \\dot{q} + \\text{sgn}(\\dot{q})\\left[\\tau_c + (\\tau_s - \\tau_c)\\exp\\left(-\\left\\vert{}\\frac{\\dot{q}}{\\dot{q}_s}\\right\\vert{}^\\delta\\right)\\right]$.\n* $\\sigma_v \\dot{q}$: 점성 마찰 (속도 비례 감쇠).\n* $\\tau_c$: 쿨롱 마찰 (운동 방향 반대 일정 저항).\n* $\\tau_s$: 정지 마찰 (Breakaway Torque).\n* Stribeck 효과: 저속 영역에서 정지 마찰에서 쿨롱 마찰로 전환될 때 마찰력이 국소 감소하는 비선형 영역.\n\n\n* **보상법**: 속도 반전 순간 불연속 $\\text{sgn}$ 함수로 인한 채터링을 억제하기 위해 하이퍼볼릭 탄젠트($\\tanh(\\alpha \\dot{q})$) 함수로 평활화된 마찰 모델 토크($\\hat{\\tau}_{\\text{friction}}$)를 연산하여 모터 출력에 피드포워드로 가산함으로써 스틱-슬립(Stick-slip) 및 사분면 돌기(Quadrant Glitch) 궤적 오차를 제거함.\n\n\n\n---\n\n## Q12. [상태추정] 칼만 필터(KF)와 확장 칼만 필터(EKF)의 수학적 차이 및 비선형 시스템 선형화 방식은? [빈출]\n\n* **답변 요약**:\n* **선형 KF**: 상태 전이 행렬($A$)과 관측 행렬($H$)이 고정된 선형 가우시안 시스템($x_k = A x_{k-1} + B u_{k-1} + w, z_k = H x_k + v$)에서 평균과 공분산을 해석적으로 완전 갱신함.\n* **비선형 EKF**: 시스템 모델이 비선형 함수($x_k = f(x_{k-1}, u_{k-1}) + w, z_k = h(x_k) + v$)인 경우, 직전 추정치($\\hat{x}_{k-1}$) 및 사전 추정치($\\hat{x}_k^-$) 주변에서 **1차 테일러 급수 전개를 통해 자코비안 행렬($F = \\left.\\frac{\\partial f}{\\partial x}\\right\\vert{}_{\\hat{x}}, H = \\left.\\frac{\\partial h}{\\partial x}\\right\\vert{}_{\\hat{x}^-}$)을 국소 계산**하여 오차 공분산을 전파함. 극심한 비선형 구간에서는 1차 근사 오차로 인해 필터가 발산할 위험이 있음.\n\n\n\n---\n\n## Q13. [필터비교] 상보 필터(Complementary Filter)와 칼만 필터(Kalman Filter)의 장단점 및 임베디드 선정 기준은? [빈출]\n\n* **답변 요약**:\n* **상보 필터**:\n* **원리**: 가속도계의 저주파 신뢰성(중력 방향)에 저역 통과 필터(LPF)를, 자이로스코프의 고주파 신뢰성(각속도 적분)에 고역 통과 필터(HPF)를 상보적 결합 ($\\theta = \\alpha (\\theta + \\omega \\Delta t) + (1-\\alpha) \\theta_{\\text{acc}}$).\n* **특징**: 행렬 연산이 없어 연산량이 극히 적고 구현이 단순하나, 가속도 외란이 지속될 때 추정 오차가 발생하며 통계적 최적성을 보장하지 못함. (저사양 8/16비트 MCU, 단순 틸트 측정에 적합)\n\n\n* **칼만 필터**:\n* **원리**: 센서 노이즈 공분산($Q, R$)을 기반으로 매 스텝 최적의 칼만 게인($K$)을 동적으로 계산하여 오차 공분산을 최소화함.\n* **특징**: 통계적 최적 상태 추정이 가능하나 역행렬 연산으로 인한 CPU 점유율이 높음. (고정밀 6자유도 자세 추정, Cortex-M4 이상 FPU 탑재 보드에 적합)\n\n\n\n\n\n---\n\n## Q14. [최적모션] 모델 예측 제어(MPC)의 후퇴 수평선(Receding Horizon) 원리와 로봇 보행 적용 장점은? [빈출]\n\n* **답변 요약**:\n* **동작 원리**: 현재 상태에서 미래 $N$ 스텝(Prediction Horizon) 동안의 시스템 거동을 동역학 모델을 통해 시뮬레이션하고, 제약 조건 하에서 비용 함수를 최소화하는 최적 제어 입력 시퀀스($\\{u_0, u_1, \\dots, u_{N-1}\\}$)를 QP(2차 계획법) 솔버로 실시간 계산함. 이 중 **첫 번째 제어 입력($u_0$)만을 시스템에 실제 인가**하고, 다음 제어 주기에 새로운 측정 상태를 피드백받아 전체 최적화 구간을 한 스텝 뒤로 밀어 반복 연산(Receding Horizon)함.\n* **보행 로봇 적용 장점**: 액추에이터 토크 한계, 관절 각도 제한, 지면 접촉력 제약(마찰 원뿔 조건, Friction Cone) 등 **엄격한 물리적 부등식 제약 조건(Inequality Constraints)을 최적화 공식 내에 명시적으로 통합**하여 전복되지 않는 발걸음 궤적과 착지 지점을 실시간 산출할 수 있음.\n\n\n\n---\n\n## Q15. [강건제어] 슬라이딩 모드 제어(SMC)의 슬라이딩 평면(Sliding Surface) 설계와 채터링(Chattering) 억제법은? [빈출]\n\n* **답변 요약**:\n* **원리**: 오차와 오차 도함수의 선형 결합으로 슬라이딩 평면 $s(e, \\dot{e}) = \\dot{e} + \\lambda e = 0$을 정의함. 불연속 스위칭 제어 입력($u = -K \\text{sgn}(s)$)을 인가하여 시스템 상태를 유한 시간 내에 평면으로 강제 진입(Reaching Phase)시킨 후, 평면 상에서 미끄러지듯 원점으로 수렴(Sliding Phase)시킴. 모델링 파라미터 오차 및 유계 외란(Bounded Disturbance)에 대해 완전한 불변성(Invariance)을 가짐.\n* **채터링 억제**: 고속 제어 스위칭이 액추에이터의 고주파 진동(채터링)을 유발하여 기구부 파손을 일으키므로, 불연속 부호 함수 $\\text{sgn}(s)$를 슬라이딩 평면 경계층(Boundary Layer, $\\epsilon$) 내에서 포화 함수 $\\text{sat}(s/\\epsilon)$ 또는 $\\tanh(s/\\epsilon)$ 등 연속 함수로 치환하는 평활화(Boundary Layer Approach)를 적용함.\n\n\n\n---\n\n## Q16. [진동제어] 로봇 공진점(Resonance Peak) 제어를 위한 디지털 노치 필터(Notch Filter)의 전달함수 설계법은? [빈출]\n\n* **답변 요약**:\n* **연속 시간 전달함수**: $H(s) = \\frac{s^2 + 2\\zeta_z \\omega_n s + \\omega_n^2}{s^2 + 2\\zeta_p \\omega_n s + \\omega_n^2}$ ($\\omega_n$: 제거할 기구부 공진 주파수, $\\zeta_z$: 노치 감쇠 깊이 제어 계수, $\\zeta_p$: 노치 대역폭(Q factor) 제어 계수).\n* **이산화 및 구현**: 쌍일차 변환(Bilinear Transform, Tustin 변환)을 적용하여 2차 IIR 디지털 필터 차분 방정식($y[n] = b_0 x[n] + b_1 x[n-1] + b_2 x[n-2] - a_1 y[n-1] - a_2 y[n-2]$)으로 변환함.\n* **설계 주의점**: 노치 필터는 공진 주파수 인근에서 필연적으로 위상 지연(Phase Lag)을 유발하므로, 노치 중심 주파수가 제어기 교차 주파수(Gain Crossover Frequency)에 너무 가까우면 시스템 위상 여유가 파괴되어 저주파 불안정이 발생할 수 있으므로 대역폭을 정밀하게 튜닝해야 함.\n\n\n\n---\n\n## Q17. [캐스케이드] 서보 모터 3중 캐스케이드(Cascade) 제어 루프의 계층 구조와 대역폭(Bandwidth) 분리 원칙은? [빈출]\n\n* **답변 요약**:\n* **계층 구조**: **[위치 루프 (외부)] $\\to$ [속도 루프 (중간)] $\\to$ [전류/토크 루프 (내부)]**.\n* 위치 제어기 출력이 속도 제어기의 목표 지령($\\omega_d$)이 되고, 속도 제어기 출력이 전류 제어기의 토크 지령($i_{qd}$)이 됨.\n\n\n* **대역폭 분리 원칙**:\n* 내부 루프는 외부 루프의 관점에서 볼 때 지연 없는 이상적인 1(Unity Gain)로 동작해야 계층 간 간섭 및 발진이 발생하지 않음.\n* 일반적 대역폭 비율(5~10배 법칙):\n* **전류 루프**: $1\\text{kHz} \\sim 2.5\\text{kHz}$ (스위칭 주파수 $10\\sim 20\\text{kHz}$ 기반).\n* **속도 루프**: $100\\text{Hz} \\sim 300\\text{Hz}$.\n* **위치 루프**: $10\\text{Hz} \\sim 30\\text{Hz}$.\n\n\n\n\n\n\n\n---\n\n## Q18. [동역학제어] 로봇 다관절 동역학 방정식 기반 계산 토크 제어(Computed Torque Control)의 피드백 선형화 메커니즘은? [빈출]\n\n* **답변 요약**:\n* **로봇 다체 동역학 방정식**: $M(q)\\ddot{q} + C(q, \\dot{q})\\dot{q} + G(q) + F(\\dot{q}) = \\tau$.\n* $M(q)$: 대칭 양의 정부호 질량/관성 행렬.\n* $C(q, \\dot{q})$: 원심력 및 코리올리력 벡터.\n* $G(q)$: 중력 토크 벡터.\n\n\n* **계산 토크 제어 지령**: $\\tau = M(q) u + C(q, \\dot{q})\\dot{q} + G(q)$.\n* 제어 입력 $u$를 $u = \\ddot{q}_d + K_v(\\dot{q}_d - \\dot{q}) + K_p(q_d - q)$로 정의함.\n\n\n* **결과**: 비선형 동역학 항들이 상쇄(Cancellation)되어 전체 시스템이 $\\ddot{e} + K_v \\dot{e} + K_p e = 0$이라는 $n$개의 완전히 분리된(Decoupled) 선형 2차 에러 동역학계로 변환되어, 작업 공간 전 영역에서 균일한 감쇠 응답을 보장함.\n\n\n\n---\n\n## Q19. [신호처리] 인크리멘탈 엔코더 저속 회전 시 속도 추정 잡음 해결을 위한 $M/T$ 기법 및 상태 관측기 적용은? [빈출]\n\n* **답변 요약**:\n* **문제점**: 단위 시간($\\Delta T$) 동안 카운트된 펄스 수($M$)로 속도를 계산하는 $M$ 방식은 저속에서 주기당 펄스 수가 0 또는 1로 떨어져 심각한 양자화 노이즈(Quantization Noise)를 유발함.\n* **$M/T$ 혼합 방식**: 펄스 에지 신호가 들어오는 순간 고속 내부 고정 클럭(수십 MHz)의 카운트($T$)를 동시에 측정함 ($\\omega = \\frac{2\\pi \\cdot M}{P \\cdot T}$). 고속에서는 펄스 수 기반, 저속에서는 펄스 간격 시간을 측정하여 전 속도 영역에서 양자화 오차를 최소화함.\n* **루엔버거 상태 관측기(Luenberger Observer)**: 엔코더 위치 적분값과 토크 지령 입력을 모터 기계적 전달함수 모델에 통과시켜 위치와 속도를 동시에 추정함으로써, 미분 연산 없는 노이즈 없는 연속 속도 피드백을 획득함.\n\n\n\n---\n\n## Q20. [보행제어] 이족/사족 보행 로봇의 ZMP(Zero Moment Point) 판정 원리와 전신 제어(Whole-body Control, WBC) 최적화 공식은? [빈출]\n\n* **답변 요약**:\n* **ZMP (Zero Moment Point)**: 관성력과 중력에 의해 지면에 작용하는 합성 모멘트 중 수평축 모멘트 성분($M_x, M_y$)이 완전히 0이 되는 지점의 2D 바닥 평면 좌표. ZMP가 양발이 이루는 **지지 다각형(Support Polygon) 내부에 위치하면 로봇이 넘어지지 않고 안정 상태를 유지함**.\n* **WBC (Whole-body Control)**: 접촉력(Contact Force), 무게중심(CoM) 궤적, 스윙 풋 궤적, 상체 자세 유지 등 우선순위가 다른 다중 태스크를 계층화된 QP(Hierarchical Quadratic Programming)로 동시에 최적화함:\n* **목적함수**: $\\min_{\\ddot{q}, \\tau, f_c} \\sum_i w_i \\Vert{} J_i \\ddot{q} + \\dot{J}_i \\dot{q} - \\ddot{x}_{i, d} \\Vert{}^2$.\n* **제약조건**: 전신 동역학 일치 방정식, 토크 제한 한계($\\tau_{\\min} \\le \\tau \\le \\tau_{\\max}$), 지면 접촉점에서의 미끄러짐 방지 마찰 원뿔(Friction Cone) 부등식 제약.\n* 하위 우선순위 태스크는 상위 태스크의 영공간(Null-space Projection) 상에서만 최적화하여 상위 안전 태스크의 교란을 원천 차단함.",
-  "품질": "# 품질 직무 면접 빈출 질문 (Quality Assurance / QA & QC / Inspection / 8D Report)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **HD현대로보틱스**: 로봇 부품 수입 검사(IQC) 및 필드 클레임 품질 보증(QA) 엔지니어\n> * **두산로보틱스**: 로봇 관절 감속기 정밀 품질 검증 및 협력사 품질 관리자(SQA)\n> * **레인보우로보틱스**: 출하 검사(OQC) 및 신제품 양산 승인(PPAP) 품질 엔지니어\n> \n> \n\n---\n\n## Q1. [개념/이론] 품질 보증(QA), 품질 관리(QC), 품질 개선(QI)의 역할 경계와 상호 연계 구조는? [빈출]\n\n* **답변 요약**:\n* **QA (Quality Assurance)**: 프로세스 중심의 **사전 예방 활동**. 제품 개발부터 양산까지 요구 품질을 충족하도록 품질 시스템(ISO 9001), 개발 게이트 표준, 품질 매뉴얼을 수립하고 준수 여부를 감사함.\n* **QC (Quality Control)**: 제품 중심의 **사후 검출 활동**. 표준 작업서 및 검사 규격에 따라 수입 검사(IQC), 공정 검사(IPQC), 출하 검사(OQC)를 수행하여 불량품의 유출을 물리적으로 차단함.\n* **QI (Quality Improvement)**: 데이터 중심의 **문제 해결 활동**. 6시그마 DMAIC, 8D 리포트 등을 통해 만성 결함의 근본 원인을 규명하고 Cpk를 향상시키는 개선 프로젝트를 리딩함.\n\n\n\n---\n\n## Q2. [수입검사] 로봇 3대 핵심 부품(감속기, 모터, 센서)의 IQC 중점 검사 항목 및 수입 검사 기준은? [빈출]\n\n* **답변 요약**:\n* **감속기(하모닉/RV)**:\n* 3차원 측정기(CMM)를 이용한 취부면 평면도, 동심도, 결합 P.C.D 치수 검증.\n* 무부하 구동 시 백래시(Lost Motion $\\le 1\\text{ arcmin}$) 및 전용 지그 상에서의 회전 토크 리플, NVH 이상 소음 측정.\n\n\n* **서보 모터**:\n* 권선 저항 불평형률($\\le 2\\%$), 상간/대지 간 절연 저항(DC 500V 기준 $100\\text{M}\\Omega$ 이상) 및 내전압 검사.\n* 역기전력(BEMF) 상수 측정 및 내장 엔코더 통신 패킷 에러 유무 전수 확인.\n\n\n* **센서(토크/엔코더/F/T)**:\n* 기준 마스터 로드셀 대비 정격 하중 인가 시 비선형성(Non-linearity $\\le 0.2\\%$), 이력 오차(Hysteresis), 영점 복귀 오차 검증.\n\n\n\n\n\n---\n\n## Q3. [문제해결] 필드 클레임 발생 시 8D Report의 단계별 작성 표준과 봉쇄 조치(Containment)의 역할은? [빈출]\n\n* **답변 요약**:\n* **단계별 절차**:\n* **D1 (팀 구성)**: 교차 기능 팀(CFT: 품질, 기구, 제어, 생산기술) 구성.\n* **D2 (문제 정의)**: 5W2H 프레임워크로 현상 객관화.\n* **D3 (임시 봉쇄 조치)**: 사내 재고, 운송 중 재고, 고객사 라인 전수 선별 및 격리(고객 라인 정지 차단 최우선).\n* **D4 (근본 원인 분석)**: Fishbone 다이어그램 및 5-Why를 적용하여 '발생 원인'과 '유출 원인'을 분리 규명.\n* **D5 (영구 시정 조치 선정)**: 검증된 기술적 대책 선정.\n* **D6 (시정 조치 실행 및 유효성 검증)**: 양산 라인 적용 후 불량 재발률 0ppm 검증.\n* **D7 (재발 방지 표준화)**: FMEA, 관리계획서(Control Plan), 작업표준서 개정.\n* **D8 (팀 포상 및 종료)**.\n\n\n\n\n\n---\n\n## Q4. [개발품질] 신제품 개발 프로세스(Quality Gate / APQP) 단계별 품질 판정 기준(Gate Review)은? [빈출]\n\n* **답변 요약**:\n* **EVT (Engineering Validation Test)**: 핵심 기능 구현 및 기본 설계 마진 검증. 주요 치수 공차 만족 및 기능 동작 100% 충족 시 통과.\n* **DVT (Design Validation Test)**: 양산 사양의 금형/가공품 대상 신뢰성 환경 시험(온습도, 진동/충격, HALT), 규격 인증(CE, UL) 사전 평가 통과 및 안전율($SF$) 검증.\n* **PVT (Production Validation Test)**: 실제 양산 라인 및 지그에서 조립성, 택트 타임 검증. 초기 공정 능력 지수 $C_{pk} \\ge 1.67$ 확보 및 라인 조립 수율 $98\\%$ 이상 달성 시 최종 양산 승인(SOP).\n\n\n\n---\n\n## Q5. [측정시스템] MSA(측정시스템 분석)에서 Gage R&R의 구성 요소와 판정 기준은? [빈출]\n\n* **답변 요약**:\n* **구성 요소**:\n* **반복성 (Repeatability, EV)**: 동일 측정자가 동일 장비로 동일 시편을 반복 측정할 때 발생하는 계측기 자체의 기계적 변동.\n* **재현성 (Reproducibility, AV)**: 서로 다른 작업자가 동일 장비로 동일 시편을 측정할 때 발생하는 작업자 간 편차.\n\n\n* **판정 기준 (%GR&R = $\\frac{\\text{GR\\&R 변동}}{\\text{총 변동 또는 공차 폭}} \\times 100$)**:\n* **$< 10\\%$**: 측정 시스템 적합 (정밀 관절 부품 치수 측정에 필수).\n* **$10\\% \\sim 30\\%$**: 공정의 중요도 및 측정 장비 비용을 고려하여 조건부 수용 가능.\n* **$> 30\\%$**: 측정 시스템 부적합 (계측기 재교정, 지그 고정 구조 재설계 또는 측정 표준 재수립 필수).\n* 구별 범주 수($ndc$ - Number of Distinct Categories): $\\ge 5$ 충족 필수.\n\n\n\n\n\n---\n\n## Q6. [품질개선] 6시그마 DMAIC 방법론 기반 로봇 조립 품질 불량 개선 프로세스는? [빈출]\n\n* **답변 요약**:\n* **Define (정의)**: 고객 핵심 품질 특성(CTQ, 예: 관절 축 조립 후 토크 편차 불량) 정의 및 챔피언 승인.\n* **Measure (측정)**: 측정 시스템(Gage R&R) 검증 후 baseline 공정 능력($C_{pk}$) 및 불량률 산출.\n* **Analyze (분석)**: 공정 FMEA 및 다중 회귀 분석, 실험계획법(DOE)을 통해 핵심 입력 변수(X: 볼트 체결 순서, 심 링 단차, 압입 속도)를 특정.\n* **Improve (개선)**: 자동 너트러너 다축 동시 체결 시스템 도입 및 가압 실린더 피드백 루프 구축으로 최적 조건 도출.\n* **Control (관리)**: 관리도(X-bar R) 도입, 작업 표준서 개정, 일일 모니터링 체계 수립으로 개선 효과 영구 고착화.\n\n\n\n---\n\n## Q7. [출하검사] 로봇 완제품 OQC(Outgoing Quality Control) 핵심 검사 항목과 포장 신뢰성 검증은? [빈출]\n\n* **답변 요약**:\n* **완제품 검사**:\n* 전축 모션 범위 연속 런타임 구동 검사(100% 무부하/부하 테스트).\n* 6자유도 원점 복귀 반복성 및 비상정지 회로 하드웨어 인터락 정상 동작 전수 확인.\n* 외관 도장 흠집, 결합 단차, 스크래치, 볼트 체결부 아이마킹(페인트 마킹) 누락 여부.\n* 정격 명판 라벨(CE, KC, UL 시리얼 번호, 전원 스펙) 인쇄 및 부착 상태.\n\n\n* **포장 및 출하 검증**: 포장 내부 제습제(실리카겔) 투입 및 진공 배리어 백 밀봉 상태, ISTA 2A/3A 규격 기반 낙하/수송 진동 시험을 거친 완충재 패키징 적합성 검증.\n\n\n\n---\n\n## Q8. [공급사품질] 협력사 품질 관리(SQA) 체계와 부품 정기 품질 감사(VDA 6.3 등) 수행 기준은? [빈출]\n\n* **답변 요약**:\n* 협력사를 핵심 공정(감속기, 모터 가공 등)과 일반 부품사로 티어링(Tiering)하여 차등 관리함.\n* 독일 자동차 산업 표준인 **VDA 6.3 공정 감사** 프레임워크를 준용하여 제품 개발 단계, 공급망 관리, 생산 공정, 고객 만족도를 종합 실사함:\n* 종합 적합률 $90\\%$ 이상: A등급 (품질 우수 협력사).\n* $80\\% \\sim 89\\%$: B등급 (조건부 양산 승인, 단기 시정 조치 요구).\n* $< 80\\%$: C등급 (신규 입찰 배제 및 품질 경영진 인터뷰).\n\n\n* 품질 불량 발생 시 시정 조치 요구서(CAR, Corrective Action Request)를 공식 발송하고 14일 이내 8D 개선 대책서 회신을 의무화함.\n\n\n\n---\n\n## Q9. [변경점관리] 부품/공정 4M1E(Man, Machine, Material, Method, Environment) 변경 관리 원칙과 로봇 품질 리스크는? [빈출]\n\n* **답변 요약**:\n* **중요성**: 양산 안정화 이후 발생하는 대형 필드 클레임의 80% 이상은 무단 4M 변경에서 기인함 (예: 가공 설비 툴 변경, 플라스틱 원자재 재생재 혼합, 작업자 교체).\n* **관리 절차**: 협력사가 4M 변경을 추진할 경우 최소 3개월 전 4M 변경 신고서(PCN, Product/Process Change Notification)를 제출받아 사전 승인함.\n* **품질 영향도 평가**: 변경 부품에 대해 초물 검사(ISIR), 신뢰성 가속 수명 시험, 조립 호환성 테스트를 재수행하여 품질 동등성 이상이 증명된 경우에만 최종 양산 적용 승인(ECN/ECO 배포)을 통보함.\n\n\n\n---\n\n## Q10. [통계적공정관리] 통계적 공정 관리(SPC)에서 관리도(X-bar R Chart)의 관리 한계선(UCL/LCL)과 규격 한계선(USL/LSL)의 차이 및 이상 패턴 해석은? [빈출]\n\n* **답변 요약**:\n* **개념 차이**:\n* **규격 한계선 (USL/LSL)**: 고객 및 설계 도면이 요구하는 물리적 공차 한계.\n* **관리 한계선 (UCL/LCL)**: 공정 데이터의 자연스러운 우연 원인 산포($\\pm 3\\sigma$)를 기반으로 통계적으로 산출된 공정의 고유 능력 한계.\n\n\n* **웨스턴 일렉트릭 룰(Western Electric Rules) 기반 이상 패턴 감지**:\n* 1개 점이 $3\\sigma$ 관리 한계선(UCL/LCL)을 이탈한 경우 (즉각 설비 정지).\n* 연속 9개 점이 중심선(CL) 한쪽에 편향되어 위치하는 경우 (공구 마모, 원자재 로트 변경 의심).\n* 연속 6개 점이 지속 상승하거나 하강하는 트렌드(경향성)를 보이는 경우.\n* 연속 14개 점이 교대로 상하 진동하는 경우.\n\n\n\n\n\n---\n\n## Q11. [위험분석] DFMEA(설계)와 PFMEA(공정)의 연계 구조 및 관리계획서(Control Plan) 전개 메커니즘은? [빈출]\n\n* **답변 요약**:\n* **연계 원리**: **DFMEA의 잠재적 원인(Cause) 또는 실패 모드(Failure Mode)** 중 제조 과정에서 기인하는 항목은 **PFMEA의 고장 모드로 직접 인계**되어야 함.\n* *예시 (감속기 조립)*: DFMEA의 \"체결 볼트 풀림으로 인한 관절 이탈(심각도 9)\" $\\rightarrow$ PFMEA에서 \"너트러너 체결 토크 부족(발생도/검출도 관리)\"으로 연결.\n\n\n* **관리계획서(CP) 반영**: PFMEA에서 RPN이 높거나 심각도가 높은 특별 채택 특성(Critical/Significant Characteristic, $\\nabla$ 심볼)은 관리계획서(Control Plan)의 핵심 관리 항목으로 강제 지정되어, 전동 드라이버 토크 트레이스 자동 기록 및 EOL 검사 설비의 필수 검사 항목으로 반영됨.\n\n\n\n---\n\n## Q12. [신뢰성지표] 로봇 신뢰성 척도인 MTBF(평균 고장 간격), MTTF(평균 고장 시간), MTTR(평균 수리 시간)의 수학적 계산과 수명 보증 체계는? [빈출]\n\n* **답변 요약**:\n* **MTTF (Mean Time To Failure)**: 수리 불가능한 부품(베어링, IC 칩 등)이 최초 고장에 도달하기까지의 평균 가동 시간 ($\\text{MTTF} = \\frac{\\text{총 가동 시간}}{\\text{고장 수량}}$).\n* **MTBF (Mean Time Between Failures)**: 수리 가능한 시스템(로봇 완제품)이 고장 발생 후 수리되어 다음 고장이 발생하기까지의 평균 시간 ($\\text{MTBF} = \\frac{\\text{총 가동 시간}}{\\text{총 고장 횟수}}$).\n* **MTTR (Mean Time To Repair)**: 고장 발생 시 분해, 교체, 캘리브레이션을 거쳐 정상 가동 상태로 복구하는 데 걸리는 평균 시간 ($\\text{가용도 } A = \\frac{\\text{MTBF}}{\\text{MTBF} + \\text{MTTR}}$).\n* **보증 기간 산정**: 각 관절 서브시스템의 와이블 수명 해석 결과를 결합하여 시스템 전체의 $B_{10}$ 수명(신뢰도 90% 보장 시점)을 산출하고, 이를 바탕으로 1~2년(연간 4,000시간 연속 가동 기준) 무상 보증 시간(예: 8,000~10,000시간)을 설정함.\n\n\n\n---\n\n## Q13. [초물승인] 신규 부품 양산 도입을 위한 ISIR(초물 검사 보고서) 심사 기준 및 금형 수명 관리는? [빈출]\n\n* **답변 요약**:\n* **ISIR 필수 검증 항목**:\n* 승인 도면 대비 전 치수 측정 성적서(Balloon Drawing 번호와 1:1 매칭).\n* 원소재 밀시트(Mill Sheet, 성분 분석 성적서) 및 기계적 물성(인장강도, 경도) 시험 성적서.\n* 환경 유해 물질 분석 성적서(RoHS 10대 유해물질, REACH SVHC 적합성 성적서).\n* CMM을 이용한 주요 기하공차(진원도, 동축도, 위치도) 데이터 검증.\n\n\n* **금형 쇼트 수(Shot Count) 관리**: 알루미늄 다이캐스팅 및 정밀 사출 금형의 경우 타수별 마모를 추적하여 수명 임계치(예: 10만 Shot) 도달 시 금형 수정 또는 신규 제작 승인 절차를 강제함.\n\n\n\n---\n\n## Q14. [소프트웨어품질] 로봇 임베디드 펌웨어 및 제어 소프트웨어 버전 배포 시 SQA(소프트웨어 품질 보증) 검증 체계는? [빈출]\n\n* **답변 요약**:\n* **회귀 테스트(Regression Test) 자동화**: 신규 기능 추가 또는 버그 수정 후 기존 모션 제어, 센서 통신, 비상 정지 안전 기능이 왜곡되지 않았는지 HIL(Hardware-in-the-Loop) 시뮬레이터 기반 테스트 케이스를 100% 자동 통과해야 함.\n* **정적 분석 및 코드 복잡도 관리**: SonarQube, MISRA-C 규칙 위반 여부 점검 및 순환 복잡도(Cyclomatic Complexity) 상한 관리.\n* **배포 무결성 검증**: 릴리즈 승인 시 바이너리 파일의 고유 해시값(SHA-256)을 품질 성적서에 공식 박제하여, 생산 라인 및 필드 OTA 업데이트 시 동일한 승인 바이너리만 플래싱되도록 형상 무결성을 통제함.\n\n\n\n---\n\n## Q15. [품질비용] 품질 비용(Cost of Quality, COQ)의 4대 분류 체계와 최적 품질 비용 관리 모델은? [빈출]\n\n* **답변 요약**:\n* **통제 비용 (Conformance Cost)**:\n* **예방 비용 (Prevention)**: 품질 교육, FMEA 작성, 설계 리뷰, 신뢰성 사전 검증 지그 개발 비용.\n* **평가 비용 (Appraisal)**: 입고 검사(IQC), EOL 자동 검사 설비 감가상각, 계측기 교정 검사 비용.\n\n\n* **비통제 비용 (Non-conformance Cost)**:\n* **내부 실패 비용 (Internal Failure)**: 공정 중 발생한 불량품 스크랩(폐기), 재작업(Rework), 라인 스톱 손실.\n* **외부 실패 비용 (External Failure)**: 필드 출동 A/S 비용, 무상 보증 수리, 리콜 비용, 브랜드 신뢰도 하락에 따른 기회비용.\n\n\n* **최적화 전략**: 외부 실패 비용은 기업에 치명적이므로, 개발 초기 단계의 **예방 비용 투자를 선제적으로 확대**하여 내부/외부 실패 비용을 대폭 축소시킴으로써 전체 통합 품질 비용(Total Quality Cost)을 최소화함.",
-  "회로설계": "# 회로설계 직무 면접 빈출 질문 (Hardware Circuit / PCB / Motor Driver / Power Supply)\n\n---\n\n> **관련 대표 채용 포지션**\n> * **1X Technologies**: Electrical Engineer - Actuators and Drives / Power Electronics\n> * **HD현대로보틱스**: 로봇 제어반 및 모터 드라이버 PCB 회로 설계자\n> * **두산로보틱스**: 전력 전자 및 하이볼테이지 인버터 회로 개발자\n> \n> \n\n---\n\n## Q1. [전력전자] 모터 드라이버 인버터 파워 스테이지(FET/IGBT Gate Driver) 설계 시 필수 고려사항은? [빈출]\n\n* **답변 요약**:\n* **게이트 저항($R_g$) 최적화**: 턴온/턴오프 속도($dv/dt, di/dt$)를 조절함. 저항이 너무 작으면 전압 링잉 및 EMI가 급증하고, 너무 크면 스위칭 손실과 발열이 증가함. 턴오프 지연을 줄이기 위해 역병렬 다이오드를 결합한 비대칭 구동 구조를 적용함.\n* **슛스루(Shoot-through) 방지**: 동일 레그(Leg)의 상하측 스위치가 동시 턴온되는 단락 사고를 막기 위해 게이트 드라이버 하드웨어 인터락 및 데드 타임(Dead Time)을 삽입함.\n* **기생 인덕턴스 및 링잉 억제**: DC 링크 단에 저ESR 세라믹 바이패스 커패시터를 밀착 배치하고, 드레인-소스 간 기생 인덕턴스로 인한 전압 스파이크를 흡수하기 위해 RC/RCD 스너버(Snubber) 회로를 구성함.\n\n\n\n---\n\n## Q2. [PCB/SI] PCB 아트웍 설계 시 신호 완전성(Signal Integrity) 확보를 위한 임피던스 매칭 기법은? [빈출]\n\n* **답변 요약**:\n* **특성 임피던스($Z_0$) 제어**: PCB 적층 구조(Stack-up)의 절연체 유전율($\\varepsilon_r$), 신호층 두께, 기준 접지 평면(Reference Plane)과의 거리를 기반으로 트레이스 폭과 간격을 정밀 계산함. (단일 종단 $50\\Omega$, USB 차동 $90\\Omega$, CAN/RS-485/EtherCAT 차동 $100\\Omega \\sim 120\\Omega$ 정합)\n* **불연속점 최소화**: 비아(Via) 스터브에 의한 기생 커패시턴스를 억제하기 위해 신호선 층 변경 비아 수를 최소화함.\n* **반사파 억제**: 드라이버 출력단에 직렬 종단 저항(Series Termination)을 배치하여 소스 임피던스와 전송선로 임피던스를 일치시킴.\n\n\n\n---\n\n## Q3. [노이즈/접지] 혼재 신호 기판에서 그라운드 분리(AGND, DGND, PGND) 및 결합 설계법은? [빈출]\n\n* **답변 요약**:\n* **분리 원칙**:\n* **PGND (Power)**: 인버터 스위칭, 모터 대전류 복귀 경로. 대규모 $di/dt$ 스파이크 노이즈 발생.\n* **DGND (Digital)**: MCU, 통신 트랜시버, 클럭 라인. 고주파 스위칭 노이즈 발생.\n* **AGND (Analog)**: 정밀 전류 센싱(ADC), F/T 센서 등 미세 아날로그 신호 경로. 노이즈 유입에 극도로 취약.\n\n\n* **결합 처리**: 그라운드 평면을 물리적으로 완전히 쪼개면 슬롯 상부를 지나는 신호선으로 인해 심각한 EMI 루프가 발생함. 따라서 평면은 단일 층에서 기능별 구역화(Partitioning)하여 배치하되, 시스템 전원 인입단 또는 ADC 칩 직하부에서 단일 지점 접지(Star Ground)나 페라이트 비드/0$\\Omega$ 저항으로 1점 연결하여 루프 전류 간섭을 차단함.\n\n\n\n---\n\n## Q4. [전원설계] 전원 공급 회로 설계 시 LDO와 스위칭 레귤레이터(Buck/Boost)의 비교 및 선택 기준은? [빈출]\n\n* **답변 요약**:\n* **LDO (Linear Low Dropout)**:\n* **특징**: 드롭아웃 전압 차이를 열로 방출($P_{\\text{loss}} = (V_{\\text{in}} - V_{\\text{out}}) \\times I_{\\text{load}}$). 효율이 낮으나 스위칭 노이즈가 전혀 없고 PSRR(전원 공급 리플 제거비)이 우수함.\n* **적용**: 잡음에 민감한 아날로그 센서 전원, ADC 기준 전압(VREF), MCU PLL 아날로그 전원($\\text{AVDD}$).\n\n\n* **스위칭 레귤레이터 (Buck/Boost)**:\n* **특징**: 인덕터와 스위칭 소자를 이용해 85~95%의 높은 전력 변환 효율 달성. 입출력 전압 차가 크거나 대전류 공급에 필수적이나, 고주파 스위칭 리플 노이즈가 발생함.\n* **적용**: 메인 배터리(24V/48V)에서 시스템 5V/3.3V 1차 강압, 모터 게이트 드라이버 전원.\n\n\n\n\n\n---\n\n## Q5. [EMC/EMI] 전자기 적합성 시험 대응을 위한 노이즈 저감(RE/CE) 회로 설계 기법은? [빈출]\n\n* **답변 요약**:\n* **전도 방출(CE) 억제**: AC/DC 전원 인입단에 공통 모드 초크(Common Mode Choke)와 X 커패시터(선간 노이즈 차단), Y 커패시터(대지 접지 바이패스)로 구성된 다단 LC 필터를 구축함.\n* **방사 방출(RE) 억제**:\n* 스위칭 전류 루프(Hot Loop: FET-다이오드-입력 커패시터 간 경로) 면적을 최소화하여 안테나 방사 효과를 차단함.\n* 고속 신호 케이블 인출 커넥터에 페라이트 비드 및 TVS 어레이를 배치하고, 제어 보드 외벽을 알루미늄 섀시 쉴드 캔으로 감싸 접지 본딩($\\le 0.1\\Omega$)을 형성함.\n\n\n\n\n\n---\n\n## Q6. [절연회로] 갈바닉 절연(Galvanic Isolation)을 위한 옵토커플러와 디지털 아이솔레이터의 특성 비교는? [빈출]\n\n* **답변 요약**:\n* **옵토커플러(Optocoupler / 포토커플러)**:\n* **원리**: 입력 전기 신호를 LED 빛으로 변환하고 포토트랜지스터가 수광하는 광학 절연 방식.\n* **한계**: 노화에 따른 전류 전달비(CTR) 열화, 신호 전파 지연(Propagation Delay)이 길어 고속 통신(수 Mbps 이상)에 제약이 있음.\n\n\n* **디지털 아이솔레이터 (Silicon Labs, TI 등)**:\n* **원리**: 온칩 마이크로 트랜스포머(자기 유도) 또는 차동 커패시터(전하 결합)를 이용한 RF/변복조 절연 방식.\n* **장점**: 수십~수백 Mbps 초고속 데이터 전송(SPI, 고속 CAN), 낮은 소비 전력, 긴 수명 신뢰성, 높은 공통 모드 과도 내성(CMTI $\\ge 100\\text{kV}/\\mu s$)을 제공하여 인버터 상하단 게이트 드라이버 신호 절연에 적합함.\n\n\n\n\n\n---\n\n## Q7. [BMS/전원] 리튬이온 배터리 팩 관리 시스템(BMS)에서 수동(Passive) vs 능동(Active) 셀 밸런싱 비교는? [빈출]\n\n* **답변 요약**:\n* **수동 밸런싱 (Passive Balancing)**:\n* **원리**: 완충 시 전압이 기준보다 높은 셀의 방전 스위치(FET)를 켜서 밸런싱 저항을 통해 잉여 에너지를 열로 태워 버림(Bypass).\n* **특징**: 회로 구성이 단순하고 저렴하며 소형화가 가능하나, 방열 대책이 필요하고 에너지 효율이 낮음. (소형 AMR, 로봇 관절 모듈 배터리에 보편적 적용)\n\n\n* **능동 밸런싱 (Active Balancing)**:\n* **원리**: 인덕터, 플라이백 트랜스포머 또는 스위치드 커패시터를 이용해 전압이 높은 셀의 전하를 낮은 셀로 양방향 충전 이전함.\n* **특징**: 에너지 손실과 발열이 극히 적고 대전류 밸런싱(수 A)이 가능하나, 제어 회로 및 부품 복잡도가 증가하고 단가가 상승함. (대용량 물류 로봇 팩에 채택)\n\n\n\n\n\n---\n\n## Q8. [전류센싱] 모터 상전류 측정을 위한 션트 저항(Shunt) 방식과 홀 전류 센서(Hall Effect) 방식의 선정 기준은? [빈출]\n\n* **답변 요약**:\n* **션트 저항 방식 (Shunt + Op-Amp / 인라인 또는 로우사이드)**:\n* **장점**: 소형 패키징 가능, 단가가 매우 저렴하며 대역폭(수백 kHz 이상)이 넓어 응답 지연이 없음.\n* **단점**: 전류에 비례한 $I^2 R$ 발열 및 전력 손실 발생, 대전류 시스템에서 갈바닉 절연을 위해 별도의 절연 증폭기(Isolated Op-Amp) 구성이 요구됨.\n\n\n* **홀 전류 센서 (Closed-loop / Open-loop)**:\n* **장점**: 자계 감지 방식으로 도선과 완전 전기적 절연 유지, 직류(DC)부터 교류(AC)까지 수십~수백 A 대전류 측정이 용이하며 발열 손실이 거의 없음.\n* **단점**: 코어 크기로 인해 부피가 크고 단가가 높으며, 외부 표류 자계(모터 자석 노이즈)에 의해 측정 왜곡이 발생할 수 있어 차폐 설계가 요구됨.\n\n\n\n\n\n---\n\n## Q9. [보호회로] 정전기(ESD) 및 서지 전압 차단을 위한 TVS 다이오드의 4대 핵심 사양 산정법은? [빈출]\n\n* **답변 요약**:\n* **역방향 동작 전압 ($V_{\\text{RWM}}$)**: 보호 대상 신호선의 최대 정상 작동 전압보다 높아야 함. ($V_{\\text{RWM}} > V_{\\text{signal, max}}$, 누설 전류 최소화)\n* **항복 전압 ($V_{\\text{BR}}$)**: TVS가 본격적으로 도통을 시작하는 전압 ($V_{\\text{BR}} \\approx 1.1 \\sim 1.2 \\times V_{\\text{RWM}}$).\n* **클램핑 전압 ($V_C$)**: 최대 서지 전류($I_{\\text{PP}}$) 유입 시 다이오드 양단에 걸리는 전압. **보호할 후단 IC의 절대 최대 정격 전압(Absolute Maximum Rating)보다 반드시 낮아야 함** ($V_C < V_{\\text{IC, max}}$).\n* **기생 커패시턴스 ($C_j$)**: 고속 통신선(USB, CAN FD, EtherCAT) 적용 시 신호 에지 왜곡(Eye Diagram 열화)을 방지하기 위해 $C_j \\le 1\\text{pF}$ 수준의 초저용량(Ultra-low Capacitance) 소자를 선정해야 함.\n\n\n\n---\n\n## Q10. [방열설계] 고출력 FET/드라이버의 접합 온도($T_j$) 제어를 위한 써멀 비아(Thermal Via) 및 방열 패턴 설계는? [빈출]\n\n* **답변 요약**:\n* **열 저항 경로 모델링**: $T_j = T_a + P_{\\text{loss}} \\times (\\theta_{jc} + \\theta_{cs} + \\theta_{sa})$ 수식 기반으로 목표 안전 한계($T_j \\le 125^\\circ\\text{C}$)를 만족하도록 열 저항을 최소화함.\n* **써멀 비아 설계 규칙**:\n* 발열 파워 패드(Exposed Pad) 직하부에 드릴 직경 0.3mm, 비아 간 피치 0.8~1.0mm 격자 배열로 다수의 비아를 배치함.\n* 솔더 납 빨림(Solder Wicking)에 의한 부품 들뜸 불량을 방지하기 위해 비아 텐팅(Tenting) 또는 플러깅(Plugging) 후 도금 처리를 적용함.\n\n\n* **구리 패턴 확장**: 표면층 및 내층 접지면에 $2\\text{oz}(70\\mu m)$ 이상의 후동박 패턴을 형성하여 열전도 면적을 넓히고 알루미늄 방열판과 서멀 패드(Thermal Interface Material)로 밀착 체결함.\n\n\n\n---\n\n## Q11. [아날로그/신호] ADC 입력단 앤티앨리어싱 필터(Anti-aliasing Filter)의 차단 주파수($f_c$) 설계 원리는? [빈출]\n\n* **답변 요약**:\n* **앨리어싱 현상**: 나이퀴스트 주파수($f_s / 2$)를 초과하는 고주파 노이즈가 샘플링 과정에서 가청/가측 저주파 대역으로 접혀 들어가(Folding) 실제 신호와 구별 불가능한 오차를 유발함.\n* **설계 기준**:\n* ADC 샘플링 주파수($f_s$) 대비 나이퀴스트 한계 이하에서 필요한 관심 신호 대역폭($f_{\\text{signal}}$)보다 높고, $f_s / 2$보다 충분히 낮은 지점에 1차/2차 RC 저역 통과 필터의 차단 주파수($f_c = \\frac{1}{2\\pi R C}$)를 설정함.\n* 저항($R$)은 ADC 내부 샘플앤홀드(S/H) 회로의 충전 시간과 입력 누설 전류 오차를 고려해 수십~수백 $\\Omega$ 수준으로 제한하고, 커패시터($C$)는 샘플링 순간의 전하 공급 버퍼 역할을 하도록 NPO/C0G 등 저유전율 고안정 세라믹 소자를 선정함.\n\n\n\n\n\n---\n\n## Q12. [전원안정성] MCU 및 고속 디지털 IC 전원 핀의 디커플링 커패시터 용량 조합 및 배치 규칙은? [빈출]\n\n* **답변 요약**:\n* **목적**: 고속 스위칭 시 발생하는 순간적 대전류($di/dt$) 요구를 내부 인덕턴스가 큰 주 전원선 대신 국소 저장소에서 즉각 공급하여 전원 전압 강하(Voltage Droop) 및 기생 발진을 방지함.\n* **용량 조합**: 광대역 임피던스 저감을 위해 고주파 노이즈 흡수용 소용량 커패시터($100\\text{nF}$, 작은 패키지로 기생 ESL 최소화)와 저주파 완충용 대용량 벌크 커패시터($10\\mu\\text{F} \\sim 47\\mu\\text{F}$)를 병렬 조합함.\n* **배치 우선순위**: **[IC 전원 핀] $\\to$ [소용량 커패시터] $\\to$ [대용량 커패시터] $\\to$ [비아(VCC/GND 평면)]** 순서로 전원 트레이스가 커패시터 패드를 반드시 거쳐 IC 핀으로 진입하도록 배선하여 유도성 루프 인덕턴스를 최소화함.\n\n\n\n---\n\n## Q13. [통신인터페이스] RS-485 및 CAN 버스의 차동 신호 전달 메커니즘과 $120\\Omega$ 종단 저항(Termination Resistor)의 역할은? [빈출]\n\n* **답변 요약**:\n* **차동 전송(Differential Signaling)**: 신호선 $A$와 $B$(또는 CAN_H와 CAN_L)의 전압 차이($V_A - V_B$)로 논리 상태를 판정함. 외부 전자파 노이즈가 유입되어도 두 도선에 동일한 동상 전압으로 유도되므로, 차동 수신기에서 감산 제거(Common Mode Rejection)되어 통신 신뢰성이 유지됨.\n* **$120\\Omega$ 종단 저항의 역할**:\n* 연선(Twisted Pair) 케이블의 고유 특성 임피던스($Z_0 \\approx 120\\Omega$)와 종단 부하 임피던스를 일치시킴.\n* 케이블 끝단에서 임피던스 불일치로 인해 발생하는 신호 반사파(Reflection Wave)를 완전히 흡수하여 데이터 파형 왜곡 및 패킷 통신 에러를 방지함. 버스 토폴로지의 물리적 최외곽 양 끝단 노드에만 각각 1개씩(병렬 합성 $60\\Omega$) 배치해야 함.\n\n\n\n\n\n---\n\n## Q14. [회로시뮬레이션] SPICE 툴을 활용한 스위칭 과도 응답(Transient Analysis) 해석 및 기생 성분 튜닝 절차는? [빈출]\n\n* **답변 요약**:\n* 회로도 상의 이상적인 부품 모델에 실제 제조사 제공 SPICE 모델(비선형 게이트 전하 $Q_g$, 기생 커패시턴스 $C_{\\text{iss}}, C_{\\text{oss}}, C_{\\text{rss}}$)과 PCB 기생 인덕턴스(루프 인덕턴스 $L_{\\text{trace}} \\approx 1\\text{nH/mm}$)를 삽입함.\n* 스위칭 과도 구간에서 발생하는 드레인 전압 피크 오버슈트($V_{\\text{DS, peak}}$)와 게이트 전압 발진 파형을 확인하여, 소자의 파괴 전압($V_{\\text{DSS}}$) 마진(통상 20% 이상)을 확보함.\n* 링잉 주파수($f_{\\text{ring}} = \\frac{1}{2\\pi \\sqrt{L_{\\text{par}} C_{\\text{oss}}}}$)를 분석해 $R_{\\text{snub}} = \\sqrt{L_{\\text{par}} / C_{\\text{oss}}}$, $C_{\\text{snub}} = 2 \\sim 3 \\times C_{\\text{oss}}$ 공식으로 스너버 소자 용량을 계산·적용하여 전압 오버슈트와 EMI 발생을 억제함.\n\n\n\n---\n\n## Q15. [양산/DFM] PCB 제조 및 양산 검사를 위한 DFM(제조 용이성) 및 DFT(테스트 용이성) 설계 규칙은? [빈출]\n\n* **답변 요약**:\n* **DFM (Design for Manufacturing)**:\n* SMT 솔더링 불량(Tombstone 현상) 방지를 위한 수동 소자 양단 대칭 패드 및 방열 패턴 써멀 릴리프(Thermal Relief) 적용.\n* 자동 픽앤플레이스 설비 정렬을 위해 기판 모서리 3개소에 대칭형 피듀셜 마크(Fiducial Mark, 직경 1mm 비도금 동박 + 솔더마스크 오픈) 배치.\n\n\n* **DFT (Design for Test)**:\n* ICT(In-Circuit Tester) 및 베드오브네일즈(Bed-of-Nails) 픽스처 검사를 위해 모든 전원 레일(VCC, 3.3V, 5V 등), 접지, 주요 I/O 핀에 최소 직경 0.8~1.0mm의 테스트 포인트(Test Point) 패드를 단면(통상 봇층)에 집중 배치하고, 부품 간 최소 1.27mm 이상의 간격을 유지함."
+  "공통": {
+    "content_path": "content/02628761567a4916e8cb02a7.md",
+    "content_version": "bee8a2e86b77e732",
+    "question_count": 16
+  },
+  "AI학습": {
+    "content_path": "content/7364fe8bc5cf11113d154823.md",
+    "content_version": "ea1d4f103475d8f1",
+    "question_count": 20
+  },
+  "SW": {
+    "content_path": "content/4ba50e719edef212f8e7101b.md",
+    "content_version": "d36bb09263bf38bf",
+    "question_count": 20
+  },
+  "기구설계": {
+    "content_path": "content/3af78c4bb098a887c8ff7579.md",
+    "content_version": "bd7a6452f24388c3",
+    "question_count": 20
+  },
+  "기획": {
+    "content_path": "content/d470f89c7c95ec1b992a36c7.md",
+    "content_version": "0f81819c40bf426d",
+    "question_count": 15
+  },
+  "데이터": {
+    "content_path": "content/641680d272de0b632d8e6b86.md",
+    "content_version": "a80d1faa6e8af9bd",
+    "question_count": 15
+  },
+  "보안": {
+    "content_path": "content/d8b60035e331f35df1c6314b.md",
+    "content_version": "6ca8dab192cbbbe7",
+    "question_count": 15
+  },
+  "생산기술": {
+    "content_path": "content/c2651e47d13871303a404edb.md",
+    "content_version": "b404d97df9840430",
+    "question_count": 15
+  },
+  "시험평가": {
+    "content_path": "content/1a0d2e019215d49a856e1b3e.md",
+    "content_version": "d164b49f01834129",
+    "question_count": 18
+  },
+  "안전": {
+    "content_path": "content/e883e147772a144b74c1f1fe.md",
+    "content_version": "0a912ca354eb30aa",
+    "question_count": 15
+  },
+  "인증": {
+    "content_path": "content/44bb2a1f0671e8b3a3810c18.md",
+    "content_version": "919d3d420296d356",
+    "question_count": 15
+  },
+  "임베디드": {
+    "content_path": "content/38cc39df5c8cfa07a321c4a1.md",
+    "content_version": "4a953c5c76c163ee",
+    "question_count": 34
+  },
+  "자율주행": {
+    "content_path": "content/25137f16fbe57d59c2792648.md",
+    "content_version": "f97ac4632412f116",
+    "question_count": 20
+  },
+  "제어": {
+    "content_path": "content/40aadd596c9baa7425731120.md",
+    "content_version": "13c524b1d77b88b1",
+    "question_count": 20
+  },
+  "품질": {
+    "content_path": "content/961b213e54cbf87b438282f7.md",
+    "content_version": "e37943b73b5798c1",
+    "question_count": 15
+  },
+  "회로설계": {
+    "content_path": "content/c95e733e4062a67db470734f.md",
+    "content_version": "83d781d734e2f629",
+    "question_count": 15
+  }
 };
