@@ -27,7 +27,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=10.86.0">
+    <link rel="stylesheet" href="style.css?v=10.89.0">
 </head>
 <!-- Set data-qna-enabled to "true" to restore the Q&A menu and board. -->
 <body data-qna-enabled="false">
@@ -208,7 +208,12 @@
                             <h2 id="selected-interview-title"><i class="fa-solid fa-book-open"></i> 면접 기출 질문</h2>
                             <span class="interview-badge">실무/기술 면접 질문 DB</span>
                         </div>
-                        <div class="interview-card">
+                        <div id="mock-interview-toolbar" hidden>
+                            <button type="button" class="btn-shortcut-interview" id="mock-interview-start" disabled>이 직무로 모의면접 시작</button>
+                            <span>무작위 5문항 · 답변 입력 없이 말로 연습</span>
+                        </div>
+                        <section id="mock-interview-panel" class="interview-card" aria-label="직무별 모의면접" hidden></section>
+                        <div class="interview-card" id="interview-reference-card">
                             <div class="markdown-body" id="interview-markdown">
                                 <!-- Rendered Interview Q&A MD -->
                             </div>
@@ -375,6 +380,7 @@
     <!-- Load Data -->
     <script src="jobs.js?v=10.88.0"></script>
     <script src="content-loader.js?v=10.81.0"></script>
-    <script src="app.js?v=10.87.0"></script>
+    <script src="mock-interview.js?v=1"></script>
+    <script src="app.js?v=10.89.0"></script>
 </body>
 </html>

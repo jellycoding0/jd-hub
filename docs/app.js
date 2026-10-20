@@ -854,6 +854,7 @@ function initInterviewView() {
 
 function renderInterviewItem(catName, updateHash = true) {
     const isStrategy = strategyCategories.some(tip => tip.name === catName);
+    mockInterview.reset(catName, !isStrategy);
     const tab = isStrategy ? 'strategy' : 'interviews';
     if (isStrategy) currentStrategyCategory = catName;
     else currentInterviewCategory = catName;
@@ -922,6 +923,7 @@ function renderInterviewItem(catName, updateHash = true) {
             renderMarkdownDocument(interviewMarkdown, INTERVIEW_DATA[catName], markdown => {
                 interviewMarkdown.innerHTML = marked.parse(markdown);
                 enhanceInterviewDOM(interviewMarkdown);
+                mockInterview.ready(interviewMarkdown);
             });
         }
     }

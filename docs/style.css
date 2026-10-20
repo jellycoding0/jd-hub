@@ -3154,3 +3154,24 @@ body:not([data-qna-enabled="true"]) #view-qna {
         max-height: min(600px, calc(100dvh - 240px)) !important;
     }
 }
+/* Mock interviews reuse the selected role's question bank. */
+#mock-interview-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    color: var(--text-secondary, #94a3b8);
+    font-size: .9rem;
+}
+#mock-interview-toolbar[hidden],
+#mock-interview-panel[hidden],
+#interview-reference-card[hidden] { display: none !important; }
+#mock-interview-start:disabled { opacity: .5; cursor: wait; }
+#mock-interview-panel { scroll-margin-top: 20px; }
+#mock-interview-panel h3 { font-size: 1.35rem; line-height: 1.65; overflow-wrap: anywhere; }
+.mock-interview-progress { color: #38bdf8; margin-bottom: 16px; }
+.mock-interview-answer { margin-top: 28px; border-top: 1px solid #334155; padding-top: 20px; }
+.mock-interview-answer summary { cursor: pointer; color: #38bdf8; padding: 8px 0; }
+.mock-interview-answer .markdown-body { margin-top: 20px; }
+.mock-interview-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
