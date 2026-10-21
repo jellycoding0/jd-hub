@@ -86,6 +86,16 @@ const mockInterview = (() => {
                 })
             );
         }
+        const previous = button('이전 질문', () => {
+            if (index === 0) return;
+            index -= 1;
+            render();
+        });
+        previous.disabled = index === 0;
+        actions.insertBefore(previous, actions.lastElementChild);
+        actions.firstElementChild.classList.add('mock-action-primary');
+        previous.classList.add('mock-action-secondary');
+        actions.lastElementChild.classList.add('mock-action-return');
         panel.append(actions);
         heading.focus({ preventScroll: true });
         panel.scrollIntoView({ block: 'start', behavior: 'instant' });

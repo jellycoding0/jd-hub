@@ -3163,6 +3163,10 @@ body:not([data-qna-enabled="true"]) #view-qna {
     margin-bottom: 20px;
     color: var(--text-secondary, #94a3b8);
     font-size: .9rem;
+    padding: 16px;
+    border: 1px solid rgba(56, 189, 248, .25);
+    border-radius: 14px;
+    background: linear-gradient(120deg, rgba(56, 189, 248, .08), rgba(168, 85, 247, .08));
 }
 #mock-interview-toolbar[hidden],
 #mock-interview-panel[hidden],
@@ -3175,3 +3179,33 @@ body:not([data-qna-enabled="true"]) #view-qna {
 .mock-interview-answer summary { cursor: pointer; color: #38bdf8; padding: 8px 0; }
 .mock-interview-answer .markdown-body { margin-top: 20px; }
 .mock-interview-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.mock-interview-actions button:disabled { opacity: .4; cursor: not-allowed; }
+.mock-interview-actions button { min-height: 44px; padding: 10px 16px; font-size: .9rem; justify-content: center; }
+.mock-interview-actions .mock-action-primary {
+    color: #fff;
+    background: linear-gradient(120deg, #075985, #6d28d9);
+    border-color: #38bdf8;
+}
+.mock-interview-actions .mock-action-secondary { color: #cbd5e1; background: transparent; border-color: #64748b; }
+.mock-interview-actions .mock-action-return { color: #94a3b8; background: transparent; border-color: transparent; font-size: .8rem; }
+.mock-interview-actions button:enabled:hover { filter: brightness(1.15); }
+.mock-interview-actions button:focus-visible,
+#mock-interview-start:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
+@media (max-width: 768px) {
+    #mock-interview-toolbar { gap: 10px; }
+    #mock-interview-start {
+        width: 100%;
+        min-height: 52px;
+        padding: 14px 18px;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(120deg, #075985, #6d28d9);
+        border: 1px solid #38bdf8;
+        border-radius: 12px;
+        box-shadow: 0 4px 18px rgba(56, 189, 248, .18);
+    }
+    #mock-interview-toolbar > span { width: 100%; text-align: center; }
+    .mock-interview-actions { display: grid; grid-template-columns: 1fr; gap: 8px; }
+}
