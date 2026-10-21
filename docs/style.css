@@ -3172,7 +3172,7 @@ body:not([data-qna-enabled="true"]) #view-qna {
     .is-strategy #interview-markdown > h1 { font-size: 1.4rem; margin-bottom: 16px; }
 }
 
-#mock-interview-toolbar {
+#mock-interview-toolbar, .practice-shortcut {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -3208,7 +3208,7 @@ body:not([data-qna-enabled="true"]) #view-qna {
 .mock-interview-actions button:enabled:hover { filter: brightness(1.15); }
 .mock-interview-actions button:focus-visible,
 #mock-interview-start:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
-#mock-interview-start {
+#mock-interview-start, .practice-primary {
         min-height: 52px;
         padding: 14px 18px;
         justify-content: center;
@@ -3220,7 +3220,37 @@ body:not([data-qna-enabled="true"]) #view-qna {
         border-radius: 12px;
         box-shadow: 0 4px 18px rgba(56, 189, 248, .18);
 }
-#mock-interview-start:enabled:hover { filter: brightness(1.15); }
+#mock-interview-start:enabled:hover, .practice-primary:enabled:hover { filter: brightness(1.15); }
+
+/* Preparation, practice and learning share the existing dark card design. */
+.section-nav { display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap; }
+.section-nav button {
+    border: 1px solid #334155; border-radius: 12px; padding: 12px 20px;
+    background: #182235; color: #cbd5e1; font: inherit; font-weight: 700;
+    min-height: 48px; cursor: pointer;
+}
+.section-nav button.active { color: #fff; border-color: #38bdf8; background: linear-gradient(120deg, #164e63, #44316e); }
+.section-nav button:focus-visible, .practice-primary:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
+.practice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.practice-choice { display: flex; flex-direction: column; gap: 20px; margin: 0; }
+#view-practice .interview-card { min-height: 0; }
+#view-practice > .content-header { margin-bottom: 24px; }
+#view-practice > .content-header h2 { color: #f1f5f9; font-size: 1.4rem; font-weight: 700; }
+.practice-choice h3 { color: #38bdf8; font-size: 1.35rem; }
+.practice-choice p { color: #a5b4c8; line-height: 1.8; flex: 1; }
+.practice-primary { cursor: pointer; font-family: inherit; border-radius: 10px; }
+.practice-primary:disabled { opacity: .5; cursor: wait; }
+.practice-back { min-height: 44px; margin-bottom: 20px; }
+#practice-interview-setup h3 { margin-bottom: 24px; }
+#practice-category { background: #182235; color: #fff; border: 1px solid #64748b; border-radius: 8px; padding: 12px; margin: 0 0 20px 12px; font: inherit; max-width: 100%; }
+#view-practice [hidden], #view-lectures [hidden], #interview-practice-shortcut[hidden] { display: none !important; }
+@media (max-width: 768px) {
+    .practice-grid { grid-template-columns: 1fr; gap: 16px; }
+    .section-nav { gap: 8px; margin-bottom: 20px; }
+    .section-nav button { flex: 1; padding: 12px 8px; font-size: .9rem; }
+    .practice-shortcut > span { width: 100%; text-align: center; }
+    #practice-category { display: block; width: 100%; margin: 12px 0 20px; }
+}
 .personality-active > :not(.personality-practice) { display: none !important; }
 .personality-practice { margin: 20px 0; padding: 24px; border: 1px solid rgba(56,189,248,.4); border-radius: 14px; background: rgba(56,189,248,.04); scroll-margin-top: 20px; }
 .markdown-body .personality-practice h2 { margin-top: 0; font-size: 1.35rem; }
@@ -3240,6 +3270,34 @@ body:not([data-qna-enabled="true"]) #view-qna {
 .personality-button:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
 .personality-practice progress, .personality-practice meter { display: block; width: 100%; height: 12px; accent-color: #38bdf8; }
 .personality-results { display: grid; gap: 16px; margin: 24px 0; }
+.personality-session-head { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; color: #38bdf8; margin-bottom: 12px; font-variant-numeric: tabular-nums; }
+.personality-question-list .personality-question-row { display: block; padding: 24px 0; margin: 0; border-bottom: 1px solid #334155; }
+.personality-question-row::after { content: ''; display: block; clear: both; }
+.personality-question-row legend { float: left; width: 45%; font-size: 1rem; font-weight: 500; margin: 0; padding-right: 16px; }
+.personality-question-row .personality-options { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; margin-left: 48%; }
+.personality-question-row .personality-options label { flex-direction: column; gap: 8px; padding: 10px 2px; min-width: 0; min-height: 74px; border-color: transparent; text-align: center; font-size: .72rem; line-height: 1.35; }
+.personality-question-row input { width: 22px; height: 22px; }
+.personality-question-row label:has(input:checked) { border-color: #38bdf8; }
+.personality-pagination { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 24px 0 12px; }
+.personality-radar { margin: 24px 0; }
+.personality-radar svg { display: block; width: 100%; max-width: 540px; margin: auto; overflow: visible; }
+.personality-radar figcaption { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; font-size: .9rem; }
+.radar-key-score, .personality-score { color: #fb923c; }
+.radar-key-reference { color: #818cf8; }
+.radar-grid { fill: none; stroke: #334155; stroke-width: 1; }
+.radar-reference { fill: rgba(129,140,248,.06); stroke: #818cf8; stroke-width: 2; stroke-dasharray: 5 4; }
+.radar-score { fill: rgba(251,146,60,.2); stroke: #fb923c; stroke-width: 2; }
+.radar-dot { fill: #fb923c; }
+.radar-label { fill: #e2e8f0; font-size: 13px; }
+.radar-tick { fill: #94a3b8; font-size: 10px; }
+.personality-result-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.personality-score-track { position: relative; height: 14px; background: #334155; border-radius: 8px; margin: 22px 8px 14px; }
+.personality-score-fill { height: 100%; background: rgba(251,146,60,.45); border-radius: 8px; }
+.personality-midpoint { position: absolute; left: 50%; top: -6px; height: 26px; border-left: 2px dashed #818cf8; }
+.personality-score-marker { position: absolute; top: -3px; width: 20px; height: 20px; transform: translateX(-50%); border: 3px solid #fb923c; border-radius: 50%; background: #131b2e; }
+.personality-score-labels { display: flex; justify-content: space-between; gap: 20px; font-size: .8rem; color: #94a3b8; }
+.personality-score-labels span { max-width: 47%; }
+.personality-score-labels span:last-child { text-align: right; }
 .personality-result { padding: 18px; border: 1px solid var(--border-color); border-radius: 12px; background: var(--bg-main); }
 .markdown-body .personality-result h3 { margin-top: 0; }
 @media (max-width: 768px) {
@@ -3247,10 +3305,15 @@ body:not([data-qna-enabled="true"]) #view-qna {
     .personality-actions { display: grid; grid-template-columns: 1fr; }
     .personality-button { width: 100%; }
     .personality-options label { padding: 12px 10px; }
+    .personality-question-row legend { float: none; width: 100%; padding: 0; margin-bottom: 12px; }
+    .personality-question-row .personality-options { margin-left: 0; }
+    .personality-pagination { display: grid; grid-template-columns: 1fr 1fr; }
+    .personality-pagination > span { grid-row: 1; grid-column: 1 / -1; text-align: center; }
+    .personality-pagination button { padding: 10px 8px; font-size: .9rem; }
 }
 @media (max-width: 768px) {
     #mock-interview-toolbar { gap: 10px; }
-    #mock-interview-start { width: 100%; }
+    #mock-interview-start, .practice-primary { width: 100%; }
     #mock-interview-toolbar > span { width: 100%; text-align: center; }
     .mock-interview-actions { display: grid; grid-template-columns: 1fr; gap: 8px; }
 }

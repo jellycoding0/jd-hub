@@ -7,7 +7,13 @@ const mockInterview = (() => {
     const toolbar = document.getElementById('mock-interview-toolbar');
     const start = document.getElementById('mock-interview-start');
     const panel = document.getElementById('mock-interview-panel');
-    const reference = document.getElementById('interview-reference-card');
+    const reference = document.getElementById('practice-interview-setup');
+
+    function returnToQuestions() {
+        close();
+        currentInterviewCategory = category;
+        switchTab('interviews');
+    }
 
     function button(label, action) {
         const element = document.createElement('button');
@@ -55,10 +61,7 @@ const mockInterview = (() => {
         if (index === selected.length) {
             progress.textContent = `${category} 모의면접`;
             heading.textContent = `${selected.length}문항 연습 완료`;
-            actions.append(button('다시 시작', begin), button('기출 목록으로 돌아가기', () => {
-                close();
-                start.focus();
-            }));
+            actions.append(button('다시 시작', begin), button('기출 목록으로 돌아가기', returnToQuestions));
         } else {
             const question = selected[index];
             progress.textContent = `${category} · ${index + 1} / ${selected.length}`;
@@ -80,10 +83,7 @@ const mockInterview = (() => {
                     index += 1;
                     render();
                 }),
-                button('기출 목록으로 돌아가기', () => {
-                    close();
-                    start.focus();
-                })
+                button('기출 목록으로 돌아가기', returnToQuestions)
             );
         }
         const previous = button('이전 질문', () => {

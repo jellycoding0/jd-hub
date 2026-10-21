@@ -8,7 +8,7 @@ const page=await browser.newPage({viewport:{width:1440,height:1000}});const erro
 await page.goto(`http://127.0.0.1:${server.address().port}/#strategy`);
 const ready=()=>page.waitForSelector('#interview-markdown .strategy-toc');
 await ready();
-const categories=await page.locator('#tips-cat-list button').count();assert.equal(categories,7);
+const categories=await page.locator('#tips-cat-list button').count();assert.equal(categories,6);
 for(let i=0;i<categories;i++){
 await page.locator('#tips-cat-list button').nth(i).click();await ready();
 assert.equal(await page.locator('.strategy-toc').count(),1);
@@ -35,11 +35,11 @@ await page.setViewportSize({width:390,height:844});
 await page.evaluate(()=>window.scrollTo(0,0));
 await page.screenshot({path:require('node:path').join(require('node:os').tmpdir(),'strategy-mobile-review.png')});
 await page.evaluate(()=>switchTab('interviews'));
-await page.waitForFunction(()=>!document.getElementById('mock-interview-start').disabled);
+await page.waitForFunction(()=>!document.getElementById('interview-practice-start').disabled);
 assert.equal(await page.locator('.strategy-toc').count(),0);
 assert(await page.locator('.interview-header').first().isVisible());
 await page.evaluate(()=>{location.hash='#interviews/'+encodeURIComponent(strategyCategories[2].name);});
 await ready();assert((await page.evaluate(()=>location.hash)).startsWith('#strategy/'));
-assert.deepEqual(errors,[]);console.log('PASS: all 7 guides, TOC navigation without hash changes, mobile grid and width, old links, interview isolation');
+assert.deepEqual(errors,[]);console.log('PASS: all 6 guides, TOC navigation without hash changes, mobile grid and width, old links, interview isolation');
 console.log('Screenshot:',require('node:path').join(require('node:os').tmpdir(),'strategy-mobile-review.png'));
 }finally{server.closeAllConnections();server.close();if(browserServer){await Promise.race([browserServer.kill(),new Promise(r=>setTimeout(r,3000))]);try{require('node:child_process').execFileSync('taskkill',['/PID',String(browserServer.process().pid),'/T','/F'],{stdio:'ignore'});}catch{}}}})().then(()=>process.exit(0)).catch(e=>{console.error(e);process.exit(1);});

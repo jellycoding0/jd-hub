@@ -1,0 +1,65 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../docs');
+const server=http.createServer((req,res)=>{const rel=decodeURIComponent(new URL(req.url,'http://localhost').pathname);const file=path.resolve(root,'.'+(rel==='/'?'/index.html':rel));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.readFile(file,(e,data)=>{if(e){res.writeHead(404).end();return;}res.setHeader('Content-Type',({'.html':'text/html','.js':'application/javascript','.css':'text/css','.md':'text/plain'})[path.extname(file)]||'application/octet-stream');res.end(data);});});
+(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));let browser, browserServer;try{
+browserServer=await chromium.launchServer({channel:'msedge',headless:true});browser=await chromium.connect(browserServer.wsEndpoint());
+const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+const base=`http://127.0.0.1:${server.address().port}/`;
+await page.goto(base+'#practice');
+assert.deepEqual(await page.locator('.header-nav-tabs button:visible').allTextContents().then(a=>a.map(s=>s.trim())),['채용정보','취업준비','실전연습','산업소식','학습·강의']);
+assert.equal(await page.locator('.practice-choice:visible').count(),2);
+await page.waitForTimeout(350);
+const header=await page.locator('.app-header').boundingBox(),hub=await page.locator('#practice-hub').boundingBox();
+assert(hub.y-header.y-header.height<150);
+assert.equal(await page.locator('.app-body > .tab-view').count(),6);
+assert.equal(await page.locator('.header-nav-tabs .active').count(),1);
+await page.screenshot({path:path.join(require('node:os').tmpdir(),'navigation-desktop.png')});
+await page.locator('#practice-interview-open').click();
+await page.waitForFunction(()=>!document.getElementById('mock-interview-start').disabled);
+assert.equal(await page.locator('#practice-category option').first().textContent(),'공통');
+await page.locator('#practice-category').selectOption('SW');
+await page.waitForFunction(()=>!document.getElementById('mock-interview-start').disabled);
+assert.equal(decodeURIComponent(await page.evaluate(()=>location.hash)),'#practice/interview/SW');
+await page.reload();await page.waitForFunction(()=>!document.getElementById('mock-interview-start').disabled);
+assert.equal(await page.locator('#practice-category').inputValue(),'SW');
+await page.locator('#mock-interview-start').click();
+assert((await page.locator('.mock-interview-progress').textContent()).startsWith('SW'));
+await page.locator('#practice-back').click();assert(await page.locator('#practice-hub').isVisible());
+await page.locator('#practice-personality-open').click();assert(await page.locator('.personality-practice').isVisible());
+await page.locator('#tab-btn-interview').click();
+await page.locator('[data-preparation="strategy"]').click();
+await page.locator('#tips-cat-list button[data-category="인성검사 팁"]').click();
+await page.locator('#interview-markdown .practice-primary').click();
+assert.equal(await page.evaluate(()=>location.hash),'#practice/personality');
+assert(await page.locator('#tab-btn-practice').evaluate(n=>n.classList.contains('active')));
+for(const prefix of ['interviews','strategy']){
+ await page.goto(base+'#'+prefix+'/'+encodeURIComponent('전공강의 수강 가이드'));
+ await page.locator('#learning-guide-markdown .strategy-toc').waitFor();
+ assert.equal(await page.evaluate(()=>location.hash),'#lectures/guide');
+ assert.equal(await page.locator('#learning-courses').isVisible(),false);
+}
+await page.locator('[data-learning="courses"]').click();
+await page.locator('.lecture-course-card').first().waitFor();
+assert.equal(await page.locator('#learning-guide-card').isVisible(),false);
+await page.locator('#tab-btn-news').click();await page.locator('#news-cat-list button').first().waitFor();
+assert(await page.locator('#view-news').isVisible());
+await page.locator('#tab-btn-jobs').click();await page.locator('.job-card').first().waitFor();
+assert(await page.locator('#view-jobs').isVisible());
+for(const width of [390,320]){
+ await page.setViewportSize({width,height:844});
+ await page.locator('#mobile-nav-practice').click();
+ assert.equal(await page.locator('.mobile-bottom-nav button:visible').count(),5);
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.evaluate(()=>scrollTo(0,0));
+ await page.screenshot({path:path.join(require('node:os').tmpdir(),`navigation-mobile-${width}.png`)});
+ await page.locator('#practice-interview-open').click();
+ await page.waitForFunction(()=>!document.getElementById('mock-interview-start').disabled);
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.locator('#mobile-nav-lectures').click();
+ await page.locator('[data-learning="guide"]').click();
+ await page.locator('#learning-guide-markdown .strategy-toc').waitFor();
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+}
+assert.deepEqual(errors,[]);console.log('PASS: 5 tabs, practice hub, category persistence/reload, guide shortcuts and legacy URLs, learning/news/jobs, mobile 320/390');
+}finally{server.closeAllConnections();server.close();if(browserServer){await Promise.race([browserServer.kill(),new Promise(r=>setTimeout(r,3000))]);try{require('node:child_process').execFileSync('taskkill',['/PID',String(browserServer.process().pid),'/T','/F'],{stdio:'ignore'});}catch{}}}})().then(()=>process.exit(0)).catch(e=>{console.error(e);process.exit(1);});

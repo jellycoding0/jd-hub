@@ -571,8 +571,20 @@ function updateGlobalStats() {
 
 // Main Navigation Tab Switching & Hash Deep Linking
 function initTabNavigation() {
-    document.getElementById('tab-btn-strategy')?.addEventListener('click', () => switchTab('strategy'));
-    document.getElementById('mobile-nav-strategy')?.addEventListener('click', () => switchTab('strategy'));
+    for (const id of ['tab-btn-practice', 'mobile-nav-practice']) {
+        document.getElementById(id).addEventListener('click', () => switchTab('practice'));
+    }
+    document.querySelectorAll('[data-preparation]').forEach(button => {
+        button.addEventListener('click', () => switchTab(button.dataset.preparation));
+    });
+    document.querySelectorAll('[data-learning]').forEach(button => {
+        button.addEventListener('click', () => showLearning(button.dataset.learning));
+    });
+    document.getElementById('practice-back').addEventListener('click', () => switchTab('practice'));
+    document.getElementById('practice-interview-open').addEventListener('click', () => showPractice('interview', currentInterviewCategory));
+    document.getElementById('practice-personality-open').addEventListener('click', () => showPractice('personality'));
+    document.getElementById('interview-practice-start').addEventListener('click', () => showPractice('interview', currentInterviewCategory));
+    document.getElementById('practice-category').addEventListener('change', event => showPractice('interview', event.target.value));
     const tabBtnJobs = document.getElementById('tab-btn-jobs');
     const tabBtnInterviews = document.getElementById('tab-btn-interview') || document.getElementById('tab-btn-interviews');
     const tabBtnNews = document.getElementById('tab-btn-news');
@@ -602,8 +614,25 @@ function initTabNavigation() {
 }
 
 function handleHashChange() {
-    const rawHash = decodeURIComponent(window.location.hash.replace('#', '').trim());
+    let rawHash;
+    try { rawHash = decodeURIComponent(window.location.hash.replace('#', '').trim()); }
+    catch { switchTab('jobs'); return; }
     if (!rawHash) return;
+
+    const route = rawHash.split('/');
+    if ((route[0] === 'interviews' || route[0] === 'strategy') && route[1] === '전공강의 수강 가이드') {
+        showLearning('guide');
+        return;
+    }
+    if (route[0] === 'practice') {
+        if (route[1] === 'interview' || route[1] === 'personality') showPractice(route[1], route[2], false);
+        else switchTab('practice', false);
+        return;
+    }
+    if (route[0] === 'lectures' && route[1]) {
+        showLearning(route[1] === 'guide' ? 'guide' : 'courses', false);
+        return;
+    }
 
     if (rawHash.startsWith('interviews') || rawHash.startsWith('strategy')) {
         const parts = rawHash.split('/');
@@ -635,14 +664,19 @@ function handleHashChange() {
     }
 }
 
-function switchTab(tabName, updateHash = true) {
+function switchTab(tabName, updateHash = true, learningSection = 'courses') {
     personalityPractice.reset();
+    // Invalidate pending document callbacks before leaving their view.
+    for (const id of ['practice-question-source', 'interview-markdown']) {
+        markdownRenderRequests.delete(document.getElementById(id));
+    }
+    mockInterview.reset('', false);
+    document.getElementById('view-practice').style.display = 'none';
+    document.getElementById('tab-btn-practice').classList.remove('active');
     if (tabName === 'qna' && !QNA_ENABLED) {
         tabName = 'jobs';
         updateHash = true;
     }
-    const tabBtnStrategy = document.getElementById('tab-btn-strategy');
-    if (tabBtnStrategy) tabBtnStrategy.classList.remove('active');
     const viewJobs = document.getElementById('view-jobs');
     const viewInterviews = document.getElementById('view-interviews');
     const viewNews = document.getElementById('view-news');
@@ -658,7 +692,7 @@ function switchTab(tabName, updateHash = true) {
     const mobileNavItems = {
         jobs: document.getElementById('mobile-nav-jobs'),
         interviews: document.getElementById('mobile-nav-interview'),
-        strategy: document.getElementById('mobile-nav-strategy'),
+        practice: document.getElementById('mobile-nav-practice'),
         news: document.getElementById('mobile-nav-news'),
         lectures: document.getElementById('mobile-nav-lectures'),
         qna: document.getElementById('mobile-nav-qna')
@@ -678,11 +712,17 @@ function switchTab(tabName, updateHash = true) {
 
     Object.keys(mobileNavItems).forEach(key => {
         if (mobileNavItems[key]) {
-            mobileNavItems[key].classList.toggle('active', key === tabName);
+            mobileNavItems[key].classList.toggle('active', key === (tabName === 'strategy' ? 'interviews' : tabName));
         }
     });
 
-    if (tabName === 'jobs') {
+    if (tabName === 'practice') {
+        document.getElementById('view-practice').style.display = 'block';
+        document.getElementById('tab-btn-practice').classList.add('active');
+        document.getElementById('practice-hub').hidden = false;
+        document.getElementById('practice-session').hidden = true;
+        if (updateHash) history.replaceState(null, '', '#practice');
+    } else if (tabName === 'jobs') {
         if (viewJobs) viewJobs.style.display = 'block';
         if (tabBtnJobs) tabBtnJobs.classList.add('active');
         if (updateHash) history.replaceState(null, '', '#jobs');
@@ -690,8 +730,12 @@ function switchTab(tabName, updateHash = true) {
         currentPreparationTab = tabName;
         const isStrategy = tabName === 'strategy';
         if (viewInterviews) viewInterviews.style.display = 'block';
-        const activeButton = isStrategy ? tabBtnStrategy : tabBtnInterviews;
+        const activeButton = tabBtnInterviews;
         if (activeButton) activeButton.classList.add('active');
+        document.querySelectorAll('[data-preparation]').forEach(button => {
+            button.classList.toggle('active', button.dataset.preparation === tabName);
+            button.setAttribute('aria-pressed', String(button.dataset.preparation === tabName));
+        });
         document.getElementById('strategy-categories-section').hidden = !isStrategy;
         document.getElementById('interview-categories-section').hidden = isStrategy;
         const badge = viewInterviews.querySelector('.interview-badge');
@@ -722,7 +766,7 @@ function switchTab(tabName, updateHash = true) {
         if (viewLectures) viewLectures.style.display = 'block';
         if (tabBtnLectures) tabBtnLectures.classList.add('active');
         if (updateHash) history.replaceState(null, '', '#lectures');
-        renderLectureView();
+        renderLearningSection(learningSection);
 
         if (typeof gtag === 'function') {
             gtag('event', 'click_tab_lectures', {
@@ -783,7 +827,6 @@ let currentInterviewCategory = interviewCategoryOrder[0];
 let currentStrategyCategory = "취업전략 팁";
 let currentPreparationTab = 'interviews';
 const strategyCategories = [
-    { name: "전공강의 수강 가이드", isGuide: true },
     { name: "취업전략 팁", key: "취업전략" },
     { name: "서류 & 포트폴리오 팁", key: "서류/포트폴리오" },
     { name: "실무면접 팁", key: "실무면접" },
@@ -854,10 +897,12 @@ function initInterviewView() {
 }
 
 function renderInterviewItem(catName, updateHash = true) {
+    if (catName === '전공강의 수강 가이드') { showLearning('guide'); return; }
     personalityPractice.reset();
     const isStrategy = strategyCategories.some(tip => tip.name === catName);
     document.getElementById('view-interviews').classList.toggle('is-strategy', isStrategy);
-    mockInterview.reset(catName, !isStrategy);
+    document.getElementById('interview-practice-shortcut').hidden = isStrategy;
+    document.getElementById('interview-practice-start').disabled = true;
     const tab = isStrategy ? 'strategy' : 'interviews';
     if (isStrategy) currentStrategyCategory = catName;
     else currentInterviewCategory = catName;
@@ -926,7 +971,7 @@ function renderInterviewItem(catName, updateHash = true) {
             renderMarkdownDocument(interviewMarkdown, INTERVIEW_DATA[catName], markdown => {
                 interviewMarkdown.innerHTML = marked.parse(markdown);
                 enhanceInterviewDOM(interviewMarkdown);
-                mockInterview.ready(interviewMarkdown);
+                document.getElementById('interview-practice-start').disabled = !interviewMarkdown.querySelector('.interview-qna-card');
             });
         }
     }
@@ -962,7 +1007,68 @@ function renderStrategyMarkdown(container, markdown, showPersonality = false) {
     const title = container.querySelector('h1');
     if (title) title.after(toc);
     else container.prepend(toc);
-    if (showPersonality) personalityPractice.mount(container);
+    if (showPersonality) {
+        const shortcut = document.createElement('button');
+        shortcut.type = 'button';
+        shortcut.className = 'practice-primary';
+        shortcut.textContent = '모의인성검사 하기';
+        shortcut.addEventListener('click', () => showPractice('personality'));
+        if (title) title.after(shortcut);
+        else container.prepend(shortcut);
+    }
+}
+
+function showPractice(mode, category = currentInterviewCategory, updateHash = true) {
+    switchTab('practice', false);
+    document.getElementById('practice-hub').hidden = true;
+    document.getElementById('practice-session').hidden = false;
+    const isInterview = mode === 'interview';
+    document.getElementById('practice-interview').hidden = !isInterview;
+    const personality = document.getElementById('practice-personality');
+    personality.hidden = isInterview;
+    if (!isInterview) {
+        if (updateHash) history.replaceState(null, '', '#practice/personality');
+        personalityPractice.mount(personality);
+        return;
+    }
+    category = Object.hasOwn(INTERVIEW_DATA, category) ? category : '공통';
+    if (updateHash) history.replaceState(null, '', `#practice/interview/${encodeURIComponent(category)}`);
+    const select = document.getElementById('practice-category');
+    select.replaceChildren();
+    const categories = [...new Set([...interviewCategoryOrder, ...Object.keys(INTERVIEW_DATA)])];
+    categories.filter(name => Object.hasOwn(INTERVIEW_DATA, name)).forEach(name => {
+        select.add(new Option(name, name, false, name === category));
+    });
+    mockInterview.reset(category, true);
+    const source = document.getElementById('practice-question-source');
+    source.hidden = false;
+    renderMarkdownDocument(source, INTERVIEW_DATA[category], markdown => {
+        source.innerHTML = marked.parse(markdown);
+        enhanceInterviewDOM(source);
+        mockInterview.ready(source);
+        source.hidden = true;
+    });
+}
+
+function showLearning(section, updateHash = true) {
+    switchTab('lectures', false, section);
+    if (updateHash) history.replaceState(null, '', `#lectures/${section}`);
+}
+
+function renderLearningSection(section) {
+    const isGuide = section === 'guide';
+    document.getElementById('learning-guide-card').hidden = !isGuide;
+    document.getElementById('learning-courses').hidden = isGuide;
+    document.querySelectorAll('[data-learning]').forEach(button => {
+        button.classList.toggle('active', button.dataset.learning === section);
+        button.setAttribute('aria-pressed', String(button.dataset.learning === section));
+    });
+    if (isGuide) {
+        const container = document.getElementById('learning-guide-markdown');
+        const guide = JOBS_DATA.find(job => job.is_guide);
+        if (guide) renderMarkdownDocument(container, guide, markdown => renderStrategyMarkdown(container, markdown));
+        else container.textContent = '전공 수강 가이드를 찾을 수 없습니다.';
+    } else renderLectureView();
 }
 
 // Enhance Interview Q&A with Accordion/Toggle features
