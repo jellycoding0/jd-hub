@@ -27,7 +27,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=10.97.0">
+    <link rel="stylesheet" href="style.css?v=10.99.0">
 </head>
 <!-- Set data-qna-enabled to "true" to restore the Q&A menu and board. -->
 <body data-qna-enabled="false">
@@ -182,9 +182,10 @@
 
             <!-- Interviews DB View -->
             <div id="view-interviews" class="tab-view" style="display: none;">
-                <nav class="section-nav" aria-label="취업준비 메뉴">
+                <nav class="section-nav" id="question-bank-navigation" aria-label="실전연습 메뉴">
                     <button type="button" data-preparation="interviews">면접기출</button>
-                    <button type="button" data-preparation="strategy">취업전략</button>
+                    <button type="button" id="question-bank-mock">모의면접</button>
+                    <button type="button" id="question-bank-personality">모의인성검사</button>
                 </nav>
                 <div class="view-layout interview-layout">
                     <!-- Interview Category Sidebar -->
@@ -294,6 +295,11 @@
             <div id="view-practice" class="tab-view" style="display: none;">
                 <div class="content-header"><h2>실전연습</h2></div>
                 <div id="practice-hub" class="practice-grid">
+                    <section class="interview-card practice-choice">
+                        <h3>면접기출</h3>
+                        <p>직무별 기출·빈출 및 채용공고 기반 질문을 살펴보고 답안을 확인함.</p>
+                        <button type="button" class="practice-primary" id="practice-questions-open">면접기출 보기</button>
+                    </section>
                     <section class="interview-card practice-choice">
                         <h3>직무별 모의면접</h3>
                         <p>선택한 직무의 무작위 5문항을 말로 연습함. 이전 질문과 모범 답안 확인 가능.</p>
@@ -423,6 +429,6 @@
     <script src="content-loader.js?v=10.81.0"></script>
     <script src="mock-interview.js?v=4"></script>
     <script src="personality.js?v=2"></script>
-    <script src="app.js?v=10.97.0"></script>
+    <script src="app.js?v=10.99.0"></script>
 </body>
 </html>

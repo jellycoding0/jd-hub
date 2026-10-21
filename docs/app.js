@@ -581,6 +581,9 @@ function initTabNavigation() {
         button.addEventListener('click', () => showLearning(button.dataset.learning));
     });
     document.getElementById('practice-back').addEventListener('click', () => switchTab('practice'));
+    document.getElementById('practice-questions-open').addEventListener('click', () => switchTab('interviews'));
+    document.getElementById('question-bank-mock').addEventListener('click', () => showPractice('interview', currentInterviewCategory));
+    document.getElementById('question-bank-personality').addEventListener('click', () => showPractice('personality'));
     document.getElementById('practice-interview-open').addEventListener('click', () => showPractice('interview', currentInterviewCategory));
     document.getElementById('practice-personality-open').addEventListener('click', () => showPractice('personality'));
     document.getElementById('interview-practice-start').addEventListener('click', () => showPractice('interview', currentInterviewCategory));
@@ -598,13 +601,13 @@ function initTabNavigation() {
     const mobileNavQna = document.getElementById('mobile-nav-qna');
     
     if (tabBtnJobs) tabBtnJobs.addEventListener('click', () => switchTab('jobs'));
-    if (tabBtnInterviews) tabBtnInterviews.addEventListener('click', () => switchTab('interviews'));
+    if (tabBtnInterviews) tabBtnInterviews.addEventListener('click', () => switchTab('strategy'));
     if (tabBtnNews) tabBtnNews.addEventListener('click', () => switchTab('news'));
     if (tabBtnLectures) tabBtnLectures.addEventListener('click', () => switchTab('lectures'));
     if (tabBtnQna) tabBtnQna.addEventListener('click', () => switchTab('qna'));
 
     if (mobileNavJobs) mobileNavJobs.addEventListener('click', () => switchTab('jobs'));
-    if (mobileNavInterview) mobileNavInterview.addEventListener('click', () => switchTab('interviews'));
+    if (mobileNavInterview) mobileNavInterview.addEventListener('click', () => switchTab('strategy'));
     if (mobileNavNews) mobileNavNews.addEventListener('click', () => switchTab('news'));
     if (mobileNavLectures) mobileNavLectures.addEventListener('click', () => switchTab('lectures'));
     if (mobileNavQna) mobileNavQna.addEventListener('click', () => switchTab('qna'));
@@ -712,7 +715,8 @@ function switchTab(tabName, updateHash = true, learningSection = 'courses') {
 
     Object.keys(mobileNavItems).forEach(key => {
         if (mobileNavItems[key]) {
-            mobileNavItems[key].classList.toggle('active', key === (tabName === 'strategy' ? 'interviews' : tabName));
+            const navigationTab = tabName === 'strategy' ? 'interviews' : tabName === 'interviews' ? 'practice' : tabName;
+            mobileNavItems[key].classList.toggle('active', key === navigationTab);
         }
     });
 
@@ -730,8 +734,9 @@ function switchTab(tabName, updateHash = true, learningSection = 'courses') {
         currentPreparationTab = tabName;
         const isStrategy = tabName === 'strategy';
         if (viewInterviews) viewInterviews.style.display = 'block';
-        const activeButton = tabBtnInterviews;
+        const activeButton = isStrategy ? tabBtnInterviews : document.getElementById('tab-btn-practice');
         if (activeButton) activeButton.classList.add('active');
+        document.getElementById('question-bank-navigation').hidden = isStrategy;
         document.querySelectorAll('[data-preparation]').forEach(button => {
             button.classList.toggle('active', button.dataset.preparation === tabName);
             button.setAttribute('aria-pressed', String(button.dataset.preparation === tabName));
