@@ -1,0 +1,17 @@
+# [현장 도입] AGCO·Agility, 농기계 공장 휴머노이드 파일럿 계약
+
+> **[산업 동향 | 발행일자: 2026년 10월 20일 | 출처: [Agility Robotics](https://www.agilityrobotics.com/content/agco-and-agility-robotics-advance-smart-manufacturing-with-humanoid-robot-pilot-in-hesston-kansas-facility)]**
+
+## 주요 소식
+
+- AGCO와 Agility가 미국 캔자스주 헤스턴 생산시설의 휴머노이드 도입 파일럿을 위한 상업적 계약을 체결함.
+- 파일럿은 2027년 시작 예정임. Digit의 초기 작업으로 부품 분류·적재와 보관용 토트 배치 등을 제시했으며, 반복적이고 신체 부담이 큰 작업을 대상으로 함.
+
+## 취업 준비 관점
+
+- **관련 직무:** 생산기술·제어·시스템 통합
+- **학습 포인트(편집자 해석):** 도입 과제를 볼 때 로봇 동작뿐 아니라 공정 투입 위치, 작업 완료 판정, 기존 설비와의 인터페이스를 정리해볼 것. 계약 체결과 파일럿 완료는 서로 다른 단계임.
+
+---
+
+- **원문:** [Agility Robotics 발표·기사 보기](https://www.agilityrobotics.com/content/agco-and-agility-robotics-advance-smart-manufacturing-with-humanoid-robot-pilot-in-hesston-kansas-facility)

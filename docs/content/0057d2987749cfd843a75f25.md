@@ -1,0 +1,17 @@
+# [사업 확장] Agility, 피츠버그 SW·AI 및 현장 서비스 거점 확장
+
+> **[산업 동향 | 발행일자: 2026년 10월 21일 | 출처: [Agility Robotics](https://www.agilityrobotics.com/content/agility-robotics-expands-pittsburgh-presence-to-support-growing-customer-deployments)]**
+
+## 주요 소식
+
+- Agility가 Digit의 고객 배치와 유지보수를 지원할 피츠버그 신규 시설 계획을 발표함. 약 5만 제곱피트 규모이며 SW·AI 개발, 현장 배치, 서비스 조직을 함께 배치할 예정임.
+- 회사는 SW 엔지니어, AI 엔지니어, 서비스 기술자, 배치 전문가 등의 채용 계획도 밝힘. 신규 시설의 직원 이용은 연말까지 시작할 것으로 예상함.
+
+## 취업 준비 관점
+
+- **관련 직무:** SW·AI·필드서비스
+- **학습 포인트(편집자 해석):** 로봇 개발뿐 아니라 배치 후 로그 분석, 장애 재현, 현장 복구 경험도 포트폴리오에 연결할 수 있음. 발표된 채용 계획과 실제 모집 공고는 구분해 확인할 것.
+
+---
+
+- **원문:** [Agility Robotics 발표·기사 보기](https://www.agilityrobotics.com/content/agility-robotics-expands-pittsburgh-presence-to-support-growing-customer-deployments)
