@@ -5602,7 +5602,7 @@ const JOBS_DATA = [
     "news_date": "",
     "tip_category": "서류/포트폴리오",
     "content_path": "content/885c53468307eba030126c94.md",
-    "content_version": "6045aa1a5898ae6f"
+    "content_version": "9ed74ed752bfc451"
   },
   {
     "id": "학습_가이드_꿀팁_실무면접",
@@ -5619,7 +5619,7 @@ const JOBS_DATA = [
     "news_date": "",
     "tip_category": "실무면접",
     "content_path": "content/5c6c300859720d1f53d52362.md",
-    "content_version": "59086244c8d7bd97"
+    "content_version": "92cc1857a29ebdf3"
   },
   {
     "id": "학습_가이드_꿀팁_인성검사",
@@ -5636,7 +5636,7 @@ const JOBS_DATA = [
     "news_date": "",
     "tip_category": "인성검사",
     "content_path": "content/ab664add5e16878720479163.md",
-    "content_version": "793698bc5fda8632"
+    "content_version": "3d9ddd85799fff3d"
   },
   {
     "id": "학습_가이드_꿀팁_인성면접",
@@ -5653,7 +5653,7 @@ const JOBS_DATA = [
     "news_date": "",
     "tip_category": "인성면접",
     "content_path": "content/9016bc7e363a21d90307698f.md",
-    "content_version": "c37c97b7ab60baee"
+    "content_version": "e09ee59009e43b58"
   },
   {
     "id": "학습_가이드_꿀팁_취업전략",
@@ -5670,15 +5670,15 @@ const JOBS_DATA = [
     "news_date": "",
     "tip_category": "취업전략",
     "content_path": "content/241f7e59c3ef2e78ecaa317c.md",
-    "content_version": "bb531bf234bf1c76"
+    "content_version": "f8390edfbc6b1f00"
   },
   {
     "id": "학습_가이드_꿀팁_코딩테스트",
     "company": "학습 가이드",
     "title": "코딩테스트",
     "tags": [],
-    "year": "26",
-    "date_val": "20260000",
+    "year": "",
+    "date_val": "00000000",
     "is_intro": false,
     "is_guide": false,
     "is_lecture": false,
@@ -5687,7 +5687,7 @@ const JOBS_DATA = [
     "news_date": "",
     "tip_category": "코딩테스트",
     "content_path": "content/e14b70b6bf4885c90f9eaa94.md",
-    "content_version": "6b31c8375fa11a94"
+    "content_version": "c530f49e681cbba5"
   },
   {
     "id": "학습_가이드_직무별_실무_프로젝트_강의",
@@ -6765,17 +6765,17 @@ const JOBS_DATA = [
 const INTERVIEW_DATA = {
   "공통": {
     "content_path": "content/02628761567a4916e8cb02a7.md",
-    "content_version": "8e71625fb69b6853",
+    "content_version": "dc9066c90e26d593",
     "question_count": 16
   },
   "AI학습": {
     "content_path": "content/7364fe8bc5cf11113d154823.md",
-    "content_version": "5d3683bb85b270d5",
+    "content_version": "8a56f441aba4a41a",
     "question_count": 20
   },
   "SW": {
     "content_path": "content/4ba50e719edef212f8e7101b.md",
-    "content_version": "40fe481e17f86f2f",
+    "content_version": "da1fb0d61eea431b",
     "question_count": 20
   },
   "기구설계": {
@@ -6825,12 +6825,12 @@ const INTERVIEW_DATA = {
   },
   "자율주행": {
     "content_path": "content/25137f16fbe57d59c2792648.md",
-    "content_version": "99d4321a35a74e50",
+    "content_version": "faed9a6be75617f7",
     "question_count": 20
   },
   "제어": {
     "content_path": "content/40aadd596c9baa7425731120.md",
-    "content_version": "bd9ad997fbe42d06",
+    "content_version": "90dd1130a4bbb70f",
     "question_count": 20
   },
   "품질": {

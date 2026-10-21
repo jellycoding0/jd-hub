@@ -811,7 +811,7 @@ function initInterviewView() {
         }
 
         btn.innerHTML = `
-            <span>${tip.name}</span>
+            <span>${tip.isGuide ? '전공 수강 가이드' : tip.key}</span>
             ${badgeHtml}
         `;
         btn.addEventListener('click', () => {
@@ -854,6 +854,7 @@ function initInterviewView() {
 
 function renderInterviewItem(catName, updateHash = true) {
     const isStrategy = strategyCategories.some(tip => tip.name === catName);
+    document.getElementById('view-interviews').classList.toggle('is-strategy', isStrategy);
     mockInterview.reset(catName, !isStrategy);
     const tab = isStrategy ? 'strategy' : 'interviews';
     if (isStrategy) currentStrategyCategory = catName;
@@ -893,7 +894,7 @@ function renderInterviewItem(catName, updateHash = true) {
             if (interviewMarkdown && typeof JOBS_DATA !== 'undefined') {
                 const guideJob = JOBS_DATA.find(j => j.is_guide);
                 if (guideJob) {
-                    renderMarkdownDocument(interviewMarkdown, guideJob);
+                    renderMarkdownDocument(interviewMarkdown, guideJob, markdown => renderStrategyMarkdown(interviewMarkdown, markdown));
                 } else {
                     interviewMarkdown.innerHTML = `<h1>전공강의 수강 가이드</h1><p>가이드를 불러오는 중입니다.</p>`;
                 }
@@ -908,7 +909,7 @@ function renderInterviewItem(catName, updateHash = true) {
             if (interviewMarkdown && typeof JOBS_DATA !== 'undefined') {
                 const tipJob = JOBS_DATA.find(j => j.is_tips && (j.tip_category === subcatKey || j.tip_category.includes(subcatKey)));
                 if (tipJob) {
-                    renderMarkdownDocument(interviewMarkdown, tipJob);
+                    renderMarkdownDocument(interviewMarkdown, tipJob, markdown => renderStrategyMarkdown(interviewMarkdown, markdown));
                 } else {
                     interviewMarkdown.innerHTML = `<h1>${catName}</h1><p>가이드를 불러오는 중입니다.</p>`;
                 }
@@ -932,6 +933,33 @@ function renderInterviewItem(catName, updateHash = true) {
     if (interviewContent) {
         interviewContent.scrollTop = 0;
     }
+}
+
+function renderStrategyMarkdown(container, markdown) {
+    container.innerHTML = marked.parse(markdown);
+    const headings = [...container.querySelectorAll('h2')];
+    if (!headings.length) return;
+    const toc = document.createElement('details');
+    toc.className = 'strategy-toc';
+    const summary = document.createElement('summary');
+    summary.textContent = '목차 · 필요한 내용 바로 찾기';
+    const nav = document.createElement('nav');
+    nav.setAttribute('aria-label', '문서 목차');
+    headings.forEach(heading => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = heading.textContent;
+        button.addEventListener('click', () => {
+            heading.tabIndex = -1;
+            heading.focus({ preventScroll: true });
+            heading.scrollIntoView({ block: 'start' });
+        });
+        nav.append(button);
+    });
+    toc.append(summary, nav);
+    const title = container.querySelector('h1');
+    if (title) title.after(toc);
+    else container.prepend(toc);
 }
 
 // Enhance Interview Q&A with Accordion/Toggle features
