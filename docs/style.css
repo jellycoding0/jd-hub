@@ -3204,7 +3204,7 @@ body:not([data-qna-enabled="true"]) #view-qna {
     border-color: #38bdf8;
 }
 .mock-interview-actions .mock-action-secondary { color: #cbd5e1; background: transparent; border-color: #64748b; }
-.mock-interview-actions .mock-action-return { color: #94a3b8; background: transparent; border-color: transparent; font-size: .8rem; }
+.mock-interview-actions .mock-action-return { font-size: .95rem; }
 .mock-interview-actions button:enabled:hover { filter: brightness(1.15); }
 .mock-interview-actions button:focus-visible,
 #mock-interview-start:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
@@ -3242,6 +3242,27 @@ body:not([data-qna-enabled="true"]) #view-qna {
 .practice-primary { cursor: pointer; font-family: inherit; border-radius: 10px; }
 .practice-primary:disabled { opacity: .5; cursor: wait; }
 .practice-back { min-height: 44px; margin-bottom: 20px; }
+.back-navigation,
+.mock-interview-actions .back-navigation {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 48px;
+    padding: 12px 18px;
+    border: 1px solid #64748b;
+    border-radius: 12px;
+    background: #1e293b;
+    color: #f1f5f9;
+    font-size: .95rem;
+    font-weight: 700;
+    line-height: 1.4;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+}
+.back-navigation-arrow { font-size: 1.4rem; line-height: 1; }
+.back-navigation:hover { background: #334155; border-color: #38bdf8; }
+.back-navigation:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
 #practice-interview-setup h3 { margin-bottom: 24px; }
 #practice-category { background: #182235; color: #fff; border: 1px solid #64748b; border-radius: 8px; padding: 12px; margin: 0 0 20px 12px; font: inherit; max-width: 100%; }
 #view-practice [hidden], #view-lectures [hidden], #interview-practice-shortcut[hidden] { display: none !important; }

@@ -96,6 +96,12 @@ const mockInterview = (() => {
         actions.firstElementChild.classList.add('mock-action-primary');
         previous.classList.add('mock-action-secondary');
         actions.lastElementChild.classList.add('mock-action-return');
+        actions.lastElementChild.classList.add('back-navigation');
+        const backArrow = document.createElement('span');
+        backArrow.className = 'back-navigation-arrow';
+        backArrow.setAttribute('aria-hidden', 'true');
+        backArrow.textContent = '←';
+        actions.lastElementChild.prepend(backArrow);
         panel.append(actions);
         heading.focus({ preventScroll: true });
         panel.scrollIntoView({ block: 'start', behavior: 'instant' });
