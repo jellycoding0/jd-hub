@@ -6844,3 +6844,7 @@ const INTERVIEW_DATA = {
     "question_count": 15
   }
 };
+const PERSONALITY_DATA = {
+  "content_path": "content/a2bfd5778765a1a6349a0f69.md",
+  "content_version": "4136e644eb0c0e44"
+};

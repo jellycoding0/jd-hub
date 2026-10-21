@@ -28,6 +28,9 @@ class MarkdownBuildTests(unittest.TestCase):
         script = (ROOT / 'docs/jobs.js').read_text(encoding='utf-8')
         jobs = json.JSONDecoder().raw_decode(script.split('const JOBS_DATA = ', 1)[1])[0]
         interviews = json.JSONDecoder().raw_decode(script.split('const INTERVIEW_DATA = ', 1)[1])[0]
+        personality = json.JSONDecoder().raw_decode(script.split('const PERSONALITY_DATA = ', 1)[1])[0]
+        self.assertEqual(self.check_published_file(personality),
+                         (ROOT / '+03_학습가이드_및_정보/_모의인성검사.md').read_text(encoding='utf-8-sig').strip())
         expected = {}
         for directory, category in [('+01_기업별', None), ('+03_학습가이드_및_정보', '학습_가이드')]:
             for source in (ROOT / directory).rglob('*.md'):

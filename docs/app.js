@@ -636,6 +636,7 @@ function handleHashChange() {
 }
 
 function switchTab(tabName, updateHash = true) {
+    personalityPractice.reset();
     if (tabName === 'qna' && !QNA_ENABLED) {
         tabName = 'jobs';
         updateHash = true;
@@ -853,6 +854,7 @@ function initInterviewView() {
 }
 
 function renderInterviewItem(catName, updateHash = true) {
+    personalityPractice.reset();
     const isStrategy = strategyCategories.some(tip => tip.name === catName);
     document.getElementById('view-interviews').classList.toggle('is-strategy', isStrategy);
     mockInterview.reset(catName, !isStrategy);
@@ -909,7 +911,7 @@ function renderInterviewItem(catName, updateHash = true) {
             if (interviewMarkdown && typeof JOBS_DATA !== 'undefined') {
                 const tipJob = JOBS_DATA.find(j => j.is_tips && (j.tip_category === subcatKey || j.tip_category.includes(subcatKey)));
                 if (tipJob) {
-                    renderMarkdownDocument(interviewMarkdown, tipJob, markdown => renderStrategyMarkdown(interviewMarkdown, markdown));
+                    renderMarkdownDocument(interviewMarkdown, tipJob, markdown => renderStrategyMarkdown(interviewMarkdown, markdown, tipJob.tip_category === '인성검사'));
                 } else {
                     interviewMarkdown.innerHTML = `<h1>${catName}</h1><p>가이드를 불러오는 중입니다.</p>`;
                 }
@@ -935,7 +937,7 @@ function renderInterviewItem(catName, updateHash = true) {
     }
 }
 
-function renderStrategyMarkdown(container, markdown) {
+function renderStrategyMarkdown(container, markdown, showPersonality = false) {
     container.innerHTML = marked.parse(markdown);
     const headings = [...container.querySelectorAll('h2')];
     if (!headings.length) return;
@@ -960,6 +962,7 @@ function renderStrategyMarkdown(container, markdown) {
     const title = container.querySelector('h1');
     if (title) title.after(toc);
     else container.prepend(toc);
+    if (showPersonality) personalityPractice.mount(container);
 }
 
 // Enhance Interview Q&A with Accordion/Toggle features
