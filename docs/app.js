@@ -586,6 +586,7 @@ function initTabNavigation() {
     document.getElementById('question-bank-personality').addEventListener('click', () => showPractice('personality'));
     document.getElementById('practice-interview-open').addEventListener('click', () => showPractice('interview', currentInterviewCategory));
     document.getElementById('practice-personality-open').addEventListener('click', () => showPractice('personality'));
+    document.getElementById('practice-coding-open').addEventListener('click', () => showPractice('coding'));
     document.getElementById('interview-practice-start').addEventListener('click', () => showPractice('interview', currentInterviewCategory));
     document.getElementById('practice-category').addEventListener('change', event => showPractice('interview', event.target.value));
     const tabBtnJobs = document.getElementById('tab-btn-jobs');
@@ -628,7 +629,7 @@ function handleHashChange() {
         return;
     }
     if (route[0] === 'practice') {
-        if (route[1] === 'interview' || route[1] === 'personality') showPractice(route[1], route[2], false);
+        if (['interview', 'personality', 'coding'].includes(route[1])) showPractice(route[1], route[2], false);
         else switchTab('practice', false);
         return;
     }
@@ -669,6 +670,7 @@ function handleHashChange() {
 
 function switchTab(tabName, updateHash = true, learningSection = 'courses') {
     personalityPractice.reset();
+    codingPractice.reset();
     // Invalidate pending document callbacks before leaving their view.
     for (const id of ['practice-question-source', 'interview-markdown']) {
         markdownRenderRequests.delete(document.getElementById(id));
@@ -904,6 +906,7 @@ function initInterviewView() {
 function renderInterviewItem(catName, updateHash = true) {
     if (catName === '전공강의 수강 가이드') { showLearning('guide'); return; }
     personalityPractice.reset();
+    codingPractice.reset();
     const isStrategy = strategyCategories.some(tip => tip.name === catName);
     document.getElementById('view-interviews').classList.toggle('is-strategy', isStrategy);
     document.getElementById('interview-practice-shortcut').hidden = isStrategy;
@@ -961,7 +964,7 @@ function renderInterviewItem(catName, updateHash = true) {
             if (interviewMarkdown && typeof JOBS_DATA !== 'undefined') {
                 const tipJob = JOBS_DATA.find(j => j.is_tips && (j.tip_category === subcatKey || j.tip_category.includes(subcatKey)));
                 if (tipJob) {
-                    renderMarkdownDocument(interviewMarkdown, tipJob, markdown => renderStrategyMarkdown(interviewMarkdown, markdown, tipJob.tip_category === '인성검사'));
+                    renderMarkdownDocument(interviewMarkdown, tipJob, markdown => renderStrategyMarkdown(interviewMarkdown, markdown, tipJob.tip_category === '인성검사', tipJob.tip_category === '코딩테스트'));
                 } else {
                     interviewMarkdown.innerHTML = `<h1>${catName}</h1><p>가이드를 불러오는 중입니다.</p>`;
                 }
@@ -987,7 +990,7 @@ function renderInterviewItem(catName, updateHash = true) {
     }
 }
 
-function renderStrategyMarkdown(container, markdown, showPersonality = false) {
+function renderStrategyMarkdown(container, markdown, showPersonality = false, showCoding = false) {
     container.innerHTML = marked.parse(markdown);
     const headings = [...container.querySelectorAll('h2')];
     if (!headings.length) return;
@@ -1012,12 +1015,12 @@ function renderStrategyMarkdown(container, markdown, showPersonality = false) {
     const title = container.querySelector('h1');
     if (title) title.after(toc);
     else container.prepend(toc);
-    if (showPersonality) {
+    if (showPersonality || showCoding) {
         const shortcut = document.createElement('button');
         shortcut.type = 'button';
         shortcut.className = 'practice-primary';
-        shortcut.textContent = '모의인성검사 하기';
-        shortcut.addEventListener('click', () => showPractice('personality'));
+        shortcut.textContent = showCoding ? '모의 코딩테스트 시작하기' : '모의인성검사 하기';
+        shortcut.addEventListener('click', () => showPractice(showCoding ? 'coding' : 'personality'));
         if (title) title.after(shortcut);
         else container.prepend(shortcut);
     }
@@ -1030,8 +1033,15 @@ function showPractice(mode, category = currentInterviewCategory, updateHash = tr
     const isInterview = mode === 'interview';
     document.getElementById('practice-interview').hidden = !isInterview;
     const personality = document.getElementById('practice-personality');
-    personality.hidden = isInterview;
-    if (!isInterview) {
+    personality.hidden = mode !== 'personality';
+    const coding = document.getElementById('practice-coding');
+    coding.hidden = mode !== 'coding';
+    if (mode === 'coding') {
+        if (updateHash) history.replaceState(null, '', '#practice/coding');
+        codingPractice.mount(coding);
+        return;
+    }
+    if (mode === 'personality') {
         if (updateHash) history.replaceState(null, '', '#practice/personality');
         personalityPractice.mount(personality);
         return;

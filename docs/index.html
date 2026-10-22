@@ -27,7 +27,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
     
     <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css?v=10.100.0">
+    <link rel="stylesheet" href="style.css?v=10.102.0">
 </head>
 <!-- Set data-qna-enabled to "true" to restore the Q&A menu and board. -->
 <body data-qna-enabled="false">
@@ -310,6 +310,11 @@
                         <p>60문항으로 업무 성향을 돌아보는 연습임. 응답 후 6개 영역의 결과 확인 가능.</p>
                         <button type="button" class="practice-primary" id="practice-personality-open">모의인성검사 시작하기</button>
                     </section>
+                    <section class="interview-card practice-choice">
+                        <h3>모의 코딩테스트</h3>
+                        <p>자체 제작 10문제로 알고리즘을 연습함. 시간 측정·풀이 작성·Python/C++ 해설 제공. 자동 실행·채점은 제공하지 않음.</p>
+                        <button type="button" class="practice-primary" id="practice-coding-open">모의 코딩테스트 시작하기</button>
+                    </section>
                 </div>
                 <div id="practice-session" hidden>
                     <button type="button" class="btn-shortcut-interview practice-back back-navigation" id="practice-back"><span class="back-navigation-arrow" aria-hidden="true">←</span> 실전연습 목록으로</button>
@@ -327,6 +332,7 @@
                         <section id="mock-interview-panel" class="interview-card" aria-label="직무별 모의면접" hidden></section>
                     </section>
                     <div id="practice-personality" class="interview-card markdown-body" hidden></div>
+                    <div id="practice-coding" class="interview-card" hidden></div>
                 </div>
             </div>
 
@@ -425,10 +431,11 @@
     </nav>
 
     <!-- Load Data -->
-    <script src="jobs.js?v=10.98.0"></script>
+    <script src="jobs.js?v=10.102.0"></script>
     <script src="content-loader.js?v=10.81.0"></script>
     <script src="mock-interview.js?v=5"></script>
     <script src="personality.js?v=2"></script>
-    <script src="app.js?v=10.99.0"></script>
+    <script src="coding-test.js?v=1"></script>
+    <script src="app.js?v=10.102.0"></script>
 </body>
 </html>

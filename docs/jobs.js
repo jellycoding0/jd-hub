@@ -418,6 +418,27 @@ const JOBS_DATA = [
     "content_version": "cd6df4af6540adbf"
   },
   {
+    "id": "fieldai_FieldAI_확인20261022_Forward_Deployed_Engineer",
+    "company": "FieldAI",
+    "title": "확인20261022 Forward Deployed Engineer",
+    "tags": [
+      "경력",
+      "필드서비스",
+      "자율주행"
+    ],
+    "year": "26",
+    "date_val": "20260000",
+    "is_intro": false,
+    "is_guide": false,
+    "is_lecture": false,
+    "is_tips": false,
+    "is_news": false,
+    "news_date": "",
+    "tip_category": "",
+    "content_path": "content/0f05816b4e27b4cf1d611daa.md",
+    "content_version": "9e2c114d4dd97bac"
+  },
+  {
     "id": "figure_ai_FigureAI_2600_Helix_AI_Engineer__Perception",
     "company": "Figure AI",
     "title": "2600 Helix AI Engineer, Perception",
@@ -3688,6 +3709,45 @@ const JOBS_DATA = [
     "tip_category": "",
     "content_path": "content/b9a2c3338465c36aa37e43c5.md",
     "content_version": "6f7f4cf350cc92b7"
+  },
+  {
+    "id": "베어로보틱스_베어로보틱스_확인20261022_Robotics_Software_Engineer_Intern",
+    "company": "베어로보틱스",
+    "title": "확인20261022 Robotics Software Engineer Intern",
+    "tags": [
+      "어플리케이션SW",
+      "자율주행"
+    ],
+    "year": "26",
+    "date_val": "20260000",
+    "is_intro": false,
+    "is_guide": false,
+    "is_lecture": false,
+    "is_tips": false,
+    "is_news": false,
+    "news_date": "",
+    "tip_category": "",
+    "content_path": "content/8b615393a8d9273d3ae20d37.md",
+    "content_version": "66d4cf8b1ae26174"
+  },
+  {
+    "id": "베어로보틱스_베어로보틱스_확인20261022_Robotics_Software_Engineer_SLAM",
+    "company": "베어로보틱스",
+    "title": "확인20261022 Robotics Software Engineer SLAM",
+    "tags": [
+      "자율주행"
+    ],
+    "year": "26",
+    "date_val": "20260000",
+    "is_intro": false,
+    "is_guide": false,
+    "is_lecture": false,
+    "is_tips": false,
+    "is_news": false,
+    "news_date": "",
+    "tip_category": "",
+    "content_path": "content/cfd9ea88532f1fe645c393a0.md",
+    "content_version": "bea6a20bf476ec3c"
   },
   {
     "id": "삼성전자_미로추__삼성전자_미로추_소개",
@@ -7017,4 +7077,8 @@ const INTERVIEW_DATA = {
 const PERSONALITY_DATA = {
   "content_path": "content/a2bfd5778765a1a6349a0f69.md",
   "content_version": "5b9377ef95b2071f"
+};
+const CODING_TEST_DATA = {
+  "content_path": "content/62b2ccf59355166d0f9070bb.md",
+  "content_version": "ed013b1641c10d28"
 };

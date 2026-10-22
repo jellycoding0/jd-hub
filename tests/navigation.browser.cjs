@@ -8,7 +8,7 @@ const page=await browser.newPage({viewport:{width:1440,height:1000}});const erro
 const base=`http://127.0.0.1:${server.address().port}/`;
 await page.goto(base+'#practice');
 assert.deepEqual(await page.locator('.header-nav-tabs button:visible').allTextContents().then(a=>a.map(s=>s.trim())),['채용정보','취업준비','실전연습','산업소식','학습·강의']);
-assert.equal(await page.locator('.practice-choice:visible').count(),3);
+assert.equal(await page.locator('.practice-choice:visible').count(),4);
 await page.waitForTimeout(350);
 const header=await page.locator('.app-header').boundingBox(),hub=await page.locator('#practice-hub').boundingBox();
 assert(hub.y-header.y-header.height<150);
